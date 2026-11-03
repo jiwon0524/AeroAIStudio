@@ -1,0 +1,16 @@
+{
+  "source": "Ubuntu 24.04 Gazebo Harmonic 8.15.0 run_b37e9a0f4f43 episode 1 fallback odometry",
+  "epoch_type": "fresh_process_initialization",
+  "baseline_receive_sequence": 0,
+  "selected": {
+    "timestamp": 0.18000000000000002,
+    "receive_sequence": 18,
+    "linear_x": 9.680475063363708e-20,
+    "angular_z": 1.220698175434962e-18
+  },
+  "settle_start_sim_time": 0.1,
+  "settle_end_sim_time": 0.2,
+  "timestamp_fresh": true,
+  "sequence_new": true,
+  "stopped": true
+}

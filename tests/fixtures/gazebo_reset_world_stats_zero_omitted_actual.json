@@ -1,0 +1,17 @@
+{
+  "source": "Ubuntu 24.04 Gazebo Harmonic 8.15.0 run_b37e9a0f4f43 episode 2 reset.all stats evidence",
+  "stats_sequence_before": 162,
+  "service_response": {"data": true},
+  "stats_sequence_after": 164,
+  "before_sim_time": 2.2,
+  "before_iterations": "2200",
+  "after_world_statistics_raw": {
+    "sim_time": {},
+    "paused": true
+  },
+  "after_sim_time": 0.0,
+  "after_iterations_raw_present": false,
+  "after_iterations_protobuf_default": 0,
+  "after_paused": true,
+  "original_validator_result": "FAIL: after_iterations was null"
+}

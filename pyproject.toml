@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aero-ai-studio"
+version = "0.7.0"
+description = "Local simulation, Q-learning and evidence-based replay studio"
+requires-python = ">=3.11"
+dependencies = ["PySide6>=6.7,<7"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+dqn = ["torch>=2.6,<3", "numpy>=2,<3"]
+
+[project.scripts]
+aero-ai-studio = "aero_ai_studio.app.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+markers = ["gazebo: actual Ubuntu/Gazebo runtime integration (requires opt-in and installed runtime)"]

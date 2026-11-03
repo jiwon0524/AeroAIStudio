@@ -1,0 +1,17 @@
+{
+  "source": "Ubuntu 24.04 Gazebo Harmonic 8.15.0 DQN smoke reset diagnostic",
+  "failures": [
+    {"x": 1.4799275689720324, "y": 1.4823603913382326},
+    {"x": 1.4498168250625723, "y": 1.50000016269567},
+    {"x": 1.4498166206046823, "y": 1.499999852748207},
+    {"x": 1.4498144245577596, "y": 1.5000030070890262}
+  ],
+  "requested_pose": {"x": 1.5, "y": 1.5, "z": 0.16, "yaw": 0.0},
+  "simulation_delta": 0.1,
+  "physics_iterations": 100,
+  "set_pose_response": {"data": true},
+  "wheel_odometry": {"linear_x": -4e-11, "angular_z": 0.0},
+  "sensor_fresh": true,
+  "contact": null,
+  "failure_reason": "Gazebo reset pose was not applied"
+}

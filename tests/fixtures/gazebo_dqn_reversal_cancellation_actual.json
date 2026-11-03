@@ -1,0 +1,467 @@
+{
+  "provenance": "Actual Ubuntu 24.04 / Gazebo Harmonic smoke failure; copied as measured regression evidence.",
+  "source_report": "validation/v071-host/gazebo-dqn-smoke-reversal-cancellation/training_summary.json",
+  "simulation_start_time": 0.4,
+  "simulation_end_time": 0.5,
+  "duration": 0.1,
+  "previous_action": "down",
+  "requested_action": "up",
+  "previous_command_twist": {
+    "linear": {
+      "x": -0.5
+    },
+    "angular": {
+      "z": 0.0
+    }
+  },
+  "requested_command_twist": {
+    "linear": {
+      "x": 0.5
+    },
+    "angular": {
+      "z": 0.0
+    }
+  },
+  "before_pose": {
+    "x": 1.546822384606645,
+    "y": 1.5,
+    "yaw": 6.183657475344351e-18
+  },
+  "after_pose": {
+    "x": 1.548545435613386,
+    "y": 1.5,
+    "yaw": -2.631008416734702e-16
+  },
+  "collision": false,
+  "odometry_before": {
+    "timestamp": 0.4,
+    "linear_x": -0.49999999987428645,
+    "angular_z": -1.0325734976052422e-16
+  },
+  "odometry_after": {
+    "timestamp": 0.5,
+    "linear_x": 0.4999999999266736,
+    "angular_z": 0.0
+  },
+  "odometry_history": [
+    {
+      "timestamp": 0.41000000000000003,
+      "linear_x": 0.39999999988181434,
+      "angular_z": 1.0325734976052422e-16
+    },
+    {
+      "timestamp": 0.42000000000000004,
+      "linear_x": 0.4999999999275707,
+      "angular_z": -4.130293990420969e-16
+    },
+    {
+      "timestamp": 0.43000000000000005,
+      "linear_x": 0.49999999992736754,
+      "angular_z": 0.0
+    },
+    {
+      "timestamp": 0.44,
+      "linear_x": 0.4999999999272015,
+      "angular_z": 8.260587980841938e-16
+    },
+    {
+      "timestamp": 0.45,
+      "linear_x": 0.49999999992706484,
+      "angular_z": -8.260587980841938e-16
+    },
+    {
+      "timestamp": 0.46,
+      "linear_x": 0.49999999992695343,
+      "angular_z": -8.260587980841938e-16
+    },
+    {
+      "timestamp": 0.47000000000000003,
+      "linear_x": 0.49999999992686084,
+      "angular_z": -8.260587980841938e-16
+    },
+    {
+      "timestamp": 0.48000000000000004,
+      "linear_x": 0.4999999999267861,
+      "angular_z": 0.0
+    },
+    {
+      "timestamp": 0.49000000000000005,
+      "linear_x": 0.4999999999267229,
+      "angular_z": 0.0
+    }
+  ],
+  "expected_measured_world_forward": 0.0017230510067411942,
+  "expected_measured_wheel_integral": 0.04399999999324534,
+  "world_pose_history_summary": {
+    "world_pose_sample_count": 23,
+    "world_pose_sample_timestamps": [
+      0.4,
+      0.405,
+      0.40900000000000003,
+      0.41200000000000003,
+      0.41600000000000004,
+      0.42100000000000004,
+      0.42600000000000005,
+      0.43000000000000005,
+      0.43600000000000005,
+      0.446,
+      0.45,
+      0.454,
+      0.458,
+      0.462,
+      0.465,
+      0.468,
+      0.47200000000000003,
+      0.47600000000000003,
+      0.48100000000000004,
+      0.48500000000000004,
+      0.49000000000000005,
+      0.49400000000000005,
+      0.5
+    ],
+    "world_pose_x": [
+      1.546822384606645,
+      1.5456396352627693,
+      1.5447299281081164,
+      1.5441064209600701,
+      1.5433540620269712,
+      1.5425407095981922,
+      1.541868762510255,
+      1.5414331399205863,
+      1.5409497965191843,
+      1.5405984261357892,
+      1.5406170429552364,
+      1.5407267001060991,
+      1.5409274504341328,
+      1.5412193429727155,
+      1.5414981018038056,
+      1.5418281718610019,
+      1.5423481113742337,
+      1.542959336567053,
+      1.54385179057818,
+      1.544668530085395,
+      1.545817971564891,
+      1.5468403708292155,
+      1.548545435613386
+    ],
+    "world_pose_y": [
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5
+    ],
+    "world_pose_yaw": [
+      6.183657475344351e-18,
+      1.474885330523726e-19,
+      -8.83417516056842e-18,
+      -1.6727529582127474e-17,
+      -2.730172105278363e-17,
+      -4.053260189006994e-17,
+      -5.3813447941329954e-17,
+      -6.61259701825556e-17,
+      -8.232722094253788e-17,
+      -1.086345103690809e-16,
+      -1.179906891151282e-16,
+      -1.3033181824954835e-16,
+      -1.3776308661195732e-16,
+      -1.4865189803527914e-16,
+      -1.5704867373616375e-16,
+      -1.6715156636118275e-16,
+      -1.7746332120770697e-16,
+      -1.8824725829525832e-16,
+      -2.0075888724268798e-16,
+      -2.1440334578472642e-16,
+      -2.3103025739884e-16,
+      -2.4550484825852315e-16,
+      -2.631008416734702e-16
+    ],
+    "world_pose_receive_sequences": [
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      194
+    ],
+    "world_forward_displacement_samples": [
+      {
+        "start_timestamp": 0.4,
+        "end_timestamp": 0.405,
+        "forward_displacement": -0.0011827493438756331
+      },
+      {
+        "start_timestamp": 0.405,
+        "end_timestamp": 0.40900000000000003,
+        "forward_displacement": -0.0009097071546528834
+      },
+      {
+        "start_timestamp": 0.40900000000000003,
+        "end_timestamp": 0.41200000000000003,
+        "forward_displacement": -0.0006235071480462651
+      },
+      {
+        "start_timestamp": 0.41200000000000003,
+        "end_timestamp": 0.41600000000000004,
+        "forward_displacement": -0.0007523589330988845
+      },
+      {
+        "start_timestamp": 0.41600000000000004,
+        "end_timestamp": 0.42100000000000004,
+        "forward_displacement": -0.0008133524287790017
+      },
+      {
+        "start_timestamp": 0.42100000000000004,
+        "end_timestamp": 0.42600000000000005,
+        "forward_displacement": -0.0006719470879372746
+      },
+      {
+        "start_timestamp": 0.42600000000000005,
+        "end_timestamp": 0.43000000000000005,
+        "forward_displacement": -0.0004356225896686716
+      },
+      {
+        "start_timestamp": 0.43000000000000005,
+        "end_timestamp": 0.43600000000000005,
+        "forward_displacement": -0.00048334340140199217
+      },
+      {
+        "start_timestamp": 0.43600000000000005,
+        "end_timestamp": 0.446,
+        "forward_displacement": -0.00035137038339505544
+      },
+      {
+        "start_timestamp": 0.446,
+        "end_timestamp": 0.45,
+        "forward_displacement": 1.8616819447148103e-05
+      },
+      {
+        "start_timestamp": 0.45,
+        "end_timestamp": 0.454,
+        "forward_displacement": 0.00010965715086275196
+      },
+      {
+        "start_timestamp": 0.454,
+        "end_timestamp": 0.458,
+        "forward_displacement": 0.0002007503280336831
+      },
+      {
+        "start_timestamp": 0.458,
+        "end_timestamp": 0.462,
+        "forward_displacement": 0.00029189253858263875
+      },
+      {
+        "start_timestamp": 0.462,
+        "end_timestamp": 0.465,
+        "forward_displacement": 0.00027875883109018673
+      },
+      {
+        "start_timestamp": 0.465,
+        "end_timestamp": 0.468,
+        "forward_displacement": 0.00033007005719620786
+      },
+      {
+        "start_timestamp": 0.468,
+        "end_timestamp": 0.47200000000000003,
+        "forward_displacement": 0.0005199395132318152
+      },
+      {
+        "start_timestamp": 0.47200000000000003,
+        "end_timestamp": 0.47600000000000003,
+        "forward_displacement": 0.0006112251928194201
+      },
+      {
+        "start_timestamp": 0.47600000000000003,
+        "end_timestamp": 0.48100000000000004,
+        "forward_displacement": 0.0008924540111268087
+      },
+      {
+        "start_timestamp": 0.48100000000000004,
+        "end_timestamp": 0.48500000000000004,
+        "forward_displacement": 0.0008167395072151695
+      },
+      {
+        "start_timestamp": 0.48500000000000004,
+        "end_timestamp": 0.49000000000000005,
+        "forward_displacement": 0.0011494414794959162
+      },
+      {
+        "start_timestamp": 0.49000000000000005,
+        "end_timestamp": 0.49400000000000005,
+        "forward_displacement": 0.0010223992643245694
+      },
+      {
+        "start_timestamp": 0.49400000000000005,
+        "end_timestamp": 0.5,
+        "forward_displacement": 0.0017050647841705402
+      }
+    ],
+    "world_velocity_sample_count": 22,
+    "world_forward_velocity_samples": [
+      {
+        "simulation_timestamp": 0.4025,
+        "forward_velocity": -0.2365498687751264,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.40700000000000003,
+        "forward_velocity": -0.22742678866322066,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.41050000000000003,
+        "forward_velocity": -0.2078357160154215,
+        "sample_interval": 0.0030000000000000027
+      },
+      {
+        "simulation_timestamp": 0.41400000000000003,
+        "forward_velocity": -0.18808973327472095,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.41850000000000004,
+        "forward_velocity": -0.1626704857558002,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.42350000000000004,
+        "forward_velocity": -0.13438941758745482,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.42800000000000005,
+        "forward_velocity": -0.10890564741716781,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.43300000000000005,
+        "forward_velocity": -0.08055723356699862,
+        "sample_interval": 0.006000000000000005
+      },
+      {
+        "simulation_timestamp": 0.44100000000000006,
+        "forward_velocity": -0.03513703833950571,
+        "sample_interval": 0.009999999999999953
+      },
+      {
+        "simulation_timestamp": 0.448,
+        "forward_velocity": 0.004654204861787021,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.452,
+        "forward_velocity": 0.027414287715687966,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.456,
+        "forward_velocity": 0.05018758200842073,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.46,
+        "forward_velocity": 0.07297313464565962,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.4635,
+        "forward_velocity": 0.0929196103633955,
+        "sample_interval": 0.0030000000000000027
+      },
+      {
+        "simulation_timestamp": 0.4665,
+        "forward_velocity": 0.11002335239873585,
+        "sample_interval": 0.0030000000000000027
+      },
+      {
+        "simulation_timestamp": 0.47000000000000003,
+        "forward_velocity": 0.1299848783079537,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.47400000000000003,
+        "forward_velocity": 0.1528062982048549,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.47850000000000004,
+        "forward_velocity": 0.17849080222536157,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.48300000000000004,
+        "forward_velocity": 0.2041848768037922,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.48750000000000004,
+        "forward_velocity": 0.22988829589918305,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.49200000000000005,
+        "forward_velocity": 0.25559981608114213,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.497,
+        "forward_velocity": 0.28417746402842575,
+        "sample_interval": 0.00599999999999995
+      }
+    ],
+    "world_start_forward_velocity": -0.2365498687751264,
+    "world_end_forward_velocity": 0.28417746402842575,
+    "world_start_velocity_interval": [
+      0.4,
+      0.405
+    ],
+    "world_end_velocity_interval": [
+      0.49400000000000005,
+      0.5
+    ],
+    "world_velocity_zero_crossing": true,
+    "world_velocity_zero_crossing_time": 0.4471812411120784,
+    "world_pose_history_fresh": true,
+    "world_pose_history_dense_enough": true,
+    "world_pose_history_max_gap": 0.009999999999999953,
+    "world_pose_source": "/world/<world>/pose/info Pose_V agent pose in world frame",
+    "world_pose_timestamp_source": "Pose_V.header.stamp simulation time; contained Pose.header.stamp fallback",
+    "world_pose_velocity_method": "finite_difference_adjacent_pose_samples",
+    "world_pose_velocity_note": "adjacent world-pose finite difference projected onto prior body-forward axis; distinct from wheel-joint odometry"
+  }
+}

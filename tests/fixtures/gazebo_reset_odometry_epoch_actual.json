@@ -1,0 +1,24 @@
+{
+  "source": "Ubuntu 24.04 Gazebo Harmonic 8.15.0 DQN smoke reset evidence",
+  "reset_epoch_sim_time": 0.0,
+  "settle_start_sim_time": 0.1,
+  "settle_end_sim_time": 0.2,
+  "odometry": {
+    "timestamp": 0.11,
+    "linear_x": 1.1000882798199086e-17,
+    "angular_z": 6.603610886623136e-19,
+    "receive_sequence": 11
+  },
+  "odom_publish_frequency_hz": 100,
+  "body_translation": 0.0,
+  "body_end_forward_velocity": 0.0,
+  "body_end_angular_velocity": 9.939181516769148e-19,
+  "world_pose_history_fresh": true,
+  "world_pose_history_dense_enough": true,
+  "sensor_timestamp": 0.2,
+  "sensor_sequence_before": 1,
+  "sensor_sequence_after": 2,
+  "sensor_age_ms": 0.0,
+  "contact": null,
+  "failure": "Odometry was stale or moving after reset"
+}

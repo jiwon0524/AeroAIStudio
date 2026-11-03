@@ -1,0 +1,46 @@
+# Python virtual environments
+.venv/
+.venv-ubuntu/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build / package
+build/
+dist/
+
+# Runtime workspace
+workspace/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs / temporary files
+*.log
+*.tmp
+*.temp
+*.pid
+
+# Aero AI Studio validation runtime evidence
+# Raw Gazebo experiments are preserved locally because they are very large.
+validation/
+
+# Gazebo / ROS generated files
+log/
+install/
+
+# Model / checkpoint binaries
+*.pt
+*.pth
+*.onnx
+*.ckpt

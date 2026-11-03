@@ -1,0 +1,2455 @@
+{
+  "provenance": "Actual Ubuntu / Gazebo Harmonic forward-to-right diagnostic; measured samples preserved.",
+  "source_report": "validation/v071-host/gazebo-motion-transition-forward-right/motion_transition_diagnostic.json",
+  "action": "right",
+  "command_mode_transition": "LINEAR_TO_ROTATION",
+  "previous_action_twist": {
+    "linear": {
+      "x": 0.5
+    },
+    "angular": {
+      "z": 0.0
+    }
+  },
+  "previous_published_twist": {
+    "linear": {
+      "x": 0.0
+    },
+    "angular": {
+      "z": 0.0
+    }
+  },
+  "requested_command_twist": {
+    "linear": {
+      "x": 0.0
+    },
+    "angular": {
+      "z": -0.8
+    }
+  },
+  "simulation_start_time": 0.2,
+  "simulation_end_time": 0.30000000000000004,
+  "simulation_duration": 0.10000000000000003,
+  "before_pose": {
+    "x": 1.5494999565548586,
+    "y": 1.5,
+    "z": 0.10961918968603032,
+    "orientation": {
+      "x": 5.584680182064128e-18,
+      "y": -2.479885482581096e-08,
+      "z": -3.176463966376467e-18,
+      "w": 0.9999999999999997
+    },
+    "yaw": -6.352928209740286e-18
+  },
+  "after_pose": {
+    "x": 1.5743276781408193,
+    "y": 1.4999999825008759,
+    "z": 0.10973186876702767,
+    "orientation": {
+      "x": 2.708014565031991e-07,
+      "y": 3.963598805838571e-05,
+      "z": -0.006832303878623504,
+      "w": 0.9999766587539057
+    },
+    "yaw": -0.013664714081720765
+  },
+  "collision": false,
+  "odometry_before": {
+    "timestamp": 0.2,
+    "linear_x": 0.49999999999997036,
+    "angular_z": -1.6521175961683876e-15
+  },
+  "odometry_after": {
+    "timestamp": 0.30000000000000004,
+    "linear_x": 4.245770401922755e-11,
+    "angular_z": -0.7999999998483494
+  },
+  "odometry_history": [
+    {
+      "timestamp": 0.2,
+      "linear_x": 0.49999999999997036,
+      "angular_z": -1.6521175961683876e-15
+    },
+    {
+      "timestamp": 0.21000000000000002,
+      "linear_x": 0.050000000100313545,
+      "angular_z": -0.719999999917883
+    },
+    {
+      "timestamp": 0.22,
+      "linear_x": 7.355782649653975e-11,
+      "angular_z": -0.7999999999999807
+    },
+    {
+      "timestamp": 0.23,
+      "linear_x": 7.355782649653975e-11,
+      "angular_z": -0.7999999999999807
+    },
+    {
+      "timestamp": 0.24000000000000002,
+      "linear_x": 7.355852038593014e-11,
+      "angular_z": -0.7999999999999841
+    },
+    {
+      "timestamp": 0.25,
+      "linear_x": 7.355782649653975e-11,
+      "angular_z": -0.7999999999999807
+    },
+    {
+      "timestamp": 0.26,
+      "linear_x": 7.355782649653975e-11,
+      "angular_z": -0.7999999999999807
+    },
+    {
+      "timestamp": 0.27,
+      "linear_x": 4.592194680075323e-11,
+      "angular_z": -0.7999999998683184
+    },
+    {
+      "timestamp": 0.28,
+      "linear_x": 4.206877901591355e-11,
+      "angular_z": -0.7999999998494347
+    },
+    {
+      "timestamp": 0.29000000000000004,
+      "linear_x": 4.2223863294665875e-11,
+      "angular_z": -0.7999999998490136
+    },
+    {
+      "timestamp": 0.30000000000000004,
+      "linear_x": 4.245770401922755e-11,
+      "angular_z": -0.7999999998483494
+    }
+  ],
+  "world_pose_history": [
+    {
+      "receive_sequence": 97,
+      "simulation_timestamp": 0.2,
+      "world_x": 1.5494999565548586,
+      "world_y": 1.5,
+      "world_yaw": -6.352928209740286e-18
+    },
+    {
+      "receive_sequence": 98,
+      "simulation_timestamp": 0.2,
+      "world_x": 1.5494999565548586,
+      "world_y": 1.5,
+      "world_yaw": -6.352928209740286e-18
+    },
+    {
+      "receive_sequence": 99,
+      "simulation_timestamp": 0.2,
+      "world_x": 1.5494999565548586,
+      "world_y": 1.5,
+      "world_yaw": -6.352928209740286e-18
+    },
+    {
+      "receive_sequence": 100,
+      "simulation_timestamp": 0.2,
+      "world_x": 1.5494999565548586,
+      "world_y": 1.5,
+      "world_yaw": -6.352928209740286e-18
+    },
+    {
+      "receive_sequence": 101,
+      "simulation_timestamp": 0.2,
+      "world_x": 1.5494999565548586,
+      "world_y": 1.5,
+      "world_yaw": -6.352928209740286e-18
+    },
+    {
+      "receive_sequence": 102,
+      "simulation_timestamp": 0.2,
+      "world_x": 1.5494999565548586,
+      "world_y": 1.5,
+      "world_yaw": -6.352928209740286e-18
+    },
+    {
+      "receive_sequence": 103,
+      "simulation_timestamp": 0.2,
+      "world_x": 1.5494999565548586,
+      "world_y": 1.5,
+      "world_yaw": -6.352928209740286e-18
+    },
+    {
+      "receive_sequence": 104,
+      "simulation_timestamp": 0.2,
+      "world_x": 1.5494999565548586,
+      "world_y": 1.5,
+      "world_yaw": -6.352928209740286e-18
+    },
+    {
+      "receive_sequence": 105,
+      "simulation_timestamp": 0.2,
+      "world_x": 1.5494999565548586,
+      "world_y": 1.5,
+      "world_yaw": -6.352928209740286e-18
+    },
+    {
+      "receive_sequence": 106,
+      "simulation_timestamp": 0.2,
+      "world_x": 1.5494999565548586,
+      "world_y": 1.5,
+      "world_yaw": -6.352928209740286e-18
+    },
+    {
+      "receive_sequence": 107,
+      "simulation_timestamp": 0.20600000000000002,
+      "world_x": 1.5524725325217503,
+      "world_y": 1.5,
+      "world_yaw": -1.099271158868335e-18
+    },
+    {
+      "receive_sequence": 108,
+      "simulation_timestamp": 0.21100000000000002,
+      "world_x": 1.55481025065763,
+      "world_y": 1.5,
+      "world_yaw": -1.260397763166023e-19
+    },
+    {
+      "receive_sequence": 109,
+      "simulation_timestamp": 0.21500000000000002,
+      "world_x": 1.5565772199245973,
+      "world_y": 1.5,
+      "world_yaw": 4.8919732422946865e-18
+    },
+    {
+      "receive_sequence": 110,
+      "simulation_timestamp": 0.219,
+      "world_x": 1.558252451198975,
+      "world_y": 1.5,
+      "world_yaw": 8.240623622083738e-18
+    },
+    {
+      "receive_sequence": 111,
+      "simulation_timestamp": 0.223,
+      "world_x": 1.5598359444806773,
+      "world_y": 1.5,
+      "world_yaw": 1.0726680276561977e-17
+    },
+    {
+      "receive_sequence": 112,
+      "simulation_timestamp": 0.227,
+      "world_x": 1.5613276997697545,
+      "world_y": 1.5,
+      "world_yaw": 1.5330513654145186e-17
+    },
+    {
+      "receive_sequence": 113,
+      "simulation_timestamp": 0.231,
+      "world_x": 1.562727717066231,
+      "world_y": 1.5,
+      "world_yaw": 1.8350618650485577e-17
+    },
+    {
+      "receive_sequence": 114,
+      "simulation_timestamp": 0.23500000000000001,
+      "world_x": 1.5640359963700605,
+      "world_y": 1.5,
+      "world_yaw": 2.0465593107541908e-17
+    },
+    {
+      "receive_sequence": 115,
+      "simulation_timestamp": 0.23900000000000002,
+      "world_x": 1.565252537681271,
+      "world_y": 1.5,
+      "world_yaw": 2.4169711151327876e-17
+    },
+    {
+      "receive_sequence": 116,
+      "simulation_timestamp": 0.24300000000000002,
+      "world_x": 1.566377340999842,
+      "world_y": 1.5,
+      "world_yaw": 2.574442763030824e-17
+    },
+    {
+      "receive_sequence": 117,
+      "simulation_timestamp": 0.24700000000000003,
+      "world_x": 1.567410406325833,
+      "world_y": 1.5,
+      "world_yaw": 2.8220890597394964e-17
+    },
+    {
+      "receive_sequence": 118,
+      "simulation_timestamp": 0.251,
+      "world_x": 1.5683517336592432,
+      "world_y": 1.5,
+      "world_yaw": 3.065931307033769e-17
+    },
+    {
+      "receive_sequence": 119,
+      "simulation_timestamp": 0.255,
+      "world_x": 1.569201323000015,
+      "world_y": 1.5,
+      "world_yaw": 3.243491166488894e-17
+    },
+    {
+      "receive_sequence": 120,
+      "simulation_timestamp": 0.259,
+      "world_x": 1.569959174348166,
+      "world_y": 1.5,
+      "world_yaw": 3.5357419409361344e-17
+    },
+    {
+      "receive_sequence": 121,
+      "simulation_timestamp": 0.264,
+      "world_x": 1.5707904507589274,
+      "world_y": 1.4999999997484497,
+      "world_yaw": -9.322793502323788e-05
+    },
+    {
+      "receive_sequence": 122,
+      "simulation_timestamp": 0.269,
+      "world_x": 1.5715362395372443,
+      "world_y": 1.4999999989252637,
+      "world_yaw": -0.000602472999420659
+    },
+    {
+      "receive_sequence": 123,
+      "simulation_timestamp": 0.275,
+      "world_x": 1.5723231037894032,
+      "world_y": 1.4999999972702198,
+      "world_yaw": -0.0017977934620558476
+    },
+    {
+      "receive_sequence": 124,
+      "simulation_timestamp": 0.28,
+      "world_x": 1.5728886488282392,
+      "world_y": 1.4999999953342298,
+      "world_yaw": -0.003281320491791915
+    },
+    {
+      "receive_sequence": 125,
+      "simulation_timestamp": 0.28500000000000003,
+      "world_x": 1.573372074292081,
+      "world_y": 1.4999999928909165,
+      "world_yaw": -0.005208724513073041
+    },
+    {
+      "receive_sequence": 126,
+      "simulation_timestamp": 0.28900000000000003,
+      "world_x": 1.5736995719564253,
+      "world_y": 1.4999999905700374,
+      "world_yaw": -0.007070864827484214
+    },
+    {
+      "receive_sequence": 127,
+      "simulation_timestamp": 0.29300000000000004,
+      "world_x": 1.5739742931899794,
+      "world_y": 1.4999999879226442,
+      "world_yaw": -0.009218268030276165
+    },
+    {
+      "receive_sequence": 128,
+      "simulation_timestamp": 0.29800000000000004,
+      "world_x": 1.5742432864969993,
+      "world_y": 1.49999998415267,
+      "world_yaw": -0.012304707375749194
+    },
+    {
+      "receive_sequence": 129,
+      "simulation_timestamp": 0.30000000000000004,
+      "world_x": 1.5743276781408193,
+      "world_y": 1.4999999825008759,
+      "world_yaw": -0.013664714081720765
+    },
+    {
+      "receive_sequence": 130,
+      "simulation_timestamp": 0.30000000000000004,
+      "world_x": 1.5743276781408193,
+      "world_y": 1.4999999825008759,
+      "world_yaw": -0.013664714081720765
+    },
+    {
+      "receive_sequence": 131,
+      "simulation_timestamp": 0.30000000000000004,
+      "world_x": 1.5743276781408193,
+      "world_y": 1.4999999825008759,
+      "world_yaw": -0.013664714081720765
+    },
+    {
+      "receive_sequence": 132,
+      "simulation_timestamp": 0.30000000000000004,
+      "world_x": 1.5743276781408193,
+      "world_y": 1.4999999825008759,
+      "world_yaw": -0.013664714081720765
+    },
+    {
+      "receive_sequence": 133,
+      "simulation_timestamp": 0.30000000000000004,
+      "world_x": 1.5743276781408193,
+      "world_y": 1.4999999825008759,
+      "world_yaw": -0.013664714081720765
+    }
+  ],
+  "world_pose_history_summary": {
+    "world_pose_history_available": true,
+    "world_pose_sample_count": 24,
+    "world_pose_sample_timestamps": [
+      0.2,
+      0.20600000000000002,
+      0.21100000000000002,
+      0.21500000000000002,
+      0.219,
+      0.223,
+      0.227,
+      0.231,
+      0.23500000000000001,
+      0.23900000000000002,
+      0.24300000000000002,
+      0.24700000000000003,
+      0.251,
+      0.255,
+      0.259,
+      0.264,
+      0.269,
+      0.275,
+      0.28,
+      0.28500000000000003,
+      0.28900000000000003,
+      0.29300000000000004,
+      0.29800000000000004,
+      0.30000000000000004
+    ],
+    "world_pose_x": [
+      1.5494999565548586,
+      1.5524725325217503,
+      1.55481025065763,
+      1.5565772199245973,
+      1.558252451198975,
+      1.5598359444806773,
+      1.5613276997697545,
+      1.562727717066231,
+      1.5640359963700605,
+      1.565252537681271,
+      1.566377340999842,
+      1.567410406325833,
+      1.5683517336592432,
+      1.569201323000015,
+      1.569959174348166,
+      1.5707904507589274,
+      1.5715362395372443,
+      1.5723231037894032,
+      1.5728886488282392,
+      1.573372074292081,
+      1.5736995719564253,
+      1.5739742931899794,
+      1.5742432864969993,
+      1.5743276781408193
+    ],
+    "world_pose_y": [
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.5,
+      1.4999999997484497,
+      1.4999999989252637,
+      1.4999999972702198,
+      1.4999999953342298,
+      1.4999999928909165,
+      1.4999999905700374,
+      1.4999999879226442,
+      1.49999998415267,
+      1.4999999825008759
+    ],
+    "world_pose_yaw": [
+      -6.352928209740286e-18,
+      -1.099271158868335e-18,
+      -1.260397763166023e-19,
+      4.8919732422946865e-18,
+      8.240623622083738e-18,
+      1.0726680276561977e-17,
+      1.5330513654145186e-17,
+      1.8350618650485577e-17,
+      2.0465593107541908e-17,
+      2.4169711151327876e-17,
+      2.574442763030824e-17,
+      2.8220890597394964e-17,
+      3.065931307033769e-17,
+      3.243491166488894e-17,
+      3.5357419409361344e-17,
+      -9.322793502323788e-05,
+      -0.000602472999420659,
+      -0.0017977934620558476,
+      -0.003281320491791915,
+      -0.005208724513073041,
+      -0.007070864827484214,
+      -0.009218268030276165,
+      -0.012304707375749194,
+      -0.013664714081720765
+    ],
+    "world_pose_receive_sequences": [
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      133
+    ],
+    "world_forward_displacement_samples": [
+      {
+        "start_timestamp": 0.2,
+        "end_timestamp": 0.20600000000000002,
+        "forward_displacement": 0.0029725759668917107
+      },
+      {
+        "start_timestamp": 0.20600000000000002,
+        "end_timestamp": 0.21100000000000002,
+        "forward_displacement": 0.002337718135879685
+      },
+      {
+        "start_timestamp": 0.21100000000000002,
+        "end_timestamp": 0.21500000000000002,
+        "forward_displacement": 0.0017669692669672887
+      },
+      {
+        "start_timestamp": 0.21500000000000002,
+        "end_timestamp": 0.219,
+        "forward_displacement": 0.001675231274377742
+      },
+      {
+        "start_timestamp": 0.219,
+        "end_timestamp": 0.223,
+        "forward_displacement": 0.001583493281702264
+      },
+      {
+        "start_timestamp": 0.223,
+        "end_timestamp": 0.227,
+        "forward_displacement": 0.0014917552890771901
+      },
+      {
+        "start_timestamp": 0.227,
+        "end_timestamp": 0.231,
+        "forward_displacement": 0.0014000172964765412
+      },
+      {
+        "start_timestamp": 0.231,
+        "end_timestamp": 0.23500000000000001,
+        "forward_displacement": 0.0013082793038294849
+      },
+      {
+        "start_timestamp": 0.23500000000000001,
+        "end_timestamp": 0.23900000000000002,
+        "forward_displacement": 0.0012165413112104062
+      },
+      {
+        "start_timestamp": 0.23900000000000002,
+        "end_timestamp": 0.24300000000000002,
+        "forward_displacement": 0.0011248033185711215
+      },
+      {
+        "start_timestamp": 0.24300000000000002,
+        "end_timestamp": 0.24700000000000003,
+        "forward_displacement": 0.0010330653259909006
+      },
+      {
+        "start_timestamp": 0.24700000000000003,
+        "end_timestamp": 0.251,
+        "forward_displacement": 0.0009413273334102357
+      },
+      {
+        "start_timestamp": 0.251,
+        "end_timestamp": 0.255,
+        "forward_displacement": 0.0008495893407718391
+      },
+      {
+        "start_timestamp": 0.255,
+        "end_timestamp": 0.259,
+        "forward_displacement": 0.0007578513481509841
+      },
+      {
+        "start_timestamp": 0.259,
+        "end_timestamp": 0.264,
+        "forward_displacement": 0.0008312764107614168
+      },
+      {
+        "start_timestamp": 0.264,
+        "end_timestamp": 0.269,
+        "forward_displacement": 0.0007457887751526322
+      },
+      {
+        "start_timestamp": 0.269,
+        "end_timestamp": 0.275,
+        "forward_displacement": 0.0007868641103505062
+      },
+      {
+        "start_timestamp": 0.275,
+        "end_timestamp": 0.28,
+        "forward_displacement": 0.0005655441283786192
+      },
+      {
+        "start_timestamp": 0.28,
+        "end_timestamp": 0.28500000000000003,
+        "forward_displacement": 0.00048342286932484416
+      },
+      {
+        "start_timestamp": 0.28500000000000003,
+        "end_timestamp": 0.28900000000000003,
+        "forward_displacement": 0.00032749323380455063
+      },
+      {
+        "start_timestamp": 0.28900000000000003,
+        "end_timestamp": 0.29300000000000004,
+        "forward_displacement": 0.00027471438466538257
+      },
+      {
+        "start_timestamp": 0.29300000000000004,
+        "end_timestamp": 0.29800000000000004,
+        "forward_displacement": 0.0002689819128027435
+      },
+      {
+        "start_timestamp": 0.29800000000000004,
+        "end_timestamp": 0.30000000000000004,
+        "forward_displacement": 8.438527553178422e-05
+      }
+    ],
+    "world_velocity_sample_count": 23,
+    "world_forward_velocity_samples": [
+      {
+        "simulation_timestamp": 0.203,
+        "forward_velocity": 0.49542932781528465,
+        "body_forward_velocity": 0.49542932781528465,
+        "sample_interval": 0.006000000000000005
+      },
+      {
+        "simulation_timestamp": 0.20850000000000002,
+        "forward_velocity": 0.4675436271759366,
+        "body_forward_velocity": 0.4675436271759366,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.21300000000000002,
+        "forward_velocity": 0.4417423167418218,
+        "body_forward_velocity": 0.4417423167418218,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.21700000000000003,
+        "forward_velocity": 0.41880781859443805,
+        "body_forward_velocity": 0.41880781859443805,
+        "sample_interval": 0.003999999999999976
+      },
+      {
+        "simulation_timestamp": 0.221,
+        "forward_velocity": 0.39587332042556567,
+        "body_forward_velocity": 0.39587332042556567,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.225,
+        "forward_velocity": 0.3729388222692972,
+        "body_forward_velocity": 0.3729388222692972,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.229,
+        "forward_velocity": 0.35000432411913496,
+        "body_forward_velocity": 0.35000432411913496,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.233,
+        "forward_velocity": 0.32706982595737094,
+        "body_forward_velocity": 0.32706982595737094,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.23700000000000002,
+        "forward_velocity": 0.3041353278026013,
+        "body_forward_velocity": 0.3041353278026013,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.24100000000000002,
+        "forward_velocity": 0.28120082964278015,
+        "body_forward_velocity": 0.28120082964278015,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.24500000000000002,
+        "forward_velocity": 0.25826633149772493,
+        "body_forward_velocity": 0.25826633149772493,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.249,
+        "forward_velocity": 0.23533183335256033,
+        "body_forward_velocity": 0.23533183335256033,
+        "sample_interval": 0.003999999999999976
+      },
+      {
+        "simulation_timestamp": 0.253,
+        "forward_velocity": 0.21239733519295959,
+        "body_forward_velocity": 0.21239733519295959,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.257,
+        "forward_velocity": 0.18946283703774586,
+        "body_forward_velocity": 0.18946283703774586,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.2615,
+        "forward_velocity": 0.16625528215228322,
+        "body_forward_velocity": 0.16625528215228322,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.2665,
+        "forward_velocity": 0.1491577550305263,
+        "body_forward_velocity": 0.1491577550305263,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.272,
+        "forward_velocity": 0.1311440183917509,
+        "body_forward_velocity": 0.1311440183917509,
+        "sample_interval": 0.006000000000000005
+      },
+      {
+        "simulation_timestamp": 0.2775,
+        "forward_velocity": 0.11310882567572375,
+        "body_forward_velocity": 0.11310882567572375,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.28250000000000003,
+        "forward_velocity": 0.09668457386496875,
+        "body_forward_velocity": 0.09668457386496875,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.28700000000000003,
+        "forward_velocity": 0.08187330845113759,
+        "body_forward_velocity": 0.08187330845113759,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.29100000000000004,
+        "forward_velocity": 0.06867859616634558,
+        "body_forward_velocity": 0.06867859616634558,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.29550000000000004,
+        "forward_velocity": 0.05379638256054865,
+        "body_forward_velocity": 0.05379638256054865,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.29900000000000004,
+        "forward_velocity": 0.04219263776589208,
+        "body_forward_velocity": 0.04219263776589208,
+        "sample_interval": 0.0020000000000000018
+      }
+    ],
+    "body_forward_velocity_samples": [
+      {
+        "simulation_timestamp": 0.203,
+        "forward_velocity": 0.49542932781528465,
+        "body_forward_velocity": 0.49542932781528465,
+        "sample_interval": 0.006000000000000005
+      },
+      {
+        "simulation_timestamp": 0.20850000000000002,
+        "forward_velocity": 0.4675436271759366,
+        "body_forward_velocity": 0.4675436271759366,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.21300000000000002,
+        "forward_velocity": 0.4417423167418218,
+        "body_forward_velocity": 0.4417423167418218,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.21700000000000003,
+        "forward_velocity": 0.41880781859443805,
+        "body_forward_velocity": 0.41880781859443805,
+        "sample_interval": 0.003999999999999976
+      },
+      {
+        "simulation_timestamp": 0.221,
+        "forward_velocity": 0.39587332042556567,
+        "body_forward_velocity": 0.39587332042556567,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.225,
+        "forward_velocity": 0.3729388222692972,
+        "body_forward_velocity": 0.3729388222692972,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.229,
+        "forward_velocity": 0.35000432411913496,
+        "body_forward_velocity": 0.35000432411913496,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.233,
+        "forward_velocity": 0.32706982595737094,
+        "body_forward_velocity": 0.32706982595737094,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.23700000000000002,
+        "forward_velocity": 0.3041353278026013,
+        "body_forward_velocity": 0.3041353278026013,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.24100000000000002,
+        "forward_velocity": 0.28120082964278015,
+        "body_forward_velocity": 0.28120082964278015,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.24500000000000002,
+        "forward_velocity": 0.25826633149772493,
+        "body_forward_velocity": 0.25826633149772493,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.249,
+        "forward_velocity": 0.23533183335256033,
+        "body_forward_velocity": 0.23533183335256033,
+        "sample_interval": 0.003999999999999976
+      },
+      {
+        "simulation_timestamp": 0.253,
+        "forward_velocity": 0.21239733519295959,
+        "body_forward_velocity": 0.21239733519295959,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.257,
+        "forward_velocity": 0.18946283703774586,
+        "body_forward_velocity": 0.18946283703774586,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.2615,
+        "forward_velocity": 0.16625528215228322,
+        "body_forward_velocity": 0.16625528215228322,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.2665,
+        "forward_velocity": 0.1491577550305263,
+        "body_forward_velocity": 0.1491577550305263,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.272,
+        "forward_velocity": 0.1311440183917509,
+        "body_forward_velocity": 0.1311440183917509,
+        "sample_interval": 0.006000000000000005
+      },
+      {
+        "simulation_timestamp": 0.2775,
+        "forward_velocity": 0.11310882567572375,
+        "body_forward_velocity": 0.11310882567572375,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.28250000000000003,
+        "forward_velocity": 0.09668457386496875,
+        "body_forward_velocity": 0.09668457386496875,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.28700000000000003,
+        "forward_velocity": 0.08187330845113759,
+        "body_forward_velocity": 0.08187330845113759,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.29100000000000004,
+        "forward_velocity": 0.06867859616634558,
+        "body_forward_velocity": 0.06867859616634558,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.29550000000000004,
+        "forward_velocity": 0.05379638256054865,
+        "body_forward_velocity": 0.05379638256054865,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.29900000000000004,
+        "forward_velocity": 0.04219263776589208,
+        "body_forward_velocity": 0.04219263776589208,
+        "sample_interval": 0.0020000000000000018
+      }
+    ],
+    "world_angular_velocity_sample_count": 23,
+    "world_angular_velocity_samples": [
+      {
+        "simulation_timestamp": 0.203,
+        "angular_velocity": 8.756095084786576e-16,
+        "body_angular_velocity": 8.756095084786576e-16,
+        "sample_interval": 0.006000000000000005
+      },
+      {
+        "simulation_timestamp": 0.20850000000000002,
+        "angular_velocity": 1.9464627651034633e-16,
+        "body_angular_velocity": 1.9464627651034633e-16,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.21300000000000002,
+        "angular_velocity": 1.2545032546528211e-15,
+        "body_angular_velocity": 1.2545032546528211e-15,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.21700000000000003,
+        "angular_velocity": 8.371625949472681e-16,
+        "body_angular_velocity": 8.371625949472681e-16,
+        "sample_interval": 0.003999999999999976
+      },
+      {
+        "simulation_timestamp": 0.221,
+        "angular_velocity": 6.21514163619559e-16,
+        "body_angular_velocity": 6.21514163619559e-16,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.225,
+        "angular_velocity": 1.1509583443958012e-15,
+        "body_angular_velocity": 1.1509583443958012e-15,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.229,
+        "angular_velocity": 7.550262490850972e-16,
+        "body_angular_velocity": 7.550262490850972e-16,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.233,
+        "angular_velocity": 5.287436142640823e-16,
+        "body_angular_velocity": 5.287436142640823e-16,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.23700000000000002,
+        "angular_velocity": 9.26029510946491e-16,
+        "body_angular_velocity": 9.26029510946491e-16,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.24100000000000002,
+        "angular_velocity": 3.936791197450906e-16,
+        "body_angular_velocity": 3.936791197450906e-16,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.24500000000000002,
+        "angular_velocity": 6.191157417716807e-16,
+        "body_angular_velocity": 6.191157417716807e-16,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.249,
+        "angular_velocity": 6.096056182356855e-16,
+        "body_angular_velocity": 6.096056182356855e-16,
+        "sample_interval": 0.003999999999999976
+      },
+      {
+        "simulation_timestamp": 0.253,
+        "angular_velocity": 4.438996486378114e-16,
+        "body_angular_velocity": 4.438996486378114e-16,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.257,
+        "angular_velocity": 7.306269361181007e-16,
+        "body_angular_velocity": 7.306269361181007e-16,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.2615,
+        "angular_velocity": -0.01864558700465463,
+        "body_angular_velocity": -0.01864558700465463,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.2665,
+        "angular_velocity": -0.10184901287948414,
+        "body_angular_velocity": -0.10184901287948414,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.272,
+        "angular_velocity": -0.1992200771058646,
+        "body_angular_velocity": -0.1992200771058646,
+        "sample_interval": 0.006000000000000005
+      },
+      {
+        "simulation_timestamp": 0.2775,
+        "angular_velocity": -0.2967054059472132,
+        "body_angular_velocity": -0.2967054059472132,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.28250000000000003,
+        "angular_velocity": -0.38548080425622494,
+        "body_angular_velocity": -0.38548080425622494,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.28700000000000003,
+        "angular_velocity": -0.46553507860279264,
+        "body_angular_velocity": -0.46553507860279264,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.29100000000000004,
+        "angular_velocity": -0.5368508006979874,
+        "body_angular_velocity": -0.5368508006979874,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.29550000000000004,
+        "angular_velocity": -0.6172878690946052,
+        "body_angular_velocity": -0.6172878690946052,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.29900000000000004,
+        "angular_velocity": -0.6800033529857852,
+        "body_angular_velocity": -0.6800033529857852,
+        "sample_interval": 0.0020000000000000018
+      }
+    ],
+    "body_angular_velocity_samples": [
+      {
+        "simulation_timestamp": 0.203,
+        "angular_velocity": 8.756095084786576e-16,
+        "body_angular_velocity": 8.756095084786576e-16,
+        "sample_interval": 0.006000000000000005
+      },
+      {
+        "simulation_timestamp": 0.20850000000000002,
+        "angular_velocity": 1.9464627651034633e-16,
+        "body_angular_velocity": 1.9464627651034633e-16,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.21300000000000002,
+        "angular_velocity": 1.2545032546528211e-15,
+        "body_angular_velocity": 1.2545032546528211e-15,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.21700000000000003,
+        "angular_velocity": 8.371625949472681e-16,
+        "body_angular_velocity": 8.371625949472681e-16,
+        "sample_interval": 0.003999999999999976
+      },
+      {
+        "simulation_timestamp": 0.221,
+        "angular_velocity": 6.21514163619559e-16,
+        "body_angular_velocity": 6.21514163619559e-16,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.225,
+        "angular_velocity": 1.1509583443958012e-15,
+        "body_angular_velocity": 1.1509583443958012e-15,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.229,
+        "angular_velocity": 7.550262490850972e-16,
+        "body_angular_velocity": 7.550262490850972e-16,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.233,
+        "angular_velocity": 5.287436142640823e-16,
+        "body_angular_velocity": 5.287436142640823e-16,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.23700000000000002,
+        "angular_velocity": 9.26029510946491e-16,
+        "body_angular_velocity": 9.26029510946491e-16,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.24100000000000002,
+        "angular_velocity": 3.936791197450906e-16,
+        "body_angular_velocity": 3.936791197450906e-16,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.24500000000000002,
+        "angular_velocity": 6.191157417716807e-16,
+        "body_angular_velocity": 6.191157417716807e-16,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.249,
+        "angular_velocity": 6.096056182356855e-16,
+        "body_angular_velocity": 6.096056182356855e-16,
+        "sample_interval": 0.003999999999999976
+      },
+      {
+        "simulation_timestamp": 0.253,
+        "angular_velocity": 4.438996486378114e-16,
+        "body_angular_velocity": 4.438996486378114e-16,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.257,
+        "angular_velocity": 7.306269361181007e-16,
+        "body_angular_velocity": 7.306269361181007e-16,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.2615,
+        "angular_velocity": -0.01864558700465463,
+        "body_angular_velocity": -0.01864558700465463,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.2665,
+        "angular_velocity": -0.10184901287948414,
+        "body_angular_velocity": -0.10184901287948414,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.272,
+        "angular_velocity": -0.1992200771058646,
+        "body_angular_velocity": -0.1992200771058646,
+        "sample_interval": 0.006000000000000005
+      },
+      {
+        "simulation_timestamp": 0.2775,
+        "angular_velocity": -0.2967054059472132,
+        "body_angular_velocity": -0.2967054059472132,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.28250000000000003,
+        "angular_velocity": -0.38548080425622494,
+        "body_angular_velocity": -0.38548080425622494,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.28700000000000003,
+        "angular_velocity": -0.46553507860279264,
+        "body_angular_velocity": -0.46553507860279264,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.29100000000000004,
+        "angular_velocity": -0.5368508006979874,
+        "body_angular_velocity": -0.5368508006979874,
+        "sample_interval": 0.0040000000000000036
+      },
+      {
+        "simulation_timestamp": 0.29550000000000004,
+        "angular_velocity": -0.6172878690946052,
+        "body_angular_velocity": -0.6172878690946052,
+        "sample_interval": 0.0050000000000000044
+      },
+      {
+        "simulation_timestamp": 0.29900000000000004,
+        "angular_velocity": -0.6800033529857852,
+        "body_angular_velocity": -0.6800033529857852,
+        "sample_interval": 0.0020000000000000018
+      }
+    ],
+    "world_start_forward_velocity": 0.49542932781528465,
+    "world_end_forward_velocity": 0.04219263776589208,
+    "body_start_forward_velocity": 0.49542932781528465,
+    "body_end_forward_velocity": 0.04219263776589208,
+    "world_start_angular_velocity": 8.756095084786576e-16,
+    "world_end_angular_velocity": -0.6800033529857852,
+    "body_start_angular_velocity": 8.756095084786576e-16,
+    "body_end_angular_velocity": -0.6800033529857852,
+    "world_start_velocity_interval": [
+      0.2,
+      0.20600000000000002
+    ],
+    "world_end_velocity_interval": [
+      0.29800000000000004,
+      0.30000000000000004
+    ],
+    "world_velocity_zero_crossing": false,
+    "world_velocity_zero_crossing_time": null,
+    "world_pose_history_fresh": true,
+    "world_pose_history_dense_enough": true,
+    "world_pose_history_max_gap": 0.006000000000000005,
+    "world_pose_source": "/world/<world>/pose/info Pose_V agent pose in world frame",
+    "world_pose_timestamp_source": "Pose_V.header.stamp simulation time; contained Pose.header.stamp fallback",
+    "world_pose_velocity_method": "finite_difference_adjacent_pose_samples",
+    "world_pose_velocity_note": "adjacent world-pose finite difference projected onto prior body-forward axis; distinct from wheel-joint odometry"
+  },
+  "original_pose_validation": {
+    "valid": false,
+    "distance": 0.02482772158596686,
+    "expected_distance": 0.0,
+    "yaw_delta": 0.013664714081720758,
+    "expected_yaw": 0.08000000000000003,
+    "body_forward_displacement": 0.024827721585960694,
+    "signed_yaw_delta": -0.013664714081720758,
+    "collision_may_block_motion": false,
+    "control_mode": "PHYSICS",
+    "odometry_available": true,
+    "odometry_fresh": true,
+    "odometry_before": {
+      "timestamp": 0.2,
+      "linear_x": 0.49999999999997036,
+      "angular_z": -1.6521175961683876e-15
+    },
+    "odometry_after": {
+      "timestamp": 0.30000000000000004,
+      "linear_x": 4.245770401922755e-11,
+      "angular_z": -0.7999999998483494
+    },
+    "odometry_predicted_forward": 0.0030000000061953217,
+    "odometry_predicted_yaw": -0.07519999999408736,
+    "linear_velocity_converging": true,
+    "angular_velocity_converging": true,
+    "pose_odometry_consistent": null,
+    "odometry_sample_count": 11,
+    "odometry_sample_timestamps": [
+      0.2,
+      0.21000000000000002,
+      0.22,
+      0.23,
+      0.24000000000000002,
+      0.25,
+      0.26,
+      0.27,
+      0.28,
+      0.29000000000000004,
+      0.30000000000000004
+    ],
+    "odometry_sample_linear_x": [
+      0.49999999999997036,
+      0.050000000100313545,
+      7.355782649653975e-11,
+      7.355782649653975e-11,
+      7.355852038593014e-11,
+      7.355782649653975e-11,
+      7.355782649653975e-11,
+      4.592194680075323e-11,
+      4.206877901591355e-11,
+      4.2223863294665875e-11,
+      4.245770401922755e-11
+    ],
+    "odometry_sample_angular_z": [
+      -1.6521175961683876e-15,
+      -0.719999999917883,
+      -0.7999999999999807,
+      -0.7999999999999807,
+      -0.7999999999999841,
+      -0.7999999999999807,
+      -0.7999999999999807,
+      -0.7999999998683184,
+      -0.7999999998494347,
+      -0.7999999998490136,
+      -0.7999999998483494
+    ],
+    "odometry_integration_method": "history_piecewise",
+    "odometry_integration_note": "timestamped piecewise integral",
+    "command_integrated_forward": 0.0,
+    "command_integrated_yaw": -0.08000000000000003,
+    "odometry_integrated_forward": 0.0030000000061953217,
+    "odometry_integrated_yaw": -0.07519999999408736,
+    "wheel_odometry_forward": 0.0030000000061953217,
+    "wheel_odometry_yaw": -0.07519999999408736,
+    "pose_measured_forward": 0.024827721585960694,
+    "pose_measured_yaw": -0.013664714081720758,
+    "world_pose_forward": 0.024827721585960694,
+    "world_pose_source": "gazebo_pose_topic_physical_body_pose",
+    "odometry_source": "gazebo_diff_drive_wheel_joint_dead_reckoning",
+    "world_direction_ok": false,
+    "odometry_direction_ok": true,
+    "world_direction_raw_ok": false,
+    "command_reversal_detected": false,
+    "previous_motion_sign": 1,
+    "requested_motion_sign": 0,
+    "previous_command_twist": {
+      "linear": {
+        "x": 0.5
+      },
+      "angular": {
+        "z": 0.0
+      }
+    },
+    "requested_command_twist": {
+      "linear": {
+        "x": 0.0
+      },
+      "angular": {
+        "z": -0.8
+      }
+    },
+    "odometry_zero_crossing": false,
+    "odometry_zero_crossing_time": null,
+    "odometry_final_direction_ok": true,
+    "wheel_integral_direction_ok": true,
+    "world_body_transient_direction": false,
+    "reversal_current_command_valid": false,
+    "reversal_transient_valid": false,
+    "reversal_body_history_available": true,
+    "reversal_body_history_fresh": true,
+    "reversal_body_history_dense": true,
+    "reversal_body_history_interval_ok": true,
+    "reversal_body_start_forward_velocity": 0.49542932781528465,
+    "reversal_body_end_forward_velocity": 0.04219263776589208,
+    "reversal_body_start_direction_ok": false,
+    "reversal_body_zero_crossing": false,
+    "reversal_body_zero_crossing_time": null,
+    "reversal_body_deadband_sample_count": 0,
+    "reversal_body_end_direction_ok": false,
+    "reversal_net_translation_below_normal_minimum": false,
+    "reversal_normal_minimum_translation": 0.01,
+    "reversal_cancellation_valid": false,
+    "contact_blocked_world_motion": false,
+    "odometry_pose_delta": -0.021827721579765372,
+    "odometry_pose_ratio": 0.12083267471034187,
+    "discrepancy_classification": "world_pose_exceeds_wheel_odometry",
+    "consistency_reason": "world pose and wheel odometry are validated by separate semantics; magnitude discrepancy is telemetry",
+    "angular_direction_ok": true,
+    "distance_limit_from_command_or_odometry": 0.06999999999999705,
+    "yaw_limit_from_command_or_odometry": 0.21000000000000008,
+    "world_pose_history_summary": {
+      "world_pose_history_available": true,
+      "world_pose_sample_count": 24,
+      "world_pose_sample_timestamps": [
+        0.2,
+        0.20600000000000002,
+        0.21100000000000002,
+        0.21500000000000002,
+        0.219,
+        0.223,
+        0.227,
+        0.231,
+        0.23500000000000001,
+        0.23900000000000002,
+        0.24300000000000002,
+        0.24700000000000003,
+        0.251,
+        0.255,
+        0.259,
+        0.264,
+        0.269,
+        0.275,
+        0.28,
+        0.28500000000000003,
+        0.28900000000000003,
+        0.29300000000000004,
+        0.29800000000000004,
+        0.30000000000000004
+      ],
+      "world_pose_x": [
+        1.5494999565548586,
+        1.5524725325217503,
+        1.55481025065763,
+        1.5565772199245973,
+        1.558252451198975,
+        1.5598359444806773,
+        1.5613276997697545,
+        1.562727717066231,
+        1.5640359963700605,
+        1.565252537681271,
+        1.566377340999842,
+        1.567410406325833,
+        1.5683517336592432,
+        1.569201323000015,
+        1.569959174348166,
+        1.5707904507589274,
+        1.5715362395372443,
+        1.5723231037894032,
+        1.5728886488282392,
+        1.573372074292081,
+        1.5736995719564253,
+        1.5739742931899794,
+        1.5742432864969993,
+        1.5743276781408193
+      ],
+      "world_pose_y": [
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.5,
+        1.4999999997484497,
+        1.4999999989252637,
+        1.4999999972702198,
+        1.4999999953342298,
+        1.4999999928909165,
+        1.4999999905700374,
+        1.4999999879226442,
+        1.49999998415267,
+        1.4999999825008759
+      ],
+      "world_pose_yaw": [
+        -6.352928209740286e-18,
+        -1.099271158868335e-18,
+        -1.260397763166023e-19,
+        4.8919732422946865e-18,
+        8.240623622083738e-18,
+        1.0726680276561977e-17,
+        1.5330513654145186e-17,
+        1.8350618650485577e-17,
+        2.0465593107541908e-17,
+        2.4169711151327876e-17,
+        2.574442763030824e-17,
+        2.8220890597394964e-17,
+        3.065931307033769e-17,
+        3.243491166488894e-17,
+        3.5357419409361344e-17,
+        -9.322793502323788e-05,
+        -0.000602472999420659,
+        -0.0017977934620558476,
+        -0.003281320491791915,
+        -0.005208724513073041,
+        -0.007070864827484214,
+        -0.009218268030276165,
+        -0.012304707375749194,
+        -0.013664714081720765
+      ],
+      "world_pose_receive_sequences": [
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        133
+      ],
+      "world_forward_displacement_samples": [
+        {
+          "start_timestamp": 0.2,
+          "end_timestamp": 0.20600000000000002,
+          "forward_displacement": 0.0029725759668917107
+        },
+        {
+          "start_timestamp": 0.20600000000000002,
+          "end_timestamp": 0.21100000000000002,
+          "forward_displacement": 0.002337718135879685
+        },
+        {
+          "start_timestamp": 0.21100000000000002,
+          "end_timestamp": 0.21500000000000002,
+          "forward_displacement": 0.0017669692669672887
+        },
+        {
+          "start_timestamp": 0.21500000000000002,
+          "end_timestamp": 0.219,
+          "forward_displacement": 0.001675231274377742
+        },
+        {
+          "start_timestamp": 0.219,
+          "end_timestamp": 0.223,
+          "forward_displacement": 0.001583493281702264
+        },
+        {
+          "start_timestamp": 0.223,
+          "end_timestamp": 0.227,
+          "forward_displacement": 0.0014917552890771901
+        },
+        {
+          "start_timestamp": 0.227,
+          "end_timestamp": 0.231,
+          "forward_displacement": 0.0014000172964765412
+        },
+        {
+          "start_timestamp": 0.231,
+          "end_timestamp": 0.23500000000000001,
+          "forward_displacement": 0.0013082793038294849
+        },
+        {
+          "start_timestamp": 0.23500000000000001,
+          "end_timestamp": 0.23900000000000002,
+          "forward_displacement": 0.0012165413112104062
+        },
+        {
+          "start_timestamp": 0.23900000000000002,
+          "end_timestamp": 0.24300000000000002,
+          "forward_displacement": 0.0011248033185711215
+        },
+        {
+          "start_timestamp": 0.24300000000000002,
+          "end_timestamp": 0.24700000000000003,
+          "forward_displacement": 0.0010330653259909006
+        },
+        {
+          "start_timestamp": 0.24700000000000003,
+          "end_timestamp": 0.251,
+          "forward_displacement": 0.0009413273334102357
+        },
+        {
+          "start_timestamp": 0.251,
+          "end_timestamp": 0.255,
+          "forward_displacement": 0.0008495893407718391
+        },
+        {
+          "start_timestamp": 0.255,
+          "end_timestamp": 0.259,
+          "forward_displacement": 0.0007578513481509841
+        },
+        {
+          "start_timestamp": 0.259,
+          "end_timestamp": 0.264,
+          "forward_displacement": 0.0008312764107614168
+        },
+        {
+          "start_timestamp": 0.264,
+          "end_timestamp": 0.269,
+          "forward_displacement": 0.0007457887751526322
+        },
+        {
+          "start_timestamp": 0.269,
+          "end_timestamp": 0.275,
+          "forward_displacement": 0.0007868641103505062
+        },
+        {
+          "start_timestamp": 0.275,
+          "end_timestamp": 0.28,
+          "forward_displacement": 0.0005655441283786192
+        },
+        {
+          "start_timestamp": 0.28,
+          "end_timestamp": 0.28500000000000003,
+          "forward_displacement": 0.00048342286932484416
+        },
+        {
+          "start_timestamp": 0.28500000000000003,
+          "end_timestamp": 0.28900000000000003,
+          "forward_displacement": 0.00032749323380455063
+        },
+        {
+          "start_timestamp": 0.28900000000000003,
+          "end_timestamp": 0.29300000000000004,
+          "forward_displacement": 0.00027471438466538257
+        },
+        {
+          "start_timestamp": 0.29300000000000004,
+          "end_timestamp": 0.29800000000000004,
+          "forward_displacement": 0.0002689819128027435
+        },
+        {
+          "start_timestamp": 0.29800000000000004,
+          "end_timestamp": 0.30000000000000004,
+          "forward_displacement": 8.438527553178422e-05
+        }
+      ],
+      "world_velocity_sample_count": 23,
+      "world_forward_velocity_samples": [
+        {
+          "simulation_timestamp": 0.203,
+          "forward_velocity": 0.49542932781528465,
+          "body_forward_velocity": 0.49542932781528465,
+          "sample_interval": 0.006000000000000005
+        },
+        {
+          "simulation_timestamp": 0.20850000000000002,
+          "forward_velocity": 0.4675436271759366,
+          "body_forward_velocity": 0.4675436271759366,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.21300000000000002,
+          "forward_velocity": 0.4417423167418218,
+          "body_forward_velocity": 0.4417423167418218,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.21700000000000003,
+          "forward_velocity": 0.41880781859443805,
+          "body_forward_velocity": 0.41880781859443805,
+          "sample_interval": 0.003999999999999976
+        },
+        {
+          "simulation_timestamp": 0.221,
+          "forward_velocity": 0.39587332042556567,
+          "body_forward_velocity": 0.39587332042556567,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.225,
+          "forward_velocity": 0.3729388222692972,
+          "body_forward_velocity": 0.3729388222692972,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.229,
+          "forward_velocity": 0.35000432411913496,
+          "body_forward_velocity": 0.35000432411913496,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.233,
+          "forward_velocity": 0.32706982595737094,
+          "body_forward_velocity": 0.32706982595737094,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.23700000000000002,
+          "forward_velocity": 0.3041353278026013,
+          "body_forward_velocity": 0.3041353278026013,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.24100000000000002,
+          "forward_velocity": 0.28120082964278015,
+          "body_forward_velocity": 0.28120082964278015,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.24500000000000002,
+          "forward_velocity": 0.25826633149772493,
+          "body_forward_velocity": 0.25826633149772493,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.249,
+          "forward_velocity": 0.23533183335256033,
+          "body_forward_velocity": 0.23533183335256033,
+          "sample_interval": 0.003999999999999976
+        },
+        {
+          "simulation_timestamp": 0.253,
+          "forward_velocity": 0.21239733519295959,
+          "body_forward_velocity": 0.21239733519295959,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.257,
+          "forward_velocity": 0.18946283703774586,
+          "body_forward_velocity": 0.18946283703774586,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.2615,
+          "forward_velocity": 0.16625528215228322,
+          "body_forward_velocity": 0.16625528215228322,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.2665,
+          "forward_velocity": 0.1491577550305263,
+          "body_forward_velocity": 0.1491577550305263,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.272,
+          "forward_velocity": 0.1311440183917509,
+          "body_forward_velocity": 0.1311440183917509,
+          "sample_interval": 0.006000000000000005
+        },
+        {
+          "simulation_timestamp": 0.2775,
+          "forward_velocity": 0.11310882567572375,
+          "body_forward_velocity": 0.11310882567572375,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.28250000000000003,
+          "forward_velocity": 0.09668457386496875,
+          "body_forward_velocity": 0.09668457386496875,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.28700000000000003,
+          "forward_velocity": 0.08187330845113759,
+          "body_forward_velocity": 0.08187330845113759,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.29100000000000004,
+          "forward_velocity": 0.06867859616634558,
+          "body_forward_velocity": 0.06867859616634558,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.29550000000000004,
+          "forward_velocity": 0.05379638256054865,
+          "body_forward_velocity": 0.05379638256054865,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.29900000000000004,
+          "forward_velocity": 0.04219263776589208,
+          "body_forward_velocity": 0.04219263776589208,
+          "sample_interval": 0.0020000000000000018
+        }
+      ],
+      "body_forward_velocity_samples": [
+        {
+          "simulation_timestamp": 0.203,
+          "forward_velocity": 0.49542932781528465,
+          "body_forward_velocity": 0.49542932781528465,
+          "sample_interval": 0.006000000000000005
+        },
+        {
+          "simulation_timestamp": 0.20850000000000002,
+          "forward_velocity": 0.4675436271759366,
+          "body_forward_velocity": 0.4675436271759366,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.21300000000000002,
+          "forward_velocity": 0.4417423167418218,
+          "body_forward_velocity": 0.4417423167418218,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.21700000000000003,
+          "forward_velocity": 0.41880781859443805,
+          "body_forward_velocity": 0.41880781859443805,
+          "sample_interval": 0.003999999999999976
+        },
+        {
+          "simulation_timestamp": 0.221,
+          "forward_velocity": 0.39587332042556567,
+          "body_forward_velocity": 0.39587332042556567,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.225,
+          "forward_velocity": 0.3729388222692972,
+          "body_forward_velocity": 0.3729388222692972,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.229,
+          "forward_velocity": 0.35000432411913496,
+          "body_forward_velocity": 0.35000432411913496,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.233,
+          "forward_velocity": 0.32706982595737094,
+          "body_forward_velocity": 0.32706982595737094,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.23700000000000002,
+          "forward_velocity": 0.3041353278026013,
+          "body_forward_velocity": 0.3041353278026013,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.24100000000000002,
+          "forward_velocity": 0.28120082964278015,
+          "body_forward_velocity": 0.28120082964278015,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.24500000000000002,
+          "forward_velocity": 0.25826633149772493,
+          "body_forward_velocity": 0.25826633149772493,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.249,
+          "forward_velocity": 0.23533183335256033,
+          "body_forward_velocity": 0.23533183335256033,
+          "sample_interval": 0.003999999999999976
+        },
+        {
+          "simulation_timestamp": 0.253,
+          "forward_velocity": 0.21239733519295959,
+          "body_forward_velocity": 0.21239733519295959,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.257,
+          "forward_velocity": 0.18946283703774586,
+          "body_forward_velocity": 0.18946283703774586,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.2615,
+          "forward_velocity": 0.16625528215228322,
+          "body_forward_velocity": 0.16625528215228322,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.2665,
+          "forward_velocity": 0.1491577550305263,
+          "body_forward_velocity": 0.1491577550305263,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.272,
+          "forward_velocity": 0.1311440183917509,
+          "body_forward_velocity": 0.1311440183917509,
+          "sample_interval": 0.006000000000000005
+        },
+        {
+          "simulation_timestamp": 0.2775,
+          "forward_velocity": 0.11310882567572375,
+          "body_forward_velocity": 0.11310882567572375,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.28250000000000003,
+          "forward_velocity": 0.09668457386496875,
+          "body_forward_velocity": 0.09668457386496875,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.28700000000000003,
+          "forward_velocity": 0.08187330845113759,
+          "body_forward_velocity": 0.08187330845113759,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.29100000000000004,
+          "forward_velocity": 0.06867859616634558,
+          "body_forward_velocity": 0.06867859616634558,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.29550000000000004,
+          "forward_velocity": 0.05379638256054865,
+          "body_forward_velocity": 0.05379638256054865,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.29900000000000004,
+          "forward_velocity": 0.04219263776589208,
+          "body_forward_velocity": 0.04219263776589208,
+          "sample_interval": 0.0020000000000000018
+        }
+      ],
+      "world_angular_velocity_sample_count": 23,
+      "world_angular_velocity_samples": [
+        {
+          "simulation_timestamp": 0.203,
+          "angular_velocity": 8.756095084786576e-16,
+          "body_angular_velocity": 8.756095084786576e-16,
+          "sample_interval": 0.006000000000000005
+        },
+        {
+          "simulation_timestamp": 0.20850000000000002,
+          "angular_velocity": 1.9464627651034633e-16,
+          "body_angular_velocity": 1.9464627651034633e-16,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.21300000000000002,
+          "angular_velocity": 1.2545032546528211e-15,
+          "body_angular_velocity": 1.2545032546528211e-15,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.21700000000000003,
+          "angular_velocity": 8.371625949472681e-16,
+          "body_angular_velocity": 8.371625949472681e-16,
+          "sample_interval": 0.003999999999999976
+        },
+        {
+          "simulation_timestamp": 0.221,
+          "angular_velocity": 6.21514163619559e-16,
+          "body_angular_velocity": 6.21514163619559e-16,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.225,
+          "angular_velocity": 1.1509583443958012e-15,
+          "body_angular_velocity": 1.1509583443958012e-15,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.229,
+          "angular_velocity": 7.550262490850972e-16,
+          "body_angular_velocity": 7.550262490850972e-16,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.233,
+          "angular_velocity": 5.287436142640823e-16,
+          "body_angular_velocity": 5.287436142640823e-16,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.23700000000000002,
+          "angular_velocity": 9.26029510946491e-16,
+          "body_angular_velocity": 9.26029510946491e-16,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.24100000000000002,
+          "angular_velocity": 3.936791197450906e-16,
+          "body_angular_velocity": 3.936791197450906e-16,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.24500000000000002,
+          "angular_velocity": 6.191157417716807e-16,
+          "body_angular_velocity": 6.191157417716807e-16,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.249,
+          "angular_velocity": 6.096056182356855e-16,
+          "body_angular_velocity": 6.096056182356855e-16,
+          "sample_interval": 0.003999999999999976
+        },
+        {
+          "simulation_timestamp": 0.253,
+          "angular_velocity": 4.438996486378114e-16,
+          "body_angular_velocity": 4.438996486378114e-16,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.257,
+          "angular_velocity": 7.306269361181007e-16,
+          "body_angular_velocity": 7.306269361181007e-16,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.2615,
+          "angular_velocity": -0.01864558700465463,
+          "body_angular_velocity": -0.01864558700465463,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.2665,
+          "angular_velocity": -0.10184901287948414,
+          "body_angular_velocity": -0.10184901287948414,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.272,
+          "angular_velocity": -0.1992200771058646,
+          "body_angular_velocity": -0.1992200771058646,
+          "sample_interval": 0.006000000000000005
+        },
+        {
+          "simulation_timestamp": 0.2775,
+          "angular_velocity": -0.2967054059472132,
+          "body_angular_velocity": -0.2967054059472132,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.28250000000000003,
+          "angular_velocity": -0.38548080425622494,
+          "body_angular_velocity": -0.38548080425622494,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.28700000000000003,
+          "angular_velocity": -0.46553507860279264,
+          "body_angular_velocity": -0.46553507860279264,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.29100000000000004,
+          "angular_velocity": -0.5368508006979874,
+          "body_angular_velocity": -0.5368508006979874,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.29550000000000004,
+          "angular_velocity": -0.6172878690946052,
+          "body_angular_velocity": -0.6172878690946052,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.29900000000000004,
+          "angular_velocity": -0.6800033529857852,
+          "body_angular_velocity": -0.6800033529857852,
+          "sample_interval": 0.0020000000000000018
+        }
+      ],
+      "body_angular_velocity_samples": [
+        {
+          "simulation_timestamp": 0.203,
+          "angular_velocity": 8.756095084786576e-16,
+          "body_angular_velocity": 8.756095084786576e-16,
+          "sample_interval": 0.006000000000000005
+        },
+        {
+          "simulation_timestamp": 0.20850000000000002,
+          "angular_velocity": 1.9464627651034633e-16,
+          "body_angular_velocity": 1.9464627651034633e-16,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.21300000000000002,
+          "angular_velocity": 1.2545032546528211e-15,
+          "body_angular_velocity": 1.2545032546528211e-15,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.21700000000000003,
+          "angular_velocity": 8.371625949472681e-16,
+          "body_angular_velocity": 8.371625949472681e-16,
+          "sample_interval": 0.003999999999999976
+        },
+        {
+          "simulation_timestamp": 0.221,
+          "angular_velocity": 6.21514163619559e-16,
+          "body_angular_velocity": 6.21514163619559e-16,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.225,
+          "angular_velocity": 1.1509583443958012e-15,
+          "body_angular_velocity": 1.1509583443958012e-15,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.229,
+          "angular_velocity": 7.550262490850972e-16,
+          "body_angular_velocity": 7.550262490850972e-16,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.233,
+          "angular_velocity": 5.287436142640823e-16,
+          "body_angular_velocity": 5.287436142640823e-16,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.23700000000000002,
+          "angular_velocity": 9.26029510946491e-16,
+          "body_angular_velocity": 9.26029510946491e-16,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.24100000000000002,
+          "angular_velocity": 3.936791197450906e-16,
+          "body_angular_velocity": 3.936791197450906e-16,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.24500000000000002,
+          "angular_velocity": 6.191157417716807e-16,
+          "body_angular_velocity": 6.191157417716807e-16,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.249,
+          "angular_velocity": 6.096056182356855e-16,
+          "body_angular_velocity": 6.096056182356855e-16,
+          "sample_interval": 0.003999999999999976
+        },
+        {
+          "simulation_timestamp": 0.253,
+          "angular_velocity": 4.438996486378114e-16,
+          "body_angular_velocity": 4.438996486378114e-16,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.257,
+          "angular_velocity": 7.306269361181007e-16,
+          "body_angular_velocity": 7.306269361181007e-16,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.2615,
+          "angular_velocity": -0.01864558700465463,
+          "body_angular_velocity": -0.01864558700465463,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.2665,
+          "angular_velocity": -0.10184901287948414,
+          "body_angular_velocity": -0.10184901287948414,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.272,
+          "angular_velocity": -0.1992200771058646,
+          "body_angular_velocity": -0.1992200771058646,
+          "sample_interval": 0.006000000000000005
+        },
+        {
+          "simulation_timestamp": 0.2775,
+          "angular_velocity": -0.2967054059472132,
+          "body_angular_velocity": -0.2967054059472132,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.28250000000000003,
+          "angular_velocity": -0.38548080425622494,
+          "body_angular_velocity": -0.38548080425622494,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.28700000000000003,
+          "angular_velocity": -0.46553507860279264,
+          "body_angular_velocity": -0.46553507860279264,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.29100000000000004,
+          "angular_velocity": -0.5368508006979874,
+          "body_angular_velocity": -0.5368508006979874,
+          "sample_interval": 0.0040000000000000036
+        },
+        {
+          "simulation_timestamp": 0.29550000000000004,
+          "angular_velocity": -0.6172878690946052,
+          "body_angular_velocity": -0.6172878690946052,
+          "sample_interval": 0.0050000000000000044
+        },
+        {
+          "simulation_timestamp": 0.29900000000000004,
+          "angular_velocity": -0.6800033529857852,
+          "body_angular_velocity": -0.6800033529857852,
+          "sample_interval": 0.0020000000000000018
+        }
+      ],
+      "world_start_forward_velocity": 0.49542932781528465,
+      "world_end_forward_velocity": 0.04219263776589208,
+      "body_start_forward_velocity": 0.49542932781528465,
+      "body_end_forward_velocity": 0.04219263776589208,
+      "world_start_angular_velocity": 8.756095084786576e-16,
+      "world_end_angular_velocity": -0.6800033529857852,
+      "body_start_angular_velocity": 8.756095084786576e-16,
+      "body_end_angular_velocity": -0.6800033529857852,
+      "world_start_velocity_interval": [
+        0.2,
+        0.20600000000000002
+      ],
+      "world_end_velocity_interval": [
+        0.29800000000000004,
+        0.30000000000000004
+      ],
+      "world_velocity_zero_crossing": false,
+      "world_velocity_zero_crossing_time": null,
+      "world_pose_history_fresh": true,
+      "world_pose_history_dense_enough": true,
+      "world_pose_history_max_gap": 0.006000000000000005,
+      "world_pose_source": "/world/<world>/pose/info Pose_V agent pose in world frame",
+      "world_pose_timestamp_source": "Pose_V.header.stamp simulation time; contained Pose.header.stamp fallback",
+      "world_pose_velocity_method": "finite_difference_adjacent_pose_samples",
+      "world_pose_velocity_note": "adjacent world-pose finite difference projected onto prior body-forward axis; distinct from wheel-joint odometry"
+    },
+    "world_pose_history": [
+      {
+        "receive_sequence": 97,
+        "simulation_timestamp": 0.2,
+        "world_x": 1.5494999565548586,
+        "world_y": 1.5,
+        "world_yaw": -6.352928209740286e-18
+      },
+      {
+        "receive_sequence": 98,
+        "simulation_timestamp": 0.2,
+        "world_x": 1.5494999565548586,
+        "world_y": 1.5,
+        "world_yaw": -6.352928209740286e-18
+      },
+      {
+        "receive_sequence": 99,
+        "simulation_timestamp": 0.2,
+        "world_x": 1.5494999565548586,
+        "world_y": 1.5,
+        "world_yaw": -6.352928209740286e-18
+      },
+      {
+        "receive_sequence": 100,
+        "simulation_timestamp": 0.2,
+        "world_x": 1.5494999565548586,
+        "world_y": 1.5,
+        "world_yaw": -6.352928209740286e-18
+      },
+      {
+        "receive_sequence": 101,
+        "simulation_timestamp": 0.2,
+        "world_x": 1.5494999565548586,
+        "world_y": 1.5,
+        "world_yaw": -6.352928209740286e-18
+      },
+      {
+        "receive_sequence": 102,
+        "simulation_timestamp": 0.2,
+        "world_x": 1.5494999565548586,
+        "world_y": 1.5,
+        "world_yaw": -6.352928209740286e-18
+      },
+      {
+        "receive_sequence": 103,
+        "simulation_timestamp": 0.2,
+        "world_x": 1.5494999565548586,
+        "world_y": 1.5,
+        "world_yaw": -6.352928209740286e-18
+      },
+      {
+        "receive_sequence": 104,
+        "simulation_timestamp": 0.2,
+        "world_x": 1.5494999565548586,
+        "world_y": 1.5,
+        "world_yaw": -6.352928209740286e-18
+      },
+      {
+        "receive_sequence": 105,
+        "simulation_timestamp": 0.2,
+        "world_x": 1.5494999565548586,
+        "world_y": 1.5,
+        "world_yaw": -6.352928209740286e-18
+      },
+      {
+        "receive_sequence": 106,
+        "simulation_timestamp": 0.2,
+        "world_x": 1.5494999565548586,
+        "world_y": 1.5,
+        "world_yaw": -6.352928209740286e-18
+      },
+      {
+        "receive_sequence": 107,
+        "simulation_timestamp": 0.20600000000000002,
+        "world_x": 1.5524725325217503,
+        "world_y": 1.5,
+        "world_yaw": -1.099271158868335e-18
+      },
+      {
+        "receive_sequence": 108,
+        "simulation_timestamp": 0.21100000000000002,
+        "world_x": 1.55481025065763,
+        "world_y": 1.5,
+        "world_yaw": -1.260397763166023e-19
+      },
+      {
+        "receive_sequence": 109,
+        "simulation_timestamp": 0.21500000000000002,
+        "world_x": 1.5565772199245973,
+        "world_y": 1.5,
+        "world_yaw": 4.8919732422946865e-18
+      },
+      {
+        "receive_sequence": 110,
+        "simulation_timestamp": 0.219,
+        "world_x": 1.558252451198975,
+        "world_y": 1.5,
+        "world_yaw": 8.240623622083738e-18
+      },
+      {
+        "receive_sequence": 111,
+        "simulation_timestamp": 0.223,
+        "world_x": 1.5598359444806773,
+        "world_y": 1.5,
+        "world_yaw": 1.0726680276561977e-17
+      },
+      {
+        "receive_sequence": 112,
+        "simulation_timestamp": 0.227,
+        "world_x": 1.5613276997697545,
+        "world_y": 1.5,
+        "world_yaw": 1.5330513654145186e-17
+      },
+      {
+        "receive_sequence": 113,
+        "simulation_timestamp": 0.231,
+        "world_x": 1.562727717066231,
+        "world_y": 1.5,
+        "world_yaw": 1.8350618650485577e-17
+      },
+      {
+        "receive_sequence": 114,
+        "simulation_timestamp": 0.23500000000000001,
+        "world_x": 1.5640359963700605,
+        "world_y": 1.5,
+        "world_yaw": 2.0465593107541908e-17
+      },
+      {
+        "receive_sequence": 115,
+        "simulation_timestamp": 0.23900000000000002,
+        "world_x": 1.565252537681271,
+        "world_y": 1.5,
+        "world_yaw": 2.4169711151327876e-17
+      },
+      {
+        "receive_sequence": 116,
+        "simulation_timestamp": 0.24300000000000002,
+        "world_x": 1.566377340999842,
+        "world_y": 1.5,
+        "world_yaw": 2.574442763030824e-17
+      },
+      {
+        "receive_sequence": 117,
+        "simulation_timestamp": 0.24700000000000003,
+        "world_x": 1.567410406325833,
+        "world_y": 1.5,
+        "world_yaw": 2.8220890597394964e-17
+      },
+      {
+        "receive_sequence": 118,
+        "simulation_timestamp": 0.251,
+        "world_x": 1.5683517336592432,
+        "world_y": 1.5,
+        "world_yaw": 3.065931307033769e-17
+      },
+      {
+        "receive_sequence": 119,
+        "simulation_timestamp": 0.255,
+        "world_x": 1.569201323000015,
+        "world_y": 1.5,
+        "world_yaw": 3.243491166488894e-17
+      },
+      {
+        "receive_sequence": 120,
+        "simulation_timestamp": 0.259,
+        "world_x": 1.569959174348166,
+        "world_y": 1.5,
+        "world_yaw": 3.5357419409361344e-17
+      },
+      {
+        "receive_sequence": 121,
+        "simulation_timestamp": 0.264,
+        "world_x": 1.5707904507589274,
+        "world_y": 1.4999999997484497,
+        "world_yaw": -9.322793502323788e-05
+      },
+      {
+        "receive_sequence": 122,
+        "simulation_timestamp": 0.269,
+        "world_x": 1.5715362395372443,
+        "world_y": 1.4999999989252637,
+        "world_yaw": -0.000602472999420659
+      },
+      {
+        "receive_sequence": 123,
+        "simulation_timestamp": 0.275,
+        "world_x": 1.5723231037894032,
+        "world_y": 1.4999999972702198,
+        "world_yaw": -0.0017977934620558476
+      },
+      {
+        "receive_sequence": 124,
+        "simulation_timestamp": 0.28,
+        "world_x": 1.5728886488282392,
+        "world_y": 1.4999999953342298,
+        "world_yaw": -0.003281320491791915
+      },
+      {
+        "receive_sequence": 125,
+        "simulation_timestamp": 0.28500000000000003,
+        "world_x": 1.573372074292081,
+        "world_y": 1.4999999928909165,
+        "world_yaw": -0.005208724513073041
+      },
+      {
+        "receive_sequence": 126,
+        "simulation_timestamp": 0.28900000000000003,
+        "world_x": 1.5736995719564253,
+        "world_y": 1.4999999905700374,
+        "world_yaw": -0.007070864827484214
+      },
+      {
+        "receive_sequence": 127,
+        "simulation_timestamp": 0.29300000000000004,
+        "world_x": 1.5739742931899794,
+        "world_y": 1.4999999879226442,
+        "world_yaw": -0.009218268030276165
+      },
+      {
+        "receive_sequence": 128,
+        "simulation_timestamp": 0.29800000000000004,
+        "world_x": 1.5742432864969993,
+        "world_y": 1.49999998415267,
+        "world_yaw": -0.012304707375749194
+      },
+      {
+        "receive_sequence": 129,
+        "simulation_timestamp": 0.30000000000000004,
+        "world_x": 1.5743276781408193,
+        "world_y": 1.4999999825008759,
+        "world_yaw": -0.013664714081720765
+      },
+      {
+        "receive_sequence": 130,
+        "simulation_timestamp": 0.30000000000000004,
+        "world_x": 1.5743276781408193,
+        "world_y": 1.4999999825008759,
+        "world_yaw": -0.013664714081720765
+      },
+      {
+        "receive_sequence": 131,
+        "simulation_timestamp": 0.30000000000000004,
+        "world_x": 1.5743276781408193,
+        "world_y": 1.4999999825008759,
+        "world_yaw": -0.013664714081720765
+      },
+      {
+        "receive_sequence": 132,
+        "simulation_timestamp": 0.30000000000000004,
+        "world_x": 1.5743276781408193,
+        "world_y": 1.4999999825008759,
+        "world_yaw": -0.013664714081720765
+      },
+      {
+        "receive_sequence": 133,
+        "simulation_timestamp": 0.30000000000000004,
+        "world_x": 1.5743276781408193,
+        "world_y": 1.4999999825008759,
+        "world_yaw": -0.013664714081720765
+      }
+    ]
+  }
+}
