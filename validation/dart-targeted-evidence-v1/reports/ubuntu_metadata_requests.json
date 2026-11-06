@@ -1,0 +1,26 @@
+{
+  "requests": [
+    {
+      "url": "http://ddebs.ubuntu.com/dists/noble/universe/binary-amd64/Packages.xz",
+      "rc": 0,
+      "stderr": "",
+      "size": 5115004,
+      "sha256": "f514482d4496e3863cfaf079c72070e58317b6728e1d4f02f567d5ac24a48de1"
+    },
+    {
+      "url": "http://ddebs.ubuntu.com/dists/noble/Release.gpg",
+      "rc": 0,
+      "stderr": "",
+      "size": 833,
+      "sha256": "4b225d36c49f8d4074f10710f1669f1b01e9f44958bb2ffd432a7f988157a0b1"
+    }
+  ],
+  "release_url": "http://ddebs.ubuntu.com/dists/noble/Release",
+  "trust": "FINAL_AUTHENTICATED: see ubuntu_debug_signature.json; initial NO_PUBKEY preserved",
+  "historical_signature_status": {
+    "rc": 2,
+    "stdout": "",
+    "stderr": "gpgv: Signature made Thu Apr 25 20:41:02 2024 KST\ngpgv:                using RSA key F2EDC64DC5AEE1F6B9C621F0C8CAB6595FDFF622\ngpgv: Can't check signature: No public key\n"
+  },
+  "final_signature_evidence": "ubuntu_debug_signature.json"
+}

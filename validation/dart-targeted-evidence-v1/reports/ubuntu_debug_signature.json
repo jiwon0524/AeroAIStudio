@@ -1,0 +1,46 @@
+{
+  "ubuntu_apt_release_signature": {
+    "rc": 0,
+    "stdout": "",
+    "stderr": "gpgv: Signature made Fri Apr 26 00:11:21 2024 KST\ngpgv:                using RSA key F6ECB3762474EDA9D21B7022871920D1991BC93C\ngpgv: Good signature from \"Ubuntu Archive Automatic Signing Key (2018) <ftpmaster@ubuntu.com>\"\n"
+  },
+  "ubuntu_apt_index_sha256": "8f6f71ae839c8cba390a7643fcbbdacddb0bc7d12c1583a2dd80a1f8443a30e5",
+  "keyring_package": {
+    "Package": "ubuntu-dbgsym-keyring",
+    "Architecture": "all",
+    "Version": "2023.11.28.1",
+    "Priority": "optional",
+    "Section": "misc",
+    "Source": "ubuntu-keyring",
+    "Origin": "Ubuntu",
+    "Maintainer": "Dimitri John Ledkov <dimitri.ledkov@canonical.com>",
+    "Bugs": "https://bugs.launchpad.net/ubuntu/+filebug",
+    "Installed-Size": "18",
+    "Filename": "pool/main/u/ubuntu-keyring/ubuntu-dbgsym-keyring_2023.11.28.1_all.deb",
+    "Size": "4528",
+    "MD5sum": "7989b91b97decc6e36dfd260be5b3bf9",
+    "SHA1": "060ff0ee5470780f2c982c583dd1a84821ddcb66",
+    "SHA256": "777b6a23443c60e54ccd3c5ee960a975450a8c4a0255affe0b7121df938a0cb1",
+    "SHA512": "1fdecfe74679ffcbaa285d8707dc887219a258e62a2f6a7bf9d2d5f2a228a773b5c96fcefd9a949efaa298607be54fa7159022b3e73099ca5db5bebf27eb3904",
+    "Description": "GnuPG keys of the Ubuntu Debug Symbols Archive",
+    "Description-md5": "cda5aac135d32f40b5d56c05d835a899"
+  },
+  "keyring_package_url": "https://archive.ubuntu.com/ubuntu/pool/main/u/ubuntu-keyring/ubuntu-dbgsym-keyring_2023.11.28.1_all.deb",
+  "keyring_package_sha256": "777b6a23443c60e54ccd3c5ee960a975450a8c4a0255affe0b7121df938a0cb1",
+  "ddebs_release_signature": {
+    "rc": 0,
+    "stdout": "",
+    "stderr": "gpgv: Signature made Thu Apr 25 20:41:02 2024 KST\ngpgv:                using RSA key F2EDC64DC5AEE1F6B9C621F0C8CAB6595FDFF622\ngpgv: Good signature from \"Ubuntu Debug Symbol Archive Automatic Signing Key (2016) <ubuntu-archive@lists.ubuntu.com>\"\n"
+  },
+  "keys": [
+    {
+      "path": "work/ubuntu-keyring-extracted/usr/share/keyrings/ubuntu-dbgsym-keyring.gpg",
+      "sha256": "f7b82100e2c8dce9a6b6e2082a7d885f2812a71de2a2d9315ac58dc66dc46c39"
+    },
+    {
+      "path": "work/ubuntu-keyring-extracted/usr/share/keyrings/ubuntu-dbgsym-removed-keys.gpg",
+      "sha256": "92c4149d9a4ebe3407b07917708825c08022f097c4471090bbfb64ec2f901661"
+    }
+  ],
+  "system_install": false
+}

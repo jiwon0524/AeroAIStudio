@@ -1,0 +1,551 @@
+{
+  "unique_elf_count": 6,
+  "binaries": [
+    {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "sha256": "f74f4ec9820aee785ef94fb7bedafa7e4c832f209675a8ca1d35019c72b48e06",
+      "build_id": "071aa565b343db80e31aae393aadaed33c7adb46",
+      "soname": [
+        "libdart.so.6.13"
+      ],
+      "needed": [
+        "libdart-external-odelcpsolver.so.6.13",
+        "libfcl.so.0.7",
+        "liboctomap.so.1.9",
+        "liboctomath.so.1.9",
+        "libassimp.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [],
+      "has_debug_info": false,
+      "has_symtab": false,
+      "debuglink": {
+        "filename": "1aa565b343db80e31aae393aadaed33c7adb46.debug",
+        "crc32": 1834565908
+      },
+      "role": "installed_core",
+      "requested_path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13",
+      "is_symlink": true,
+      "link_target": "libdart.so.6.13.2",
+      "aliases": [
+        "/usr/lib/x86_64-linux-gnu/libdart.so.6.13",
+        "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2"
+      ],
+      "v4_comparison": {
+        "recorded": "A",
+        "hash_match": true,
+        "build_id_match": true
+      },
+      "package_owner_query": {
+        "rc": 0,
+        "stdout": "libdart-core+collisions+odelcpsolver6.13:amd64: /usr/lib/x86_64-linux-gnu/libdart.so.6.13.2\n",
+        "stderr": ""
+      },
+      "package": {
+        "Package": "libdart-core+collisions+odelcpsolver6.13",
+        "Status": "install ok installed",
+        "Priority": "optional",
+        "Section": "libs",
+        "Installed-Size": "6325",
+        "Maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+        "Architecture": "amd64",
+        "Multi-Arch": "same",
+        "Source": "dart",
+        "Version": "6.13.2+ds1-1~osrf2~noble",
+        "Depends": "libassimp5 (>= 5.3.1+ds), libbullet3.24t64 (>= 3.24+dfsg), libc6 (>= 2.38), libfcl0.7 (>= 0.7.0), libgcc-s1 (>= 3.3.1), liboctomap1.9t64 (>= 1.9.7+dfsg), libode8t64 (>= 2:0.16.2), libstdc++6 (>= 13.1)",
+        "Description": "Kinematics Dynamics and Optimization Library - main library\nDART is a collaborative, cross-platform, open source library created by the\nGeorgia Tech Graphics Lab and Humanoid Robotics Lab. The library provides data\nstructures and algorithms for kinematic and dynamic applications in robotics\nand computer animation.\nDART is distinguished by it's accuracy and stability due to its use of\ngeneralized coordinates to represent articulated rigid body systems and\ncomputation of Lagrange's equations derived from D.Alembert's principle to\ndescribe the dynamics of motion.\nFor developers, in contrast to many popular physics engines which view the\nsimulator as a black box, DART gives full access to internal kinematic and\ndynamic quantities, such as the mass matrix, Coriolis and centrifugal forces,\ntransformation matrices and their derivatives. DART also provides efficient\ncomputation of Jacobian matrices for arbitrary body points and coordinate\nframes. Contact and collision are handled using an implicit time-stepping,\nvelocity-based LCP (linear-complementarity problem) to guarantee\nnon-penetration, directional friction, and approximated Coulomb friction cone\nconditions. For collision detection, DART uses FCL developed by Willow Garage\nand the UNC Gamma Lab.\nDART has applications in robotics and computer animation because it features a\nmultibody dynamic simulator and tools for control and motion planning.\nMultibody dynamic simulation in DART is an extension of RTQL8, an open source\nsoftware created by the Georgia Tech Graphics Lab.\n.\nThis package contains the main library of DART, the collisions libraries\nfor ode and bullet and the external odelcpsolver library. See\nhttps://github.com/gazebosim/gz-physics/issues/541 for more information.",
+        "Homepage": "http://dartsim.github.io/"
+      },
+      "apt_policy": "libdart-core+collisions+odelcpsolver6.13:\n  Installed: 6.13.2+ds1-1~osrf2~noble\n  Candidate: 6.13.2+ds1-1~osrf2~noble\n  Version table:\n *** 6.13.2+ds1-1~osrf2~noble 500\n        500 http://packages.osrfoundation.org/gazebo/ubuntu-stable noble/main amd64 Packages\n        100 /var/lib/dpkg/status\n",
+      "apt_metadata": [
+        {
+          "Package": "libdart-core+collisions+odelcpsolver6.13",
+          "Source": "dart",
+          "Priority": "optional",
+          "Section": "libs",
+          "Installed-Size": "6325",
+          "Maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+          "Architecture": "amd64",
+          "Version": "6.13.2+ds1-1~osrf2~noble",
+          "Depends": "libassimp5 (>= 5.3.1+ds), libbullet3.24t64 (>= 3.24+dfsg), libc6 (>= 2.38), libfcl0.7 (>= 0.7.0), libgcc-s1 (>= 3.3.1), liboctomap1.9t64 (>= 1.9.7+dfsg), libode8t64 (>= 2:0.16.2), libstdc++6 (>= 13.1)",
+          "Filename": "pool/main/d/dart/libdart-core+collisions+odelcpsolver6.13_6.13.2+ds1-1~osrf2~noble_amd64.deb",
+          "Size": "1469456",
+          "SHA256": "7602bf8695cb1e673be9008ed17222e9ff1a08b3bbaa211a05a4ce73c579037e",
+          "SHA1": "437404d9f41a70db2853cdc4512d316ca1064073",
+          "MD5sum": "7adabf9f7fce3a05b315ce276a033e25",
+          "Description": "Kinematics Dynamics and Optimization Library - main library\nDART is a collaborative, cross-platform, open source library created by the\nGeorgia Tech Graphics Lab and Humanoid Robotics Lab. The library provides data\nstructures and algorithms for kinematic and dynamic applications in robotics\nand computer animation.\nDART is distinguished by it's accuracy and stability due to its use of\ngeneralized coordinates to represent articulated rigid body systems and\ncomputation of Lagrange's equations derived from D.Alembert's principle to\ndescribe the dynamics of motion.\nFor developers, in contrast to many popular physics engines which view the\nsimulator as a black box, DART gives full access to internal kinematic and\ndynamic quantities, such as the mass matrix, Coriolis and centrifugal forces,\ntransformation matrices and their derivatives. DART also provides efficient\ncomputation of Jacobian matrices for arbitrary body points and coordinate\nframes. Contact and collision are handled using an implicit time-stepping,\nvelocity-based LCP (linear-complementarity problem) to guarantee\nnon-penetration, directional friction, and approximated Coulomb friction cone\nconditions. For collision detection, DART uses FCL developed by Willow Garage\nand the UNC Gamma Lab.\nDART has applications in robotics and computer animation because it features a\nmultibody dynamic simulator and tools for control and motion planning.\nMultibody dynamic simulation in DART is an extension of RTQL8, an open source\nsoftware created by the Georgia Tech Graphics Lab.\n.\nThis package contains the main library of DART, the collisions libraries\nfor ode and bullet and the external odelcpsolver library. See\nhttps://github.com/gazebosim/gz-physics/issues/541 for more information.",
+          "Description-md5": "",
+          "Multi-Arch": "same"
+        }
+      ],
+      "origin": "OSRF candidate metadata/policy; historical installation transaction origin UNKNOWN",
+      "local_debug_candidates": [
+        {
+          "path": "/usr/lib/debug/.build-id/07/1aa565b343db80e31aae393aadaed33c7adb46.debug",
+          "exists": false
+        },
+        {
+          "path": "/usr/lib/debug/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+          "exists": false
+        },
+        {
+          "path": "/usr/lib/x86_64-linux-gnu/1aa565b343db80e31aae393aadaed33c7adb46.debug",
+          "exists": false
+        },
+        {
+          "path": "/usr/lib/x86_64-linux-gnu/.debug/1aa565b343db80e31aae393aadaed33c7adb46.debug",
+          "exists": false
+        },
+        {
+          "path": "/usr/lib/debug/usr/lib/x86_64-linux-gnu/1aa565b343db80e31aae393aadaed33c7adb46.debug",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+      "sha256": "b890ed6936ea7cf486303fc5101ee5ff68356fc89596273ebaef83671aa4cb16",
+      "build_id": "abba8be3e710b1a505116d4bada0803f8bd49398",
+      "soname": [
+        "libdart-external-odelcpsolver.so.6.13"
+      ],
+      "needed": [
+        "libstdc++.so.6",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [],
+      "has_debug_info": false,
+      "has_symtab": false,
+      "debuglink": {
+        "filename": "ba8be3e710b1a505116d4bada0803f8bd49398.debug",
+        "crc32": 3338103984
+      },
+      "role": "installed_external",
+      "requested_path": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13",
+      "is_symlink": true,
+      "link_target": "libdart-external-odelcpsolver.so.6.13.2",
+      "aliases": [
+        "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13",
+        "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2"
+      ],
+      "v4_comparison": {
+        "recorded": null,
+        "status": "not in V4 verdict identifiers"
+      },
+      "package_owner_query": {
+        "rc": 0,
+        "stdout": "libdart-core+collisions+odelcpsolver6.13:amd64: /usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2\n",
+        "stderr": ""
+      },
+      "package": {
+        "Package": "libdart-core+collisions+odelcpsolver6.13",
+        "Status": "install ok installed",
+        "Priority": "optional",
+        "Section": "libs",
+        "Installed-Size": "6325",
+        "Maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+        "Architecture": "amd64",
+        "Multi-Arch": "same",
+        "Source": "dart",
+        "Version": "6.13.2+ds1-1~osrf2~noble",
+        "Depends": "libassimp5 (>= 5.3.1+ds), libbullet3.24t64 (>= 3.24+dfsg), libc6 (>= 2.38), libfcl0.7 (>= 0.7.0), libgcc-s1 (>= 3.3.1), liboctomap1.9t64 (>= 1.9.7+dfsg), libode8t64 (>= 2:0.16.2), libstdc++6 (>= 13.1)",
+        "Description": "Kinematics Dynamics and Optimization Library - main library\nDART is a collaborative, cross-platform, open source library created by the\nGeorgia Tech Graphics Lab and Humanoid Robotics Lab. The library provides data\nstructures and algorithms for kinematic and dynamic applications in robotics\nand computer animation.\nDART is distinguished by it's accuracy and stability due to its use of\ngeneralized coordinates to represent articulated rigid body systems and\ncomputation of Lagrange's equations derived from D.Alembert's principle to\ndescribe the dynamics of motion.\nFor developers, in contrast to many popular physics engines which view the\nsimulator as a black box, DART gives full access to internal kinematic and\ndynamic quantities, such as the mass matrix, Coriolis and centrifugal forces,\ntransformation matrices and their derivatives. DART also provides efficient\ncomputation of Jacobian matrices for arbitrary body points and coordinate\nframes. Contact and collision are handled using an implicit time-stepping,\nvelocity-based LCP (linear-complementarity problem) to guarantee\nnon-penetration, directional friction, and approximated Coulomb friction cone\nconditions. For collision detection, DART uses FCL developed by Willow Garage\nand the UNC Gamma Lab.\nDART has applications in robotics and computer animation because it features a\nmultibody dynamic simulator and tools for control and motion planning.\nMultibody dynamic simulation in DART is an extension of RTQL8, an open source\nsoftware created by the Georgia Tech Graphics Lab.\n.\nThis package contains the main library of DART, the collisions libraries\nfor ode and bullet and the external odelcpsolver library. See\nhttps://github.com/gazebosim/gz-physics/issues/541 for more information.",
+        "Homepage": "http://dartsim.github.io/"
+      },
+      "apt_policy": "libdart-core+collisions+odelcpsolver6.13:\n  Installed: 6.13.2+ds1-1~osrf2~noble\n  Candidate: 6.13.2+ds1-1~osrf2~noble\n  Version table:\n *** 6.13.2+ds1-1~osrf2~noble 500\n        500 http://packages.osrfoundation.org/gazebo/ubuntu-stable noble/main amd64 Packages\n        100 /var/lib/dpkg/status\n",
+      "apt_metadata": [
+        {
+          "Package": "libdart-core+collisions+odelcpsolver6.13",
+          "Source": "dart",
+          "Priority": "optional",
+          "Section": "libs",
+          "Installed-Size": "6325",
+          "Maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+          "Architecture": "amd64",
+          "Version": "6.13.2+ds1-1~osrf2~noble",
+          "Depends": "libassimp5 (>= 5.3.1+ds), libbullet3.24t64 (>= 3.24+dfsg), libc6 (>= 2.38), libfcl0.7 (>= 0.7.0), libgcc-s1 (>= 3.3.1), liboctomap1.9t64 (>= 1.9.7+dfsg), libode8t64 (>= 2:0.16.2), libstdc++6 (>= 13.1)",
+          "Filename": "pool/main/d/dart/libdart-core+collisions+odelcpsolver6.13_6.13.2+ds1-1~osrf2~noble_amd64.deb",
+          "Size": "1469456",
+          "SHA256": "7602bf8695cb1e673be9008ed17222e9ff1a08b3bbaa211a05a4ce73c579037e",
+          "SHA1": "437404d9f41a70db2853cdc4512d316ca1064073",
+          "MD5sum": "7adabf9f7fce3a05b315ce276a033e25",
+          "Description": "Kinematics Dynamics and Optimization Library - main library\nDART is a collaborative, cross-platform, open source library created by the\nGeorgia Tech Graphics Lab and Humanoid Robotics Lab. The library provides data\nstructures and algorithms for kinematic and dynamic applications in robotics\nand computer animation.\nDART is distinguished by it's accuracy and stability due to its use of\ngeneralized coordinates to represent articulated rigid body systems and\ncomputation of Lagrange's equations derived from D.Alembert's principle to\ndescribe the dynamics of motion.\nFor developers, in contrast to many popular physics engines which view the\nsimulator as a black box, DART gives full access to internal kinematic and\ndynamic quantities, such as the mass matrix, Coriolis and centrifugal forces,\ntransformation matrices and their derivatives. DART also provides efficient\ncomputation of Jacobian matrices for arbitrary body points and coordinate\nframes. Contact and collision are handled using an implicit time-stepping,\nvelocity-based LCP (linear-complementarity problem) to guarantee\nnon-penetration, directional friction, and approximated Coulomb friction cone\nconditions. For collision detection, DART uses FCL developed by Willow Garage\nand the UNC Gamma Lab.\nDART has applications in robotics and computer animation because it features a\nmultibody dynamic simulator and tools for control and motion planning.\nMultibody dynamic simulation in DART is an extension of RTQL8, an open source\nsoftware created by the Georgia Tech Graphics Lab.\n.\nThis package contains the main library of DART, the collisions libraries\nfor ode and bullet and the external odelcpsolver library. See\nhttps://github.com/gazebosim/gz-physics/issues/541 for more information.",
+          "Description-md5": "",
+          "Multi-Arch": "same"
+        }
+      ],
+      "origin": "OSRF candidate metadata/policy; historical installation transaction origin UNKNOWN",
+      "local_debug_candidates": [
+        {
+          "path": "/usr/lib/debug/.build-id/ab/ba8be3e710b1a505116d4bada0803f8bd49398.debug",
+          "exists": false
+        },
+        {
+          "path": "/usr/lib/debug/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+          "exists": false
+        },
+        {
+          "path": "/usr/lib/x86_64-linux-gnu/ba8be3e710b1a505116d4bada0803f8bd49398.debug",
+          "exists": false
+        },
+        {
+          "path": "/usr/lib/x86_64-linux-gnu/.debug/ba8be3e710b1a505116d4bada0803f8bd49398.debug",
+          "exists": false
+        },
+        {
+          "path": "/usr/lib/debug/usr/lib/x86_64-linux-gnu/ba8be3e710b1a505116d4bada0803f8bd49398.debug",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+      "sha256": "897709e0c988e9e562c662292ed5bc860bce70ee2c64499501f54a6b5ca02201",
+      "build_id": "8bda73145d9c6cc97d6faff5895c2ce1aa091f6f",
+      "soname": [
+        "libdart-collision-bullet.so.6.13"
+      ],
+      "needed": [
+        "libdart.so.6.13",
+        "libBulletCollision.so.3.24",
+        "libLinearMath.so.3.24",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [],
+      "has_debug_info": false,
+      "has_symtab": false,
+      "debuglink": {
+        "filename": "da73145d9c6cc97d6faff5895c2ce1aa091f6f.debug",
+        "crc32": 4209051471
+      },
+      "role": "installed_bullet",
+      "requested_path": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13",
+      "is_symlink": true,
+      "link_target": "libdart-collision-bullet.so.6.13.2",
+      "aliases": [
+        "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13",
+        "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2"
+      ],
+      "v4_comparison": {
+        "recorded": "Bullet",
+        "hash_match": true,
+        "build_id_match": true
+      },
+      "package_owner_query": {
+        "rc": 0,
+        "stdout": "libdart-core+collisions+odelcpsolver6.13:amd64: /usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2\n",
+        "stderr": ""
+      },
+      "package": {
+        "Package": "libdart-core+collisions+odelcpsolver6.13",
+        "Status": "install ok installed",
+        "Priority": "optional",
+        "Section": "libs",
+        "Installed-Size": "6325",
+        "Maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+        "Architecture": "amd64",
+        "Multi-Arch": "same",
+        "Source": "dart",
+        "Version": "6.13.2+ds1-1~osrf2~noble",
+        "Depends": "libassimp5 (>= 5.3.1+ds), libbullet3.24t64 (>= 3.24+dfsg), libc6 (>= 2.38), libfcl0.7 (>= 0.7.0), libgcc-s1 (>= 3.3.1), liboctomap1.9t64 (>= 1.9.7+dfsg), libode8t64 (>= 2:0.16.2), libstdc++6 (>= 13.1)",
+        "Description": "Kinematics Dynamics and Optimization Library - main library\nDART is a collaborative, cross-platform, open source library created by the\nGeorgia Tech Graphics Lab and Humanoid Robotics Lab. The library provides data\nstructures and algorithms for kinematic and dynamic applications in robotics\nand computer animation.\nDART is distinguished by it's accuracy and stability due to its use of\ngeneralized coordinates to represent articulated rigid body systems and\ncomputation of Lagrange's equations derived from D.Alembert's principle to\ndescribe the dynamics of motion.\nFor developers, in contrast to many popular physics engines which view the\nsimulator as a black box, DART gives full access to internal kinematic and\ndynamic quantities, such as the mass matrix, Coriolis and centrifugal forces,\ntransformation matrices and their derivatives. DART also provides efficient\ncomputation of Jacobian matrices for arbitrary body points and coordinate\nframes. Contact and collision are handled using an implicit time-stepping,\nvelocity-based LCP (linear-complementarity problem) to guarantee\nnon-penetration, directional friction, and approximated Coulomb friction cone\nconditions. For collision detection, DART uses FCL developed by Willow Garage\nand the UNC Gamma Lab.\nDART has applications in robotics and computer animation because it features a\nmultibody dynamic simulator and tools for control and motion planning.\nMultibody dynamic simulation in DART is an extension of RTQL8, an open source\nsoftware created by the Georgia Tech Graphics Lab.\n.\nThis package contains the main library of DART, the collisions libraries\nfor ode and bullet and the external odelcpsolver library. See\nhttps://github.com/gazebosim/gz-physics/issues/541 for more information.",
+        "Homepage": "http://dartsim.github.io/"
+      },
+      "apt_policy": "libdart-core+collisions+odelcpsolver6.13:\n  Installed: 6.13.2+ds1-1~osrf2~noble\n  Candidate: 6.13.2+ds1-1~osrf2~noble\n  Version table:\n *** 6.13.2+ds1-1~osrf2~noble 500\n        500 http://packages.osrfoundation.org/gazebo/ubuntu-stable noble/main amd64 Packages\n        100 /var/lib/dpkg/status\n",
+      "apt_metadata": [
+        {
+          "Package": "libdart-core+collisions+odelcpsolver6.13",
+          "Source": "dart",
+          "Priority": "optional",
+          "Section": "libs",
+          "Installed-Size": "6325",
+          "Maintainer": "Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>",
+          "Architecture": "amd64",
+          "Version": "6.13.2+ds1-1~osrf2~noble",
+          "Depends": "libassimp5 (>= 5.3.1+ds), libbullet3.24t64 (>= 3.24+dfsg), libc6 (>= 2.38), libfcl0.7 (>= 0.7.0), libgcc-s1 (>= 3.3.1), liboctomap1.9t64 (>= 1.9.7+dfsg), libode8t64 (>= 2:0.16.2), libstdc++6 (>= 13.1)",
+          "Filename": "pool/main/d/dart/libdart-core+collisions+odelcpsolver6.13_6.13.2+ds1-1~osrf2~noble_amd64.deb",
+          "Size": "1469456",
+          "SHA256": "7602bf8695cb1e673be9008ed17222e9ff1a08b3bbaa211a05a4ce73c579037e",
+          "SHA1": "437404d9f41a70db2853cdc4512d316ca1064073",
+          "MD5sum": "7adabf9f7fce3a05b315ce276a033e25",
+          "Description": "Kinematics Dynamics and Optimization Library - main library\nDART is a collaborative, cross-platform, open source library created by the\nGeorgia Tech Graphics Lab and Humanoid Robotics Lab. The library provides data\nstructures and algorithms for kinematic and dynamic applications in robotics\nand computer animation.\nDART is distinguished by it's accuracy and stability due to its use of\ngeneralized coordinates to represent articulated rigid body systems and\ncomputation of Lagrange's equations derived from D.Alembert's principle to\ndescribe the dynamics of motion.\nFor developers, in contrast to many popular physics engines which view the\nsimulator as a black box, DART gives full access to internal kinematic and\ndynamic quantities, such as the mass matrix, Coriolis and centrifugal forces,\ntransformation matrices and their derivatives. DART also provides efficient\ncomputation of Jacobian matrices for arbitrary body points and coordinate\nframes. Contact and collision are handled using an implicit time-stepping,\nvelocity-based LCP (linear-complementarity problem) to guarantee\nnon-penetration, directional friction, and approximated Coulomb friction cone\nconditions. For collision detection, DART uses FCL developed by Willow Garage\nand the UNC Gamma Lab.\nDART has applications in robotics and computer animation because it features a\nmultibody dynamic simulator and tools for control and motion planning.\nMultibody dynamic simulation in DART is an extension of RTQL8, an open source\nsoftware created by the Georgia Tech Graphics Lab.\n.\nThis package contains the main library of DART, the collisions libraries\nfor ode and bullet and the external odelcpsolver library. See\nhttps://github.com/gazebosim/gz-physics/issues/541 for more information.",
+          "Description-md5": "",
+          "Multi-Arch": "same"
+        }
+      ],
+      "origin": "OSRF candidate metadata/policy; historical installation transaction origin UNKNOWN",
+      "local_debug_candidates": [
+        {
+          "path": "/usr/lib/debug/.build-id/8b/da73145d9c6cc97d6faff5895c2ce1aa091f6f.debug",
+          "exists": false
+        },
+        {
+          "path": "/usr/lib/debug/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+          "exists": false
+        },
+        {
+          "path": "/usr/lib/x86_64-linux-gnu/da73145d9c6cc97d6faff5895c2ce1aa091f6f.debug",
+          "exists": false
+        },
+        {
+          "path": "/usr/lib/x86_64-linux-gnu/.debug/da73145d9c6cc97d6faff5895c2ce1aa091f6f.debug",
+          "exists": false
+        },
+        {
+          "path": "/usr/lib/debug/usr/lib/x86_64-linux-gnu/da73145d9c6cc97d6faff5895c2ce1aa091f6f.debug",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "real_path": "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "sha256": "1ee9350aa09d5a5eb43a5075c9c61d2cdcb85113d2ff1e0f32136847edf1688e",
+      "build_id": "c53e1a304ceb0f0dac85ff0e4872d0ffc50a28ac",
+      "soname": [
+        "libgz-physics7-dartsim-plugin.so.7"
+      ],
+      "needed": [
+        "libdart-collision-bullet.so.6.13",
+        "libLinearMath.so.3.24",
+        "libdart-collision-ode.so.6.13",
+        "libdart.so.6.13",
+        "libsdformat14.so.14",
+        "libgz-physics7.so.7",
+        "libgz-common5-graphics.so.5",
+        "libassimp.so.5",
+        "libgz-math7.so.7",
+        "libgz-common5.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [],
+      "has_debug_info": false,
+      "has_symtab": false,
+      "debuglink": {
+        "filename": "3e1a304ceb0f0dac85ff0e4872d0ffc50a28ac.debug",
+        "crc32": 454724910
+      },
+      "role": "gazebo_consumer",
+      "requested_path": "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "is_symlink": false,
+      "link_target": null,
+      "aliases": [
+        "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+        "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+        "/usr/lib/x86_64-linux-gnu/libgz-physics7-dartsim-plugin.so.7.8.0"
+      ],
+      "alias_hash_match": true,
+      "v4_comparison": {
+        "recorded": null,
+        "status": "not in V4 verdict identifiers"
+      },
+      "package_owner_query": {
+        "rc": 0,
+        "stdout": "libgz-physics7-dartsim:amd64: /usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0\n",
+        "stderr": ""
+      },
+      "package": {
+        "Package": "libgz-physics7-dartsim",
+        "Status": "install ok installed",
+        "Priority": "optional",
+        "Section": "libs",
+        "Installed-Size": "6116",
+        "Maintainer": "Jose Luis Rivero <jrivero@osrfoundation.org>",
+        "Architecture": "amd64",
+        "Multi-Arch": "same",
+        "Source": "gz-physics7",
+        "Version": "7.8.0-1~noble",
+        "Depends": "libassimp5 (>= 5.3.1+ds), libbullet3.24t64 (>= 3.24+dfsg), libc6 (>= 2.32), libdart-core+collisions+odelcpsolver6.13 (>= 6.13.2+ds1), libgcc-s1 (>= 3.0), libgz-common5 (>= 5.8.0), libgz-common5-graphics (>= 5.8.0), libgz-math7 (>= 7.6.0), libgz-physics7 (>= 7.8.0), libsdformat14 (>= 14.9.0), libstdc++6 (>= 13.1)",
+        "Description": "Gazebo Physics classes and functions for robot apps - Dartsim library\n Gazebo Physics is a component in the Gazebo framework, a set of libraries\n designed to rapidly develop robot applications.\n .\n DARTSim component shared library",
+        "Homepage": "http://gazebosim.org/"
+      },
+      "apt_policy": "libgz-physics7-dartsim:\n  Installed: 7.8.0-1~noble\n  Candidate: 7.9.0-1~noble\n  Version table:\n     7.9.0-1~noble 500\n        500 http://packages.osrfoundation.org/gazebo/ubuntu-stable noble/main amd64 Packages\n *** 7.8.0-1~noble 100\n        100 /var/lib/dpkg/status\n",
+      "apt_metadata": [
+        {
+          "Package": "libgz-physics7-dartsim",
+          "Source": "gz-physics7",
+          "Version": "7.9.0-1~noble",
+          "Architecture": "amd64",
+          "Maintainer": "Jose Luis Rivero <jrivero@osrfoundation.org>",
+          "Installed-Size": "6524",
+          "Depends": "libassimp5 (>= 5.3.1+ds), libbullet3.24t64 (>= 3.24+dfsg), libc6 (>= 2.32), libdart-core+collisions+odelcpsolver6.13 (>= 6.13.2+ds1), libgcc-s1 (>= 3.0), libgz-common5 (>= 5.9.0), libgz-common5-graphics (>= 5.9.0), libgz-math7 (>= 7.7.0), libgz-physics7 (>= 7.9.0), libode8t64 (>= 2:0.16.2), libsdformat14 (>= 14.9.0), libstdc++6 (>= 13.1)",
+          "Multi-Arch": "same",
+          "Homepage": "http://gazebosim.org/",
+          "Priority": "optional",
+          "Section": "libs",
+          "Filename": "pool/main/g/gz-physics7/libgz-physics7-dartsim_7.9.0-1~noble_amd64.deb",
+          "Size": "368156",
+          "SHA256": "870701064d499d04a21cbb9c4bcfe11433097ad765e118be54361b4c206296f8",
+          "SHA1": "6832af88b89ccd76e275d6d5aafe97bb591bc294",
+          "MD5sum": "42fce42096f58c57e62cdd4f3bf49c8c",
+          "Description": "Gazebo Physics classes and functions for robot apps - Dartsim library\n Gazebo Physics is a component in the Gazebo framework, a set of libraries\n designed to rapidly develop robot applications.\n .\n DARTSim component shared library",
+          "Description-md5": ""
+        },
+        {
+          "Package": "libgz-physics7-dartsim",
+          "Status": "install ok installed",
+          "Priority": "optional",
+          "Section": "libs",
+          "Installed-Size": "6116",
+          "Maintainer": "Jose Luis Rivero <jrivero@osrfoundation.org>",
+          "Architecture": "amd64",
+          "Multi-Arch": "same",
+          "Source": "gz-physics7",
+          "Version": "7.8.0-1~noble",
+          "Depends": "libassimp5 (>= 5.3.1+ds), libbullet3.24t64 (>= 3.24+dfsg), libc6 (>= 2.32), libdart-core+collisions+odelcpsolver6.13 (>= 6.13.2+ds1), libgcc-s1 (>= 3.0), libgz-common5 (>= 5.8.0), libgz-common5-graphics (>= 5.8.0), libgz-math7 (>= 7.6.0), libgz-physics7 (>= 7.8.0), libsdformat14 (>= 14.9.0), libstdc++6 (>= 13.1)",
+          "Description": "Gazebo Physics classes and functions for robot apps - Dartsim library\n Gazebo Physics is a component in the Gazebo framework, a set of libraries\n designed to rapidly develop robot applications.\n .\n DARTSim component shared library",
+          "Description-md5": "",
+          "Homepage": "http://gazebosim.org/"
+        }
+      ],
+      "origin": "OSRF candidate metadata/policy; historical installation transaction origin UNKNOWN",
+      "local_debug_candidates": [
+        {
+          "path": "/usr/lib/debug/.build-id/c5/3e1a304ceb0f0dac85ff0e4872d0ffc50a28ac.debug",
+          "exists": false
+        },
+        {
+          "path": "/usr/lib/debug/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+          "exists": false
+        },
+        {
+          "path": "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/3e1a304ceb0f0dac85ff0e4872d0ffc50a28ac.debug",
+          "exists": false
+        },
+        {
+          "path": "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/.debug/3e1a304ceb0f0dac85ff0e4872d0ffc50a28ac.debug",
+          "exists": false
+        },
+        {
+          "path": "/usr/lib/debug/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/3e1a304ceb0f0dac85ff0e4872d0ffc50a28ac.debug",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13.2",
+      "sha256": "8403def315fd0395e73f795610a7f258cb70400d93c1de9acab3ffc48e3562a3",
+      "build_id": "5b20c27ee40538cedd07931b3f703fadd3adc98d",
+      "soname": [
+        "libdart.so.6.13"
+      ],
+      "needed": [
+        "libdart-external-odelcpsolver.so.6.13",
+        "libfcl.so.0.7",
+        "liboctomap.so.1.9",
+        "liboctomath.so.1.9",
+        "libassimp.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu:"
+      ],
+      "has_debug_info": true,
+      "has_symtab": true,
+      "debuglink": null,
+      "role": "baseline_core",
+      "requested_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13.2",
+      "is_symlink": false,
+      "link_target": null,
+      "aliases": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13.2",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13.2"
+      ],
+      "v4_comparison": {
+        "recorded": "B",
+        "hash_match": true,
+        "build_id_match": true
+      },
+      "package_owner_query": {
+        "rc": 1,
+        "stdout": "",
+        "stderr": "dpkg-query: no path found matching pattern /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13.2\n"
+      },
+      "package": null,
+      "origin": "local isolated build; not an installed package",
+      "architecture": "ELF64 x86-64 local build; amd64",
+      "local_debug_candidates": [
+        {
+          "path": "/usr/lib/debug/.build-id/5b/20c27ee40538cedd07931b3f703fadd3adc98d.debug",
+          "exists": false
+        },
+        {
+          "path": "/usr/lib/debug/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13.2",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2",
+      "sha256": "08abe8d16ab0060f860e6c937d567a2f4137f61dfecabb4ec6f1a327e22eddcc",
+      "build_id": "a93979d2a4c513bc4e647e36571fad6988432f21",
+      "soname": [
+        "libdart.so.6.13"
+      ],
+      "needed": [
+        "libdart-external-odelcpsolver.so.6.13",
+        "libfcl.so.0.7",
+        "liboctomap.so.1.9",
+        "liboctomath.so.1.9",
+        "libassimp.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu:"
+      ],
+      "has_debug_info": true,
+      "has_symtab": true,
+      "debuglink": null,
+      "role": "trace_core",
+      "requested_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2",
+      "is_symlink": false,
+      "link_target": null,
+      "aliases": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2"
+      ],
+      "v4_comparison": {
+        "recorded": "C",
+        "hash_match": true,
+        "build_id_match": true
+      },
+      "package_owner_query": {
+        "rc": 1,
+        "stdout": "",
+        "stderr": "dpkg-query: no path found matching pattern /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2\n"
+      },
+      "package": null,
+      "origin": "local isolated build; not an installed package",
+      "architecture": "ELF64 x86-64 local build; amd64",
+      "local_debug_candidates": [
+        {
+          "path": "/usr/lib/debug/.build-id/a9/3979d2a4c513bc4e647e36571fad6988432f21.debug",
+          "exists": false
+        },
+        {
+          "path": "/usr/lib/debug/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2",
+          "exists": false
+        }
+      ]
+    }
+  ]
+}

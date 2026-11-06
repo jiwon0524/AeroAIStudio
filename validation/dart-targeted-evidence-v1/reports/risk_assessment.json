@@ -1,0 +1,14 @@
+{
+  "binary_identity": "VERIFIED_OFFLINE: signed original package exact match for Core/External/Bullet; Gazebo consumer dpkg/policy only",
+  "debug": "UNAVAILABLE_IN_SEARCHED_SCOPE",
+  "definite_ABI_mismatch": "NOT_OBSERVED historically; no new runtime evidence",
+  "destructor_allocator": "HIGH/UNKNOWN nested ownership and allocator interposition",
+  "exception_cleanup": "HIGH/UNKNOWN runtime unwind; finite V4 static edge only",
+  "isolation": "DESIGNED_NOT_VALIDATED; future sandbox/fixture required",
+  "system_preservation": "No install/replace/global loader edits; read-only source inputs",
+  "failure_containment": "process timeout limits duration; not proof of UB containment; write/network sandbox required",
+  "reproducibility": "offline tools/scripts/checksums available; raw packages/work not transferred by Git",
+  "instrumentation": "OFF extra execution/ON metadata/owner-quiescent effects unresolved",
+  "host": "NEEDS_ADDITIONAL_EVIDENCE",
+  "reason": "No exact installed debug; fixture/init-fini/isolation/allocator fault strategy not audited. No probe is execution-ready."
+}

@@ -1,0 +1,13 @@
+{
+  "verdict": "TARGETED_EVIDENCE_UNAVAILABLE",
+  "host": "NEEDS_ADDITIONAL_EVIDENCE",
+  "runtime": "NOT_RUNTIME_VERIFIED",
+  "Stage_B": "BLOCKED",
+  "exact_installed_debug_acquired": false,
+  "slot18": "INFERRED_D1",
+  "new_provenance_evidence": true,
+  "new_installed_type_ABI_evidence": false,
+  "probe_status": "A-D BLOCKED pending fixture safety review and separate approval; all NOT_RUN",
+  "search_limits": "Finite official-source search; absence outside searched scope UNKNOWN",
+  "next_minimum": "Request exact Build-ID debug/buildinfo from OSRF/DART artifact maintainer, or review the bounded probe fixture and isolation design. Do not run probes or start another static iteration."
+}

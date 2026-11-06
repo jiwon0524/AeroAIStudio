@@ -1,3 +1,26 @@
+# Targeted Evidence Verification V1 — current checkpoint
+
+이번 요청의 설치본 증거 수집·Probe 설계 범위를 완료했다. **TARGETED_EVIDENCE_UNAVAILABLE / Host NEEDS_ADDITIONAL_EVIDENCE / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. Gazebo/World::step/객체 생성·삭제 Runtime Probe/예외 Runtime/Probe A~D/Stage B는 실행하지 않았다. Native 테스트도 실행하지 않았다. 기존 정적 분석을 반복하거나 다음 단계를 자동 시작하지 않는다.
+
+직접 확인: 6개 고유 ELF(Core/External/Bullet/Gazebo/Baseline/Trace)의 real path·symlink·SHA/Build-ID·SONAME/NEEDED/loader path/debuglink·package를 기록했다. 설치 Core/Bullet/B/C는 V4 식별자와 일치. 설치 Core/External/Bullet은 OSRF 단일 libdart-core+collisions+odelcpsolver6.13:amd64 6.13.2+ds1-1~osrf2~noble 소유다. OSRF InRelease 서명→인덱스 SHA→원본1,469,456byte 패키지 SHA 검증 후 work에만 추출했고, 설치3 ELF와 byte hash/Build-ID가 모두 일치한다. 패키징 규칙/의존성 이름을 확보했으나 historical compiler/buildinfo/환경은 없다. 재빌드하지 않았다.
+
+정확한 설치 debug는 **DEBUG_NOT_FOUND**. local Build-ID/debuglink paths·설치 debug package·APT cache에 없고, OSRF 확인된 인덱스/pool에 해당 debug/buildinfo가 없으며 Ubuntu debuginfod의 정확한4 Build-ID는404다. Ubuntu noble base universe debug 메타데이터도 서명 검증했다(공식 keyring4,528bytes를 인증된 Ubuntu APT metadata SHA와 대조·work에만 추출; 시스템 설치 없음). Ubuntu 후보6.13.2+ds-0ubuntu3 Core/Bullet의 광고 Build-ID는 설치본과 달라 VERSION_ONLY_MATCH 후보/advertised mismatch로 제외했고 ddeb를 받지 않았다. 다른 저장소/미검색 pocket/비공개 아티팩트의 부재는 UNKNOWN이다. Baseline/Trace 자체 DWARF를 설치본 증거로 쓰지 않는다. 슬롯18은 **INFERRED D1** 유지. 실제 debuglink CRC 후보 대조는 NOT_RUN_NO_CANDIDATE이며 구현은 독립 compile-only fixture로 검증했다.
+
+이번 신규 오프라인 **22 PASS, 실패/오류/skip0**. 작은 독립 ELF는 compile/link/objcopy/파일 읽기만 했고 실행/dlopen하지 않았다. 기존161/194/178/165를 합산하지 않는다. 초기 metadata empty-field parser 오류와 HTTPS→HTTP redirect 수집 중단은 실패 기록에 남겼고 수정·검증했다. Ubuntu debug 최초 NO_PUBKEY는 격리된 인증 keyring으로 최종 해결했다. 이번 보존 검사 **30,823files 변경0**, 이전 baseline 누락0, main HEAD/status 유지. main46134c6 수정8/미추적31/staged0과 V1~V4 증거를 보존한다.
+
+증거: `validation/dart-targeted-evidence-v1/reports/{final_report.md,binary_inventory.json,debug_symbol_search.json,build_id_matches.json,official_binary_matches.json,repository_signature.json,ubuntu_debug_signature.json,ubuntu_debug_candidates.json,abi_evidence.json,probe_plan.json,probe_library_arms.json,risk_assessment.json,verdict.json,test_summary.json,integrity.json,handoff_reconciliation.json}`. raw metadata/downloads/packages/keyring/fixtures/logs/full manifest는 새 work에만 있고 Git 제외다. 기존 evidence·시스템 libraries/packages/config·solver·Clock/Capture 변경 없음.
+
+Probe A~D는10항목 계약·정확한 arm paths/hash·finite stop 기준을 설계했지만 **모두 BLOCKED_PENDING_FIXTURE_SAFETY_AND_SEPARATE_APPROVAL / NOT_RUN**. A의 dlopen/init/fini 부작용, B의 owner/deleter 관측, C의 scope-limited allocation failure, D의 비물리 ON entry/owner-quiescent·flush 안전성, 실제 sandbox write/network denial·resource limits 검증이 남는다. 목적형 fixture는 아직 만들거나 실행하지 않았다. timeout/subprocess만으로 UB를 통제했다고 하지 않는다. 전체 installed layout·lifetime/allocator·EH·shutdown/thread·OFF/ON 중립성은 UNKNOWN/HIGH다.
+
+다음 최소 작업: 정확한 설치 Core/Bullet Build-ID에 대응하는 retained debug/buildinfo를 OSRF/DART artifact 관리자에게 요청할 자료를 제공하거나, 작성된 probe fixture/격리/allocator-fault 계획을 검토한다. 이번에 외부 메시지를 보내지 않았다. 별도 승인 전 probe/Host/Gazebo/World::step/Stage B 실행 금지. 같은19슬롯 반복/자동 V5/V6 없음.
+
+Git 시작 HEAD/실시간 원격은 f42f2abbdca5b3f7db9d5e4ab130d478f778a0f7 clean, 원격 main46134c6. 초기 helper REVIEW_REQUIRED는 a7a7b32 snapshot→f42f2ab 직접 자식/29파일/기록hash 일치로 검토 완료했다. 이번 신규 scripts/tests/경량 reports와 handoff만 명시적으로 게시한다. 아래 state는 게시 전 관측이며 다음 checkpoint commit parent/scope로 대조한다. 실제 commit/push/원격 SHA 영수증은 새 reports/git_publication.json에 로컬 기록하고 자기 SHA를 위한 재귀 commit은 하지 않는다. main/force push/reset/rebase/stash/merge 없음.
+
+프로세스는 아래 snapshot의 host/PID/start/visibility를 따른다. 관련 known 도구 작업은 완료했고 프로젝트 CWD visible same-user 작업은 관측0이다. 외부 CWD/remote/container는 UNKNOWN이다. 계정 변경/기존 프로세스 종료·재시작 없음. /tmp worktree/build와 raw/ignored/untracked/main 증거는 Git push로 다른 기기에 전달되지 않으며 이번 외부 장기백업은 하지 않았다. 공통 context-handoff 스킬은 변경하지 않았다.
+
+---
+아래는 이전 단계 기록이다. 현재 범위·판정·다음 최소 작업은 위 체크포인트를 우선한다.
+
 # Destructor Cleanup V4 — current checkpoint
 
 목표: slot18 D1·Node-subobject D0/complete cleanup·Bullet/Core sized delete/EH를 유한 정적 분석으로 보완하고 다음 검증 방법 결정. **DESTRUCTOR_BOUNDARY_PARTIALLY_VERIFIED / Host NEEDS_TARGETED_EVIDENCE / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. V4는 Gazebo/World::step/Stage B/실제 DART 객체 생성·삭제/예외 runtime/production·시스템·solver·Clock/Capture 변경 금지. 이번 오프라인 범위 완료이며 새 정적 단계/Runtime을 자동 시작하지 않는다.
@@ -155,22 +178,26 @@ Common skill source remains outside the project at `/home/jiwon/Projects/my-agen
 ```context-handoff-state
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06T05:58:57.270813+00:00",
+  "updated_at": "2026-11-06T07:07:42.757164+00:00",
   "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
   "host": "jiwon-System-Product-Name",
   "git": {
-    "head": "a7a7b32b9aade588a0f134637b46b4211a973cc4",
+    "head": "f42f2abbdca5b3f7db9d5e4ab130d478f778a0f7",
     "branch": "experiment/dart-internal-trace",
     "status": []
   },
   "evidence": [
     {
-      "path": "validation/dart-destructor-cleanup-v4/reports/verdict.json",
-      "sha256": "deb9933bd7e8252b46d598ac7058fb48447fb5c25fe5bd8db703622e802d156d"
+      "path": "validation/dart-targeted-evidence-v1/reports/verdict.json",
+      "sha256": "1ef6873beeea46b68db3c3078b7c69d798e4d039fe1d6dec642e0d8b601ee3c4"
     },
     {
-      "path": "validation/dart-destructor-cleanup-v4/reports/integrity.json",
-      "sha256": "045e58955abd1f549d3aaf1e51368cb7db9a85329b2acb34b0c3c9a04f4f6e54"
+      "path": "validation/dart-targeted-evidence-v1/reports/integrity.json",
+      "sha256": "d9669f6b045856a9643e314a308ae164e321c9ca81271cc894fafa7bc4e8774e"
+    },
+    {
+      "path": "validation/dart-targeted-evidence-v1/reports/ubuntu_debug_signature.json",
+      "sha256": "35a958688a90f13c65b9e2756281b924ea71345b0099095c87d520a5a89e72b7"
     }
   ],
   "processes": {

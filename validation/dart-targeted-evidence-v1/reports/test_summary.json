@@ -1,0 +1,18 @@
+{
+  "tests": 22,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "log": "work/tests-final.log",
+  "log_sha256": "878d454b3aa150ce917177f3357784c1e003f94b10bc3a4356a44c9d9a83e965",
+  "scope": "standard-library unittest; compile/read-only independent tiny ELF fixtures; no target ELF execute/load",
+  "historical_tests_not_added": [
+    161,
+    194,
+    178,
+    165
+  ],
+  "native": "NOT_RUN",
+  "probes": "A-D NOT_RUN",
+  "loader": "NOT_RUN in this phase"
+}

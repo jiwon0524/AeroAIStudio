@@ -1,0 +1,37 @@
+{
+  "observed_at": "2026-11-06T07:07:02.562943+00:00",
+  "order": [
+    "explicit local build-id paths",
+    "installed debug packages",
+    "ELF debuglink paths",
+    "dpkg/apt metadata",
+    "APT archive cache",
+    "official signed OSRF repository and Ubuntu Build-ID service",
+    "official OSRF original binary/source package"
+  ],
+  "local": "local_search.json",
+  "official_requests": "official_requests.json",
+  "signed_repository": "repository_signature.json",
+  "advertised_dart_debug_packages": [],
+  "pool_debug_artifacts": [],
+  "osrf_parent_index": {
+    "path": "work/osrf-gazebo-index.html",
+    "sha256": "49c34bf522cb82a82bde3ea4cc35971ef00489e6771f4a7c9c9e91ae1deb58c6",
+    "links": [
+      "../",
+      "debian-prerelease/",
+      "debian-stable/",
+      "debian-testing/",
+      "ubuntu/",
+      "ubuntu-drake/",
+      "ubuntu-mentor2/",
+      "ubuntu-nightly/",
+      "ubuntu-prerelease/",
+      "ubuntu-stable/",
+      "ubuntu-testing/"
+    ]
+  },
+  "ubuntu_ddebs": "HTTPS redirect not followed automatically; later explicit official HTTP metadata fetch authenticated by isolated Ubuntu debug keyring from signed Ubuntu APT index. See ubuntu_debug_signature.json and ubuntu_debug_candidates.json. Ubuntu version differs; advertised Core/Bullet Build-IDs mismatch installed; no ddeb downloaded.",
+  "absence_scope": "No exact debug in explicitly queried paths/index/pool/service responses; global nonexistence NOT established",
+  "stop": "Finite search complete. Seek maintainer-retained exact Build-ID debug/buildinfo; do not repeat same search without new location/input."
+}

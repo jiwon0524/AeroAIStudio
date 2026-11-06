@@ -1,0 +1,5 @@
+{
+  "rc": 0,
+  "stdout": "",
+  "stderr": "gpgv: Signature made Thu Nov  5 10:15:58 2026 KST\ngpgv:                using RSA key D2486D2DD83DB69272AFE98867170598AF249743\ngpgv: Good signature from \"OSRF Repository (OSRF Repository GPG key) <osrfbuild@osrfoundation.org>\"\n"
+}

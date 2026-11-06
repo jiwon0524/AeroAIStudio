@@ -1,0 +1,226 @@
+[
+  {
+    "role": "installed_core",
+    "build_id": "071aa565b343db80e31aae393aadaed33c7adb46",
+    "classification": "DEBUG_NOT_FOUND",
+    "acquired": false,
+    "scope": "no matching debug acquired; dynamic symbols/debuglink are not DWARF",
+    "local_candidates": [
+      {
+        "path": "/usr/lib/debug/.build-id/07/1aa565b343db80e31aae393aadaed33c7adb46.debug",
+        "exists": false
+      },
+      {
+        "path": "/usr/lib/debug/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+        "exists": false
+      },
+      {
+        "path": "/usr/lib/x86_64-linux-gnu/1aa565b343db80e31aae393aadaed33c7adb46.debug",
+        "exists": false
+      },
+      {
+        "path": "/usr/lib/x86_64-linux-gnu/.debug/1aa565b343db80e31aae393aadaed33c7adb46.debug",
+        "exists": false
+      },
+      {
+        "path": "/usr/lib/debug/usr/lib/x86_64-linux-gnu/1aa565b343db80e31aae393aadaed33c7adb46.debug",
+        "exists": false
+      }
+    ],
+    "debuglink": {
+      "filename": "1aa565b343db80e31aae393aadaed33c7adb46.debug",
+      "crc32": 1834565908
+    },
+    "real_debuglink_crc_verification": "NOT_RUN_NO_CANDIDATE",
+    "service": {
+      "url": "https://debuginfod.ubuntu.com/buildid/071aa565b343db80e31aae393aadaed33c7adb46/debuginfo",
+      "rc": 0,
+      "http_status": "404",
+      "effective_url": "https://debuginfod.ubuntu.com/buildid/071aa565b343db80e31aae393aadaed33c7adb46/debuginfo",
+      "stderr": "",
+      "body": "work/official-07.body",
+      "sha256": "907ba78b4545338d3539683e63ecb51cf51c10adc9dabd86e92bd52339f298b9",
+      "size": 9,
+      "limit_bytes": 8388608,
+      "redirect_policy": "No redirects followed; non-200 is not evidence of global absence"
+    }
+  },
+  {
+    "role": "installed_external",
+    "build_id": "abba8be3e710b1a505116d4bada0803f8bd49398",
+    "classification": "DEBUG_NOT_FOUND",
+    "acquired": false,
+    "scope": "no matching debug acquired; dynamic symbols/debuglink are not DWARF",
+    "local_candidates": [
+      {
+        "path": "/usr/lib/debug/.build-id/ab/ba8be3e710b1a505116d4bada0803f8bd49398.debug",
+        "exists": false
+      },
+      {
+        "path": "/usr/lib/debug/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+        "exists": false
+      },
+      {
+        "path": "/usr/lib/x86_64-linux-gnu/ba8be3e710b1a505116d4bada0803f8bd49398.debug",
+        "exists": false
+      },
+      {
+        "path": "/usr/lib/x86_64-linux-gnu/.debug/ba8be3e710b1a505116d4bada0803f8bd49398.debug",
+        "exists": false
+      },
+      {
+        "path": "/usr/lib/debug/usr/lib/x86_64-linux-gnu/ba8be3e710b1a505116d4bada0803f8bd49398.debug",
+        "exists": false
+      }
+    ],
+    "debuglink": {
+      "filename": "ba8be3e710b1a505116d4bada0803f8bd49398.debug",
+      "crc32": 3338103984
+    },
+    "real_debuglink_crc_verification": "NOT_RUN_NO_CANDIDATE",
+    "service": {
+      "url": "https://debuginfod.ubuntu.com/buildid/abba8be3e710b1a505116d4bada0803f8bd49398/debuginfo",
+      "rc": 0,
+      "http_status": "404",
+      "effective_url": "https://debuginfod.ubuntu.com/buildid/abba8be3e710b1a505116d4bada0803f8bd49398/debuginfo",
+      "stderr": "",
+      "body": "work/official-08.body",
+      "sha256": "907ba78b4545338d3539683e63ecb51cf51c10adc9dabd86e92bd52339f298b9",
+      "size": 9,
+      "limit_bytes": 8388608,
+      "redirect_policy": "No redirects followed; non-200 is not evidence of global absence"
+    }
+  },
+  {
+    "role": "installed_bullet",
+    "build_id": "8bda73145d9c6cc97d6faff5895c2ce1aa091f6f",
+    "classification": "DEBUG_NOT_FOUND",
+    "acquired": false,
+    "scope": "no matching debug acquired; dynamic symbols/debuglink are not DWARF",
+    "local_candidates": [
+      {
+        "path": "/usr/lib/debug/.build-id/8b/da73145d9c6cc97d6faff5895c2ce1aa091f6f.debug",
+        "exists": false
+      },
+      {
+        "path": "/usr/lib/debug/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+        "exists": false
+      },
+      {
+        "path": "/usr/lib/x86_64-linux-gnu/da73145d9c6cc97d6faff5895c2ce1aa091f6f.debug",
+        "exists": false
+      },
+      {
+        "path": "/usr/lib/x86_64-linux-gnu/.debug/da73145d9c6cc97d6faff5895c2ce1aa091f6f.debug",
+        "exists": false
+      },
+      {
+        "path": "/usr/lib/debug/usr/lib/x86_64-linux-gnu/da73145d9c6cc97d6faff5895c2ce1aa091f6f.debug",
+        "exists": false
+      }
+    ],
+    "debuglink": {
+      "filename": "da73145d9c6cc97d6faff5895c2ce1aa091f6f.debug",
+      "crc32": 4209051471
+    },
+    "real_debuglink_crc_verification": "NOT_RUN_NO_CANDIDATE",
+    "service": {
+      "url": "https://debuginfod.ubuntu.com/buildid/8bda73145d9c6cc97d6faff5895c2ce1aa091f6f/debuginfo",
+      "rc": 0,
+      "http_status": "404",
+      "effective_url": "https://debuginfod.ubuntu.com/buildid/8bda73145d9c6cc97d6faff5895c2ce1aa091f6f/debuginfo",
+      "stderr": "",
+      "body": "work/official-09.body",
+      "sha256": "907ba78b4545338d3539683e63ecb51cf51c10adc9dabd86e92bd52339f298b9",
+      "size": 9,
+      "limit_bytes": 8388608,
+      "redirect_policy": "No redirects followed; non-200 is not evidence of global absence"
+    }
+  },
+  {
+    "role": "gazebo_consumer",
+    "build_id": "c53e1a304ceb0f0dac85ff0e4872d0ffc50a28ac",
+    "classification": "DEBUG_NOT_FOUND",
+    "acquired": false,
+    "scope": "no matching debug acquired; dynamic symbols/debuglink are not DWARF",
+    "local_candidates": [
+      {
+        "path": "/usr/lib/debug/.build-id/c5/3e1a304ceb0f0dac85ff0e4872d0ffc50a28ac.debug",
+        "exists": false
+      },
+      {
+        "path": "/usr/lib/debug/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+        "exists": false
+      },
+      {
+        "path": "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/3e1a304ceb0f0dac85ff0e4872d0ffc50a28ac.debug",
+        "exists": false
+      },
+      {
+        "path": "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/.debug/3e1a304ceb0f0dac85ff0e4872d0ffc50a28ac.debug",
+        "exists": false
+      },
+      {
+        "path": "/usr/lib/debug/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/3e1a304ceb0f0dac85ff0e4872d0ffc50a28ac.debug",
+        "exists": false
+      }
+    ],
+    "debuglink": {
+      "filename": "3e1a304ceb0f0dac85ff0e4872d0ffc50a28ac.debug",
+      "crc32": 454724910
+    },
+    "real_debuglink_crc_verification": "NOT_RUN_NO_CANDIDATE",
+    "service": {
+      "url": "https://debuginfod.ubuntu.com/buildid/c53e1a304ceb0f0dac85ff0e4872d0ffc50a28ac/debuginfo",
+      "rc": 0,
+      "http_status": "404",
+      "effective_url": "https://debuginfod.ubuntu.com/buildid/c53e1a304ceb0f0dac85ff0e4872d0ffc50a28ac/debuginfo",
+      "stderr": "",
+      "body": "work/official-10.body",
+      "sha256": "907ba78b4545338d3539683e63ecb51cf51c10adc9dabd86e92bd52339f298b9",
+      "size": 9,
+      "limit_bytes": 8388608,
+      "redirect_policy": "No redirects followed; non-200 is not evidence of global absence"
+    }
+  },
+  {
+    "role": "baseline_core",
+    "build_id": "5b20c27ee40538cedd07931b3f703fadd3adc98d",
+    "classification": "EXACT_BUILD_ID_DEBUG_FOUND",
+    "acquired": true,
+    "scope": "embedded DWARF for this local build only; NOT installed binary evidence",
+    "local_candidates": [
+      {
+        "path": "/usr/lib/debug/.build-id/5b/20c27ee40538cedd07931b3f703fadd3adc98d.debug",
+        "exists": false
+      },
+      {
+        "path": "/usr/lib/debug/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13.2",
+        "exists": false
+      }
+    ],
+    "debuglink": null,
+    "real_debuglink_crc_verification": "NOT_APPLICABLE",
+    "service": null
+  },
+  {
+    "role": "trace_core",
+    "build_id": "a93979d2a4c513bc4e647e36571fad6988432f21",
+    "classification": "EXACT_BUILD_ID_DEBUG_FOUND",
+    "acquired": true,
+    "scope": "embedded DWARF for this local build only; NOT installed binary evidence",
+    "local_candidates": [
+      {
+        "path": "/usr/lib/debug/.build-id/a9/3979d2a4c513bc4e647e36571fad6988432f21.debug",
+        "exists": false
+      },
+      {
+        "path": "/usr/lib/debug/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2",
+        "exists": false
+      }
+    ],
+    "debuglink": null,
+    "real_debuglink_crc_verification": "NOT_APPLICABLE",
+    "service": null
+  }
+]

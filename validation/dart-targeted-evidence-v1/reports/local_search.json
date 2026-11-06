@@ -1,0 +1,6 @@
+{
+  "scope": "explicit ELF debug paths, dpkg installed package inventory, /var/cache/apt/archives filenames only",
+  "apt_cache_candidates": [],
+  "local_debug_packages": [],
+  "raw_query": "work/local_package_query.txt"
+}

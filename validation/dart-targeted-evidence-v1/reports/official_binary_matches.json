@@ -1,0 +1,94 @@
+[
+  {
+    "role": "installed_core",
+    "installed_path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+    "reference": {
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-targeted-evidence-v1/work/runtime-reference/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "sha256": "f74f4ec9820aee785ef94fb7bedafa7e4c832f209675a8ca1d35019c72b48e06",
+      "build_id": "071aa565b343db80e31aae393aadaed33c7adb46",
+      "soname": [
+        "libdart.so.6.13"
+      ],
+      "needed": [
+        "libdart-external-odelcpsolver.so.6.13",
+        "libfcl.so.0.7",
+        "liboctomap.so.1.9",
+        "liboctomath.so.1.9",
+        "libassimp.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [],
+      "has_debug_info": false,
+      "has_symtab": false,
+      "debuglink": {
+        "filename": "1aa565b343db80e31aae393aadaed33c7adb46.debug",
+        "crc32": 1834565908
+      }
+    },
+    "sha256_match": true,
+    "build_id_match": true,
+    "package_sha256": "7602bf8695cb1e673be9008ed17222e9ff1a08b3bbaa211a05a4ce73c579037e"
+  },
+  {
+    "role": "installed_external",
+    "installed_path": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+    "reference": {
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-targeted-evidence-v1/work/runtime-reference/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+      "sha256": "b890ed6936ea7cf486303fc5101ee5ff68356fc89596273ebaef83671aa4cb16",
+      "build_id": "abba8be3e710b1a505116d4bada0803f8bd49398",
+      "soname": [
+        "libdart-external-odelcpsolver.so.6.13"
+      ],
+      "needed": [
+        "libstdc++.so.6",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [],
+      "has_debug_info": false,
+      "has_symtab": false,
+      "debuglink": {
+        "filename": "ba8be3e710b1a505116d4bada0803f8bd49398.debug",
+        "crc32": 3338103984
+      }
+    },
+    "sha256_match": true,
+    "build_id_match": true,
+    "package_sha256": "7602bf8695cb1e673be9008ed17222e9ff1a08b3bbaa211a05a4ce73c579037e"
+  },
+  {
+    "role": "installed_bullet",
+    "installed_path": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+    "reference": {
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-targeted-evidence-v1/work/runtime-reference/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+      "sha256": "897709e0c988e9e562c662292ed5bc860bce70ee2c64499501f54a6b5ca02201",
+      "build_id": "8bda73145d9c6cc97d6faff5895c2ce1aa091f6f",
+      "soname": [
+        "libdart-collision-bullet.so.6.13"
+      ],
+      "needed": [
+        "libdart.so.6.13",
+        "libBulletCollision.so.3.24",
+        "libLinearMath.so.3.24",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [],
+      "has_debug_info": false,
+      "has_symtab": false,
+      "debuglink": {
+        "filename": "da73145d9c6cc97d6faff5895c2ce1aa091f6f.debug",
+        "crc32": 4209051471
+      }
+    },
+    "sha256_match": true,
+    "build_id_match": true,
+    "package_sha256": "7602bf8695cb1e673be9008ed17222e9ff1a08b3bbaa211a05a4ce73c579037e"
+  }
+]

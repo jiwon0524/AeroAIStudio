@@ -1,0 +1,21 @@
+{
+  "events": [
+    {
+      "stage": "network",
+      "fact": "sandbox DNS failures; retried only with explicit tool escalation",
+      "result": "official requests completed; original DNS JSON preserved in work"
+    },
+    {
+      "stage": "official metadata collector",
+      "fact": "HTTPS ddebs Release returned HTTP downgrade location; curl proto-redir rejected downgrade and postcheck raised",
+      "result": "no HTTP fetch; collector changed to never follow redirects; final 301 recorded; initial raw headers retained in tool trace, final work files are final responses"
+    },
+    {
+      "stage": "source control parser",
+      "fact": "initial parser rejected valid empty Checksums-Sha256: field",
+      "result": "accept empty control field; add regression test; retry succeeded; no ABI/production criteria changed"
+    }
+  ],
+  "test_failures": 0,
+  "notes": "Operational/parser failures are not ABI mismatch. No scientific result promoted from failed/missing requests."
+}

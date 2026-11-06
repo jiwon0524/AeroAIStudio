@@ -1,0 +1,16 @@
+{
+  "files": [
+    {
+      "file": "dart_6.13.2+ds1-1~osrf2~noble.debian.tar.xz",
+      "size": 13584,
+      "sha256": "6e9049fcf7c5ddf507dcebd51ccc4e39059376f0e802f7d60398251474295092"
+    },
+    {
+      "file": "dart_6.13.2+ds1-1~osrf2~noble.dsc",
+      "size": 6165,
+      "sha256": "15e661dc0b2ac663ae9466bf34347aef87e94b667d62a267f482f5294160b6b3"
+    }
+  ],
+  "original_source_archive": "metadata only, not downloaded; no rebuild",
+  "packaging_only": true
+}

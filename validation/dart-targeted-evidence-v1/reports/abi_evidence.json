@@ -1,0 +1,49 @@
+{
+  "new_evidence": [
+    {
+      "fact": "Signed OSRF amd64 original package exactly matches installed Core/External/Bullet SHA-256 and Build-ID",
+      "source": "official_binary_matches.json",
+      "supports": "binary/package identity only; not installed type ABI"
+    },
+    {
+      "fact": "Signed source metadata and small packaging rules/control acquired",
+      "source": "source_acquisition.json",
+      "supports": "recipe provenance and build dependency names; no exact historical build environment"
+    }
+  ],
+  "slot18": {
+    "status": "INFERRED_D1",
+    "source": "../dart-destructor-cleanup-v4/reports/slot18_analysis.json",
+    "new_identity_evidence": false
+  },
+  "rebuild": {
+    "status": "RECIPE_AVAILABLE_EXACT_REPRODUCTION_UNPROVEN",
+    "rules_sha256": "38c246960608b7b3fe0e037bf88045be5fa770eab2d11055cec086624433435b",
+    "control_sha256": "aaa91f8a7a069e0f0c751a08280fe3af1a6e0791caf1e6acda2e99217c1228d1",
+    "facts": [
+      "debhelper compat13; dh --buildsystem=pybuild",
+      "hardening=+all reproducible=+all future=+lfs",
+      "CMAKE_SKIP_INSTALL_RPATH=ON; shared build; skip FLANN/PAGMO",
+      "no override_dh_strip in rules; cannot infer whether original builder retained dbgsym",
+      "source index provides original source archive size/checksum; not downloaded"
+    ],
+    "missing": [
+      "historical compiler and dependency versions",
+      "buildinfo/changes/build logs and original builder environment",
+      "exact strip/debug artifacts and build flags"
+    ],
+    "performed": "NO_BUILD; no source execution"
+  },
+  "v4_supported": [
+    "selected D0->slot18 edge and this-144 adjustment",
+    "1664/48/368 sized-delete patterns",
+    "selected Bullet ctor-failure cleanup boundary"
+  ],
+  "still_unknown": [
+    "installed slot18 true local symbol/type identity",
+    "full installed layout and nested cleanup semantics",
+    "runtime cross-module ownership/allocator/unwind",
+    "OFF/ON metadata, thread, timing and flush neutrality"
+  ],
+  "further_static_analysis": "No new debug means low expected gain; no automatic V5/V6 or repeated disassembly"
+}

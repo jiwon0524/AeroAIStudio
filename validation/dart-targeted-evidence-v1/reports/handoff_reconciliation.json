@@ -1,0 +1,52 @@
+{
+  "helper_status": "REVIEW_REQUIRED",
+  "finding": "GIT_CHANGED/head only",
+  "recorded_head": "a7a7b32b9aade588a0f134637b46b4211a973cc4",
+  "observed_start_head": "f42f2abbdca5b3f7db9d5e4ab130d478f778a0f7",
+  "actual_parent": "a7a7b32b9aade588a0f134637b46b4211a973cc4",
+  "parent_matches_recorded": true,
+  "commit_files": [
+    "handoff.md",
+    "validation/dart-destructor-cleanup-v4/reports/analysis_stop.json",
+    "validation/dart-destructor-cleanup-v4/reports/consumer_reachability.json",
+    "validation/dart-destructor-cleanup-v4/reports/destructor_call_graph.json",
+    "validation/dart-destructor-cleanup-v4/reports/exception_cleanup.json",
+    "validation/dart-destructor-cleanup-v4/reports/final_report.md",
+    "validation/dart-destructor-cleanup-v4/reports/handoff_reconciliation.json",
+    "validation/dart-destructor-cleanup-v4/reports/integrity.json",
+    "validation/dart-destructor-cleanup-v4/reports/loader_results.json",
+    "validation/dart-destructor-cleanup-v4/reports/ownership_contract.json",
+    "validation/dart-destructor-cleanup-v4/reports/reproduction.md",
+    "validation/dart-destructor-cleanup-v4/reports/risk_assessment.json",
+    "validation/dart-destructor-cleanup-v4/reports/slot18_analysis.json",
+    "validation/dart-destructor-cleanup-v4/reports/targeted_evidence_plan.md",
+    "validation/dart-destructor-cleanup-v4/reports/test_safety_review.json",
+    "validation/dart-destructor-cleanup-v4/reports/test_summary.json",
+    "validation/dart-destructor-cleanup-v4/reports/verdict.json",
+    "validation/dart-destructor-cleanup-v4/scripts/analyze.py",
+    "validation/dart-destructor-cleanup-v4/scripts/cleanup.py",
+    "validation/dart-destructor-cleanup-v4/scripts/cold_cleanup.py",
+    "validation/dart-destructor-cleanup-v4/scripts/common.py",
+    "validation/dart-destructor-cleanup-v4/scripts/contracts.py",
+    "validation/dart-destructor-cleanup-v4/scripts/eh_reader.py",
+    "validation/dart-destructor-cleanup-v4/scripts/elf_reader.py",
+    "validation/dart-destructor-cleanup-v4/scripts/finalize.py",
+    "validation/dart-destructor-cleanup-v4/scripts/loader_audit.py",
+    "validation/dart-destructor-cleanup-v4/scripts/preservation.py",
+    "validation/dart-destructor-cleanup-v4/tests/deletion_compile.cpp",
+    "validation/dart-destructor-cleanup-v4/tests/test_cleanup_boundaries.py"
+  ],
+  "file_count": 29,
+  "expected_scope": true,
+  "checkpoint_hashes": [
+    {
+      "path": "validation/dart-destructor-cleanup-v4/reports/verdict.json",
+      "hash_match": true
+    },
+    {
+      "path": "validation/dart-destructor-cleanup-v4/reports/integrity.json",
+      "hash_match": true
+    }
+  ],
+  "decision": "EXPECTED_PRE_PUBLISH_SNAPSHOT_TRANSITION"
+}
