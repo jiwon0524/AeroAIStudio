@@ -1,3 +1,26 @@
+# ShapeNode Boundary V3 — current checkpoint
+
+목표: ShapeNode V2 미해석67 슬롯, virtual/RTTI/thunk와 Bullet/Core 생성·소멸·소유권/EH 경계를 정적 ELF·disassembly·compile-only 및 허용 offline 회귀로 보완. **SHAPENODE_BOUNDARY_PARTIALLY_VERIFIED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED / Host NOT_READY**. Gazebo/World::step/Stage B/대상 객체 생성·삭제/throw-catch runtime/production·시스템/solver/Clock/Capture 변경은 하지 않았다. 이번 오프라인 범위 완료이며 자동 Host 단계 없음.
+
+직접 결과: V2의 정확한67 table indices/275 words를 재현, 고유 target49. B/C67 모두 full local symbol로 IDENTIFIED,49 unique 모두 DWARF source 확보. 설치 A는 **IDENTIFIED0 / INFERRED48 / UNRESOLVED19**. 추론 중6은 bounded local callgraph,42는 이름 없는 callee/RIP 정규화 한계. B/C slot58 구현/최적화 차이는 함수 identity/ABI mismatch와 구분한다. A primary D1 slot18은 unresolved. AP21, D1/D0 각각21 slots, nonvirtual thunk12/virtual30 entries(반복 포함). B/C 이름을 설치 A의 직접 확인으로 올리지 않았다.
+
+소비: Gazebo 실제 ShapeFrame call vptr+40은 ShapeNode header AP816의 slot107로67 밖이다. 설치 core NodeDestructor의 jmp *8은 actual ShapeNode인 경우 Node AP552의 slot70 D0로 이어질 수 있어 INDIRECTLY_REACHABLE.67 usage는 direct0/indirect1/not-observed25/unknown41이며 미관측을 불가능으로 보지 않는다. Bullet Object/Group local D0의 sized delete48/368 확인; complete lifetime/allocator/cleanup 계약은 미검증. FDE/LSDA/personality 포인터 복호화, selected49 LSDA는 gcc_except_table. LSDA action/catch semantics 및 runtime unwind는 UNKNOWN.
+
+이번 테스트 **16 new +13 V2 +12 V1 +45 native +108 regression=194 PASS**, final failure/error/skip0. 최초 신규15PASS/1FAIL은 빈 입력이 unsupported EH 전에 truncation으로 거부된 fixture 기대 오류다. 완전8byte 음수 입력으로 목적을 분리했고 별도 truncation/잘못된 offset/relocation 거부 기준은 유지했다. 최초 XML/log 보존. fresh loader12 오류0, Gazebo252/Bullet53 import 누락0. 전후 **30188 files 변경0**, main HEAD/status 유지. 과거 V2 178/30031은 역사 결과로 분리했다.
+
+증거: `validation/dart-shapenode-boundary-v3/reports/{final_report.md,shapenode_slots.json,consumer_virtual_calls.json,destructor_contract.json,ownership_boundary.json,rtti_thunks.json,exception_abi.json,risk_assessment.json,verdict.json,test_summary.json,integrity.json}`. scripts와 tests 신규만 작성; work의 raw ELF/disassembly/FDE/초기 실패/manifests는 로컬 보존·게시 제외. 재현 reports/reproduction.md. 기존 V1/V2/Capability 결과는 수정하지 않았다.
+
+시작 인계 REVIEW_REQUIRED는 HEAD 차이 하나였고2edd9e9→c22f947 parent/26files/evidence hash 일치로 검토 완료(`handoff_reconciliation.json`). 이 state도 게시 전 snapshot이며 다음 commit parent와 명시적 파일 목록으로 대조한다. 예상 HEAD 차이만으로 재귀 commit하지 않는다.
+
+Git: experiment/dart-internal-trace, 시작 HEAD/원격 c22f9476d9d2244c244e87272fa1a927e49d6658 clean. 이번 V3 경량 reports/scripts/tests와 handoff만 게시 대상. 게시 직전 기록이며 commit/push/remote 일치 최종 영수증은 새 reports/git_publication.json에 로컬 보존. main dirty/기존 evidence는 staging하지 않는다.
+
+다음 최소 작업: 가장 먼저 primary D1 slot18의 base cleanup/callee 및 Node D0→D1, 이어 Bullet custom-deleter/EH critical edge를 matching debug/symbol map 또는 bounded disassembly로 보완한다. 별도 승인될 비물리 lifetime/cast/unwind 시험 계획을 먼저 검토한다. 짧은 subprocess/physics 실행이 ABI UB를 통제했다고 보지 않는다. Host 시작은 잔여 위험 항목별 수용과 별도 사용자 승인 전 금지.
+
+작업 상태: 알려진 compiler/static/pytest/hash는 모두 완료. snapshot host/PID/start 관측 참조; 외부 CWD/remote/container는 UNKNOWN. 기존 프로세스 종료/재시작·계정 변경 없음. /tmp build와 ignored work/raw evidence는 Git만으로 기기 이동되지 않는다. 공통 context-handoff 스킬 변경 없음.
+
+---
+아래는 이전 단계 기록이다. 현재 목표·판정·다음 행동은 위 V3 체크포인트가 우선한다.
+
 # DART Consumer ABI Deep V2 — current checkpoint
 
 현재 목표: 설치 Bullet↔격리 core 객체 계약, Gazebo inline/member 접근 및 virtual/RTTI 위험을 정적·compile-only로 줄이는 명시적 V2 요청. **CONSUMER_ABI_DEEP_PARTIALLY_VERIFIED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED. Host NOT_READY**. Gazebo/World::step/Stage B/production·시스템/solver/Clock/Capture 변경 금지 유지. 이번 오프라인 범위는 완료했으며 후속 물리 작업을 자동 시작하지 않는다.
@@ -102,27 +125,28 @@ Common skill source remains outside the project at `/home/jiwon/Projects/my-agen
 
 
 
+
 ## Machine checkpoint
 
 ```context-handoff-state
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06T05:22:45.518690+00:00",
+  "updated_at": "2026-11-06T05:41:37.861507+00:00",
   "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
   "host": "jiwon-System-Product-Name",
   "git": {
-    "head": "2edd9e989e7ab8186a075cf605ddecb6b7dfa386",
+    "head": "c22f9476d9d2244c244e87272fa1a927e49d6658",
     "branch": "experiment/dart-internal-trace",
     "status": []
   },
   "evidence": [
     {
-      "path": "validation/dart-consumer-abi-v2/reports/verdict.json",
-      "sha256": "0d78190dcb7a85f7a8f859bfe19b8b07ffea52e58a971076b52a586c5a5e8de0"
+      "path": "validation/dart-shapenode-boundary-v3/reports/verdict.json",
+      "sha256": "61a00df63f47493e1689019a7f5c3d3561a09de3fb882aecce1b9da2266c61cd"
     },
     {
-      "path": "validation/dart-consumer-abi-v2/reports/integrity.json",
-      "sha256": "89c272ae4b15b6414bcf332691167e95917d173e26360b2b5c3a427f20a8e047"
+      "path": "validation/dart-shapenode-boundary-v3/reports/integrity.json",
+      "sha256": "8c47b550d15aa8d90a59c3416d7c1e934dbeb6f21125dda0efd1e2125207b3d1"
     }
   ],
   "processes": {

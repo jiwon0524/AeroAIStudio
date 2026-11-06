@@ -1,0 +1,254 @@
+{
+  "checks": [
+    {
+      "command": [
+        "/usr/bin/ldd",
+        "-r",
+        "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0"
+      ],
+      "rc": 0,
+      "stdout": "\tlinux-vdso.so.1 (0x0000738f216ed000)\n\tlibdart-collision-bullet.so.6.13 => /lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13 (0x0000738f21669000)\n\tlibLinearMath.so.3.24 => /lib/x86_64-linux-gnu/libLinearMath.so.3.24 (0x0000738f21647000)\n\tlibdart-collision-ode.so.6.13 => /lib/x86_64-linux-gnu/libdart-collision-ode.so.6.13 (0x0000738f215ff000)\n\tlibdart.so.6.13 => /lib/x86_64-linux-gnu/libdart.so.6.13 (0x0000738f20c00000)\n\tlibsdformat14.so.14 => /lib/x86_64-linux-gnu/libsdformat14.so.14 (0x0000738f20800000)\n\tlibgz-physics7.so.7 => /lib/x86_64-linux-gnu/libgz-physics7.so.7 (0x0000738f215ce000)\n\tlibgz-common5-graphics.so.5 => /lib/x86_64-linux-gnu/libgz-common5-graphics.so.5 (0x0000738f20b17000)\n\tlibassimp.so.5 => /lib/x86_64-linux-gnu/libassimp.so.5 (0x0000738f20000000)\n\tlibgz-math7.so.7 => /lib/x86_64-linux-gnu/libgz-math7.so.7 (0x0000738f21577000)\n\tlibgz-common5.so.5 => /lib/x86_64-linux-gnu/libgz-common5.so.5 (0x0000738f21518000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x0000738f1fc00000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x0000738f1ff17000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x0000738f211d2000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x0000738f1f800000)\n\tlibBulletCollision.so.3.24 => /lib/x86_64-linux-gnu/libBulletCollision.so.3.24 (0x0000738f1fb34000)\n\t/lib64/ld-linux-x86-64.so.2 (0x0000738f216ef000)\n\tlibode.so.8 => /lib/x86_64-linux-gnu/libode.so.8 (0x0000738f1fa18000)\n\tlibdart-external-odelcpsolver.so.6.13 => /lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13 (0x0000738f21507000)\n\tlibfcl.so.0.7 => /lib/x86_64-linux-gnu/libfcl.so.0.7 (0x0000738f1f200000)\n\tliboctomap.so.1.9 => /lib/x86_64-linux-gnu/liboctomap.so.1.9 (0x0000738f21192000)\n\tliboctomath.so.1.9 => /lib/x86_64-linux-gnu/liboctomath.so.1.9 (0x0000738f21500000)\n\tlibgz-utils2.so.2 => /lib/x86_64-linux-gnu/libgz-utils2.so.2 (0x0000738f20b0c000)\n\tlibtinyxml2.so.10 => /lib/x86_64-linux-gnu/libtinyxml2.so.10 (0x0000738f20af5000)\n\tlibgts-0.7.so.5 => /lib/x86_64-linux-gnu/libgts-0.7.so.5 (0x0000738f20a99000)\n\tlibfreeimage.so.3 => /lib/x86_64-linux-gnu/libfreeimage.so.3 (0x0000738f20747000)\n\tlibglib-2.0.so.0 => /lib/x86_64-linux-gnu/libglib-2.0.so.0 (0x0000738f1f0b7000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x0000738f1fefb000)\n\tlibdraco.so.8 => /lib/x86_64-linux-gnu/libdraco.so.8 (0x0000738f1ec00000)\n\tlibminizip.so.1 => /lib/x86_64-linux-gnu/libminizip.so.1 (0x0000738f20a8c000)\n\tlibpugixml.so.1 => /lib/x86_64-linux-gnu/libpugixml.so.1 (0x0000738f1febf000)\n\tlibuuid.so.1 => /lib/x86_64-linux-gnu/libuuid.so.1 (0x0000738f2073d000)\n\tlibccd.so.2 => /lib/x86_64-linux-gnu/libccd.so.2 (0x0000738f1feb3000)\n\tlibjxrglue.so.0 => /lib/x86_64-linux-gnu/libjxrglue.so.0 (0x0000738f1fe90000)\n\tlibjpeg.so.8 => /lib/x86_64-linux-gnu/libjpeg.so.8 (0x0000738f1f77d000)\n\tlibopenjp2.so.7 => /lib/x86_64-linux-gnu/libopenjp2.so.7 (0x0000738f1f056000)\n\tlibpng16.so.16 => /lib/x86_64-linux-gnu/libpng16.so.16 (0x0000738f1f01e000)\n\tlibraw.so.23 => /lib/x86_64-linux-gnu/libraw.so.23 (0x0000738f1ef04000)\n\tlibtiff.so.6 => /lib/x86_64-linux-gnu/libtiff.so.6 (0x0000738f1eb73000)\n\tlibwebpmux.so.3 => /lib/x86_64-linux-gnu/libwebpmux.so.3 (0x0000738f1fe82000)\n\tlibOpenEXR-3_1.so.30 => /lib/x86_64-linux-gnu/libOpenEXR-3_1.so.30 (0x0000738f1e800000)\n\tlibIex-3_1.so.30 => /lib/x86_64-linux-gnu/libIex-3_1.so.30 (0x0000738f1e77d000)\n\tlibImath-3_1.so.29 => /lib/x86_64-linux-gnu/libImath-3_1.so.29 (0x0000738f1eb25000)\n\tlibpcre2-8.so.0 => /lib/x86_64-linux-gnu/libpcre2-8.so.0 (0x0000738f1e6e3000)\n\tlibjpegxr.so.0 => /lib/x86_64-linux-gnu/libjpegxr.so.0 (0x0000738f1eec9000)\n\tliblcms2.so.2 => /lib/x86_64-linux-gnu/liblcms2.so.2 (0x0000738f1e681000)\n\tlibgomp.so.1 => /lib/x86_64-linux-gnu/libgomp.so.1 (0x0000738f1e62b000)\n\tlibwebp.so.7 => /lib/x86_64-linux-gnu/libwebp.so.7 (0x0000738f1e5b0000)\n\tlibzstd.so.1 => /lib/x86_64-linux-gnu/libzstd.so.1 (0x0000738f1e4f6000)\n\tliblzma.so.5 => /lib/x86_64-linux-gnu/liblzma.so.5 (0x0000738f1e4c4000)\n\tlibLerc.so.4 => /lib/x86_64-linux-gnu/libLerc.so.4 (0x0000738f1e43d000)\n\tlibjbig.so.0 => /lib/x86_64-linux-gnu/libjbig.so.0 (0x0000738f1eb15000)\n\tlibdeflate.so.0 => /lib/x86_64-linux-gnu/libdeflate.so.0 (0x0000738f1e42a000)\n\tlibIlmThread-3_1.so.30 => /lib/x86_64-linux-gnu/libIlmThread-3_1.so.30 (0x0000738f1f773000)\n\tlibsharpyuv.so.0 => /lib/x86_64-linux-gnu/libsharpyuv.so.0 (0x0000738f1eec1000)\n",
+      "stderr": "",
+      "arm": "A",
+      "target": "Gazebo",
+      "issues": [],
+      "dart_closure": {
+        "libdart-collision-bullet.so.6.13": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+        "libdart-collision-ode.so.6.13": "/usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.13.2",
+        "libdart.so.6.13": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+        "libdart-external-odelcpsolver.so.6.13": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2"
+      }
+    },
+    {
+      "command": [
+        "/usr/bin/ldd",
+        "-r",
+        "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2"
+      ],
+      "rc": 0,
+      "stdout": "\tlinux-vdso.so.1 (0x00007835711ab000)\n\tlibdart.so.6.13 => /lib/x86_64-linux-gnu/libdart.so.6.13 (0x0000783570a00000)\n\tlibBulletCollision.so.3.24 => /lib/x86_64-linux-gnu/libBulletCollision.so.3.24 (0x000078357105b000)\n\tlibLinearMath.so.3.24 => /lib/x86_64-linux-gnu/libLinearMath.so.3.24 (0x0000783571039000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x0000783570600000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x000078357100b000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x0000783570200000)\n\tlibdart-external-odelcpsolver.so.6.13 => /lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13 (0x0000783570ffc000)\n\tlibfcl.so.0.7 => /lib/x86_64-linux-gnu/libfcl.so.0.7 (0x000078356fc00000)\n\tliboctomap.so.1.9 => /lib/x86_64-linux-gnu/liboctomap.so.1.9 (0x0000783570fbc000)\n\tliboctomath.so.1.9 => /lib/x86_64-linux-gnu/liboctomath.so.1.9 (0x0000783570fb5000)\n\tlibassimp.so.5 => /lib/x86_64-linux-gnu/libassimp.so.5 (0x000078356f400000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x0000783570917000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007835711ad000)\n\tlibccd.so.2 => /lib/x86_64-linux-gnu/libccd.so.2 (0x0000783570fa7000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x0000783570f8b000)\n\tlibdraco.so.8 => /lib/x86_64-linux-gnu/libdraco.so.8 (0x000078356f000000)\n\tlibminizip.so.1 => /lib/x86_64-linux-gnu/libminizip.so.1 (0x000078357090a000)\n\tlibpugixml.so.1 => /lib/x86_64-linux-gnu/libpugixml.so.1 (0x00007835708ce000)\n",
+      "stderr": "",
+      "arm": "A",
+      "target": "Bullet",
+      "issues": [],
+      "dart_closure": {
+        "libdart.so.6.13": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+        "libdart-external-odelcpsolver.so.6.13": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2"
+      }
+    },
+    {
+      "command": [
+        "/usr/bin/ldd",
+        "-r",
+        "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0"
+      ],
+      "rc": 0,
+      "stdout": "\tlinux-vdso.so.1 (0x000071aa9bb79000)\n\tlibdart-collision-bullet.so.6.13 => /lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13 (0x000071aa9b7b0000)\n\tlibLinearMath.so.3.24 => /lib/x86_64-linux-gnu/libLinearMath.so.3.24 (0x000071aa9bb23000)\n\tlibdart-collision-ode.so.6.13 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart-collision-ode.so.6.13 (0x000071aa9b768000)\n\tlibdart.so.6.13 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13 (0x000071aa9b000000)\n\tlibsdformat14.so.14 => /lib/x86_64-linux-gnu/libsdformat14.so.14 (0x000071aa9ac00000)\n\tlibgz-physics7.so.7 => /lib/x86_64-linux-gnu/libgz-physics7.so.7 (0x000071aa9b739000)\n\tlibgz-common5-graphics.so.5 => /lib/x86_64-linux-gnu/libgz-common5-graphics.so.5 (0x000071aa9b650000)\n\tlibassimp.so.5 => /lib/x86_64-linux-gnu/libassimp.so.5 (0x000071aa9a400000)\n\tlibgz-math7.so.7 => /lib/x86_64-linux-gnu/libgz-math7.so.7 (0x000071aa9b5f9000)\n\tlibgz-common5.so.5 => /lib/x86_64-linux-gnu/libgz-common5.so.5 (0x000071aa9b59a000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x000071aa9a000000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x000071aa9af17000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x000071aa9aee9000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x000071aa99c00000)\n\tlibBulletCollision.so.3.24 => /lib/x86_64-linux-gnu/libBulletCollision.so.3.24 (0x000071aa9a334000)\n\t/lib64/ld-linux-x86-64.so.2 (0x000071aa9bb7b000)\n\tlibode.so.8 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libode.so.8 (0x000071aa99ee4000)\n\tlibdart-external-odelcpsolver.so.6.13 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13 (0x000071aa9bb10000)\n\tlibfcl.so.0.7 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libfcl.so.0.7 (0x000071aa99600000)\n\tliboctomap.so.1.9 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9 (0x000071aa9aea9000)\n\tliboctomath.so.1.9 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9 (0x000071aa9bb09000)\n\tlibgz-utils2.so.2 => /lib/x86_64-linux-gnu/libgz-utils2.so.2 (0x000071aa9bafc000)\n\tlibtinyxml2.so.10 => /lib/x86_64-linux-gnu/libtinyxml2.so.10 (0x000071aa9ae92000)\n\tlibgts-0.7.so.5 => /lib/x86_64-linux-gnu/libgts-0.7.so.5 (0x000071aa9aba4000)\n\tlibfreeimage.so.3 => /lib/x86_64-linux-gnu/libfreeimage.so.3 (0x000071aa99e2b000)\n\tlibglib-2.0.so.0 => /lib/x86_64-linux-gnu/libglib-2.0.so.0 (0x000071aa994b7000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x000071aa9ab88000)\n\tlibdraco.so.8 => /lib/x86_64-linux-gnu/libdraco.so.8 (0x000071aa99000000)\n\tlibminizip.so.1 => /lib/x86_64-linux-gnu/libminizip.so.1 (0x000071aa9b58b000)\n\tlibpugixml.so.1 => /lib/x86_64-linux-gnu/libpugixml.so.1 (0x000071aa9ab4c000)\n\tlibuuid.so.1 => /lib/x86_64-linux-gnu/libuuid.so.1 (0x000071aa9ab42000)\n\tlibccd.so.2 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libccd.so.2 (0x000071aa9a328000)\n\tlibjxrglue.so.0 => /lib/x86_64-linux-gnu/libjxrglue.so.0 (0x000071aa9a305000)\n\tlibjpeg.so.8 => /lib/x86_64-linux-gnu/libjpeg.so.8 (0x000071aa9a282000)\n\tlibopenjp2.so.7 => /lib/x86_64-linux-gnu/libopenjp2.so.7 (0x000071aa99b9f000)\n\tlibpng16.so.16 => /lib/x86_64-linux-gnu/libpng16.so.16 (0x000071aa9947f000)\n\tlibraw.so.23 => /lib/x86_64-linux-gnu/libraw.so.23 (0x000071aa99365000)\n\tlibtiff.so.6 => /lib/x86_64-linux-gnu/libtiff.so.6 (0x000071aa992d8000)\n\tlibwebpmux.so.3 => /lib/x86_64-linux-gnu/libwebpmux.so.3 (0x000071aa99e1d000)\n\tlibOpenEXR-3_1.so.30 => /lib/x86_64-linux-gnu/libOpenEXR-3_1.so.30 (0x000071aa98c00000)\n\tlibIex-3_1.so.30 => /lib/x86_64-linux-gnu/libIex-3_1.so.30 (0x000071aa98f7d000)\n\tlibImath-3_1.so.29 => /lib/x86_64-linux-gnu/libImath-3_1.so.29 (0x000071aa98f2f000)\n\tlibpcre2-8.so.0 => /lib/x86_64-linux-gnu/libpcre2-8.so.0 (0x000071aa98b66000)\n\tlibjpegxr.so.0 => /lib/x86_64-linux-gnu/libjpegxr.so.0 (0x000071aa98b2b000)\n\tliblcms2.so.2 => /lib/x86_64-linux-gnu/liblcms2.so.2 (0x000071aa98ac9000)\n\tlibgomp.so.1 => /lib/x86_64-linux-gnu/libgomp.so.1 (0x000071aa98a73000)\n\tlibwebp.so.7 => /lib/x86_64-linux-gnu/libwebp.so.7 (0x000071aa989f8000)\n\tlibzstd.so.1 => /lib/x86_64-linux-gnu/libzstd.so.1 (0x000071aa9893e000)\n\tliblzma.so.5 => /lib/x86_64-linux-gnu/liblzma.so.5 (0x000071aa9890c000)\n\tlibLerc.so.4 => /lib/x86_64-linux-gnu/libLerc.so.4 (0x000071aa98885000)\n\tlibjbig.so.0 => /lib/x86_64-linux-gnu/libjbig.so.0 (0x000071aa99b8f000)\n\tlibdeflate.so.0 => /lib/x86_64-linux-gnu/libdeflate.so.0 (0x000071aa99b7c000)\n\tlibIlmThread-3_1.so.30 => /lib/x86_64-linux-gnu/libIlmThread-3_1.so.30 (0x000071aa99e13000)\n\tlibsharpyuv.so.0 => /lib/x86_64-linux-gnu/libsharpyuv.so.0 (0x000071aa9ab38000)\n",
+      "stderr": "",
+      "arm": "B",
+      "target": "Gazebo",
+      "issues": [],
+      "dart_closure": {
+        "libdart-collision-bullet.so.6.13": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+        "libdart-collision-ode.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart-collision-ode.so.6.13.2",
+        "libdart.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13.2",
+        "libdart-external-odelcpsolver.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2"
+      }
+    },
+    {
+      "command": [
+        "/usr/bin/ldd",
+        "-r",
+        "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2"
+      ],
+      "rc": 0,
+      "stdout": "\tlinux-vdso.so.1 (0x00007e5730b9c000)\n\tlibdart.so.6.13 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13 (0x00007e5730400000)\n\tlibBulletCollision.so.3.24 => /lib/x86_64-linux-gnu/libBulletCollision.so.3.24 (0x00007e5730a4c000)\n\tlibLinearMath.so.3.24 => /lib/x86_64-linux-gnu/libLinearMath.so.3.24 (0x00007e5730a2a000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007e5730000000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007e57309fa000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007e572fc00000)\n\tlibdart-external-odelcpsolver.so.6.13 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13 (0x00007e57309ed000)\n\tlibfcl.so.0.7 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libfcl.so.0.7 (0x00007e572f600000)\n\tliboctomap.so.1.9 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9 (0x00007e57309ad000)\n\tliboctomath.so.1.9 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9 (0x00007e57309a4000)\n\tlibassimp.so.5 => /lib/x86_64-linux-gnu/libassimp.so.5 (0x00007e572ee00000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007e5730317000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007e5730b9e000)\n\tlibccd.so.2 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libccd.so.2 (0x00007e5730998000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007e57302fb000)\n\tlibdraco.so.8 => /lib/x86_64-linux-gnu/libdraco.so.8 (0x00007e572ea00000)\n\tlibminizip.so.1 => /lib/x86_64-linux-gnu/libminizip.so.1 (0x00007e57302ee000)\n\tlibpugixml.so.1 => /lib/x86_64-linux-gnu/libpugixml.so.1 (0x00007e57302b2000)\n",
+      "stderr": "",
+      "arm": "B",
+      "target": "Bullet",
+      "issues": [],
+      "dart_closure": {
+        "libdart.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13.2",
+        "libdart-external-odelcpsolver.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2"
+      }
+    },
+    {
+      "command": [
+        "/usr/bin/ldd",
+        "-r",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart-optimizer-ipopt.so.6.13.2"
+      ],
+      "rc": 0,
+      "stdout": "\tlinux-vdso.so.1 (0x00007fa1e1fb1000)\n\tlibdart.so.6.13 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13 (0x00007fa1e1800000)\n\tlibipopt.so.1 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/libipopt.so.1 (0x00007fa1e1d94000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007fa1e1400000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007fa1e17a6000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fa1e1000000)\n\tlibdart-external-odelcpsolver.so.6.13 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13 (0x00007fa1e1799000)\n\tlibfcl.so.0.7 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libfcl.so.0.7 (0x00007fa1e0a00000)\n\tliboctomap.so.1.9 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9 (0x00007fa1e1759000)\n\tliboctomath.so.1.9 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9 (0x00007fa1e1d8b000)\n\tlibassimp.so.5 => /lib/x86_64-linux-gnu/libassimp.so.5 (0x00007fa1e0200000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007fa1e1317000)\n\tliblapack.so.3 => /lib/x86_64-linux-gnu/liblapack.so.3 (0x00007fa1dfa00000)\n\tlibblas.so.3 => /lib/x86_64-linux-gnu/libblas.so.3 (0x00007fa1e16b0000)\n\tlibdmumps_seq-5.6.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libdmumps_seq-5.6.so (0x00007fa1df600000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007fa1e1fb3000)\n\tlibccd.so.2 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libccd.so.2 (0x00007fa1e16a2000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007fa1e1686000)\n\tlibdraco.so.8 => /lib/x86_64-linux-gnu/libdraco.so.8 (0x00007fa1df200000)\n\tlibminizip.so.1 => /lib/x86_64-linux-gnu/libminizip.so.1 (0x00007fa1e130a000)\n\tlibpugixml.so.1 => /lib/x86_64-linux-gnu/libpugixml.so.1 (0x00007fa1e12ce000)\n\tlibgfortran.so.5 => /lib/x86_64-linux-gnu/libgfortran.so.5 (0x00007fa1dee00000)\n\tlibmumps_common_seq-5.6.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libmumps_common_seq-5.6.so (0x00007fa1e124a000)\n\tlibesmumps-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libesmumps-7.0.so (0x00007fa1e1242000)\n\tlibscotch-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotch-7.0.so (0x00007fa1e096b000)\n\tlibscotcherr-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotcherr-7.0.so (0x00007fa1e123d000)\n\tlibbz2.so.1.0 => /lib/x86_64-linux-gnu/libbz2.so.1.0 (0x00007fa1e1229000)\n\tliblzma.so.5 => /lib/x86_64-linux-gnu/liblzma.so.5 (0x00007fa1e0fce000)\n",
+      "stderr": "",
+      "arm": "B",
+      "target": "optimizer-ipopt",
+      "issues": [],
+      "dart_closure": {
+        "libdart.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13.2",
+        "libdart-external-odelcpsolver.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2"
+      }
+    },
+    {
+      "command": [
+        "/usr/bin/ldd",
+        "-r",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart-optimizer-nlopt.so.6.13.2"
+      ],
+      "rc": 0,
+      "stdout": "\tlinux-vdso.so.1 (0x00007a997e592000)\n\tlibdart.so.6.13 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13 (0x00007a997de00000)\n\tlibnlopt.so.0 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libnlopt.so.0 (0x00007a997e517000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007a997da00000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007a997e4bd000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007a997d600000)\n\tlibdart-external-odelcpsolver.so.6.13 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13 (0x00007a997e4ae000)\n\tlibfcl.so.0.7 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libfcl.so.0.7 (0x00007a997d000000)\n\tliboctomap.so.1.9 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9 (0x00007a997e46e000)\n\tliboctomath.so.1.9 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9 (0x00007a997e467000)\n\tlibassimp.so.5 => /lib/x86_64-linux-gnu/libassimp.so.5 (0x00007a997c800000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007a997dd17000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007a997e594000)\n\tlibccd.so.2 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libccd.so.2 (0x00007a997e459000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007a997e43d000)\n\tlibdraco.so.8 => /lib/x86_64-linux-gnu/libdraco.so.8 (0x00007a997c400000)\n\tlibminizip.so.1 => /lib/x86_64-linux-gnu/libminizip.so.1 (0x00007a997e42e000)\n\tlibpugixml.so.1 => /lib/x86_64-linux-gnu/libpugixml.so.1 (0x00007a997e3f2000)\n",
+      "stderr": "",
+      "arm": "B",
+      "target": "optimizer-nlopt",
+      "issues": [],
+      "dart_closure": {
+        "libdart.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13.2",
+        "libdart-external-odelcpsolver.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2"
+      }
+    },
+    {
+      "command": [
+        "/usr/bin/ldd",
+        "-r",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart-collision-ode.so.6.13.2"
+      ],
+      "rc": 0,
+      "stdout": "\tlinux-vdso.so.1 (0x00007054aae77000)\n\tlibdart.so.6.13 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13 (0x00007054aa800000)\n\tlibode.so.8 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libode.so.8 (0x00007054aa6e4000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007054aa400000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007054aa317000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007054aadcb000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007054aa000000)\n\tlibdart-external-odelcpsolver.so.6.13 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13 (0x00007054aadbe000)\n\tlibfcl.so.0.7 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libfcl.so.0.7 (0x00007054a9a00000)\n\tliboctomap.so.1.9 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9 (0x00007054aa6a4000)\n\tliboctomath.so.1.9 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9 (0x00007054aadb5000)\n\tlibassimp.so.5 => /lib/x86_64-linux-gnu/libassimp.so.5 (0x00007054a9200000)\n\tlibccd.so.2 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libccd.so.2 (0x00007054aada9000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007054aae79000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007054aad8d000)\n\tlibdraco.so.8 => /lib/x86_64-linux-gnu/libdraco.so.8 (0x00007054a8e00000)\n\tlibminizip.so.1 => /lib/x86_64-linux-gnu/libminizip.so.1 (0x00007054aa697000)\n\tlibpugixml.so.1 => /lib/x86_64-linux-gnu/libpugixml.so.1 (0x00007054aa2db000)\n",
+      "stderr": "",
+      "arm": "B",
+      "target": "collision-ode",
+      "issues": [],
+      "dart_closure": {
+        "libdart.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13.2",
+        "libdart-external-odelcpsolver.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2"
+      }
+    },
+    {
+      "command": [
+        "/usr/bin/ldd",
+        "-r",
+        "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0"
+      ],
+      "rc": 0,
+      "stdout": "\tlinux-vdso.so.1 (0x000073d21b339000)\n\tlibdart-collision-bullet.so.6.13 => /lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13 (0x000073d21afb0000)\n\tlibLinearMath.so.3.24 => /lib/x86_64-linux-gnu/libLinearMath.so.3.24 (0x000073d21af8e000)\n\tlibdart-collision-ode.so.6.13 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart-collision-ode.so.6.13 (0x000073d21af46000)\n\tlibdart.so.6.13 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13 (0x000073d21a800000)\n\tlibsdformat14.so.14 => /lib/x86_64-linux-gnu/libsdformat14.so.14 (0x000073d21a400000)\n\tlibgz-physics7.so.7 => /lib/x86_64-linux-gnu/libgz-physics7.so.7 (0x000073d21af17000)\n\tlibgz-common5-graphics.so.5 => /lib/x86_64-linux-gnu/libgz-common5-graphics.so.5 (0x000073d21ae2e000)\n\tlibassimp.so.5 => /lib/x86_64-linux-gnu/libassimp.so.5 (0x000073d219c00000)\n\tlibgz-math7.so.7 => /lib/x86_64-linux-gnu/libgz-math7.so.7 (0x000073d21add7000)\n\tlibgz-common5.so.5 => /lib/x86_64-linux-gnu/libgz-common5.so.5 (0x000073d21a7a1000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x000073d219800000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x000073d21a6b8000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x000073d21ada9000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x000073d219400000)\n\tlibBulletCollision.so.3.24 => /lib/x86_64-linux-gnu/libBulletCollision.so.3.24 (0x000073d219b34000)\n\t/lib64/ld-linux-x86-64.so.2 (0x000073d21b33b000)\n\tlibode.so.8 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libode.so.8 (0x000073d2196e4000)\n\tlibdart-external-odelcpsolver.so.6.13 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13 (0x000073d21ad97000)\n\tlibfcl.so.0.7 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libfcl.so.0.7 (0x000073d218e00000)\n\tliboctomap.so.1.9 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9 (0x000073d21a3c0000)\n\tliboctomath.so.1.9 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9 (0x000073d21ad90000)\n\tlibgz-utils2.so.2 => /lib/x86_64-linux-gnu/libgz-utils2.so.2 (0x000073d21a6ad000)\n\tlibtinyxml2.so.10 => /lib/x86_64-linux-gnu/libtinyxml2.so.10 (0x000073d21a696000)\n\tlibgts-0.7.so.5 => /lib/x86_64-linux-gnu/libgts-0.7.so.5 (0x000073d21a364000)\n\tlibfreeimage.so.3 => /lib/x86_64-linux-gnu/libfreeimage.so.3 (0x000073d21962b000)\n\tlibglib-2.0.so.0 => /lib/x86_64-linux-gnu/libglib-2.0.so.0 (0x000073d218cb7000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x000073d21a348000)\n\tlibdraco.so.8 => /lib/x86_64-linux-gnu/libdraco.so.8 (0x000073d218800000)\n\tlibminizip.so.1 => /lib/x86_64-linux-gnu/libminizip.so.1 (0x000073d21a689000)\n\tlibpugixml.so.1 => /lib/x86_64-linux-gnu/libpugixml.so.1 (0x000073d219af8000)\n\tlibuuid.so.1 => /lib/x86_64-linux-gnu/libuuid.so.1 (0x000073d21a33e000)\n\tlibccd.so.2 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libccd.so.2 (0x000073d219aec000)\n\tlibjxrglue.so.0 => /lib/x86_64-linux-gnu/libjxrglue.so.0 (0x000073d219ac9000)\n\tlibjpeg.so.8 => /lib/x86_64-linux-gnu/libjpeg.so.8 (0x000073d21937d000)\n\tlibopenjp2.so.7 => /lib/x86_64-linux-gnu/libopenjp2.so.7 (0x000073d218c56000)\n\tlibpng16.so.16 => /lib/x86_64-linux-gnu/libpng16.so.16 (0x000073d219a91000)\n\tlibraw.so.23 => /lib/x86_64-linux-gnu/libraw.so.23 (0x000073d218b3c000)\n\tlibtiff.so.6 => /lib/x86_64-linux-gnu/libtiff.so.6 (0x000073d218773000)\n\tlibwebpmux.so.3 => /lib/x86_64-linux-gnu/libwebpmux.so.3 (0x000073d219a83000)\n\tlibOpenEXR-3_1.so.30 => /lib/x86_64-linux-gnu/libOpenEXR-3_1.so.30 (0x000073d218400000)\n\tlibIex-3_1.so.30 => /lib/x86_64-linux-gnu/libIex-3_1.so.30 (0x000073d21837d000)\n\tlibImath-3_1.so.29 => /lib/x86_64-linux-gnu/libImath-3_1.so.29 (0x000073d218aee000)\n\tlibpcre2-8.so.0 => /lib/x86_64-linux-gnu/libpcre2-8.so.0 (0x000073d2182e3000)\n\tlibjpegxr.so.0 => /lib/x86_64-linux-gnu/libjpegxr.so.0 (0x000073d218738000)\n\tliblcms2.so.2 => /lib/x86_64-linux-gnu/liblcms2.so.2 (0x000073d218281000)\n\tlibgomp.so.1 => /lib/x86_64-linux-gnu/libgomp.so.1 (0x000073d21822b000)\n\tlibwebp.so.7 => /lib/x86_64-linux-gnu/libwebp.so.7 (0x000073d2181b0000)\n\tlibzstd.so.1 => /lib/x86_64-linux-gnu/libzstd.so.1 (0x000073d2180f6000)\n\tliblzma.so.5 => /lib/x86_64-linux-gnu/liblzma.so.5 (0x000073d218abc000)\n\tlibLerc.so.4 => /lib/x86_64-linux-gnu/libLerc.so.4 (0x000073d21806f000)\n\tlibjbig.so.0 => /lib/x86_64-linux-gnu/libjbig.so.0 (0x000073d21961b000)\n\tlibdeflate.so.0 => /lib/x86_64-linux-gnu/libdeflate.so.0 (0x000073d218725000)\n\tlibIlmThread-3_1.so.30 => /lib/x86_64-linux-gnu/libIlmThread-3_1.so.30 (0x000073d219373000)\n\tlibsharpyuv.so.0 => /lib/x86_64-linux-gnu/libsharpyuv.so.0 (0x000073d219613000)\n",
+      "stderr": "",
+      "arm": "C",
+      "target": "Gazebo",
+      "issues": [],
+      "dart_closure": {
+        "libdart-collision-bullet.so.6.13": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+        "libdart-collision-ode.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart-collision-ode.so.6.13.2",
+        "libdart.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2",
+        "libdart-external-odelcpsolver.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2"
+      }
+    },
+    {
+      "command": [
+        "/usr/bin/ldd",
+        "-r",
+        "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2"
+      ],
+      "rc": 0,
+      "stdout": "\tlinux-vdso.so.1 (0x000075230d822000)\n\tlibdart.so.6.13 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13 (0x000075230d200000)\n\tlibBulletCollision.so.3.24 => /lib/x86_64-linux-gnu/libBulletCollision.so.3.24 (0x000075230d134000)\n\tlibLinearMath.so.3.24 => /lib/x86_64-linux-gnu/libLinearMath.so.3.24 (0x000075230d112000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x000075230ce00000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x000075230d0e4000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x000075230ca00000)\n\tlibdart-external-odelcpsolver.so.6.13 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13 (0x000075230d0d2000)\n\tlibfcl.so.0.7 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libfcl.so.0.7 (0x000075230c400000)\n\tliboctomap.so.1.9 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9 (0x000075230d092000)\n\tliboctomath.so.1.9 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9 (0x000075230d793000)\n\tlibassimp.so.5 => /lib/x86_64-linux-gnu/libassimp.so.5 (0x000075230bc00000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x000075230cd17000)\n\t/lib64/ld-linux-x86-64.so.2 (0x000075230d824000)\n\tlibccd.so.2 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libccd.so.2 (0x000075230d086000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x000075230ccfb000)\n\tlibdraco.so.8 => /lib/x86_64-linux-gnu/libdraco.so.8 (0x000075230b800000)\n\tlibminizip.so.1 => /lib/x86_64-linux-gnu/libminizip.so.1 (0x000075230ccee000)\n\tlibpugixml.so.1 => /lib/x86_64-linux-gnu/libpugixml.so.1 (0x000075230ccb2000)\n",
+      "stderr": "",
+      "arm": "C",
+      "target": "Bullet",
+      "issues": [],
+      "dart_closure": {
+        "libdart.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2",
+        "libdart-external-odelcpsolver.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2"
+      }
+    },
+    {
+      "command": [
+        "/usr/bin/ldd",
+        "-r",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart-optimizer-ipopt.so.6.13.2"
+      ],
+      "rc": 0,
+      "stdout": "\tlinux-vdso.so.1 (0x0000762a47e28000)\n\tlibdart.so.6.13 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13 (0x0000762a47800000)\n\tlibipopt.so.1 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/libipopt.so.1 (0x0000762a4762a000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x0000762a47200000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x0000762a475fc000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x0000762a46e00000)\n\tlibdart-external-odelcpsolver.so.6.13 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13 (0x0000762a47da1000)\n\tlibfcl.so.0.7 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libfcl.so.0.7 (0x0000762a46800000)\n\tliboctomap.so.1.9 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9 (0x0000762a475bc000)\n\tliboctomath.so.1.9 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9 (0x0000762a47d9a000)\n\tlibassimp.so.5 => /lib/x86_64-linux-gnu/libassimp.so.5 (0x0000762a46000000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x0000762a474d3000)\n\tliblapack.so.3 => /lib/x86_64-linux-gnu/liblapack.so.3 (0x0000762a45800000)\n\tlibblas.so.3 => /lib/x86_64-linux-gnu/libblas.so.3 (0x0000762a47159000)\n\tlibdmumps_seq-5.6.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libdmumps_seq-5.6.so (0x0000762a45400000)\n\t/lib64/ld-linux-x86-64.so.2 (0x0000762a47e2a000)\n\tlibccd.so.2 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libccd.so.2 (0x0000762a474c7000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x0000762a474ab000)\n\tlibdraco.so.8 => /lib/x86_64-linux-gnu/libdraco.so.8 (0x0000762a45000000)\n\tlibminizip.so.1 => /lib/x86_64-linux-gnu/libminizip.so.1 (0x0000762a4749e000)\n\tlibpugixml.so.1 => /lib/x86_64-linux-gnu/libpugixml.so.1 (0x0000762a4711d000)\n\tlibgfortran.so.5 => /lib/x86_64-linux-gnu/libgfortran.so.5 (0x0000762a44c00000)\n\tlibmumps_common_seq-5.6.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libmumps_common_seq-5.6.so (0x0000762a47099000)\n\tlibesmumps-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libesmumps-7.0.so (0x0000762a47d8c000)\n\tlibscotch-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotch-7.0.so (0x0000762a4676b000)\n\tlibscotcherr-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotcherr-7.0.so (0x0000762a47497000)\n\tlibbz2.so.1.0 => /lib/x86_64-linux-gnu/libbz2.so.1.0 (0x0000762a47483000)\n\tliblzma.so.5 => /lib/x86_64-linux-gnu/liblzma.so.5 (0x0000762a47067000)\n",
+      "stderr": "",
+      "arm": "C",
+      "target": "optimizer-ipopt",
+      "issues": [],
+      "dart_closure": {
+        "libdart.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2",
+        "libdart-external-odelcpsolver.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2"
+      }
+    },
+    {
+      "command": [
+        "/usr/bin/ldd",
+        "-r",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart-optimizer-nlopt.so.6.13.2"
+      ],
+      "rc": 0,
+      "stdout": "\tlinux-vdso.so.1 (0x00007b01a8737000)\n\tlibdart.so.6.13 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13 (0x00007b01a8000000)\n\tlibnlopt.so.0 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libnlopt.so.0 (0x00007b01a86bc000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007b01a7c00000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007b01a8662000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007b01a7800000)\n\tlibdart-external-odelcpsolver.so.6.13 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13 (0x00007b01a864e000)\n\tlibfcl.so.0.7 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libfcl.so.0.7 (0x00007b01a7200000)\n\tliboctomap.so.1.9 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9 (0x00007b01a860e000)\n\tliboctomath.so.1.9 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9 (0x00007b01a8607000)\n\tlibassimp.so.5 => /lib/x86_64-linux-gnu/libassimp.so.5 (0x00007b01a6a00000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007b01a7f17000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007b01a8739000)\n\tlibccd.so.2 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libccd.so.2 (0x00007b01a85f9000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007b01a85dd000)\n\tlibdraco.so.8 => /lib/x86_64-linux-gnu/libdraco.so.8 (0x00007b01a6600000)\n\tlibminizip.so.1 => /lib/x86_64-linux-gnu/libminizip.so.1 (0x00007b01a85ce000)\n\tlibpugixml.so.1 => /lib/x86_64-linux-gnu/libpugixml.so.1 (0x00007b01a8592000)\n",
+      "stderr": "",
+      "arm": "C",
+      "target": "optimizer-nlopt",
+      "issues": [],
+      "dart_closure": {
+        "libdart.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2",
+        "libdart-external-odelcpsolver.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2"
+      }
+    },
+    {
+      "command": [
+        "/usr/bin/ldd",
+        "-r",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart-collision-ode.so.6.13.2"
+      ],
+      "rc": 0,
+      "stdout": "\tlinux-vdso.so.1 (0x00007466f7021000)\n\tlibdart.so.6.13 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13 (0x00007466f6a00000)\n\tlibode.so.8 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libode.so.8 (0x00007466f68e4000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007466f6600000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007466f6517000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007466f68b6000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007466f6200000)\n\tlibdart-external-odelcpsolver.so.6.13 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13 (0x00007466f6f91000)\n\tlibfcl.so.0.7 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libfcl.so.0.7 (0x00007466f5c00000)\n\tliboctomap.so.1.9 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9 (0x00007466f64d7000)\n\tliboctomath.so.1.9 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9 (0x00007466f68af000)\n\tlibassimp.so.5 => /lib/x86_64-linux-gnu/libassimp.so.5 (0x00007466f5400000)\n\tlibccd.so.2 => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libccd.so.2 (0x00007466f68a3000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007466f7023000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007466f6887000)\n\tlibdraco.so.8 => /lib/x86_64-linux-gnu/libdraco.so.8 (0x00007466f5000000)\n\tlibminizip.so.1 => /lib/x86_64-linux-gnu/libminizip.so.1 (0x00007466f64ca000)\n\tlibpugixml.so.1 => /lib/x86_64-linux-gnu/libpugixml.so.1 (0x00007466f648e000)\n",
+      "stderr": "",
+      "arm": "C",
+      "target": "collision-ode",
+      "issues": [],
+      "dart_closure": {
+        "libdart.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2",
+        "libdart-external-odelcpsolver.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2"
+      }
+    }
+  ],
+  "imports": [
+    {
+      "arm": "A",
+      "consumer": "Gazebo",
+      "count": 252,
+      "missing": []
+    },
+    {
+      "arm": "A",
+      "consumer": "Bullet",
+      "count": 53,
+      "missing": []
+    },
+    {
+      "arm": "B",
+      "consumer": "Gazebo",
+      "count": 252,
+      "missing": []
+    },
+    {
+      "arm": "B",
+      "consumer": "Bullet",
+      "count": 53,
+      "missing": []
+    },
+    {
+      "arm": "C",
+      "consumer": "Gazebo",
+      "count": 252,
+      "missing": []
+    },
+    {
+      "arm": "C",
+      "consumer": "Bullet",
+      "count": 53,
+      "missing": []
+    }
+  ],
+  "status": "PASS",
+  "mode": "Trusted glibc trace/relocation only; no library init or plugin entry; IFUNC loader resolvers possible; no physics API"
+}

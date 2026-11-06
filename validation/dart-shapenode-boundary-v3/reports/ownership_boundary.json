@@ -1,0 +1,147 @@
+{
+  "source_refs": {
+    "dart/dynamics/Node.cpp": {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/baseline-source/dart/dynamics/Node.cpp",
+      "sha256": "f944c455d802d5e84c5dc66c77d4c65bf3f555c4abd392163d85e966bbda16fe",
+      "lines": [
+        {
+          "line": 55,
+          "text": "delete mNode;"
+        }
+      ]
+    },
+    "dart/dynamics/BodyNode.cpp": {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/baseline-source/dart/dynamics/BodyNode.cpp",
+      "sha256": "8c8fcefac2d67e2776bff2e816e26df5aa61de7a92ab51a460909bdcaeca6718",
+      "lines": [
+        {
+          "line": 269,
+          "text": "mNodeDestructors.clear();"
+        },
+        {
+          "line": 271,
+          "text": "delete mParentJoint;"
+        },
+        {
+          "line": 1319,
+          "text": "// double-delete this BodyNode when it gets destroyed."
+        }
+      ]
+    },
+    "dart/dynamics/ShapeNode.hpp": {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/baseline-source/dart/dynamics/ShapeNode.hpp",
+      "sha256": "b0f9b9a5aef10a67baa63ffb35c8bf7e973711364e10c121ca733ed16de17265",
+      "lines": [
+        {
+          "line": 69,
+          "text": "virtual ~ShapeNode() = default;"
+        }
+      ]
+    },
+    "dart/dynamics/ShapeFrame.cpp": {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/baseline-source/dart/dynamics/ShapeFrame.cpp",
+      "sha256": "4019ac1236c168608ea694329acd1ae208b92125cdfbaa5a9d140c85da433c61",
+      "lines": [
+        {
+          "line": 237,
+          "text": "ShapeFrame::~ShapeFrame()"
+        }
+      ]
+    },
+    "dart/collision/CollisionDetector.cpp": {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/baseline-source/dart/collision/CollisionDetector.cpp",
+      "sha256": "a623138d32c8e94dc5c07794abb5036a6eee2b5019c55597efba2994102eb042",
+      "lines": [
+        {
+          "line": 77,
+          "text": "mCollisionObjectManager.reset("
+        },
+        {
+          "line": 84,
+          "text": "void CollisionDetector::notifyCollisionObjectDestroying("
+        },
+        {
+          "line": 120,
+          "text": "uniqueObject.release(), mCollisionObjectDeleter);"
+        },
+        {
+          "line": 139,
+          "text": "->notifyCollisionObjectDestroying(object);"
+        },
+        {
+          "line": 141,
+          "text": "delete object;"
+        },
+        {
+          "line": 178,
+          "text": "uniqueObject.release(), mCollisionObjectDeleter);"
+        },
+        {
+          "line": 198,
+          "text": "->notifyCollisionObjectDestroying(object);"
+        },
+        {
+          "line": 201,
+          "text": "delete object;"
+        }
+      ]
+    },
+    "dart/collision/bullet/BulletCollisionDetector.cpp": {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/baseline-source/dart/collision/bullet/BulletCollisionDetector.cpp",
+      "sha256": "69b9cd30f1ff5ef4c47ee9e5cb632dc9799546f4bf3783230ac881bc6215c9bf",
+      "lines": [
+        {
+          "line": 410,
+          "text": "mCollisionObjectManager.reset(new ManagerForUnsharableCollisionObjects(this));"
+        },
+        {
+          "line": 420,
+          "text": "new BulletCollisionObject(this, shapeFrame, bulletCollShape));"
+        },
+        {
+          "line": 434,
+          "text": "void BulletCollisionDetector::notifyCollisionObjectDestroying("
+        },
+        {
+          "line": 664,
+          "text": "delete shape;"
+        }
+      ]
+    },
+    "dart/collision/bullet/BulletCollisionObject.cpp": {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/baseline-source/dart/collision/bullet/BulletCollisionObject.cpp",
+      "sha256": "56e81c1f98061543f5cb606fde71a8c587e186e8ea733f7596a94dbe87b200f8",
+      "lines": []
+    }
+  },
+  "edges": [
+    {
+      "from_module": "Bullet",
+      "operation": "new BulletCollisionObject -> unique_ptr<CollisionObject>",
+      "to_module": "core manager"
+    },
+    {
+      "from_module": "core manager",
+      "operation": "release unique -> shared with manager custom deleter",
+      "to_module": "shared control block"
+    },
+    {
+      "from_module": "core deleter",
+      "operation": "virtual notify then delete CollisionObject* -> D0",
+      "to_module": "Bullet derived destructor/operator delete"
+    },
+    {
+      "from_module": "BodyNode core",
+      "operation": "mNodeDestructors.clear -> NodeDestructor -> delete Node* -> ShapeNode adjusted D0 if dynamic ShapeNode",
+      "to_module": "core ShapeNode"
+    }
+  ],
+  "required_lifetimes": [
+    "Detector/manager must outlive deleter callbacks",
+    "Bullet shared shape deleter requires detector map owner",
+    "BodyNode detach/destructor control blocks must avoid dangling/double deletion"
+  ],
+  "static_globals": "Installed Bullet registrar; trace State/thread_local Context/once_flag are separate; shutdown ordering UNKNOWN",
+  "runtime": "NOT_RUNTIME_VERIFIED",
+  "limits": "Source paths are declared ownership design; binary call evidence in destructor_contract.json. No actual allocation/delete/copy/move/unwind performed"
+}

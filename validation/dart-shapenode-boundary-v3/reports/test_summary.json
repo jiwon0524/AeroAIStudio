@@ -1,0 +1,53 @@
+{
+  "current": {
+    "new-final": {
+      "tests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "v2": {
+      "tests": 13,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "v1": {
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "native": {
+      "tests": 45,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "regression": {
+      "tests": 108,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "total": 194,
+  "initial_new": {
+    "tests": 16,
+    "failures": 1,
+    "errors": 0,
+    "skipped": 0
+  },
+  "initial_failure": "Unsupported EH-application negative test used zero bytes and correctly hit truncation first. Supplied a complete 8-byte value to isolate unsupported-application rejection. Original truncation/invalid offset/relocation tests retained. Parser/production criteria unchanged.",
+  "evidence": "work/{new-initial,new-final,v2,v1,native,regression}.{xml,log}",
+  "historical_V2_total": 178,
+  "not_run": [
+    "Gazebo",
+    "World::step",
+    "Stage B",
+    "target object creation/delete",
+    "throw/catch runtime",
+    "full DART suite"
+  ],
+  "limits": "Native synthetic algebra regression is separate from new compile-only lifetime fixtures; not runtime neutrality"
+}

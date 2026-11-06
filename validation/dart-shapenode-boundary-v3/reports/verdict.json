@@ -1,0 +1,61 @@
+{
+  "verdict": "SHAPENODE_BOUNDARY_PARTIALLY_VERIFIED",
+  "runtime": "NOT_RUNTIME_VERIFIED",
+  "Stage_B": "BLOCKED",
+  "host": "NOT_READY; safe bounded lifetime/cast/unwind plan needs further evidence and separate approval",
+  "installed_A_slots": {
+    "IDENTIFIED": 0,
+    "INFERRED": 48,
+    "UNRESOLVED": 19
+  },
+  "B_C_slots": {
+    "IDENTIFIED": 67,
+    "unique_target_addresses": 49
+  },
+  "consumer_usage": {
+    "UNKNOWN": 41,
+    "NOT_OBSERVED": 25,
+    "INDIRECTLY_REACHABLE": 1
+  },
+  "tests": {
+    "new-final": {
+      "tests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "v2": {
+      "tests": 13,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "v1": {
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "native": {
+      "tests": 45,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "regression": {
+      "tests": 108,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "total": 194,
+  "observed_definite_ABI_mismatch": false,
+  "next_minimum": "Resolve primary ShapeNode D1 slot18 and critical cross-module D0/custom-deleter/EH edges using matching debug or bounded disassembly, then review nonphysics lifetime test plan separately",
+  "evidence": [
+    "shapenode_slots.json",
+    "risk_assessment.json",
+    "test_summary.json"
+  ],
+  "limits": "Inferred A names are not recovered symbols; no physical/runtime compatibility claim"
+}

@@ -1,0 +1,455 @@
+{
+  "address_points": [
+    {
+      "address_point_byte_offset": 144,
+      "offset_to_top": 0,
+      "rtti": {
+        "kind": "symbol",
+        "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+        "addend": 0,
+        "relocation": {
+          "type": 1,
+          "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+          "addend": 0
+        }
+      },
+      "evidence": "Fresh installed table words; AP location from preserved compiler hierarchy, not installed debug"
+    },
+    {
+      "address_point_byte_offset": 552,
+      "offset_to_top": -144,
+      "rtti": {
+        "kind": "symbol",
+        "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+        "addend": 0,
+        "relocation": {
+          "type": 1,
+          "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+          "addend": 0
+        }
+      },
+      "evidence": "Fresh installed table words; AP location from preserved compiler hierarchy, not installed debug"
+    },
+    {
+      "address_point_byte_offset": 656,
+      "offset_to_top": -192,
+      "rtti": {
+        "kind": "symbol",
+        "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+        "addend": 0,
+        "relocation": {
+          "type": 1,
+          "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+          "addend": 0
+        }
+      },
+      "evidence": "Fresh installed table words; AP location from preserved compiler hierarchy, not installed debug"
+    },
+    {
+      "address_point_byte_offset": 688,
+      "offset_to_top": -200,
+      "rtti": {
+        "kind": "symbol",
+        "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+        "addend": 0,
+        "relocation": {
+          "type": 1,
+          "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+          "addend": 0
+        }
+      },
+      "evidence": "Fresh installed table words; AP location from preserved compiler hierarchy, not installed debug"
+    },
+    {
+      "address_point_byte_offset": 816,
+      "offset_to_top": -272,
+      "rtti": {
+        "kind": "symbol",
+        "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+        "addend": 0,
+        "relocation": {
+          "type": 1,
+          "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+          "addend": 0
+        }
+      },
+      "evidence": "Fresh installed table words; AP location from preserved compiler hierarchy, not installed debug"
+    },
+    {
+      "address_point_byte_offset": 920,
+      "offset_to_top": -312,
+      "rtti": {
+        "kind": "symbol",
+        "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+        "addend": 0,
+        "relocation": {
+          "type": 1,
+          "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+          "addend": 0
+        }
+      },
+      "evidence": "Fresh installed table words; AP location from preserved compiler hierarchy, not installed debug"
+    },
+    {
+      "address_point_byte_offset": 984,
+      "offset_to_top": -320,
+      "rtti": {
+        "kind": "symbol",
+        "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+        "addend": 0,
+        "relocation": {
+          "type": 1,
+          "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+          "addend": 0
+        }
+      },
+      "evidence": "Fresh installed table words; AP location from preserved compiler hierarchy, not installed debug"
+    },
+    {
+      "address_point_byte_offset": 1144,
+      "offset_to_top": -496,
+      "rtti": {
+        "kind": "symbol",
+        "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+        "addend": 0,
+        "relocation": {
+          "type": 1,
+          "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+          "addend": 0
+        }
+      },
+      "evidence": "Fresh installed table words; AP location from preserved compiler hierarchy, not installed debug"
+    },
+    {
+      "address_point_byte_offset": 1368,
+      "offset_to_top": -840,
+      "rtti": {
+        "kind": "symbol",
+        "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+        "addend": 0,
+        "relocation": {
+          "type": 1,
+          "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+          "addend": 0
+        }
+      },
+      "evidence": "Fresh installed table words; AP location from preserved compiler hierarchy, not installed debug"
+    },
+    {
+      "address_point_byte_offset": 1480,
+      "offset_to_top": -1192,
+      "rtti": {
+        "kind": "symbol",
+        "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+        "addend": 0,
+        "relocation": {
+          "type": 1,
+          "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+          "addend": 0
+        }
+      },
+      "evidence": "Fresh installed table words; AP location from preserved compiler hierarchy, not installed debug"
+    },
+    {
+      "address_point_byte_offset": 1536,
+      "offset_to_top": -1248,
+      "rtti": {
+        "kind": "symbol",
+        "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+        "addend": 0,
+        "relocation": {
+          "type": 1,
+          "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+          "addend": 0
+        }
+      },
+      "evidence": "Fresh installed table words; AP location from preserved compiler hierarchy, not installed debug"
+    },
+    {
+      "address_point_byte_offset": 1600,
+      "offset_to_top": -1272,
+      "rtti": {
+        "kind": "symbol",
+        "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+        "addend": 0,
+        "relocation": {
+          "type": 1,
+          "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+          "addend": 0
+        }
+      },
+      "evidence": "Fresh installed table words; AP location from preserved compiler hierarchy, not installed debug"
+    },
+    {
+      "address_point_byte_offset": 1640,
+      "offset_to_top": -1288,
+      "rtti": {
+        "kind": "symbol",
+        "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+        "addend": 0,
+        "relocation": {
+          "type": 1,
+          "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+          "addend": 0
+        }
+      },
+      "evidence": "Fresh installed table words; AP location from preserved compiler hierarchy, not installed debug"
+    },
+    {
+      "address_point_byte_offset": 1784,
+      "offset_to_top": -1408,
+      "rtti": {
+        "kind": "symbol",
+        "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+        "addend": 0,
+        "relocation": {
+          "type": 1,
+          "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+          "addend": 0
+        }
+      },
+      "evidence": "Fresh installed table words; AP location from preserved compiler hierarchy, not installed debug"
+    },
+    {
+      "address_point_byte_offset": 1880,
+      "offset_to_top": -1568,
+      "rtti": {
+        "kind": "symbol",
+        "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+        "addend": 0,
+        "relocation": {
+          "type": 1,
+          "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+          "addend": 0
+        }
+      },
+      "evidence": "Fresh installed table words; AP location from preserved compiler hierarchy, not installed debug"
+    },
+    {
+      "address_point_byte_offset": 1928,
+      "offset_to_top": -1584,
+      "rtti": {
+        "kind": "symbol",
+        "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+        "addend": 0,
+        "relocation": {
+          "type": 1,
+          "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+          "addend": 0
+        }
+      },
+      "evidence": "Fresh installed table words; AP location from preserved compiler hierarchy, not installed debug"
+    },
+    {
+      "address_point_byte_offset": 1976,
+      "offset_to_top": -1600,
+      "rtti": {
+        "kind": "symbol",
+        "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+        "addend": 0,
+        "relocation": {
+          "type": 1,
+          "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+          "addend": 0
+        }
+      },
+      "evidence": "Fresh installed table words; AP location from preserved compiler hierarchy, not installed debug"
+    },
+    {
+      "address_point_byte_offset": 2040,
+      "offset_to_top": -1616,
+      "rtti": {
+        "kind": "symbol",
+        "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+        "addend": 0,
+        "relocation": {
+          "type": 1,
+          "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+          "addend": 0
+        }
+      },
+      "evidence": "Fresh installed table words; AP location from preserved compiler hierarchy, not installed debug"
+    },
+    {
+      "address_point_byte_offset": 2088,
+      "offset_to_top": -1624,
+      "rtti": {
+        "kind": "symbol",
+        "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+        "addend": 0,
+        "relocation": {
+          "type": 1,
+          "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+          "addend": 0
+        }
+      },
+      "evidence": "Fresh installed table words; AP location from preserved compiler hierarchy, not installed debug"
+    },
+    {
+      "address_point_byte_offset": 2136,
+      "offset_to_top": -1632,
+      "rtti": {
+        "kind": "symbol",
+        "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+        "addend": 0,
+        "relocation": {
+          "type": 1,
+          "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+          "addend": 0
+        }
+      },
+      "evidence": "Fresh installed table words; AP location from preserved compiler hierarchy, not installed debug"
+    },
+    {
+      "address_point_byte_offset": 2184,
+      "offset_to_top": -1648,
+      "rtti": {
+        "kind": "symbol",
+        "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+        "addend": 0,
+        "relocation": {
+          "type": 1,
+          "name": "_ZTIN4dart8dynamics9ShapeNodeE",
+          "addend": 0
+        }
+      },
+      "evidence": "Fresh installed table words; AP location from preserved compiler hierarchy, not installed debug"
+    }
+  ],
+  "selected_sites": [
+    {
+      "consumer": "Gazebo",
+      "sites": [
+        "2354b2:\tcall   *0x28(%rax)",
+        "2354eb:\tcall   *0x28(%rax)",
+        "235524:\tcall   *0x28(%rax)",
+        "235561:\tcall   *0x28(%rax)"
+      ],
+      "static_receiver": "ShapeFrame* returned by CollisionObject::getShapeFrame",
+      "ShapeNode_header_subobject_offset": 272,
+      "address_point_byte_offset": 816,
+      "dispatch_byte_offset": 40,
+      "absolute_table_index": 107,
+      "target": {
+        "kind": "address",
+        "address": 3031120,
+        "relocation": {
+          "type": 8,
+          "name": "",
+          "addend": 3031120
+        }
+      },
+      "in_V2_67": false,
+      "status": "INDIRECTLY_REACHABLE",
+      "limits": "Receiver dynamic type not proven at runtime; header-to-object mapping partial"
+    }
+  ],
+  "core_NodeDestructor": [
+    {
+      "symbol": "_ZN4dart8dynamics14NodeDestructorD2Ev",
+      "address": "0x2b15b0",
+      "disassembly": "\n/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n00000000002b15b0 <dart::dynamics::NodeDestructor::~NodeDestructor()@@Base>:\n  2b15b0:\tendbr64\n  2b15b4:\tmov    (%rdi),%rdi\n  2b15b7:\ttest   %rdi,%rdi\n  2b15ba:\tje     2b15c8 <dart::dynamics::NodeDestructor::~NodeDestructor()@@Base+0x18>\n  2b15bc:\tmov    (%rdi),%rax\n  2b15bf:\tjmp    *0x8(%rax)\n  2b15c2:\tnopw   0x0(%rax,%rax,1)\n  2b15c8:\tret\n",
+      "slot_hypothesis": 70
+    },
+    {
+      "symbol": "_ZN4dart8dynamics14NodeDestructorD1Ev",
+      "address": "0x2b15b0",
+      "disassembly": "\n/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n00000000002b15b0 <dart::dynamics::NodeDestructor::~NodeDestructor()@@Base>:\n  2b15b0:\tendbr64\n  2b15b4:\tmov    (%rdi),%rdi\n  2b15b7:\ttest   %rdi,%rdi\n  2b15ba:\tje     2b15c8 <dart::dynamics::NodeDestructor::~NodeDestructor()@@Base+0x18>\n  2b15bc:\tmov    (%rdi),%rax\n  2b15bf:\tjmp    *0x8(%rax)\n  2b15c2:\tnopw   0x0(%rax,%rax,1)\n  2b15c8:\tret\n",
+      "slot_hypothesis": 70
+    }
+  ],
+  "ShapeNode_ShapeFrame_imports": {
+    "Bullet": [
+      {
+        "name": "_ZN4dart9collision15CollisionObjectC2EPNS0_17CollisionDetectorEPKNS_8dynamics10ShapeFrameE",
+        "address": 0,
+        "size": 0,
+        "binding": 1,
+        "type": 2,
+        "visibility": 0,
+        "section": 0,
+        "table": "dynamic"
+      },
+      {
+        "name": "_ZN4dart9collision14CollisionGroup13addShapeFrameEPKNS_8dynamics10ShapeFrameE",
+        "address": 0,
+        "size": 0,
+        "binding": 1,
+        "type": 2,
+        "visibility": 0,
+        "section": 0,
+        "table": "dynamic"
+      },
+      {
+        "name": "_ZNK4dart8dynamics10ShapeFrame8getShapeEv",
+        "address": 0,
+        "size": 0,
+        "binding": 1,
+        "type": 2,
+        "visibility": 0,
+        "section": 0,
+        "table": "dynamic"
+      },
+      {
+        "name": "_ZNK4dart9collision14CollisionGroup13hasShapeFrameEPKNS_8dynamics10ShapeFrameE",
+        "address": 0,
+        "size": 0,
+        "binding": 1,
+        "type": 2,
+        "visibility": 0,
+        "section": 0,
+        "table": "dynamic"
+      }
+    ],
+    "Gazebo": [
+      {
+        "name": "_ZN4dart8dynamics9ShapeNodeC1EPNS0_8BodyNodeERKNS_6common6detail11ComposeDataINS5_13CompositeDataISt3mapISt10type_indexSt10unique_ptrINS4_6Aspect10PropertiesESt14default_deleteISC_EESt4lessIS9_ESaISt4pairIKS9_SF_EEENS5_13GetPropertiesEEESN_JNS4_24EmbeddedPropertiesAspectINS0_10EntityNodeINS0_21TemplatedJacobianNodeINS0_17FixedJacobianNodeEEEEENS0_6detail20EntityNodePropertiesEEENS0_10FixedFrameENS0_10ShapeFrameEEEE",
+        "address": 0,
+        "size": 0,
+        "binding": 1,
+        "type": 2,
+        "visibility": 0,
+        "section": 0,
+        "table": "dynamic"
+      },
+      {
+        "name": "_ZN4dart8dynamics10ShapeFrame8getShapeEv",
+        "address": 0,
+        "size": 0,
+        "binding": 1,
+        "type": 2,
+        "visibility": 0,
+        "section": 0,
+        "table": "dynamic"
+      },
+      {
+        "name": "_ZN4dart9collision23BulletCollisionDetector21createCollisionObjectEPKNS_8dynamics10ShapeFrameE",
+        "address": 0,
+        "size": 0,
+        "binding": 1,
+        "type": 2,
+        "visibility": 0,
+        "section": 0,
+        "table": "dynamic"
+      },
+      {
+        "name": "_ZN4dart9collision20OdeCollisionDetector21createCollisionObjectEPKNS_8dynamics10ShapeFrameE",
+        "address": 0,
+        "size": 0,
+        "binding": 1,
+        "type": 2,
+        "visibility": 0,
+        "section": 0,
+        "table": "dynamic"
+      }
+    ],
+    "external_A": [],
+    "external_C": []
+  },
+  "slot_usage_counts": {
+    "UNKNOWN": 41,
+    "NOT_OBSERVED": 25,
+    "INDIRECTLY_REACHABLE": 1
+  },
+  "limits": "Bounded real callsites + source/hierarchy; no complete whole-program callgraph, no dynamic execution. External LCP has no observed ShapeNode-specific refs; cannot prove general unreachability."
+}

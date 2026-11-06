@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "item": "Slot identity A",
+      "status": "COMPATIBLE_WITH_LIMITATIONS",
+      "risk": "HIGH",
+      "basis": "0 IDENTIFIED /48 INFERRED /19 UNRESOLVED; B/C67 names direct local symbols +49 unique DWARF sources"
+    },
+    {
+      "item": "Consumed virtual interface",
+      "status": "COMPATIBLE_WITH_LIMITATIONS",
+      "risk": "HIGH",
+      "basis": "Gazebo selected callslot107 outside67; Node deletion can dispatch slot70; not full graph"
+    },
+    {
+      "item": "Destructor and ownership",
+      "status": "COMPATIBLE_WITH_LIMITATIONS",
+      "risk": "HIGH",
+      "basis": "D0/D1 variants and delete dispatch/source manager contract observed; primary D1 slot18 unresolved, lifetime/unwind runtime unknown"
+    },
+    {
+      "item": "RTTI/thunks",
+      "status": "COMPATIBLE_WITH_LIMITATIONS",
+      "risk": "HIGH",
+      "basis": "Selected typeinfo descriptors match;12 nonvirtual+30 virtual thunk entries, installed identity inferred"
+    },
+    {
+      "item": "Exception/unwinding",
+      "status": "UNKNOWN",
+      "risk": "HIGH",
+      "basis": "CFI/FDE/LSDA pointers/personality facilities verified; catch/action semantics/runtime not proven"
+    },
+    {
+      "item": "Installed full object layout",
+      "status": "UNKNOWN",
+      "risk": "HIGH",
+      "basis": "Selected offsets/AP metadata support source layout; no full installed type DWARF"
+    },
+    {
+      "item": "Instrumentation OFF",
+      "status": "COMPATIBLE_WITH_LIMITATIONS",
+      "risk": "HIGH",
+      "basis": "Additional entries/metadata evaluation/once/TLS; not identical execution"
+    },
+    {
+      "item": "Instrumentation ON",
+      "status": "UNKNOWN",
+      "risk": "HIGH",
+      "basis": "Metadata virtual calls/global recorder owner/quiescence/FP/flush unknown"
+    },
+    {
+      "item": "Loader",
+      "status": "VERIFIED_OFFLINE",
+      "risk": "LOW",
+      "basis": "12 fresh trace relocation checks; no undefined, explicit retained installed Bullet"
+    },
+    {
+      "item": "Evidence/production",
+      "status": "VERIFIED_OFFLINE",
+      "risk": "LOW",
+      "basis": "Fresh full hash manifest and original main state check; integrity.json"
+    }
+  ],
+  "evidence": [
+    "shapenode_slots.json",
+    "consumer_virtual_calls.json",
+    "destructor_contract.json",
+    "ownership_boundary.json",
+    "exception_abi.json",
+    "loader_results.json",
+    "integrity.json"
+  ],
+  "limits": "No unverified risk marked LOW; offline scope only"
+}

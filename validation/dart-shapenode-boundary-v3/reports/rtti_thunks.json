@@ -1,0 +1,657 @@
+{
+  "rtti": {
+    "A": {
+      "_ZTIN4dart8dynamics9ShapeNodeE": [
+        [
+          "_ZTVN10__cxxabiv120__si_class_type_infoE",
+          16
+        ],
+        [
+          "_ZTSN4dart8dynamics9ShapeNodeE",
+          0
+        ],
+        [
+          "_ZTIN4dart8dynamics13CompositeNodeINS_6common15CompositeJoinerIJNS0_17FixedJacobianNodeENS0_10ShapeFrameEEEEEE",
+          0
+        ]
+      ],
+      "_ZTIN4dart8dynamics10ShapeFrameE": [
+        [
+          "_ZTVN10__cxxabiv121__vmi_class_type_infoE",
+          16
+        ],
+        [
+          "_ZTSN4dart8dynamics10ShapeFrameE",
+          0
+        ],
+        12884901890,
+        [
+          "_ZTIN4dart6common14VersionCounterE",
+          0
+        ],
+        18446744073709529091,
+        [
+          "_ZTIN4dart6common22EmbedPropertiesOnTopOfINS_8dynamics10ShapeFrameENS2_6detail20ShapeFramePropertiesEJNS0_20SpecializedForAspectIJNS2_12VisualAspectENS2_15CollisionAspectENS2_14DynamicsAspectEEEEEEE",
+          0
+        ],
+        2,
+        [
+          "_ZTIN4dart8dynamics5FrameE",
+          0
+        ],
+        18446744073709527043
+      ]
+    },
+    "B": {
+      "_ZTIN4dart8dynamics9ShapeNodeE": [
+        [
+          "_ZTVN10__cxxabiv120__si_class_type_infoE",
+          16
+        ],
+        [
+          "_ZTSN4dart8dynamics9ShapeNodeE",
+          0
+        ],
+        [
+          "_ZTIN4dart8dynamics13CompositeNodeINS_6common15CompositeJoinerIJNS0_17FixedJacobianNodeENS0_10ShapeFrameEEEEEE",
+          0
+        ]
+      ],
+      "_ZTIN4dart8dynamics10ShapeFrameE": [
+        [
+          "_ZTVN10__cxxabiv121__vmi_class_type_infoE",
+          16
+        ],
+        [
+          "_ZTSN4dart8dynamics10ShapeFrameE",
+          0
+        ],
+        12884901890,
+        [
+          "_ZTIN4dart6common14VersionCounterE",
+          0
+        ],
+        18446744073709529091,
+        [
+          "_ZTIN4dart6common22EmbedPropertiesOnTopOfINS_8dynamics10ShapeFrameENS2_6detail20ShapeFramePropertiesEJNS0_20SpecializedForAspectIJNS2_12VisualAspectENS2_15CollisionAspectENS2_14DynamicsAspectEEEEEEE",
+          0
+        ],
+        2,
+        [
+          "_ZTIN4dart8dynamics5FrameE",
+          0
+        ],
+        18446744073709527043
+      ]
+    },
+    "C": {
+      "_ZTIN4dart8dynamics9ShapeNodeE": [
+        [
+          "_ZTVN10__cxxabiv120__si_class_type_infoE",
+          16
+        ],
+        [
+          "_ZTSN4dart8dynamics9ShapeNodeE",
+          0
+        ],
+        [
+          "_ZTIN4dart8dynamics13CompositeNodeINS_6common15CompositeJoinerIJNS0_17FixedJacobianNodeENS0_10ShapeFrameEEEEEE",
+          0
+        ]
+      ],
+      "_ZTIN4dart8dynamics10ShapeFrameE": [
+        [
+          "_ZTVN10__cxxabiv121__vmi_class_type_infoE",
+          16
+        ],
+        [
+          "_ZTSN4dart8dynamics10ShapeFrameE",
+          0
+        ],
+        12884901890,
+        [
+          "_ZTIN4dart6common14VersionCounterE",
+          0
+        ],
+        18446744073709529091,
+        [
+          "_ZTIN4dart6common22EmbedPropertiesOnTopOfINS_8dynamics10ShapeFrameENS2_6detail20ShapeFramePropertiesEJNS0_20SpecializedForAspectIJNS2_12VisualAspectENS2_15CollisionAspectENS2_14DynamicsAspectEEEEEEE",
+          0
+        ],
+        2,
+        [
+          "_ZTIN4dart8dynamics5FrameE",
+          0
+        ],
+        18446744073709527043
+      ]
+    }
+  },
+  "thunks": [
+    {
+      "slot_index": 69,
+      "candidate": "_ZThn144_N4dart8dynamics9ShapeNodeD1Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f1010",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f1010.asm",
+      "kind": "nonvirtual",
+      "demangled": [
+        "non-virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 70,
+      "candidate": "_ZThn144_N4dart8dynamics9ShapeNodeD0Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f1280",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f1280.asm",
+      "kind": "nonvirtual",
+      "demangled": [
+        "non-virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 82,
+      "candidate": "_ZThn192_N4dart8dynamics9ShapeNodeD1Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f1000",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f1000.asm",
+      "kind": "nonvirtual",
+      "demangled": [
+        "non-virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 83,
+      "candidate": "_ZThn192_N4dart8dynamics9ShapeNodeD0Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f1250",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f1250.asm",
+      "kind": "nonvirtual",
+      "demangled": [
+        "non-virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 86,
+      "candidate": "_ZThn200_N4dart8dynamics9ShapeNodeD1Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f0ff0",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f0ff0.asm",
+      "kind": "nonvirtual",
+      "demangled": [
+        "non-virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 87,
+      "candidate": "_ZThn200_N4dart8dynamics9ShapeNodeD0Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f1220",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f1220.asm",
+      "kind": "nonvirtual",
+      "demangled": [
+        "non-virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 102,
+      "candidate": "_ZThn272_N4dart8dynamics9ShapeNodeD1Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f0fe0",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f0fe0.asm",
+      "kind": "nonvirtual",
+      "demangled": [
+        "non-virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 103,
+      "candidate": "_ZThn272_N4dart8dynamics9ShapeNodeD0Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f11f0",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f11f0.asm",
+      "kind": "nonvirtual",
+      "demangled": [
+        "non-virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 115,
+      "candidate": "_ZThn312_N4dart8dynamics9ShapeNodeD1Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f0fd0",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f0fd0.asm",
+      "kind": "nonvirtual",
+      "demangled": [
+        "non-virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 116,
+      "candidate": "_ZThn312_N4dart8dynamics9ShapeNodeD0Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f11c0",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f11c0.asm",
+      "kind": "nonvirtual",
+      "demangled": [
+        "non-virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 123,
+      "candidate": "_ZThn320_N4dart8dynamics9ShapeNodeD1Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f0fc0",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f0fc0.asm",
+      "kind": "nonvirtual",
+      "demangled": [
+        "non-virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 124,
+      "candidate": "_ZThn320_N4dart8dynamics9ShapeNodeD0Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f1190",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f1190.asm",
+      "kind": "nonvirtual",
+      "demangled": [
+        "non-virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 143,
+      "candidate": "_ZTv0_n40_N4dart8dynamics9ShapeNodeD1Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f0fb0",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f0fb0.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 144,
+      "candidate": "_ZTv0_n40_N4dart8dynamics9ShapeNodeD0Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f1150",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f1150.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 171,
+      "candidate": "_ZTv0_n32_N4dart8dynamics9ShapeNodeD1Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f0fa0",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f0fa0.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 172,
+      "candidate": "_ZTv0_n32_N4dart8dynamics9ShapeNodeD0Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f1110",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f1110.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 173,
+      "candidate": "_ZTv0_n40_N4dart8dynamics10EntityNodeINS0_21TemplatedJacobianNodeINS0_17FixedJacobianNodeEEEE7setNameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE",
+      "status": "INFERRED",
+      "A_address": "0x21efa0",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-21efa0.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::EntityNode<dart::dynamics::TemplatedJacobianNode<dart::dynamics::FixedJacobianNode> >::setName(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 174,
+      "candidate": "_ZTv0_n48_NK4dart8dynamics10EntityNodeINS0_21TemplatedJacobianNodeINS0_17FixedJacobianNodeEEEE7getNameB5cxx11Ev",
+      "status": "INFERRED",
+      "A_address": "0x218a70",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-218a70.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::EntityNode<dart::dynamics::TemplatedJacobianNode<dart::dynamics::FixedJacobianNode> >::getName[abi:cxx11]() const"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 185,
+      "candidate": "_ZTv0_n24_N4dart8dynamics9ShapeNodeD1Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f0f90",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f0f90.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 186,
+      "candidate": "_ZTv0_n24_N4dart8dynamics9ShapeNodeD0Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f10d0",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f10d0.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 194,
+      "candidate": "_ZTv0_n40_N4dart8dynamics9ShapeNodeD1Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f0fb0",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f0fb0.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 195,
+      "candidate": "_ZTv0_n40_N4dart8dynamics9ShapeNodeD0Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f1150",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f1150.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 200,
+      "candidate": "_ZTv0_n32_N4dart8dynamics9ShapeNodeD1Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f0fa0",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f0fa0.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 201,
+      "candidate": "_ZTv0_n32_N4dart8dynamics9ShapeNodeD0Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f1110",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f1110.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 205,
+      "candidate": "_ZTv0_n24_N4dart8dynamics9ShapeNodeD1Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f0f90",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f0f90.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 206,
+      "candidate": "_ZTv0_n24_N4dart8dynamics9ShapeNodeD0Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f10d0",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f10d0.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 223,
+      "candidate": "_ZTv0_n40_N4dart8dynamics9ShapeNodeD1Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f0fb0",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f0fb0.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 224,
+      "candidate": "_ZTv0_n40_N4dart8dynamics9ShapeNodeD0Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f1150",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f1150.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 235,
+      "candidate": "_ZTv0_n32_N4dart8dynamics9ShapeNodeD1Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f0fa0",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f0fa0.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 236,
+      "candidate": "_ZTv0_n32_N4dart8dynamics9ShapeNodeD0Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f1110",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f1110.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 241,
+      "candidate": "_ZTv0_n32_N4dart8dynamics9ShapeNodeD1Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f0fa0",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f0fa0.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 242,
+      "candidate": "_ZTv0_n32_N4dart8dynamics9ShapeNodeD0Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f1110",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f1110.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 247,
+      "candidate": "_ZTv0_n32_N4dart8dynamics9ShapeNodeD1Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f0fa0",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f0fa0.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 248,
+      "candidate": "_ZTv0_n32_N4dart8dynamics9ShapeNodeD0Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f1110",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f1110.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 255,
+      "candidate": "_ZTv0_n48_N4dart8dynamics9ShapeNodeD1Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f0f80",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f0f80.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 256,
+      "candidate": "_ZTv0_n48_N4dart8dynamics9ShapeNodeD0Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f1090",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f1090.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 261,
+      "candidate": "_ZTvn8_n48_N4dart8dynamics9ShapeNodeD1Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f0f60",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f0f60.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 262,
+      "candidate": "_ZTvn8_n48_N4dart8dynamics9ShapeNodeD0Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f1050",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f1050.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 267,
+      "candidate": "_ZTv0_n32_N4dart8dynamics9ShapeNodeD1Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f0fa0",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f0fa0.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 268,
+      "candidate": "_ZTv0_n32_N4dart8dynamics9ShapeNodeD0Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f1110",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f1110.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 273,
+      "candidate": "_ZTv0_n32_N4dart8dynamics9ShapeNodeD1Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f0fa0",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f0fa0.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    },
+    {
+      "slot_index": 274,
+      "candidate": "_ZTv0_n32_N4dart8dynamics9ShapeNodeD0Ev",
+      "status": "INFERRED",
+      "A_address": "0x2f1110",
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-shapenode-boundary-v3/work/A-2f1110.asm",
+      "kind": "virtual",
+      "demangled": [
+        "virtual thunk to dart::dynamics::ShapeNode::~ShapeNode()"
+      ],
+      "evidence": "B/C local symbol + actual bounded A thunk instructions; A names inferred only"
+    }
+  ],
+  "counts": {
+    "nonvirtual": 12,
+    "virtual": 30
+  },
+  "type_name": {
+    "A": {
+      "_ZTSN4dart8dynamics9ShapeNodeE": "N4dart8dynamics9ShapeNodeE",
+      "_ZTSN4dart8dynamics10ShapeFrameE": "N4dart8dynamics10ShapeFrameE"
+    },
+    "B": {
+      "_ZTSN4dart8dynamics9ShapeNodeE": "N4dart8dynamics9ShapeNodeE",
+      "_ZTSN4dart8dynamics10ShapeFrameE": "N4dart8dynamics10ShapeFrameE"
+    },
+    "C": {
+      "_ZTSN4dart8dynamics9ShapeNodeE": "N4dart8dynamics9ShapeNodeE",
+      "_ZTSN4dart8dynamics10ShapeFrameE": "N4dart8dynamics10ShapeFrameE"
+    }
+  },
+  "runtime_cast": "NOT_RUN",
+  "covariant_scope": "No _ZTc target observed among selected67; not a proof none exists elsewhere",
+  "limits": "RTTI identity/descriptors alone do not certify all dynamic-cast/EH paths or installed full member layout"
+}

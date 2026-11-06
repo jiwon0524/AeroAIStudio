@@ -1,0 +1,46 @@
+{
+  "initial_helper": "REVIEW_REQUIRED only GIT_CHANGED/head",
+  "recorded_head": "2edd9e989e7ab8186a075cf605ddecb6b7dfa386",
+  "observed_head": "c22f9476d9d2244c244e87272fa1a927e49d6658",
+  "parent": "2edd9e989e7ab8186a075cf605ddecb6b7dfa386",
+  "parent_matches_record": true,
+  "evidence": [
+    {
+      "path": "validation/dart-consumer-abi-v2/reports/verdict.json",
+      "matches": true
+    },
+    {
+      "path": "validation/dart-consumer-abi-v2/reports/integrity.json",
+      "matches": true
+    }
+  ],
+  "publication_files": [
+    "handoff.md",
+    "validation/dart-consumer-abi-v2/reports/boundary_fixture.json",
+    "validation/dart-consumer-abi-v2/reports/bullet_core_contract.json",
+    "validation/dart-consumer-abi-v2/reports/compiler_abi.json",
+    "validation/dart-consumer-abi-v2/reports/final_report.md",
+    "validation/dart-consumer-abi-v2/reports/handoff_reconciliation.json",
+    "validation/dart-consumer-abi-v2/reports/inline_access.json",
+    "validation/dart-consumer-abi-v2/reports/instrumentation_abi.json",
+    "validation/dart-consumer-abi-v2/reports/integrity.json",
+    "validation/dart-consumer-abi-v2/reports/loader_results.json",
+    "validation/dart-consumer-abi-v2/reports/reproduction.md",
+    "validation/dart-consumer-abi-v2/reports/risk_assessment.json",
+    "validation/dart-consumer-abi-v2/reports/test_safety_review.json",
+    "validation/dart-consumer-abi-v2/reports/test_summary.json",
+    "validation/dart-consumer-abi-v2/reports/verdict.json",
+    "validation/dart-consumer-abi-v2/reports/vtable_rtti.json",
+    "validation/dart-consumer-abi-v2/scripts/common.py",
+    "validation/dart-consumer-abi-v2/scripts/compile_boundary.py",
+    "validation/dart-consumer-abi-v2/scripts/contracts.py",
+    "validation/dart-consumer-abi-v2/scripts/disassemble.py",
+    "validation/dart-consumer-abi-v2/scripts/elf_tables.py",
+    "validation/dart-consumer-abi-v2/scripts/loader_audit.py",
+    "validation/dart-consumer-abi-v2/scripts/preservation.py",
+    "validation/dart-consumer-abi-v2/scripts/summarize.py",
+    "validation/dart-consumer-abi-v2/tests/boundary.cpp",
+    "validation/dart-consumer-abi-v2/tests/test_boundary_contract.py"
+  ],
+  "scope": "V2 checkpoint before V3 handoff replacement"
+}
