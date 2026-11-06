@@ -1,0 +1,73 @@
+{
+  "risks": [
+    {
+      "id": "library_path",
+      "classification": "PARTIALLY_VERIFIED",
+      "basis": "A installed canonical paths verified; old B/C expected paths missing, actual artifacts located separately"
+    },
+    {
+      "id": "build_id",
+      "classification": "VERIFIED",
+      "basis": "10 prior recorded identity entries match SHA/Build-ID; duplicates are not independent ELF"
+    },
+    {
+      "id": "dependency_missing",
+      "classification": "PARTIALLY_VERIFIED",
+      "basis": "16 Core DT_NEEDED ELF/58 edges and optional collision5/27 edges have candidates; relocation/version binding and dynamic plugin loads unverified"
+    },
+    {
+      "id": "runpath",
+      "classification": "PARTIALLY_VERIFIED",
+      "basis": "A installed Core closure no RPATH/RUNPATH; B/C retain trailing empty component and remain excluded"
+    },
+    {
+      "id": "initialization_side_effect",
+      "classification": "UNVERIFIED",
+      "basis": "Core init pointers observed; source factory registration supports global mutations, installed callbacks not fully identified"
+    },
+    {
+      "id": "termination_side_effect",
+      "classification": "UNVERIFIED",
+      "basis": "finalizer arrays/imports, refcounts/TLS/GNU_UNIQUE may prevent full unload"
+    },
+    {
+      "id": "destructor_allocator",
+      "classification": "UNVERIFIED",
+      "basis": "no direct DART object API in fixture; implicit global allocator/dtor actions remain unknown; V4 slot18 remains INFERRED"
+    },
+    {
+      "id": "exception_unwinding",
+      "classification": "UNVERIFIED",
+      "basis": "EH metadata/imports present; fixture uses C, no cross-library C++ ownership; constructors can still fail"
+    },
+    {
+      "id": "sandbox",
+      "classification": "PARTIALLY_VERIFIED",
+      "basis": "prior Python cgroup+bwrap combination passed; native narrower per-file closure mount and mapping checks not executed"
+    },
+    {
+      "id": "resource_excess_enforcement",
+      "classification": "UNVERIFIED",
+      "basis": "64MiB/8/25% settings proven previously; excess behavior and DART sufficiency not tested"
+    },
+    {
+      "id": "kernel_namespace_failure_injection",
+      "classification": "UNVERIFIED",
+      "basis": "prior mock/fail-closed evidence does not establish actual kernel failure path"
+    },
+    {
+      "id": "actual_DART_runtime",
+      "classification": "UNVERIFIED",
+      "basis": "no DART load/close/objects/World/Gazebo/Probe executed"
+    }
+  ],
+  "mandatory_before_runtime": [
+    "tight per-file readonly dependency bind manifest + interpreter closure reviewed",
+    "native sandbox/resource/supervisor launch gate completed and harmlessly tested",
+    "post-open mapping identity/hash checker completed with bounded/truncated output rejection",
+    "explicit separate runtime approval; same64MiB unless separately justified and approved"
+  ],
+  "B_C_paths_not_repaired": true,
+  "runpath_files_not_modified": true,
+  "no_runtime_command_provided": true
+}

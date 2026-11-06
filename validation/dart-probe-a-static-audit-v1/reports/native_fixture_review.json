@@ -1,0 +1,47 @@
+{
+  "source": "fixtures/probe_a.c",
+  "source_sha256": "65fa85d7e3f5130b342c9a74215f1a4e9f5209f5ac077e7494f212183668235e",
+  "language": "C11 + POSIX/glibc; no DART/Gazebo headers or linkage",
+  "default_binary": "work/fixture_offline",
+  "default_NEEDED": [
+    "libc.so.6"
+  ],
+  "default_dynamic_tags": "\nDynamic section at offset 0x2d68 contains 27 entries:\n  Tag        Type                         Name/Value\n 0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]\n 0x000000000000000c (INIT)               0x1000\n 0x000000000000000d (FINI)               0x17a8\n 0x0000000000000019 (INIT_ARRAY)         0x3d58\n 0x000000000000001b (INIT_ARRAYSZ)       8 (bytes)\n 0x000000000000001a (FINI_ARRAY)         0x3d60\n 0x000000000000001c (FINI_ARRAYSZ)       8 (bytes)\n 0x000000006ffffef5 (GNU_HASH)           0x3b0\n 0x0000000000000005 (STRTAB)             0x5b8\n 0x0000000000000006 (SYMTAB)             0x3d8\n 0x000000000000000a (STRSZ)              302 (bytes)\n 0x000000000000000b (SYMENT)             24 (bytes)\n 0x0000000000000015 (DEBUG)              0x0\n 0x0000000000000003 (PLTGOT)             0x3f58\n 0x0000000000000002 (PLTRELSZ)           312 (bytes)\n 0x0000000000000014 (PLTREL)             RELA\n 0x0000000000000017 (JMPREL)             0x848\n 0x0000000000000007 (RELA)               0x770\n 0x0000000000000008 (RELASZ)             216 (bytes)\n 0x0000000000000009 (RELAENT)            24 (bytes)\n 0x000000000000001e (FLAGS)              BIND_NOW\n 0x000000006ffffffb (FLAGS_1)            Flags: NOW PIE\n 0x000000006ffffffe (VERNEED)            0x710\n 0x000000006fffffff (VERNEEDNUM)         1\n 0x000000006ffffff0 (VERSYM)             0x6e6\n 0x000000006ffffff9 (RELACOUNT)          3\n 0x0000000000000000 (NULL)               0x0\n",
+  "default_dlopen_dlclose_imports": false,
+  "loader_enabled_artifact": "work/loader_review_only.o",
+  "loader_enabled_linked": false,
+  "loader_enabled_executed": false,
+  "actual_native_branch_control_flow": "external preconditions -> secondary mount/net/limits/maps gate -> exactly1 RTLD_NOW|LOCAL open -> bounded512 map rows -> exactly1 close -> exit; on mapping error process exit preserves failure without retry",
+  "unverified_native_branches": [
+    "actual gate",
+    "dlopen",
+    "dlerror",
+    "mapping enumeration with DART loaded",
+    "dlclose/finalizers"
+  ],
+  "exit_codes": {
+    "0": "contract or simulation success; never actual DART approval",
+    "20": "open failure",
+    "21": "close failure",
+    "22": "mapping incomplete",
+    "64": "invalid simulation input",
+    "74": "event/output failure",
+    "77": "disabled or unsupported entry",
+    "78": "native entry gate rejected",
+    "143": "SIGTERM caught with bounded fixed record"
+  },
+  "event_contract": {
+    "regular": "probe_a_events_v1: sequence,pid,monotonic_ns,phase,result,detail,loader_compiled,detail_truncated",
+    "signal": "probe_a_signal_v1: SIGTERM signal15; async safe write+_exit143, sequence/time supplied only by external observer when available",
+    "simulation": "all results SIMULATED or explicit ERROR; never native qualification",
+    "truncation": "detail_truncated marks omitted bytes; collector must reject incomplete identity",
+    "cleanup": "supervisor own unit/PID-start/cgroup cleanup; fixture cannot guarantee cleanup after fatal signals",
+    "timeout": "external systemd/supervisor bounds; harmless await-signal test has3s alarm failsafe"
+  },
+  "tests": {
+    "fixture": 9,
+    "static_audit": 18,
+    "passed": 27
+  },
+  "scope_limitations": "Native mount/identity checker/supervisor integration is a prospective design, not a ready-to-run controller"
+}

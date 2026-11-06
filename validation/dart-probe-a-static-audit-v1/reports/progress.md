@@ -1,0 +1,1 @@
+완료 checkpoint: ELF14항목/10실파일, Core closure16/58 + optional5/27, 과거10항목 SHA/Build-ID 일치, default no-loader C fixture + loader object compile 성공, 신규27/회귀49 PASS. 기존54,610파일 및 installed21ELF 보존 PASS. PROBE_A_STATIC_NEEDS_EVIDENCE; native allowlist/launcher/maps checker와 별도 승인 필요. Runtime/Gazebo/새unit0. 게시 검토 중.

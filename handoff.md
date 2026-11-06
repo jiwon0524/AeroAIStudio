@@ -1,3 +1,24 @@
+# DART Probe A Static Readiness Audit V1 — current checkpoint
+
+현재 범위 완료: **PROBE_A_STATIC_NEEDS_EVIDENCE / NOT_RUNTIME_VERIFIED / Stage B BLOCKED / Probe B~D BLOCKED**. 실제 DART dlopen/dlclose·객체·Gazebo·World·Probe·새systemd service는 전부 미실행. 기존 main 무수정. 현재 요청 종료 후 후속작업 자동 실행 없음.
+
+시작 branch experiment/dart-internal-trace/HEAD906402c9f93c618c6b93d93f78845359f4bacc07 clean, main46134c6 기존dirty 보존. context-handoff·AGENTS/DEVELOPMENT_RULES·최신Integration/Hardening/Readiness/Targeted/V4 자료와 실제ELF 대조.
+
+새 `validation/dart-probe-a-static-audit-v1/reports/` final_report/dependency_audit/optional_collision_dependencies/elf_identity/runpath_audit/initialization_risks/native_fixture_review/probe_a_execution_plan/remaining_blockers/integrity/verdict와 tests/build logs 참조. Core DT_NEEDED16ELF/58edges, optional ODE/Bullet5추가/27edges 후보누락0·중복실경로0. 과거10항목/8고유ELF SHA/Build-ID일치. A Core closureRPATH/RUNPATH없음; B/C후행빈RUNPATH와기존external예상경로2MISSING유지, 실제external은build-*/dart/external/odelcpsolver에서발견(이동/수정안함). Runtime symbol resolution은UNVERIFIED.
+
+Core initarray16B/file0x1787d0,0x176840; fini8B/0x178790 및 RELATIVE재배치관측. 일부 bounded disassembly·TLS/IFUNC/GNU_UNIQUE/imports 보존, callback 전체 semantics 미확정. 동버전 source registrar는creator등록이며detector생성을증명안함. implicitglobal init/fini/allocator/EH미검증; 기존slot18INFERRED유지.
+
+C fixtures/probe_a.c: DART헤더/링크없음. work/fixture_offline은libc만NEEDED, dlopen/dlclose import0; offline contract/simulation/signal만실행. loader-enabled분기는work/loader_review_only.o REL object로만컴파일(링크·실행0). 신규27+회귀49=**76 PASS/0FAIL**, 실제활동4SKIP(테스트runner skips0). 초기-Werror write반환경고 및ELFversionindex parser오류 보존·수정후검증. 새 source/scripts/tests/reports와이handoff만이번소유.
+
+보존54,610기존파일변경·누락/기존범위신규0, mainHEAD/status유지, installed21ELF rehashPASS. 원본evidence/production/패키지/loader/AppArmor/Clock/Capture무변경. rawwork·binary/object·fullmanifest는게시제외. /tmp local/ignored/untracked원본은다른기기로자동전달안됨. 실제commit/push/원격SHA는새reports/git_publication.json로컬영수증과최종응답참조.
+
+다음최소작업: **기존sandbox/supervisor에immutable per-file dependency manifest + mapped-library identity checker를연결하고무해Nativefixture로만경계검증**. 이후64MiB미확정/implicitinit-fini위험을평가하고별도Core-only실행승인여부결정. 현재실행명령없고plan.py는JSON출력만. Probe B~D/Stage B차단해제없음.
+
+관측시각/host/visibleprocess는handoff_snapshot.json. 알려진offline시험은완료·wait/cleanup; projectCWD관측외외부/remote/container는UNKNOWN. 계정전환/기존작업종료·재시작없음.
+
+---
+이하 이전 인계 기록:
+
 # Cgroup Inheritance & Bubblewrap Integration V1 — current checkpoint
 
 현재 명시 승인 범위 완료: **CGROUP_BWRAP_INTEGRATION_VERIFIED / Probe A NEEDS_ADDITIONAL_EVIDENCE / B~D BLOCKED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. 실제 DART/Gazebo library load, World::step, Probe, 자원 고갈·CPU 과부하·kernel namespace 실패 주입·Supervisor SIGKILL은 미실행.

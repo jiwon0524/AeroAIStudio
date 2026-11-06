@@ -1,0 +1,11 @@
+test_capacity (test_reports.Review.test_capacity) ... ok
+test_fail_closed (test_reports.Review.test_fail_closed) ... ok
+test_json (test_reports.Review.test_json) ... ok
+test_no_promotion_and_no_target (test_reports.Review.test_no_promotion_and_no_target) ... ok
+test_sockets (test_reports.Review.test_sockets) ... ok
+test_supervisor (test_reports.Review.test_supervisor) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK

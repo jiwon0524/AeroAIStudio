@@ -1,0 +1,201 @@
+{
+  "libraries": [
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "arm": "A",
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+      "arm": "A",
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.13.2",
+      "arm": "A",
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+      "arm": "A",
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13.2",
+      "arm": "B",
+      "rpath": [],
+      "runpath": [
+        {
+          "raw": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu:",
+          "components": [
+            {
+              "value": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver",
+              "empty_cwd": false,
+              "relative": false,
+              "origin": false,
+              "other_token": false
+            },
+            {
+              "value": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu",
+              "empty_cwd": false,
+              "relative": false,
+              "origin": false,
+              "other_token": false
+            },
+            {
+              "value": "",
+              "empty_cwd": true,
+              "relative": false,
+              "origin": false,
+              "other_token": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart-collision-ode.so.6.13.2",
+      "arm": "B",
+      "rpath": [],
+      "runpath": [
+        {
+          "raw": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu:",
+          "components": [
+            {
+              "value": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib",
+              "empty_cwd": false,
+              "relative": false,
+              "origin": false,
+              "other_token": false
+            },
+            {
+              "value": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver",
+              "empty_cwd": false,
+              "relative": false,
+              "origin": false,
+              "other_token": false
+            },
+            {
+              "value": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu",
+              "empty_cwd": false,
+              "relative": false,
+              "origin": false,
+              "other_token": false
+            },
+            {
+              "value": "",
+              "empty_cwd": true,
+              "relative": false,
+              "origin": false,
+              "other_token": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+      "arm": "B",
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2",
+      "arm": "C",
+      "rpath": [],
+      "runpath": [
+        {
+          "raw": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu:",
+          "components": [
+            {
+              "value": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver",
+              "empty_cwd": false,
+              "relative": false,
+              "origin": false,
+              "other_token": false
+            },
+            {
+              "value": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu",
+              "empty_cwd": false,
+              "relative": false,
+              "origin": false,
+              "other_token": false
+            },
+            {
+              "value": "",
+              "empty_cwd": true,
+              "relative": false,
+              "origin": false,
+              "other_token": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart-collision-ode.so.6.13.2",
+      "arm": "C",
+      "rpath": [],
+      "runpath": [
+        {
+          "raw": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu:",
+          "components": [
+            {
+              "value": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib",
+              "empty_cwd": false,
+              "relative": false,
+              "origin": false,
+              "other_token": false
+            },
+            {
+              "value": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver",
+              "empty_cwd": false,
+              "relative": false,
+              "origin": false,
+              "other_token": false
+            },
+            {
+              "value": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu",
+              "empty_cwd": false,
+              "relative": false,
+              "origin": false,
+              "other_token": false
+            },
+            {
+              "value": "",
+              "empty_cwd": true,
+              "relative": false,
+              "origin": false,
+              "other_token": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+      "arm": "C",
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2",
+      "arm": null,
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2",
+      "arm": null,
+      "rpath": [],
+      "runpath": []
+    }
+  ],
+  "closure_runpaths": [],
+  "absolute_root_does_not_pin_transitive_dependencies": true,
+  "loader_execution": false
+}

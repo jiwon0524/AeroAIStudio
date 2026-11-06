@@ -1,0 +1,43 @@
+{
+  "source_reference_not_installed_binary_equivalence": true,
+  "files": [
+    {
+      "path": "validation/dart-capability-abi-v2/work/baseline-source/dart/collision/fcl/FCLCollisionDetector.cpp",
+      "sha256": "5c6ce56d29ac195c3673ba4513a5ff07ef634241948d1b7869e22469c40dcb37",
+      "relevant_lines": [
+        610,
+        611,
+        612,
+        613,
+        614,
+        615,
+        616
+      ]
+    },
+    {
+      "path": "validation/dart-capability-abi-v2/work/baseline-source/dart/collision/bullet/BulletCollisionDetector.cpp",
+      "sha256": "69b9cd30f1ff5ef4c47ee9e5cb632dc9799546f4bf3783230ac881bc6215c9bf",
+      "relevant_lines": [
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109
+      ]
+    },
+    {
+      "path": "validation/dart-capability-abi-v2/work/baseline-source/dart/common/detail/Factory-impl.hpp",
+      "sha256": "c58d66ef69603ca2ad0b7c96955445e5cfe466fd70351717afac4575272d299c",
+      "relevant_lines": [
+        179,
+        180,
+        181,
+        182,
+        183
+      ]
+    }
+  ],
+  "observation": "Registrar constructor registers creator in singleton factory; source registration is not proof constructor invokes detector creator; optimized installed init function identities remain unresolved"
+}

@@ -1,0 +1,11 @@
+{
+  "raw_path": "work/core_init_fini_disassembly_raw.txt",
+  "raw_sha256": "51a1fa030e1cf9102f0d716a095e0da049372870b36b4f7c47f85a690b435d81",
+  "report_path": "reports/core_init_fini_disassembly.txt",
+  "normalization": "trailing whitespace stripped only; instruction content unchanged",
+  "reason": "git diff --check flagged objdump formatting; initial check preserved",
+  "initial_diff_raw": {
+    "path": "work/diff_check_initial_raw.txt",
+    "sha256": "ae78db09e2ed017174c1f7d3c268bc652a7a6ce2fc92b665fe8a1f38c67a66cd"
+  }
+}

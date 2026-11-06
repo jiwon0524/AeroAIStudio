@@ -1,0 +1,755 @@
+{
+  "nodes": {
+    "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2": {
+      "requested_path": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+      "exists": true,
+      "is_symlink": false,
+      "link_target": null,
+      "real_path": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+      "sha256": "897709e0c988e9e562c662292ed5bc860bce70ee2c64499501f54a6b5ca02201",
+      "build_id": "8bda73145d9c6cc97d6faff5895c2ce1aa091f6f",
+      "soname": [
+        "libdart-collision-bullet.so.6.13"
+      ],
+      "needed": [
+        "libdart.so.6.13",
+        "libBulletCollision.so.3.24",
+        "libLinearMath.so.3.24",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [],
+      "has_debug_info": false,
+      "has_symtab": false,
+      "debuglink": {
+        "filename": "da73145d9c6cc97d6faff5895c2ce1aa091f6f.debug",
+        "crc32": 4209051471
+      },
+      "architecture": "Advanced Micro Devices X86-64",
+      "elf_class": "ELF64",
+      "stat": {
+        "bytes": 325992,
+        "mode": "0o644",
+        "uid": 65534
+      },
+      "special_sections": {
+        ".eh_frame": {
+          "address": 286808,
+          "size_bytes": 19040,
+          "section_type": 1
+        },
+        ".gcc_except_table": {
+          "address": 305848,
+          "size_bytes": 5009,
+          "section_type": 1
+        },
+        ".init_array": {
+          "address": 313352,
+          "size_bytes": 16,
+          "section_type": 14,
+          "file_pointer_values": [
+            "0x14700",
+            "0x13fb0"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        },
+        ".fini_array": {
+          "address": 313368,
+          "size_bytes": 8,
+          "section_type": 15,
+          "file_pointer_values": [
+            "0x146c0"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        }
+      },
+      "flags": [
+        "0x000000000000000c (INIT)               0x10000",
+        "0x000000000000000d (FINI)               0x3ebdc",
+        "0x0000000000000019 (INIT_ARRAY)         0x4c808",
+        "0x000000000000001a (FINI_ARRAY)         0x4c818",
+        "0x000000000000001e (FLAGS)              BIND_NOW",
+        "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+      ],
+      "ifunc_count": 0,
+      "gnu_unique_count": 0,
+      "lifetime_imports": [
+        "__cxa_finalize@GLIBC_2.2.5",
+        "__cxa_free_exception@CXXABI_1.3",
+        "__cxa_atexit@GLIBC_2.2.5",
+        "free@GLIBC_2.2.5",
+        "malloc@GLIBC_2.2.5",
+        "__cxa_throw@CXXABI_1.3",
+        "_Unwind_Resume@GCC_3.0",
+        "_ZN21btCollisionDispatcher22freeCollisionAlgorithmEPv"
+      ]
+    },
+    "/usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.13.2": {
+      "requested_path": "/usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.13.2",
+      "exists": true,
+      "is_symlink": false,
+      "link_target": null,
+      "real_path": "/usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.13.2",
+      "sha256": "2940e0bd6b056f186d3596e051a26ec25f1c27add88d870cdfe673785dad4b44",
+      "build_id": "2cbacdc0e4014e0ee69c4deeacd2d088d564599e",
+      "soname": [
+        "libdart-collision-ode.so.6.13"
+      ],
+      "needed": [
+        "libdart.so.6.13",
+        "libode.so.8",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [],
+      "has_debug_info": false,
+      "has_symtab": false,
+      "debuglink": {
+        "filename": "bacdc0e4014e0ee69c4deeacd2d088d564599e.debug",
+        "crc32": 3684768618
+      },
+      "architecture": "Advanced Micro Devices X86-64",
+      "elf_class": "ELF64",
+      "stat": {
+        "bytes": 289128,
+        "mode": "0o644",
+        "uid": 65534
+      },
+      "special_sections": {
+        ".eh_frame": {
+          "address": 253528,
+          "size_bytes": 17056,
+          "section_type": 1
+        },
+        ".gcc_except_table": {
+          "address": 270584,
+          "size_bytes": 4397,
+          "section_type": 1
+        },
+        ".init_array": {
+          "address": 281032,
+          "size_bytes": 16,
+          "section_type": 14,
+          "file_pointer_values": [
+            "0x12fc0",
+            "0x12570"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        },
+        ".fini_array": {
+          "address": 281048,
+          "size_bytes": 8,
+          "section_type": 15,
+          "file_pointer_values": [
+            "0x12f80"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        }
+      },
+      "flags": [
+        "0x000000000000000c (INIT)               0xf000",
+        "0x000000000000000d (FINI)               0x37924",
+        "0x0000000000000019 (INIT_ARRAY)         0x449c8",
+        "0x000000000000001a (FINI_ARRAY)         0x449d8",
+        "0x000000000000001e (FLAGS)              BIND_NOW",
+        "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+      ],
+      "ifunc_count": 0,
+      "gnu_unique_count": 0,
+      "lifetime_imports": [
+        "__cxa_finalize@GLIBC_2.2.5",
+        "__cxa_free_exception@CXXABI_1.3",
+        "__cxa_atexit@GLIBC_2.2.5",
+        "__cxa_throw@CXXABI_1.3",
+        "_Unwind_Resume@GCC_3.0"
+      ]
+    },
+    "/usr/lib/x86_64-linux-gnu/libBulletCollision.so.3.24": {
+      "requested_path": "/usr/lib/x86_64-linux-gnu/libBulletCollision.so.3.24",
+      "exists": true,
+      "is_symlink": false,
+      "link_target": null,
+      "real_path": "/usr/lib/x86_64-linux-gnu/libBulletCollision.so.3.24",
+      "sha256": "a356d9ef207a31737b91a39c4c75a43b05a49cde51891cfa13b4b1c71c223f0a",
+      "build_id": "78e4c8281568b878d8e9b589700bd661e54f46b8",
+      "soname": [
+        "libBulletCollision.so.3.24"
+      ],
+      "needed": [
+        "libLinearMath.so.3.24",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [],
+      "has_debug_info": false,
+      "has_symtab": false,
+      "debuglink": {
+        "filename": "e4c8281568b878d8e9b589700bd661e54f46b8.debug",
+        "crc32": 3226855549
+      },
+      "architecture": "Advanced Micro Devices X86-64",
+      "elf_class": "ELF64",
+      "stat": {
+        "bytes": 829848,
+        "mode": "0o644",
+        "uid": 65534
+      },
+      "special_sections": {
+        ".eh_frame": {
+          "address": 747016,
+          "size_bytes": 52240,
+          "section_type": 1
+        },
+        ".gcc_except_table": {
+          "address": 799256,
+          "size_bytes": 3438,
+          "section_type": 1
+        },
+        ".init_array": {
+          "address": 804328,
+          "size_bytes": 16,
+          "section_type": 14,
+          "file_pointer_values": [
+            "0x2ea70",
+            "0x2e970"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        },
+        ".fini_array": {
+          "address": 804344,
+          "size_bytes": 8,
+          "section_type": 15,
+          "file_pointer_values": [
+            "0x2ea30"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        }
+      },
+      "flags": [
+        "0x000000000000000c (INIT)               0x2d000",
+        "0x000000000000000d (FINI)               0xae27c",
+        "0x0000000000000019 (INIT_ARRAY)         0xc45e8",
+        "0x000000000000001a (FINI_ARRAY)         0xc45f8",
+        "0x000000000000001e (FLAGS)              BIND_NOW",
+        "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+      ],
+      "ifunc_count": 0,
+      "gnu_unique_count": 0,
+      "lifetime_imports": [
+        "__cxa_finalize@GLIBC_2.2.5",
+        "__cxa_atexit@GLIBC_2.2.5",
+        "free@GLIBC_2.2.5",
+        "malloc@GLIBC_2.2.5",
+        "__cxa_throw_bad_array_new_length@CXXABI_1.3.8",
+        "_Unwind_Resume@GCC_3.0"
+      ]
+    },
+    "/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24": {
+      "requested_path": "/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+      "exists": true,
+      "is_symlink": false,
+      "link_target": null,
+      "real_path": "/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+      "sha256": "31c7e0d2d17efc3924613bf561a645a4258f2d8df54167c162c490ed7fe84fea",
+      "build_id": "10bd4f12513972fa38393f205d96234101b7e2da",
+      "soname": [
+        "libLinearMath.so.3.24"
+      ],
+      "needed": [
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "rpath": [],
+      "runpath": [],
+      "has_debug_info": false,
+      "has_symtab": false,
+      "debuglink": {
+        "filename": "bd4f12513972fa38393f205d96234101b7e2da.debug",
+        "crc32": 1881291572
+      },
+      "architecture": "Advanced Micro Devices X86-64",
+      "elf_class": "ELF64",
+      "stat": {
+        "bytes": 136600,
+        "mode": "0o644",
+        "uid": 65534
+      },
+      "special_sections": {
+        ".eh_frame": {
+          "address": 96336,
+          "size_bytes": 6000,
+          "section_type": 1
+        },
+        ".gcc_except_table": {
+          "address": 102336,
+          "size_bytes": 786,
+          "section_type": 1
+        },
+        ".tdata": {
+          "address": 109540,
+          "size_bytes": 4,
+          "section_type": 1
+        },
+        ".init_array": {
+          "address": 109544,
+          "size_bytes": 16,
+          "section_type": 14,
+          "file_pointer_values": [
+            "0x4990",
+            "0x48c0"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        },
+        ".fini_array": {
+          "address": 109560,
+          "size_bytes": 8,
+          "section_type": 15,
+          "file_pointer_values": [
+            "0x4950"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        }
+      },
+      "flags": [
+        "0x000000000000000c (INIT)               0x4000",
+        "0x000000000000000d (FINI)               0x16c4c",
+        "0x0000000000000019 (INIT_ARRAY)         0x1abe8",
+        "0x000000000000001a (FINI_ARRAY)         0x1abf8",
+        "0x000000000000001e (FLAGS)              BIND_NOW",
+        "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+      ],
+      "ifunc_count": 0,
+      "gnu_unique_count": 0,
+      "lifetime_imports": [
+        "__cxa_finalize@GLIBC_2.2.5",
+        "__cxa_atexit@GLIBC_2.2.5",
+        "free@GLIBC_2.2.5",
+        "malloc@GLIBC_2.2.5",
+        "_Unwind_Resume@GCC_3.0"
+      ]
+    },
+    "/usr/lib/x86_64-linux-gnu/libode.so.8.0.2": {
+      "requested_path": "/usr/lib/x86_64-linux-gnu/libode.so.8.0.2",
+      "exists": true,
+      "is_symlink": false,
+      "link_target": null,
+      "real_path": "/usr/lib/x86_64-linux-gnu/libode.so.8.0.2",
+      "sha256": "c511d66333708785c1a22f6cd572c4c84495a535566c9c80eb37d8e0f67bc469",
+      "build_id": "8266294ec6924f2f072f6a5ff6434068a38ceb92",
+      "soname": [
+        "libode.so.8"
+      ],
+      "needed": [
+        "libccd.so.2",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libc.so.6",
+        "libgcc_s.so.1"
+      ],
+      "rpath": [],
+      "runpath": [],
+      "has_debug_info": false,
+      "has_symtab": false,
+      "debuglink": {
+        "filename": "66294ec6924f2f072f6a5ff6434068a38ceb92.debug",
+        "crc32": 2716079107
+      },
+      "architecture": "Advanced Micro Devices X86-64",
+      "elf_class": "ELF64",
+      "stat": {
+        "bytes": 1128616,
+        "mode": "0o644",
+        "uid": 65534
+      },
+      "special_sections": {
+        ".eh_frame": {
+          "address": 1044768,
+          "size_bytes": 70268,
+          "section_type": 1
+        },
+        ".gcc_except_table": {
+          "address": 1115036,
+          "size_bytes": 2374,
+          "section_type": 1
+        },
+        ".init_array": {
+          "address": 1121544,
+          "size_bytes": 16,
+          "section_type": 14,
+          "file_pointer_values": [
+            "0x2a5d0",
+            "0x2a2f0"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        },
+        ".fini_array": {
+          "address": 1121560,
+          "size_bytes": 8,
+          "section_type": 15,
+          "file_pointer_values": [
+            "0x2a590"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        }
+      },
+      "flags": [
+        "0x000000000000000c (INIT)               0x29000",
+        "0x000000000000000d (FINI)               0xecf6c",
+        "0x0000000000000019 (INIT_ARRAY)         0x111d08",
+        "0x000000000000001a (FINI_ARRAY)         0x111d18",
+        "0x000000000000001e (FLAGS)              BIND_NOW",
+        "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+      ],
+      "ifunc_count": 0,
+      "gnu_unique_count": 0,
+      "lifetime_imports": [
+        "__cxa_finalize@GLIBC_2.2.5",
+        "__cxa_atexit@GLIBC_2.2.5",
+        "free@GLIBC_2.2.5",
+        "malloc@GLIBC_2.2.5",
+        "__cxa_throw_bad_array_new_length@CXXABI_1.3.8",
+        "_Unwind_Resume@GCC_3.0",
+        "pthread_create@GLIBC_2.34"
+      ]
+    }
+  },
+  "edges": [
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+      "needed": "libdart.so.6.13",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libdart.so.6.13",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+          "is_symlink": true,
+          "link_target": "libdart.so.6.13.2"
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+      "needed": "libBulletCollision.so.3.24",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libBulletCollision.so.3.24",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libBulletCollision.so.3.24",
+          "is_symlink": false,
+          "link_target": null
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+      "needed": "libLinearMath.so.3.24",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+          "is_symlink": false,
+          "link_target": null
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+      "needed": "libstdc++.so.6",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libstdc++.so.6",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+          "is_symlink": true,
+          "link_target": "libstdc++.so.6.0.33"
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+      "needed": "libgcc_s.so.1",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+          "is_symlink": false,
+          "link_target": null
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+      "needed": "libc.so.6",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libc.so.6",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+          "is_symlink": false,
+          "link_target": null
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.13.2",
+      "needed": "libdart.so.6.13",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libdart.so.6.13",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+          "is_symlink": true,
+          "link_target": "libdart.so.6.13.2"
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.13.2",
+      "needed": "libode.so.8",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libode.so.8",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libode.so.8.0.2",
+          "is_symlink": true,
+          "link_target": "libode.so.8.0.2"
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.13.2",
+      "needed": "libstdc++.so.6",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libstdc++.so.6",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+          "is_symlink": true,
+          "link_target": "libstdc++.so.6.0.33"
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.13.2",
+      "needed": "libm.so.6",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libm.so.6",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+          "is_symlink": false,
+          "link_target": null
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.13.2",
+      "needed": "libgcc_s.so.1",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+          "is_symlink": false,
+          "link_target": null
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.13.2",
+      "needed": "libc.so.6",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libc.so.6",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+          "is_symlink": false,
+          "link_target": null
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libBulletCollision.so.3.24",
+      "needed": "libLinearMath.so.3.24",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+          "is_symlink": false,
+          "link_target": null
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libBulletCollision.so.3.24",
+      "needed": "libstdc++.so.6",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libstdc++.so.6",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+          "is_symlink": true,
+          "link_target": "libstdc++.so.6.0.33"
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libBulletCollision.so.3.24",
+      "needed": "libm.so.6",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libm.so.6",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+          "is_symlink": false,
+          "link_target": null
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libBulletCollision.so.3.24",
+      "needed": "libgcc_s.so.1",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+          "is_symlink": false,
+          "link_target": null
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libBulletCollision.so.3.24",
+      "needed": "libc.so.6",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libc.so.6",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+          "is_symlink": false,
+          "link_target": null
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+      "needed": "libstdc++.so.6",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libstdc++.so.6",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+          "is_symlink": true,
+          "link_target": "libstdc++.so.6.0.33"
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+      "needed": "libm.so.6",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libm.so.6",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+          "is_symlink": false,
+          "link_target": null
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+      "needed": "libgcc_s.so.1",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+          "is_symlink": false,
+          "link_target": null
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+      "needed": "libc.so.6",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libc.so.6",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+          "is_symlink": false,
+          "link_target": null
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+      "needed": "ld-linux-x86-64.so.2",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+          "real_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+          "is_symlink": false,
+          "link_target": null
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libode.so.8.0.2",
+      "needed": "libccd.so.2",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libccd.so.2",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+          "is_symlink": true,
+          "link_target": "libccd.so.2.0"
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libode.so.8.0.2",
+      "needed": "libstdc++.so.6",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libstdc++.so.6",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+          "is_symlink": true,
+          "link_target": "libstdc++.so.6.0.33"
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libode.so.8.0.2",
+      "needed": "libm.so.6",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libm.so.6",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+          "is_symlink": false,
+          "link_target": null
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libode.so.8.0.2",
+      "needed": "libc.so.6",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libc.so.6",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+          "is_symlink": false,
+          "link_target": null
+        }
+      ]
+    },
+    {
+      "parent": "/usr/lib/x86_64-linux-gnu/libode.so.8.0.2",
+      "needed": "libgcc_s.so.1",
+      "candidates": [
+        {
+          "requested_path": "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+          "real_path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+          "is_symlink": false,
+          "link_target": null
+        }
+      ]
+    }
+  ],
+  "not_in_core_DT_NEEDED": true,
+  "probe_A_core_only_excludes_explicit_collision_plugin_load": true
+}

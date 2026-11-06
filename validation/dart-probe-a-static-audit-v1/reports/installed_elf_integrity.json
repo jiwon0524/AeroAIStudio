@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "files": 21,
+  "checks": [
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "sha256": "f74f4ec9820aee785ef94fb7bedafa7e4c832f209675a8ca1d35019c72b48e06",
+      "unchanged": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+      "sha256": "b890ed6936ea7cf486303fc5101ee5ff68356fc89596273ebaef83671aa4cb16",
+      "unchanged": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "sha256": "3436bd79e03ed39efce6f7abfd64ed35429d5574bd76337b90edb1fb85506afb",
+      "unchanged": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+      "sha256": "ec8bfd6cce31e7fd3dced8d5489109f6bca3d066c8ac3035b032940a8eb9ef50",
+      "unchanged": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+      "sha256": "efd1dcfc111d271e13173f02153c0a950bbce9ccd53d1319990a5e6ff56c8dca",
+      "unchanged": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "sha256": "f5524225032201d129cac2adf305af9c7ffcf612d8662f3c87a2d891d5cd3d18",
+      "unchanged": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "sha256": "1fd75fe70354a416d75aef22bcae68c47bd25d20e2d0568c30b1a9838cf62f11",
+      "unchanged": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "sha256": "fce00b6f25f459cf4ae0b7fae4257909a1a8a86f9149e7c029a5d617baf1ccd0",
+      "unchanged": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "sha256": "d93224d2b0dab4247598be683adca02f5cf00586f99c187579cd7e92058fb7cb",
+      "unchanged": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf",
+      "unchanged": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+      "sha256": "aa285639c8e4fa83f5987357fdc882e6df614949e40a7e85676b640ffb25f4f1",
+      "unchanged": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libz.so.1.3",
+      "sha256": "f61677c7bdb7c2aa2a243ea781bfd16afcb361cede7b4ef76127a9d8eb9a5242",
+      "unchanged": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+      "sha256": "b368d354f2778606b2553037fc8a3212719ee76a82711c60f7c72de49818e781",
+      "unchanged": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0",
+      "sha256": "7397458805900a67287673a7d469d1ff207525ae7694ed885e8603d0164828bf",
+      "unchanged": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+      "sha256": "b5493d9c8c6e36e3b72e38564b7e287ad925ab717577ded997465f9ac9da1c9e",
+      "unchanged": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "sha256": "c20a2dc8917c755f02b94049356320fe1f62ac7d9f8994731f807d9df39302da",
+      "unchanged": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+      "sha256": "897709e0c988e9e562c662292ed5bc860bce70ee2c64499501f54a6b5ca02201",
+      "unchanged": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.13.2",
+      "sha256": "2940e0bd6b056f186d3596e051a26ec25f1c27add88d870cdfe673785dad4b44",
+      "unchanged": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libBulletCollision.so.3.24",
+      "sha256": "a356d9ef207a31737b91a39c4c75a43b05a49cde51891cfa13b4b1c71c223f0a",
+      "unchanged": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+      "sha256": "31c7e0d2d17efc3924613bf561a645a4258f2d8df54167c162c490ed7fe84fea",
+      "unchanged": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libode.so.8.0.2",
+      "sha256": "c511d66333708785c1a22f6cd572c4c84495a535566c9c80eb37d8e0f67bc469",
+      "unchanged": true
+    }
+  ],
+  "method": "rehash exact inventoried files, no load"
+}

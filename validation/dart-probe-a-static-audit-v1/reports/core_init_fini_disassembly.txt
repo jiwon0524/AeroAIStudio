@@ -1,0 +1,205 @@
+000000000052f2a8  0000000000000008 R_X86_64_RELATIVE                         1787d0
+000000000052f2b0  0000000000000008 R_X86_64_RELATIVE                         176840
+000000000052f2b8  0000000000000008 R_X86_64_RELATIVE                         178790
+
+/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+00000000001787d0 <dart::common::Aspect::setAspectState(dart::common::Aspect::State const&)@@Base-0xb0>:
+  1787d0:	f3 0f 1e fa          	endbr64
+  1787d4:	e9 77 ff ff ff       	jmp    178750 <octomap::Pointcloud::transform(octomath::Pose6D)@plt+0x2a760>
+  1787d9:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+  1787e0:	f3 0f 1e fa          	endbr64
+  1787e4:	48 8b 47 08          	mov    0x8(%rdi),%rax
+  1787e8:	c3                   	ret
+  1787e9:	90                   	nop
+  1787ea:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+  1787f0:	f3 0f 1e fa          	endbr64
+  1787f4:	55                   	push   %rbp
+  1787f5:	48 89 e5             	mov    %rsp,%rbp
+  1787f8:	41 54                	push   %r12
+  1787fa:	49 89 fc             	mov    %rdi,%r12
+  1787fd:	53                   	push   %rbx
+  1787fe:	48 8b 41 10          	mov    0x10(%rcx),%rax
+  178802:	48 89 cb             	mov    %rcx,%rbx
+  178805:	48 8d 70 01          	lea    0x1(%rax),%rsi
+  178809:	48 39 71 18          	cmp    %rsi,0x18(%rcx)
+  17880d:	73 10                	jae    17881f <octomap::Pointcloud::transform(octomath::Pose6D)@plt+0x2a82f>
+  17880f:	48 8b 01             	mov    (%rcx),%rax
+  178812:	48 89 cf             	mov    %rcx,%rdi
+  178815:	ff 10                	call   *(%rax)
+  178817:	48 8b 43 10          	mov    0x10(%rbx),%rax
+  17881b:	48 8d 70 01          	lea    0x1(%rax),%rsi
+  17881f:	41 0f b6 4c 24 18    	movzbl 0x18(%r12),%ecx
+  178825:	48 8b 53 08          	mov    0x8(%rbx),%rdx
+  178829:	48 89 73 10          	mov    %rsi,0x10(%rbx)
+  17882d:	88 0c 02             	mov    %cl,(%rdx,%rax,1)
+  178830:	5b                   	pop    %rbx
+  178831:	41 5c                	pop    %r12
+  178833:	5d                   	pop    %rbp
+  178834:	c3                   	ret
+  178835:	90                   	nop
+  178836:	66 2e 0f 1f 84 00 00 	cs nopw 0x0(%rax,%rax,1)
+  17883d:	00 00 00
+  178840:	f3 0f 1e fa          	endbr64
+  178844:	48 8b 41 10          	mov    0x10(%rcx),%rax
+  178848:	48 89 46 28          	mov    %rax,0x28(%rsi)
+  17884c:	c3                   	ret
+  17884d:	90                   	nop
+  17884e:	66 90                	xchg   %ax,%ax
+  178850:	f3 0f 1e fa          	endbr64
+  178854:	48 8b 41 10          	mov    0x10(%rcx),%rax
+  178858:	48 89 46 30          	mov    %rax,0x30(%rsi)
+  17885c:	c3                   	ret
+  17885d:	90                   	nop
+  17885e:	66 90                	xchg   %ax,%ax
+  178860:	48 8b 3f             	mov    (%rdi),%rdi
+  178863:	48 85 ff             	test   %rdi,%rdi
+  178866:	74 08                	je     178870 <octomap::Pointcloud::transform(octomath::Pose6D)@plt+0x2a880>
+  178868:	48 8b 07             	mov    (%rdi),%rax
+  17886b:	ff 60 08             	jmp    *0x8(%rax)
+  17886e:	66 90                	xchg   %ax,%ax
+  178870:	c3                   	ret
+  178871:	90                   	nop
+  178872:	66 66 2e 0f 1f 84 00 	data16 cs nopw 0x0(%rax,%rax,1)
+  178879:	00 00 00 00
+  17887d:	0f 1f 00             	nopl   (%rax)
+
+0000000000178880 <dart::common::Aspect::setAspectState(dart::common::Aspect::State const&)@@Base>:
+  178880:	f3 0f 1e fa          	endbr64
+  178884:	c3                   	ret
+  178885:	90                   	nop
+  178886:	66 2e 0f 1f 84 00 00 	cs nopw 0x0(%rax,%rax,1)
+  17888d:	00 00 00
+
+
+/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000176840 <dart::common::Aspect::setAspectState(dart::common::Aspect::State const&)@@Base-0x2040>:
+  176840:	f3 0f 1e fa          	endbr64
+  176844:	55                   	push   %rbp
+  176845:	48 89 e5             	mov    %rsp,%rbp
+  176848:	41 56                	push   %r14
+  17684a:	41 55                	push   %r13
+  17684c:	4c 8d 6d 8f          	lea    -0x71(%rbp),%r13
+  176850:	41 54                	push   %r12
+  176852:	4c 8d 65 b0          	lea    -0x50(%rbp),%r12
+  176856:	53                   	push   %rbx
+  176857:	48 8d 5d 90          	lea    -0x70(%rbp),%rbx
+  17685b:	48 89 df             	mov    %rbx,%rdi
+  17685e:	48 83 ec 60          	sub    $0x60,%rsp
+  176862:	66 0f 6f 1d 86 93 31 	movdqa 0x319386(%rip),%xmm3        # 48fbf0 <std::piecewise_construct@@Base+0x9fa10>
+  176869:	00
+  17686a:	f2 0f 10 05 56 9a 31 	movsd  0x319a56(%rip),%xmm0        # 4902c8 <std::piecewise_construct@@Base+0xa00e8>
+  176871:	00
+  176872:	64 48 8b 04 25 28 00 	mov    %fs:0x28,%rax
+  176879:	00 00
+  17687b:	48 89 45 d8          	mov    %rax,-0x28(%rbp)
+  17687f:	31 c0                	xor    %eax,%eax
+  176881:	4c 89 65 90          	mov    %r12,-0x70(%rbp)
+  176885:	0f 11 5d 98          	movups %xmm3,-0x68(%rbp)
+  176889:	48 c7 45 a8 01 00 00 	movq   $0x1,-0x58(%rbp)
+  176890:	00
+  176891:	48 c7 45 b0 00 00 00 	movq   $0x0,-0x50(%rbp)
+  176898:	00
+  176899:	e8 f2 fe ff ff       	call   176790 <octomap::Pointcloud::transform(octomath::Pose6D)@plt+0x287a0>
+  17689e:	f2 0f 10 05 e2 99 31 	movsd  0x3199e2(%rip),%xmm0        # 490288 <std::piecewise_construct@@Base+0xa00a8>
+  1768a5:	00
+  1768a6:	48 89 c7             	mov    %rax,%rdi
+  1768a9:	e8 e2 fe ff ff       	call   176790 <octomap::Pointcloud::transform(octomath::Pose6D)@plt+0x287a0>
+  1768ae:	66 0f ef c0          	pxor   %xmm0,%xmm0
+  1768b2:	48 89 c7             	mov    %rax,%rdi
+  1768b5:	e8 d6 fe ff ff       	call   176790 <octomap::Pointcloud::transform(octomath::Pose6D)@plt+0x287a0>
+  1768ba:	48 89 c7             	mov    %rax,%rdi
+  1768bd:	e8 de f7 ff ff       	call   1760a0 <octomap::Pointcloud::transform(octomath::Pose6D)@plt+0x280b0>
+  1768c2:	48 89 df             	mov    %rbx,%rdi
+  1768c5:	e8 d6 f7 ff ff       	call   1760a0 <octomap::Pointcloud::transform(octomath::Pose6D)@plt+0x280b0>
+  1768ca:	66 0f 6f 25 1e 93 31 	movdqa 0x31931e(%rip),%xmm4        # 48fbf0 <std::piecewise_construct@@Base+0x9fa10>
+  1768d1:	00
+  1768d2:	48 89 df             	mov    %rbx,%rdi
+  1768d5:	4c 89 65 90          	mov    %r12,-0x70(%rbp)
+  1768d9:	f2 0f 10 05 e7 99 31 	movsd  0x3199e7(%rip),%xmm0        # 4902c8 <std::piecewise_construct@@Base+0xa00e8>
+  1768e0:	00
+  1768e1:	48 c7 45 a8 01 00 00 	movq   $0x1,-0x58(%rbp)
+  1768e8:	00
+  1768e9:	0f 11 65 98          	movups %xmm4,-0x68(%rbp)
+  1768ed:	48 c7 45 b0 00 00 00 	movq   $0x0,-0x50(%rbp)
+  1768f4:	00
+  1768f5:	e8 96 fe ff ff       	call   176790 <octomap::Pointcloud::transform(octomath::Pose6D)@plt+0x287a0>
+  1768fa:	f2                   	repnz
+  1768fb:	0f                   	.byte 0xf
+  1768fc:	10                   	.byte 0x10
+  1768fd:	05                   	.byte 0x5
+  1768fe:	86                   	.byte 0x86
+  1768ff:	99                   	cltd
+
+
+/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000178790 <dart::common::Aspect::setAspectState(dart::common::Aspect::State const&)@@Base-0xf0>:
+  178790:	f3 0f 1e fa          	endbr64
+  178794:	80 3d 25 bd 40 00 00 	cmpb   $0x0,0x40bd25(%rip)        # 5844c0 <dart::constraint::SoftContactConstraint::mErrorReductionParameter@@Base+0x10>
+  17879b:	75 2b                	jne    1787c8 <octomap::Pointcloud::transform(octomath::Pose6D)@plt+0x2a7d8>
+  17879d:	55                   	push   %rbp
+  17879e:	48 83 3d 22 ac 40 00 	cmpq   $0x0,0x40ac22(%rip)        # 5833c8 <__cxa_finalize@GLIBC_2.2.5>
+  1787a5:	00
+  1787a6:	48 89 e5             	mov    %rsp,%rbp
+  1787a9:	74 0c                	je     1787b7 <octomap::Pointcloud::transform(octomath::Pose6D)@plt+0x2a7c7>
+  1787ab:	48 8b 3d 4e b8 40 00 	mov    0x40b84e(%rip),%rdi        # 584000 <typeinfo for dart::dynamics::Support@@Base+0x18a8>
+  1787b2:	e8 59 48 fd ff       	call   14d010 <__cxa_finalize@plt>
+  1787b7:	e8 64 ff ff ff       	call   178720 <octomap::Pointcloud::transform(octomath::Pose6D)@plt+0x2a730>
+  1787bc:	c6 05 fd bc 40 00 01 	movb   $0x1,0x40bcfd(%rip)        # 5844c0 <dart::constraint::SoftContactConstraint::mErrorReductionParameter@@Base+0x10>
+  1787c3:	5d                   	pop    %rbp
+  1787c4:	c3                   	ret
+  1787c5:	0f 1f 00             	nopl   (%rax)
+  1787c8:	c3                   	ret
+  1787c9:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+  1787d0:	f3 0f 1e fa          	endbr64
+  1787d4:	e9 77 ff ff ff       	jmp    178750 <octomap::Pointcloud::transform(octomath::Pose6D)@plt+0x2a760>
+  1787d9:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+  1787e0:	f3 0f 1e fa          	endbr64
+  1787e4:	48 8b 47 08          	mov    0x8(%rdi),%rax
+  1787e8:	c3                   	ret
+  1787e9:	90                   	nop
+  1787ea:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+  1787f0:	f3 0f 1e fa          	endbr64
+  1787f4:	55                   	push   %rbp
+  1787f5:	48 89 e5             	mov    %rsp,%rbp
+  1787f8:	41 54                	push   %r12
+  1787fa:	49 89 fc             	mov    %rdi,%r12
+  1787fd:	53                   	push   %rbx
+  1787fe:	48 8b 41 10          	mov    0x10(%rcx),%rax
+  178802:	48 89 cb             	mov    %rcx,%rbx
+  178805:	48 8d 70 01          	lea    0x1(%rax),%rsi
+  178809:	48 39 71 18          	cmp    %rsi,0x18(%rcx)
+  17880d:	73 10                	jae    17881f <octomap::Pointcloud::transform(octomath::Pose6D)@plt+0x2a82f>
+  17880f:	48 8b 01             	mov    (%rcx),%rax
+  178812:	48 89 cf             	mov    %rcx,%rdi
+  178815:	ff 10                	call   *(%rax)
+  178817:	48 8b 43 10          	mov    0x10(%rbx),%rax
+  17881b:	48 8d 70 01          	lea    0x1(%rax),%rsi
+  17881f:	41 0f b6 4c 24 18    	movzbl 0x18(%r12),%ecx
+  178825:	48 8b 53 08          	mov    0x8(%rbx),%rdx
+  178829:	48 89 73 10          	mov    %rsi,0x10(%rbx)
+  17882d:	88 0c 02             	mov    %cl,(%rdx,%rax,1)
+  178830:	5b                   	pop    %rbx
+  178831:	41 5c                	pop    %r12
+  178833:	5d                   	pop    %rbp
+  178834:	c3                   	ret
+  178835:	90                   	nop
+  178836:	66 2e 0f 1f 84 00 00 	cs nopw 0x0(%rax,%rax,1)
+  17883d:	00 00 00
+  178840:	f3 0f 1e fa          	endbr64
+  178844:	48 8b 41 10          	mov    0x10(%rcx),%rax
+  178848:	48 89 46 28          	mov    %rax,0x28(%rsi)
+  17884c:	c3                   	ret
+  17884d:	90                   	nop
+  17884e:	66 90                	xchg   %ax,%ax

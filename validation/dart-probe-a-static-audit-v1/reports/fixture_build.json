@@ -1,0 +1,38 @@
+[
+  {
+    "command": [
+      "/usr/bin/cc",
+      "-std=c11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-fstack-protector-strong",
+      "-Wl,-z,relro,-z,now",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-static-audit-v1/fixtures/probe_a.c",
+      "-o",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-static-audit-v1/work/fixture_offline"
+    ],
+    "rc": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/cc",
+      "-std=c11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DPROBE_A_LOADER_ENABLED=1",
+      "-c",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-static-audit-v1/fixtures/probe_a.c",
+      "-o",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-static-audit-v1/work/loader_review_only.o"
+    ],
+    "rc": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

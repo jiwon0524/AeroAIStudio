@@ -1,0 +1,39 @@
+{
+  "PASS": 76,
+  "FAIL": 0,
+  "SKIP": 4,
+  "new_tests": 27,
+  "regressions": {
+    "cgroup_integration": 15,
+    "smoke": 6,
+    "hardening": 6,
+    "targeted_evidence": 22
+  },
+  "skipped_not_test_runner_skips": [
+    "actual DART open/close",
+    "native sandbox service execution",
+    "resource excess enforcement",
+    "kernel namespace failure injection"
+  ],
+  "unit_test_runner_skips": 0,
+  "initial_issues": [
+    {
+      "type": "C compile failure",
+      "reason": "write() warn_unused_result under -Werror",
+      "correction": "capture syscall return value, retain signal-safe semantics and compiler flags",
+      "evidence": "fixture_build_initial.json"
+    },
+    {
+      "type": "ELF parser review finding",
+      "reason": "readelf version-index suffix was misread as imported symbol",
+      "correction": "extract name following UND; retain original report + regression",
+      "evidence": "initialization_risks_parser_initial.json"
+    }
+  ],
+  "commands": [
+    "PYTHONDONTWRITEBYTECODE=1 python3 validation/dart-probe-a-static-audit-v1/scripts/build_fixture.py",
+    "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s validation/dart-probe-a-static-audit-v1/tests -p test_*.py -v",
+    "same unittest discover for validation/dart-{cgroup-integration-v1,cgroup-smoke-v1,sandbox-hardening-v2,targeted-evidence-v1}/tests"
+  ],
+  "DART_Runtime": "NOT_RUN"
+}

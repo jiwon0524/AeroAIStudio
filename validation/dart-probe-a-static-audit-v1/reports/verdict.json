@@ -1,0 +1,13 @@
+{
+  "verdict": "PROBE_A_STATIC_NEEDS_EVIDENCE",
+  "source_start_commit": "906402c9f93c618c6b93d93f78845359f4bacc07",
+  "direct_need_candidates_complete": true,
+  "runtime_resolution_verified": false,
+  "native_fixture_default_loader_disabled": true,
+  "loader_branch_compile_only": true,
+  "runtime_approval_granted": false,
+  "Probe_B_D": "BLOCKED",
+  "DART_Gazebo": "NOT_RUNTIME_VERIFIED",
+  "Stage_B": "BLOCKED",
+  "next_action": "finish and harmlessly test the existing sandbox/supervisor adapter with immutable per-file dependency manifest and mapped-library identity validation; no DART loading"
+}

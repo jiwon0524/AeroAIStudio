@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-06T16:33:22.074801+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "906402c9f93c618c6b93d93f78845359f4bacc07",
+    "branch": "experiment/dart-internal-trace",
+    "status": [
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/fixtures/probe_a.c"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/core_init_fini_disassembly.txt"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/dependency_audit.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/elf_identity.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/final_report.md"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/fixture_artifacts.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/fixture_build.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/fixture_build_initial.json"
+      },
+      {
+        "status": "AM",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/handoff_snapshot.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/initialization_risks.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/initialization_risks_parser_initial.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/installed_elf_integrity.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/integrity.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/loader_documentation.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/native_fixture_review.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/optional_collision_dependencies.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/probe_a_execution_plan.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/progress.md"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/regression_hardening.log"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/regression_integration.log"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/regression_smoke.log"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/regression_targeted.log"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/remaining_blockers.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/runpath_audit.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/source_hashes.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/source_registration_evidence.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/test_summary.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/tests.log"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/reports/verdict.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/scripts/audit.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/scripts/build_fixture.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/scripts/plan.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/scripts/preserve.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/tests/test_audit.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/dart-probe-a-static-audit-v1/tests/test_fixture.py"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "validation/dart-probe-a-static-audit-v1/reports/final_report.md",
+      "sha256": "0372bdffcff6c8c22534c9ccdd53469ab4266ffadca87d8d7241982eba8b16ee"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}

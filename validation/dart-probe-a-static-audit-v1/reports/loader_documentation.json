@@ -1,0 +1,33 @@
+{
+  "installed_manuals": {
+    "/usr/share/man/man8/ld.so.8.gz": {
+      "sha256": "1ace29ec8045d4dc0a43f02f46caa70d891796e4bb7a26d338596f350d97564c",
+      "lines": 930
+    },
+    "/usr/share/man/man3/dlopen.3.gz": {
+      "sha256": "30bbffcafdfa91efa3df41f2468e940eac5086efa74bc9c1f6347612da340bad",
+      "lines": 624
+    }
+  },
+  "references": [
+    "https://man7.org/linux/man-pages/man8/ld.so.8.html",
+    "https://man7.org/linux/man-pages/man3/dlopen.3.html"
+  ],
+  "rules": [
+    "slash in target pathname selects pathname, DT_NEEDED recursively resolved separately",
+    "DT_RPATH used if DT_RUNPATH absent; RUNPATH applies to direct dependencies, unlike inherited RPATH",
+    "environment library paths, cache, defaults and hwcaps influence resolution",
+    "empty path elements can denote cwd; $ORIGIN expands relative to containing ELF",
+    "constructors execute before dlopen returns; close decrements refcount and may execute finalizers; close success does not prove unmap",
+    "TLS, GNU_UNIQUE/NODELETE and references can extend lifetimes"
+  ],
+  "no_dynamic_loader_invoked": true,
+  "glibc_source_reference": {
+    "url": "https://raw.githubusercontent.com/bminor/glibc/glibc-2.39/elf/dl-load.c",
+    "function": "fillin_rpath",
+    "lines": "435-537, decompose_rpath 611",
+    "fact": "strsep emits empty strings; len remains0 and directory entry uses0 length, enabling cwd lookup",
+    "installed_patch_equivalence": "UNVERIFIED; upstream2.39 mechanism only",
+    "sourceware_fetch": "tool could not open sourceware URL; read upstream source mirror instead"
+  }
+}

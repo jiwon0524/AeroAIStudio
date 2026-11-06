@@ -1,0 +1,798 @@
+{
+  "libraries": [
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "sections": {
+        ".eh_frame": {
+          "address": 4974160,
+          "size_bytes": 377388,
+          "section_type": 1
+        },
+        ".gcc_except_table": {
+          "address": 5351548,
+          "size_bytes": 80062,
+          "section_type": 1
+        },
+        ".init_array": {
+          "address": 5436072,
+          "size_bytes": 16,
+          "section_type": 14,
+          "file_pointer_values": [
+            "0x1787d0",
+            "0x176840"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        },
+        ".fini_array": {
+          "address": 5436088,
+          "size_bytes": 8,
+          "section_type": 15,
+          "file_pointer_values": [
+            "0x178790"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        }
+      },
+      "flags": [
+        "0x000000000000000c (INIT)               0x14c000",
+        "0x000000000000000d (FINI)               0x3ed44c",
+        "0x0000000000000019 (INIT_ARRAY)         0x52f2a8",
+        "0x000000000000001a (FINI_ARRAY)         0x52f2b8",
+        "0x000000000000001e (FLAGS)              BIND_NOW",
+        "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+      ],
+      "ifunc_count": 0,
+      "gnu_unique_count": 0,
+      "lifetime_imports": [
+        "free@GLIBC_2.2.5",
+        "__cxa_finalize@GLIBC_2.2.5",
+        "__cxa_throw@CXXABI_1.3",
+        "_Unwind_Resume@GCC_3.0",
+        "__cxa_throw_bad_array_new_length@CXXABI_1.3.8",
+        "dlopen@GLIBC_2.34",
+        "__cxa_atexit@GLIBC_2.2.5",
+        "__cxa_free_exception@CXXABI_1.3",
+        "malloc@GLIBC_2.2.5"
+      ],
+      "callback_semantics": "UNVERIFIED"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+      "sections": {
+        ".eh_frame": {
+          "address": 38848,
+          "size_bytes": 2556,
+          "section_type": 1
+        },
+        ".init_array": {
+          "address": 48432,
+          "size_bytes": 8,
+          "section_type": 14,
+          "file_pointer_values": [
+            "0x22f0"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        },
+        ".fini_array": {
+          "address": 48440,
+          "size_bytes": 8,
+          "section_type": 15,
+          "file_pointer_values": [
+            "0x22b0"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        }
+      },
+      "flags": [
+        "0x000000000000000c (INIT)               0x2000",
+        "0x000000000000000d (FINI)               0x8388",
+        "0x0000000000000019 (INIT_ARRAY)         0xbd30",
+        "0x000000000000001a (FINI_ARRAY)         0xbd38",
+        "0x000000000000001e (FLAGS)              BIND_NOW",
+        "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+      ],
+      "ifunc_count": 0,
+      "gnu_unique_count": 0,
+      "lifetime_imports": [
+        "__cxa_finalize@GLIBC_2.2.5",
+        "__cxa_throw_bad_array_new_length@CXXABI_1.3.8"
+      ],
+      "callback_semantics": "UNVERIFIED"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "sections": {
+        ".eh_frame": {
+          "address": 5049320,
+          "size_bytes": 352660,
+          "section_type": 1
+        },
+        ".gcc_except_table": {
+          "address": 5401980,
+          "size_bytes": 47260,
+          "section_type": 1
+        },
+        ".init_array": {
+          "address": 5453096,
+          "size_bytes": 8,
+          "section_type": 14,
+          "file_pointer_values": [
+            "0x13a040"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        },
+        ".fini_array": {
+          "address": 5453104,
+          "size_bytes": 8,
+          "section_type": 15,
+          "file_pointer_values": [
+            "0x13a000"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        }
+      },
+      "flags": [
+        "0x000000000000000c (INIT)               0x118000",
+        "0x000000000000000d (FINI)               0x48405c",
+        "0x0000000000000019 (INIT_ARRAY)         0x533528",
+        "0x000000000000001a (FINI_ARRAY)         0x533530",
+        "0x000000000000001e (FLAGS)              BIND_NOW",
+        "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+      ],
+      "ifunc_count": 0,
+      "gnu_unique_count": 0,
+      "lifetime_imports": [
+        "free@GLIBC_2.2.5",
+        "__cxa_finalize@GLIBC_2.2.5",
+        "__cxa_throw@CXXABI_1.3",
+        "_Unwind_Resume@GCC_3.0",
+        "__cxa_throw_bad_array_new_length@CXXABI_1.3.8",
+        "__cxa_atexit@GLIBC_2.2.5",
+        "__cxa_free_exception@CXXABI_1.3",
+        "malloc@GLIBC_2.2.5"
+      ],
+      "callback_semantics": "UNVERIFIED"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+      "sections": {
+        ".eh_frame": {
+          "address": 223160,
+          "size_bytes": 20032,
+          "section_type": 1
+        },
+        ".gcc_except_table": {
+          "address": 243192,
+          "size_bytes": 3703,
+          "section_type": 1
+        },
+        ".init_array": {
+          "address": 252008,
+          "size_bytes": 16,
+          "section_type": 14,
+          "file_pointer_values": [
+            "0xc7c0",
+            "0xc570"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        },
+        ".fini_array": {
+          "address": 252024,
+          "size_bytes": 8,
+          "section_type": 15,
+          "file_pointer_values": [
+            "0xc780"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        }
+      },
+      "flags": [
+        "0x000000000000000c (INIT)               0xa000",
+        "0x000000000000000d (FINI)               0x30e88",
+        "0x0000000000000019 (INIT_ARRAY)         0x3d868",
+        "0x000000000000001a (FINI_ARRAY)         0x3d878",
+        "0x000000000000001e (FLAGS)              BIND_NOW",
+        "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+      ],
+      "ifunc_count": 0,
+      "gnu_unique_count": 0,
+      "lifetime_imports": [
+        "__cxa_finalize@GLIBC_2.2.5",
+        "__cxa_atexit@GLIBC_2.2.5",
+        "_Unwind_Resume@GCC_3.0"
+      ],
+      "callback_semantics": "UNVERIFIED"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+      "sections": {
+        ".eh_frame": {
+          "address": 16936,
+          "size_bytes": 1908,
+          "section_type": 1
+        },
+        ".gcc_except_table": {
+          "address": 18844,
+          "size_bytes": 21,
+          "section_type": 1
+        },
+        ".init_array": {
+          "address": 23840,
+          "size_bytes": 8,
+          "section_type": 14,
+          "file_pointer_values": [
+            "0x2300"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        },
+        ".fini_array": {
+          "address": 23848,
+          "size_bytes": 8,
+          "section_type": 15,
+          "file_pointer_values": [
+            "0x22c0"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        }
+      },
+      "flags": [
+        "0x000000000000000c (INIT)               0x2000",
+        "0x000000000000000d (FINI)               0x3e7c",
+        "0x0000000000000019 (INIT_ARRAY)         0x5d20",
+        "0x000000000000001a (FINI_ARRAY)         0x5d28",
+        "0x000000000000001e (FLAGS)              BIND_NOW",
+        "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+      ],
+      "ifunc_count": 0,
+      "gnu_unique_count": 0,
+      "lifetime_imports": [
+        "__cxa_finalize@GLIBC_2.2.5",
+        "_Unwind_Resume@GCC_3.0"
+      ],
+      "callback_semantics": "UNVERIFIED"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "sections": {
+        ".eh_frame": {
+          "address": 6469664,
+          "size_bytes": 456724,
+          "section_type": 1
+        },
+        ".gcc_except_table": {
+          "address": 6926388,
+          "size_bytes": 132856,
+          "section_type": 1
+        },
+        ".tbss": {
+          "address": 7063112,
+          "size_bytes": 8,
+          "section_type": 8
+        },
+        ".init_array": {
+          "address": 7063112,
+          "size_bytes": 16,
+          "section_type": 14,
+          "file_pointer_values": [
+            "0x14f640",
+            "0x148c00"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        },
+        ".fini_array": {
+          "address": 7063128,
+          "size_bytes": 8,
+          "section_type": 15,
+          "file_pointer_values": [
+            "0x14f600"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        }
+      },
+      "flags": [
+        "0x000000000000000c (INIT)               0xdd000",
+        "0x000000000000000d (FINI)               0x5b8d68",
+        "0x0000000000000019 (INIT_ARRAY)         0x6bc648",
+        "0x000000000000001a (FINI_ARRAY)         0x6bc658",
+        "0x000000000000001e (FLAGS)              BIND_NOW",
+        "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+      ],
+      "ifunc_count": 0,
+      "gnu_unique_count": 0,
+      "lifetime_imports": [
+        "free@GLIBC_2.2.5",
+        "__cxa_finalize@GLIBC_2.2.5",
+        "__cxa_throw@CXXABI_1.3",
+        "_Unwind_Resume@GCC_3.0",
+        "__cxa_throw_bad_array_new_length@CXXABI_1.3.8",
+        "__cxa_atexit@GLIBC_2.2.5",
+        "__cxa_free_exception@CXXABI_1.3",
+        "malloc@GLIBC_2.2.5"
+      ],
+      "callback_semantics": "UNVERIFIED"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "sections": {
+        ".eh_frame": {
+          "address": 2317624,
+          "size_bytes": 180960,
+          "section_type": 1
+        },
+        ".gcc_except_table": {
+          "address": 2498584,
+          "size_bytes": 36971,
+          "section_type": 1
+        },
+        ".tbss": {
+          "address": 2540304,
+          "size_bytes": 32,
+          "section_type": 8
+        },
+        ".init_array": {
+          "address": 2540304,
+          "size_bytes": 136,
+          "section_type": 14,
+          "file_pointer_values": [
+            "0xb74f0",
+            "0xb7ae0",
+            "0xb7120",
+            "0xb71b0",
+            "0xb71c0",
+            "0xb71e0",
+            "0xb7400",
+            "0xb7530",
+            "0xb76a0",
+            "0xb76c0",
+            "0xb76e0",
+            "0xb7730",
+            "0xb77b0",
+            "0xb7830",
+            "0xb78f0",
+            "0xb79b0",
+            "0xb7a10"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        },
+        ".fini_array": {
+          "address": 2540440,
+          "size_bytes": 8,
+          "section_type": 15,
+          "file_pointer_values": [
+            "0xb7aa0"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        }
+      },
+      "flags": [
+        "0x000000000000000c (INIT)               0x9d000",
+        "0x000000000000000d (FINI)               0x1e4ce4",
+        "0x0000000000000019 (INIT_ARRAY)         0x26c310",
+        "0x000000000000001a (FINI_ARRAY)         0x26c398"
+      ],
+      "ifunc_count": 0,
+      "gnu_unique_count": 106,
+      "lifetime_imports": [
+        "_Unwind_GetRegionStart@GCC_3.0",
+        "_Unwind_SetGR@GCC_3.0",
+        "_Unwind_GetDataRelBase@GCC_3.0",
+        "malloc@GLIBC_2.2.5",
+        "_Unwind_DeleteException@GCC_3.0",
+        "__cxa_atexit@GLIBC_2.2.5",
+        "_Unwind_GetLanguageSpecificData@GCC_3.0",
+        "_Unwind_Resume_or_Rethrow@GCC_3.3",
+        "pthread_create@GLIBC_2.34",
+        "free@GLIBC_2.2.5",
+        "__cxa_thread_atexit_impl@GLIBC_2.18",
+        "_Unwind_RaiseException@GCC_3.0",
+        "__cxa_finalize@GLIBC_2.2.5",
+        "_Unwind_GetIPInfo@GCC_4.2.0",
+        "freelocale@GLIBC_2.3",
+        "_Unwind_GetTextRelBase@GCC_3.0",
+        "__freelocale@GLIBC_2.2.5",
+        "_Unwind_Resume@GCC_3.0",
+        "_Unwind_SetIP@GCC_3.0"
+      ],
+      "callback_semantics": "UNVERIFIED"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "sections": {
+        ".eh_frame": {
+          "address": 912928,
+          "size_bytes": 33072,
+          "section_type": 1
+        },
+        ".init_array": {
+          "address": 949248,
+          "size_bytes": 8,
+          "section_type": 14,
+          "file_pointer_values": [
+            "0x104e0"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        },
+        ".fini_array": {
+          "address": 949256,
+          "size_bytes": 8,
+          "section_type": 15,
+          "file_pointer_values": [
+            "0x104a0"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        }
+      },
+      "flags": [
+        "0x000000000000000c (INIT)               0x10000",
+        "0x000000000000000d (FINI)               0x8e3a8",
+        "0x0000000000000019 (INIT_ARRAY)         0xe7c00",
+        "0x000000000000001a (FINI_ARRAY)         0xe7c08",
+        "0x000000000000001e (FLAGS)              BIND_NOW STATIC_TLS",
+        "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+      ],
+      "ifunc_count": 85,
+      "gnu_unique_count": 0,
+      "lifetime_imports": [
+        "__cxa_finalize@GLIBC_2.2.5"
+      ],
+      "callback_semantics": "UNVERIFIED"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "sections": {
+        ".eh_frame": {
+          "address": 168808,
+          "size_bytes": 10136,
+          "section_type": 1
+        },
+        ".tbss": {
+          "address": 183696,
+          "size_bytes": 8,
+          "section_type": 8
+        },
+        ".init_array": {
+          "address": 183696,
+          "size_bytes": 16,
+          "section_type": 14,
+          "file_pointer_values": [
+            "0x0",
+            "0x5b10"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        },
+        ".fini_array": {
+          "address": 183712,
+          "size_bytes": 16,
+          "section_type": 15,
+          "file_pointer_values": [
+            "0x5ad0",
+            "0x4940"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        }
+      },
+      "flags": [
+        "0x000000000000000c (INIT)               0x4000",
+        "0x000000000000000d (FINI)               0x27748",
+        "0x0000000000000019 (INIT_ARRAY)         0x2cd90",
+        "0x000000000000001a (FINI_ARRAY)         0x2cda0"
+      ],
+      "ifunc_count": 0,
+      "gnu_unique_count": 0,
+      "lifetime_imports": [
+        "free@GLIBC_2.2.5",
+        "malloc@GLIBC_2.2.5",
+        "__cxa_finalize@GLIBC_2.2.5"
+      ],
+      "callback_semantics": "UNVERIFIED"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "sections": {
+        ".eh_frame": {
+          "address": 1961576,
+          "size_bytes": 130124,
+          "section_type": 1
+        },
+        ".gcc_except_table": {
+          "address": 2091700,
+          "size_bytes": 1582,
+          "section_type": 1
+        },
+        ".tdata": {
+          "address": 2100320,
+          "size_bytes": 16,
+          "section_type": 1
+        },
+        ".tbss": {
+          "address": 2100336,
+          "size_bytes": 120,
+          "section_type": 8
+        },
+        ".init_array": {
+          "address": 2100336,
+          "size_bytes": 16,
+          "section_type": 14,
+          "file_pointer_values": [
+            "0x2a060",
+            "0x2a0d0"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        }
+      },
+      "flags": [
+        "0x0000000000000019 (INIT_ARRAY)         0x200c70",
+        "0x000000000000001e (FLAGS)              BIND_NOW STATIC_TLS",
+        "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+      ],
+      "ifunc_count": 63,
+      "gnu_unique_count": 0,
+      "lifetime_imports": [],
+      "callback_semantics": "UNVERIFIED"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+      "sections": {
+        ".eh_frame": {
+          "address": 37248,
+          "size_bytes": 1592,
+          "section_type": 1
+        },
+        ".init_array": {
+          "address": 44368,
+          "size_bytes": 8,
+          "section_type": 14,
+          "file_pointer_values": [
+            "0x1230"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        },
+        ".fini_array": {
+          "address": 44376,
+          "size_bytes": 8,
+          "section_type": 15,
+          "file_pointer_values": [
+            "0x11f0"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        }
+      },
+      "flags": [
+        "0x000000000000000c (INIT)               0x1000",
+        "0x000000000000000d (FINI)               0x8a7c",
+        "0x0000000000000019 (INIT_ARRAY)         0xad50",
+        "0x000000000000001a (FINI_ARRAY)         0xad58",
+        "0x000000000000001e (FLAGS)              BIND_NOW",
+        "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+      ],
+      "ifunc_count": 0,
+      "gnu_unique_count": 0,
+      "lifetime_imports": [
+        "free@GLIBC_2.2.5",
+        "malloc@GLIBC_2.2.5",
+        "__cxa_finalize@GLIBC_2.2.5"
+      ],
+      "callback_semantics": "UNVERIFIED"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libz.so.1.3",
+      "sections": {
+        ".eh_frame": {
+          "address": 101232,
+          "size_bytes": 4868,
+          "section_type": 1
+        },
+        ".init_array": {
+          "address": 109680,
+          "size_bytes": 8,
+          "section_type": 14,
+          "file_pointer_values": [
+            "0x2310"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        },
+        ".fini_array": {
+          "address": 109688,
+          "size_bytes": 8,
+          "section_type": 15,
+          "file_pointer_values": [
+            "0x22d0"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        }
+      },
+      "flags": [
+        "0x000000000000000c (INIT)               0x2000",
+        "0x000000000000000d (FINI)               0x13c80",
+        "0x0000000000000019 (INIT_ARRAY)         0x1ac70",
+        "0x000000000000001a (FINI_ARRAY)         0x1ac78"
+      ],
+      "ifunc_count": 0,
+      "gnu_unique_count": 0,
+      "lifetime_imports": [
+        "free@GLIBC_2.2.5",
+        "malloc@GLIBC_2.2.5",
+        "__cxa_finalize@GLIBC_2.2.5"
+      ],
+      "callback_semantics": "UNVERIFIED"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+      "sections": {
+        ".eh_frame": {
+          "address": 2609448,
+          "size_bytes": 171780,
+          "section_type": 1
+        },
+        ".gcc_except_table": {
+          "address": 2781228,
+          "size_bytes": 51408,
+          "section_type": 1
+        },
+        ".tbss": {
+          "address": 2837328,
+          "size_bytes": 32,
+          "section_type": 8
+        },
+        ".init_array": {
+          "address": 2837328,
+          "size_bytes": 24,
+          "section_type": 14,
+          "file_pointer_values": [
+            "0x7cde0",
+            "0x7ccf0",
+            "0x7cd10"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        },
+        ".fini_array": {
+          "address": 2837352,
+          "size_bytes": 8,
+          "section_type": 15,
+          "file_pointer_values": [
+            "0x7cda0"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        }
+      },
+      "flags": [
+        "0x000000000000000c (INIT)               0x6a000",
+        "0x000000000000000d (FINI)               0x25fcb8",
+        "0x0000000000000019 (INIT_ARRAY)         0x2b4b50",
+        "0x000000000000001a (FINI_ARRAY)         0x2b4b68",
+        "0x000000000000001e (FLAGS)              BIND_NOW",
+        "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+      ],
+      "ifunc_count": 0,
+      "gnu_unique_count": 5,
+      "lifetime_imports": [
+        "__cxa_finalize@GLIBC_2.2.5",
+        "__cxa_free_exception@CXXABI_1.3",
+        "__cxa_atexit@GLIBC_2.2.5",
+        "free@GLIBC_2.2.5",
+        "malloc@GLIBC_2.2.5",
+        "__cxa_throw_bad_array_new_length@CXXABI_1.3.8",
+        "__cxa_throw@CXXABI_1.3",
+        "_Unwind_Resume@GCC_3.0"
+      ],
+      "callback_semantics": "UNVERIFIED"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0",
+      "sections": {
+        ".eh_frame": {
+          "address": 41888,
+          "size_bytes": 2648,
+          "section_type": 1
+        },
+        ".init_array": {
+          "address": 48600,
+          "size_bytes": 8,
+          "section_type": 14,
+          "file_pointer_values": [
+            "0x24b0"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        },
+        ".fini_array": {
+          "address": 48608,
+          "size_bytes": 8,
+          "section_type": 15,
+          "file_pointer_values": [
+            "0x2470"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        }
+      },
+      "flags": [
+        "0x000000000000000c (INIT)               0x2000",
+        "0x000000000000000d (FINI)               0x9cbc",
+        "0x0000000000000019 (INIT_ARRAY)         0xbdd8",
+        "0x000000000000001a (FINI_ARRAY)         0xbde0"
+      ],
+      "ifunc_count": 0,
+      "gnu_unique_count": 0,
+      "lifetime_imports": [
+        "free@GLIBC_2.2.5",
+        "malloc@GLIBC_2.2.5",
+        "__cxa_finalize@GLIBC_2.2.5"
+      ],
+      "callback_semantics": "UNVERIFIED"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+      "sections": {
+        ".eh_frame": {
+          "address": 216944,
+          "size_bytes": 17616,
+          "section_type": 1
+        },
+        ".gcc_except_table": {
+          "address": 234560,
+          "size_bytes": 1371,
+          "section_type": 1
+        },
+        ".init_array": {
+          "address": 240688,
+          "size_bytes": 16,
+          "section_type": 14,
+          "file_pointer_values": [
+            "0xa5f0",
+            "0xa500"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        },
+        ".fini_array": {
+          "address": 240704,
+          "size_bytes": 8,
+          "section_type": 15,
+          "file_pointer_values": [
+            "0xa5b0"
+          ],
+          "pointer_values_not_runtime_addresses": true
+        }
+      },
+      "flags": [
+        "0x000000000000000c (INIT)               0x9000",
+        "0x000000000000000d (FINI)               0x2eb90",
+        "0x0000000000000019 (INIT_ARRAY)         0x3ac30",
+        "0x000000000000001a (FINI_ARRAY)         0x3ac40"
+      ],
+      "ifunc_count": 0,
+      "gnu_unique_count": 0,
+      "lifetime_imports": [
+        "__cxa_finalize@GLIBC_2.2.5",
+        "__cxa_free_exception@CXXABI_1.3",
+        "__cxa_atexit@GLIBC_2.2.5",
+        "free@GLIBC_2.2.5",
+        "malloc@GLIBC_2.2.5",
+        "__cxa_throw@CXXABI_1.3",
+        "_Unwind_Resume@GCC_3.0"
+      ],
+      "callback_semantics": "UNVERIFIED"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "sections": {
+        ".eh_frame": {
+          "address": 208368,
+          "size_bytes": 10988,
+          "section_type": 1
+        }
+      },
+      "flags": [
+        "0x000000000000001e (FLAGS)              BIND_NOW",
+        "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+      ],
+      "ifunc_count": 0,
+      "gnu_unique_count": 0,
+      "lifetime_imports": [],
+      "callback_semantics": "UNVERIFIED"
+    }
+  ],
+  "global_constructor_semantics": "UNVERIFIED",
+  "dlclose_unmaps_all": "NOT_GUARANTEED",
+  "cross_module_allocator_EH": "UNVERIFIED",
+  "direct_DART_object_creation": "PROHIBITED",
+  "implicit_global_initialization_on_future_dlopen": "POSSIBLE_UNVERIFIED"
+}

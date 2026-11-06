@@ -1,0 +1,13 @@
+{
+  "fixture_offline": {
+    "sha256": "afa1b26e172fff92e55bf93cffb549202a30ae09edaedf53afd7d5157619f3c4",
+    "bytes": 16640,
+    "executed": true,
+    "execution_scope": "offline contract/simulation/SIGTERM tests only"
+  },
+  "loader_review_only.o": {
+    "sha256": "7f4169152be31917cd7d26412902d33becd6179ce5d9e63ec37a84fd8ff6089f",
+    "bytes": 13688,
+    "executed": false
+  }
+}
