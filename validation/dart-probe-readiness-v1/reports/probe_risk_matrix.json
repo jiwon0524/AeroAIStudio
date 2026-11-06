@@ -1,0 +1,299 @@
+{
+  "probes": [
+    {
+      "execution_status": "SKIP_NOT_AUTHORIZED",
+      "binary": "NOT_BUILT; separately reviewed purpose-built nonphysics fixture required; never launch Gazebo plugin",
+      "library_paths": "probe_library_arms.json absolute real paths/SHA-256/Build-ID; A installed, B baseline, C trace; installed Bullet explicit in each arm",
+      "prerequisites": [
+        "separate explicit execution approval",
+        "review fixture source, imports, init/fini arrays and all constructors; no World or step",
+        "freeze transitive libstdc++/libgcc/Bullet/ODE closure and allocator providers; future mapping audit",
+        "recheck hashes immediately before each arm; do not rely on filename/SONAME",
+        "prove process/file/network isolation available before execution; subprocess alone is not sandbox"
+      ],
+      "isolation": {
+        "cwd": "new work/probes/<probe>/<arm>/<case> directory; no existing output overwrite",
+        "environment": "env -i with PATH=/usr/bin:/bin LC_ALL=C HOME/TMPDIR private; allowlisted child-only library settings; no inherited LD_PRELOAD, GZ/ROS/DISPLAY or credentials",
+        "loader": "absolute core/module paths, RTLD_NOW|RTLD_LOCAL when approved; child-only LD_LIBRARY_PATH; no global loader edits; no dlmopen namespace claim",
+        "limits": "reviewed unprivileged sandbox/VM denying network and writes outside run directory; timeout --signal=TERM --kill-after=2s 10s; RLIMIT_CPU/AS/NOFILE/NPROC and core dumps disabled; availability NOT_YET_VERIFIED",
+        "progression": "one arm/case per subprocess; start A then B then C OFF; no automatic retry, no background jobs"
+      },
+      "stop": [
+        "unexpected library/hash/provider or new executable/plugin init path",
+        "signal, timeout, nonzero exit, sanitizer/allocator diagnostic, unexpected callback/reentrancy",
+        "writes outside run directory, network attempt or nondeterministic ownership counts",
+        "A reference failure: stop all following arms; never accept B/C by comparison with failed A"
+      ],
+      "evidence": [
+        "fixture source/binary hashes and toolchain flags; approved scope identifier",
+        "selected allowlisted config only; no full env/command-line/credential dump",
+        "mapped real libraries and hashes, dlsym/dladdr addresses/provenance, event counters",
+        "exit/signal/timeout and output hashes; mark crash/missing output failure or unknown, never PASS"
+      ],
+      "preservation": [
+        "production and system directories mounted/read-only by reviewed isolation; no package install",
+        "all logs/temp child HOME/TMPDIR under new run directory; retain failures",
+        "no library replacement, ldconfig, global env, main edit, reset/stash or evidence rewrite"
+      ],
+      "limitations": "Finite cases detect concrete failures; success never proves whole ABI, allocator safety or runtime neutrality",
+      "probe": "A",
+      "hypothesis": "Selected closure resolves correct SONAMEs and symbols; no accidental core mixing",
+      "targets": [
+        "absolute Core/External/ODE/Bullet handles and selected exported dlsym; plugin ELF metadata only"
+      ],
+      "expected_side_effects": "dlopen runs init/fini and registration code; dlclose may execute shutdown; IFUNC allowed only after review",
+      "success_criteria": [
+        "mapped paths/hashes equal arm manifest",
+        "each selected symbol resolves to intended provider and no unresolved symbols",
+        "record constructor/destructor callbacks; no object factory or plugin init API"
+      ],
+      "additional_prerequisites": [
+        "enumerate target/transitive init/fini side effects; approve dlclose order; no target handle sharing across arms"
+      ],
+      "status": "BLOCKED",
+      "blockers": [
+        "transitive closure/provider 미고정",
+        "init/fini/IFUNC/TLS/thread shutdown 부작용 미검토",
+        "B/C External 예상 경로 누락·RUNPATH 빈 항목",
+        "파일 쓰기·네트워크 차단 sandbox 미검증"
+      ],
+      "exact_targets_manifest": "elf_review.json + ../../dart-targeted-evidence-v1/reports/probe_library_arms.json; missing paths are blockers, not targets to guess",
+      "separate_approval": "현 단계에서는 실행 승인 요청 준비 미완료. blockers 해소 후 정확한 fixture/source/import/closure/hash/limits/case/dlclose 정책을 포함한 별도 승인 필요",
+      "failure_handling": "해당 프로세스 그룹 중단·wait/reap; 다음 arm 자동 실행 금지; 로그/exit/signal/timeout/hash 보존; 원본 재해시; 실패 원인 미확정이면 UNKNOWN",
+      "post_execution_integrity": "main HEAD/status, 기존 source/evidence manifest, 대상 ELF hash/Build-ID 전후 비교. 불일치 시 중단·원본 자동 복구/삭제 금지",
+      "planned_limits": {
+        "wall_seconds": 10,
+        "term_grace_seconds": 2,
+        "cpu_seconds": 2,
+        "address_space_MiB": 512,
+        "file_size_MiB": 8,
+        "nofile": 64,
+        "nproc": 16,
+        "core_bytes": 0,
+        "status": "PROPOSED_ONLY; target startup sufficiency unverified; no automatic relaxation"
+      }
+    },
+    {
+      "execution_status": "SKIP_NOT_AUTHORIZED",
+      "binary": "NOT_BUILT; separately reviewed purpose-built nonphysics fixture required; never launch Gazebo plugin",
+      "library_paths": "probe_library_arms.json absolute real paths/SHA-256/Build-ID; A installed, B baseline, C trace; installed Bullet explicit in each arm",
+      "prerequisites": [
+        "separate explicit execution approval",
+        "review fixture source, imports, init/fini arrays and all constructors; no World or step",
+        "freeze transitive libstdc++/libgcc/Bullet/ODE closure and allocator providers; future mapping audit",
+        "recheck hashes immediately before each arm; do not rely on filename/SONAME",
+        "prove process/file/network isolation available before execution; subprocess alone is not sandbox"
+      ],
+      "isolation": {
+        "cwd": "new work/probes/<probe>/<arm>/<case> directory; no existing output overwrite",
+        "environment": "env -i with PATH=/usr/bin:/bin LC_ALL=C HOME/TMPDIR private; allowlisted child-only library settings; no inherited LD_PRELOAD, GZ/ROS/DISPLAY or credentials",
+        "loader": "absolute core/module paths, RTLD_NOW|RTLD_LOCAL when approved; child-only LD_LIBRARY_PATH; no global loader edits; no dlmopen namespace claim",
+        "limits": "reviewed unprivileged sandbox/VM denying network and writes outside run directory; timeout --signal=TERM --kill-after=2s 10s; RLIMIT_CPU/AS/NOFILE/NPROC and core dumps disabled; availability NOT_YET_VERIFIED",
+        "progression": "one arm/case per subprocess; start A then B then C OFF; no automatic retry, no background jobs"
+      },
+      "stop": [
+        "unexpected library/hash/provider or new executable/plugin init path",
+        "signal, timeout, nonzero exit, sanitizer/allocator diagnostic, unexpected callback/reentrancy",
+        "writes outside run directory, network attempt or nondeterministic ownership counts",
+        "A reference failure: stop all following arms; never accept B/C by comparison with failed A"
+      ],
+      "evidence": [
+        "fixture source/binary hashes and toolchain flags; approved scope identifier",
+        "selected allowlisted config only; no full env/command-line/credential dump",
+        "mapped real libraries and hashes, dlsym/dladdr addresses/provenance, event counters",
+        "exit/signal/timeout and output hashes; mark crash/missing output failure or unknown, never PASS"
+      ],
+      "preservation": [
+        "production and system directories mounted/read-only by reviewed isolation; no package install",
+        "all logs/temp child HOME/TMPDIR under new run directory; retain failures",
+        "no library replacement, ldconfig, global env, main edit, reset/stash or evidence rewrite"
+      ],
+      "limitations": "Finite cases detect concrete failures; success never proves whole ABI, allocator safety or runtime neutrality",
+      "probe": "B",
+      "hypothesis": "One finite object ownership chain releases each allocation once across Bullet/Core",
+      "targets": [
+        "synthetic Skeleton->BodyNode->ShapeNode without World; one Bullet detector/group/object through public factories; no collision/solver"
+      ],
+      "expected_side_effects": "allocation/global registration, shared_ptr callbacks, cross-module delete; possible crash/UB",
+      "success_criteria": [
+        "one minimal normal lifetime case per ownership path; exact expected destroy/notify ordering and zero outstanding tracked allocations",
+        "D0/provider/size observational evidence consistent with 1664/48/368 where relevant; no guessed symbol attribution",
+        "detector outlives group/object/deleter; A/B/C OFF equal bounded observable contracts"
+      ],
+      "additional_prerequisites": [
+        "review actual factory signatures and destruction ownership before building",
+        "review nonallocating event collector and allocator interception recursion risk; no unreviewed global new/delete override"
+      ],
+      "status": "BLOCKED",
+      "blockers": [
+        "실제 factory/owner/deleter fixture 미제작",
+        "slot18 INFERRED D1; 중첩 cleanup 의미 미확정",
+        "Cross-module allocator/interposition 및 detector lifetime 미검증"
+      ],
+      "exact_targets_manifest": "elf_review.json + ../../dart-targeted-evidence-v1/reports/probe_library_arms.json; missing paths are blockers, not targets to guess",
+      "separate_approval": "현 단계에서는 실행 승인 요청 준비 미완료. blockers 해소 후 정확한 fixture/source/import/closure/hash/limits/case/dlclose 정책을 포함한 별도 승인 필요",
+      "failure_handling": "해당 프로세스 그룹 중단·wait/reap; 다음 arm 자동 실행 금지; 로그/exit/signal/timeout/hash 보존; 원본 재해시; 실패 원인 미확정이면 UNKNOWN",
+      "post_execution_integrity": "main HEAD/status, 기존 source/evidence manifest, 대상 ELF hash/Build-ID 전후 비교. 불일치 시 중단·원본 자동 복구/삭제 금지",
+      "planned_limits": {
+        "wall_seconds": 10,
+        "term_grace_seconds": 2,
+        "cpu_seconds": 2,
+        "address_space_MiB": 512,
+        "file_size_MiB": 8,
+        "nofile": 64,
+        "nproc": 16,
+        "core_bytes": 0,
+        "status": "PROPOSED_ONLY; target startup sufficiency unverified; no automatic relaxation"
+      }
+    },
+    {
+      "execution_status": "SKIP_NOT_AUTHORIZED",
+      "binary": "NOT_BUILT; separately reviewed purpose-built nonphysics fixture required; never launch Gazebo plugin",
+      "library_paths": "probe_library_arms.json absolute real paths/SHA-256/Build-ID; A installed, B baseline, C trace; installed Bullet explicit in each arm",
+      "prerequisites": [
+        "separate explicit execution approval",
+        "review fixture source, imports, init/fini arrays and all constructors; no World or step",
+        "freeze transitive libstdc++/libgcc/Bullet/ODE closure and allocator providers; future mapping audit",
+        "recheck hashes immediately before each arm; do not rely on filename/SONAME",
+        "prove process/file/network isolation available before execution; subprocess alone is not sandbox"
+      ],
+      "isolation": {
+        "cwd": "new work/probes/<probe>/<arm>/<case> directory; no existing output overwrite",
+        "environment": "env -i with PATH=/usr/bin:/bin LC_ALL=C HOME/TMPDIR private; allowlisted child-only library settings; no inherited LD_PRELOAD, GZ/ROS/DISPLAY or credentials",
+        "loader": "absolute core/module paths, RTLD_NOW|RTLD_LOCAL when approved; child-only LD_LIBRARY_PATH; no global loader edits; no dlmopen namespace claim",
+        "limits": "reviewed unprivileged sandbox/VM denying network and writes outside run directory; timeout --signal=TERM --kill-after=2s 10s; RLIMIT_CPU/AS/NOFILE/NPROC and core dumps disabled; availability NOT_YET_VERIFIED",
+        "progression": "one arm/case per subprocess; start A then B then C OFF; no automatic retry, no background jobs"
+      },
+      "stop": [
+        "unexpected library/hash/provider or new executable/plugin init path",
+        "signal, timeout, nonzero exit, sanitizer/allocator diagnostic, unexpected callback/reentrancy",
+        "writes outside run directory, network attempt or nondeterministic ownership counts",
+        "A reference failure: stop all following arms; never accept B/C by comparison with failed A"
+      ],
+      "evidence": [
+        "fixture source/binary hashes and toolchain flags; approved scope identifier",
+        "selected allowlisted config only; no full env/command-line/credential dump",
+        "mapped real libraries and hashes, dlsym/dladdr addresses/provenance, event counters",
+        "exit/signal/timeout and output hashes; mark crash/missing output failure or unknown, never PASS"
+      ],
+      "preservation": [
+        "production and system directories mounted/read-only by reviewed isolation; no package install",
+        "all logs/temp child HOME/TMPDIR under new run directory; retain failures",
+        "no library replacement, ldconfig, global env, main edit, reset/stash or evidence rewrite"
+      ],
+      "limitations": "Finite cases detect concrete failures; success never proves whole ABI, allocator safety or runtime neutrality",
+      "probe": "C",
+      "hypothesis": "A selected constructor-failure edge cleans acquired storage and unwinds exactly once",
+      "targets": [
+        "one audited Bullet object factory allocation-failure case tied to V4 callsite/LP; no arbitrary object corruption"
+      ],
+      "expected_side_effects": "controlled exception and partial construction; terminate/allocator recursion or changed behavior possible",
+      "success_criteria": [
+        "first demonstrate normal B path; inject one deterministic fault on a proven scope only",
+        "observed allocated storage freed once; shared owners balanced; exception type reaches fixture boundary once",
+        "no double free, leak, unexpected terminate; event counts match specified failure model"
+      ],
+      "additional_prerequisites": [
+        "BLOCKED until allocation event ownership/reentrancy strategy reviewed",
+        "no process-wide arbitrary Nth allocation failure; limit fixture-owned entry window",
+        "sanitizer uninstrumented installed libraries limit negative evidence"
+      ],
+      "status": "BLOCKED",
+      "blockers": [
+        "B 정상 소유권 경로 선행 필요",
+        "부분 생성 cleanup·정확한 throw 위치와 fault window 미검증",
+        "allocator hook 재진입·중복 해제·terminate 위험 미통제"
+      ],
+      "exact_targets_manifest": "elf_review.json + ../../dart-targeted-evidence-v1/reports/probe_library_arms.json; missing paths are blockers, not targets to guess",
+      "separate_approval": "현 단계에서는 실행 승인 요청 준비 미완료. blockers 해소 후 정확한 fixture/source/import/closure/hash/limits/case/dlclose 정책을 포함한 별도 승인 필요",
+      "failure_handling": "해당 프로세스 그룹 중단·wait/reap; 다음 arm 자동 실행 금지; 로그/exit/signal/timeout/hash 보존; 원본 재해시; 실패 원인 미확정이면 UNKNOWN",
+      "post_execution_integrity": "main HEAD/status, 기존 source/evidence manifest, 대상 ELF hash/Build-ID 전후 비교. 불일치 시 중단·원본 자동 복구/삭제 금지",
+      "planned_limits": {
+        "wall_seconds": 10,
+        "term_grace_seconds": 2,
+        "cpu_seconds": 2,
+        "address_space_MiB": 512,
+        "file_size_MiB": 8,
+        "nofile": 64,
+        "nproc": 16,
+        "core_bytes": 0,
+        "status": "PROPOSED_ONLY; target startup sufficiency unverified; no automatic relaxation"
+      }
+    },
+    {
+      "execution_status": "SKIP_NOT_AUTHORIZED",
+      "binary": "NOT_BUILT; separately reviewed purpose-built nonphysics fixture required; never launch Gazebo plugin",
+      "library_paths": "probe_library_arms.json absolute real paths/SHA-256/Build-ID; A installed, B baseline, C trace; installed Bullet explicit in each arm",
+      "prerequisites": [
+        "separate explicit execution approval",
+        "review fixture source, imports, init/fini arrays and all constructors; no World or step",
+        "freeze transitive libstdc++/libgcc/Bullet/ODE closure and allocator providers; future mapping audit",
+        "recheck hashes immediately before each arm; do not rely on filename/SONAME",
+        "prove process/file/network isolation available before execution; subprocess alone is not sandbox"
+      ],
+      "isolation": {
+        "cwd": "new work/probes/<probe>/<arm>/<case> directory; no existing output overwrite",
+        "environment": "env -i with PATH=/usr/bin:/bin LC_ALL=C HOME/TMPDIR private; allowlisted child-only library settings; no inherited LD_PRELOAD, GZ/ROS/DISPLAY or credentials",
+        "loader": "absolute core/module paths, RTLD_NOW|RTLD_LOCAL when approved; child-only LD_LIBRARY_PATH; no global loader edits; no dlmopen namespace claim",
+        "limits": "reviewed unprivileged sandbox/VM denying network and writes outside run directory; timeout --signal=TERM --kill-after=2s 10s; RLIMIT_CPU/AS/NOFILE/NPROC and core dumps disabled; availability NOT_YET_VERIFIED",
+        "progression": "one arm/case per subprocess; start A then B then C OFF; no automatic retry, no background jobs"
+      },
+      "stop": [
+        "unexpected library/hash/provider or new executable/plugin init path",
+        "signal, timeout, nonzero exit, sanitizer/allocator diagnostic, unexpected callback/reentrancy",
+        "writes outside run directory, network attempt or nondeterministic ownership counts",
+        "A reference failure: stop all following arms; never accept B/C by comparison with failed A"
+      ],
+      "evidence": [
+        "fixture source/binary hashes and toolchain flags; approved scope identifier",
+        "selected allowlisted config only; no full env/command-line/credential dump",
+        "mapped real libraries and hashes, dlsym/dladdr addresses/provenance, event counters",
+        "exit/signal/timeout and output hashes; mark crash/missing output failure or unknown, never PASS"
+      ],
+      "preservation": [
+        "production and system directories mounted/read-only by reviewed isolation; no package install",
+        "all logs/temp child HOME/TMPDIR under new run directory; retain failures",
+        "no library replacement, ldconfig, global env, main edit, reset/stash or evidence rewrite"
+      ],
+      "limitations": "Finite cases detect concrete failures; success never proves whole ABI, allocator safety or runtime neutrality",
+      "probe": "D",
+      "hypothesis": "OFF/ON bounded nonphysics metadata/recorder behavior follows explicit contract",
+      "targets": [
+        "A uninstrumented reference; B baseline; C Trace OFF then C ON; no World/step and no fabricated physics trace"
+      ],
+      "expected_side_effects": "TLS/once/env, metadata virtual calls, arena/cache/atomics, allocation/serialization/flush effects",
+      "success_criteria": [
+        "compare finite ownership/metadata event outcomes and allocator counts; document expected extra calls rather than demand identical execution",
+        "validate owner/quiescent Configure/GetStatus/Flush, capacity/overflow faults, no concurrent calls",
+        "ON only where a reviewed public recorder entry is reachable without World/step; otherwise BLOCKED and label uncovered"
+      ],
+      "additional_prerequisites": [
+        "OFF/ON is not physics/FP/clock neutrality proof",
+        "BLOCKED until nonphysics entrypoint, metadata objects lifetime, quiescent flush safety and output bounds reviewed",
+        "no claims about World destructor FinishWorld or time mapping without future separately approved scope"
+      ],
+      "status": "BLOCKED",
+      "blockers": [
+        "비물리 ON entry와 owner/quiescent Flush 미검토",
+        "OFF 추가 경로·ON TLS/cache/metadata/allocator/serialization 변화 미검증",
+        "동일 입력·환경·closure와 bounded output 계약 미고정"
+      ],
+      "exact_targets_manifest": "elf_review.json + ../../dart-targeted-evidence-v1/reports/probe_library_arms.json; missing paths are blockers, not targets to guess",
+      "separate_approval": "현 단계에서는 실행 승인 요청 준비 미완료. blockers 해소 후 정확한 fixture/source/import/closure/hash/limits/case/dlclose 정책을 포함한 별도 승인 필요",
+      "failure_handling": "해당 프로세스 그룹 중단·wait/reap; 다음 arm 자동 실행 금지; 로그/exit/signal/timeout/hash 보존; 원본 재해시; 실패 원인 미확정이면 UNKNOWN",
+      "post_execution_integrity": "main HEAD/status, 기존 source/evidence manifest, 대상 ELF hash/Build-ID 전후 비교. 불일치 시 중단·원본 자동 복구/삭제 금지",
+      "planned_limits": {
+        "wall_seconds": 10,
+        "term_grace_seconds": 2,
+        "cpu_seconds": 2,
+        "address_space_MiB": 512,
+        "file_size_MiB": 8,
+        "nofile": 64,
+        "nproc": 16,
+        "core_bytes": 0,
+        "status": "PROPOSED_ONLY; target startup sufficiency unverified; no automatic relaxation"
+      }
+    }
+  ],
+  "common_risk": "HIGH/UNKNOWN until target-specific safety and filesystem/network sandbox validation; harmless fixture results do not prove DART UB containment"
+}

@@ -1,0 +1,14 @@
+{
+  "process": "PASS: fresh session/PID, fixed executable and fixed owned source only",
+  "environment": "PASS: child-only allowlist, private HOME/TMPDIR, Python isolated mode; no global changes",
+  "resource_limits": "PASS: fixture verifies CPU/AS/FSIZE/NOFILE/NPROC/CORE set; CPU/AS/FSIZE pressure observed",
+  "timeout": "PASS: parent kills only its own newly created process group, waits and cleans temporary directory",
+  "logs": "stdout/stderr saved in JSON before temp cleanup; target future logs need independent quota/stream bounds",
+  "filesystem_sandbox": "NOT_VALIDATED; private cwd is not access control; do not test writes to production",
+  "network_sandbox": "NOT_VALIDATED; no network attempt made",
+  "process_count": "RLIMIT_NPROC shared per UID, not reliable dedicated PID sandbox; fixture forks no descendants",
+  "initialization": "limits applied inside harmless Python child; target native launcher must apply limits before loader init",
+  "containment": "BLOCKED for real DART; require reviewed read-only mounts + private writable output + network deny + process containment in disposable VM/sandbox",
+  "runtime_fixture": "not built/linked/loaded; no DART or Gazebo maps observed in independent child",
+  "tool_scope": "readelf reads target bytes; ldd/dlopen/dlclose and target execution not used"
+}

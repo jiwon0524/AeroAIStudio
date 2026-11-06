@@ -1,3 +1,24 @@
+# Isolated Runtime Probe Readiness Review V1 — current checkpoint
+
+이번 사용자 요청 범위를 완료했다. **A/B/C/D BLOCKED / Host NEEDS_ADDITIONAL_EVIDENCE / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. 실제 DART/Gazebo 로드·객체 생성/삭제·예외·OFF/ON·World::step·Stage B는 미실행(4 Probe SKIP)이다. 다음 Runtime 실행 승인은 부여되지 않았다.
+
+시작 HEAD `83ab0f57a1c85578e8942b00e0f8d9a1707a22fe`, 승인 실험 branch clean을 직접 확인했다. 이전 handoff snapshot의 f42f2ab→83ab0f5는 최신 Targeted Evidence commit으로 대조했다. 이전 22 PASS/30,823 보존은 과거 결과이며 이번 수에 합산하지 않는다. main의 오래된 handoff 게시 금지는 현재 사용자·실험 개발 규칙의 승인 실험 branch 자동 게시 권한을 대체하지 않는다. main은 보존한다.
+
+이번 완료 증거: `validation/dart-probe-readiness-v1/reports/`의 final_report.md, readiness_verdict.json, probe_risk_matrix.json, fixture_test_results.json, isolation_review.json, elf_review.json, test_summary.json, integrity.json, next_steps.md. 독립 무해 Python Fixture **14 PASS**, 정적 보고서 unittest **6 PASS**, 총20 PASS/0 FAIL, 실제 Probe4 SKIP. readelf와 hash로 기존9 ELF 동일성을 재확인했다. B/C External 예상경로2 누락, RUNPATH 빈 component 및 transitive closure/init-fini 미감사 위험을 기록했다. DART를 링크/로드하지 않았다.
+
+새 scripts/tests/reports와 이 handoff만 이번 소유 파일이다. 기존 evidence V1~V4/targeted, production/시스템 packages/libraries, AI 기능·Clock/Capture·solver 변경 없음. 전후 기존54,436파일 변경/누락0·추가0, main HEAD/status 유지 PASS(`integrity.json`; 새 작업 경로·실험 handoff 제외). work의 전체 manifest와 start_snapshot은 ignored/raw로 게시 제외다. /tmp worktree·raw·main ignored/untracked evidence는 Git push로 다른 기기에 자동 전달되지 않는다.
+
+실제 target 격리는 BLOCKED: private cwd/rlimit/timeout은 filesystem/network sandbox가 아니다. fixture는 CPU/AS/FSIZE pressure 및 limits 설정·exit/signal/log/cleanup/restart를 검증했지만 UID NPROC/프로세스 트리 격리·native loader 전 제한을 입증하지 않는다. slot18 INFERRED D1, allocator/cross-module ownership/nested cleanup/EH/OFF-ON 중립성 HIGH/UNKNOWN 유지.
+
+다음 최소 작업은 **DART 미로드 상태로 무해한 Fixture의 파일 쓰기·네트워크 강제 차단 환경 검증**이다. 이어 exact closure/External/init-fini 및 A 전용 native fixture source/import/limits 검토 후 별도 실행 승인 준비 여부를 재판정한다. B owner/deleter, C fault window, D nonphysics entry/quiescent flush는 추가 검토 필요. 이번 종료 뒤 자동 Runtime 또는 다음 개발 단계 시작 금지.
+
+게시: 승인 branch에 신규 경량 파일과 handoff만 명시적 staging/diff 검토/commit/push한다. 실제 결과는 reports/git_publication.json 로컬 영수증과 최종 응답을 따른다. 자기 SHA 재귀 commit 없음. main/force push/reset/rebase/stash/merge 없음. 공통 스킬 변경 없음.
+
+실행 작업: 이번 fixture child는 모두 wait/reap 완료; 정적 readelf 완료. 최종 관측은 `validation/dart-probe-readiness-v1/reports/handoff_snapshot.json`을 따른다. 관측 host jiwon-System-Product-Name, 시간 2026-11-06T15:02:02.218341+00:00, project CWD visible same-user task 0개(PID/start/output 해당 없음). 외부 CWD/원격/container 작업은 UNKNOWN이며 기존 프로세스 종료/재시작·계정 전환 없음.
+
+---
+이하 과거 인계 기록(과거 state는 해당 게시 전 관측값):
+
 # Targeted Evidence Verification V1 — current checkpoint
 
 이번 요청의 설치본 증거 수집·Probe 설계 범위를 완료했다. **TARGETED_EVIDENCE_UNAVAILABLE / Host NEEDS_ADDITIONAL_EVIDENCE / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. Gazebo/World::step/객체 생성·삭제 Runtime Probe/예외 Runtime/Probe A~D/Stage B는 실행하지 않았다. Native 테스트도 실행하지 않았다. 기존 정적 분석을 반복하거나 다음 단계를 자동 시작하지 않는다.

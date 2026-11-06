@@ -1,0 +1,178 @@
+{
+  "tests": [
+    {
+      "test": "separate_process",
+      "status": "PASS"
+    },
+    {
+      "test": "normal_exit",
+      "status": "PASS"
+    },
+    {
+      "test": "exit_code",
+      "status": "PASS"
+    },
+    {
+      "test": "signal",
+      "status": "PASS"
+    },
+    {
+      "test": "wall_timeout",
+      "status": "PASS"
+    },
+    {
+      "test": "cpu_limit",
+      "status": "PASS"
+    },
+    {
+      "test": "memory_limit",
+      "status": "PASS"
+    },
+    {
+      "test": "file_limit",
+      "status": "PASS"
+    },
+    {
+      "test": "limits_applied",
+      "status": "PASS"
+    },
+    {
+      "test": "logs_captured",
+      "status": "PASS"
+    },
+    {
+      "test": "temporary_cleanup",
+      "status": "PASS"
+    },
+    {
+      "test": "restart_after_abort",
+      "status": "PASS"
+    },
+    {
+      "test": "no_dart_gazebo_mapping",
+      "status": "PASS"
+    },
+    {
+      "test": "environment_allowlist",
+      "status": "PASS"
+    }
+  ],
+  "PASS": 14,
+  "FAIL": 0,
+  "SKIP": 0,
+  "records": [
+    {
+      "case": "normal",
+      "pid": 8,
+      "parent_pid": 2,
+      "returncode": 0,
+      "signal": null,
+      "timeout": false,
+      "seconds": 0.032,
+      "stdout": "fixture-start\n{\"pid\": 8, \"limits\": {\"RLIMIT_CPU\": [1, 1], \"RLIMIT_AS\": [134217728, 134217728], \"RLIMIT_FSIZE\": [65536, 65536], \"RLIMIT_NOFILE\": [32, 32], \"RLIMIT_NPROC\": [16, 16], \"RLIMIT_CORE\": [0, 0]}, \"maps_clean\": true, \"environment_keys\": [\"HOME\", \"LC_ALL\", \"PATH\", \"PYTHONDONTWRITEBYTECODE\", \"TMPDIR\"]}\n",
+      "stderr": "fixture-stderr\n",
+      "max_file_bytes": 309,
+      "run_directory": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-readiness-v1/work/fixture-6dzp63b9",
+      "temporary_cleanup": true
+    },
+    {
+      "case": "exit",
+      "pid": 9,
+      "parent_pid": 2,
+      "returncode": 7,
+      "signal": null,
+      "timeout": false,
+      "seconds": 0.032,
+      "stdout": "fixture-start\n",
+      "stderr": "fixture-stderr\n",
+      "max_file_bytes": 20,
+      "run_directory": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-readiness-v1/work/fixture-bt7hnvdt",
+      "temporary_cleanup": true
+    },
+    {
+      "case": "signal",
+      "pid": 10,
+      "parent_pid": 2,
+      "returncode": -15,
+      "signal": 15,
+      "timeout": false,
+      "seconds": 0.032,
+      "stdout": "fixture-start\n",
+      "stderr": "fixture-stderr\n",
+      "max_file_bytes": 20,
+      "run_directory": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-readiness-v1/work/fixture-v7psu39s",
+      "temporary_cleanup": true
+    },
+    {
+      "case": "timeout",
+      "pid": 11,
+      "parent_pid": 2,
+      "returncode": -9,
+      "signal": 9,
+      "timeout": true,
+      "seconds": 0.502,
+      "stdout": "fixture-start\n",
+      "stderr": "fixture-stderr\n",
+      "max_file_bytes": 20,
+      "run_directory": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-readiness-v1/work/fixture-j2m9g1am",
+      "temporary_cleanup": true
+    },
+    {
+      "case": "cpu",
+      "pid": 12,
+      "parent_pid": 2,
+      "returncode": -9,
+      "signal": 9,
+      "timeout": false,
+      "seconds": 1.015,
+      "stdout": "fixture-start\n",
+      "stderr": "fixture-stderr\n",
+      "max_file_bytes": 20,
+      "run_directory": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-readiness-v1/work/fixture-9qp0jeuf",
+      "temporary_cleanup": true
+    },
+    {
+      "case": "memory",
+      "pid": 13,
+      "parent_pid": 2,
+      "returncode": 23,
+      "signal": null,
+      "timeout": false,
+      "seconds": 0.032,
+      "stdout": "fixture-start\nmemory-limit-observed\n",
+      "stderr": "fixture-stderr\n",
+      "max_file_bytes": 36,
+      "run_directory": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-readiness-v1/work/fixture-100huhwi",
+      "temporary_cleanup": true
+    },
+    {
+      "case": "file",
+      "pid": 14,
+      "parent_pid": 2,
+      "returncode": 24,
+      "signal": null,
+      "timeout": false,
+      "seconds": 0.032,
+      "stdout": "fixture-start\nfile-limit-observed\n",
+      "stderr": "fixture-stderr\n",
+      "max_file_bytes": 65536,
+      "run_directory": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-readiness-v1/work/fixture-mf0w5ydv",
+      "temporary_cleanup": true
+    },
+    {
+      "case": "normal",
+      "pid": 15,
+      "parent_pid": 2,
+      "returncode": 0,
+      "signal": null,
+      "timeout": false,
+      "seconds": 0.016,
+      "stdout": "fixture-start\n{\"pid\": 15, \"limits\": {\"RLIMIT_CPU\": [1, 1], \"RLIMIT_AS\": [134217728, 134217728], \"RLIMIT_FSIZE\": [65536, 65536], \"RLIMIT_NOFILE\": [32, 32], \"RLIMIT_NPROC\": [16, 16], \"RLIMIT_CORE\": [0, 0]}, \"maps_clean\": true, \"environment_keys\": [\"HOME\", \"LC_ALL\", \"PATH\", \"PYTHONDONTWRITEBYTECODE\", \"TMPDIR\"]}\n",
+      "stderr": "fixture-stderr\n",
+      "max_file_bytes": 310,
+      "run_directory": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-readiness-v1/work/fixture-xdp6cgpj",
+      "temporary_cleanup": true
+    }
+  ],
+  "scope": "independent Python fixture only; no filesystem/network sandbox claim; RLIMIT_NPROC is per UID, not proof of process containment"
+}

@@ -1,0 +1,19 @@
+{
+  "fixture": {
+    "PASS": 14,
+    "FAIL": 0,
+    "SKIP": 0
+  },
+  "offline_review_unittest": {
+    "PASS": 6,
+    "FAIL": 0,
+    "SKIP": 0
+  },
+  "actual_runtime_probes": {
+    "PASS": 0,
+    "FAIL": 0,
+    "SKIP": 4
+  },
+  "total_executed_PASS": 20,
+  "actual_probes_reason": "A-D forbidden in this phase; blocked prerequisites"
+}
