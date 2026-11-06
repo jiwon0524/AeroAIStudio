@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "item": "Slot18",
+      "stop": "C",
+      "reason": "D1 INFERRED from AP, complete vptr reset and D0 calls/normalized997byte body; installed symbol/type and nested semantic proof unavailable"
+    },
+    {
+      "item": "Node-subobject D0 to ShapeNode D1",
+      "stop": "A",
+      "reason": "Direct actual instruction edges and this -144 adjustment verified; not generic Node D0->Node D1"
+    },
+    {
+      "item": "Sized delete",
+      "stop": "A",
+      "reason": "Selected size1664/48/368 and standard versioned delete contract verified offline; full lifetime excluded"
+    },
+    {
+      "item": "Exception/lifetime neutrality",
+      "stop": "C",
+      "reason": "LSDA callsites/cleanup edges only; nested/indirect shutdown/catch behavior requires matching debug/build or separately approved targeted nonphysics probe"
+    }
+  ],
+  "next_evidence": "Obtain matching debug/symbol map OR prepare a separate bounded nonphysics object-lifetime/allocator/unwind probe with explicit approval; no automatic further static phase",
+  "runtime": "NOT_RUNTIME_VERIFIED",
+  "binary_identifiers": {
+    "A": {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "sha256": "f74f4ec9820aee785ef94fb7bedafa7e4c832f209675a8ca1d35019c72b48e06",
+      "build_id": "071aa565b343db80e31aae393aadaed33c7adb46"
+    },
+    "B": {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13.2",
+      "sha256": "8403def315fd0395e73f795610a7f258cb70400d93c1de9acab3ffc48e3562a3",
+      "build_id": "5b20c27ee40538cedd07931b3f703fadd3adc98d"
+    },
+    "C": {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2",
+      "sha256": "08abe8d16ab0060f860e6c937d567a2f4137f61dfecabb4ec6f1a327e22eddcc",
+      "build_id": "a93979d2a4c513bc4e647e36571fad6988432f21"
+    },
+    "Bullet": {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+      "sha256": "897709e0c988e9e562c662292ed5bc860bce70ee2c64499501f54a6b5ca02201",
+      "build_id": "8bda73145d9c6cc97d6faff5895c2ce1aa091f6f"
+    }
+  },
+  "evidence_scope": "Selected static DART/Bullet destructor boundary; raw assembly and limits linked in slot18_analysis.json and this report"
+}

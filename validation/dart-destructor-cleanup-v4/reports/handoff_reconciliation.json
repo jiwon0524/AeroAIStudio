@@ -1,0 +1,50 @@
+{
+  "initial_helper": "REVIEW_REQUIRED solely GIT_CHANGED/head",
+  "recorded_head": "c22f9476d9d2244c244e87272fa1a927e49d6658",
+  "observed_head": "a7a7b32b9aade588a0f134637b46b4211a973cc4",
+  "parent": "c22f9476d9d2244c244e87272fa1a927e49d6658",
+  "parent_matches": true,
+  "evidence": [
+    {
+      "path": "validation/dart-shapenode-boundary-v3/reports/verdict.json",
+      "matches": true
+    },
+    {
+      "path": "validation/dart-shapenode-boundary-v3/reports/integrity.json",
+      "matches": true
+    }
+  ],
+  "published_files": [
+    "handoff.md",
+    "validation/dart-shapenode-boundary-v3/reports/consumer_virtual_calls.json",
+    "validation/dart-shapenode-boundary-v3/reports/destructor_contract.json",
+    "validation/dart-shapenode-boundary-v3/reports/exception_abi.json",
+    "validation/dart-shapenode-boundary-v3/reports/final_report.md",
+    "validation/dart-shapenode-boundary-v3/reports/handoff_reconciliation.json",
+    "validation/dart-shapenode-boundary-v3/reports/integrity.json",
+    "validation/dart-shapenode-boundary-v3/reports/loader_results.json",
+    "validation/dart-shapenode-boundary-v3/reports/local_call_correspondence.json",
+    "validation/dart-shapenode-boundary-v3/reports/ownership_boundary.json",
+    "validation/dart-shapenode-boundary-v3/reports/reproduction.md",
+    "validation/dart-shapenode-boundary-v3/reports/risk_assessment.json",
+    "validation/dart-shapenode-boundary-v3/reports/rtti_thunks.json",
+    "validation/dart-shapenode-boundary-v3/reports/shapenode_slots.json",
+    "validation/dart-shapenode-boundary-v3/reports/test_safety_review.json",
+    "validation/dart-shapenode-boundary-v3/reports/test_summary.json",
+    "validation/dart-shapenode-boundary-v3/reports/verdict.json",
+    "validation/dart-shapenode-boundary-v3/scripts/common.py",
+    "validation/dart-shapenode-boundary-v3/scripts/dispatch.py",
+    "validation/dart-shapenode-boundary-v3/scripts/elf_reader.py",
+    "validation/dart-shapenode-boundary-v3/scripts/evidence.py",
+    "validation/dart-shapenode-boundary-v3/scripts/exception_tables.py",
+    "validation/dart-shapenode-boundary-v3/scripts/lifetimes.py",
+    "validation/dart-shapenode-boundary-v3/scripts/loader_audit.py",
+    "validation/dart-shapenode-boundary-v3/scripts/map_slots.py",
+    "validation/dart-shapenode-boundary-v3/scripts/preservation.py",
+    "validation/dart-shapenode-boundary-v3/scripts/refine_identity.py",
+    "validation/dart-shapenode-boundary-v3/scripts/summarize.py",
+    "validation/dart-shapenode-boundary-v3/tests/lifetime.cpp",
+    "validation/dart-shapenode-boundary-v3/tests/test_static_boundaries.py"
+  ],
+  "limits": "Reconciled actual V3 prepublish snapshot and30-file commit; not helper MATCH at startup"
+}

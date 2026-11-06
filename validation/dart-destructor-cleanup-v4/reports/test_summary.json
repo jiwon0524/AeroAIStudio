@@ -1,0 +1,58 @@
+{
+  "current": {
+    "new-final": {
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "v3": {
+      "tests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "v2": {
+      "tests": 13,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "v1": {
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "regression": {
+      "tests": 108,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "total": 161,
+  "initial_new": {
+    "tests": 12,
+    "failures": 1,
+    "errors": 0,
+    "skipped": 0
+  },
+  "initial_failure": "Test expected literal immediate $0x90 but actual this adjustment is LEA -0x90(%rdi),%rbx then MOV to RDI. Changed assertion to exact actual instruction pair; -144 requirement retained. Original log/XML kept.",
+  "Native": {
+    "status": "NOT_RUN",
+    "historical_suite_tests": 45,
+    "reason": "World constructor, Skeleton/BodyNode/ShapeNode creation, real constraint/solver fixtures violate explicit V4 actual-object creation/deletion prohibition. No claim of current Native PASS."
+  },
+  "historical_V3": 194,
+  "not_run": [
+    "Gazebo",
+    "World::step",
+    "Stage B",
+    "actual DART object creation/deletion",
+    "exception runtime",
+    "full DART suite"
+  ],
+  "evidence": "work/{new-initial,new-final,v3,v2,v1,regression}.{xml,log}",
+  "limits": "Current PASS count lower than V3 because45 Native tests deliberately not run; no acceptance criterion relaxed"
+}

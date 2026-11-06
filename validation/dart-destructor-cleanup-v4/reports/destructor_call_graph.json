@@ -1,0 +1,2627 @@
+{
+  "core_records": {
+    "A_18": {
+      "role": "ShapeNode_D1_candidate",
+      "slot_index": 18,
+      "table_byte_offset": 144,
+      "primary_AP": 144,
+      "entry": {
+        "kind": "address",
+        "address": 3083120,
+        "relocation": {
+          "type": 8,
+          "name": "",
+          "addend": 3083120
+        }
+      },
+      "address": "0x2f0b70",
+      "end": "0x2f0f55",
+      "function_bytes": 997,
+      "symbol_aliases": [],
+      "normal_form": [
+        "endbr64",
+        "push %rbp",
+        "mov <RIP>(%rip),%rax",
+        "lea 0x90(%rax),%rdx",
+        "lea 0x290(%rax),%rcx",
+        "mov %rsp,%rbp",
+        "push %r14",
+        "movq %rcx,%xmm0",
+        "lea 0x398(%rax),%rcx",
+        "push %r13",
+        "mov <RIP>(%rip),%r13",
+        "push %r12",
+        "push %rbx",
+        "lea 0x8(%r13),%rsi",
+        "mov %rdi,%rbx",
+        "mov %rdx,(%rdi)",
+        "lea 0x478(%rax),%rdx",
+        "mov %rdx,0x1f0(%rdi)",
+        "lea 0x558(%rax),%rdx",
+        "mov %rdx,0x348(%rdi)",
+        "lea 0x5c8(%rax),%rdx",
+        "mov %rdx,0x4a8(%rdi)",
+        "lea 0x600(%rax),%rdx",
+        "mov %rdx,0x4e0(%rdi)",
+        "lea 0x228(%rax),%rdx",
+        "mov %rdx,0x90(%rdi)",
+        "lea 0x640(%rax),%rdx",
+        "mov %rdx,0x4f8(%rdi)",
+        "lea 0x668(%rax),%rdx",
+        "mov %rdx,0x508(%rdi)",
+        "lea 0x6f8(%rax),%rdx",
+        "mov %rdx,0x580(%rdi)",
+        "lea 0x758(%rax),%rdx",
+        "mov %rdx,0x620(%rdi)",
+        "lea 0x2b0(%rax),%rdx",
+        "movq %rdx,%xmm1",
+        "lea 0x330(%rax),%rdx",
+        "mov %rdx,0x110(%rdi)",
+        "lea 0x788(%rax),%rdx",
+        "punpcklqdq %xmm1,%xmm0",
+        "mov %rdx,0x630(%rdi)",
+        "lea 0x7b8(%rax),%rdx",
+        "mov %rdx,0x640(%rdi)",
+        "lea 0x3d8(%rax),%rdx",
+        "movq %rdx,%xmm2",
+        "movaps %xmm0,0xc0(%rdi)",
+        "lea 0x858(%rax),%rdx",
+        "movq %rcx,%xmm0",
+        "punpcklqdq %xmm2,%xmm0",
+        "lea 0x7f8(%rax),%rcx",
+        "mov %rdx,0x660(%rdi)",
+        "lea 0x828(%rax),%rdx",
+        "add $0x888,%rax",
+        "movq %rdx,%xmm3",
+        "movups %xmm0,0x138(%rdi)",
+        "movq %rcx,%xmm0",
+        "mov %rax,0x670(%rdi)",
+        "punpcklqdq %xmm3,%xmm0",
+        "movaps %xmm0,0x650(%rdi)",
+        "call LOCAL_OR_DIRECT_CALLEE",
+        "mov 0x8e8(%r13),%rax",
+        "mov 0x948(%r13),%rcx",
+        "lea 0x580(%rbx),%rdi",
+        "lea 0x828(%r13),%rsi",
+        "mov -0x18(%rax),%rdx",
+        "mov %rcx,0x650(%rbx,%rdx,1)",
+        "mov -0x20(%rax),%rdx",
+        "mov 0x950(%r13),%rcx",
+        "mov -0x28(%rax),%rax",
+        "mov %rcx,0x650(%rbx,%rdx,1)",
+        "mov 0x960(%r13),%rdx",
+        "mov 0x928(%r13),%rcx",
+        "mov %rdx,0x650(%rbx,%rax,1)",
+        "mov 0x8f0(%r13),%rax",
+        "mov -0x18(%rax),%rdx",
+        "mov %rcx,0x650(%rbx,%rdx,1)",
+        "mov -0x20(%rax),%rdx",
+        "mov 0x930(%r13),%rcx",
+        "mov -0x28(%rax),%rax",
+        "mov %rcx,0x650(%rbx,%rdx,1)",
+        "mov 0x940(%r13),%rdx",
+        "mov 0x918(%r13),%rcx",
+        "mov %rdx,0x650(%rbx,%rax,1)",
+        "mov 0x910(%r13),%rax",
+        "mov -0x18(%rax),%rdx",
+        "mov %rax,0x658(%rbx)",
+        "mov -0x20(%rax),%rax",
+        "mov %rcx,0x658(%rbx,%rdx,1)",
+        "mov 0x920(%r13),%rdx",
+        "mov 0x900(%r13),%rcx",
+        "mov %rdx,0x658(%rbx,%rax,1)",
+        "mov 0x8f8(%r13),%rax",
+        "mov -0x18(%rax),%rdx",
+        "mov %rax,0x650(%rbx)",
+        "mov %rcx,0x650(%rbx,%rdx,1)",
+        "mov -0x20(%rax),%rax",
+        "mov 0x908(%r13),%rdx",
+        "mov %rdx,0x650(%rbx,%rax,1)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x670(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x660(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x640(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x110(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x630(%rbx)",
+        "add $0x28,%rax",
+        "mov %rax,0x508(%rbx)",
+        "call LOCAL_OR_DIRECT_CALLEE",
+        "lea <RIP>(%rip),%rax",
+        "mov 0x550(%rbx),%r12",
+        "mov %rax,0xc0(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x620(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x90(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x4f8(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x508(%rbx)",
+        "test %r12,%r12",
+        "je SELF+0x316",
+        "nopl (%rax)",
+        "mov %r12,%rdi",
+        "mov (%r12),%r12",
+        "mov $0x10,%esi",
+        "call _ZdlPvm@plt",
+        "test %r12,%r12",
+        "jne SELF+0x300",
+        "mov 0x548(%rbx),%rax",
+        "mov 0x540(%rbx),%rdi",
+        "xor %esi,%esi",
+        "lea 0x0(,%rax,8),%rdx",
+        "call memset@plt",
+        "mov 0x540(%rbx),%rdi",
+        "lea 0x570(%rbx),%rax",
+        "movq $0x0,0x558(%rbx)",
+        "movq $0x0,0x550(%rbx)",
+        "mov 0x548(%rbx),%rsi",
+        "cmp %rax,%rdi",
+        "je SELF+0x36c",
+        "shl $0x3,%rsi",
+        "call _ZdlPvm@plt",
+        "mov 0x520(%rbx),%r12",
+        "test %r12,%r12",
+        "je SELF+0x3ab",
+        "mov 0x18(%r12),%rdi",
+        "mov %r12,%r14",
+        "call LOCAL_OR_DIRECT_CALLEE",
+        "mov 0x28(%r14),%rdi",
+        "mov 0x10(%r12),%r12",
+        "test %rdi,%rdi",
+        "je SELF+0x399",
+        "mov (%rdi),%rax",
+        "call *0x8(%rax)",
+        "mov $0x30,%esi",
+        "mov %r14,%rdi",
+        "call _ZdlPvm@plt",
+        "test %r12,%r12",
+        "jne SELF+0x378",
+        "lea 0x1f0(%rbx),%rdi",
+        "lea 0x7d8(%r13),%rsi",
+        "call LOCAL_OR_DIRECT_CALLEE",
+        "lea 0x348(%rbx),%rdi",
+        "lea 0x7f0(%r13),%rsi",
+        "call LOCAL_OR_DIRECT_CALLEE",
+        "lea 0x4a8(%rbx),%rdi",
+        "pop %rbx",
+        "pop %r12",
+        "pop %r13",
+        "pop %r14",
+        "pop %rbp",
+        "jmp LOCAL_OR_DIRECT_CALLEE"
+      ],
+      "call_edges": [
+        {
+          "pc": "0x2f0cca",
+          "target": "0x2e8cb0",
+          "kind": "call",
+          "label": "_ZN4dart8dynamics10ShapeFrameD2Ev@@Base+0x240"
+        },
+        {
+          "pc": "0x2f0e16",
+          "target": "0x236390",
+          "kind": "call",
+          "label": "_ZN4dart8dynamics10FixedFrameD2Ev@@Base"
+        },
+        {
+          "pc": "0x2f0e7c",
+          "target": "0x14d120",
+          "kind": "call",
+          "label": "_ZdlPvm@plt"
+        },
+        {
+          "pc": "0x2f0e9e",
+          "target": "0x14d3a0",
+          "kind": "call",
+          "label": "memset@plt"
+        },
+        {
+          "pc": "0x2f0ed7",
+          "target": "0x14d120",
+          "kind": "call",
+          "label": "_ZdlPvm@plt"
+        },
+        {
+          "pc": "0x2f0ef0",
+          "target": "0x3e4f60",
+          "kind": "call",
+          "label": "_ZN4dart10simulation5World27handleSimpleFrameNameChangeEPKNS_8dynamics6EntityE@@Base+0x2f1c0"
+        },
+        {
+          "pc": "0x2f0f11",
+          "target": "0x14d120",
+          "kind": "call",
+          "label": "_ZdlPvm@plt"
+        },
+        {
+          "pc": "0x2f0f29",
+          "target": "0x240c50",
+          "kind": "call",
+          "label": "_ZN4dart8dynamics5FrameD2Ev@@Base"
+        },
+        {
+          "pc": "0x2f0f3c",
+          "target": "0x220210",
+          "kind": "call",
+          "label": "_ZN4dart8dynamics6EntityD2Ev@@Base"
+        },
+        {
+          "pc": "0x2f0f50",
+          "target": "0x19e870",
+          "kind": "jmp",
+          "label": "_ZN4dart6common7SubjectD1Ev@@Base"
+        }
+      ],
+      "disassembly_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/work/libdart.so.6.13.2-2f0b70.asm",
+      "cleanup": {
+        "status": "NO_LSDA_IN_SELECTED_FDE",
+        "sites": [],
+        "limits": "Does not prove no throw/terminate or equivalent unwinding"
+      },
+      "calling_convention": "x86_64 SysV: this in RDI; local hidden VTT RSI for applicable base dtors; inferred from instructions/compiled ABI",
+      "identity_status": "INFERRED",
+      "other_variants": [],
+      "D0_directly_calls_entry": true,
+      "Node_adjusted_D0_directly_calls_entry": true
+    },
+    "A_19": {
+      "role": "ShapeNode_D0_candidate",
+      "slot_index": 19,
+      "table_byte_offset": 152,
+      "primary_AP": 144,
+      "entry": {
+        "kind": "address",
+        "address": 3084320,
+        "relocation": {
+          "type": 8,
+          "name": "",
+          "addend": 3084320
+        }
+      },
+      "address": "0x2f1020",
+      "end": "0x2f1047",
+      "function_bytes": 39,
+      "symbol_aliases": [],
+      "normal_form": [
+        "endbr64",
+        "push %rbp",
+        "mov %rsp,%rbp",
+        "push %rbx",
+        "mov %rdi,%rbx",
+        "sub $0x8,%rsp",
+        "call LOCAL_OR_DIRECT_CALLEE",
+        "mov %rbx,%rdi",
+        "mov -0x8(%rbp),%rbx",
+        "mov $0x680,%esi",
+        "leave",
+        "jmp _ZdlPvm@plt"
+      ],
+      "call_edges": [
+        {
+          "pc": "0x2f1030",
+          "target": "0x2f0b70",
+          "kind": "call",
+          "label": "_ZNK4dart8dynamics9ShapeNode9cloneNodeEPNS0_8BodyNodeE@@Base+0xb40"
+        },
+        {
+          "pc": "0x2f1042",
+          "target": "0x14d120",
+          "kind": "jmp",
+          "label": "_ZdlPvm@plt"
+        }
+      ],
+      "disassembly_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/work/libdart.so.6.13.2-2f1020.asm",
+      "cleanup": {
+        "status": "NO_LSDA_IN_SELECTED_FDE",
+        "sites": [],
+        "limits": "Does not prove no throw/terminate or equivalent unwinding"
+      },
+      "calling_convention": "x86_64 SysV: this in RDI; local hidden VTT RSI for applicable base dtors; inferred from instructions/compiled ABI",
+      "identity_status": "INFERRED"
+    },
+    "A_70": {
+      "role": "Node_subobject_adjusted_ShapeNode_D0",
+      "slot_index": 70,
+      "table_byte_offset": 560,
+      "primary_AP": 552,
+      "entry": {
+        "kind": "address",
+        "address": 3084928,
+        "relocation": {
+          "type": 8,
+          "name": "",
+          "addend": 3084928
+        }
+      },
+      "address": "0x2f1280",
+      "end": "0x2f12ae",
+      "function_bytes": 46,
+      "symbol_aliases": [],
+      "normal_form": [
+        "endbr64",
+        "push %rbp",
+        "mov %rsp,%rbp",
+        "push %rbx",
+        "lea -0x90(%rdi),%rbx",
+        "mov %rbx,%rdi",
+        "sub $0x8,%rsp",
+        "call LOCAL_OR_DIRECT_CALLEE",
+        "mov %rbx,%rdi",
+        "mov -0x8(%rbp),%rbx",
+        "mov $0x680,%esi",
+        "leave",
+        "jmp _ZdlPvm@plt"
+      ],
+      "call_edges": [
+        {
+          "pc": "0x2f1297",
+          "target": "0x2f0b70",
+          "kind": "call",
+          "label": "_ZNK4dart8dynamics9ShapeNode9cloneNodeEPNS0_8BodyNodeE@@Base+0xb40"
+        },
+        {
+          "pc": "0x2f12a9",
+          "target": "0x14d120",
+          "kind": "jmp",
+          "label": "_ZdlPvm@plt"
+        }
+      ],
+      "disassembly_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/work/libdart.so.6.13.2-2f1280.asm",
+      "cleanup": {
+        "status": "NO_LSDA_IN_SELECTED_FDE",
+        "sites": [],
+        "limits": "Does not prove no throw/terminate or equivalent unwinding"
+      },
+      "calling_convention": "x86_64 SysV: this in RDI; local hidden VTT RSI for applicable base dtors; inferred from instructions/compiled ABI",
+      "identity_status": "INFERRED"
+    },
+    "B_18": {
+      "role": "ShapeNode_D1_candidate",
+      "slot_index": 18,
+      "table_byte_offset": 144,
+      "primary_AP": 144,
+      "entry": {
+        "kind": "address",
+        "address": 3084128,
+        "relocation": {
+          "type": 8,
+          "name": "",
+          "addend": 3084128
+        }
+      },
+      "address": "0x2f0f60",
+      "end": "0x2f1345",
+      "function_bytes": 997,
+      "symbol_aliases": [
+        {
+          "name": ".LTHUNK222.lto_priv.0",
+          "address": 3084128,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZN4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3084128,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": ".LTHUNK225.lto_priv.0",
+          "address": 3084128,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": ".LTHUNK228.lto_priv.0",
+          "address": 3084128,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": ".LTHUNK223.lto_priv.0",
+          "address": 3084128,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": ".LTHUNK230.lto_priv.0",
+          "address": 3084128,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": ".LTHUNK220.lto_priv.0",
+          "address": 3084128,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": ".LTHUNK227.lto_priv.0",
+          "address": 3084128,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": ".LTHUNK221.lto_priv.0",
+          "address": 3084128,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": ".LTHUNK229.lto_priv.0",
+          "address": 3084128,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": ".LTHUNK224.lto_priv.0",
+          "address": 3084128,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": ".LTHUNK226.lto_priv.0",
+          "address": 3084128,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        }
+      ],
+      "normal_form": [
+        "endbr64",
+        "push %rbp",
+        "mov <RIP>(%rip),%rax",
+        "lea 0x90(%rax),%rdx",
+        "lea 0x290(%rax),%rcx",
+        "mov %rsp,%rbp",
+        "push %r14",
+        "movq %rcx,%xmm0",
+        "lea 0x398(%rax),%rcx",
+        "push %r13",
+        "mov <RIP>(%rip),%r13",
+        "push %r12",
+        "push %rbx",
+        "lea 0x8(%r13),%rsi",
+        "mov %rdi,%rbx",
+        "mov %rdx,(%rdi)",
+        "lea 0x478(%rax),%rdx",
+        "mov %rdx,0x1f0(%rdi)",
+        "lea 0x558(%rax),%rdx",
+        "mov %rdx,0x348(%rdi)",
+        "lea 0x5c8(%rax),%rdx",
+        "mov %rdx,0x4a8(%rdi)",
+        "lea 0x600(%rax),%rdx",
+        "mov %rdx,0x4e0(%rdi)",
+        "lea 0x228(%rax),%rdx",
+        "mov %rdx,0x90(%rdi)",
+        "lea 0x640(%rax),%rdx",
+        "mov %rdx,0x4f8(%rdi)",
+        "lea 0x668(%rax),%rdx",
+        "mov %rdx,0x508(%rdi)",
+        "lea 0x6f8(%rax),%rdx",
+        "mov %rdx,0x580(%rdi)",
+        "lea 0x758(%rax),%rdx",
+        "mov %rdx,0x620(%rdi)",
+        "lea 0x2b0(%rax),%rdx",
+        "movq %rdx,%xmm1",
+        "lea 0x330(%rax),%rdx",
+        "mov %rdx,0x110(%rdi)",
+        "lea 0x788(%rax),%rdx",
+        "punpcklqdq %xmm1,%xmm0",
+        "mov %rdx,0x630(%rdi)",
+        "lea 0x7b8(%rax),%rdx",
+        "mov %rdx,0x640(%rdi)",
+        "lea 0x3d8(%rax),%rdx",
+        "movq %rdx,%xmm2",
+        "movaps %xmm0,0xc0(%rdi)",
+        "lea 0x858(%rax),%rdx",
+        "movq %rcx,%xmm0",
+        "punpcklqdq %xmm2,%xmm0",
+        "lea 0x7f8(%rax),%rcx",
+        "mov %rdx,0x660(%rdi)",
+        "lea 0x828(%rax),%rdx",
+        "add $0x888,%rax",
+        "movq %rdx,%xmm3",
+        "movups %xmm0,0x138(%rdi)",
+        "movq %rcx,%xmm0",
+        "mov %rax,0x670(%rdi)",
+        "punpcklqdq %xmm3,%xmm0",
+        "movaps %xmm0,0x650(%rdi)",
+        "call LOCAL_OR_DIRECT_CALLEE",
+        "mov 0x8e8(%r13),%rax",
+        "mov 0x948(%r13),%rcx",
+        "lea 0x580(%rbx),%rdi",
+        "lea 0x828(%r13),%rsi",
+        "mov -0x18(%rax),%rdx",
+        "mov %rcx,0x650(%rbx,%rdx,1)",
+        "mov -0x20(%rax),%rdx",
+        "mov 0x950(%r13),%rcx",
+        "mov -0x28(%rax),%rax",
+        "mov %rcx,0x650(%rbx,%rdx,1)",
+        "mov 0x960(%r13),%rdx",
+        "mov 0x928(%r13),%rcx",
+        "mov %rdx,0x650(%rbx,%rax,1)",
+        "mov 0x8f0(%r13),%rax",
+        "mov -0x18(%rax),%rdx",
+        "mov %rcx,0x650(%rbx,%rdx,1)",
+        "mov -0x20(%rax),%rdx",
+        "mov 0x930(%r13),%rcx",
+        "mov -0x28(%rax),%rax",
+        "mov %rcx,0x650(%rbx,%rdx,1)",
+        "mov 0x940(%r13),%rdx",
+        "mov 0x918(%r13),%rcx",
+        "mov %rdx,0x650(%rbx,%rax,1)",
+        "mov 0x910(%r13),%rax",
+        "mov -0x18(%rax),%rdx",
+        "mov %rax,0x658(%rbx)",
+        "mov -0x20(%rax),%rax",
+        "mov %rcx,0x658(%rbx,%rdx,1)",
+        "mov 0x920(%r13),%rdx",
+        "mov 0x900(%r13),%rcx",
+        "mov %rdx,0x658(%rbx,%rax,1)",
+        "mov 0x8f8(%r13),%rax",
+        "mov -0x18(%rax),%rdx",
+        "mov %rax,0x650(%rbx)",
+        "mov %rcx,0x650(%rbx,%rdx,1)",
+        "mov -0x20(%rax),%rax",
+        "mov 0x908(%r13),%rdx",
+        "mov %rdx,0x650(%rbx,%rax,1)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x670(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x660(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x640(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x110(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x630(%rbx)",
+        "add $0x28,%rax",
+        "mov %rax,0x508(%rbx)",
+        "call LOCAL_OR_DIRECT_CALLEE",
+        "lea <RIP>(%rip),%rax",
+        "mov 0x550(%rbx),%r12",
+        "mov %rax,0xc0(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x620(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x90(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x4f8(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x508(%rbx)",
+        "test %r12,%r12",
+        "je SELF+0x316",
+        "nopl (%rax)",
+        "mov %r12,%rdi",
+        "mov (%r12),%r12",
+        "mov $0x10,%esi",
+        "call _ZdlPvm@plt",
+        "test %r12,%r12",
+        "jne SELF+0x300",
+        "mov 0x548(%rbx),%rax",
+        "mov 0x540(%rbx),%rdi",
+        "xor %esi,%esi",
+        "lea 0x0(,%rax,8),%rdx",
+        "call memset@plt",
+        "mov 0x540(%rbx),%rdi",
+        "lea 0x570(%rbx),%rax",
+        "movq $0x0,0x558(%rbx)",
+        "movq $0x0,0x550(%rbx)",
+        "mov 0x548(%rbx),%rsi",
+        "cmp %rax,%rdi",
+        "je SELF+0x36c",
+        "shl $0x3,%rsi",
+        "call _ZdlPvm@plt",
+        "mov 0x520(%rbx),%r12",
+        "test %r12,%r12",
+        "je SELF+0x3ab",
+        "mov 0x18(%r12),%rdi",
+        "mov %r12,%r14",
+        "call LOCAL_OR_DIRECT_CALLEE",
+        "mov 0x28(%r14),%rdi",
+        "mov 0x10(%r12),%r12",
+        "test %rdi,%rdi",
+        "je SELF+0x399",
+        "mov (%rdi),%rax",
+        "call *0x8(%rax)",
+        "mov $0x30,%esi",
+        "mov %r14,%rdi",
+        "call _ZdlPvm@plt",
+        "test %r12,%r12",
+        "jne SELF+0x378",
+        "lea 0x1f0(%rbx),%rdi",
+        "lea 0x7d8(%r13),%rsi",
+        "call LOCAL_OR_DIRECT_CALLEE",
+        "lea 0x348(%rbx),%rdi",
+        "lea 0x7f0(%r13),%rsi",
+        "call LOCAL_OR_DIRECT_CALLEE",
+        "lea 0x4a8(%rbx),%rdi",
+        "pop %rbx",
+        "pop %r12",
+        "pop %r13",
+        "pop %r14",
+        "pop %rbp",
+        "jmp LOCAL_OR_DIRECT_CALLEE"
+      ],
+      "call_edges": [
+        {
+          "pc": "0x2f10ba",
+          "target": "0x2e90a0",
+          "kind": "call",
+          "label": "_ZN4dart8dynamics13CompositeNodeINS_6common15CompositeJoinerIJNS0_17FixedJacobianNodeENS0_10ShapeFrameEEEEED2Ev"
+        },
+        {
+          "pc": "0x2f1206",
+          "target": "0x2365b0",
+          "kind": "call",
+          "label": "_ZN4dart8dynamics10FixedFrameD2Ev"
+        },
+        {
+          "pc": "0x2f126c",
+          "target": "0x14d120",
+          "kind": "call",
+          "label": "_ZdlPvm@plt"
+        },
+        {
+          "pc": "0x2f128e",
+          "target": "0x14d3a0",
+          "kind": "call",
+          "label": "memset@plt"
+        },
+        {
+          "pc": "0x2f12c7",
+          "target": "0x14d120",
+          "kind": "call",
+          "label": "_ZdlPvm@plt"
+        },
+        {
+          "pc": "0x2f12e0",
+          "target": "0x3e5510",
+          "kind": "call",
+          "label": "_ZNSt8_Rb_treeISt10type_indexSt4pairIKS0_St10unique_ptrIN4dart6common6AspectESt14default_deleteIS6_EEESt10_Select1stISA_ESt4lessIS0_ESaISA_EE8_M_eraseEPSt13_Rb_tree_nodeISA_E.isra.0"
+        },
+        {
+          "pc": "0x2f1301",
+          "target": "0x14d120",
+          "kind": "call",
+          "label": "_ZdlPvm@plt"
+        },
+        {
+          "pc": "0x2f1319",
+          "target": "0x240eb0",
+          "kind": "call",
+          "label": "_ZN4dart8dynamics5FrameD2Ev"
+        },
+        {
+          "pc": "0x2f132c",
+          "target": "0x220430",
+          "kind": "call",
+          "label": "_ZN4dart8dynamics6EntityD2Ev"
+        },
+        {
+          "pc": "0x2f1340",
+          "target": "0x19e870",
+          "kind": "jmp",
+          "label": "_ZN4dart6common7SubjectD1Ev"
+        }
+      ],
+      "disassembly_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/work/libdart.so.6.13.2-2f0f60.asm",
+      "cleanup": {
+        "status": "NO_LSDA_IN_SELECTED_FDE",
+        "sites": [],
+        "limits": "Does not prove no throw/terminate or equivalent unwinding"
+      },
+      "calling_convention": "x86_64 SysV: this in RDI; local hidden VTT RSI for applicable base dtors; inferred from instructions/compiled ABI",
+      "identity_status": "IDENTIFIED",
+      "other_variants": [
+        {
+          "name": "_ZN4dart8dynamics4NodeD2Ev",
+          "address": 1442842,
+          "size": 81,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn192_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085888,
+          "size": 46,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZN4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085328,
+          "size": 39,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn272_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085792,
+          "size": 46,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZTvn8_n48_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085376,
+          "size": 52,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn272_N4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3085264,
+          "size": 16,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZN4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3084128,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn144_N4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3085312,
+          "size": 16,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn312_N4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3085248,
+          "size": 16,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZTv0_n40_N4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3085216,
+          "size": 16,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZTv0_n24_N4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3085184,
+          "size": 16,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn200_N4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3085280,
+          "size": 16,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZTv0_n24_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085504,
+          "size": 49,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZTv0_n48_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085440,
+          "size": 49,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn144_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085936,
+          "size": 46,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn312_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085744,
+          "size": 46,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn200_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085840,
+          "size": 46,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn192_N4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3085296,
+          "size": 16,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZTv0_n32_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085568,
+          "size": 49,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn320_N4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3085232,
+          "size": 16,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZTvn8_n48_N4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3085136,
+          "size": 20,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn320_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085696,
+          "size": 46,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZTv0_n48_N4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3085168,
+          "size": 16,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZTv0_n32_N4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3085200,
+          "size": 16,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZTv0_n40_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085632,
+          "size": 49,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        }
+      ],
+      "D0_directly_calls_entry": true,
+      "Node_adjusted_D0_directly_calls_entry": true
+    },
+    "B_19": {
+      "role": "ShapeNode_D0_candidate",
+      "slot_index": 19,
+      "table_byte_offset": 152,
+      "primary_AP": 144,
+      "entry": {
+        "kind": "address",
+        "address": 3085328,
+        "relocation": {
+          "type": 8,
+          "name": "",
+          "addend": 3085328
+        }
+      },
+      "address": "0x2f1410",
+      "end": "0x2f1437",
+      "function_bytes": 39,
+      "symbol_aliases": [
+        {
+          "name": "_ZN4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085328,
+          "size": 39,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        }
+      ],
+      "normal_form": [
+        "endbr64",
+        "push %rbp",
+        "mov %rsp,%rbp",
+        "push %rbx",
+        "mov %rdi,%rbx",
+        "sub $0x8,%rsp",
+        "call LOCAL_OR_DIRECT_CALLEE",
+        "mov %rbx,%rdi",
+        "mov -0x8(%rbp),%rbx",
+        "mov $0x680,%esi",
+        "leave",
+        "jmp _ZdlPvm@plt"
+      ],
+      "call_edges": [
+        {
+          "pc": "0x2f1420",
+          "target": "0x2f0f60",
+          "kind": "call",
+          "label": "_ZN4dart8dynamics9ShapeNodeD1Ev"
+        },
+        {
+          "pc": "0x2f1432",
+          "target": "0x14d120",
+          "kind": "jmp",
+          "label": "_ZdlPvm@plt"
+        }
+      ],
+      "disassembly_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/work/libdart.so.6.13.2-2f1410.asm",
+      "cleanup": {
+        "status": "NO_LSDA_IN_SELECTED_FDE",
+        "sites": [],
+        "limits": "Does not prove no throw/terminate or equivalent unwinding"
+      },
+      "calling_convention": "x86_64 SysV: this in RDI; local hidden VTT RSI for applicable base dtors; inferred from instructions/compiled ABI",
+      "identity_status": "IDENTIFIED"
+    },
+    "B_70": {
+      "role": "Node_subobject_adjusted_ShapeNode_D0",
+      "slot_index": 70,
+      "table_byte_offset": 560,
+      "primary_AP": 552,
+      "entry": {
+        "kind": "address",
+        "address": 3085936,
+        "relocation": {
+          "type": 8,
+          "name": "",
+          "addend": 3085936
+        }
+      },
+      "address": "0x2f1670",
+      "end": "0x2f169e",
+      "function_bytes": 46,
+      "symbol_aliases": [
+        {
+          "name": "_ZThn144_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085936,
+          "size": 46,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        }
+      ],
+      "normal_form": [
+        "endbr64",
+        "push %rbp",
+        "mov %rsp,%rbp",
+        "push %rbx",
+        "lea -0x90(%rdi),%rbx",
+        "mov %rbx,%rdi",
+        "sub $0x8,%rsp",
+        "call LOCAL_OR_DIRECT_CALLEE",
+        "mov %rbx,%rdi",
+        "mov -0x8(%rbp),%rbx",
+        "mov $0x680,%esi",
+        "leave",
+        "jmp _ZdlPvm@plt"
+      ],
+      "call_edges": [
+        {
+          "pc": "0x2f1687",
+          "target": "0x2f0f60",
+          "kind": "call",
+          "label": "_ZN4dart8dynamics9ShapeNodeD1Ev"
+        },
+        {
+          "pc": "0x2f1699",
+          "target": "0x14d120",
+          "kind": "jmp",
+          "label": "_ZdlPvm@plt"
+        }
+      ],
+      "disassembly_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/work/libdart.so.6.13.2-2f1670.asm",
+      "cleanup": {
+        "status": "NO_LSDA_IN_SELECTED_FDE",
+        "sites": [],
+        "limits": "Does not prove no throw/terminate or equivalent unwinding"
+      },
+      "calling_convention": "x86_64 SysV: this in RDI; local hidden VTT RSI for applicable base dtors; inferred from instructions/compiled ABI",
+      "identity_status": "IDENTIFIED"
+    },
+    "C_18": {
+      "role": "ShapeNode_D1_candidate",
+      "slot_index": 18,
+      "table_byte_offset": 144,
+      "primary_AP": 144,
+      "entry": {
+        "kind": "address",
+        "address": 3084240,
+        "relocation": {
+          "type": 8,
+          "name": "",
+          "addend": 3084240
+        }
+      },
+      "address": "0x2f0fd0",
+      "end": "0x2f13b5",
+      "function_bytes": 997,
+      "symbol_aliases": [
+        {
+          "name": ".LTHUNK222.lto_priv.0",
+          "address": 3084240,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZN4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3084240,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": ".LTHUNK225.lto_priv.0",
+          "address": 3084240,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": ".LTHUNK228.lto_priv.0",
+          "address": 3084240,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": ".LTHUNK223.lto_priv.0",
+          "address": 3084240,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": ".LTHUNK230.lto_priv.0",
+          "address": 3084240,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": ".LTHUNK220.lto_priv.0",
+          "address": 3084240,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": ".LTHUNK227.lto_priv.0",
+          "address": 3084240,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": ".LTHUNK221.lto_priv.0",
+          "address": 3084240,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": ".LTHUNK229.lto_priv.0",
+          "address": 3084240,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": ".LTHUNK224.lto_priv.0",
+          "address": 3084240,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": ".LTHUNK226.lto_priv.0",
+          "address": 3084240,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        }
+      ],
+      "normal_form": [
+        "endbr64",
+        "push %rbp",
+        "mov <RIP>(%rip),%rax",
+        "lea 0x90(%rax),%rdx",
+        "lea 0x290(%rax),%rcx",
+        "mov %rsp,%rbp",
+        "push %r14",
+        "movq %rcx,%xmm0",
+        "lea 0x398(%rax),%rcx",
+        "push %r13",
+        "mov <RIP>(%rip),%r13",
+        "push %r12",
+        "push %rbx",
+        "lea 0x8(%r13),%rsi",
+        "mov %rdi,%rbx",
+        "mov %rdx,(%rdi)",
+        "lea 0x478(%rax),%rdx",
+        "mov %rdx,0x1f0(%rdi)",
+        "lea 0x558(%rax),%rdx",
+        "mov %rdx,0x348(%rdi)",
+        "lea 0x5c8(%rax),%rdx",
+        "mov %rdx,0x4a8(%rdi)",
+        "lea 0x600(%rax),%rdx",
+        "mov %rdx,0x4e0(%rdi)",
+        "lea 0x228(%rax),%rdx",
+        "mov %rdx,0x90(%rdi)",
+        "lea 0x640(%rax),%rdx",
+        "mov %rdx,0x4f8(%rdi)",
+        "lea 0x668(%rax),%rdx",
+        "mov %rdx,0x508(%rdi)",
+        "lea 0x6f8(%rax),%rdx",
+        "mov %rdx,0x580(%rdi)",
+        "lea 0x758(%rax),%rdx",
+        "mov %rdx,0x620(%rdi)",
+        "lea 0x2b0(%rax),%rdx",
+        "movq %rdx,%xmm1",
+        "lea 0x330(%rax),%rdx",
+        "mov %rdx,0x110(%rdi)",
+        "lea 0x788(%rax),%rdx",
+        "punpcklqdq %xmm1,%xmm0",
+        "mov %rdx,0x630(%rdi)",
+        "lea 0x7b8(%rax),%rdx",
+        "mov %rdx,0x640(%rdi)",
+        "lea 0x3d8(%rax),%rdx",
+        "movq %rdx,%xmm2",
+        "movaps %xmm0,0xc0(%rdi)",
+        "lea 0x858(%rax),%rdx",
+        "movq %rcx,%xmm0",
+        "punpcklqdq %xmm2,%xmm0",
+        "lea 0x7f8(%rax),%rcx",
+        "mov %rdx,0x660(%rdi)",
+        "lea 0x828(%rax),%rdx",
+        "add $0x888,%rax",
+        "movq %rdx,%xmm3",
+        "movups %xmm0,0x138(%rdi)",
+        "movq %rcx,%xmm0",
+        "mov %rax,0x670(%rdi)",
+        "punpcklqdq %xmm3,%xmm0",
+        "movaps %xmm0,0x650(%rdi)",
+        "call LOCAL_OR_DIRECT_CALLEE",
+        "mov 0x8e8(%r13),%rax",
+        "mov 0x948(%r13),%rcx",
+        "lea 0x580(%rbx),%rdi",
+        "lea 0x828(%r13),%rsi",
+        "mov -0x18(%rax),%rdx",
+        "mov %rcx,0x650(%rbx,%rdx,1)",
+        "mov -0x20(%rax),%rdx",
+        "mov 0x950(%r13),%rcx",
+        "mov -0x28(%rax),%rax",
+        "mov %rcx,0x650(%rbx,%rdx,1)",
+        "mov 0x960(%r13),%rdx",
+        "mov 0x928(%r13),%rcx",
+        "mov %rdx,0x650(%rbx,%rax,1)",
+        "mov 0x8f0(%r13),%rax",
+        "mov -0x18(%rax),%rdx",
+        "mov %rcx,0x650(%rbx,%rdx,1)",
+        "mov -0x20(%rax),%rdx",
+        "mov 0x930(%r13),%rcx",
+        "mov -0x28(%rax),%rax",
+        "mov %rcx,0x650(%rbx,%rdx,1)",
+        "mov 0x940(%r13),%rdx",
+        "mov 0x918(%r13),%rcx",
+        "mov %rdx,0x650(%rbx,%rax,1)",
+        "mov 0x910(%r13),%rax",
+        "mov -0x18(%rax),%rdx",
+        "mov %rax,0x658(%rbx)",
+        "mov -0x20(%rax),%rax",
+        "mov %rcx,0x658(%rbx,%rdx,1)",
+        "mov 0x920(%r13),%rdx",
+        "mov 0x900(%r13),%rcx",
+        "mov %rdx,0x658(%rbx,%rax,1)",
+        "mov 0x8f8(%r13),%rax",
+        "mov -0x18(%rax),%rdx",
+        "mov %rax,0x650(%rbx)",
+        "mov %rcx,0x650(%rbx,%rdx,1)",
+        "mov -0x20(%rax),%rax",
+        "mov 0x908(%r13),%rdx",
+        "mov %rdx,0x650(%rbx,%rax,1)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x670(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x660(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x640(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x110(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x630(%rbx)",
+        "add $0x28,%rax",
+        "mov %rax,0x508(%rbx)",
+        "call LOCAL_OR_DIRECT_CALLEE",
+        "lea <RIP>(%rip),%rax",
+        "mov 0x550(%rbx),%r12",
+        "mov %rax,0xc0(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x620(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x90(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x4f8(%rbx)",
+        "lea <RIP>(%rip),%rax",
+        "mov %rax,0x508(%rbx)",
+        "test %r12,%r12",
+        "je SELF+0x316",
+        "nopl (%rax)",
+        "mov %r12,%rdi",
+        "mov (%r12),%r12",
+        "mov $0x10,%esi",
+        "call _ZdlPvm@plt",
+        "test %r12,%r12",
+        "jne SELF+0x300",
+        "mov 0x548(%rbx),%rax",
+        "mov 0x540(%rbx),%rdi",
+        "xor %esi,%esi",
+        "lea 0x0(,%rax,8),%rdx",
+        "call memset@plt",
+        "mov 0x540(%rbx),%rdi",
+        "lea 0x570(%rbx),%rax",
+        "movq $0x0,0x558(%rbx)",
+        "movq $0x0,0x550(%rbx)",
+        "mov 0x548(%rbx),%rsi",
+        "cmp %rax,%rdi",
+        "je SELF+0x36c",
+        "shl $0x3,%rsi",
+        "call _ZdlPvm@plt",
+        "mov 0x520(%rbx),%r12",
+        "test %r12,%r12",
+        "je SELF+0x3ab",
+        "mov 0x18(%r12),%rdi",
+        "mov %r12,%r14",
+        "call LOCAL_OR_DIRECT_CALLEE",
+        "mov 0x28(%r14),%rdi",
+        "mov 0x10(%r12),%r12",
+        "test %rdi,%rdi",
+        "je SELF+0x399",
+        "mov (%rdi),%rax",
+        "call *0x8(%rax)",
+        "mov $0x30,%esi",
+        "mov %r14,%rdi",
+        "call _ZdlPvm@plt",
+        "test %r12,%r12",
+        "jne SELF+0x378",
+        "lea 0x1f0(%rbx),%rdi",
+        "lea 0x7d8(%r13),%rsi",
+        "call LOCAL_OR_DIRECT_CALLEE",
+        "lea 0x348(%rbx),%rdi",
+        "lea 0x7f0(%r13),%rsi",
+        "call LOCAL_OR_DIRECT_CALLEE",
+        "lea 0x4a8(%rbx),%rdi",
+        "pop %rbx",
+        "pop %r12",
+        "pop %r13",
+        "pop %r14",
+        "pop %rbp",
+        "jmp LOCAL_OR_DIRECT_CALLEE"
+      ],
+      "call_edges": [
+        {
+          "pc": "0x2f112a",
+          "target": "0x2e9110",
+          "kind": "call",
+          "label": "_ZN4dart8dynamics13CompositeNodeINS_6common15CompositeJoinerIJNS0_17FixedJacobianNodeENS0_10ShapeFrameEEEEED2Ev"
+        },
+        {
+          "pc": "0x2f1276",
+          "target": "0x236720",
+          "kind": "call",
+          "label": "_ZN4dart8dynamics10FixedFrameD2Ev"
+        },
+        {
+          "pc": "0x2f12dc",
+          "target": "0x14d1f0",
+          "kind": "call",
+          "label": "_ZdlPvm@plt"
+        },
+        {
+          "pc": "0x2f12fe",
+          "target": "0x14d470",
+          "kind": "call",
+          "label": "memset@plt"
+        },
+        {
+          "pc": "0x2f1337",
+          "target": "0x14d1f0",
+          "kind": "call",
+          "label": "_ZdlPvm@plt"
+        },
+        {
+          "pc": "0x2f1350",
+          "target": "0x3e6730",
+          "kind": "call",
+          "label": "_ZNSt8_Rb_treeISt10type_indexSt4pairIKS0_St10unique_ptrIN4dart6common6AspectESt14default_deleteIS6_EEESt10_Select1stISA_ESt4lessIS0_ESaISA_EE8_M_eraseEPSt13_Rb_tree_nodeISA_E.isra.0"
+        },
+        {
+          "pc": "0x2f1371",
+          "target": "0x14d1f0",
+          "kind": "call",
+          "label": "_ZdlPvm@plt"
+        },
+        {
+          "pc": "0x2f1389",
+          "target": "0x241020",
+          "kind": "call",
+          "label": "_ZN4dart8dynamics5FrameD2Ev"
+        },
+        {
+          "pc": "0x2f139c",
+          "target": "0x220630",
+          "kind": "call",
+          "label": "_ZN4dart8dynamics6EntityD2Ev"
+        },
+        {
+          "pc": "0x2f13b0",
+          "target": "0x19ea70",
+          "kind": "jmp",
+          "label": "_ZN4dart6common7SubjectD1Ev"
+        }
+      ],
+      "disassembly_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/work/libdart.so.6.13.2-2f0fd0.asm",
+      "cleanup": {
+        "status": "NO_LSDA_IN_SELECTED_FDE",
+        "sites": [],
+        "limits": "Does not prove no throw/terminate or equivalent unwinding"
+      },
+      "calling_convention": "x86_64 SysV: this in RDI; local hidden VTT RSI for applicable base dtors; inferred from instructions/compiled ABI",
+      "identity_status": "IDENTIFIED",
+      "other_variants": [
+        {
+          "name": "_ZN4dart8dynamics4NodeD2Ev",
+          "address": 1443226,
+          "size": 81,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn192_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3086000,
+          "size": 46,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZN4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085440,
+          "size": 39,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn272_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085904,
+          "size": 46,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZTvn8_n48_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085488,
+          "size": 52,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn272_N4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3085376,
+          "size": 16,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZN4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3084240,
+          "size": 997,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn144_N4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3085424,
+          "size": 16,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn312_N4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3085360,
+          "size": 16,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZTv0_n40_N4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3085328,
+          "size": 16,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZTv0_n24_N4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3085296,
+          "size": 16,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn200_N4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3085392,
+          "size": 16,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZTv0_n24_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085616,
+          "size": 49,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZTv0_n48_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085552,
+          "size": 49,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn144_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3086048,
+          "size": 46,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn312_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085856,
+          "size": 46,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn200_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085952,
+          "size": 46,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn192_N4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3085408,
+          "size": 16,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZTv0_n32_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085680,
+          "size": 49,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn320_N4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3085344,
+          "size": 16,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZTvn8_n48_N4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3085248,
+          "size": 20,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZThn320_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085808,
+          "size": 46,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZTv0_n48_N4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3085280,
+          "size": 16,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZTv0_n32_N4dart8dynamics9ShapeNodeD1Ev",
+          "address": 3085312,
+          "size": 16,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        {
+          "name": "_ZTv0_n40_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085744,
+          "size": 49,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        }
+      ],
+      "D0_directly_calls_entry": true,
+      "Node_adjusted_D0_directly_calls_entry": true
+    },
+    "C_19": {
+      "role": "ShapeNode_D0_candidate",
+      "slot_index": 19,
+      "table_byte_offset": 152,
+      "primary_AP": 144,
+      "entry": {
+        "kind": "address",
+        "address": 3085440,
+        "relocation": {
+          "type": 8,
+          "name": "",
+          "addend": 3085440
+        }
+      },
+      "address": "0x2f1480",
+      "end": "0x2f14a7",
+      "function_bytes": 39,
+      "symbol_aliases": [
+        {
+          "name": "_ZN4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3085440,
+          "size": 39,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        }
+      ],
+      "normal_form": [
+        "endbr64",
+        "push %rbp",
+        "mov %rsp,%rbp",
+        "push %rbx",
+        "mov %rdi,%rbx",
+        "sub $0x8,%rsp",
+        "call LOCAL_OR_DIRECT_CALLEE",
+        "mov %rbx,%rdi",
+        "mov -0x8(%rbp),%rbx",
+        "mov $0x680,%esi",
+        "leave",
+        "jmp _ZdlPvm@plt"
+      ],
+      "call_edges": [
+        {
+          "pc": "0x2f1490",
+          "target": "0x2f0fd0",
+          "kind": "call",
+          "label": "_ZN4dart8dynamics9ShapeNodeD1Ev"
+        },
+        {
+          "pc": "0x2f14a2",
+          "target": "0x14d1f0",
+          "kind": "jmp",
+          "label": "_ZdlPvm@plt"
+        }
+      ],
+      "disassembly_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/work/libdart.so.6.13.2-2f1480.asm",
+      "cleanup": {
+        "status": "NO_LSDA_IN_SELECTED_FDE",
+        "sites": [],
+        "limits": "Does not prove no throw/terminate or equivalent unwinding"
+      },
+      "calling_convention": "x86_64 SysV: this in RDI; local hidden VTT RSI for applicable base dtors; inferred from instructions/compiled ABI",
+      "identity_status": "IDENTIFIED"
+    },
+    "C_70": {
+      "role": "Node_subobject_adjusted_ShapeNode_D0",
+      "slot_index": 70,
+      "table_byte_offset": 560,
+      "primary_AP": 552,
+      "entry": {
+        "kind": "address",
+        "address": 3086048,
+        "relocation": {
+          "type": 8,
+          "name": "",
+          "addend": 3086048
+        }
+      },
+      "address": "0x2f16e0",
+      "end": "0x2f170e",
+      "function_bytes": 46,
+      "symbol_aliases": [
+        {
+          "name": "_ZThn144_N4dart8dynamics9ShapeNodeD0Ev",
+          "address": 3086048,
+          "size": 46,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        }
+      ],
+      "normal_form": [
+        "endbr64",
+        "push %rbp",
+        "mov %rsp,%rbp",
+        "push %rbx",
+        "lea -0x90(%rdi),%rbx",
+        "mov %rbx,%rdi",
+        "sub $0x8,%rsp",
+        "call LOCAL_OR_DIRECT_CALLEE",
+        "mov %rbx,%rdi",
+        "mov -0x8(%rbp),%rbx",
+        "mov $0x680,%esi",
+        "leave",
+        "jmp _ZdlPvm@plt"
+      ],
+      "call_edges": [
+        {
+          "pc": "0x2f16f7",
+          "target": "0x2f0fd0",
+          "kind": "call",
+          "label": "_ZN4dart8dynamics9ShapeNodeD1Ev"
+        },
+        {
+          "pc": "0x2f1709",
+          "target": "0x14d1f0",
+          "kind": "jmp",
+          "label": "_ZdlPvm@plt"
+        }
+      ],
+      "disassembly_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/work/libdart.so.6.13.2-2f16e0.asm",
+      "cleanup": {
+        "status": "NO_LSDA_IN_SELECTED_FDE",
+        "sites": [],
+        "limits": "Does not prove no throw/terminate or equivalent unwinding"
+      },
+      "calling_convention": "x86_64 SysV: this in RDI; local hidden VTT RSI for applicable base dtors; inferred from instructions/compiled ABI",
+      "identity_status": "IDENTIFIED"
+    }
+  },
+  "edges": [
+    {
+      "arm": "A",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f0cca",
+      "target": "0x2e8cb0",
+      "kind": "call",
+      "label": "_ZN4dart8dynamics10ShapeFrameD2Ev@@Base+0x240",
+      "target_symbol_aliases": []
+    },
+    {
+      "arm": "A",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f0e16",
+      "target": "0x236390",
+      "kind": "call",
+      "label": "_ZN4dart8dynamics10FixedFrameD2Ev@@Base",
+      "target_symbol_aliases": [
+        "_ZN4dart8dynamics10FixedFrameD2Ev"
+      ]
+    },
+    {
+      "arm": "A",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f0e7c",
+      "target": "0x14d120",
+      "kind": "call",
+      "label": "_ZdlPvm@plt",
+      "target_symbol_aliases": []
+    },
+    {
+      "arm": "A",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f0e9e",
+      "target": "0x14d3a0",
+      "kind": "call",
+      "label": "memset@plt",
+      "target_symbol_aliases": []
+    },
+    {
+      "arm": "A",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f0ed7",
+      "target": "0x14d120",
+      "kind": "call",
+      "label": "_ZdlPvm@plt",
+      "target_symbol_aliases": []
+    },
+    {
+      "arm": "A",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f0ef0",
+      "target": "0x3e4f60",
+      "kind": "call",
+      "label": "_ZN4dart10simulation5World27handleSimpleFrameNameChangeEPKNS_8dynamics6EntityE@@Base+0x2f1c0",
+      "target_symbol_aliases": []
+    },
+    {
+      "arm": "A",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f0f11",
+      "target": "0x14d120",
+      "kind": "call",
+      "label": "_ZdlPvm@plt",
+      "target_symbol_aliases": []
+    },
+    {
+      "arm": "A",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f0f29",
+      "target": "0x240c50",
+      "kind": "call",
+      "label": "_ZN4dart8dynamics5FrameD2Ev@@Base",
+      "target_symbol_aliases": [
+        "_ZN4dart8dynamics5FrameD2Ev"
+      ]
+    },
+    {
+      "arm": "A",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f0f3c",
+      "target": "0x220210",
+      "kind": "call",
+      "label": "_ZN4dart8dynamics6EntityD2Ev@@Base",
+      "target_symbol_aliases": [
+        "_ZN4dart8dynamics6EntityD2Ev"
+      ]
+    },
+    {
+      "arm": "A",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f0f50",
+      "target": "0x19e870",
+      "kind": "jmp",
+      "label": "_ZN4dart6common7SubjectD1Ev@@Base",
+      "target_symbol_aliases": [
+        "_ZN4dart6common7SubjectD2Ev",
+        "_ZN4dart6common7SubjectD1Ev"
+      ]
+    },
+    {
+      "arm": "A",
+      "from_role": "ShapeNode_D0_candidate",
+      "pc": "0x2f1030",
+      "target": "0x2f0b70",
+      "kind": "call",
+      "label": "_ZNK4dart8dynamics9ShapeNode9cloneNodeEPNS0_8BodyNodeE@@Base+0xb40",
+      "target_symbol_aliases": []
+    },
+    {
+      "arm": "A",
+      "from_role": "ShapeNode_D0_candidate",
+      "pc": "0x2f1042",
+      "target": "0x14d120",
+      "kind": "jmp",
+      "label": "_ZdlPvm@plt",
+      "target_symbol_aliases": []
+    },
+    {
+      "arm": "A",
+      "from_role": "Node_subobject_adjusted_ShapeNode_D0",
+      "pc": "0x2f1297",
+      "target": "0x2f0b70",
+      "kind": "call",
+      "label": "_ZNK4dart8dynamics9ShapeNode9cloneNodeEPNS0_8BodyNodeE@@Base+0xb40",
+      "target_symbol_aliases": []
+    },
+    {
+      "arm": "A",
+      "from_role": "Node_subobject_adjusted_ShapeNode_D0",
+      "pc": "0x2f12a9",
+      "target": "0x14d120",
+      "kind": "jmp",
+      "label": "_ZdlPvm@plt",
+      "target_symbol_aliases": []
+    },
+    {
+      "arm": "B",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f10ba",
+      "target": "0x2e90a0",
+      "kind": "call",
+      "label": "_ZN4dart8dynamics13CompositeNodeINS_6common15CompositeJoinerIJNS0_17FixedJacobianNodeENS0_10ShapeFrameEEEEED2Ev",
+      "target_symbol_aliases": [
+        "_ZN4dart8dynamics13CompositeNodeINS_6common15CompositeJoinerIJNS0_17FixedJacobianNodeENS0_10ShapeFrameEEEEED2Ev"
+      ]
+    },
+    {
+      "arm": "B",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f1206",
+      "target": "0x2365b0",
+      "kind": "call",
+      "label": "_ZN4dart8dynamics10FixedFrameD2Ev",
+      "target_symbol_aliases": [
+        "_ZN4dart8dynamics10FixedFrameD2Ev",
+        "_ZN4dart8dynamics10FixedFrameD2Ev"
+      ]
+    },
+    {
+      "arm": "B",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f126c",
+      "target": "0x14d120",
+      "kind": "call",
+      "label": "_ZdlPvm@plt",
+      "target_symbol_aliases": []
+    },
+    {
+      "arm": "B",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f128e",
+      "target": "0x14d3a0",
+      "kind": "call",
+      "label": "memset@plt",
+      "target_symbol_aliases": []
+    },
+    {
+      "arm": "B",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f12c7",
+      "target": "0x14d120",
+      "kind": "call",
+      "label": "_ZdlPvm@plt",
+      "target_symbol_aliases": []
+    },
+    {
+      "arm": "B",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f12e0",
+      "target": "0x3e5510",
+      "kind": "call",
+      "label": "_ZNSt8_Rb_treeISt10type_indexSt4pairIKS0_St10unique_ptrIN4dart6common6AspectESt14default_deleteIS6_EEESt10_Select1stISA_ESt4lessIS0_ESaISA_EE8_M_eraseEPSt13_Rb_tree_nodeISA_E.isra.0",
+      "target_symbol_aliases": [
+        "_ZNSt8_Rb_treeISt10type_indexSt4pairIKS0_St10unique_ptrIN4dart6common6AspectESt14default_deleteIS6_EEESt10_Select1stISA_ESt4lessIS0_ESaISA_EE8_M_eraseEPSt13_Rb_tree_nodeISA_E.isra.0"
+      ]
+    },
+    {
+      "arm": "B",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f1301",
+      "target": "0x14d120",
+      "kind": "call",
+      "label": "_ZdlPvm@plt",
+      "target_symbol_aliases": []
+    },
+    {
+      "arm": "B",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f1319",
+      "target": "0x240eb0",
+      "kind": "call",
+      "label": "_ZN4dart8dynamics5FrameD2Ev",
+      "target_symbol_aliases": [
+        "_ZN4dart8dynamics5FrameD2Ev",
+        "_ZN4dart8dynamics5FrameD2Ev"
+      ]
+    },
+    {
+      "arm": "B",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f132c",
+      "target": "0x220430",
+      "kind": "call",
+      "label": "_ZN4dart8dynamics6EntityD2Ev",
+      "target_symbol_aliases": [
+        "_ZN4dart8dynamics6EntityD2Ev",
+        "_ZN4dart8dynamics6EntityD2Ev"
+      ]
+    },
+    {
+      "arm": "B",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f1340",
+      "target": "0x19e870",
+      "kind": "jmp",
+      "label": "_ZN4dart6common7SubjectD1Ev",
+      "target_symbol_aliases": [
+        "_ZN4dart6common7SubjectD2Ev",
+        "_ZN4dart6common7SubjectD1Ev",
+        "_ZN4dart6common7SubjectD2Ev",
+        "_ZN4dart6common7SubjectD1Ev"
+      ]
+    },
+    {
+      "arm": "B",
+      "from_role": "ShapeNode_D0_candidate",
+      "pc": "0x2f1420",
+      "target": "0x2f0f60",
+      "kind": "call",
+      "label": "_ZN4dart8dynamics9ShapeNodeD1Ev",
+      "target_symbol_aliases": [
+        ".LTHUNK222.lto_priv.0",
+        "_ZN4dart8dynamics9ShapeNodeD1Ev",
+        ".LTHUNK225.lto_priv.0",
+        ".LTHUNK228.lto_priv.0",
+        ".LTHUNK223.lto_priv.0",
+        ".LTHUNK230.lto_priv.0",
+        ".LTHUNK220.lto_priv.0",
+        ".LTHUNK227.lto_priv.0",
+        ".LTHUNK221.lto_priv.0",
+        ".LTHUNK229.lto_priv.0",
+        ".LTHUNK224.lto_priv.0",
+        ".LTHUNK226.lto_priv.0"
+      ]
+    },
+    {
+      "arm": "B",
+      "from_role": "ShapeNode_D0_candidate",
+      "pc": "0x2f1432",
+      "target": "0x14d120",
+      "kind": "jmp",
+      "label": "_ZdlPvm@plt",
+      "target_symbol_aliases": []
+    },
+    {
+      "arm": "B",
+      "from_role": "Node_subobject_adjusted_ShapeNode_D0",
+      "pc": "0x2f1687",
+      "target": "0x2f0f60",
+      "kind": "call",
+      "label": "_ZN4dart8dynamics9ShapeNodeD1Ev",
+      "target_symbol_aliases": [
+        ".LTHUNK222.lto_priv.0",
+        "_ZN4dart8dynamics9ShapeNodeD1Ev",
+        ".LTHUNK225.lto_priv.0",
+        ".LTHUNK228.lto_priv.0",
+        ".LTHUNK223.lto_priv.0",
+        ".LTHUNK230.lto_priv.0",
+        ".LTHUNK220.lto_priv.0",
+        ".LTHUNK227.lto_priv.0",
+        ".LTHUNK221.lto_priv.0",
+        ".LTHUNK229.lto_priv.0",
+        ".LTHUNK224.lto_priv.0",
+        ".LTHUNK226.lto_priv.0"
+      ]
+    },
+    {
+      "arm": "B",
+      "from_role": "Node_subobject_adjusted_ShapeNode_D0",
+      "pc": "0x2f1699",
+      "target": "0x14d120",
+      "kind": "jmp",
+      "label": "_ZdlPvm@plt",
+      "target_symbol_aliases": []
+    },
+    {
+      "arm": "C",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f112a",
+      "target": "0x2e9110",
+      "kind": "call",
+      "label": "_ZN4dart8dynamics13CompositeNodeINS_6common15CompositeJoinerIJNS0_17FixedJacobianNodeENS0_10ShapeFrameEEEEED2Ev",
+      "target_symbol_aliases": [
+        "_ZN4dart8dynamics13CompositeNodeINS_6common15CompositeJoinerIJNS0_17FixedJacobianNodeENS0_10ShapeFrameEEEEED2Ev"
+      ]
+    },
+    {
+      "arm": "C",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f1276",
+      "target": "0x236720",
+      "kind": "call",
+      "label": "_ZN4dart8dynamics10FixedFrameD2Ev",
+      "target_symbol_aliases": [
+        "_ZN4dart8dynamics10FixedFrameD2Ev",
+        "_ZN4dart8dynamics10FixedFrameD2Ev"
+      ]
+    },
+    {
+      "arm": "C",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f12dc",
+      "target": "0x14d1f0",
+      "kind": "call",
+      "label": "_ZdlPvm@plt",
+      "target_symbol_aliases": []
+    },
+    {
+      "arm": "C",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f12fe",
+      "target": "0x14d470",
+      "kind": "call",
+      "label": "memset@plt",
+      "target_symbol_aliases": []
+    },
+    {
+      "arm": "C",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f1337",
+      "target": "0x14d1f0",
+      "kind": "call",
+      "label": "_ZdlPvm@plt",
+      "target_symbol_aliases": []
+    },
+    {
+      "arm": "C",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f1350",
+      "target": "0x3e6730",
+      "kind": "call",
+      "label": "_ZNSt8_Rb_treeISt10type_indexSt4pairIKS0_St10unique_ptrIN4dart6common6AspectESt14default_deleteIS6_EEESt10_Select1stISA_ESt4lessIS0_ESaISA_EE8_M_eraseEPSt13_Rb_tree_nodeISA_E.isra.0",
+      "target_symbol_aliases": [
+        "_ZNSt8_Rb_treeISt10type_indexSt4pairIKS0_St10unique_ptrIN4dart6common6AspectESt14default_deleteIS6_EEESt10_Select1stISA_ESt4lessIS0_ESaISA_EE8_M_eraseEPSt13_Rb_tree_nodeISA_E.isra.0"
+      ]
+    },
+    {
+      "arm": "C",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f1371",
+      "target": "0x14d1f0",
+      "kind": "call",
+      "label": "_ZdlPvm@plt",
+      "target_symbol_aliases": []
+    },
+    {
+      "arm": "C",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f1389",
+      "target": "0x241020",
+      "kind": "call",
+      "label": "_ZN4dart8dynamics5FrameD2Ev",
+      "target_symbol_aliases": [
+        "_ZN4dart8dynamics5FrameD2Ev",
+        "_ZN4dart8dynamics5FrameD2Ev"
+      ]
+    },
+    {
+      "arm": "C",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f139c",
+      "target": "0x220630",
+      "kind": "call",
+      "label": "_ZN4dart8dynamics6EntityD2Ev",
+      "target_symbol_aliases": [
+        "_ZN4dart8dynamics6EntityD2Ev",
+        "_ZN4dart8dynamics6EntityD2Ev"
+      ]
+    },
+    {
+      "arm": "C",
+      "from_role": "ShapeNode_D1_candidate",
+      "pc": "0x2f13b0",
+      "target": "0x19ea70",
+      "kind": "jmp",
+      "label": "_ZN4dart6common7SubjectD1Ev",
+      "target_symbol_aliases": [
+        "_ZN4dart6common7SubjectD2Ev",
+        "_ZN4dart6common7SubjectD1Ev",
+        "_ZN4dart6common7SubjectD2Ev",
+        "_ZN4dart6common7SubjectD1Ev"
+      ]
+    },
+    {
+      "arm": "C",
+      "from_role": "ShapeNode_D0_candidate",
+      "pc": "0x2f1490",
+      "target": "0x2f0fd0",
+      "kind": "call",
+      "label": "_ZN4dart8dynamics9ShapeNodeD1Ev",
+      "target_symbol_aliases": [
+        ".LTHUNK222.lto_priv.0",
+        "_ZN4dart8dynamics9ShapeNodeD1Ev",
+        ".LTHUNK225.lto_priv.0",
+        ".LTHUNK228.lto_priv.0",
+        ".LTHUNK223.lto_priv.0",
+        ".LTHUNK230.lto_priv.0",
+        ".LTHUNK220.lto_priv.0",
+        ".LTHUNK227.lto_priv.0",
+        ".LTHUNK221.lto_priv.0",
+        ".LTHUNK229.lto_priv.0",
+        ".LTHUNK224.lto_priv.0",
+        ".LTHUNK226.lto_priv.0"
+      ]
+    },
+    {
+      "arm": "C",
+      "from_role": "ShapeNode_D0_candidate",
+      "pc": "0x2f14a2",
+      "target": "0x14d1f0",
+      "kind": "jmp",
+      "label": "_ZdlPvm@plt",
+      "target_symbol_aliases": []
+    },
+    {
+      "arm": "C",
+      "from_role": "Node_subobject_adjusted_ShapeNode_D0",
+      "pc": "0x2f16f7",
+      "target": "0x2f0fd0",
+      "kind": "call",
+      "label": "_ZN4dart8dynamics9ShapeNodeD1Ev",
+      "target_symbol_aliases": [
+        ".LTHUNK222.lto_priv.0",
+        "_ZN4dart8dynamics9ShapeNodeD1Ev",
+        ".LTHUNK225.lto_priv.0",
+        ".LTHUNK228.lto_priv.0",
+        ".LTHUNK223.lto_priv.0",
+        ".LTHUNK230.lto_priv.0",
+        ".LTHUNK220.lto_priv.0",
+        ".LTHUNK227.lto_priv.0",
+        ".LTHUNK221.lto_priv.0",
+        ".LTHUNK229.lto_priv.0",
+        ".LTHUNK224.lto_priv.0",
+        ".LTHUNK226.lto_priv.0"
+      ]
+    },
+    {
+      "arm": "C",
+      "from_role": "Node_subobject_adjusted_ShapeNode_D0",
+      "pc": "0x2f1709",
+      "target": "0x14d1f0",
+      "kind": "jmp",
+      "label": "_ZdlPvm@plt",
+      "target_symbol_aliases": []
+    }
+  ],
+  "Bullet": [
+    {
+      "table": "_ZTVN4dart9collision21BulletCollisionObjectE",
+      "variant": "D1",
+      "address": "0x20e10",
+      "disassembly_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/work/libdart-collision-bullet.so.6.13.2-20e10.asm",
+      "call_edges": [
+        {
+          "pc": "0x20ec0",
+          "target": "0x17ae0",
+          "kind": "jmp",
+          "label": "_ZN4dart9collision23BulletCollisionDetector27BulletCollisionShapeDeleterC1EPS1_RKSt10shared_ptrIKNS_8dynamics5ShapeEE@@Base+0x40"
+        }
+      ],
+      "assembly": "\n/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n0000000000020e10 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0xa90>:\n   20e10:\tendbr64\n   20e14:\tpush   %rbp\n   20e15:\tmov    %rsp,%rbp\n   20e18:\tpush   %rbx\n   20e19:\tmov    %rdi,%rbx\n   20e1c:\tsub    $0x8,%rsp\n   20e20:\tmov    0x2e061(%rip),%rax        # 4ee88 <_ZTVN4dart9collision21BulletCollisionObjectE@@Base+0x990>\n   20e27:\tadd    $0x10,%rax\n   20e2b:\tmov    %rax,(%rdi)\n   20e2e:\tmov    0x28(%rdi),%rdi\n   20e32:\ttest   %rdi,%rdi\n   20e35:\tje     20e3d <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0xabd>\n   20e37:\tmov    (%rdi),%rax\n   20e3a:\tcall   *0x8(%rax)\n   20e3d:\tmov    0x20(%rbx),%rbx\n   20e41:\ttest   %rbx,%rbx\n   20e44:\tje     20e77 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0xaf7>\n   20e46:\tmov    0x8(%rbx),%rdx\n   20e4a:\tlea    0x8(%rbx),%rcx\n   20e4e:\tmovabs $0x100000001,%rax\n   20e58:\tcmp    %rax,%rdx\n   20e5b:\tje     20e80 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0xb00>\n   20e5d:\tmov    0x2e094(%rip),%rax        # 4eef8 <__libc_single_threaded@GLIBC_2.32>\n   20e64:\tcmpb   $0x0,(%rax)\n   20e67:\tje     20ea8 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0xb28>\n   20e69:\tmov    0x8(%rbx),%eax\n   20e6c:\tlea    -0x1(%rax),%edx\n   20e6f:\tmov    %edx,0x8(%rbx)\n   20e72:\tcmp    $0x1,%eax\n   20e75:\tje     20eb8 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0xb38>\n   20e77:\tmov    -0x8(%rbp),%rbx\n   20e7b:\tleave\n   20e7c:\tret\n   20e7d:\tnopl   (%rax)\n   20e80:\tmov    (%rbx),%rax\n   20e83:\tmov    %rbx,%rdi\n   20e86:\tmovq   $0x0,0x8(%rbx)\n   20e8e:\tcall   *0x10(%rax)\n   20e91:\tmov    (%rbx),%rax\n   20e94:\tmov    %rbx,%rdi\n   20e97:\tmov    -0x8(%rbp),%rbx\n   20e9b:\tmov    0x18(%rax),%rax\n   20e9f:\tleave\n   20ea0:\tjmp    *%rax\n   20ea2:\tnopw   0x0(%rax,%rax,1)\n   20ea8:\tmov    $0xffffffff,%eax\n   20ead:\tlock xadd %eax,(%rcx)\n   20eb1:\tjmp    20e72 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0xaf2>\n   20eb3:\tnopl   0x0(%rax,%rax,1)\n   20eb8:\tmov    %rbx,%rdi\n   20ebb:\tmov    -0x8(%rbp),%rbx\n   20ebf:\tleave\n   20ec0:\tjmp    17ae0 <_ZN4dart9collision23BulletCollisionDetector27BulletCollisionShapeDeleterC1EPS1_RKSt10shared_ptrIKNS_8dynamics5ShapeEE@@Base+0x40>\n",
+      "cleanup": {
+        "status": "NO_LSDA_IN_SELECTED_FDE",
+        "sites": [],
+        "limits": "Does not prove no throw/terminate or equivalent unwinding"
+      }
+    },
+    {
+      "table": "_ZTVN4dart9collision21BulletCollisionObjectE",
+      "variant": "D0",
+      "address": "0x20ed0",
+      "disassembly_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/work/libdart-collision-bullet.so.6.13.2-20ed0.asm",
+      "call_edges": [
+        {
+          "pc": "0x20f47",
+          "target": "0x10dd0",
+          "kind": "jmp",
+          "label": "_ZdlPvm@plt"
+        },
+        {
+          "pc": "0x20f83",
+          "target": "0x17ae0",
+          "kind": "call",
+          "label": "_ZN4dart9collision23BulletCollisionDetector27BulletCollisionShapeDeleterC1EPS1_RKSt10shared_ptrIKNS_8dynamics5ShapeEE@@Base+0x40"
+        }
+      ],
+      "assembly": "\n/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n0000000000020ed0 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0xb50>:\n   20ed0:\tendbr64\n   20ed4:\tpush   %rbp\n   20ed5:\tmov    0x2dfac(%rip),%rax        # 4ee88 <_ZTVN4dart9collision21BulletCollisionObjectE@@Base+0x990>\n   20edc:\tadd    $0x10,%rax\n   20ee0:\tmov    %rsp,%rbp\n   20ee3:\tpush   %r12\n   20ee5:\tpush   %rbx\n   20ee6:\tmov    %rdi,%rbx\n   20ee9:\tmov    %rax,(%rdi)\n   20eec:\tmov    0x28(%rdi),%rdi\n   20ef0:\ttest   %rdi,%rdi\n   20ef3:\tje     20efb <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0xb7b>\n   20ef5:\tmov    (%rdi),%rax\n   20ef8:\tcall   *0x8(%rax)\n   20efb:\tmov    0x20(%rbx),%r12\n   20eff:\ttest   %r12,%r12\n   20f02:\tje     20f3b <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0xbbb>\n   20f04:\tmov    0x8(%r12),%rdx\n   20f09:\tlea    0x8(%r12),%rcx\n   20f0e:\tmovabs $0x100000001,%rax\n   20f18:\tcmp    %rax,%rdx\n   20f1b:\tje     20f50 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0xbd0>\n   20f1d:\tmov    0x2dfd4(%rip),%rax        # 4eef8 <__libc_single_threaded@GLIBC_2.32>\n   20f24:\tcmpb   $0x0,(%rax)\n   20f27:\tje     20f70 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0xbf0>\n   20f29:\tmov    0x8(%r12),%eax\n   20f2e:\tlea    -0x1(%rax),%edx\n   20f31:\tmov    %edx,0x8(%r12)\n   20f36:\tcmp    $0x1,%eax\n   20f39:\tje     20f80 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0xc00>\n   20f3b:\tmov    %rbx,%rdi\n   20f3e:\tmov    $0x30,%esi\n   20f43:\tpop    %rbx\n   20f44:\tpop    %r12\n   20f46:\tpop    %rbp\n   20f47:\tjmp    10dd0 <_ZdlPvm@plt>\n   20f4c:\tnopl   0x0(%rax)\n   20f50:\tmovq   $0x0,0x8(%r12)\n   20f59:\tmov    (%r12),%rax\n   20f5d:\tmov    %r12,%rdi\n   20f60:\tcall   *0x10(%rax)\n   20f63:\tmov    (%r12),%rax\n   20f67:\tmov    %r12,%rdi\n   20f6a:\tcall   *0x18(%rax)\n   20f6d:\tjmp    20f3b <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0xbbb>\n   20f6f:\tnop\n   20f70:\tmov    $0xffffffff,%eax\n   20f75:\tlock xadd %eax,(%rcx)\n   20f79:\tjmp    20f36 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0xbb6>\n   20f7b:\tnopl   0x0(%rax,%rax,1)\n   20f80:\tmov    %r12,%rdi\n   20f83:\tcall   17ae0 <_ZN4dart9collision23BulletCollisionDetector27BulletCollisionShapeDeleterC1EPS1_RKSt10shared_ptrIKNS_8dynamics5ShapeEE@@Base+0x40>\n   20f88:\tjmp    20f3b <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0xbbb>\n",
+      "cleanup": {
+        "status": "NO_LSDA_IN_SELECTED_FDE",
+        "sites": [],
+        "limits": "Does not prove no throw/terminate or equivalent unwinding"
+      }
+    },
+    {
+      "table": "_ZTVN4dart9collision20BulletCollisionGroupE",
+      "variant": "D1",
+      "address": "0x21f40",
+      "disassembly_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/work/libdart-collision-bullet.so.6.13.2-21f40.asm",
+      "call_edges": [
+        {
+          "pc": "0x21fae",
+          "target": "0x21770",
+          "kind": "jmp",
+          "label": "_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0x13f0"
+        }
+      ],
+      "assembly": "\n/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n0000000000021f40 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0x1bc0>:\n   21f40:\tendbr64\n   21f44:\tpush   %rbp\n   21f45:\tmov    %rsp,%rbp\n   21f48:\tpush   %rbx\n   21f49:\tmov    %rdi,%rbx\n   21f4c:\tsub    $0x8,%rsp\n   21f50:\tmov    0x2cf89(%rip),%rax        # 4eee0 <_ZTVN4dart9collision20BulletCollisionGroupE@@Base+0xc00>\n   21f57:\tadd    $0x10,%rax\n   21f5b:\tmov    %rax,(%rdi)\n   21f5e:\tmov    0x168(%rdi),%rdi\n   21f65:\ttest   %rdi,%rdi\n   21f68:\tje     21f70 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0x1bf0>\n   21f6a:\tmov    (%rdi),%rax\n   21f6d:\tcall   *0x8(%rax)\n   21f70:\tmov    0x160(%rbx),%rdi\n   21f77:\ttest   %rdi,%rdi\n   21f7a:\tje     21f82 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0x1c02>\n   21f7c:\tmov    (%rdi),%rax\n   21f7f:\tcall   *0x8(%rax)\n   21f82:\tmov    0x158(%rbx),%rdi\n   21f89:\ttest   %rdi,%rdi\n   21f8c:\tje     21f94 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0x1c14>\n   21f8e:\tmov    (%rdi),%rax\n   21f91:\tcall   *0x8(%rax)\n   21f94:\tmov    0x150(%rbx),%rdi\n   21f9b:\ttest   %rdi,%rdi\n   21f9e:\tje     21fa6 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0x1c26>\n   21fa0:\tmov    (%rdi),%rax\n   21fa3:\tcall   *0x8(%rax)\n   21fa6:\tmov    %rbx,%rdi\n   21fa9:\tmov    -0x8(%rbp),%rbx\n   21fad:\tleave\n   21fae:\tjmp    21770 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0x13f0>\n",
+      "cleanup": {
+        "status": "NO_LSDA_IN_SELECTED_FDE",
+        "sites": [],
+        "limits": "Does not prove no throw/terminate or equivalent unwinding"
+      }
+    },
+    {
+      "table": "_ZTVN4dart9collision20BulletCollisionGroupE",
+      "variant": "D0",
+      "address": "0x21ec0",
+      "disassembly_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/work/libdart-collision-bullet.so.6.13.2-21ec0.asm",
+      "call_edges": [
+        {
+          "pc": "0x21f29",
+          "target": "0x21770",
+          "kind": "call",
+          "label": "_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0x13f0"
+        },
+        {
+          "pc": "0x21f3b",
+          "target": "0x10dd0",
+          "kind": "jmp",
+          "label": "_ZdlPvm@plt"
+        }
+      ],
+      "assembly": "\n/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n0000000000021ec0 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0x1b40>:\n   21ec0:\tendbr64\n   21ec4:\tpush   %rbp\n   21ec5:\tmov    %rsp,%rbp\n   21ec8:\tpush   %rbx\n   21ec9:\tmov    %rdi,%rbx\n   21ecc:\tsub    $0x8,%rsp\n   21ed0:\tmov    0x2d009(%rip),%rax        # 4eee0 <_ZTVN4dart9collision20BulletCollisionGroupE@@Base+0xc00>\n   21ed7:\tadd    $0x10,%rax\n   21edb:\tmov    %rax,(%rdi)\n   21ede:\tmov    0x168(%rdi),%rdi\n   21ee5:\ttest   %rdi,%rdi\n   21ee8:\tje     21ef0 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0x1b70>\n   21eea:\tmov    (%rdi),%rax\n   21eed:\tcall   *0x8(%rax)\n   21ef0:\tmov    0x160(%rbx),%rdi\n   21ef7:\ttest   %rdi,%rdi\n   21efa:\tje     21f02 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0x1b82>\n   21efc:\tmov    (%rdi),%rax\n   21eff:\tcall   *0x8(%rax)\n   21f02:\tmov    0x158(%rbx),%rdi\n   21f09:\ttest   %rdi,%rdi\n   21f0c:\tje     21f14 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0x1b94>\n   21f0e:\tmov    (%rdi),%rax\n   21f11:\tcall   *0x8(%rax)\n   21f14:\tmov    0x150(%rbx),%rdi\n   21f1b:\ttest   %rdi,%rdi\n   21f1e:\tje     21f26 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0x1ba6>\n   21f20:\tmov    (%rdi),%rax\n   21f23:\tcall   *0x8(%rax)\n   21f26:\tmov    %rbx,%rdi\n   21f29:\tcall   21770 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0x13f0>\n   21f2e:\tmov    %rbx,%rdi\n   21f31:\tmov    -0x8(%rbp),%rbx\n   21f35:\tmov    $0x170,%esi\n   21f3a:\tleave\n   21f3b:\tjmp    10dd0 <_ZdlPvm@plt>\n",
+      "cleanup": {
+        "status": "NO_LSDA_IN_SELECTED_FDE",
+        "sites": [],
+        "limits": "Does not prove no throw/terminate or equivalent unwinding"
+      }
+    },
+    {
+      "table": "_ZTVN4dart9collision23BulletCollisionDetectorE",
+      "variant": "D1",
+      "address": "0x169f0",
+      "disassembly_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/work/libdart-collision-bullet.so.6.13.2-169f0.asm",
+      "call_edges": [
+        {
+          "pc": "0x16a9a",
+          "target": "0x21770",
+          "kind": "call",
+          "label": "_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0x13f0"
+        },
+        {
+          "pc": "0x16aa7",
+          "target": "0x10dd0",
+          "kind": "call",
+          "label": "_ZdlPvm@plt"
+        },
+        {
+          "pc": "0x16ab0",
+          "target": "0x37070",
+          "kind": "call",
+          "label": "_ZN4dart9collision20BulletCollisionShapeC1ESt10unique_ptrI16btCollisionShapeSt14default_deleteIS3_EERK11btTransform@@Base+0x3dd0"
+        },
+        {
+          "pc": "0x16b41",
+          "target": "0x10c30",
+          "kind": "call",
+          "label": "__assert_fail@plt"
+        }
+      ],
+      "assembly": "\n/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n00000000000169f0 <_ZN4dart9collision23BulletCollisionDetectorD1Ev@@Base>:\n   169f0:\tendbr64\n   169f4:\tpush   %rbp\n   169f5:\tmov    0x38424(%rip),%rax        # 4ee20 <_ZTVN4dart9collision23BulletCollisionDetectorE@@Base+0xaf0>\n   169fc:\tadd    $0x10,%rax\n   16a00:\tmov    %rsp,%rbp\n   16a03:\tpush   %r12\n   16a05:\tpush   %rbx\n   16a06:\tcmpq   $0x0,0x48(%rdi)\n   16a0b:\tmov    %rax,(%rdi)\n   16a0e:\tjne    16b27 <_ZN4dart9collision23BulletCollisionDetectorD1Ev@@Base+0x137>\n   16a14:\tmov    0x50(%rdi),%r12\n   16a18:\tmov    %rdi,%rbx\n   16a1b:\ttest   %r12,%r12\n   16a1e:\tje     16aac <_ZN4dart9collision23BulletCollisionDetectorD1Ev@@Base+0xbc>\n   16a24:\tmov    (%r12),%rax\n   16a28:\tlea    0xb491(%rip),%rdx        # 21ec0 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0x1b40>\n   16a2f:\tmov    0x8(%rax),%rax\n   16a33:\tcmp    %rdx,%rax\n   16a36:\tjne    16b20 <_ZN4dart9collision23BulletCollisionDetectorD1Ev@@Base+0x130>\n   16a3c:\tmov    0x3849d(%rip),%rax        # 4eee0 <_ZTVN4dart9collision20BulletCollisionGroupE@@Base+0xc00>\n   16a43:\tmov    0x168(%r12),%rdi\n   16a4b:\tadd    $0x10,%rax\n   16a4f:\tmov    %rax,(%r12)\n   16a53:\ttest   %rdi,%rdi\n   16a56:\tje     16a5e <_ZN4dart9collision23BulletCollisionDetectorD1Ev@@Base+0x6e>\n   16a58:\tmov    (%rdi),%rax\n   16a5b:\tcall   *0x8(%rax)\n   16a5e:\tmov    0x160(%r12),%rdi\n   16a66:\ttest   %rdi,%rdi\n   16a69:\tje     16a71 <_ZN4dart9collision23BulletCollisionDetectorD1Ev@@Base+0x81>\n   16a6b:\tmov    (%rdi),%rax\n   16a6e:\tcall   *0x8(%rax)\n   16a71:\tmov    0x158(%r12),%rdi\n   16a79:\ttest   %rdi,%rdi\n   16a7c:\tje     16a84 <_ZN4dart9collision23BulletCollisionDetectorD1Ev@@Base+0x94>\n   16a7e:\tmov    (%rdi),%rax\n   16a81:\tcall   *0x8(%rax)\n   16a84:\tmov    0x150(%r12),%rdi\n   16a8c:\ttest   %rdi,%rdi\n   16a8f:\tje     16a97 <_ZN4dart9collision23BulletCollisionDetectorD1Ev@@Base+0xa7>\n   16a91:\tmov    (%rdi),%rax\n   16a94:\tcall   *0x8(%rax)\n   16a97:\tmov    %r12,%rdi\n   16a9a:\tcall   21770 <_ZN4dart9collision23BulletCollisionDetector22refreshCollisionObjectEPNS0_15CollisionObjectE@@Base+0x13f0>\n   16a9f:\tmov    $0x170,%esi\n   16aa4:\tmov    %r12,%rdi\n   16aa7:\tcall   10dd0 <_ZdlPvm@plt>\n   16aac:\tmov    0x30(%rbx),%rdi\n   16ab0:\tcall   37070 <_ZN4dart9collision20BulletCollisionShapeC1ESt10unique_ptrI16btCollisionShapeSt14default_deleteIS3_EERK11btTransform@@Base+0x3dd0>\n   16ab5:\tmov    0x3841c(%rip),%rax        # 4eed8 <_ZTVN4dart9collision17CollisionDetectorE@Base>\n   16abc:\tmov    0x18(%rbx),%rdi\n   16ac0:\tadd    $0x10,%rax\n   16ac4:\tmov    %rax,(%rbx)\n   16ac7:\ttest   %rdi,%rdi\n   16aca:\tje     16ad2 <_ZN4dart9collision23BulletCollisionDetectorD1Ev@@Base+0xe2>\n   16acc:\tmov    (%rdi),%rax\n   16acf:\tcall   *0x10(%rax)\n   16ad2:\tmov    0x10(%rbx),%rdi\n   16ad6:\ttest   %rdi,%rdi\n   16ad9:\tje     16af5 <_ZN4dart9collision23BulletCollisionDetectorD1Ev@@Base+0x105>\n   16adb:\tmov    0x38416(%rip),%rax        # 4eef8 <__libc_single_threaded@GLIBC_2.32>\n   16ae2:\tcmpb   $0x0,(%rax)\n   16ae5:\tje     16b10 <_ZN4dart9collision23BulletCollisionDetectorD1Ev@@Base+0x120>\n   16ae7:\tmov    0xc(%rdi),%eax\n   16aea:\tlea    -0x1(%rax),%edx\n   16aed:\tmov    %edx,0xc(%rdi)\n   16af0:\tcmp    $0x1,%eax\n   16af3:\tje     16b00 <_ZN4dart9collision23BulletCollisionDetectorD1Ev@@Base+0x110>\n   16af5:\tpop    %rbx\n   16af6:\tpop    %r12\n   16af8:\tpop    %rbp\n   16af9:\tret\n   16afa:\tnopw   0x0(%rax,%rax,1)\n   16b00:\tmov    (%rdi),%rax\n   16b03:\tpop    %rbx\n   16b04:\tpop    %r12\n   16b06:\tpop    %rbp\n   16b07:\tmov    0x18(%rax),%rax\n   16b0b:\tjmp    *%rax\n   16b0d:\tnopl   (%rax)\n   16b10:\tmov    $0xffffffff,%eax\n   16b15:\tlock xadd %eax,0xc(%rdi)\n   16b1a:\tjmp    16af0 <_ZN4dart9collision23BulletCollisionDetectorD1Ev@@Base+0x100>\n   16b1c:\tnopl   0x0(%rax)\n   16b20:\tmov    %r12,%rdi\n   16b23:\tcall   *%rax\n   16b25:\tjmp    16aac <_ZN4dart9collision23BulletCollisionDetectorD1Ev@@Base+0xbc>\n   16b27:\tlea    0x2b332(%rip),%rcx        # 41e60 <_ZSt19piecewise_construct@@Base+0x34>\n   16b2e:\tmov    $0x78,%edx\n   16b33:\tlea    0x2b376(%rip),%rsi        # 41eb0 <_ZSt19piecewise_construct@@Base+0x84>\n   16b3a:\tlea    0x284fe(%rip),%rdi        # 3f03f <_ZN4dart9collision20BulletCollisionShapeC1ESt10unique_ptrI16btCollisionShapeSt14default_deleteIS3_EERK11btTransform@@Base+0xbd9f>\n   16b41:\tcall   10c30 <__assert_fail@plt>\n",
+      "cleanup": {
+        "status": "NO_LSDA_IN_SELECTED_FDE",
+        "sites": [],
+        "limits": "Does not prove no throw/terminate or equivalent unwinding"
+      }
+    },
+    {
+      "table": "_ZTVN4dart9collision23BulletCollisionDetectorE",
+      "variant": "D0",
+      "address": "0x16b50",
+      "disassembly_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/work/libdart-collision-bullet.so.6.13.2-16b50.asm",
+      "call_edges": [
+        {
+          "pc": "0x16b60",
+          "target": "0x169f0",
+          "kind": "call",
+          "label": "_ZN4dart9collision23BulletCollisionDetectorD1Ev@@Base"
+        },
+        {
+          "pc": "0x16b72",
+          "target": "0x10dd0",
+          "kind": "jmp",
+          "label": "_ZdlPvm@plt"
+        }
+      ],
+      "assembly": "\n/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n0000000000016b50 <_ZN4dart9collision23BulletCollisionDetectorD0Ev@@Base>:\n   16b50:\tendbr64\n   16b54:\tpush   %rbp\n   16b55:\tmov    %rsp,%rbp\n   16b58:\tpush   %rbx\n   16b59:\tmov    %rdi,%rbx\n   16b5c:\tsub    $0x8,%rsp\n   16b60:\tcall   169f0 <_ZN4dart9collision23BulletCollisionDetectorD1Ev@@Base>\n   16b65:\tmov    %rbx,%rdi\n   16b68:\tmov    -0x8(%rbp),%rbx\n   16b6c:\tmov    $0x58,%esi\n   16b71:\tleave\n   16b72:\tjmp    10dd0 <_ZdlPvm@plt>\n",
+      "cleanup": {
+        "status": "NO_LSDA_IN_SELECTED_FDE",
+        "sites": [],
+        "limits": "Does not prove no throw/terminate or equivalent unwinding"
+      }
+    }
+  ],
+  "Node_D0_D1_interpretation": "No generic Node D0 -> Node D1 assumption. NodeDestructor wrapper dispatches via dynamic vptr; ShapeNode Node-subobject D0 thunk adjusts this and calls ShapeNode entry18, then sized delete.",
+  "limits": "Instructions show calls and conditional order, not all dynamic targets or actual object lifetimes",
+  "dedicated_base_variants": {
+    "A": [],
+    "B": [
+      {
+        "symbol": {
+          "name": "_ZN4dart8dynamics4NodeD2Ev",
+          "address": 1442842,
+          "size": 81,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/work/B-base-_ZN4dart8dynamics4NodeD2Ev.asm",
+        "limits": "Definition exists in this ELF; caller edge not assumed from name"
+      }
+    ],
+    "C": [
+      {
+        "symbol": {
+          "name": "_ZN4dart8dynamics4NodeD2Ev",
+          "address": 1443226,
+          "size": 81,
+          "binding": 0,
+          "type": 2,
+          "visibility": 0,
+          "section": 14,
+          "table": "full"
+        },
+        "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/work/C-base-_ZN4dart8dynamics4NodeD2Ev.asm",
+        "limits": "Definition exists in this ELF; caller edge not assumed from name"
+      }
+    ]
+  },
+  "binary_identifiers": {
+    "A": {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "sha256": "f74f4ec9820aee785ef94fb7bedafa7e4c832f209675a8ca1d35019c72b48e06",
+      "build_id": "071aa565b343db80e31aae393aadaed33c7adb46"
+    },
+    "B": {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13.2",
+      "sha256": "8403def315fd0395e73f795610a7f258cb70400d93c1de9acab3ffc48e3562a3",
+      "build_id": "5b20c27ee40538cedd07931b3f703fadd3adc98d"
+    },
+    "C": {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2",
+      "sha256": "08abe8d16ab0060f860e6c937d567a2f4137f61dfecabb4ec6f1a327e22eddcc",
+      "build_id": "a93979d2a4c513bc4e647e36571fad6988432f21"
+    },
+    "Bullet": {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+      "sha256": "897709e0c988e9e562c662292ed5bc860bce70ee2c64499501f54a6b5ca02201",
+      "build_id": "8bda73145d9c6cc97d6faff5895c2ce1aa091f6f"
+    }
+  },
+  "evidence_scope": "Selected static DART/Bullet destructor boundary; raw assembly and limits linked in slot18_analysis.json and this report"
+}

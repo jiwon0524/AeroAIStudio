@@ -1,0 +1,28 @@
+{
+  "Native": {
+    "status": "NOT_RUN",
+    "reason": "V4 prohibits actual object creation/deletion; world_config_fixture constructs World; private_fields_fixture builds Skeleton/BodyNode/ShapeNode; boxed/metadata construct constraints/solvers."
+  },
+  "validation/dart-capability-abi-v2/tests/world_config_fixture.cpp": {
+    "sha256": "6874de21bfa58fc951db8f26fda5aa22298888be2f4756e98858cb5a38d81c09",
+    "scope": "read-only safety audit; new deletion fixture compile-only, no main/target execution"
+  },
+  "validation/dart-capability-abi-v2/tests/private_fields_fixture.cpp": {
+    "sha256": "91ef40e1f41fd2ef648dc2c6175bbd1f4a36be2195024de8c4f9ad4733db1e4f",
+    "scope": "read-only safety audit; new deletion fixture compile-only, no main/target execution"
+  },
+  "validation/dart-capability-abi-v2/tests/boxed_fixture.cpp": {
+    "sha256": "bbc2ef6ee411d236f1604789cfe681cc1357276b891dabf1b8a1baa49d584e54",
+    "scope": "read-only safety audit; new deletion fixture compile-only, no main/target execution"
+  },
+  "validation/dart-destructor-cleanup-v4/tests/deletion_compile.cpp": {
+    "sha256": "7d67d1432545f089409792d937b5804c90e3c2ee86ba056a0605863617a34349",
+    "scope": "read-only safety audit; new deletion fixture compile-only, no main/target execution"
+  },
+  "safe_regressions": {
+    "V3": "Parser and compile/link-only independent probe ELF, no target execution",
+    "V2": "Static JSON/compile-only probe ELF",
+    "V1": "Stored acceptance JSON checks, no DART execution",
+    "project": "Explicit offline guard denies Gazebo launch/transport/nonallowlisted subprocess; synthetic files/records only"
+  }
+}

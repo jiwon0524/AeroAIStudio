@@ -1,0 +1,428 @@
+{
+  "core": {
+    "A_18": {
+      "status": "NO_LSDA_IN_SELECTED_FDE",
+      "sites": [],
+      "limits": "Does not prove no throw/terminate or equivalent unwinding"
+    },
+    "A_19": {
+      "status": "NO_LSDA_IN_SELECTED_FDE",
+      "sites": [],
+      "limits": "Does not prove no throw/terminate or equivalent unwinding"
+    },
+    "A_70": {
+      "status": "NO_LSDA_IN_SELECTED_FDE",
+      "sites": [],
+      "limits": "Does not prove no throw/terminate or equivalent unwinding"
+    },
+    "B_18": {
+      "status": "NO_LSDA_IN_SELECTED_FDE",
+      "sites": [],
+      "limits": "Does not prove no throw/terminate or equivalent unwinding"
+    },
+    "B_19": {
+      "status": "NO_LSDA_IN_SELECTED_FDE",
+      "sites": [],
+      "limits": "Does not prove no throw/terminate or equivalent unwinding"
+    },
+    "B_70": {
+      "status": "NO_LSDA_IN_SELECTED_FDE",
+      "sites": [],
+      "limits": "Does not prove no throw/terminate or equivalent unwinding"
+    },
+    "C_18": {
+      "status": "NO_LSDA_IN_SELECTED_FDE",
+      "sites": [],
+      "limits": "Does not prove no throw/terminate or equivalent unwinding"
+    },
+    "C_19": {
+      "status": "NO_LSDA_IN_SELECTED_FDE",
+      "sites": [],
+      "limits": "Does not prove no throw/terminate or equivalent unwinding"
+    },
+    "C_70": {
+      "status": "NO_LSDA_IN_SELECTED_FDE",
+      "sites": [],
+      "limits": "Does not prove no throw/terminate or equivalent unwinding"
+    }
+  },
+  "Bullet_destructors": [
+    {
+      "table": "_ZTVN4dart9collision21BulletCollisionObjectE",
+      "variant": "D1",
+      "status": "NO_LSDA_IN_SELECTED_FDE",
+      "sites": [],
+      "limits": "Does not prove no throw/terminate or equivalent unwinding"
+    },
+    {
+      "table": "_ZTVN4dart9collision21BulletCollisionObjectE",
+      "variant": "D0",
+      "status": "NO_LSDA_IN_SELECTED_FDE",
+      "sites": [],
+      "limits": "Does not prove no throw/terminate or equivalent unwinding"
+    },
+    {
+      "table": "_ZTVN4dart9collision20BulletCollisionGroupE",
+      "variant": "D1",
+      "status": "NO_LSDA_IN_SELECTED_FDE",
+      "sites": [],
+      "limits": "Does not prove no throw/terminate or equivalent unwinding"
+    },
+    {
+      "table": "_ZTVN4dart9collision20BulletCollisionGroupE",
+      "variant": "D0",
+      "status": "NO_LSDA_IN_SELECTED_FDE",
+      "sites": [],
+      "limits": "Does not prove no throw/terminate or equivalent unwinding"
+    },
+    {
+      "table": "_ZTVN4dart9collision23BulletCollisionDetectorE",
+      "variant": "D1",
+      "status": "NO_LSDA_IN_SELECTED_FDE",
+      "sites": [],
+      "limits": "Does not prove no throw/terminate or equivalent unwinding"
+    },
+    {
+      "table": "_ZTVN4dart9collision23BulletCollisionDetectorE",
+      "variant": "D0",
+      "status": "NO_LSDA_IN_SELECTED_FDE",
+      "sites": [],
+      "limits": "Does not prove no throw/terminate or equivalent unwinding"
+    }
+  ],
+  "Bullet_factory": {
+    "address": "0x4b4e4",
+    "LPStart": 131488,
+    "type_encoding": 255,
+    "type_table": null,
+    "callsite_encoding": 1,
+    "sites": [
+      {
+        "start": 131547,
+        "end": 131552,
+        "landing_pad": null,
+        "action_offset": 0,
+        "actions": [],
+        "classification": "NO_LANDING_PAD"
+      },
+      {
+        "start": 131561,
+        "end": 131566,
+        "landing_pad": 131947,
+        "action_offset": 0,
+        "actions": [],
+        "classification": "CLEANUP_ONLY",
+        "landing_bound": "FDE",
+        "landing_disassembly_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/work/libdart-collision-bullet.so.6.13.2-2036b-landing.asm",
+        "landing_excerpt": "\n/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n000000000002036b <dart::collision::BulletCollisionDetector::createCollisionObject(dart::dynamics::ShapeFrame const*)@@Base+0x1cb>:\n   2036b:\tendbr64\n   2036f:\tmov    %rax,%rbx\n   20372:\tjmp    12c4e <std::locale::locale()@plt+0x1a1e>\n",
+        "cold_followup": {
+          "entry": "0x12c4e",
+          "start": "0x12c1c",
+          "end": "0x12c7d",
+          "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/work/Bullet-cold-12c1c.asm",
+          "disassembly": "\n/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n0000000000012c1c <dart::collision::BulletCollisionDetector::~BulletCollisionDetector()@@Base-0x3dd4>:\n   12c1c:\tmov    $0x30,%esi\n   12c21:\tmov    %rbx,%rdi\n   12c24:\tcall   10dd0 <operator delete(void*, unsigned long)@plt>\n   12c29:\tmov    -0x58(%rbp),%rdi\n   12c2d:\ttest   %rdi,%rdi\n   12c30:\tje     12c37 <std::locale::locale()@plt+0x1a07>\n   12c32:\tcall   17b50 <dart::collision::BulletCollisionDetector::BulletCollisionShapeDeleter::BulletCollisionShapeDeleter(dart::collision::BulletCollisionDetector*, std::shared_ptr<dart::dynamics::Shape const> const&)@@Base+0xb0>\n   12c37:\tmov    -0x38(%rbp),%rax\n   12c3b:\tsub    %fs:0x28,%rax\n   12c44:\tjne    12c73 <std::locale::locale()@plt+0x1a43>\n   12c46:\tmov    %r12,%rdi\n   12c49:\tcall   11130 <_Unwind_Resume@plt>\n   12c4e:\tmov    -0x48(%rbp),%rdi\n   12c52:\ttest   %rdi,%rdi\n   12c55:\tje     12c5c <std::locale::locale()@plt+0x1a2c>\n   12c57:\tcall   17b50 <dart::collision::BulletCollisionDetector::BulletCollisionShapeDeleter::BulletCollisionShapeDeleter(dart::collision::BulletCollisionDetector*, std::shared_ptr<dart::dynamics::Shape const> const&)@@Base+0xb0>\n   12c5c:\tmov    -0x38(%rbp),%rax\n   12c60:\tsub    %fs:0x28,%rax\n   12c69:\tjne    12c78 <std::locale::locale()@plt+0x1a48>\n   12c6b:\tmov    %rbx,%rdi\n   12c6e:\tcall   11130 <_Unwind_Resume@plt>\n   12c73:\tcall   10e40 <__stack_chk_fail@plt>\n   12c78:\tcall   10e40 <__stack_chk_fail@plt>\n",
+          "limits": "One cold FDE only; local shared release/deleter dynamic behavior remains UNKNOWN"
+        }
+      },
+      {
+        "start": 131641,
+        "end": 131646,
+        "landing_pad": 131935,
+        "action_offset": 0,
+        "actions": [],
+        "classification": "CLEANUP_ONLY",
+        "landing_bound": "FDE",
+        "landing_disassembly_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/work/libdart-collision-bullet.so.6.13.2-2035f-landing.asm",
+        "landing_excerpt": "\n/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n000000000002035f <dart::collision::BulletCollisionDetector::createCollisionObject(dart::dynamics::ShapeFrame const*)@@Base+0x1bf>:\n   2035f:\tendbr64\n   20363:\tmov    %rax,%r12\n   20366:\tjmp    12c29 <std::locale::locale()@plt+0x19f9>\n   2036b:\tendbr64\n   2036f:\tmov    %rax,%rbx\n   20372:\tjmp    12c4e <std::locale::locale()@plt+0x1a1e>\n",
+        "cold_followup": {
+          "entry": "0x12c29",
+          "start": "0x12c1c",
+          "end": "0x12c7d",
+          "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/work/Bullet-cold-12c1c.asm",
+          "disassembly": "\n/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n0000000000012c1c <dart::collision::BulletCollisionDetector::~BulletCollisionDetector()@@Base-0x3dd4>:\n   12c1c:\tmov    $0x30,%esi\n   12c21:\tmov    %rbx,%rdi\n   12c24:\tcall   10dd0 <operator delete(void*, unsigned long)@plt>\n   12c29:\tmov    -0x58(%rbp),%rdi\n   12c2d:\ttest   %rdi,%rdi\n   12c30:\tje     12c37 <std::locale::locale()@plt+0x1a07>\n   12c32:\tcall   17b50 <dart::collision::BulletCollisionDetector::BulletCollisionShapeDeleter::BulletCollisionShapeDeleter(dart::collision::BulletCollisionDetector*, std::shared_ptr<dart::dynamics::Shape const> const&)@@Base+0xb0>\n   12c37:\tmov    -0x38(%rbp),%rax\n   12c3b:\tsub    %fs:0x28,%rax\n   12c44:\tjne    12c73 <std::locale::locale()@plt+0x1a43>\n   12c46:\tmov    %r12,%rdi\n   12c49:\tcall   11130 <_Unwind_Resume@plt>\n   12c4e:\tmov    -0x48(%rbp),%rdi\n   12c52:\ttest   %rdi,%rdi\n   12c55:\tje     12c5c <std::locale::locale()@plt+0x1a2c>\n   12c57:\tcall   17b50 <dart::collision::BulletCollisionDetector::BulletCollisionShapeDeleter::BulletCollisionShapeDeleter(dart::collision::BulletCollisionDetector*, std::shared_ptr<dart::dynamics::Shape const> const&)@@Base+0xb0>\n   12c5c:\tmov    -0x38(%rbp),%rax\n   12c60:\tsub    %fs:0x28,%rax\n   12c69:\tjne    12c78 <std::locale::locale()@plt+0x1a48>\n   12c6b:\tmov    %rbx,%rdi\n   12c6e:\tcall   11130 <_Unwind_Resume@plt>\n   12c73:\tcall   10e40 <__stack_chk_fail@plt>\n   12c78:\tcall   10e40 <__stack_chk_fail@plt>\n",
+          "limits": "One cold FDE only; local shared release/deleter dynamic behavior remains UNKNOWN"
+        }
+      },
+      {
+        "start": 131661,
+        "end": 131666,
+        "landing_pad": 131923,
+        "action_offset": 0,
+        "actions": [],
+        "classification": "CLEANUP_ONLY",
+        "landing_bound": "FDE",
+        "landing_disassembly_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/work/libdart-collision-bullet.so.6.13.2-20353-landing.asm",
+        "landing_excerpt": "\n/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n0000000000020353 <dart::collision::BulletCollisionDetector::createCollisionObject(dart::dynamics::ShapeFrame const*)@@Base+0x1b3>:\n   20353:\tendbr64\n   20357:\tmov    %rax,%r12\n   2035a:\tjmp    12c1c <std::locale::locale()@plt+0x19ec>\n   2035f:\tendbr64\n   20363:\tmov    %rax,%r12\n   20366:\tjmp    12c29 <std::locale::locale()@plt+0x19f9>\n   2036b:\tendbr64\n   2036f:\tmov    %rax,%rbx\n   20372:\tjmp    12c4e <std::locale::locale()@plt+0x1a1e>\n",
+        "cold_followup": {
+          "entry": "0x12c1c",
+          "start": "0x12c1c",
+          "end": "0x12c7d",
+          "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/work/Bullet-cold-12c1c.asm",
+          "disassembly": "\n/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n0000000000012c1c <dart::collision::BulletCollisionDetector::~BulletCollisionDetector()@@Base-0x3dd4>:\n   12c1c:\tmov    $0x30,%esi\n   12c21:\tmov    %rbx,%rdi\n   12c24:\tcall   10dd0 <operator delete(void*, unsigned long)@plt>\n   12c29:\tmov    -0x58(%rbp),%rdi\n   12c2d:\ttest   %rdi,%rdi\n   12c30:\tje     12c37 <std::locale::locale()@plt+0x1a07>\n   12c32:\tcall   17b50 <dart::collision::BulletCollisionDetector::BulletCollisionShapeDeleter::BulletCollisionShapeDeleter(dart::collision::BulletCollisionDetector*, std::shared_ptr<dart::dynamics::Shape const> const&)@@Base+0xb0>\n   12c37:\tmov    -0x38(%rbp),%rax\n   12c3b:\tsub    %fs:0x28,%rax\n   12c44:\tjne    12c73 <std::locale::locale()@plt+0x1a43>\n   12c46:\tmov    %r12,%rdi\n   12c49:\tcall   11130 <_Unwind_Resume@plt>\n   12c4e:\tmov    -0x48(%rbp),%rdi\n   12c52:\ttest   %rdi,%rdi\n   12c55:\tje     12c5c <std::locale::locale()@plt+0x1a2c>\n   12c57:\tcall   17b50 <dart::collision::BulletCollisionDetector::BulletCollisionShapeDeleter::BulletCollisionShapeDeleter(dart::collision::BulletCollisionDetector*, std::shared_ptr<dart::dynamics::Shape const> const&)@@Base+0xb0>\n   12c5c:\tmov    -0x38(%rbp),%rax\n   12c60:\tsub    %fs:0x28,%rax\n   12c69:\tjne    12c78 <std::locale::locale()@plt+0x1a48>\n   12c6b:\tmov    %rbx,%rdi\n   12c6e:\tcall   11130 <_Unwind_Resume@plt>\n   12c73:\tcall   10e40 <__stack_chk_fail@plt>\n   12c78:\tcall   10e40 <__stack_chk_fail@plt>\n",
+          "limits": "One cold FDE only; local shared release/deleter dynamic behavior remains UNKNOWN"
+        }
+      }
+    ],
+    "limits": "Type filter numbers decoded; typeinfo and complete catch/action semantics not certified",
+    "status": "DECODED_STATIC",
+    "function": {
+      "name": "_ZN4dart9collision23BulletCollisionDetector21createCollisionObjectEPKNS_8dynamics10ShapeFrameE",
+      "address": 131488,
+      "size": 471,
+      "binding": 1,
+      "type": 2,
+      "visibility": 0,
+      "section": 14,
+      "table": "dynamic"
+    }
+  },
+  "limits": "Decoded static callsites/actions and landing excerpts only; does not prove no double-free/missing cleanup/catch equivalence. No exception runtime test.",
+  "followup_stop": "C after one cold FDE per LP target; no recursive chase of arbitrary indirect cleanup",
+  "personality_facilities": {
+    "A": [
+      {
+        "augmentation": "zR",
+        "personality": null
+      },
+      {
+        "augmentation": "zPLR",
+        "personality": {
+          "value": 5783568,
+          "indirect": true,
+          "encoding": 155
+        },
+        "indirect_target": {
+          "kind": "symbol",
+          "name": "__gcc_personality_v0",
+          "addend": 0,
+          "relocation": {
+            "type": 1,
+            "name": "__gcc_personality_v0",
+            "addend": 0
+          }
+        }
+      },
+      {
+        "augmentation": "zPLR",
+        "personality": {
+          "value": 5783576,
+          "indirect": true,
+          "encoding": 155
+        },
+        "indirect_target": {
+          "kind": "symbol",
+          "name": "__gxx_personality_v0",
+          "addend": 0,
+          "relocation": {
+            "type": 1,
+            "name": "__gxx_personality_v0",
+            "addend": 0
+          }
+        }
+      },
+      {
+        "augmentation": "zPR",
+        "personality": {
+          "value": 5783568,
+          "indirect": true,
+          "encoding": 155
+        },
+        "indirect_target": {
+          "kind": "symbol",
+          "name": "__gcc_personality_v0",
+          "addend": 0,
+          "relocation": {
+            "type": 1,
+            "name": "__gcc_personality_v0",
+            "addend": 0
+          }
+        }
+      }
+    ],
+    "B": [
+      {
+        "augmentation": "zR",
+        "personality": null
+      },
+      {
+        "augmentation": "zPLR",
+        "personality": {
+          "value": 5791760,
+          "indirect": true,
+          "encoding": 155
+        },
+        "indirect_target": {
+          "kind": "symbol",
+          "name": "__gcc_personality_v0",
+          "addend": 0,
+          "relocation": {
+            "type": 1,
+            "name": "__gcc_personality_v0",
+            "addend": 0
+          }
+        }
+      },
+      {
+        "augmentation": "zPLR",
+        "personality": {
+          "value": 5791768,
+          "indirect": true,
+          "encoding": 155
+        },
+        "indirect_target": {
+          "kind": "symbol",
+          "name": "__gxx_personality_v0",
+          "addend": 0,
+          "relocation": {
+            "type": 1,
+            "name": "__gxx_personality_v0",
+            "addend": 0
+          }
+        }
+      },
+      {
+        "augmentation": "zPR",
+        "personality": {
+          "value": 5791760,
+          "indirect": true,
+          "encoding": 155
+        },
+        "indirect_target": {
+          "kind": "symbol",
+          "name": "__gcc_personality_v0",
+          "addend": 0,
+          "relocation": {
+            "type": 1,
+            "name": "__gcc_personality_v0",
+            "addend": 0
+          }
+        }
+      }
+    ],
+    "C": [
+      {
+        "augmentation": "zR",
+        "personality": null
+      },
+      {
+        "augmentation": "zPLR",
+        "personality": {
+          "value": 5795856,
+          "indirect": true,
+          "encoding": 155
+        },
+        "indirect_target": {
+          "kind": "symbol",
+          "name": "__gcc_personality_v0",
+          "addend": 0,
+          "relocation": {
+            "type": 1,
+            "name": "__gcc_personality_v0",
+            "addend": 0
+          }
+        }
+      },
+      {
+        "augmentation": "zPLR",
+        "personality": {
+          "value": 5795864,
+          "indirect": true,
+          "encoding": 155
+        },
+        "indirect_target": {
+          "kind": "symbol",
+          "name": "__gxx_personality_v0",
+          "addend": 0,
+          "relocation": {
+            "type": 1,
+            "name": "__gxx_personality_v0",
+            "addend": 0
+          }
+        }
+      },
+      {
+        "augmentation": "zPR",
+        "personality": {
+          "value": 5795856,
+          "indirect": true,
+          "encoding": 155
+        },
+        "indirect_target": {
+          "kind": "symbol",
+          "name": "__gcc_personality_v0",
+          "addend": 0,
+          "relocation": {
+            "type": 1,
+            "name": "__gcc_personality_v0",
+            "addend": 0
+          }
+        }
+      }
+    ],
+    "Bullet": [
+      {
+        "augmentation": "zR",
+        "personality": null
+      },
+      {
+        "augmentation": "zPLR",
+        "personality": {
+          "value": 323600,
+          "indirect": true,
+          "encoding": 155
+        },
+        "indirect_target": {
+          "kind": "symbol",
+          "name": "__gcc_personality_v0",
+          "addend": 0,
+          "relocation": {
+            "type": 1,
+            "name": "__gcc_personality_v0",
+            "addend": 0
+          }
+        }
+      },
+      {
+        "augmentation": "zPLR",
+        "personality": {
+          "value": 323608,
+          "indirect": true,
+          "encoding": 155
+        },
+        "indirect_target": {
+          "kind": "symbol",
+          "name": "__gxx_personality_v0",
+          "addend": 0,
+          "relocation": {
+            "type": 1,
+            "name": "__gxx_personality_v0",
+            "addend": 0
+          }
+        }
+      }
+    ]
+  },
+  "binary_identifiers": {
+    "A": {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "sha256": "f74f4ec9820aee785ef94fb7bedafa7e4c832f209675a8ca1d35019c72b48e06",
+      "build_id": "071aa565b343db80e31aae393aadaed33c7adb46"
+    },
+    "B": {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13.2",
+      "sha256": "8403def315fd0395e73f795610a7f258cb70400d93c1de9acab3ffc48e3562a3",
+      "build_id": "5b20c27ee40538cedd07931b3f703fadd3adc98d"
+    },
+    "C": {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2",
+      "sha256": "08abe8d16ab0060f860e6c937d567a2f4137f61dfecabb4ec6f1a327e22eddcc",
+      "build_id": "a93979d2a4c513bc4e647e36571fad6988432f21"
+    },
+    "Bullet": {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+      "sha256": "897709e0c988e9e562c662292ed5bc860bce70ee2c64499501f54a6b5ca02201",
+      "build_id": "8bda73145d9c6cc97d6faff5895c2ce1aa091f6f"
+    }
+  },
+  "evidence_scope": "Selected static DART/Bullet destructor boundary; raw assembly and limits linked in slot18_analysis.json and this report"
+}

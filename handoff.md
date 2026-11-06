@@ -1,3 +1,26 @@
+# Destructor Cleanup V4 — current checkpoint
+
+목표: slot18 D1·Node-subobject D0/complete cleanup·Bullet/Core sized delete/EH를 유한 정적 분석으로 보완하고 다음 검증 방법 결정. **DESTRUCTOR_BOUNDARY_PARTIALLY_VERIFIED / Host NEEDS_TARGETED_EVIDENCE / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. V4는 Gazebo/World::step/Stage B/실제 DART 객체 생성·삭제/예외 runtime/production·시스템·solver·Clock/Capture 변경 금지. 이번 오프라인 범위 완료이며 새 정적 단계/Runtime을 자동 시작하지 않는다.
+
+직접 관측: 설치 slot18 A0x2f0b70/B0x2f0f60/C0x2f0fd0, AP/offset144, FDE997bytes. A는 **INFERRED D1**이며 symbol 복구나 IDENTIFIED가 아니다. AP역할·complete vptr resets·known base cleanup 순서·D0 직접 call과 제한적 정규화 body 일치로 추론했다. Nested helper semantic proof는 없으며 C 종료조건. A primary D0 0x2f1020이 slot18 call 후 size1664 delete, Node-adjusted ShapeNode D0 0x2f1280이 LEA this−144 후 slot18 call/delete1664. **일반 Node D0→Node D1 가정 없음**. B/C 전용 Node D2 관측, 독립 Node D0/D1/ShapeNode D2 정의 부재를 ABI 누락으로 보지 않는다.
+
+Bullet Object/Group D0의 size48/368과 새 compile-only A-header/B/C sizeof 일치. Object/Group/Detector D0 및 allocator import/version 기록. Factory LSDA4 callsites 중3 cleanup LP, ctor failure0x2024d→0x20353→cold0x12c1c에서 delete48/공유 참조 정리 후보/Unwind_Resume 경계 확인. selected D1/D0 FDE는 LSDA없음; no-throw나 EH 동등성을 의미하지 않는다. 중첩/간접 deleter·lifetime·allocator interposition·full installed layout/compiler·OFF/ON runtime neutrality는 UNKNOWN/HIGH.
+
+이번 **12 new +16 V3 +13 V2 +12 V1 +108 project offline=161 PASS**, final fail/error/skip0. Native45는 World/Skeleton/ShapeNode/Constraint 생성으로 V4 금지에 걸려 **NOT_RUN**; 과거194를 재실행한 것으로 합산하지 않는다. 최초 신규11PASS/1FAIL은 SUB immediate를 예상한 테스트 기대와 실제 LEA−0x90/MOV 차이; 정확한 instruction pair와−144 계약으로 검사 보완, 최초 XML/log 보존. fresh loader12 오류0, import 누락0. 전후 **30673 files 변경0**, main HEAD/status 보존.
+
+증거: `validation/dart-destructor-cleanup-v4/reports/{final_report.md,slot18_analysis.json,destructor_call_graph.json,ownership_contract.json,exception_cleanup.json,consumer_reachability.json,analysis_stop.json,risk_assessment.json,verdict.json,test_summary.json,integrity.json,targeted_evidence_plan.md}`. 새 scripts/tests/경량 reports만 게시, raw work/바이너리/최초 실패/manifests는 로컬 보존·Git제외. 기존 V1~V3/Capability 파일은 읽기 전용. 재현 reports/reproduction.md는 역사 XML/기존 build 의존성을 명시한다.
+
+V3 handoff REVIEW_REQUIRED는 c22f947 snapshot→a7a7b32 게시 HEAD 차이 하나. parent/30files/evidence hash 일치로 검토 완료(`handoff_reconciliation.json`), helper를 초기 MATCH로 보고하지 않았다. 아래 V4 state도 게시 전 snapshot이며 예상 HEAD 전이는 commit parent/scope로 대조한다. 자기 SHA를 넣기 위한 재귀 commit 없음.
+
+Git: experiment/dart-internal-trace, 시작 HEAD/원격 a7a7b32b9aade588a0f134637b46b4211a973cc4 clean. 이번 V4 경량 files와 handoff만 명시적 게시 대상. 게시 직전 기록이며 최종 commit/push/remote 일치 영수증은 새 reports/git_publication.json에 로컬 보존. main dirty/evidence를 staging하지 않는다.
+
+다음 최소 작업: **정적 반복 종료**. exact Build-ID debug/symbol 자료를 확보하거나 targeted_evidence_plan.md의 비물리 객체 수명·allocator/unwind probe 계획을 검토한다. 이 probe도 실제 생성·삭제가 필요해 별도 사용자 승인 전 실행 불가. Host READY 판정 아님. 짧은 subprocess만으로 ABI UB가 통제됐다고 보지 않는다. 별도 승인 전 객체 probe/Host/Gazebo/World::step/Stage B 실행 금지.
+
+알려진 compiler/static/pytest/hash 작업은 모두 완료. snapshot host/PID/start 관측 참조; 외부 CWD/remote/container는 UNKNOWN. 기존 프로세스 종료/재시작/계정 변경 없음. /tmp build·ignored work/raw evidence는 Git push로 다른 기기에 전달되지 않는다. 공통 handoff 스킬 수정 없음.
+
+---
+아래는 과거 단계 기록이다. 현재 목표·판정·다음 행동은 위 V4 체크포인트가 우선한다.
+
 # ShapeNode Boundary V3 — current checkpoint
 
 목표: ShapeNode V2 미해석67 슬롯, virtual/RTTI/thunk와 Bullet/Core 생성·소멸·소유권/EH 경계를 정적 ELF·disassembly·compile-only 및 허용 offline 회귀로 보완. **SHAPENODE_BOUNDARY_PARTIALLY_VERIFIED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED / Host NOT_READY**. Gazebo/World::step/Stage B/대상 객체 생성·삭제/throw-catch runtime/production·시스템/solver/Clock/Capture 변경은 하지 않았다. 이번 오프라인 범위 완료이며 자동 Host 단계 없음.
@@ -126,27 +149,28 @@ Common skill source remains outside the project at `/home/jiwon/Projects/my-agen
 
 
 
+
 ## Machine checkpoint
 
 ```context-handoff-state
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06T05:41:37.861507+00:00",
+  "updated_at": "2026-11-06T05:58:57.270813+00:00",
   "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
   "host": "jiwon-System-Product-Name",
   "git": {
-    "head": "c22f9476d9d2244c244e87272fa1a927e49d6658",
+    "head": "a7a7b32b9aade588a0f134637b46b4211a973cc4",
     "branch": "experiment/dart-internal-trace",
     "status": []
   },
   "evidence": [
     {
-      "path": "validation/dart-shapenode-boundary-v3/reports/verdict.json",
-      "sha256": "61a00df63f47493e1689019a7f5c3d3561a09de3fb882aecce1b9da2266c61cd"
+      "path": "validation/dart-destructor-cleanup-v4/reports/verdict.json",
+      "sha256": "deb9933bd7e8252b46d598ac7058fb48447fb5c25fe5bd8db703622e802d156d"
     },
     {
-      "path": "validation/dart-shapenode-boundary-v3/reports/integrity.json",
-      "sha256": "8c47b550d15aa8d90a59c3416d7c1e934dbeb6f21125dda0efd1e2125207b3d1"
+      "path": "validation/dart-destructor-cleanup-v4/reports/integrity.json",
+      "sha256": "045e58955abd1f549d3aaf1e51368cb7db9a85329b2acb34b0c3c9a04f4f6e54"
     }
   ],
   "processes": {
