@@ -1,0 +1,40 @@
+{
+  "initial_verify": "REVIEW_REQUIRED: GIT_CHANGED head only",
+  "recorded_head": "b3c3f0f3960786799b38350a8c572955f3e62433",
+  "observed_head": "2edd9e989e7ab8186a075cf605ddecb6b7dfa386",
+  "parent": "b3c3f0f3960786799b38350a8c572955f3e62433",
+  "expected_publish_transition": true,
+  "evidence": [
+    {
+      "path": "validation/dart-consumer-abi-v1/reports/verdict.json",
+      "matches": true
+    }
+  ],
+  "files": [
+    "handoff.md",
+    "validation/dart-consumer-abi-v1/reports/abi_comparison.json",
+    "validation/dart-consumer-abi-v1/reports/auxiliary_consumers.json",
+    "validation/dart-consumer-abi-v1/reports/consumer_inventory.json",
+    "validation/dart-consumer-abi-v1/reports/consumer_symbols.json",
+    "validation/dart-consumer-abi-v1/reports/discovery.json",
+    "validation/dart-consumer-abi-v1/reports/environment.json",
+    "validation/dart-consumer-abi-v1/reports/final_report.md",
+    "validation/dart-consumer-abi-v1/reports/instrumentation_review.json",
+    "validation/dart-consumer-abi-v1/reports/integrity.json",
+    "validation/dart-consumer-abi-v1/reports/loader_results.json",
+    "validation/dart-consumer-abi-v1/reports/module_loader_results.json",
+    "validation/dart-consumer-abi-v1/reports/provider_inventory.json",
+    "validation/dart-consumer-abi-v1/reports/reproduction.md",
+    "validation/dart-consumer-abi-v1/reports/risk_assessment.json",
+    "validation/dart-consumer-abi-v1/reports/test_safety_review.json",
+    "validation/dart-consumer-abi-v1/reports/test_summary.json",
+    "validation/dart-consumer-abi-v1/reports/verdict.json",
+    "validation/dart-consumer-abi-v1/scripts/abi_review.py",
+    "validation/dart-consumer-abi-v1/scripts/analyze.py",
+    "validation/dart-consumer-abi-v1/scripts/check_integrity.py",
+    "validation/dart-consumer-abi-v1/scripts/finish_analysis.py",
+    "validation/dart-consumer-abi-v1/tests/test_consumer_contract.py"
+  ],
+  "scope": "Initial V1 checkpoint validation before this V2 handoff replacement; no claim helper returned MATCH",
+  "process_scope": "No visible same-user task in initial snapshot; external-CWD/remote/container UNKNOWN"
+}

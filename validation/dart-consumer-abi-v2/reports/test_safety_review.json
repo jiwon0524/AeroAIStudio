@@ -1,0 +1,46 @@
+{
+  "recorder_fixture.cpp": {
+    "sha256": "eb0e24fb75a003da0f039b842f89cfbfd8ac3439565c524d269bea78e72ebe83",
+    "prior_review_hash_matches": true,
+    "forbidden_calls": []
+  },
+  "dantzig_failure_fixture.cpp": {
+    "sha256": "363a4539cef295ce83947fe9db3f43a6d356b4cc992c4717a867f9ea488bfd98",
+    "prior_review_hash_matches": true,
+    "forbidden_calls": []
+  },
+  "metadata_call_fixture.cpp": {
+    "sha256": "e6649b13bf11659f3599b0f42cbf32154c37c102bfb6b334e9b597bfbf9304d4",
+    "prior_review_hash_matches": true,
+    "forbidden_calls": []
+  },
+  "world_config_fixture.cpp": {
+    "sha256": "6874de21bfa58fc951db8f26fda5aa22298888be2f4756e98858cb5a38d81c09",
+    "prior_review_hash_matches": true,
+    "forbidden_calls": []
+  },
+  "private_fields_fixture.cpp": {
+    "sha256": "91ef40e1f41fd2ef648dc2c6175bbd1f4a36be2195024de8c4f9ad4733db1e4f",
+    "prior_review_hash_matches": true,
+    "forbidden_calls": []
+  },
+  "abi_sizes_align.cpp": {
+    "sha256": "f7b51bbd0f9885e5ba2a99d263f21a2e25167b5fd65de26d5d972391b38eefda",
+    "prior_review_hash_matches": true,
+    "forbidden_calls": []
+  },
+  "boxed_fixture.cpp": {
+    "sha256": "bbc2ef6ee411d236f1604789cfe681cc1357276b891dabf1b8a1baa49d584e54",
+    "prior_review_hash_matches": true,
+    "forbidden_calls": []
+  },
+  "new_boundary": {
+    "mode": "COMPILE_ONLY, no executable linked or run",
+    "sha256": "33612d95182589c3403b28799eeef8dce92d37cf9f43465772663d3d1d2a2ce0"
+  },
+  "regression_guard": {
+    "path": "/home/jiwon/Projects/AeroAIStudio/tools/host4_offline_test_guard.py",
+    "mode": "Explicit deny launch/transport and non-allowlisted subprocess",
+    "sha256": "a269c6a1a803b0852562a378c347fd807d3e190a5af3f8a61f86b2edb1d02d52"
+  }
+}

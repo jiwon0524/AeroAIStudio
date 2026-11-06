@@ -1,0 +1,62 @@
+[
+  {
+    "item": "Gazebo symbols",
+    "status": "VERIFIED_OFFLINE",
+    "risk": "LOW",
+    "basis": "252 DART imports re-extracted/resolved per arm; selected scope only"
+  },
+  {
+    "item": "Bullet/Core object ABI",
+    "status": "COMPATIBLE_WITH_LIMITATIONS",
+    "risk": "HIGH",
+    "basis": "53 imports, selected binary offsets and core getters/RTTI match; full installed member/base layout/lifetimes UNKNOWN"
+  },
+  {
+    "item": "Inline object access",
+    "status": "COMPATIBLE_WITH_LIMITATIONS",
+    "risk": "HIGH",
+    "basis": "Real Contact stride/selected offsets verified; all optimized Gazebo/Bullet access provenance UNKNOWN"
+  },
+  {
+    "item": "VTable/RTTI",
+    "status": "COMPATIBLE_WITH_LIMITATIONS",
+    "risk": "HIGH",
+    "basis": "34 core table records fully resolve and match; ShapeNode table has unresolved local targets; known slots match"
+  },
+  {
+    "item": "Compiler ABI",
+    "status": "UNKNOWN",
+    "risk": "HIGH",
+    "basis": "Current recipes/macros match B/C; installed original compiler/flags/Eigen ABI unknown"
+  },
+  {
+    "item": "Loader",
+    "status": "VERIFIED_OFFLINE",
+    "risk": "LOW",
+    "basis": "12 fresh trace-relocation checks; expected retained Bullet, no undefined"
+  },
+  {
+    "item": "Instrumentation OFF",
+    "status": "COMPATIBLE_WITH_LIMITATIONS",
+    "risk": "HIGH",
+    "basis": "No changed public declarations; added entries/metadata evaluation; runtime result UNKNOWN"
+  },
+  {
+    "item": "Instrumentation ON",
+    "status": "UNKNOWN",
+    "risk": "HIGH",
+    "basis": "Additional metadata virtual calls/global state/lifetime/thread timing effects; runtime result UNKNOWN"
+  },
+  {
+    "item": "Evidence integrity",
+    "status": "VERIFIED_OFFLINE",
+    "risk": "LOW",
+    "basis": "Fresh before/after hashes; see integrity.json"
+  },
+  {
+    "item": "Production preservation",
+    "status": "VERIFIED_OFFLINE",
+    "risk": "LOW",
+    "basis": "No production/system modifications; hash and main state checks"
+  }
+]

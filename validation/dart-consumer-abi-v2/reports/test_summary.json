@@ -1,0 +1,47 @@
+{
+  "current": {
+    "new-final": {
+      "tests": 13,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "v1": {
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "native": {
+      "tests": 45,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "regression": {
+      "tests": 108,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "total": 178,
+  "historical_V1": {
+    "consumer_symbols": 252,
+    "missing": 0,
+    "loader_checks": 12,
+    "tests": 165,
+    "integrity_files": 21091,
+    "changed": 0,
+    "verdict": "CONSUMER_ABI_PARTIALLY_VERIFIED"
+  },
+  "not_run": [
+    "Gazebo",
+    "World::step",
+    "Stage B",
+    "new DART/plugin object runtime creation",
+    "fresh DWARF comparison",
+    "full DART unit suite"
+  ],
+  "failures": "No pytest failure. Parser development initial outputs retained: ET_REL section addressing correction and compiler-ID normalization; unresolved local pointers are UNKNOWN, not raw-address ABI mismatch."
+}

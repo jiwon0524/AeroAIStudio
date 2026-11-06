@@ -1,3 +1,24 @@
+# DART Consumer ABI Deep V2 — current checkpoint
+
+현재 목표: 설치 Bullet↔격리 core 객체 계약, Gazebo inline/member 접근 및 virtual/RTTI 위험을 정적·compile-only로 줄이는 명시적 V2 요청. **CONSUMER_ABI_DEEP_PARTIALLY_VERIFIED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED. Host NOT_READY**. Gazebo/World::step/Stage B/production·시스템/solver/Clock/Capture 변경 금지 유지. 이번 오프라인 범위는 완료했으며 후속 물리 작업을 자동 시작하지 않는다.
+
+직접 확인: 10타입 A(extracted matching packaged core headers + source Bullet fallback)/B/C compiler member/base/vtable 배치 일치. 현재 시스템 DART dev headers는 NOT_INSTALLED이며 ‘A-header’를 실제 설치 binary layout으로 부르지 않는다. 선택된 설치 core getter3종 machine-code 일치, Bullet engine pointer+40/new48, Gazebo Contact stride112 및 object1+72/object2+80/force+48/normal+24/depth+88 binary 접근 확인. core table35 records 중34 완전 symbolic match, ShapeNode275 slots 중67 local targets UNKNOWN이며 비교 가능한 slots 차이0. Bullet local destructors와 모든 소비 inline provenance/installed full layout/compiler buildinfo/lifetime/unwind/runtime neutrality는 미확정이다. 헤더403개 B/C 무변경, matching packaged214개 차이0. 실제 설치 whole ABI 인증 아님.
+
+이번 테스트 **13 new +12 V1 +45 native +108 regression=178 PASS**, failure/error/skip0. 새 boundary는 compile/link 분석만 하고 DART/plugin 객체를 생성·실행하지 않았다. 기존 Native synthetic algebra 회귀 범위는 따로 구분했다. fresh loader12 checks 오류0, Gazebo252/Bullet53 imports 각 arm 누락0. 무결성 **30031 files 변경0**, main HEAD/status 보존. 기존 V1 165PASS/21091 보존은 과거 결과로 분리했다.
+
+근거: `validation/dart-consumer-abi-v2/reports/final_report.md`, `bullet_core_contract.json`, `inline_access.json`, `vtable_rtti.json`, `compiler_abi.json`, `boundary_fixture.json`, `instrumentation_abi.json`, `loader_results.json`, `risk_assessment.json`, `test_summary.json`, `integrity.json`, `verdict.json`. 재현은 reports/reproduction.md; 새 scripts/tests만 사용했다. 초기 ET_REL 주소/Compiler ID parser 출력은 work에 보존했으며 실제 ABI mismatch나 pytest 실패가 아니다.
+
+V1 handoff verify REVIEW_REQUIRED는 head 차이 하나였다. recorded b3c3f0f→observed2edd9e9의 parent/23files/evidence hash 일치로 검토 완료했다(`handoff_reconciliation.json`). helper 자체를 MATCH로 표시하지 않았다. 이번 state도 publish 전 HEAD snapshot이며 다음 commit은 그 parent와 파일 scope로 대조한다.
+
+Git: branch experiment/dart-internal-trace, 시작 HEAD/원격2edd9e989e7ab8186a075cf605ddecb6b7dfa386 clean 확인. 이번 V2 scripts/tests/reports와 handoff만 명시적 게시 대상이다. 본 기록은 게시 직전이며 commit/push/remote 일치 영수증은 새 reports/git_publication.json에 로컬 보존한다. receipt만으로 재귀 commit하지 않는다. main dirty 파일·기존 evidence는 게시/수정하지 않았다.
+
+다음 최소 작업: matching Build-ID debug/symbol map 또는 bounded disassembly로 ShapeNode/Bullet local virtual/destructor targets와 남은 critical member 접근을 좁힌다. 이후 별도 승인될 비물리 lifetime/cast/unwind 시험 계획을 먼저 검토한다. subprocess/짧은 tick만으로 ABI UB를 통제했다고 보지 않는다. 실행 계획의 잔여 위험 수용 및 별도 사용자 승인 전 Host 실행 금지.
+
+실행 중 작업: 알려진 compile/static/pytest/hash 분석은 모두 완료했다. snapshot의 host/start/PID 관측 참조; 프로젝트 CWD 외부/remote/container는 UNKNOWN. 프로세스 종료·재시작/계정 변경은 하지 않았다. /tmp build 및 ignored work/raw 로그는 기기 이동 시 자동 전달되지 않으며 Git은 경량 검증 파일만 전달한다. 공통 handoff 스킬은 수정하지 않았다.
+
+---
+아래는 이전 단계 기록이다. 현재 범위·판정·다음 행동은 위 V2 체크포인트가 우선한다.
+
 # Consumer ABI V1 — current checkpoint
 
 현재 사용자 요청: 실제 Gazebo 소비자 기준 정적 ABI/격리 Loader 검증. 기존 docs-only 범위는 종료했고 이 명시적 요청으로 분석만 재개했다. Gazebo/World::step/Stage B/production·시스템 변경 금지는 유지한다. **CONSUMER_ABI_PARTIALLY_VERIFIED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. Host 실행 보류.
@@ -80,23 +101,28 @@ Read this worktree's handoff first, not the original main's older checkpoint. `/
 Common skill source remains outside the project at `/home/jiwon/Projects/my-agent-skills/skills/context-handoff`, installed through `/home/jiwon/.agents/skills/context-handoff`. It was not modified/published by this DART task. No credentials or account data recorded.
 
 
+
 ## Machine checkpoint
 
 ```context-handoff-state
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06T05:03:25.072758+00:00",
+  "updated_at": "2026-11-06T05:22:45.518690+00:00",
   "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
   "host": "jiwon-System-Product-Name",
   "git": {
-    "head": "b3c3f0f3960786799b38350a8c572955f3e62433",
+    "head": "2edd9e989e7ab8186a075cf605ddecb6b7dfa386",
     "branch": "experiment/dart-internal-trace",
     "status": []
   },
   "evidence": [
     {
-      "path": "validation/dart-consumer-abi-v1/reports/verdict.json",
-      "sha256": "755d6d9f1ccbb49165a953e16ee1c3a1ae38b853973b489a9a0618e7b6901ed1"
+      "path": "validation/dart-consumer-abi-v2/reports/verdict.json",
+      "sha256": "0d78190dcb7a85f7a8f859bfe19b8b07ffea52e58a971076b52a586c5a5e8de0"
+    },
+    {
+      "path": "validation/dart-consumer-abi-v2/reports/integrity.json",
+      "sha256": "89c272ae4b15b6414bcf332691167e95917d173e26360b2b5c3a427f20a8e047"
     }
   ],
   "processes": {

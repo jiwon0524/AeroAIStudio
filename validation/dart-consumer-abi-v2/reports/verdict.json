@@ -1,0 +1,43 @@
+{
+  "verdict": "CONSUMER_ABI_DEEP_PARTIALLY_VERIFIED",
+  "runtime": "NOT_RUNTIME_VERIFIED",
+  "Stage_B": "BLOCKED",
+  "host": "NOT_READY; separate bounded runtime plan may be reviewed after static gaps are resolved or explicitly accepted",
+  "observed_ABI_mismatch": false,
+  "remaining_unknown": [
+    "Full installed type layout",
+    "All optimized inline accesses",
+    "ShapeNode stripped local virtual target identity",
+    "Original buildinfo/Eigen flags",
+    "Allocation/lifetime/unwinding runtime contract",
+    "Instrumentation runtime neutrality"
+  ],
+  "tests": {
+    "new-final": {
+      "tests": 13,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "v1": {
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "native": {
+      "tests": 45,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "regression": {
+      "tests": 108,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "total": 178,
+  "next_minimum": "Resolve ShapeNode/Bullet local virtual target identity and remaining cross-boundary offsets using matching debug/symbol map or bounded disassembly before Host plan approval"
+}
