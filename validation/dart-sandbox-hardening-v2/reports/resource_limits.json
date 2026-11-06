@@ -1,0 +1,48 @@
+{
+  "status": "PARTIAL",
+  "per_process_limits": {
+    "CPU_seconds": 2,
+    "AS_MiB": 256,
+    "FSIZE_KiB": 64,
+    "NOFILE": 64,
+    "NPROC_UID_shared": 512,
+    "CORE": 0
+  },
+  "per_process_limit_evidence": "fixture_results.json successful READY records; V1 pressure results historical, not rerun",
+  "whole_tree_usage_samples": {
+    "abnormal": {
+      "RSS_sum_bytes": 51429376,
+      "CPU_ticks_sum": 3,
+      "process_count": 6
+    },
+    "sigkill": {
+      "RSS_sum_bytes": 50872320,
+      "CPU_ticks_sum": 4,
+      "process_count": 6
+    }
+  },
+  "usage_limit_distinction": "RSS samples can double-count shared pages and are snapshots, not aggregate memory bounds; CPU ticks are observations not quotas",
+  "tmpfs": {
+    "tmp_MiB": 4,
+    "output_MiB": 4,
+    "shm_MiB": 1,
+    "root_MiB": 16,
+    "root_readonly_after_setup": true,
+    "dev_readonly_except_shm": true,
+    "tmp_capacity_test": "PASS: ENOSPC at4MiB",
+    "output_capacity_test": "PASS: ENOSPC at4MiB",
+    "writable_payload_capacity_total_MiB": 9,
+    "shm_exhaustion_test": "NOT_RUN; configured size only"
+  },
+  "host_disk": "fixture has no writable host bind; host orchestrator stdout/stderr file writes are separate finite reviewed log paths; no host disk quota claim",
+  "aggregate_limits": {
+    "memory": "SKIP",
+    "PID_count": "SKIP",
+    "CPU_quota": "SKIP"
+  },
+  "cgroup_reason": "host scope permits some writes but subtree_control empty, controllers memory/pids only, cpu.max absent; no delegated active task leaf verified, no parent/controller/policy changes or cgroup writes performed",
+  "evidence": [
+    "cgroup_capabilities.json",
+    "fixture_results.json"
+  ]
+}

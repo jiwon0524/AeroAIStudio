@@ -1,0 +1,35 @@
+{
+  "uid": 1000,
+  "cgroup_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice/vte-spawn-14008047-fbbd-4305-8680-66aa55fc87a0.scope",
+  "files": {
+    "cgroup.controllers": {
+      "value": "memory pids",
+      "writable_access": false,
+      "owner_uid": 1000
+    },
+    "cgroup.subtree_control": {
+      "value": "",
+      "writable_access": true,
+      "owner_uid": 1000
+    },
+    "cgroup.procs": {
+      "value": "not recorded",
+      "writable_access": true,
+      "owner_uid": 1000
+    },
+    "memory.max": {
+      "value": "max",
+      "writable_access": true,
+      "owner_uid": 1000
+    },
+    "pids.max": {
+      "value": "34727",
+      "writable_access": true,
+      "owner_uid": 1000
+    },
+    "cpu.max": {
+      "error": "[Errno 2] No such file or directory: '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice/vte-spawn-14008047-fbbd-4305-8680-66aa55fc87a0.scope/cpu.max'"
+    }
+  },
+  "directory_writable": true
+}

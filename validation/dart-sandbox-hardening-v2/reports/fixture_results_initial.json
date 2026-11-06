@@ -1,0 +1,313 @@
+{
+  "tests": [
+    {
+      "test_id": "normal",
+      "status": "PASS",
+      "returncode": 0,
+      "entered": true,
+      "stdout": "{\"ready\": true, \"ns\": {\"user\": \"user:[4026534016]\", \"mnt\": \"mnt:[4026533837]\", \"pid\": \"pid:[4026533840]\", \"net\": \"net:[4026533842]\"}, \"pid\": 2, \"maps_clean\": true}\nCASE_ENTERED\n",
+      "error": "",
+      "seconds": 0.115,
+      "observed_tree": [],
+      "remaining_identities": [],
+      "evidence": "reports/fixture_results.json",
+      "purpose": "normal",
+      "fixture": "tests/fixture.py + scripts/supervisor.py",
+      "isolation": "fresh root allowlist; private bounded tmpfs; user/mount/PID/net namespaces",
+      "temporary_cleanup": true
+    },
+    {
+      "test_id": "tmp_capacity",
+      "status": "PASS",
+      "returncode": 0,
+      "entered": true,
+      "stdout": "{\"ready\": true, \"ns\": {\"user\": \"user:[4026534016]\", \"mnt\": \"mnt:[4026533837]\", \"pid\": \"pid:[4026533840]\", \"net\": \"net:[4026533842]\"}, \"pid\": 2, \"maps_clean\": true}\nCASE_ENTERED\n{\"bytes_written\": 4194304, \"errno\": 28, \"capacity\": 4194304}\n",
+      "error": "",
+      "seconds": 0.116,
+      "observed_tree": [],
+      "remaining_identities": [],
+      "evidence": "reports/fixture_results.json",
+      "purpose": "tmp_capacity",
+      "fixture": "tests/fixture.py + scripts/supervisor.py",
+      "isolation": "fresh root allowlist; private bounded tmpfs; user/mount/PID/net namespaces",
+      "temporary_cleanup": true
+    },
+    {
+      "test_id": "output_capacity",
+      "status": "PASS",
+      "returncode": 0,
+      "entered": true,
+      "stdout": "{\"ready\": true, \"ns\": {\"user\": \"user:[4026534018]\", \"mnt\": \"mnt:[4026533838]\", \"pid\": \"pid:[4026533841]\", \"net\": \"net:[4026533843]\"}, \"pid\": 2, \"maps_clean\": true}\nCASE_ENTERED\n{\"bytes_written\": 4194304, \"errno\": 28, \"capacity\": 4194304}\n",
+      "error": "",
+      "seconds": 0.115,
+      "observed_tree": [],
+      "remaining_identities": [],
+      "evidence": "reports/fixture_results.json",
+      "purpose": "output_capacity",
+      "fixture": "tests/fixture.py + scripts/supervisor.py",
+      "isolation": "fresh root allowlist; private bounded tmpfs; user/mount/PID/net namespaces",
+      "temporary_cleanup": true
+    },
+    {
+      "test_id": "sockets",
+      "status": "PASS",
+      "returncode": 0,
+      "entered": true,
+      "stdout": "{\"ready\": true, \"ns\": {\"user\": \"user:[4026534016]\", \"mnt\": \"mnt:[4026533837]\", \"pid\": \"pid:[4026533840]\", \"net\": \"net:[4026533842]\"}, \"pid\": 2, \"maps_clean\": true}\nCASE_ENTERED\n{\"ipv6_local\": \"local\", \"ipv6_host\": 111, \"ipv6_external_tcp\": 101, \"ipv6_external_udp\": 101, \"host_path_visible\": false, \"unix_host\": 2, \"abstract_host\": 111, \"unix_local\": \"local\"}\n",
+      "error": "",
+      "seconds": 0.115,
+      "observed_tree": [],
+      "remaining_identities": [],
+      "evidence": "reports/fixture_results.json",
+      "purpose": "sockets",
+      "fixture": "tests/fixture.py + scripts/supervisor.py",
+      "isolation": "fresh root allowlist; private bounded tmpfs; user/mount/PID/net namespaces",
+      "temporary_cleanup": true
+    },
+    {
+      "test_id": "timeout",
+      "status": "PASS",
+      "returncode": 124,
+      "entered": true,
+      "stdout": "{\"ready\": true, \"ns\": {\"user\": \"user:[4026534018]\", \"mnt\": \"mnt:[4026533838]\", \"pid\": \"pid:[4026533841]\", \"net\": \"net:[4026533843]\"}, \"pid\": 2, \"maps_clean\": true}\nCASE_ENTERED\n{\"child\": 3}\n",
+      "error": "",
+      "seconds": 0.566,
+      "observed_tree": [],
+      "remaining_identities": [],
+      "evidence": "reports/fixture_results.json",
+      "purpose": "timeout",
+      "fixture": "tests/fixture.py + scripts/supervisor.py",
+      "isolation": "fresh root allowlist; private bounded tmpfs; user/mount/PID/net namespaces",
+      "temporary_cleanup": true
+    },
+    {
+      "test_id": "abnormal",
+      "status": "PASS",
+      "returncode": 17,
+      "entered": true,
+      "stdout": "{\"ready\": true, \"ns\": {\"user\": \"user:[4026534017]\", \"mnt\": \"mnt:[4026533838]\", \"pid\": \"pid:[4026533841]\", \"net\": \"net:[4026533843]\"}, \"pid\": 2, \"maps_clean\": true}\nCASE_ENTERED\n{\"child\": 3}\n",
+      "error": "",
+      "seconds": 0.123,
+      "observed_tree": [
+        {
+          "pid": 180467,
+          "state": "S",
+          "ppid": 180440,
+          "start": "17453579"
+        },
+        {
+          "pid": 180468,
+          "state": "S",
+          "ppid": 180467,
+          "start": "17453581"
+        },
+        {
+          "pid": 180469,
+          "state": "S",
+          "ppid": 180468,
+          "start": "17453582"
+        },
+        {
+          "pid": 180470,
+          "state": "S",
+          "ppid": 180469,
+          "start": "17453582"
+        },
+        {
+          "pid": 180471,
+          "state": "S",
+          "ppid": 180470,
+          "start": "17453584"
+        },
+        {
+          "pid": 180473,
+          "state": "S",
+          "ppid": 180471,
+          "start": "17453586"
+        }
+      ],
+      "remaining_identities": [],
+      "evidence": "reports/fixture_results.json",
+      "purpose": "abnormal",
+      "fixture": "tests/fixture.py + scripts/supervisor.py",
+      "isolation": "fresh root allowlist; private bounded tmpfs; user/mount/PID/net namespaces",
+      "temporary_cleanup": true
+    },
+    {
+      "test_id": "sigkill",
+      "status": "PASS",
+      "returncode": -9,
+      "entered": true,
+      "stdout": "{\"ready\": true, \"ns\": {\"user\": \"user:[4026534018]\", \"mnt\": \"mnt:[4026533838]\", \"pid\": \"pid:[4026533841]\", \"net\": \"net:[4026533843]\"}, \"pid\": 2, \"maps_clean\": true}\nCASE_ENTERED\n{\"child\": 3}\n",
+      "error": "",
+      "seconds": 0.104,
+      "observed_tree": [
+        {
+          "pid": 180474,
+          "state": "S",
+          "ppid": 180440,
+          "start": "17453591"
+        },
+        {
+          "pid": 180475,
+          "state": "S",
+          "ppid": 180474,
+          "start": "17453594"
+        },
+        {
+          "pid": 180476,
+          "state": "S",
+          "ppid": 180475,
+          "start": "17453594"
+        },
+        {
+          "pid": 180477,
+          "state": "S",
+          "ppid": 180476,
+          "start": "17453595"
+        },
+        {
+          "pid": 180478,
+          "state": "S",
+          "ppid": 180477,
+          "start": "17453596"
+        },
+        {
+          "pid": 180479,
+          "state": "S",
+          "ppid": 180478,
+          "start": "17453597"
+        }
+      ],
+      "remaining_identities": [],
+      "evidence": "reports/fixture_results.json",
+      "purpose": "sigkill",
+      "fixture": "tests/fixture.py + scripts/supervisor.py",
+      "isolation": "fresh root allowlist; private bounded tmpfs; user/mount/PID/net namespaces",
+      "temporary_cleanup": true
+    },
+    {
+      "test_id": "normal",
+      "status": "PASS",
+      "returncode": 0,
+      "entered": true,
+      "stdout": "{\"ready\": true, \"ns\": {\"user\": \"user:[4026534019]\", \"mnt\": \"mnt:[4026533838]\", \"pid\": \"pid:[4026533841]\", \"net\": \"net:[4026533844]\"}, \"pid\": 2, \"maps_clean\": true}\nCASE_ENTERED\n",
+      "error": "",
+      "seconds": 0.064,
+      "observed_tree": [],
+      "remaining_identities": [],
+      "evidence": "reports/fixture_results.json",
+      "purpose": "normal",
+      "fixture": "tests/fixture.py + scripts/supervisor.py",
+      "isolation": "fresh root allowlist; private bounded tmpfs; user/mount/PID/net namespaces",
+      "temporary_cleanup": true
+    },
+    {
+      "test_id": "namespace_fail",
+      "status": "PASS",
+      "returncode": 1,
+      "entered": false,
+      "stdout": "",
+      "error": "bwrap: Unknown option --invalid-namespace-option\n",
+      "seconds": 0.032,
+      "observed_tree": [],
+      "remaining_identities": [],
+      "evidence": "reports/fixture_results.json",
+      "purpose": "namespace_fail",
+      "fixture": "tests/fixture.py + scripts/supervisor.py",
+      "isolation": "fresh root allowlist; private bounded tmpfs; user/mount/PID/net namespaces",
+      "temporary_cleanup": true
+    },
+    {
+      "test_id": "mount_fail",
+      "status": "PASS",
+      "returncode": 1,
+      "entered": false,
+      "stdout": "",
+      "error": "bwrap: Can't find source path /nonexistent-owned-test-source: No such file or directory\n",
+      "seconds": 0.032,
+      "observed_tree": [],
+      "remaining_identities": [],
+      "evidence": "reports/fixture_results.json",
+      "purpose": "mount_fail",
+      "fixture": "tests/fixture.py + scripts/supervisor.py",
+      "isolation": "fresh root allowlist; private bounded tmpfs; user/mount/PID/net namespaces",
+      "temporary_cleanup": true
+    },
+    {
+      "test_id": "network_fail",
+      "status": "PASS",
+      "returncode": 90,
+      "entered": false,
+      "stdout": "",
+      "error": "",
+      "seconds": 0.064,
+      "observed_tree": [],
+      "remaining_identities": [],
+      "evidence": "reports/fixture_results.json",
+      "purpose": "network_fail",
+      "fixture": "tests/fixture.py + scripts/supervisor.py",
+      "isolation": "fresh root allowlist; private bounded tmpfs; user/mount/PID/net namespaces",
+      "temporary_cleanup": true
+    },
+    {
+      "test_id": "resource_fail",
+      "status": "PASS",
+      "returncode": 1,
+      "entered": false,
+      "stdout": "",
+      "error": "prlimit: failed to parse AS limit\n",
+      "seconds": 0.032,
+      "observed_tree": [],
+      "remaining_identities": [],
+      "evidence": "reports/fixture_results.json",
+      "purpose": "resource_fail",
+      "fixture": "tests/fixture.py + scripts/supervisor.py",
+      "isolation": "fresh root allowlist; private bounded tmpfs; user/mount/PID/net namespaces",
+      "temporary_cleanup": true
+    },
+    {
+      "test_id": "supervisor_init",
+      "status": "PASS",
+      "returncode": 71,
+      "entered": false,
+      "stdout": "",
+      "error": "",
+      "seconds": 0.032,
+      "observed_tree": [],
+      "remaining_identities": [],
+      "evidence": "reports/fixture_results.json",
+      "purpose": "supervisor_init",
+      "fixture": "tests/fixture.py + scripts/supervisor.py",
+      "isolation": "fresh root allowlist; private bounded tmpfs; user/mount/PID/net namespaces",
+      "temporary_cleanup": true
+    },
+    {
+      "test_id": "temp_prepare",
+      "status": "PASS",
+      "returncode": 72,
+      "entered": false,
+      "stdout": "",
+      "error": "",
+      "seconds": 0.032,
+      "observed_tree": [],
+      "remaining_identities": [],
+      "evidence": "reports/fixture_results.json",
+      "purpose": "temp_prepare",
+      "fixture": "tests/fixture.py + scripts/supervisor.py",
+      "isolation": "fresh root allowlist; private bounded tmpfs; user/mount/PID/net namespaces",
+      "temporary_cleanup": true
+    }
+  ],
+  "PASS": 14,
+  "FAIL": 0,
+  "SKIP": 0,
+  "host_socket_controls": [
+    true,
+    true,
+    true
+  ],
+  "host_received_after_isolation": [],
+  "subreaper_applied": true,
+  "actual_runtime_executed": false
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-06T15:35:26.562035+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "757f3a1c043fd12e7683d3244e4ab4466198ac2e",
+    "branch": "experiment/dart-internal-trace",
+    "status": []
+  },
+  "evidence": [
+    {
+      "path": "validation/dart-sandbox-hardening-v2/reports/verdict.json",
+      "sha256": "08affabe5e213d59f5ac2480ec5152ff2de471486c12ca1b510954a9d09cf551"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}

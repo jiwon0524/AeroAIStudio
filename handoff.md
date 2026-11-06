@@ -1,3 +1,24 @@
+# Sandbox Isolation Hardening V2 — current checkpoint
+
+현재 사용자 범위 완료: **SANDBOX_ISOLATION_PARTIAL / Probe A~D BLOCKED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. 실제 DART/Gazebo 로드·객체·예외·OFF/ON·World::step·Probe·Stage B 전부 NOT_RUN.
+
+시작 local/remote757f3a1c043fd12e7683d3244e4ab4466198ac2e clean 일치, main46134c6 기존 수정8/미추적31/staged0 보존. context-handoff와 AGENTS/DEVELOPMENT_RULES/V1/Readiness를 대조했다. V1의 이전 snapshot HEAD는 게시 전값이며757f3a1 파일 목록으로 연결했다. 공통 스킬/시스템/production 변경 없음.
+
+신규 증거 `validation/dart-sandbox-hardening-v2/reports/`: final_report, resource_limits, supervisor_termination, socket_isolation, fail_closed, fixture_results(+initial), cgroup_capabilities, test_summary, integrity, verdict, handoff_snapshot. 최종14 Fixture+6 offline=**20 PASS/0 FAIL/4 SKIP**(aggregate memory/PID/CPU3 + 실제 kernel namespace creation failure1). 최초14 PASS는 별도 보존·합산 안 함. 관측 실패 run 없음.
+
+해결 범위: fresh root allowlist(/usr·fixture만), root/dev ro, tmp/output4MiB 각각 ENOSPC 확인; shm1MiB는 설정만 확인. writable host bind 없음. supervisor만 비정상/SIGKILL 후 관측6개 PID/PPid/start 모두 사라짐(자식·손자 포함, own subreaper wait); IPv6/private UNIX echo 성공, 호스트 positive controls3성공 및 sandbox 전달0. share-net/AS mismatch를 본문 gate가 거부하고 설정/mount/supervisor/temp 준비 실패도 본문 미진입. namespace invalid-option 거부를 실제 kernel syscall 실패로 과장하지 않음.
+
+잔여: host cgroup scope 일부 writable이지만 subtree_control 비어 있고 memory/pids만 있고 cpu.max 없음. 기존 parent/controller/cgroup 정책 변경 없이 active task leaf가 확인되지 않아 aggregate bounds SKIP. RLIMIT와 RSS/CPU sample은 whole-tree 한계가 아니다. DART dependency closure·B/C External 누락/RUNPATH 빈항목·init-fini/native A fixture·allocator/EH 위험은 기존 판정 유지.
+
+보존검사 기존54,483파일 변경/누락0·기존범위 신규0, main HEAD/status 유지 PASS. 신규 task와 실험 handoff만 이번 소유. 신규 scripts/tests/경량 reports만 명시 게시하고 work/full manifest는 제외한다. /tmp raw/ignored·main untracked 증거는 Git push로 다른 기기에 자동 이전되지 않는다. 실제 게시 SHA/원격 일치는 reports/git_publication.json 로컬 영수증·최종 응답을 따른다. 자기 SHA 재귀 commit 없음.
+
+다음 최소 작업: **기존 정책을 바꾸지 않는 위임된 active memory/pids/cpu 전용 task 환경 또는 disposable 환경 확보**, 이후 무해한 aggregate 초과 처리·kernel namespace failure gate 검증. 현재 환경에서 같은 RLIMIT 반복으로 전체 제한을 인증하지 않는다. 그 뒤 exact closure/init-fini/A native fixture 감사 및 별도 승인 준비 재판정. 이번 종료 후 Runtime 자동 실행 없음.
+
+알려진 테스트 descendants는 모두 wait/reap 완료, abrupt case 모든 관측 identity 사라짐. 최종 host/time/tasks는 새 handoff_snapshot.json을 따른다. 외부 CWD/remote/container는 UNKNOWN. 기존 프로세스 종료/재시작·계정 변경·main/force push/reset/rebase/stash/merge 없음.
+
+---
+이하 이전 인계 기록:
+
 # Runtime Sandbox Isolation Verification V1 — current checkpoint
 
 현재 요청 완료: **SANDBOX_ISOLATION_PARTIAL / Probe A~D BLOCKED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. 실제 DART/Gazebo 로드/객체/예외/OFF-ON/World::step/Stage B/Probe는 모두 NOT_RUN.
@@ -218,26 +239,18 @@ Common skill source remains outside the project at `/home/jiwon/Projects/my-agen
 ```context-handoff-state
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06T07:07:42.757164+00:00",
+  "updated_at": "2026-11-06T15:35:26.562035+00:00",
   "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
   "host": "jiwon-System-Product-Name",
   "git": {
-    "head": "f42f2abbdca5b3f7db9d5e4ab130d478f778a0f7",
+    "head": "757f3a1c043fd12e7683d3244e4ab4466198ac2e",
     "branch": "experiment/dart-internal-trace",
     "status": []
   },
   "evidence": [
     {
-      "path": "validation/dart-targeted-evidence-v1/reports/verdict.json",
-      "sha256": "1ef6873beeea46b68db3c3078b7c69d798e4d039fe1d6dec642e0d8b601ee3c4"
-    },
-    {
-      "path": "validation/dart-targeted-evidence-v1/reports/integrity.json",
-      "sha256": "d9669f6b045856a9643e314a308ae164e321c9ca81271cc894fafa7bc4e8774e"
-    },
-    {
-      "path": "validation/dart-targeted-evidence-v1/reports/ubuntu_debug_signature.json",
-      "sha256": "35a958688a90f13c65b9e2756281b924ea71345b0099095c87d520a5a89e72b7"
+      "path": "validation/dart-sandbox-hardening-v2/reports/verdict.json",
+      "sha256": "08affabe5e213d59f5ac2480ec5152ff2de471486c12ca1b510954a9d09cf551"
     }
   ],
   "processes": {

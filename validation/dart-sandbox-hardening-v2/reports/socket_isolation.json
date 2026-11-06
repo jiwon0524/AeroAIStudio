@@ -1,0 +1,26 @@
+{
+  "status": "PASS_BOUNDED_FIXTURE",
+  "host_positive_controls": [
+    true,
+    true,
+    true
+  ],
+  "host_received_after_isolation": [],
+  "namespace": "distinct net/user/mnt/PID gates; fresh tmpfs root allowlists /usr and fixture code only; no host home/run/tmp sockets exposed",
+  "ipv6": {
+    "internal_loopback": "PASS local echo",
+    "host_loopback": "PASS refused in separate netns",
+    "documentation_external_TCP_UDP": "PASS ENETUNREACH to2001:db8::1; no external service/data"
+  },
+  "unix": {
+    "pathname": "host exists and accepted positive control; absent only inside fresh root/private tmpfs (mount-based exclusion), ENOENT",
+    "abstract": "host accepted positive control; identical abstract name sandbox ECONNREFUSED with separate net namespace",
+    "internal_allowed": "PASS local socket echo under private /tmp"
+  },
+  "limits": [
+    "does not inventory every host socket",
+    "host sockets never explicitly bind-exposed; no claim read-only bind alone blocks socket connects",
+    "IPv4/DNS V1 results are historical; not rerun in V2"
+  ],
+  "evidence": "fixture_results.json:sockets"
+}

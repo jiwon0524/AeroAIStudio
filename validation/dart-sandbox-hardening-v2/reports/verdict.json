@@ -1,0 +1,22 @@
+{
+  "verdict": "SANDBOX_ISOLATION_PARTIAL",
+  "Probe_A": "BLOCKED",
+  "Probe_B_D": "BLOCKED",
+  "runtime": "NOT_RUNTIME_VERIFIED",
+  "Stage_B": "BLOCKED",
+  "resolved": [
+    "bounded tmpfs/output ENOSPC",
+    "independent supervisor abnormal/SIGKILL cleanup and reaping",
+    "IPv6/UNIX socket positive controls and blocked host delivery",
+    "six fail-closed injected configurations"
+  ],
+  "remaining": [
+    "aggregate memory/PID/CPU hard bounds not established",
+    "shared memory tmpfs capacity configured but not exhausted",
+    "actual kernel namespace creation failure injection not tested",
+    "DART dependency closure/provider and init-fini/IFUNC/TLS/thread shutdown audit missing",
+    "B/C External expected paths missing and RUNPATH empty component per preserved V1 evidence",
+    "Destructor/Allocator and Exception/Unwinding remain UNKNOWN/HIGH"
+  ],
+  "next_minimum": "obtain a verified delegated task cgroup/disposable environment with active memory/pids/cpu controls without changing existing policies; repeat bounded aggregate resource and kernel namespace-failure gate tests; then audit A exact closure/init-fini/native fixture before separate approval"
+}

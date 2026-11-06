@@ -1,0 +1,55 @@
+{
+  "fixture": {
+    "PASS": 14,
+    "FAIL": 0,
+    "SKIP": 0
+  },
+  "offline_review": {
+    "PASS": 6,
+    "FAIL": 0,
+    "SKIP": 0
+  },
+  "additional_tests": [
+    {
+      "test_id": "aggregate_memory",
+      "status": "SKIP",
+      "reason": "no verified delegated active leaf; no cgroup policy changes",
+      "seconds": 0,
+      "evidence": "reports/resource_limits.json"
+    },
+    {
+      "test_id": "aggregate_pids",
+      "status": "SKIP",
+      "reason": "UID NPROC is not whole-tree PID limit",
+      "seconds": 0,
+      "evidence": "reports/resource_limits.json"
+    },
+    {
+      "test_id": "aggregate_cpu",
+      "status": "SKIP",
+      "reason": "cpu controller absent in observed host scope",
+      "seconds": 0,
+      "evidence": "reports/resource_limits.json"
+    },
+    {
+      "test_id": "kernel_namespace_failure",
+      "status": "SKIP",
+      "reason": "namespace configuration rejection tested; real kernel create failure not injected",
+      "seconds": 0,
+      "evidence": "reports/fail_closed.json"
+    }
+  ],
+  "total": {
+    "PASS": 20,
+    "FAIL": 0,
+    "SKIP": 4
+  },
+  "initial_run": {
+    "PASS": 14,
+    "FAIL": 0,
+    "SKIP": 0,
+    "evidence": "fixture_results_initial.json",
+    "note": "initial success preserved; final run adds actual AS mismatch gate and RSS/CPU observations; no failed run observed"
+  },
+  "actual_DART_Gazebo_Probe_A_D": "NOT_RUN outside counts"
+}
