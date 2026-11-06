@@ -1,0 +1,35 @@
+{
+  "new_offline_and_observed_evidence_tests": 15,
+  "existing_smoke_regressions": 6,
+  "existing_hardening_regressions": 6,
+  "actual_revalidation_fixtures": 2,
+  "final_tests_pending_integrity_completion": false,
+  "initial_failures": [
+    {
+      "type": "unit test mock",
+      "result": "7 PASS 1 FAIL",
+      "reason": "RLIMIT gate correctly preceded namespace gate; mocked expected RLIMIT for namespace test"
+    },
+    {
+      "type": "memory preflight",
+      "service_creation": 0,
+      "reason": "inherited ru_maxrss; post-exec VmHWM measurement corrected"
+    },
+    {
+      "type": "initial host collection",
+      "result": "fixture exit0; collector FAIL",
+      "reason": "systemd stdout journal default; added --pipe"
+    },
+    {
+      "type": "evidence unittest premature",
+      "result": "14 PASS 1 ERROR",
+      "reason": "integrity hash job had not completed; no assertion or acceptance rule modified"
+    }
+  ],
+  "SKIP": 5,
+  "actual_DART_Gazebo_Probe": "NOT_RUN",
+  "PASS": 29,
+  "FAIL": 0,
+  "unit_and_regression_PASS": 27,
+  "actual_fixture_PASS": 2
+}

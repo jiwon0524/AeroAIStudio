@@ -1,0 +1,8 @@
+{
+  "host_positive_controls": [
+    true,
+    true,
+    true
+  ],
+  "sandbox_connection_received": false
+}

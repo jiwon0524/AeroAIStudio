@@ -1,0 +1,59 @@
+{
+  "cases": {
+    "inheritance": {
+      "unit_state": {
+        "TimeoutStopUSec": "1min 30s",
+        "RuntimeMaxUSec": "infinity",
+        "MainPID": "0",
+        "Result": "success",
+        "ExecMainCode": "0",
+        "ExecMainStatus": "0",
+        "ControlGroup": "",
+        "CPUQuotaPerSecUSec": "infinity",
+        "CPUQuotaPeriodUSec": "infinity",
+        "MemoryMax": "infinity",
+        "MemorySwapMax": "infinity",
+        "TasksMax": "34727",
+        "KillMode": "control-group",
+        "Id": "aero-cgroup-integration-v1-inheritance-7f636a97af.service",
+        "LoadState": "not-found",
+        "ActiveState": "inactive",
+        "SubState": "dead",
+        "Transient": "no",
+        "InvocationID": ""
+      },
+      "cgroup_removed": true,
+      "remaining_identities": [],
+      "status": "PASS"
+    },
+    "bubblewrap": {
+      "unit_state": {
+        "TimeoutStopUSec": "1min 30s",
+        "RuntimeMaxUSec": "infinity",
+        "MainPID": "0",
+        "Result": "success",
+        "ExecMainCode": "0",
+        "ExecMainStatus": "0",
+        "ControlGroup": "",
+        "CPUQuotaPerSecUSec": "infinity",
+        "CPUQuotaPeriodUSec": "infinity",
+        "MemoryMax": "infinity",
+        "MemorySwapMax": "infinity",
+        "TasksMax": "34727",
+        "KillMode": "control-group",
+        "Id": "aero-cgroup-integration-v1-bubblewrap-9a977f6fbc.service",
+        "LoadState": "not-found",
+        "ActiveState": "inactive",
+        "SubState": "dead",
+        "Transient": "no",
+        "InvocationID": ""
+      },
+      "cgroup_removed": true,
+      "remaining_identities": [],
+      "status": "PASS"
+    }
+  },
+  "host_temp_removed": true,
+  "project_canary_removed": true,
+  "pressure_or_SIGKILL_injection": false
+}

@@ -1,0 +1,58 @@
+{
+  "bubblewrap_status": "PASS",
+  "details": [
+    {
+      "role": "parent",
+      "pid": 2,
+      "ppid": 1,
+      "cgroup": "0::/",
+      "ns": {
+        "user": "user:[4026533899]",
+        "mnt": "mnt:[4026532937]",
+        "pid": "pid:[4026533132]",
+        "net": "net:[4026533134]"
+      },
+      "rss_kib": 12992,
+      "gate": "PASS",
+      "isolation": {
+        "/project/validation/dart-cgroup-integration-v1/work/project_canary": 30,
+        "/fixture/fixture.py": 30,
+        "private_writes": true,
+        "ipv4_external": 101,
+        "ipv6_external": 101,
+        "ipv6_host": 111,
+        "unix_host": 2,
+        "abstract_host": 111
+      }
+    },
+    {
+      "role": "child",
+      "pid": 3,
+      "ppid": 2,
+      "cgroup": "0::/",
+      "ns": {
+        "user": "user:[4026533899]",
+        "mnt": "mnt:[4026532937]",
+        "pid": "pid:[4026533132]",
+        "net": "net:[4026533134]"
+      },
+      "rss_kib": 13180,
+      "gate": "PASS"
+    },
+    {
+      "role": "grandchild",
+      "pid": 4,
+      "ppid": 3,
+      "cgroup": "0::/",
+      "ns": {
+        "user": "user:[4026533899]",
+        "mnt": "mnt:[4026532937]",
+        "pid": "pid:[4026533132]",
+        "net": "net:[4026533134]"
+      },
+      "rss_kib": 12996,
+      "gate": "PASS"
+    }
+  ],
+  "host_socket_delivery": false
+}

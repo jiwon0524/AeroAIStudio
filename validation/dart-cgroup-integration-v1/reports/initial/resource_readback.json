@@ -1,0 +1,22 @@
+{
+  "cases": {
+    "inheritance": {
+      "memory.max": null,
+      "memory.swap.max": null,
+      "pids.max": null,
+      "cpu.max": null,
+      "cgroup.procs": null,
+      "cgroup.threads": null,
+      "memory.current": null,
+      "memory.peak": null,
+      "pids.current": null,
+      "memory.events": null
+    }
+  },
+  "limits": {
+    "MemoryMax": "64M",
+    "TasksMax": 8,
+    "CPUQuota": "25%"
+  },
+  "excess_enforcement": "NOT_TESTED"
+}

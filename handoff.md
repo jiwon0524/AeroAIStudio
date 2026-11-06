@@ -1,3 +1,22 @@
+# Cgroup Inheritance & Bubblewrap Integration V1 — current checkpoint
+
+현재 명시 승인 범위 완료: **CGROUP_BWRAP_INTEGRATION_VERIFIED / Probe A NEEDS_ADDITIONAL_EVIDENCE / B~D BLOCKED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. 실제 DART/Gazebo library load, World::step, Probe, 자원 고갈·CPU 과부하·kernel namespace 실패 주입·Supervisor SIGKILL은 미실행.
+
+작업 시작 branch experiment/dart-internal-trace/HEAD b60d9f9c991579ac4694d108e10e8166f942392e clean 및 원격 일치를 확인했다. main HEAD/status 기존 변경 보존. context-handoff 스킬과 지침/Smoke V1/Hardening V2/Delegation Readiness 원본을 대조했다.
+
+새 증거 `validation/dart-cgroup-integration-v1/reports/`: final_report, cgroup_inheritance, bubblewrap_integration, resource_readback, isolation_checks, process_cleanup, controller_diff, integrity, verdict, test_summary, initial/*, revalidation/*. 부모/자식/손자 host PID 일반184962/184963/184966, Bubblewrap184985/184988/184993(내부2/3/4), 같은 own leaf membership 및 NSpid 대조 PASS. Bwrap overhead2개 포함 tasks5, 일반3. memory.max67108864/swap0/pids.max8/cpu.max25000 100000 일치. readback peak19,746,816/20,856,832B. namespace/readonly/tmpfs capacity/IPv4·IPv6·host pathname+abstract UNIX 격리 PASS. 정상exit0 후 own unit/cgroup 제거·관측PID/start 잔여0·임시자료정리 PASS.
+
+초기 사전검사 ru_maxrss inherited peak 불일치(service0), 초기 unit의 stdout journal routing(실행exit0/collectionFAIL), 테스트mock1FAIL 및 hash 미완료 선행1ERROR를 보존했다. VmHWM 추정/--pipe/정상RLIMIT mock/완료hash 재검증으로 최종 fixture2+신규offline/evidence15+기존회귀12=**29 PASS/0 FAIL/5 SKIP**. 최초1unit+별도 명시 one-shot 재검증2unit, 자동 retry 없음. 원 attempt 재실행 금지.
+
+controller78경로/선택6파일 비교; 각 실행 중 CPU 자동전파43필드, 종료후 변경0. 수동controller/기존unit 변경 없음. 보존54,545파일 변경·누락/기존범위신규0, main HEAD/status PASS. 새 task와 실험 handoff만 변경; raw work/full manifest는 게시 제외. /tmp·ignored/untracked 원본은 Git push로 다른 기기에 자동 전달되지 않는다. 실제 commit/push/원격SHA는 새 reports/git_publication.json 로컬 영수증 및 최종응답을 따른다.
+
+다음 최소 작업: **Runtime 없이 Probe A exact dependency closure/RUNPATH/dlopen init-fini 및 native fixture 정적 감사**로 남은 승인지점 정리. 이번 요청 종료 후 자동 시작하지 않는다. 초과강제효과·kernel failure·Probe Runtime은 별도 구체 승인 필요. DART 제한을 Python fixture 성공으로 해제하지 않는다.
+
+관측 host/PID/start/시간은 handoff_snapshot.json. 알려진 테스트 모두 종료/정리. project-CWD 관측 범위 이외 외부 CWD/remote/container는 UNKNOWN. 계정전환/기존프로세스종료/재시작 없음. main 무수정, 시스템package/AppArmor/production/Clock/Capture 무변경.
+
+---
+이하 이전 인계 기록:
+
 # Cgroup Transient Service Smoke Test V1 — current checkpoint
 
 이번 명시 승인 범위 완료: **CGROUP_SMOKE_VERIFIED / Probe A~D BLOCKED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. 단일 transient user service에서 **/usr/bin/sleep5만 1회 실행**. 압력/자식·손자/Bubblewrap/DART/Gazebo/Probe/World::step/Stage B는 미실행. 이전 승인 대기는 이번 sleep smoke에 대해서만 해소됐으며 추가 실행 승인은 없다.

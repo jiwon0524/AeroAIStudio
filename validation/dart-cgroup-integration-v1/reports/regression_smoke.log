@@ -1,0 +1,11 @@
+test_approved_plan (test_review.Review.test_approved_plan) ... ok
+test_expected_activation (test_review.Review.test_expected_activation) ... ok
+test_only_own_path_excluded (test_review.Review.test_only_own_path_excluded) ... ok
+test_other_topology_change (test_review.Review.test_other_topology_change) ... ok
+test_quota_mutation_unexpected (test_review.Review.test_quota_mutation_unexpected) ... ok
+test_removal_unexpected (test_review.Review.test_removal_unexpected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK

@@ -1,0 +1,27 @@
+{
+  "unit": "aero-cgroup-integration-v1-inheritance-bc4fb0f8b4.service",
+  "source": "journalctl --user --unit=<exact owned unit> --output=cat",
+  "observed_roles": [
+    {
+      "role": "parent",
+      "pid": 184749,
+      "ppid": 2418
+    },
+    {
+      "role": "child",
+      "pid": 184751,
+      "ppid": 184749
+    },
+    {
+      "role": "grandchild",
+      "pid": 184756,
+      "ppid": 184751
+    }
+  ],
+  "all_cgroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/aero-cgroup-integration-v1-inheritance-bc4fb0f8b4.service",
+  "all_entry_gates": "PASS",
+  "live_cgroup_procs": "NOT_CAPTURED",
+  "returncode": 0,
+  "diagnostic_failure": "missing --pipe; stdout routed to journal; subsequent stale limit readback null",
+  "retry_policy": "no automated retry; separate explicit one-shot revalidation after reviewed collector correction"
+}

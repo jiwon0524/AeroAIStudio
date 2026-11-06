@@ -1,0 +1,12 @@
+{
+  "status": "FAIL",
+  "service_created": false,
+  "reason": "ru_maxrss inherited launcher high-water, not post-exec interpreter resident requirement",
+  "host_observation": {
+    "ru_maxrss_kib": 699104,
+    "VmHWM_kib": 12772,
+    "VmRSS_kib": 12772
+  },
+  "limits_unchanged": true,
+  "correction": "measure /proc/self/status VmHWM of post-exec interpreter plus 8MiB margin for three interpreters"
+}

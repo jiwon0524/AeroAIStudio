@@ -1,0 +1,18 @@
+{
+  "verdict": "CGROUP_BWRAP_INTEGRATION_VERIFIED",
+  "scope": "harmless three-generation processes, resource setting/readback/inheritance, bwrap isolation and normal cleanup only",
+  "Probe_A": "NEEDS_ADDITIONAL_EVIDENCE",
+  "Probe_B_C_D": "BLOCKED",
+  "DART_Gazebo": "NOT_RUNTIME_VERIFIED",
+  "Stage_B": "BLOCKED",
+  "PASS": 29,
+  "FAIL": 0,
+  "SKIP": 5,
+  "initial_failures_preserved": true,
+  "total_owned_service_creations": 3,
+  "automatic_runtime_retry": false,
+  "integrity": "PASS",
+  "resource_excess_enforcement": "UNVERIFIED",
+  "kernel_namespace_failure_injection": "UNVERIFIED",
+  "next_action": "offline Probe A dependency closure/RUNPATH/dlopen init-fini/native fixture audit; no automatic execution"
+}

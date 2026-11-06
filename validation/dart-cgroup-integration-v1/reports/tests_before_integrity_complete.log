@@ -1,0 +1,35 @@
+test_cleanup (test_evidence.ObservedEvidence.test_cleanup) ... ok
+test_controllers_restored (test_evidence.ObservedEvidence.test_controllers_restored) ... ok
+test_filesystem_network (test_evidence.ObservedEvidence.test_filesystem_network) ... ok
+test_integrity (test_evidence.ObservedEvidence.test_integrity) ... ERROR
+test_namespace_identity (test_evidence.ObservedEvidence.test_namespace_identity) ... ok
+test_resource_values (test_evidence.ObservedEvidence.test_resource_values) ... ok
+test_three_generation_membership (test_evidence.ObservedEvidence.test_three_generation_membership) ... ok
+test_cgroup_gate_before_tree (test_integration.SafetyTests.test_cgroup_gate_before_tree) ... ok
+test_controller_diff (test_integration.SafetyTests.test_controller_diff) ... ok
+test_fresh_name_and_one_shot (test_integration.SafetyTests.test_fresh_name_and_one_shot) ... ok
+test_limits (test_integration.SafetyTests.test_limits) ... ok
+test_missing_approval_no_process (test_integration.SafetyTests.test_missing_approval_no_process) ... ok
+test_namespace_gate_before_tree (test_integration.SafetyTests.test_namespace_gate_before_tree) ... ok
+test_namespace_mounts (test_integration.SafetyTests.test_namespace_mounts) ... ok
+test_no_retry_or_pressure (test_integration.SafetyTests.test_no_retry_or_pressure) ... ok
+
+======================================================================
+ERROR: test_integrity (test_evidence.ObservedEvidence.test_integrity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-cgroup-integration-v1/tests/test_evidence.py", line 33, in test_integrity
+    d=json.loads((R/'integrity.json').read_text());self.assertEqual(d['status'],'PASS');self.assertFalse(d['changed_or_missing']);self.assertTrue(d['main_status_unchanged'])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1029, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/AeroAIStudio-dart-internal-trace/validation/dart-cgroup-integration-v1/reports/integrity.json'
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.003s
+
+FAILED (errors=1)

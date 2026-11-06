@@ -1,0 +1,639 @@
+{
+  "manager": {
+    "rc": 0,
+    "stdout": "ControlGroup=/user.slice/user-1000.slice/user@1000.service\nSystemState=running\n",
+    "stderr": "",
+    "values": {
+      "ControlGroup": "/user.slice/user-1000.slice/user@1000.service",
+      "SystemState": "running"
+    }
+  },
+  "estimated_tree_bytes": 47759360,
+  "estimate_is_not_peak_guarantee": true,
+  "baseline_controllers": {
+    ".": {
+      "cgroup.controllers": "cpuset cpu io memory hugetlb pids rdma misc dmem",
+      "cgroup.subtree_control": "cpu memory pids",
+      "memory.max": null,
+      "memory.swap.max": null,
+      "pids.max": null,
+      "cpu.max": null
+    },
+    "dev-hugepages.mount": {
+      "cgroup.controllers": "cpu memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": "max 100000"
+    },
+    "dev-mqueue.mount": {
+      "cgroup.controllers": "cpu memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": "max 100000"
+    },
+    "init.scope": {
+      "cgroup.controllers": "cpu memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": "max 100000"
+    },
+    "proc-sys-fs-binfmt_misc.mount": {
+      "cgroup.controllers": "cpu memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": "max 100000"
+    },
+    "sys-fs-fuse-connections.mount": {
+      "cgroup.controllers": "cpu memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": "max 100000"
+    },
+    "sys-kernel-config.mount": {
+      "cgroup.controllers": "cpu memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": "max 100000"
+    },
+    "sys-kernel-debug.mount": {
+      "cgroup.controllers": "cpu memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": "max 100000"
+    },
+    "sys-kernel-tracing.mount": {
+      "cgroup.controllers": "cpu memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": "max 100000"
+    },
+    "system.slice": {
+      "cgroup.controllers": "cpu memory pids",
+      "cgroup.subtree_control": "memory pids",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "max",
+      "cpu.max": "max 100000"
+    },
+    "user.slice": {
+      "cgroup.controllers": "cpu memory pids",
+      "cgroup.subtree_control": "cpu memory pids",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "max",
+      "cpu.max": "max 100000"
+    },
+    "user.slice/user-1000.slice": {
+      "cgroup.controllers": "cpu memory pids",
+      "cgroup.subtree_control": "cpu memory pids",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "76399",
+      "cpu.max": "max 100000"
+    },
+    "user.slice/user-1000.slice/session-2.scope": {
+      "cgroup.controllers": "cpu memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "max",
+      "cpu.max": "max 100000"
+    },
+    "user.slice/user-1000.slice/session-383.scope": {
+      "cgroup.controllers": "cpu memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "max",
+      "cpu.max": "max 100000"
+    },
+    "user.slice/user-1000.slice/user@1000.service": {
+      "cgroup.controllers": "cpu memory pids",
+      "cgroup.subtree_control": "cpu memory pids",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "max",
+      "cpu.max": "max 100000"
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice": {
+      "cgroup.controllers": "cpu memory pids",
+      "cgroup.subtree_control": "memory pids",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "max",
+      "cpu.max": "max 100000"
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-gnome\\x2dkeyring\\x2dpkcs11-2752.scope": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-org.gnome.Evolution\\x2dalarm\\x2dnotify-3002.scope": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-org.gnome.SettingsDaemon.DiskUtilityNotify-2979.scope": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-update\\x2dnotifier-5778.scope": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-x\\x2dterminal\\x2demulator-3602.scope": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "memory pids",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "max",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "memory pids",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "max",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice/gnome-terminal-server.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice/vte-spawn-14008047-fbbd-4305-8680-66aa55fc87a0.scope": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice/vte-spawn-7f31728c-d0fe-451a-8a54-3367e27528f3.scope": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/dbus.socket": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/dconf.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/evolution-addressbook-factory.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/evolution-calendar-factory.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/evolution-source-registry.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/gcr-ssh-agent.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/gnome-keyring-daemon.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/gnome-session-monitor.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/gpg-agent-ssh.socket": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/snap.firefox.firefox-4bf7580b-ff7b-45b2-9640-62df2d770fee.scope": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/snap.snapd-desktop-integration.snapd-desktop-integration.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/update-notifier-release.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/xdg-desktop-portal-gnome.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/app.slice/xdg-desktop-portal-gtk.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/background.slice": {
+      "cgroup.controllers": "cpu memory pids",
+      "cgroup.subtree_control": "memory pids",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "max",
+      "cpu.max": "max 100000"
+    },
+    "user.slice/user-1000.slice/user@1000.service/background.slice/tracker-miner-fs-3.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/init.scope": {
+      "cgroup.controllers": "cpu memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": "max 100000"
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice": {
+      "cgroup.controllers": "cpu memory pids",
+      "cgroup.subtree_control": "memory pids",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "max",
+      "cpu.max": "max 100000"
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/at-spi-dbus-bus.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/filter-chain.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/gvfs-afc-volume-monitor.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/gvfs-daemon.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/gvfs-goa-volume-monitor.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/gvfs-gphoto2-volume-monitor.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/gvfs-metadata.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/gvfs-mtp-volume-monitor.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/gvfs-udisks2-volume-monitor.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/org.freedesktop.IBus.session.GNOME.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.A11ySettings.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.Color.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.Datetime.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.Housekeeping.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.Keyboard.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.Power.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.PrintNotifications.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.Rfkill.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.ScreensaverProxy.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.Sharing.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.Smartcard.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.Sound.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.Wacom.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.XSettings.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/pipewire-pulse.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/pipewire.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/wireplumber.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/xdg-desktop-portal.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/xdg-document-portal.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    },
+    "user.slice/user-1000.slice/user@1000.service/session.slice/xdg-permission-store.service": {
+      "cgroup.controllers": "memory pids",
+      "cgroup.subtree_control": "",
+      "memory.max": "max",
+      "memory.swap.max": "max",
+      "pids.max": "34727",
+      "cpu.max": null
+    }
+  }
+}

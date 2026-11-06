@@ -1,0 +1,616 @@
+{
+  "test_id": "bubblewrap",
+  "unit": "aero-cgroup-integration-v1-bubblewrap-9a977f6fbc.service",
+  "cgroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/aero-cgroup-integration-v1-bubblewrap-9a977f6fbc.service",
+  "command": [
+    "/usr/bin/systemd-run",
+    "--user",
+    "--wait",
+    "--collect",
+    "--pipe",
+    "--unit=aero-cgroup-integration-v1-bubblewrap-9a977f6fbc.service",
+    "--property=MemoryMax=64M",
+    "--property=MemorySwapMax=0",
+    "--property=TasksMax=8",
+    "--property=CPUQuota=25%",
+    "--property=CPUQuotaPeriodSec=100ms",
+    "--property=RuntimeMaxSec=8s",
+    "--property=TimeoutStopSec=2s",
+    "--property=KillMode=control-group",
+    "--property=OOMPolicy=stop",
+    "--property=Delegate=no",
+    "--property=Slice=app.slice",
+    "/usr/bin/prlimit",
+    "--cpu=2:2",
+    "--as=268435456:268435456",
+    "--fsize=65536:65536",
+    "--nofile=64:64",
+    "--core=0:0",
+    "--",
+    "/usr/bin/bwrap",
+    "--unshare-all",
+    "--die-with-parent",
+    "--new-session",
+    "--size",
+    "16777216",
+    "--tmpfs",
+    "/",
+    "--ro-bind",
+    "/usr",
+    "/usr",
+    "--symlink",
+    "usr/bin",
+    "/bin",
+    "--symlink",
+    "usr/lib",
+    "/lib",
+    "--symlink",
+    "usr/lib64",
+    "/lib64",
+    "--proc",
+    "/proc",
+    "--dev",
+    "/dev",
+    "--size",
+    "1048576",
+    "--tmpfs",
+    "/dev/shm",
+    "--remount-ro",
+    "/dev",
+    "--ro-bind",
+    "/tmp/AeroAIStudio-dart-internal-trace",
+    "/project",
+    "--ro-bind",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-cgroup-integration-v1/tests",
+    "/fixture",
+    "--ro-bind",
+    "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/aero-cgroup-integration-v1-bubblewrap-9a977f6fbc.service",
+    "/limits",
+    "--size",
+    "4194304",
+    "--tmpfs",
+    "/tmp",
+    "--size",
+    "4194304",
+    "--tmpfs",
+    "/run",
+    "--remount-ro",
+    "/",
+    "--chdir",
+    "/run",
+    "--clearenv",
+    "--setenv",
+    "PATH",
+    "/usr/bin:/bin",
+    "--setenv",
+    "LC_ALL",
+    "C",
+    "/usr/bin/python3",
+    "-I",
+    "-B",
+    "/fixture/fixture.py",
+    "0",
+    "{\"host_ns\": {\"user\": \"user:[4026531837]\", \"mnt\": \"mnt:[4026531832]\", \"pid\": \"pid:[4026531836]\", \"net\": \"net:[4026531833]\"}, \"host_canary\": \"/tmp/aero-cgroup-integration-glc0h3sg/canary\", \"unix_path\": \"/tmp/aero-cgroup-integration-glc0h3sg/host.sock\", \"abstract\": \"aero-cgroup-b65ecde84466463481df4dfdbb4afdee\", \"port6\": 41621, \"project_canary_name\": \"validation/dart-cgroup-integration-v1/work/project_canary\", \"sandbox\": true, \"cgroup\": \"/user.slice/user-1000.slice/user@1000.service/app.slice/aero-cgroup-integration-v1-bubblewrap-9a977f6fbc.service\"}"
+  ],
+  "status": "PASS",
+  "body_entered": true,
+  "records": [
+    {
+      "role": "parent",
+      "pid": 2,
+      "ppid": 1,
+      "cgroup": "0::/",
+      "ns": {
+        "user": "user:[4026533899]",
+        "mnt": "mnt:[4026532937]",
+        "pid": "pid:[4026533132]",
+        "net": "net:[4026533134]"
+      },
+      "rss_kib": 12992,
+      "gate": "PASS",
+      "isolation": {
+        "/project/validation/dart-cgroup-integration-v1/work/project_canary": 30,
+        "/fixture/fixture.py": 30,
+        "private_writes": true,
+        "ipv4_external": 101,
+        "ipv6_external": 101,
+        "ipv6_host": 111,
+        "unix_host": 2,
+        "abstract_host": 111
+      }
+    },
+    {
+      "role": "child",
+      "pid": 3,
+      "ppid": 2,
+      "cgroup": "0::/",
+      "ns": {
+        "user": "user:[4026533899]",
+        "mnt": "mnt:[4026532937]",
+        "pid": "pid:[4026533132]",
+        "net": "net:[4026533134]"
+      },
+      "rss_kib": 13180,
+      "gate": "PASS"
+    },
+    {
+      "role": "grandchild",
+      "pid": 4,
+      "ppid": 3,
+      "cgroup": "0::/",
+      "ns": {
+        "user": "user:[4026533899]",
+        "mnt": "mnt:[4026532937]",
+        "pid": "pid:[4026533132]",
+        "net": "net:[4026533134]"
+      },
+      "rss_kib": 12996,
+      "gate": "PASS"
+    }
+  ],
+  "host_processes": [
+    {
+      "pid": 184983,
+      "start": "17656781",
+      "state": "S",
+      "executable": "/usr/bin/bwrap",
+      "cgroup": "0::/user.slice/user-1000.slice/user@1000.service/app.slice/aero-cgroup-integration-v1-bubblewrap-9a977f6fbc.service",
+      "nspid": [
+        "184983"
+      ]
+    },
+    {
+      "pid": 184984,
+      "start": "17656783",
+      "state": "S",
+      "executable": "/usr/bin/bwrap",
+      "cgroup": "0::/user.slice/user-1000.slice/user@1000.service/app.slice/aero-cgroup-integration-v1-bubblewrap-9a977f6fbc.service",
+      "nspid": [
+        "184984",
+        "1"
+      ]
+    },
+    {
+      "pid": 184985,
+      "start": "17656784",
+      "state": "S",
+      "executable": "/usr/bin/python3.12",
+      "cgroup": "0::/user.slice/user-1000.slice/user@1000.service/app.slice/aero-cgroup-integration-v1-bubblewrap-9a977f6fbc.service",
+      "nspid": [
+        "184985",
+        "2"
+      ]
+    },
+    {
+      "pid": 184988,
+      "start": "17656795",
+      "state": "S",
+      "executable": "/usr/bin/python3.12",
+      "cgroup": "0::/user.slice/user-1000.slice/user@1000.service/app.slice/aero-cgroup-integration-v1-bubblewrap-9a977f6fbc.service",
+      "nspid": [
+        "184988",
+        "3"
+      ]
+    },
+    {
+      "pid": 184993,
+      "start": "17656816",
+      "state": "S",
+      "executable": "/usr/bin/python3.12",
+      "cgroup": "0::/user.slice/user-1000.slice/user@1000.service/app.slice/aero-cgroup-integration-v1-bubblewrap-9a977f6fbc.service",
+      "nspid": [
+        "184993",
+        "4"
+      ]
+    }
+  ],
+  "properties": {
+    "TimeoutStopUSec": "2s",
+    "RuntimeMaxUSec": "8s",
+    "MainPID": "184983",
+    "Result": "success",
+    "ExecMainCode": "0",
+    "ExecMainStatus": "0",
+    "ControlGroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/aero-cgroup-integration-v1-bubblewrap-9a977f6fbc.service",
+    "CPUQuotaPerSecUSec": "250ms",
+    "CPUQuotaPeriodUSec": "100ms",
+    "MemoryMax": "67108864",
+    "MemorySwapMax": "0",
+    "TasksMax": "8",
+    "KillMode": "control-group",
+    "Id": "aero-cgroup-integration-v1-bubblewrap-9a977f6fbc.service",
+    "LoadState": "loaded",
+    "ActiveState": "active",
+    "SubState": "running",
+    "Transient": "yes",
+    "InvocationID": "f269ffc85a014b8a8b5f4f50cc2c6f7d"
+  },
+  "readback": {
+    "memory.max": "67108864",
+    "memory.swap.max": "0",
+    "pids.max": "8",
+    "cpu.max": "25000 100000",
+    "cgroup.procs": "184983\n184984\n184985\n184988\n184993",
+    "cgroup.threads": "184983\n184984\n184985\n184988\n184993",
+    "memory.current": "20856832",
+    "memory.peak": "20856832",
+    "pids.current": "5",
+    "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 0"
+  },
+  "during_diff": [
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice",
+      "field": "cgroup.subtree_control",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-gnome\\x2dkeyring\\x2dpkcs11-2752.scope",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-gnome\\x2dkeyring\\x2dpkcs11-2752.scope",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-org.gnome.Evolution\\x2dalarm\\x2dnotify-3002.scope",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-org.gnome.Evolution\\x2dalarm\\x2dnotify-3002.scope",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-org.gnome.SettingsDaemon.DiskUtilityNotify-2979.scope",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-org.gnome.SettingsDaemon.DiskUtilityNotify-2979.scope",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-update\\x2dnotifier-5778.scope",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-update\\x2dnotifier-5778.scope",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-x\\x2dterminal\\x2demulator-3602.scope",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-x\\x2dterminal\\x2demulator-3602.scope",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/dbus.socket",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/dbus.socket",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/dconf.service",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/dconf.service",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/evolution-addressbook-factory.service",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/evolution-addressbook-factory.service",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/evolution-calendar-factory.service",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/evolution-calendar-factory.service",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/evolution-source-registry.service",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/evolution-source-registry.service",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/gcr-ssh-agent.service",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/gcr-ssh-agent.service",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/gnome-keyring-daemon.service",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/gnome-keyring-daemon.service",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/gnome-session-monitor.service",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/gnome-session-monitor.service",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/gpg-agent-ssh.socket",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/gpg-agent-ssh.socket",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/snap.firefox.firefox-4bf7580b-ff7b-45b2-9640-62df2d770fee.scope",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/snap.firefox.firefox-4bf7580b-ff7b-45b2-9640-62df2d770fee.scope",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/snap.snapd-desktop-integration.snapd-desktop-integration.service",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/snap.snapd-desktop-integration.snapd-desktop-integration.service",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/update-notifier-release.service",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/update-notifier-release.service",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/xdg-desktop-portal-gnome.service",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/xdg-desktop-portal-gnome.service",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/xdg-desktop-portal-gtk.service",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/xdg-desktop-portal-gtk.service",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    }
+  ],
+  "returncode": 0,
+  "cleanup": {
+    "unit_state": {
+      "TimeoutStopUSec": "1min 30s",
+      "RuntimeMaxUSec": "infinity",
+      "MainPID": "0",
+      "Result": "success",
+      "ExecMainCode": "0",
+      "ExecMainStatus": "0",
+      "ControlGroup": "",
+      "CPUQuotaPerSecUSec": "infinity",
+      "CPUQuotaPeriodUSec": "infinity",
+      "MemoryMax": "infinity",
+      "MemorySwapMax": "infinity",
+      "TasksMax": "34727",
+      "KillMode": "control-group",
+      "Id": "aero-cgroup-integration-v1-bubblewrap-9a977f6fbc.service",
+      "LoadState": "not-found",
+      "ActiveState": "inactive",
+      "SubState": "dead",
+      "Transient": "no",
+      "InvocationID": ""
+    },
+    "cgroup_removed": true,
+    "remaining_identities": [],
+    "status": "PASS"
+  },
+  "after_diff": [],
+  "stdout": "{\"role\": \"parent\", \"pid\": 2, \"ppid\": 1, \"cgroup\": \"0::/\", \"ns\": {\"user\": \"user:[4026533899]\", \"mnt\": \"mnt:[4026532937]\", \"pid\": \"pid:[4026533132]\", \"net\": \"net:[4026533134]\"}, \"rss_kib\": 12992, \"gate\": \"PASS\", \"isolation\": {\"/project/validation/dart-cgroup-integration-v1/work/project_canary\": 30, \"/fixture/fixture.py\": 30, \"private_writes\": true, \"ipv4_external\": 101, \"ipv6_external\": 101, \"ipv6_host\": 111, \"unix_host\": 2, \"abstract_host\": 111}}\n{\"role\": \"child\", \"pid\": 3, \"ppid\": 2, \"cgroup\": \"0::/\", \"ns\": {\"user\": \"user:[4026533899]\", \"mnt\": \"mnt:[4026532937]\", \"pid\": \"pid:[4026533132]\", \"net\": \"net:[4026533134]\"}, \"rss_kib\": 13180, \"gate\": \"PASS\"}\n{\"role\": \"grandchild\", \"pid\": 4, \"ppid\": 3, \"cgroup\": \"0::/\", \"ns\": {\"user\": \"user:[4026533899]\", \"mnt\": \"mnt:[4026532937]\", \"pid\": \"pid:[4026533132]\", \"net\": \"net:[4026533134]\"}, \"rss_kib\": 12996, \"gate\": \"PASS\"}\n",
+  "stderr": "Running as unit: aero-cgroup-integration-v1-bubblewrap-9a977f6fbc.service; invocation ID: f269ffc85a014b8a8b5f4f50cc2c6f7d\nFinished with result: success\nMain processes terminated with: code=exited/status=0\nService runtime: 2.633s\nCPU time consumed: 206ms\nMemory peak: 19.8M\nMemory swap peak: 0B\n"
+}

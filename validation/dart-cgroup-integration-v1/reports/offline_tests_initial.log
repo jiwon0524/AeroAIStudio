@@ -1,0 +1,25 @@
+test_cgroup_gate_before_tree (test_integration.SafetyTests.test_cgroup_gate_before_tree) ... ok
+test_controller_diff (test_integration.SafetyTests.test_controller_diff) ... ok
+test_fresh_name_and_one_shot (test_integration.SafetyTests.test_fresh_name_and_one_shot) ... ok
+test_limits (test_integration.SafetyTests.test_limits) ... ok
+test_missing_approval_no_process (test_integration.SafetyTests.test_missing_approval_no_process) ... ok
+test_namespace_gate_before_tree (test_integration.SafetyTests.test_namespace_gate_before_tree) ... FAIL
+test_namespace_mounts (test_integration.SafetyTests.test_namespace_mounts) ... ok
+test_no_retry_or_pressure (test_integration.SafetyTests.test_no_retry_or_pressure) ... ok
+
+======================================================================
+FAIL: test_namespace_gate_before_tree (test_integration.SafetyTests.test_namespace_gate_before_tree)
+----------------------------------------------------------------------
+RuntimeError: address space gate
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-cgroup-integration-v1/tests/test_integration.py", line 29, in test_namespace_gate_before_tree
+    with self.assertRaisesRegex(RuntimeError,'namespace'):f.gate(cfg)
+AssertionError: "namespace" does not match "address space gate"
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+FAILED (failures=1)
