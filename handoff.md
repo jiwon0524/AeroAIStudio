@@ -1,3 +1,20 @@
+# Consumer ABI V1 — current checkpoint
+
+현재 사용자 요청: 실제 Gazebo 소비자 기준 정적 ABI/격리 Loader 검증. 기존 docs-only 범위는 종료했고 이 명시적 요청으로 분석만 재개했다. Gazebo/World::step/Stage B/production·시스템 변경 금지는 유지한다. **CONSUMER_ABI_PARTIALLY_VERIFIED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. Host 실행 보류.
+
+직접 확인: 소비 ELF 2경로(동일 hash/Build ID) 각각252 import, B/C effective 누락0 및 metadata mismatch0. installed Bullet 보조 소비자53 import를 별도 분석했다. plugin2×A/B/C=6 및 optional modules2×3=6 relocation 검사 오류0. core/external은 지정 빌드, Bullet은 명시적 설치 모듈 유지. 완전 isolated stack 또는 binary type ABI 인증이 아니다. 9 layout을 재실행해 일치, VTable/RTTI ELF metadata 확인; 설치 DWARF 부재로 inline/virtual/return ABI UNKNOWN. OFF 추가 진입/metadata 평가와 ON 추가 virtual 조회 위험 유지.
+
+증거: `validation/dart-consumer-abi-v1/reports/final_report.md`, `verdict.json`, `consumer_inventory.json`, `consumer_symbols.json`, `abi_comparison.json`, `loader_results.json`, `module_loader_results.json`, `risk_assessment.json`, `instrumentation_review.json`. 테스트 이번 실행 consumer12/native45/regression108=165 PASS, failures/errors/skips0 (`test_summary.json`, 로컬 work/*.xml/log). 과거144/44/V2 153은 별도 역사 결과이며 중복 합산하지 않는다. 신규 integrity manifest 전후21091 files 변경0, main status 보존 (`integrity.json`). 최초 main CWD에서 신규 script 작성 시도는 경로 부재로 변경 없이 실패했고 실험 worktree에서 수정했다.
+
+현재 변경 소유: 이 작업의 신규 `validation/dart-consumer-abi-v1/{scripts,tests,reports}` 및 이 handoff만 게시한다. 기존 소스/보고서 변경0. work/raw manifests/log/binary는 제외한다. branch experiment/dart-internal-trace, 시작 clean HEAD b3c3f0f, origin 원격 시작 일치. 게시 직전 상태이며 commit/push 및 원격 일치 영수증은 새 reports/git_publication.json에 로컬 기록한다. receipt 자체로 재귀 commit하지 않는다.
+
+다음 최소 작업: 소비 inline/virtual 접근 타입과 retained Bullet→core 계약의 정적 증거 보완 및 잔여 위험 수용 범위 명시. 별도 실행 승인 전 Host/물리 실험을 시작하지 않는다. 이 요청은 오프라인 범위 완료다.
+
+실행 중 작업: snapshot의 host/PID/start 관측 참조. 알려진 분석/테스트 subprocess는 모두 완료했다. 외부 CWD/원격/container는 UNKNOWN. 기존 작업 종료/계정 변경은 하지 않았다. /tmp worktree 및 ignored evidence는 기기 이동 시 자동 전달되지 않으며 Git은 경량 파일만 전달한다.
+
+---
+아래는 이전 단계 기록이며 실행 범위와 다음 행동은 위 현재 체크포인트가 우선한다.
+
 # Aero AI Studio V0.7.1 — Capability/ABI V2 handoff
 
 Updated: 2026-11-06T03:10:31.531921+00:00. Worktree `/tmp/AeroAIStudio-dart-internal-trace`. Branch `experiment/dart-internal-trace`, HEAD `25db73b55f758cd34944ced8111fcf580118db02`.
@@ -62,80 +79,24 @@ Read this worktree's handoff first, not the original main's older checkpoint. `/
 
 Common skill source remains outside the project at `/home/jiwon/Projects/my-agent-skills/skills/context-handoff`, installed through `/home/jiwon/.agents/skills/context-handoff`. It was not modified/published by this DART task. No credentials or account data recorded.
 
+
 ## Machine checkpoint
 
 ```context-handoff-state
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06T03:10:31.531921+00:00",
+  "updated_at": "2026-11-06T05:03:25.072758+00:00",
   "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
   "host": "jiwon-System-Product-Name",
   "git": {
-    "head": "25db73b55f758cd34944ced8111fcf580118db02",
+    "head": "b3c3f0f3960786799b38350a8c572955f3e62433",
     "branch": "experiment/dart-internal-trace",
-    "status": [
-      {
-        "status": " M",
-        "path": "AGENTS.md"
-      },
-      {
-        "status": "??",
-        "path": "docs/DEVELOPMENT_RULES.md"
-      }
-    ]
+    "status": []
   },
   "evidence": [
     {
-      "path": "AGENTS.md",
-      "sha256": "b2e2a3e8d6492884f646f124f9fa64c669185e025a5f8db228136f4aabc40594"
-    },
-    {
-      "path": "validation/dart-capability-abi-v2/reports/final_report.md",
-      "sha256": "54e99c37ca6e5ca561de9d7dbc85cfd8ff1aabc13e7fc41f1e61a6399edbbad5"
-    },
-    {
-      "path": "validation/dart-capability-abi-v2/reports/verdict.json",
-      "sha256": "b2782a1390474fdcaf4e53bcda6ae86d3ae6bae02ce6c55a4515fc61159a51a5"
-    },
-    {
-      "path": "validation/dart-capability-abi-v2/reports/test_summary.json",
-      "sha256": "fd44f2a2148753d80ffc01a6fb5c137ce2a940151cb5db1e393074dce7248e88"
-    },
-    {
-      "path": "validation/dart-capability-abi-v2/reports/dependencies.json",
-      "sha256": "92edbdb90549a727a0e81a6393ef5fc6bf3c30deaede55cbf935829d773044c3"
-    },
-    {
-      "path": "validation/dart-capability-abi-v2/reports/build_results.json",
-      "sha256": "ac9f22cdf3268d178ee16e19ff23ed85dcedcc91e6b3d18b08e61e7f3fc6ad16"
-    },
-    {
-      "path": "validation/dart-capability-abi-v2/reports/abi_summary.json",
-      "sha256": "d15a8f2b6238554768598b824eab13808476bdc2454b961f5ae7ac4ce883d2e7"
-    },
-    {
-      "path": "validation/dart-capability-abi-v2/reports/dwarf_comparison.json",
-      "sha256": "46d734428121d28b745e5ce6531b5bc2f8fc0f6835a948a17cbe964d6f632468"
-    },
-    {
-      "path": "validation/dart-capability-abi-v2/reports/debug_coverage.json",
-      "sha256": "aa0e77279d58adf0275146db84967f61b129b3cc490015bb612651bbcda8c7dd"
-    },
-    {
-      "path": "validation/dart-capability-abi-v2/reports/integrity.json",
-      "sha256": "156e2b7575bf18b19b9118652bbbfe7bc7ed40f054db6e963f54af995aea2747"
-    },
-    {
-      "path": "validation/dart-capability-abi-v2/reports/patch_roundtrip.json",
-      "sha256": "7e2b70b748a4eba1d34fa7eefd2a5090ba0687461b10b1c2766c546fac2efa99"
-    },
-    {
-      "path": "validation/dart-capability-abi-v2/reports/git_publication.json",
-      "sha256": "b24e61cf2492a51dce1218fae9e0d621020d0925e0c160d9404004c37fdb3157"
-    },
-    {
-      "path": "docs/DEVELOPMENT_RULES.md",
-      "sha256": "907019ccb9343e4155d59847400912ce99bf0c08136f6e6bbf3dbcf9ca585a96"
+      "path": "validation/dart-consumer-abi-v1/reports/verdict.json",
+      "sha256": "755d6d9f1ccbb49165a953e16ee1c3a1ae38b853973b489a9a0618e7b6901ed1"
     }
   ],
   "processes": {

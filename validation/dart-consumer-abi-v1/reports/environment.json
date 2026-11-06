@@ -1,0 +1,55 @@
+{
+  "os": "PRETTY_NAME=\"Ubuntu 24.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"24.04\"\nVERSION=\"24.04.5 LTS (Noble Numbat)\"\nVERSION_CODENAME=noble\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=noble\nLOGO=ubuntu-logo\n",
+  "packages": {
+    "rc": 1,
+    "stdout": "libdart-core+collisions+odelcpsolver6.13:amd64\t6.13.2+ds1-1~osrf2~noble\nlibgz-physics7-dartsim:amd64\t7.8.0-1~noble\nros-jazzy-ros-base\t0.11.0-1noble.20260903.093452\n",
+    "stderr": "dpkg-query: no packages found matching gz-sim8\n"
+  },
+  "compiler": {
+    "rc": 0,
+    "stdout": "c++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+    "stderr": ""
+  },
+  "linker": {
+    "rc": 0,
+    "stdout": "GNU ld (GNU Binutils for Ubuntu) 2.42\nCopyright (C) 2024 Free Software Foundation, Inc.\nThis program is free software; you may redistribute it under the terms of\nthe GNU General Public License version 3 or (at your option) a later version.\nThis program has absolutely no warranty.\n",
+    "stderr": ""
+  },
+  "tools": {
+    "readelf": {
+      "rc": 0,
+      "stdout": "/usr/bin/readelf\n",
+      "stderr": ""
+    },
+    "nm": {
+      "rc": 0,
+      "stdout": "/usr/bin/nm\n",
+      "stderr": ""
+    },
+    "objdump": {
+      "rc": 0,
+      "stdout": "/usr/bin/objdump\n",
+      "stderr": ""
+    },
+    "c++filt": {
+      "rc": 0,
+      "stdout": "/usr/bin/c++filt\n",
+      "stderr": ""
+    },
+    "abidiff": {
+      "rc": 1,
+      "stdout": "",
+      "stderr": ""
+    },
+    "gdb": {
+      "rc": 0,
+      "stdout": "/usr/bin/gdb\n",
+      "stderr": ""
+    }
+  },
+  "gazebo_package_name_correction": {
+    "rc": 0,
+    "stdout": "gz-harmonic\t1.0.0-1~noble\nlibgz-sim8:amd64\t8.15.0-1~noble\nlibgz-sim8-plugins:amd64\t8.15.0-1~noble\n",
+    "stderr": ""
+  }
+}

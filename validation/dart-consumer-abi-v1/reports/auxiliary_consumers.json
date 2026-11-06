@@ -1,0 +1,504 @@
+[
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+    "sha256": "897709e0c988e9e562c662292ed5bc860bce70ee2c64499501f54a6b5ca02201",
+    "build_id": "8bda73145d9c6cc97d6faff5895c2ce1aa091f6f",
+    "SONAME": [
+      "libdart-collision-bullet.so.6.13"
+    ],
+    "NEEDED": [
+      "libdart.so.6.13",
+      "libBulletCollision.so.3.24",
+      "libLinearMath.so.3.24",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "RPATH": [],
+    "RUNPATH": [],
+    "dart_references": {
+      "_ZNK4dart8dynamics11SphereShape9getRadiusEv": {
+        "mangled": "_ZNK4dart8dynamics11SphereShape9getRadiusEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZTIN4dart9collision17CollisionDetectorE": {
+        "mangled": "_ZTIN4dart9collision17CollisionDetectorE",
+        "type": "OBJECT",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart6common8colorMsgERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi": {
+        "mangled": "_ZN4dart6common8colorMsgERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZNK4dart8dynamics9MeshShape7getMeshEv": {
+        "mangled": "_ZNK4dart8dynamics9MeshShape7getMeshEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZNK4dart9collision13RaycastResult6hasHitEv": {
+        "mangled": "_ZNK4dart9collision13RaycastResult6hasHitEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart9collision6RayHitC1Ev": {
+        "mangled": "_ZN4dart9collision6RayHitC1Ev",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZNK4dart9collision15CollisionObject13getShapeFrameEv": {
+        "mangled": "_ZNK4dart9collision15CollisionObject13getShapeFrameEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart8dynamics8BoxShape13getStaticTypeB5cxx11Ev": {
+        "mangled": "_ZN4dart8dynamics8BoxShape13getStaticTypeB5cxx11Ev",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZNK4dart9collision15CollisionResult14getNumContactsEv": {
+        "mangled": "_ZNK4dart9collision15CollisionResult14getNumContactsEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart8dynamics14EllipsoidShape13getStaticTypeB5cxx11Ev": {
+        "mangled": "_ZN4dart8dynamics14EllipsoidShape13getStaticTypeB5cxx11Ev",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZNK4dart8dynamics26MultiSphereConvexHullShape13getNumSpheresEv": {
+        "mangled": "_ZNK4dart8dynamics26MultiSphereConvexHullShape13getNumSpheresEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZNK4dart9collision15CollisionObject8getShapeEv": {
+        "mangled": "_ZNK4dart9collision15CollisionObject8getShapeEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart9collision14CollisionGroup20getCollisionDetectorEv": {
+        "mangled": "_ZN4dart9collision14CollisionGroup20getCollisionDetectorEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZNK4dart8dynamics13SoftMeshShape13getAssimpMeshEv": {
+        "mangled": "_ZNK4dart8dynamics13SoftMeshShape13getAssimpMeshEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZTIN4dart8dynamics5ShapeE": {
+        "mangled": "_ZTIN4dart8dynamics5ShapeE",
+        "type": "OBJECT",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart9collision15CollisionObjectC2EPNS0_17CollisionDetectorEPKNS_8dynamics10ShapeFrameE": {
+        "mangled": "_ZN4dart9collision15CollisionObjectC2EPNS0_17CollisionDetectorEPKNS_8dynamics10ShapeFrameE",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart8dynamics9ConeShape13getStaticTypeB5cxx11Ev": {
+        "mangled": "_ZN4dart8dynamics9ConeShape13getStaticTypeB5cxx11Ev",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart9collision13RaycastResult5clearEv": {
+        "mangled": "_ZN4dart9collision13RaycastResult5clearEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart9collision7ContactC1Ev": {
+        "mangled": "_ZN4dart9collision7ContactC1Ev",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart6common8ObserverD2Ev": {
+        "mangled": "_ZN4dart6common8ObserverD2Ev",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZNK4dart8dynamics13CylinderShape9getRadiusEv": {
+        "mangled": "_ZNK4dart8dynamics13CylinderShape9getRadiusEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZNK4dart9collision15CollisionResult11isCollisionEv": {
+        "mangled": "_ZNK4dart9collision15CollisionResult11isCollisionEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart9collision14CollisionGroup13addShapeFrameEPKNS_8dynamics10ShapeFrameE": {
+        "mangled": "_ZN4dart9collision14CollisionGroup13addShapeFrameEPKNS_8dynamics10ShapeFrameE",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart9collision17CollisionDetector36ManagerForUnsharableCollisionObjectsC1EPS1_": {
+        "mangled": "_ZN4dart9collision17CollisionDetector36ManagerForUnsharableCollisionObjectsC1EPS1_",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart9collision14CollisionGroupC2ERKSt10shared_ptrINS0_17CollisionDetectorEE": {
+        "mangled": "_ZN4dart9collision14CollisionGroupC2ERKSt10shared_ptrINS0_17CollisionDetectorEE",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZNK4dart8dynamics10PlaneShape9getOffsetEv": {
+        "mangled": "_ZNK4dart8dynamics10PlaneShape9getOffsetEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZNK4dart8dynamics10PlaneShape9getNormalEv": {
+        "mangled": "_ZNK4dart8dynamics10PlaneShape9getNormalEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZNK4dart8dynamics8BoxShape7getSizeEv": {
+        "mangled": "_ZNK4dart8dynamics8BoxShape7getSizeEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZNK4dart8dynamics9MeshShape8getScaleEv": {
+        "mangled": "_ZNK4dart8dynamics9MeshShape8getScaleEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZNK4dart8dynamics12CapsuleShape9getRadiusEv": {
+        "mangled": "_ZNK4dart8dynamics12CapsuleShape9getRadiusEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZTVN4dart9collision14CollisionGroup18ShapeFrameObserverE": {
+        "mangled": "_ZTVN4dart9collision14CollisionGroup18ShapeFrameObserverE",
+        "type": "OBJECT",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZTVN4dart9collision17CollisionDetectorE": {
+        "mangled": "_ZTVN4dart9collision17CollisionDetectorE",
+        "type": "OBJECT",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart8dynamics13CylinderShape13getStaticTypeB5cxx11Ev": {
+        "mangled": "_ZN4dart8dynamics13CylinderShape13getStaticTypeB5cxx11Ev",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZNK4dart8dynamics9ConeShape9getHeightEv": {
+        "mangled": "_ZNK4dart8dynamics9ConeShape9getHeightEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZNK4dart8dynamics13CylinderShape9getHeightEv": {
+        "mangled": "_ZNK4dart8dynamics13CylinderShape9getHeightEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZNK4dart8dynamics5Frame17getWorldTransformEv": {
+        "mangled": "_ZNK4dart8dynamics5Frame17getWorldTransformEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart8dynamics10PlaneShape13getStaticTypeB5cxx11Ev": {
+        "mangled": "_ZN4dart8dynamics10PlaneShape13getStaticTypeB5cxx11Ev",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZNK4dart8dynamics10ShapeFrame8getShapeEv": {
+        "mangled": "_ZNK4dart8dynamics10ShapeFrame8getShapeEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZNK4dart9collision14CollisionGroup13hasShapeFrameEPKNS_8dynamics10ShapeFrameE": {
+        "mangled": "_ZNK4dart9collision14CollisionGroup13hasShapeFrameEPKNS_8dynamics10ShapeFrameE",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart8dynamics13SoftMeshShape13getStaticTypeB5cxx11Ev": {
+        "mangled": "_ZN4dart8dynamics13SoftMeshShape13getStaticTypeB5cxx11Ev",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZNK4dart8dynamics14EllipsoidShape8getRadiiEv": {
+        "mangled": "_ZNK4dart8dynamics14EllipsoidShape8getRadiiEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZNK4dart8dynamics26MultiSphereConvexHullShape10getSpheresEv": {
+        "mangled": "_ZNK4dart8dynamics26MultiSphereConvexHullShape10getSpheresEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZNK4dart8dynamics9ConeShape9getRadiusEv": {
+        "mangled": "_ZNK4dart8dynamics9ConeShape9getRadiusEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZNK4dart8dynamics12CapsuleShape9getHeightEv": {
+        "mangled": "_ZNK4dart8dynamics12CapsuleShape9getHeightEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart8dynamics9MeshShape13getStaticTypeB5cxx11Ev": {
+        "mangled": "_ZN4dart8dynamics9MeshShape13getStaticTypeB5cxx11Ev",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart6common8colorErrERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_ji": {
+        "mangled": "_ZN4dart6common8colorErrERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_ji",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart9collision14CollisionGroup16updateEngineDataEv": {
+        "mangled": "_ZN4dart9collision14CollisionGroup16updateEngineDataEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart9collision14CollisionGroup16addShapeFramesOfEv": {
+        "mangled": "_ZN4dart9collision14CollisionGroup16addShapeFramesOfEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart9collision15CollisionResult10addContactERKNS0_7ContactE": {
+        "mangled": "_ZN4dart9collision15CollisionResult10addContactERKNS0_7ContactE",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart8dynamics11SphereShape13getStaticTypeB5cxx11Ev": {
+        "mangled": "_ZN4dart8dynamics11SphereShape13getStaticTypeB5cxx11Ev",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart8dynamics12CapsuleShape13getStaticTypeB5cxx11Ev": {
+        "mangled": "_ZN4dart8dynamics12CapsuleShape13getStaticTypeB5cxx11Ev",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart8dynamics26MultiSphereConvexHullShape13getStaticTypeB5cxx11Ev": {
+        "mangled": "_ZN4dart8dynamics26MultiSphereConvexHullShape13getStaticTypeB5cxx11Ev",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      },
+      "_ZN4dart9collision15CollisionResult5clearEv": {
+        "mangled": "_ZN4dart9collision15CollisionResult5clearEv",
+        "type": "FUNC",
+        "size": 0,
+        "binding": "GLOBAL",
+        "visibility": "DEFAULT",
+        "version": "UNVERSIONED",
+        "section": "UND"
+      }
+    },
+    "missing": {
+      "B": [],
+      "C": []
+    },
+    "limits": "Installed Bullet is an explicitly retained auxiliary; binary type ABI UNKNOWN"
+  }
+]

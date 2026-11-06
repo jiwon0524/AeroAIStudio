@@ -1,0 +1,31 @@
+{
+  "verdict": "CONSUMER_ABI_PARTIALLY_VERIFIED",
+  "runtime": "NOT_RUNTIME_VERIFIED",
+  "Stage_B": "BLOCKED",
+  "host": "BLOCKED_PENDING_TYPE_ABI_AND_SEPARATE_SAFETY_REVIEW",
+  "unintended_core_external_mixing": false,
+  "retained_installed_auxiliary": "libdart-collision-bullet.so.6.13 explicitly retained, NOT full isolated DART stack",
+  "missing_symbols": 0,
+  "metadata_mismatches": 0,
+  "loader_errors": 0,
+  "tests": {
+    "consumer": {
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "native": {
+      "tests": 45,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "regression": {
+      "tests": 108,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  }
+}

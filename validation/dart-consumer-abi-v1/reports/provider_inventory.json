@@ -1,0 +1,271 @@
+{
+  "A": [
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.13.2",
+      "sha256": "2940e0bd6b056f186d3596e051a26ec25f1c27add88d870cdfe673785dad4b44",
+      "build_id": "2cbacdc0e4014e0ee69c4deeacd2d088d564599e",
+      "SONAME": [
+        "libdart-collision-ode.so.6.13"
+      ],
+      "NEEDED": [
+        "libdart.so.6.13",
+        "libode.so.8",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "RPATH": [],
+      "RUNPATH": []
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+      "sha256": "897709e0c988e9e562c662292ed5bc860bce70ee2c64499501f54a6b5ca02201",
+      "build_id": "8bda73145d9c6cc97d6faff5895c2ce1aa091f6f",
+      "SONAME": [
+        "libdart-collision-bullet.so.6.13"
+      ],
+      "NEEDED": [
+        "libdart.so.6.13",
+        "libBulletCollision.so.3.24",
+        "libLinearMath.so.3.24",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "RPATH": [],
+      "RUNPATH": []
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "sha256": "f74f4ec9820aee785ef94fb7bedafa7e4c832f209675a8ca1d35019c72b48e06",
+      "build_id": "071aa565b343db80e31aae393aadaed33c7adb46",
+      "SONAME": [
+        "libdart.so.6.13"
+      ],
+      "NEEDED": [
+        "libdart-external-odelcpsolver.so.6.13",
+        "libfcl.so.0.7",
+        "liboctomap.so.1.9",
+        "liboctomath.so.1.9",
+        "libassimp.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "RPATH": [],
+      "RUNPATH": []
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+      "sha256": "b890ed6936ea7cf486303fc5101ee5ff68356fc89596273ebaef83671aa4cb16",
+      "build_id": "abba8be3e710b1a505116d4bada0803f8bd49398",
+      "SONAME": [
+        "libdart-external-odelcpsolver.so.6.13"
+      ],
+      "NEEDED": [
+        "libstdc++.so.6",
+        "libc.so.6"
+      ],
+      "RPATH": [],
+      "RUNPATH": []
+    }
+  ],
+  "B": [
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart-collision-ode.so.6.13.2",
+      "sha256": "0ce168081a05d2a184c2bcce105537abc565802e9b8cf4300a6c41b051cc693e",
+      "build_id": "5e5625c1752f240897afdffce3d8c55b9f8ffe60",
+      "SONAME": [
+        "libdart-collision-ode.so.6.13"
+      ],
+      "NEEDED": [
+        "libdart.so.6.13",
+        "libode.so.8",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "RPATH": [],
+      "RUNPATH": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu:"
+      ]
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13.2",
+      "sha256": "8403def315fd0395e73f795610a7f258cb70400d93c1de9acab3ffc48e3562a3",
+      "build_id": "5b20c27ee40538cedd07931b3f703fadd3adc98d",
+      "SONAME": [
+        "libdart.so.6.13"
+      ],
+      "NEEDED": [
+        "libdart-external-odelcpsolver.so.6.13",
+        "libfcl.so.0.7",
+        "liboctomap.so.1.9",
+        "liboctomath.so.1.9",
+        "libassimp.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "RPATH": [],
+      "RUNPATH": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu:"
+      ]
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart-optimizer-ipopt.so.6.13.2",
+      "sha256": "bc060b22ea9c6c24772f2bf4eec0df405e521b367ddf3e271f31bbf5852a7b1f",
+      "build_id": "a803645c45f11ee2fc775300d4cb33f984c75a3f",
+      "SONAME": [
+        "libdart-optimizer-ipopt.so.6.13"
+      ],
+      "NEEDED": [
+        "libdart.so.6.13",
+        "libipopt.so.1",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "RPATH": [],
+      "RUNPATH": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib:"
+      ]
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart-optimizer-nlopt.so.6.13.2",
+      "sha256": "0fcae3db719fde1d10fb2d99aa716dcc8f03a31c147908805b65c5259bc2fbb5",
+      "build_id": "10d9de0d7f3d619da5b20a217edb785d148d172c",
+      "SONAME": [
+        "libdart-optimizer-nlopt.so.6.13"
+      ],
+      "NEEDED": [
+        "libdart.so.6.13",
+        "libnlopt.so.0",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "RPATH": [],
+      "RUNPATH": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu:"
+      ]
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2",
+      "sha256": "7f640d05b128682a8a0b3c33d7d61383539c5589c83cd6e6be02c437493bda26",
+      "build_id": "e11ea87b402f761120c078be422c32f7fd9479f7",
+      "SONAME": [
+        "libdart-external-odelcpsolver.so.6.13"
+      ],
+      "NEEDED": [
+        "libstdc++.so.6",
+        "libc.so.6"
+      ],
+      "RPATH": [],
+      "RUNPATH": []
+    }
+  ],
+  "C": [
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart-collision-ode.so.6.13.2",
+      "sha256": "ef6fd736bcba7353fa4ec7d4fa12d757d0fd8db46def6511d408d3a80492e444",
+      "build_id": "900b2ecfaaf829b72f86cdd22a591515fdf0a8bd",
+      "SONAME": [
+        "libdart-collision-ode.so.6.13"
+      ],
+      "NEEDED": [
+        "libdart.so.6.13",
+        "libode.so.8",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "RPATH": [],
+      "RUNPATH": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu:"
+      ]
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2",
+      "sha256": "08abe8d16ab0060f860e6c937d567a2f4137f61dfecabb4ec6f1a327e22eddcc",
+      "build_id": "a93979d2a4c513bc4e647e36571fad6988432f21",
+      "SONAME": [
+        "libdart.so.6.13"
+      ],
+      "NEEDED": [
+        "libdart-external-odelcpsolver.so.6.13",
+        "libfcl.so.0.7",
+        "liboctomap.so.1.9",
+        "liboctomath.so.1.9",
+        "libassimp.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "RPATH": [],
+      "RUNPATH": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu:"
+      ]
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart-optimizer-ipopt.so.6.13.2",
+      "sha256": "9acd50916572b6e12ed46543681f4aab48298f904410598588d3524f2597de95",
+      "build_id": "062efdb3912b7f4373b82ed9a50f4f4f03eef039",
+      "SONAME": [
+        "libdart-optimizer-ipopt.so.6.13"
+      ],
+      "NEEDED": [
+        "libdart.so.6.13",
+        "libipopt.so.1",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "RPATH": [],
+      "RUNPATH": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib:"
+      ]
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart-optimizer-nlopt.so.6.13.2",
+      "sha256": "a164e79ea75559a77e86777ba66a83a716368154771bbb0990554521e7126531",
+      "build_id": "968aa86cec8fc51120cac736ef5a8087ac1db33d",
+      "SONAME": [
+        "libdart-optimizer-nlopt.so.6.13"
+      ],
+      "NEEDED": [
+        "libdart.so.6.13",
+        "libnlopt.so.0",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "RPATH": [],
+      "RUNPATH": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu:"
+      ]
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2",
+      "sha256": "b9aaa49d370430d00ac3e4cc356cfdc81aa9f265d7352b830e143efa2e19427e",
+      "build_id": "7eda3a0bd53c474348a8a8713a9e3206f02121b9",
+      "SONAME": [
+        "libdart-external-odelcpsolver.so.6.13"
+      ],
+      "NEEDED": [
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "RPATH": [],
+      "RUNPATH": []
+    }
+  ]
+}

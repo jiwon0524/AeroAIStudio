@@ -1,0 +1,4373 @@
+[
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libCameraFps.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libCameraTracking.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libtinyxml2.so.10",
+      "libgz-rendering8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Core.so.5",
+      "libgz-common5-events.so.5",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libCameraTrackingConfig.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libGrid3D.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libtinyxml2.so.10",
+      "libgz-rendering8.so.8",
+      "libQt5Core.so.5",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libGridConfig.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libtinyxml2.so.10",
+      "libgz-rendering8.so.8",
+      "libQt5Core.so.5",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libImageDisplay.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libtinyxml2.so.10",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Quick.so.5",
+      "libQt5Qml.so.5",
+      "libQt5Gui.so.5",
+      "libQt5Core.so.5",
+      "libgz-common5-graphics.so.5",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libInteractiveViewControl.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libgz-rendering8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Gui.so.5",
+      "libQt5Core.so.5",
+      "libgz-common5-events.so.5",
+      "libgz-math7.so.7",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libKeyPublisher.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libMarkerManager.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libtinyxml2.so.10",
+      "libgz-rendering8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Qml.so.5",
+      "libQt5Core.so.5",
+      "libgz-math7.so.7",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libMinimalScene.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libtinyxml2.so.10",
+      "libgz-rendering8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Quick.so.5",
+      "libQt5Qml.so.5",
+      "libQt5Gui.so.5",
+      "libQt5Core.so.5",
+      "libgz-common5-events.so.5",
+      "libgz-math7.so.7",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libNavSatMap.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libtinyxml2.so.10",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libPointCloud.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libtinyxml2.so.10",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Core.so.5",
+      "libgz-math7.so.7",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libPublisher.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libtinyxml2.so.10",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libScreenshot.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libgz-rendering8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Core.so.5",
+      "libgz-common5-graphics.so.5",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libShutdownButton.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libQt5Gui.so.5",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libTapeMeasure.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Gui.so.5",
+      "libQt5Core.so.5",
+      "libgz-math7.so.7",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libTeleop.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libtinyxml2.so.10",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libTopicEcho.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Qml.so.5",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libTopicViewer.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Qml.so.5",
+      "libQt5Gui.so.5",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6",
+      "ld-linux-x86-64.so.2"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libTransportPlotting.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libTransportSceneManager.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libtinyxml2.so.10",
+      "libgz-rendering8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Qml.so.5",
+      "libQt5Core.so.5",
+      "libgz-common5-graphics.so.5",
+      "libgz-math7.so.7",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libWorldControl.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libtinyxml2.so.10",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-gui-8/plugins/libWorldStats.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libtinyxml2.so.10",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-launch-7/plugins/libgz-launch-joystick.so",
+    "needed": [
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libtinyxml2.so.10",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-launch-7/plugins/libgz-launch-joytotwist.so",
+    "needed": [
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libtinyxml2.so.10",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-launch-7/plugins/libgz-launch-sim-factory.so",
+    "needed": [
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libtinyxml2.so.10",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-launch-7/plugins/libgz-launch-sim.so",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libtinyxml2.so.10",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-launch-7/plugins/libgz-launch-simgui.so",
+    "needed": [
+      "libgz-sim8-gui.so.8",
+      "libgz-gui8.so.8",
+      "libgz-common5.so.5",
+      "libQt5Widgets.so.5",
+      "libQt5Gui.so.5",
+      "libQt5Core.so.5",
+      "libtinyxml2.so.10",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-launch-7/plugins/libgz-launch-websocket-server.so",
+    "needed": [
+      "libwebsockets.so.19",
+      "libgz-sim8.so.8",
+      "libgz-fuel_tools9.so.9",
+      "libgz-common5-graphics.so.5",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libtinyxml2.so.10",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics7-bullet-featherstone-plugin.so.7.8.0",
+    "needed": [
+      "libBulletDynamics.so.3.24",
+      "libBulletCollision.so.3.24",
+      "libLinearMath.so.3.24",
+      "libsdformat14.so.14",
+      "libgz-physics7.so.7",
+      "libgz-common5-graphics.so.5",
+      "libgz-common5.so.5",
+      "libgz-math7.so.7",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics7-bullet-plugin.so.7.8.0",
+    "needed": [
+      "libBulletDynamics.so.3.24",
+      "libBulletCollision.so.3.24",
+      "libLinearMath.so.3.24",
+      "libsdformat14.so.14",
+      "libgz-physics7.so.7",
+      "libgz-common5-graphics.so.5",
+      "libgz-common5.so.5",
+      "libgz-math7.so.7",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+    "needed": [
+      "libdart-collision-bullet.so.6.13",
+      "libLinearMath.so.3.24",
+      "libdart-collision-ode.so.6.13",
+      "libdart.so.6.13",
+      "libsdformat14.so.14",
+      "libgz-physics7.so.7",
+      "libgz-common5-graphics.so.5",
+      "libassimp.so.5",
+      "libgz-math7.so.7",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 252
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics7-tpe-plugin.so.7.8.0",
+    "needed": [
+      "libgz-physics7-tpelib.so.7",
+      "libsdformat14.so.14",
+      "libgz-physics7.so.7",
+      "libgz-math7.so.7",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-rendering-8/engine-plugins/libgz-rendering8-ogre.so.8.2.3",
+    "needed": [
+      "libgz-rendering8.so.8",
+      "libOpenGL.so.0",
+      "libGLX.so.0",
+      "libOgreMain.so.1.9.0",
+      "libgz-common5-events.so.5",
+      "libgz-common5-graphics.so.5",
+      "libgz-common5.so.5",
+      "libgz-math7.so.7",
+      "libOgreRTShaderSystem.so.1.9.0",
+      "libOgreTerrain.so.1.9.0",
+      "libOgreOverlay.so.1.9.0",
+      "libOgrePaging.so.1.9.0",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-rendering-8/engine-plugins/libgz-rendering8-ogre2.so.8.2.3",
+    "needed": [
+      "libgz-rendering8.so.8",
+      "libOpenGL.so.0",
+      "libGLX.so.0",
+      "libOgreNextMain.so.2.3.1",
+      "libEGL.so.1",
+      "libgz-common5-events.so.5",
+      "libgz-common5-graphics.so.5",
+      "libgz-common5.so.5",
+      "libgz-math7.so.7",
+      "libOgreNextHlmsPbs.so.2.3.1",
+      "libOgreNextHlmsUnlit.so.2.3.1",
+      "libOgreNextOverlay.so.2.3.1",
+      "libOgreNextPlanarReflections.so.2.3.1",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/GzSim/libEntityContextMenu.so",
+    "needed": [
+      "libgz-sim8-gui.so.8",
+      "libgz-sim8.so.8",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libgz-common5.so.5",
+      "libQt5Quick.so.5",
+      "libQt5Qml.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libAlignTool.so",
+    "needed": [
+      "libgz-sim8-gui.so.8",
+      "libgz-sim8.so.8",
+      "libgz-rendering8.so.8",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libgz-math7.so.7",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libApplyForceTorque.so",
+    "needed": [
+      "libgz-sim8-rendering.so.8",
+      "libgz-sim8-gui.so.8",
+      "libgz-sim8.so.8",
+      "libgz-rendering8.so.8",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libBananaForScale.so",
+    "needed": [
+      "libgz-fuel_tools9.so.9",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libgz-common5.so.5",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libComponentInspector.so",
+    "needed": [
+      "libgz-sim8-gui.so.8",
+      "libgz-sim8.so.8",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libgz-common5.so.5",
+      "libQt5Qml.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libgz-math7.so.7",
+      "libQt5Gui.so.5",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libComponentInspectorEditor.so",
+    "needed": [
+      "libgz-sim8-gui.so.8",
+      "libgz-sim8.so.8",
+      "libgz-common5-graphics.so.5",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libgz-common5.so.5",
+      "libQt5Qml.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libgz-math7.so.7",
+      "libQt5Widgets.so.5",
+      "libQt5Gui.so.5",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libCopyPaste.so",
+    "needed": [
+      "libgz-sim8-gui.so.8",
+      "libgz-sim8.so.8",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Gui.so.5",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libEntityContextMenuPlugin.so",
+    "needed": [
+      "libgz-rendering8.so.8",
+      "libgz-gui8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-common5.so.5",
+      "libQt5Quick.so.5",
+      "libQt5Qml.so.5",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libEntityTree.so",
+    "needed": [
+      "libgz-sim8-gui.so.8",
+      "libgz-sim8.so.8",
+      "libgz-common5-graphics.so.5",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libgz-common5.so.5",
+      "libQt5Qml.so.5",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Gui.so.5",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libEnvironmentLoader.so",
+    "needed": [
+      "libgz-sim8-gui.so.8",
+      "libgz-sim8.so.8",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libQt5Qml.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Core.so.5",
+      "libgz-common5-io.so.5",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libEnvironmentVisualization.so",
+    "needed": [
+      "libgz-sim8-gui.so.8",
+      "libgz-sim8.so.8",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libQt5Qml.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Core.so.5",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libGlobalIlluminationCiVct.so",
+    "needed": [
+      "libtinyxml2.so.10",
+      "libgz-sim8-gui.so.8",
+      "libgz-sim8.so.8",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libgz-transport13.so.13",
+      "libQt5Core.so.5",
+      "libgz-rendering8.so.8",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libGlobalIlluminationVct.so",
+    "needed": [
+      "libtinyxml2.so.10",
+      "libgz-sim8-gui.so.8",
+      "libgz-sim8.so.8",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libgz-transport13.so.13",
+      "libQt5Core.so.5",
+      "libgz-rendering8.so.8",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libGzSceneManager.so",
+    "needed": [
+      "libgz-sim8-gui.so.8",
+      "libgz-sim8-rendering.so.8",
+      "libgz-sim8.so.8",
+      "libgz-gui8.so.8",
+      "libQt5Qml.so.5",
+      "libQt5Core.so.5",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libgz-rendering8.so.8",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libJointPositionController.so",
+    "needed": [
+      "libtinyxml2.so.10",
+      "libgz-sim8-gui.so.8",
+      "libgz-sim8.so.8",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libgz-common5.so.5",
+      "libQt5Qml.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Gui.so.5",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libLights.so",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-gui8.so.8",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libMouseDrag.so",
+    "needed": [
+      "libtinyxml2.so.10",
+      "libgz-sim8-gui.so.8",
+      "libgz-sim8.so.8",
+      "libgz-rendering8.so.8",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libgz-math7.so.7",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libPlaybackScrubber.so",
+    "needed": [
+      "libgz-sim8-gui.so.8",
+      "libgz-sim8.so.8",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libgz-math7.so.7",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libPlot3D.so",
+    "needed": [
+      "libtinyxml2.so.10",
+      "libgz-sim8-gui.so.8",
+      "libgz-sim8.so.8",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libgz-math7.so.7",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libPlotting.so",
+    "needed": [
+      "libgz-sim8-gui.so.8",
+      "libgz-sim8.so.8",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libgz-common5.so.5",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libgz-math7.so.7",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libResourceSpawner.so",
+    "needed": [
+      "libtinyxml2.so.10",
+      "libgz-fuel_tools9.so.9",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libgz-common5.so.5",
+      "libQt5Qml.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Gui.so.5",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libSelectEntities.so",
+    "needed": [
+      "libgz-sim8-gui.so.8",
+      "libgz-sim8.so.8",
+      "libgz-rendering8.so.8",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-common5.so.5",
+      "libQt5Qml.so.5",
+      "libQt5Gui.so.5",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libShapes.so",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-gui8.so.8",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libSpawn.so",
+    "needed": [
+      "libgz-sim8-rendering.so.8",
+      "libgz-rendering8.so.8",
+      "libgz-common5-graphics.so.5",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-common5.so.5",
+      "libQt5Qml.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libTransformControl.so",
+    "needed": [
+      "libgz-rendering8.so.8",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libVideoRecorder.so",
+    "needed": [
+      "libtinyxml2.so.10",
+      "libgz-sim8-gui.so.8",
+      "libgz-rendering8.so.8",
+      "libgz-common5-av.so.5",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libgz-math7.so.7",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libViewAngle.so",
+    "needed": [
+      "libgz-gui8.so.8",
+      "libQt5Core.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libgz-rendering8.so.8",
+      "libgz-common5.so.5",
+      "libgz-math7.so.7",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libVisualizationCapabilities.so",
+    "needed": [
+      "libgz-sim8-rendering.so.8",
+      "libgz-sim8-gui.so.8",
+      "libgz-sim8.so.8",
+      "libgz-rendering8.so.8",
+      "libgz-common5-geospatial.so.5",
+      "libgz-common5-graphics.so.5",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libgz-common5.so.5",
+      "libQt5Qml.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libgz-math7.so.7",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libVisualizeContacts.so",
+    "needed": [
+      "libgz-sim8-gui.so.8",
+      "libgz-sim8.so.8",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libgz-math7.so.7",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/gui/libVisualizeLidar.so",
+    "needed": [
+      "libgz-sim8-gui.so.8",
+      "libgz-sim8.so.8",
+      "libgz-rendering8.so.8",
+      "libsdformat14.so.14",
+      "libgz-gui8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-ackermann-steering-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-acoustic-comms-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-advanced-lift-drag-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-air-pressure-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-sensors8-air_pressure.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-air-speed-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-sensors8-air_speed.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-altimeter-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-sensors8-altimeter.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-apply-joint-force-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-apply-link-wrench-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-breadcrumbs-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-buoyancy-engine-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-buoyancy-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5-graphics.so.5",
+      "libgz-common5.so.5",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-camera-video-recorder-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8-rendering.so.8",
+      "libgz-sim8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libgz-rendering8.so.8",
+      "libgz-common5-av.so.5",
+      "libgz-common5-events.so.5",
+      "libgz-common5.so.5",
+      "libgz-math7.so.7",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-collada-world-exporter-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5-graphics.so.5",
+      "libgz-common5.so.5",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-comms-endpoint-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-contact-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-detachable-joint-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-diff-drive-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-dvl-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-sensors8-dvl.so.8",
+      "libgz-sensors8-rendering.so.8",
+      "libgz-rendering8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libgz-math7.so.7",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-elevator-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-entity-semantics-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-environment-preload-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libgz-common5-io.so.5",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-environmental-sensor-system.so.8.15.0",
+    "needed": [
+      "libgz-sensors8.so.8",
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libgz-math7.so.7",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-follow-actor-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-forcetorque-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-sensors8-force_torque.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-hydrodynamics-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-imu-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-sensors8-imu.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libgz-math7.so.7",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-joint-controller-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-joint-position-controller-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-joint-state-publisher-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-joint-trajectory-controller-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-kinetic-energy-monitor-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-label-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-lens-flare-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libgz-rendering8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-lift-drag-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-lighter_than_air_dynamics-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-linearbatteryplugin-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-log-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-fuel_tools9.so.9",
+      "libgz-common5-events.so.5",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-transport13-log.so.13",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-log-video-recorder-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-logical-camera-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-sensors8-logical_camera.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-logicalaudiosensorplugin-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-magnetometer-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-sensors8-magnetometer.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-mecanum-drive-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-model-photo-shoot-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-rendering8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-common5-graphics.so.5",
+      "libgz-common5.so.5",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-multicopter-control-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-multicopter-motor-model-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-navsat-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-sensors8-navsat.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-odometry-publisher-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-opticaltactileplugin-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-particle-emitter-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-perfect-comms-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libsdformat14.so.14",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-performer-detector-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-physics-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-plugin2-loader.so.2",
+      "libgz-physics7.so.7",
+      "libgz-plugin2.so.2",
+      "libgz-common5-events.so.5",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libgz-common5-geospatial.so.5",
+      "libgz-common5-graphics.so.5",
+      "libgz-common5.so.5",
+      "libgz-math7.so.7",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-pose-publisher-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-python-system-loader-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libpython3.12.so.1.0",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6",
+      "ld-linux-x86-64.so.2"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-rf-comms-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-scene-broadcaster-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-sensors-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8-rendering.so.8",
+      "libgz-sim8.so.8",
+      "libgz-sensors8-boundingbox_camera.so.8",
+      "libgz-sensors8-depth_camera.so.8",
+      "libgz-sensors8-gpu_lidar.so.8",
+      "libgz-sensors8-rgbd_camera.so.8",
+      "libgz-sensors8-segmentation_camera.so.8",
+      "libgz-sensors8-thermal_camera.so.8",
+      "libgz-sensors8-wide_angle_camera.so.8",
+      "libgz-sensors8-camera.so.8",
+      "libgz-sensors8-rendering.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libgz-math7.so.7",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-shader-param-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libsdformat14.so.14",
+      "libgz-rendering8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-spacecraft-thruster-model-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-thermal-sensor-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-thermal-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-thruster-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-touchplugin-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-track-controller-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-tracked-vehicle-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-trajectory-follower-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-triggered-publisher-system.so.8.15.0",
+    "needed": [
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6",
+      "ld-linux-x86-64.so.2"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-user-commands-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6",
+      "ld-linux-x86-64.so.2"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-velocity-control-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-wheel-slip-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/gz-sim-8/plugins/libgz-sim8-wind-effects-system.so.8.15.0",
+    "needed": [
+      "libgz-sensors8.so.8",
+      "libgz-sim8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-common5-av.so.5.9.0",
+    "needed": [
+      "libgz-common5.so.5",
+      "libswscale.so.7",
+      "libavdevice.so.60",
+      "libavformat.so.60",
+      "libavcodec.so.60",
+      "libavutil.so.58",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6",
+      "ld-linux-x86-64.so.2"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-common5-events.so.5.9.0",
+    "needed": [
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-common5-geospatial.so.5.9.0",
+    "needed": [
+      "libgz-common5-graphics.so.5",
+      "libgz-math7.so.7",
+      "libgdal.so.34",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-common5-graphics.so.5.9.0",
+    "needed": [
+      "libgz-common5.so.5",
+      "libgz-math7.so.7",
+      "libassimp.so.5",
+      "libgts-0.7.so.5",
+      "libfreeimage.so.3",
+      "libtinyxml2.so.10",
+      "libglib-2.0.so.0",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6",
+      "ld-linux-x86-64.so.2"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-common5-io.so.5.9.0",
+    "needed": [
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-common5-profiler.so.5.9.0",
+    "needed": [
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-common5-testing.so.5.9.0",
+    "needed": [
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5.9.0",
+    "needed": [
+      "libuuid.so.1",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-fuel_tools9.so.9.1.1",
+    "needed": [
+      "libgz-common5.so.5",
+      "libgz-msgs10.so.10",
+      "libjsoncpp.so.25",
+      "libtinyxml2.so.10",
+      "libyaml-0.so.2",
+      "libzip.so.4",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libcurl.so.4",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6",
+      "ld-linux-x86-64.so.2"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-gui8.so.8.4.0",
+    "needed": [
+      "libgz-transport13.so.13",
+      "libQt5Widgets.so.5",
+      "libtinyxml2.so.10",
+      "libgz-common5-events.so.5",
+      "libgz-common5.so.5",
+      "libgz-plugin2-loader.so.2",
+      "libgz-plugin2.so.2",
+      "libgz-msgs10.so.10",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libQt5Quick.so.5",
+      "libQt5Qml.so.5",
+      "libQt5Gui.so.5",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6",
+      "ld-linux-x86-64.so.2"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-launch7.so.7.1.2",
+    "needed": [
+      "libtinyxml2.so.10",
+      "libgz-common5.so.5",
+      "libgz-math7.so.7",
+      "libbfd-2.42-system.so",
+      "libgz-plugin2-loader.so.2",
+      "libgz-plugin2.so.2",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7.7.0",
+    "needed": [
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-msgs10.so.10.4.0",
+    "needed": [
+      "libprotobuf.so.32",
+      "libgz-utils2.so.2",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-physics7-bullet-featherstone-plugin.so.7.8.0",
+    "needed": [
+      "libBulletDynamics.so.3.24",
+      "libBulletCollision.so.3.24",
+      "libLinearMath.so.3.24",
+      "libsdformat14.so.14",
+      "libgz-physics7.so.7",
+      "libgz-common5-graphics.so.5",
+      "libgz-common5.so.5",
+      "libgz-math7.so.7",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-physics7-bullet-plugin.so.7.8.0",
+    "needed": [
+      "libBulletDynamics.so.3.24",
+      "libBulletCollision.so.3.24",
+      "libLinearMath.so.3.24",
+      "libsdformat14.so.14",
+      "libgz-physics7.so.7",
+      "libgz-common5-graphics.so.5",
+      "libgz-common5.so.5",
+      "libgz-math7.so.7",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-physics7-dartsim-plugin.so.7.8.0",
+    "needed": [
+      "libdart-collision-bullet.so.6.13",
+      "libLinearMath.so.3.24",
+      "libdart-collision-ode.so.6.13",
+      "libdart.so.6.13",
+      "libsdformat14.so.14",
+      "libgz-physics7.so.7",
+      "libgz-common5-graphics.so.5",
+      "libassimp.so.5",
+      "libgz-math7.so.7",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 252
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-physics7-tpe-plugin.so.7.8.0",
+    "needed": [
+      "libgz-physics7-tpelib.so.7",
+      "libsdformat14.so.14",
+      "libgz-physics7.so.7",
+      "libgz-math7.so.7",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-physics7-tpelib.so.7.8.0",
+    "needed": [
+      "libgz-common5-graphics.so.5",
+      "libgz-common5.so.5",
+      "libgz-math7.so.7",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-physics7.so.7.8.0",
+    "needed": [
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-plugin2-loader.so.2.0.4",
+    "needed": [
+      "libgz-plugin2.so.2",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-plugin2.so.2.0.4",
+    "needed": [
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-rendering8-ogre.so.8.2.3",
+    "needed": [
+      "libgz-rendering8.so.8",
+      "libOpenGL.so.0",
+      "libGLX.so.0",
+      "libOgreMain.so.1.9.0",
+      "libgz-common5-events.so.5",
+      "libgz-common5-graphics.so.5",
+      "libgz-common5.so.5",
+      "libgz-math7.so.7",
+      "libOgreRTShaderSystem.so.1.9.0",
+      "libOgreTerrain.so.1.9.0",
+      "libOgreOverlay.so.1.9.0",
+      "libOgrePaging.so.1.9.0",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-rendering8-ogre2.so.8.2.3",
+    "needed": [
+      "libgz-rendering8.so.8",
+      "libOpenGL.so.0",
+      "libGLX.so.0",
+      "libOgreNextMain.so.2.3.1",
+      "libEGL.so.1",
+      "libgz-common5-events.so.5",
+      "libgz-common5-graphics.so.5",
+      "libgz-common5.so.5",
+      "libgz-math7.so.7",
+      "libOgreNextHlmsPbs.so.2.3.1",
+      "libOgreNextHlmsUnlit.so.2.3.1",
+      "libOgreNextOverlay.so.2.3.1",
+      "libOgreNextPlanarReflections.so.2.3.1",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-rendering8.so.8.2.3",
+    "needed": [
+      "libgz-common5-graphics.so.5",
+      "libgz-common5.so.5",
+      "libgz-math7.so.7",
+      "libgz-plugin2-loader.so.2",
+      "libgz-plugin2.so.2",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sensors8-air_pressure.so.8.2.2",
+    "needed": [
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sensors8-air_speed.so.8.2.2",
+    "needed": [
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sensors8-altimeter.so.8.2.2",
+    "needed": [
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sensors8-boundingbox_camera.so.8.2.2",
+    "needed": [
+      "libgz-sensors8-camera.so.8",
+      "libgz-sensors8-rendering.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libsdformat14.so.14",
+      "libgz-rendering8.so.8",
+      "libgz-common5-graphics.so.5",
+      "libgz-math7.so.7",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sensors8-camera.so.8.2.2",
+    "needed": [
+      "libgz-sensors8-rendering.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libsdformat14.so.14",
+      "libgz-rendering8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-common5-graphics.so.5",
+      "libgz-math7.so.7",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sensors8-depth_camera.so.8.2.2",
+    "needed": [
+      "libgz-sensors8-camera.so.8",
+      "libgz-sensors8-rendering.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libsdformat14.so.14",
+      "libgz-rendering8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-common5-graphics.so.5",
+      "libgz-math7.so.7",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sensors8-dvl.so.8.2.2",
+    "needed": [
+      "libgz-sensors8-rendering.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libsdformat14.so.14",
+      "libgz-common5.so.5",
+      "libgz-math7.so.7",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sensors8-force_torque.so.8.2.2",
+    "needed": [
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sensors8-gpu_lidar.so.8.2.2",
+    "needed": [
+      "libgz-sensors8-lidar.so.8",
+      "libgz-sensors8-rendering.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libsdformat14.so.14",
+      "libgz-common5-events.so.5",
+      "libgz-math7.so.7",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sensors8-imu.so.8.2.2",
+    "needed": [
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sensors8-lidar.so.8.2.2",
+    "needed": [
+      "libgz-sensors8-rendering.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sensors8-logical_camera.so.8.2.2",
+    "needed": [
+      "libgz-sensors8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sensors8-magnetometer.so.8.2.2",
+    "needed": [
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sensors8-navsat.so.8.2.2",
+    "needed": [
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sensors8-rendering.so.8.2.2",
+    "needed": [
+      "libgz-sensors8.so.8",
+      "libgz-rendering8.so.8",
+      "libsdformat14.so.14",
+      "libgz-common5-events.so.5",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sensors8-rgbd_camera.so.8.2.2",
+    "needed": [
+      "libgz-sensors8-camera.so.8",
+      "libgz-sensors8-rendering.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libsdformat14.so.14",
+      "libgz-rendering8.so.8",
+      "libgz-math7.so.7",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sensors8-segmentation_camera.so.8.2.2",
+    "needed": [
+      "libgz-sensors8-camera.so.8",
+      "libgz-sensors8-rendering.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libsdformat14.so.14",
+      "libgz-rendering8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-common5-graphics.so.5",
+      "libgz-math7.so.7",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sensors8-thermal_camera.so.8.2.2",
+    "needed": [
+      "libgz-sensors8-camera.so.8",
+      "libgz-sensors8-rendering.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libsdformat14.so.14",
+      "libgz-rendering8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-common5-graphics.so.5",
+      "libgz-math7.so.7",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sensors8-wide_angle_camera.so.8.2.2",
+    "needed": [
+      "libgz-sensors8-camera.so.8",
+      "libgz-sensors8-rendering.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libsdformat14.so.14",
+      "libgz-rendering8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-common5-graphics.so.5",
+      "libgz-math7.so.7",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sensors8.so.8.2.2",
+    "needed": [
+      "libgz-transport13.so.13",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libgz-math7.so.7",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-ackermann-steering-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-acoustic-comms-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-advanced-lift-drag-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-air-pressure-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-sensors8-air_pressure.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-air-speed-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-sensors8-air_speed.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-altimeter-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-sensors8-altimeter.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-apply-joint-force-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-apply-link-wrench-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-breadcrumbs-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-buoyancy-engine-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-buoyancy-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5-graphics.so.5",
+      "libgz-common5.so.5",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-camera-video-recorder-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8-rendering.so.8",
+      "libgz-sim8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libgz-rendering8.so.8",
+      "libgz-common5-av.so.5",
+      "libgz-common5-events.so.5",
+      "libgz-common5.so.5",
+      "libgz-math7.so.7",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-collada-world-exporter-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5-graphics.so.5",
+      "libgz-common5.so.5",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-comms-endpoint-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-contact-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-detachable-joint-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-diff-drive-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-dvl-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-sensors8-dvl.so.8",
+      "libgz-sensors8-rendering.so.8",
+      "libgz-rendering8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libgz-math7.so.7",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-elevator-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-entity-semantics-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-environment-preload-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libgz-common5-io.so.5",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-environmental-sensor-system.so.8.15.0",
+    "needed": [
+      "libgz-sensors8.so.8",
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libgz-math7.so.7",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-follow-actor-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-forcetorque-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-sensors8-force_torque.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-gui.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-gui8.so.8",
+      "libQt5Widgets.so.5",
+      "libQt5Quick.so.5",
+      "libQt5Qml.so.5",
+      "libQt5Gui.so.5",
+      "libQt5Core.so.5",
+      "libgz-fuel_tools9.so.9",
+      "libgz-plugin2.so.2",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libtinyxml2.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-gz.so.8.15.0",
+    "needed": [
+      "libgz-sim8-gui.so.8",
+      "libgz-sim8.so.8",
+      "libgz-fuel_tools9.so.9",
+      "libsdformat14.so.14",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libgz-math7.so.7",
+      "libQt5Core.so.5",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-hydrodynamics-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-imu-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-sensors8-imu.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libgz-math7.so.7",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-joint-controller-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-joint-position-controller-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-joint-state-publisher-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-joint-trajectory-controller-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-kinetic-energy-monitor-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-label-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-lens-flare-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libgz-rendering8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-lift-drag-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-lighter_than_air_dynamics-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-linearbatteryplugin-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-log-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-fuel_tools9.so.9",
+      "libgz-common5-events.so.5",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-transport13-log.so.13",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-log-video-recorder-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-logical-camera-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-sensors8-logical_camera.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-logicalaudiosensorplugin-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-magnetometer-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-sensors8-magnetometer.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-mecanum-drive-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-model-photo-shoot-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-rendering8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-common5-graphics.so.5",
+      "libgz-common5.so.5",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-multicopter-control-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-multicopter-motor-model-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-navsat-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-sensors8-navsat.so.8",
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-odometry-publisher-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-opticaltactileplugin-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-particle-emitter-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-perfect-comms-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libsdformat14.so.14",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-performer-detector-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-physics-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-plugin2-loader.so.2",
+      "libgz-physics7.so.7",
+      "libgz-plugin2.so.2",
+      "libgz-common5-events.so.5",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libgz-common5-geospatial.so.5",
+      "libgz-common5-graphics.so.5",
+      "libgz-common5.so.5",
+      "libgz-math7.so.7",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-pose-publisher-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-python-system-loader-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libpython3.12.so.1.0",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6",
+      "ld-linux-x86-64.so.2"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-rendering.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-rendering8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-common5-geospatial.so.5",
+      "libgz-common5-graphics.so.5",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-rf-comms-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-scene-broadcaster-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-sensors-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8-rendering.so.8",
+      "libgz-sim8.so.8",
+      "libgz-sensors8-boundingbox_camera.so.8",
+      "libgz-sensors8-depth_camera.so.8",
+      "libgz-sensors8-gpu_lidar.so.8",
+      "libgz-sensors8-rgbd_camera.so.8",
+      "libgz-sensors8-segmentation_camera.so.8",
+      "libgz-sensors8-thermal_camera.so.8",
+      "libgz-sensors8-wide_angle_camera.so.8",
+      "libgz-sensors8-camera.so.8",
+      "libgz-sensors8-rendering.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-sensors8.so.8",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libgz-math7.so.7",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-shader-param-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libsdformat14.so.14",
+      "libgz-rendering8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-common5.so.5",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-spacecraft-thruster-model-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-thermal-sensor-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-thermal-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-thruster-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-touchplugin-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-track-controller-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5-events.so.5",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-tracked-vehicle-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-trajectory-follower-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-triggered-publisher-system.so.8.15.0",
+    "needed": [
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6",
+      "ld-linux-x86-64.so.2"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-user-commands-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libgz-math7.so.7",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6",
+      "ld-linux-x86-64.so.2"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-velocity-control-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-wheel-slip-system.so.8.15.0",
+    "needed": [
+      "libgz-sim8.so.8",
+      "libgz-common5.so.5",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-wind-effects-system.so.8.15.0",
+    "needed": [
+      "libgz-sensors8.so.8",
+      "libgz-sim8.so.8",
+      "libgz-transport13.so.13",
+      "libgz-common5.so.5",
+      "libsdformat14.so.14",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8.so.8.15.0",
+    "needed": [
+      "libgz-fuel_tools9.so.9",
+      "libsdformat14.so.14",
+      "libprotobuf.so.32",
+      "libgz-plugin2-loader.so.2",
+      "libgz-plugin2.so.2",
+      "libgz-common5-events.so.5",
+      "libgz-common5-graphics.so.5",
+      "libgz-common5.so.5",
+      "libgz-transport13-parameters.so.13",
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libtinyxml2.so.10",
+      "libgz-math7.so.7",
+      "libpython3.12.so.1.0",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6",
+      "ld-linux-x86-64.so.2"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-tools2-backward.so.2.0.4",
+    "needed": [
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-transport13-log.so.13.6.0",
+    "needed": [
+      "libgz-transport13.so.13",
+      "libsqlite3.so.0",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-transport13-parameters.so.13.6.0",
+    "needed": [
+      "libgz-transport13.so.13",
+      "libgz-msgs10.so.10",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-transport13.so.13.6.0",
+    "needed": [
+      "libgz-msgs10.so.10",
+      "libzmq.so.5",
+      "libuuid.so.1",
+      "libprotobuf.so.32",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libgz-utils2.so.2.2.1",
+    "needed": [
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "dart_undefined": 0
+  }
+]

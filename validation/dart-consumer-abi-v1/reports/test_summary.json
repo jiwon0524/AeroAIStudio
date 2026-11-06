@@ -1,0 +1,34 @@
+{
+  "current": {
+    "consumer": {
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "native": {
+      "tests": 45,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "regression": {
+      "tests": 108,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "total": 165,
+  "historical": {
+    "implementation": 144,
+    "parity_v1": 44,
+    "capability_v2": 153
+  },
+  "not_run": [
+    "Gazebo/World::step/Stage B",
+    "full DART unit suite",
+    "new DWARF abidiff (prior results referenced)"
+  ],
+  "safety": "Native C++ forbidden-call scan and prior safety hashes reviewed; regression runtime fence active; no plugin initialization"
+}

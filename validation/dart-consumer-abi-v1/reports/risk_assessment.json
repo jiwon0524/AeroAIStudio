@@ -1,0 +1,34 @@
+[
+  {
+    "consumer": "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+    "status": "COMPATIBLE_WITH_LIMITATIONS",
+    "risk": "HIGH",
+    "symbols": "VERIFIED_OFFLINE",
+    "loader": "VERIFIED_OFFLINE",
+    "installed_binary_type_ABI": "UNKNOWN",
+    "runtime": "UNKNOWN",
+    "basis": "252 imports available; retained installed Bullet module explicitly inventoried. Installed type DWARF unavailable. Mixed closure symbol resolution is verified, cross-module object ABI not fully certified.",
+    "host_impact": "UNKNOWN can affect host; approval withheld"
+  },
+  {
+    "consumer": "/usr/lib/x86_64-linux-gnu/libgz-physics7-dartsim-plugin.so.7.8.0",
+    "status": "COMPATIBLE_WITH_LIMITATIONS",
+    "risk": "HIGH",
+    "symbols": "VERIFIED_OFFLINE",
+    "loader": "VERIFIED_OFFLINE",
+    "installed_binary_type_ABI": "UNKNOWN",
+    "runtime": "UNKNOWN",
+    "basis": "252 imports available; retained installed Bullet module explicitly inventoried. Installed type DWARF unavailable. Mixed closure symbol resolution is verified, cross-module object ABI not fully certified.",
+    "host_impact": "UNKNOWN can affect host; approval withheld"
+  },
+  {
+    "consumer": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+    "status": "COMPATIBLE_WITH_LIMITATIONS",
+    "risk": "HIGH",
+    "symbols": "VERIFIED_OFFLINE (53 imports audited, installed-core provided subset retained)",
+    "loader": "VERIFIED_OFFLINE (transitive plugin closure)",
+    "binary_type_ABI": "UNKNOWN",
+    "basis": "Explicit retained installed auxiliary, cross-module object ABI not certified",
+    "host_impact": "May affect host; unresolved"
+  }
+]

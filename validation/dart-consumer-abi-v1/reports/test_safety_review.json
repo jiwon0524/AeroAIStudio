@@ -1,0 +1,37 @@
+{
+  "recorder_fixture.cpp": {
+    "hash": "eb0e24fb75a003da0f039b842f89cfbfd8ac3439565c524d269bea78e72ebe83",
+    "matches_reviewed_V2": true,
+    "forbidden_calls": []
+  },
+  "dantzig_failure_fixture.cpp": {
+    "hash": "363a4539cef295ce83947fe9db3f43a6d356b4cc992c4717a867f9ea488bfd98",
+    "matches_reviewed_V2": true,
+    "forbidden_calls": []
+  },
+  "metadata_call_fixture.cpp": {
+    "hash": "e6649b13bf11659f3599b0f42cbf32154c37c102bfb6b334e9b597bfbf9304d4",
+    "matches_reviewed_V2": true,
+    "forbidden_calls": []
+  },
+  "world_config_fixture.cpp": {
+    "hash": "6874de21bfa58fc951db8f26fda5aa22298888be2f4756e98858cb5a38d81c09",
+    "matches_reviewed_V2": true,
+    "forbidden_calls": []
+  },
+  "private_fields_fixture.cpp": {
+    "hash": "91ef40e1f41fd2ef648dc2c6175bbd1f4a36be2195024de8c4f9ad4733db1e4f",
+    "matches_reviewed_V2": true,
+    "forbidden_calls": []
+  },
+  "abi_sizes_align.cpp": {
+    "hash": "f7b51bbd0f9885e5ba2a99d263f21a2e25167b5fd65de26d5d972391b38eefda",
+    "matches_reviewed_V2": true,
+    "forbidden_calls": []
+  },
+  "boxed_fixture.cpp": {
+    "hash": "bbc2ef6ee411d236f1604789cfe681cc1357276b891dabf1b8a1baa49d584e54",
+    "matches_reviewed_V2": true,
+    "forbidden_calls": []
+  }
+}
