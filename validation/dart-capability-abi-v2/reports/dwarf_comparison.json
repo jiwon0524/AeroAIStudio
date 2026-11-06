@@ -1,0 +1,222 @@
+[
+  {
+    "command": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/bin/abidiff",
+      "--no-default-suppression",
+      "--no-show-locs",
+      "--no-corpus-path",
+      "--fail-no-debug-info",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2"
+    ],
+    "cwd": null,
+    "rc": 4,
+    "name": "baseline_external_vs_trace_external",
+    "duration_s": 0.10042093999800272,
+    "report": "reports/abidiff_baseline_external_vs_trace_external.txt",
+    "report_sha256": "372ad6857712e5ec930394e6647610c6d21df800f84abf466ca6e95acd96976c",
+    "error_bit": false,
+    "abi_change_bit": true,
+    "incompatible_change_bit": false,
+    "summary": "Functions changes summary: 0 Removed, 0 Changed, 17 Added functions\nVariables changes summary: 0 Removed, 0 Changed, 0 Added variable\n\n17 Added functions:\n",
+    "diagnostic": ""
+  },
+  {
+    "command": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/bin/abidiff",
+      "--no-default-suppression",
+      "--no-show-locs",
+      "--no-corpus-path",
+      "--fail-no-debug-info",
+      "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2"
+    ],
+    "cwd": null,
+    "rc": 4,
+    "name": "installed_external_vs_trace_external",
+    "duration_s": 0.07111384700692724,
+    "report": "reports/abidiff_installed_external_vs_trace_external.txt",
+    "report_sha256": "372ad6857712e5ec930394e6647610c6d21df800f84abf466ca6e95acd96976c",
+    "error_bit": false,
+    "abi_change_bit": true,
+    "incompatible_change_bit": false,
+    "summary": "Functions changes summary: 0 Removed, 0 Changed, 17 Added functions\nVariables changes summary: 0 Removed, 0 Changed, 0 Added variable\n\n17 Added functions:\n",
+    "diagnostic": ""
+  },
+  {
+    "command": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/bin/abidiff",
+      "--no-default-suppression",
+      "--no-show-locs",
+      "--no-corpus-path",
+      "--fail-no-debug-info",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart-collision-ode.so.6.13.2",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart-collision-ode.so.6.13.2"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "name": "baseline_ode_vs_trace_ode",
+    "duration_s": 13.798270325001795,
+    "report": "reports/abidiff_baseline_ode_vs_trace_ode.txt",
+    "report_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "error_bit": false,
+    "abi_change_bit": false,
+    "incompatible_change_bit": false,
+    "summary": "",
+    "diagnostic": ""
+  },
+  {
+    "command": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/bin/abidiff",
+      "--no-default-suppression",
+      "--no-show-locs",
+      "--no-corpus-path",
+      "--fail-no-debug-info",
+      "/usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.13.2",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart-collision-ode.so.6.13.2"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "name": "installed_ode_vs_trace_ode",
+    "duration_s": 6.325478430997464,
+    "report": "reports/abidiff_installed_ode_vs_trace_ode.txt",
+    "report_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "error_bit": false,
+    "abi_change_bit": false,
+    "incompatible_change_bit": false,
+    "summary": "",
+    "diagnostic": ""
+  },
+  {
+    "command": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/bin/abidiff",
+      "--no-default-suppression",
+      "--no-show-locs",
+      "--no-corpus-path",
+      "--fail-no-debug-info",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart-optimizer-ipopt.so.6.13.2",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart-optimizer-ipopt.so.6.13.2"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "name": "baseline_ipopt_vs_trace_ipopt",
+    "duration_s": 1.525848709003185,
+    "report": "reports/abidiff_baseline_ipopt_vs_trace_ipopt.txt",
+    "report_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "error_bit": false,
+    "abi_change_bit": false,
+    "incompatible_change_bit": false,
+    "summary": "",
+    "diagnostic": ""
+  },
+  {
+    "command": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/bin/abidiff",
+      "--no-default-suppression",
+      "--no-show-locs",
+      "--no-corpus-path",
+      "--fail-no-debug-info",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/reference-modules/usr/lib/x86_64-linux-gnu/libdart-optimizer-ipopt.so.6.13.2",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart-optimizer-ipopt.so.6.13.2"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "name": "packaged_ipopt_vs_trace_ipopt",
+    "duration_s": 0.7770871589891613,
+    "report": "reports/abidiff_packaged_ipopt_vs_trace_ipopt.txt",
+    "report_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "error_bit": false,
+    "abi_change_bit": false,
+    "incompatible_change_bit": false,
+    "summary": "",
+    "diagnostic": ""
+  },
+  {
+    "command": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/bin/abidiff",
+      "--no-default-suppression",
+      "--no-show-locs",
+      "--no-corpus-path",
+      "--fail-no-debug-info",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart-optimizer-nlopt.so.6.13.2",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart-optimizer-nlopt.so.6.13.2"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "name": "baseline_nlopt_vs_trace_nlopt",
+    "duration_s": 0.17275260700262152,
+    "report": "reports/abidiff_baseline_nlopt_vs_trace_nlopt.txt",
+    "report_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "error_bit": false,
+    "abi_change_bit": false,
+    "incompatible_change_bit": false,
+    "summary": "",
+    "diagnostic": ""
+  },
+  {
+    "command": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/bin/abidiff",
+      "--no-default-suppression",
+      "--no-show-locs",
+      "--no-corpus-path",
+      "--fail-no-debug-info",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/reference-modules/usr/lib/x86_64-linux-gnu/libdart-optimizer-nlopt.so.6.13.2",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart-optimizer-nlopt.so.6.13.2"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "name": "packaged_nlopt_vs_trace_nlopt",
+    "duration_s": 0.09104749000107404,
+    "report": "reports/abidiff_packaged_nlopt_vs_trace_nlopt.txt",
+    "report_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "error_bit": false,
+    "abi_change_bit": false,
+    "incompatible_change_bit": false,
+    "summary": "",
+    "diagnostic": ""
+  },
+  {
+    "command": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/bin/abidiff",
+      "--no-default-suppression",
+      "--no-show-locs",
+      "--no-corpus-path",
+      "--fail-no-debug-info",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13.2",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "name": "baseline_core_vs_trace_core",
+    "duration_s": 992.0742088120023,
+    "report": "reports/abidiff_baseline_core_vs_trace_core.txt",
+    "report_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "error_bit": false,
+    "abi_change_bit": false,
+    "incompatible_change_bit": false,
+    "summary": "",
+    "diagnostic": ""
+  },
+  {
+    "command": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/bin/abidiff",
+      "--no-default-suppression",
+      "--no-show-locs",
+      "--no-corpus-path",
+      "--fail-no-debug-info",
+      "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "name": "installed_core_vs_trace_core",
+    "duration_s": 391.42314831199474,
+    "report": "reports/abidiff_installed_core_vs_trace_core.txt",
+    "report_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "error_bit": false,
+    "abi_change_bit": false,
+    "incompatible_change_bit": false,
+    "summary": "",
+    "diagnostic": ""
+  }
+]

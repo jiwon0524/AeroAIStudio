@@ -1,0 +1,109 @@
+{
+  "installed": {
+    "compile": {
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-I/usr/include/eigen3",
+        "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include/coin",
+        "-DHAVE_CSTDDEF",
+        "-DIPOPT_VERSION_MAJOR=3",
+        "-DIPOPT_VERSION_MINOR=11",
+        "-DIPOPT_VERSION_PATCH=9",
+        "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include",
+        "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/baseline-source",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/tests/abi_sizes_align.cpp",
+        "-o",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/abi-installed"
+      ],
+      "cwd": null,
+      "rc": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "execution": {
+      "command": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/abi-installed"
+      ],
+      "cwd": null,
+      "rc": 0,
+      "stdout": "dart::simulation::World 984 8\ndart::constraint::BoxedLcpConstraintSolver 720 8\ndart::constraint::ContactConstraint 200 8\ndart::constraint::JointConstraint 304 16\ndart::dynamics::Skeleton 2592 16\ndart::dynamics::BodyNode 3760 16\ndart::optimizer::IpoptSolver 112 8\ndart::optimizer::NloptSolver 144 8\ndart::collision::OdeCollisionDetector 24040 8\n",
+      "stderr": ""
+    }
+  },
+  "baseline": {
+    "compile": {
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-I/usr/include/eigen3",
+        "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include/coin",
+        "-DHAVE_CSTDDEF",
+        "-DIPOPT_VERSION_MAJOR=3",
+        "-DIPOPT_VERSION_MINOR=11",
+        "-DIPOPT_VERSION_PATCH=9",
+        "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final",
+        "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/baseline-source",
+        "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/tests/abi_sizes_align.cpp",
+        "-o",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/abi-baseline"
+      ],
+      "cwd": null,
+      "rc": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "execution": {
+      "command": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/abi-baseline"
+      ],
+      "cwd": null,
+      "rc": 0,
+      "stdout": "dart::simulation::World 984 8\ndart::constraint::BoxedLcpConstraintSolver 720 8\ndart::constraint::ContactConstraint 200 8\ndart::constraint::JointConstraint 304 16\ndart::dynamics::Skeleton 2592 16\ndart::dynamics::BodyNode 3760 16\ndart::optimizer::IpoptSolver 112 8\ndart::optimizer::NloptSolver 144 8\ndart::collision::OdeCollisionDetector 24040 8\n",
+      "stderr": ""
+    }
+  },
+  "trace": {
+    "compile": {
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-I/usr/include/eigen3",
+        "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include/coin",
+        "-DHAVE_CSTDDEF",
+        "-DIPOPT_VERSION_MAJOR=3",
+        "-DIPOPT_VERSION_MINOR=11",
+        "-DIPOPT_VERSION_PATCH=9",
+        "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final",
+        "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/trace-source",
+        "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/tests/abi_sizes_align.cpp",
+        "-o",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/abi-trace"
+      ],
+      "cwd": null,
+      "rc": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "execution": {
+      "command": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/abi-trace"
+      ],
+      "cwd": null,
+      "rc": 0,
+      "stdout": "dart::simulation::World 984 8\ndart::constraint::BoxedLcpConstraintSolver 720 8\ndart::constraint::ContactConstraint 200 8\ndart::constraint::JointConstraint 304 16\ndart::dynamics::Skeleton 2592 16\ndart::dynamics::BodyNode 3760 16\ndart::optimizer::IpoptSolver 112 8\ndart::optimizer::NloptSolver 144 8\ndart::collision::OdeCollisionDetector 24040 8\n",
+      "stderr": ""
+    }
+  },
+  "declaration_headers": {
+    "count": 403,
+    "differences": {}
+  },
+  "limitations": [
+    "Optional optimizer/ODE headers for installed-header arm come from matching distribution source fallback, not original installed binary type info",
+    "sizeof/alignof and same declarations are limited ABI evidence; no installed DWARF class layout was recovered",
+    "libabigail is isolated for separate DWARF comparison; installed original DWARF/buildinfo availability is checked separately"
+  ]
+}

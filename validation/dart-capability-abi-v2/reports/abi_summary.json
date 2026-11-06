@@ -1,0 +1,82 @@
+{
+  "baseline_core": {
+    "export_count": 5739,
+    "missing_exports": 0,
+    "added_exports": 0,
+    "missing_undefined": 0,
+    "added_undefined": 0,
+    "shared_metadata_differences": 32
+  },
+  "trace_core": {
+    "export_count": 5739,
+    "missing_exports": 0,
+    "added_exports": 0,
+    "missing_undefined": 0,
+    "added_undefined": 12,
+    "shared_metadata_differences": 63
+  },
+  "baseline_external": {
+    "export_count": 71,
+    "missing_exports": 0,
+    "added_exports": 0,
+    "missing_undefined": 0,
+    "added_undefined": 0,
+    "shared_metadata_differences": 0
+  },
+  "trace_external": {
+    "export_count": 90,
+    "missing_exports": 0,
+    "added_exports": 19,
+    "missing_undefined": 0,
+    "added_undefined": 45,
+    "shared_metadata_differences": 1
+  },
+  "baseline_ode": {
+    "export_count": 255,
+    "missing_exports": 0,
+    "added_exports": 0,
+    "missing_undefined": 0,
+    "added_undefined": 0,
+    "shared_metadata_differences": 2
+  },
+  "trace_ode": {
+    "export_count": 255,
+    "missing_exports": 0,
+    "added_exports": 0,
+    "missing_undefined": 0,
+    "added_undefined": 0,
+    "shared_metadata_differences": 2
+  },
+  "baseline_ipopt": {
+    "export_count": 165,
+    "missing_exports": 0,
+    "added_exports": 0,
+    "missing_undefined": 0,
+    "added_undefined": 0,
+    "shared_metadata_differences": 2
+  },
+  "trace_ipopt": {
+    "export_count": 165,
+    "missing_exports": 0,
+    "added_exports": 0,
+    "missing_undefined": 0,
+    "added_undefined": 0,
+    "shared_metadata_differences": 2
+  },
+  "baseline_nlopt": {
+    "export_count": 42,
+    "missing_exports": 0,
+    "added_exports": 0,
+    "missing_undefined": 0,
+    "added_undefined": 0,
+    "shared_metadata_differences": 3
+  },
+  "trace_nlopt": {
+    "export_count": 42,
+    "missing_exports": 0,
+    "added_exports": 0,
+    "missing_undefined": 0,
+    "added_undefined": 0,
+    "shared_metadata_differences": 3
+  }
+}

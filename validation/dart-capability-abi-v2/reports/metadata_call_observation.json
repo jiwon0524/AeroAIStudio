@@ -1,0 +1,22 @@
+{
+  "original_off": {
+    "rc": 0,
+    "stdout": "0x1p+0 0x1p+1 0x1.8p+1 0x1p+2 \nprimary apply0 apply2 \n",
+    "stderr": ""
+  },
+  "baseline_off": {
+    "rc": 0,
+    "stdout": "0x1p+0 0x1p+1 0x1.8p+1 0x1p+2 \nprimary apply0 apply2 \n",
+    "stderr": ""
+  },
+  "trace_off": {
+    "rc": 0,
+    "stdout": "0x1p+0 0x1p+1 0x1.8p+1 0x1p+2 \nprimary apply0 apply2 \n",
+    "stderr": ""
+  },
+  "trace_on": {
+    "rc": 0,
+    "stdout": "0x1p+0 0x1p+1 0x1.8p+1 0x1p+2 \nmetadata:primary primary apply0 apply2 \n",
+    "stderr": "\u001b[1;31mError [ConstraintBase.cpp:55]\u001b[0m [ConstraintBase::getType] This function is for backward compatibility, but must not be called. Please override this function in the concrete constraint class.\n\u001b[1;31mError [ConstraintBase.cpp:55]\u001b[0m [ConstraintBase::getType] This function is for backward compatibility, but must not be called. Please override this function in the concrete constraint class.\n"
+  }
+}

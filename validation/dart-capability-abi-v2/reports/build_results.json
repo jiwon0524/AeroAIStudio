@@ -1,0 +1,70 @@
+[
+  {
+    "tag": "baseline",
+    "phase": "initial",
+    "build_directory": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline",
+    "log": "reports/build_baseline.log",
+    "completed_targets": [
+      "dart-external-odelcpsolver"
+    ],
+    "error_lines": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include/octomap/OcTreeIterator.hxx:42:39: error: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Werror=deprecated-declarations]"
+    ],
+    "log_sha256": "1770b0928a2d1d44915b339f035c6973408481bafce0f43f0c8ad28456e50d53"
+  },
+  {
+    "tag": "baseline",
+    "phase": "final",
+    "build_directory": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final",
+    "log": "reports/build_baseline_final.log",
+    "completed_targets": [
+      "dart-external-odelcpsolver",
+      "dart",
+      "dart-external-odelcpsolver",
+      "dart",
+      "dart-optimizer-ipopt",
+      "dart-external-odelcpsolver",
+      "dart",
+      "dart-optimizer-nlopt",
+      "dart-external-odelcpsolver",
+      "dart",
+      "dart-collision-ode"
+    ],
+    "error_lines": [],
+    "log_sha256": "cdd49543211633eeb9b89686ef7e531435b318e15adf4864348570f6fce740d8"
+  },
+  {
+    "tag": "trace",
+    "phase": "initial",
+    "build_directory": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace",
+    "log": "reports/build_trace.log",
+    "completed_targets": [
+      "dart-external-odelcpsolver"
+    ],
+    "error_lines": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include/octomap/OcTreeIterator.hxx:42:39: error: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Werror=deprecated-declarations]"
+    ],
+    "log_sha256": "254226c8434f861d327bbe111cab3dcc3f23f8b67dfec6fc6df8dfc267458922"
+  },
+  {
+    "tag": "trace",
+    "phase": "final",
+    "build_directory": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final",
+    "log": "reports/build_trace_final.log",
+    "completed_targets": [
+      "dart-external-odelcpsolver",
+      "dart",
+      "dart-external-odelcpsolver",
+      "dart",
+      "dart-optimizer-ipopt",
+      "dart-external-odelcpsolver",
+      "dart",
+      "dart-optimizer-nlopt",
+      "dart-external-odelcpsolver",
+      "dart",
+      "dart-collision-ode"
+    ],
+    "error_lines": [],
+    "log_sha256": "18e101d4cd2f5bf3fa04437be9b10c00ec1900b5db080a463dff99bbaf89b87c"
+  }
+]

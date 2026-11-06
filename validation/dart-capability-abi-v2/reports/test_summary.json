@@ -1,0 +1,22 @@
+{
+  "regression": {
+    "tests": 108,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "native_tests": {
+    "tests": 45,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "native_tests_initial": {
+    "tests": 45,
+    "failures": 1,
+    "errors": 0,
+    "skipped": 0
+  },
+  "final_total_distinct": 153,
+  "initial_metadata_audit_failure": "Incorrect OFF getType expectation in newly added audit test; actual Active guard inspected, test corrected to assert OFF identical and ON extra metadata calls. Original instrumentation and criteria unchanged; initial XML/log retained."
+}

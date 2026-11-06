@@ -1,0 +1,241 @@
+{
+  "original_boxed": {
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-g",
+      "-I/usr/include/eigen3",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/trace-source",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/tests/boxed_fixture.cpp",
+      "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+      "-Wl,-rpath,/usr/lib/x86_64-linux-gnu",
+      "-o",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/original_boxed"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "original_failure": {
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-g",
+      "-I/usr/include/eigen3",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/trace-source",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/tests/dantzig_failure_fixture.cpp",
+      "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+      "-Wl,-rpath,/usr/lib/x86_64-linux-gnu",
+      "-o",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/original_failure"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "original_metadata": {
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-g",
+      "-I/usr/include/eigen3",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/trace-source",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/tests/metadata_call_fixture.cpp",
+      "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+      "-Wl,-rpath,/usr/lib/x86_64-linux-gnu",
+      "-o",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/original_metadata"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "baseline_boxed": {
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-g",
+      "-I/usr/include/eigen3",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/baseline-source",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/tests/boxed_fixture.cpp",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13.2",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2",
+      "-Wl,-rpath,/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver",
+      "-o",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/baseline_boxed"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "baseline_failure": {
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-g",
+      "-I/usr/include/eigen3",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/baseline-source",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/tests/dantzig_failure_fixture.cpp",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2",
+      "-Wl,-rpath,/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver",
+      "-o",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/baseline_failure"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "baseline_metadata": {
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-g",
+      "-I/usr/include/eigen3",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/baseline-source",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/tests/metadata_call_fixture.cpp",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13.2",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2",
+      "-Wl,-rpath,/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver",
+      "-o",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/baseline_metadata"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "trace_boxed": {
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-g",
+      "-I/usr/include/eigen3",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/trace-source",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include",
+      "-DTRACE_HARNESS",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/tests/boxed_fixture.cpp",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2",
+      "-Wl,-rpath,/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver",
+      "-o",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/trace_boxed"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "trace_failure": {
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-g",
+      "-I/usr/include/eigen3",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/trace-source",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include",
+      "-DTRACE_HARNESS",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/tests/dantzig_failure_fixture.cpp",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2",
+      "-Wl,-rpath,/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver",
+      "-o",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/trace_failure"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "trace_metadata": {
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-g",
+      "-I/usr/include/eigen3",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/trace-source",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include",
+      "-DTRACE_HARNESS",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/tests/metadata_call_fixture.cpp",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2",
+      "-Wl,-rpath,/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver",
+      "-o",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/trace_metadata"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "private_fields_fixture": {
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-g",
+      "-I/usr/include/eigen3",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/trace-source",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/tests/private_fields_fixture.cpp",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2",
+      "-Wl,-rpath,/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver",
+      "-o",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/private_fields_fixture"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "",
+    "stderr": "In file included from /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include/octomap/OcTreeBaseImpl.h:83,\n                 from /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include/octomap/OccupancyOcTreeBase.h:44,\n                 from /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include/octomap/OcTree.h:38,\n                 from /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include/octomap/octomap.h:37,\n                 from /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include/fcl/geometry/octree/octree.h:48,\n                 from /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include/fcl/narrowphase/detail/traversal/octree/collision/mesh_octree_collision_traversal_node.h:46,\n                 from /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include/fcl/narrowphase/detail/collision_func_matrix-inl.h:75,\n                 from /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include/fcl/narrowphase/detail/collision_func_matrix.h:86,\n                 from /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include/fcl/narrowphase/collision-inl.h:43,\n                 from /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include/fcl/narrowphase/collision.h:70,\n                 from /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/trace-source/dart/collision/fcl/BackwardCompatibility.hpp:61,\n                 from /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/trace-source/dart/collision/fcl/FCLTypes.hpp:38,\n                 from /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/trace-source/dart/collision/fcl/FCLCollisionDetector.hpp:39,\n                 from /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/tests/private_fields_fixture.cpp:11:\n/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include/octomap/OcTreeIterator.hxx:42:39: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]\n   42 |     class iterator_base : public std::iterator<std::forward_iterator_tag, NodeType>{\n      |                                       ^~~~~~~~\nIn file included from /usr/include/c++/13/bits/stl_algobase.h:65,\n                 from /usr/include/c++/13/bits/stl_tree.h:63,\n                 from /usr/include/c++/13/map:62,\n                 from /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/trace-source/dart/common/NameManager.hpp:36,\n                 from /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/trace-source/dart/dynamics/Skeleton.hpp:38,\n                 from /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/tests/private_fields_fixture.cpp:2:\n/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here\n  127 |     struct _GLIBCXX17_DEPRECATED iterator\n      |                                  ^~~~~~~~\n"
+  },
+  "world_config_fixture": {
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-g",
+      "-I/usr/include/eigen3",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/trace-source",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/include",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/tests/world_config_fixture.cpp",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2",
+      "-Wl,-rpath,/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver",
+      "-o",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/world_config_fixture"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+}

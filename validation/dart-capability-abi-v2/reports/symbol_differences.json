@@ -1,0 +1,840 @@
+{
+  "baseline_core": {
+    "export_count": 5739,
+    "missing_exports": [],
+    "added_exports": [],
+    "missing_undefined": [],
+    "added_undefined": [],
+    "undefined_versions_changed": {},
+    "shared_metadata_differences": {
+      "_ZN4dart8dynamics17InverseKinematics12setPositionsERKN5Eigen6MatrixIdLin1ELi1ELi0ELin1ELi1EEE": {
+        "size": [
+          "564",
+          "620"
+        ]
+      },
+      "_ZN4dart9collision14CollisionGroup16removeShapeFrameEPKNS_8dynamics10ShapeFrameE": {
+        "size": [
+          "1270",
+          "1275"
+        ]
+      },
+      "_ZN4dart10constraint16ConstraintSolver12setLCPSolverESt10unique_ptrINS0_9LCPSolverESt14default_deleteIS3_EE": {
+        "size": [
+          "373",
+          "438"
+        ]
+      },
+      "_ZN4dart9collision17CollisionDetector7raycastEPNS0_14CollisionGroupERKN5Eigen6MatrixIdLi3ELi1ELi0ELi3ELi1EEES8_RKNS0_13RaycastOptionEPNS0_13RaycastResultE": {
+        "size": [
+          "370",
+          "435"
+        ]
+      },
+      "_ZN4dart4math7TriMeshIdEpLERKS2_": {
+        "size": [
+          "664",
+          "666"
+        ]
+      },
+      "_ZN4dart8dynamics10WorldFrame7setNameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE": {
+        "size": [
+          "477",
+          "541"
+        ]
+      },
+      "_ZN4dart8dynamics26AssimpInputResourceAdaptor5FlushEv": {
+        "size": [
+          "295",
+          "367"
+        ]
+      },
+      "_ZN4dart9optimizer7Problem7addSeedERKN5Eigen6MatrixIdLin1ELi1ELi0ELin1ELi1EEE": {
+        "size": [
+          "480",
+          "560"
+        ]
+      },
+      "_ZNK4dart8dynamics13SoftMeshShape14computeInertiaEd": {
+        "size": [
+          "333",
+          "401"
+        ]
+      },
+      "_ZN4dart8dynamics26AssimpInputResourceAdaptor5WriteEPKvmm": {
+        "size": [
+          "297",
+          "369"
+        ]
+      },
+      "_ZN4dart8dynamics17InverseKinematics10Analytical15constructDofMapEv": {
+        "size": [
+          "2280",
+          "2336"
+        ]
+      },
+      "_ZNK4dart8dynamics12ZeroDofJoint11getPositionEm": {
+        "size": [
+          "452",
+          "524"
+        ]
+      },
+      "_ZN4dart9optimizer7Problem15setInitialGuessERKN5Eigen6MatrixIdLin1ELi1ELi0ELin1ELi1EEE": {
+        "size": [
+          "538",
+          "610"
+        ]
+      },
+      "_ZN4dart9collision24CompositeCollisionFilter21removeCollisionFilterEPKNS0_15CollisionFilterE": {
+        "size": [
+          "370",
+          "315"
+        ]
+      },
+      "_ZNK4dart8dynamics12PyramidShape14computeInertiaEd": {
+        "size": [
+          "367",
+          "439"
+        ]
+      },
+      "_ZNK4dart8dynamics12ZeroDofJoint10getCommandEm": {
+        "size": [
+          "452",
+          "524"
+        ]
+      },
+      "_ZN4dart9collision21DARTCollisionDetector8distanceEPNS0_14CollisionGroupES3_RKNS0_14DistanceOptionEPNS0_14DistanceResultE": {
+        "size": [
+          "335",
+          "407"
+        ]
+      },
+      "_ZNK4dart8dynamics13SoftMeshShape5cloneEv": {
+        "size": [
+          "313",
+          "381"
+        ]
+      },
+      "_ZNK4dart8dynamics5Joint11checkSanityEb": {
+        "size": [
+          "1660",
+          "1796"
+        ]
+      },
+      "_ZN4dart9collision21DARTCollisionDetector8distanceEPNS0_14CollisionGroupERKNS0_14DistanceOptionEPNS0_14DistanceResultE": {
+        "size": [
+          "335",
+          "407"
+        ]
+      },
+      "_ZN4dart9collision14CollisionGroup24removeShapeFrameInternalEPKNS_8dynamics10ShapeFrameEPKv": {
+        "size": [
+          "724",
+          "695"
+        ]
+      },
+      "_ZN4dart9optimizer8Function11evalHessianERKN5Eigen6MatrixIdLin1ELi1ELi0ELin1ELi1EEENS2_3MapIS4_Li1ENS2_6StrideILi0ELi0EEEEE": {
+        "size": [
+          "344",
+          "418"
+        ]
+      },
+      "_ZN4dart8dynamics19ReferentialSkeleton18unregisterSkeletonEPKNS0_8SkeletonE": {
+        "size": [
+          "1049",
+          "1045"
+        ]
+      },
+      "_ZNK4dart10constraint14ConstraintBase7getTypeB5cxx11Ev": {
+        "size": [
+          "473",
+          "537"
+        ]
+      },
+      "_ZN4dart8dynamics5JointC2Ev": {
+        "size": [
+          "389",
+          "390"
+        ]
+      },
+      "_ZNK4dart8dynamics8Skeleton13cloneSkeletonERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE": {
+        "size": [
+          "2982",
+          "3062"
+        ]
+      },
+      "_ZNK4dart10constraint16ConstraintSolver12getLCPSolverEv": {
+        "size": [
+          "375",
+          "440"
+        ]
+      },
+      "_ZN4dart9collision23BodyNodeCollisionFilter31removeBodyNodePairFromBlackListEPKNS_8dynamics8BodyNodeES5_": {
+        "size": [
+          "793",
+          "773"
+        ]
+      },
+      "_ZN4dart4math17fromSkewSymmetricERKN5Eigen6MatrixIdLi3ELi3ELi0ELi3ELi3EEE": {
+        "size": [
+          "3931",
+          "3995"
+        ]
+      },
+      "_ZN4dart4math7TriMeshIdE22computeTriangleNormalsEv": {
+        "size": [
+          "479",
+          "488"
+        ]
+      },
+      "_ZN4dart8dynamics7Inertia16setSpatialTensorERKN5Eigen6MatrixIdLi6ELi6ELi0ELi6ELi6EEEb": {
+        "size": [
+          "446",
+          "520"
+        ]
+      },
+      "_ZN4dart9optimizer8Function12evalGradientERKN5Eigen6MatrixIdLin1ELi1ELi0ELin1ELi1EEENS2_3MapIS4_Li0ENS2_6StrideILi0ELi0EEEEE": {
+        "size": [
+          "347",
+          "421"
+        ]
+      }
+    }
+  },
+  "trace_core": {
+    "export_count": 5739,
+    "missing_exports": [],
+    "added_exports": [],
+    "missing_undefined": [],
+    "added_undefined": [
+      "_ZN4dart8external3ode5trace11EndAssemblyEv",
+      "_ZN4dart8external3ode5trace11FinishWorldEPKv",
+      "_ZN4dart8external3ode5trace13BeginAssemblyEmPKc",
+      "_ZN4dart8external3ode5trace21InitializeEnvironmentEv",
+      "_ZN4dart8external3ode5trace4EmitEPKcS4_S4_PKdmii",
+      "_ZN4dart8external3ode5trace6ActiveEv",
+      "_ZN4dart8external3ode5trace6MatrixEPKcS4_PKdii",
+      "_ZN4dart8external3ode5trace6ScalarEPKcS4_d",
+      "_ZN4dart8external3ode5trace6SetRowEiii",
+      "_ZN4dart8external3ode5trace8IntegersEPKcS4_PKim",
+      "_ZN4dart8external3ode5trace9StepScopeC1EPKvPKcidd",
+      "_ZN4dart8external3ode5trace9StepScopeD1Ev"
+    ],
+    "undefined_versions_changed": {},
+    "shared_metadata_differences": {
+      "_ZN4dart8dynamics17InverseKinematics12setPositionsERKN5Eigen6MatrixIdLin1ELi1ELi0ELin1ELi1EEE": {
+        "size": [
+          "564",
+          "472"
+        ]
+      },
+      "_ZTv0_n24_N4dart8dynamics6EntityD1Ev": {
+        "size": [
+          "601",
+          "339"
+        ]
+      },
+      "_ZN4dart9collision14CollisionGroup16removeShapeFrameEPKNS_8dynamics10ShapeFrameE": {
+        "size": [
+          "1270",
+          "1275"
+        ]
+      },
+      "_ZN4dart10simulation5WorldC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE": {
+        "size": [
+          "1350",
+          "1358"
+        ]
+      },
+      "_ZN4dart10constraint21ContactSurfaceHandler9setParentESt10shared_ptrIS1_E": {
+        "size": [
+          "305",
+          "440"
+        ]
+      },
+      "_ZN4dart10constraint17ContactConstraint14getInformationEPNS0_14ConstraintInfoE": {
+        "size": [
+          "755",
+          "1961"
+        ]
+      },
+      "_ZN4dart10constraint16ConstraintSolver12setLCPSolverESt10unique_ptrINS0_9LCPSolverESt14default_deleteIS3_EE": {
+        "size": [
+          "373",
+          "431"
+        ]
+      },
+      "_ZN4dart10constraint17ContactConstraintC2ERNS_9collision7ContactEd": {
+        "size": [
+          "383",
+          "426"
+        ]
+      },
+      "_ZN4dart9collision17CollisionDetector7raycastEPNS0_14CollisionGroupERKN5Eigen6MatrixIdLi3ELi1ELi0ELi3ELi1EEES8_RKNS0_13RaycastOptionEPNS0_13RaycastResultE": {
+        "size": [
+          "370",
+          "428"
+        ]
+      },
+      "_ZN4dart4math7TriMeshIdEpLERKS2_": {
+        "size": [
+          "664",
+          "666"
+        ]
+      },
+      "_ZN4dart10simulation5World24handleSkeletonNameChangeERKSt10shared_ptrIKNS_8dynamics12MetaSkeletonEE": {
+        "size": [
+          "1550",
+          "1582"
+        ]
+      },
+      "_ZN4dart8dynamics10WorldFrame7setNameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE": {
+        "size": [
+          "477",
+          "541"
+        ]
+      },
+      "_ZN4dart10simulation5World14checkCollisionEb": {
+        "size": [
+          "314",
+          "310"
+        ]
+      },
+      "_ZN4dart10simulation5WorldD2Ev": {
+        "size": [
+          "1047",
+          "1063"
+        ]
+      },
+      "_ZN4dart8dynamics26AssimpInputResourceAdaptor5FlushEv": {
+        "size": [
+          "295",
+          "369"
+        ]
+      },
+      "_ZN4dart8dynamics10EulerJoint26updateDegreeOfFreedomNamesEv": {
+        "size": [
+          "1311",
+          "1333"
+        ]
+      },
+      "_ZNK4dart8dynamics8Skeleton22getVelocityDifferencesERKN5Eigen6MatrixIdLin1ELi1ELi0ELin1ELi1EEES6_": {
+        "size": [
+          "1125",
+          "1258"
+        ]
+      },
+      "_ZN4dart9optimizer7Problem7addSeedERKN5Eigen6MatrixIdLin1ELi1ELi0ELin1ELi1EEE": {
+        "size": [
+          "480",
+          "544"
+        ]
+      },
+      "_ZN4dart10constraint17ContactConstraintC1ERNS_9collision7ContactEd": {
+        "size": [
+          "383",
+          "426"
+        ]
+      },
+      "_ZNK4dart8dynamics13SoftMeshShape14computeInertiaEd": {
+        "size": [
+          "333",
+          "401"
+        ]
+      },
+      "_ZN4dart8dynamics26AssimpInputResourceAdaptor5WriteEPKvmm": {
+        "size": [
+          "297",
+          "371"
+        ]
+      },
+      "_ZN4dart10simulation5WorldC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE": {
+        "size": [
+          "1426",
+          "1434"
+        ]
+      },
+      "_ZN4dart10simulation5World4stepEb": {
+        "size": [
+          "503",
+          "1135"
+        ]
+      },
+      "_ZN4dart10constraint15JointConstraint6updateEv": {
+        "size": [
+          "1685",
+          "2082"
+        ]
+      },
+      "_ZN4dart8dynamics17InverseKinematics10Analytical15constructDofMapEv": {
+        "size": [
+          "2280",
+          "2336"
+        ]
+      },
+      "_ZNK4dart8dynamics12ZeroDofJoint11getPositionEm": {
+        "size": [
+          "452",
+          "532"
+        ]
+      },
+      "_ZN4dart9optimizer7Problem15setInitialGuessERKN5Eigen6MatrixIdLin1ELi1ELi0ELin1ELi1EEE": {
+        "size": [
+          "538",
+          "602"
+        ]
+      },
+      "_ZN4dart9collision24CompositeCollisionFilter21removeCollisionFilterEPKNS0_15CollisionFilterE": {
+        "size": [
+          "370",
+          "315"
+        ]
+      },
+      "_ZN4dart9optimizer7Problem12setDimensionEm": {
+        "size": [
+          "555",
+          "579"
+        ]
+      },
+      "_ZN4dart8dynamics14VoxelGridShapeC2Ed": {
+        "size": [
+          "403",
+          "289"
+        ]
+      },
+      "_ZNK4dart8dynamics12PyramidShape14computeInertiaEd": {
+        "size": [
+          "367",
+          "441"
+        ]
+      },
+      "_ZN4dart8dynamics8Skeleton8createIKEv": {
+        "size": [
+          "323",
+          "366"
+        ]
+      },
+      "_ZN4dart10constraint24BoxedLcpConstraintSolver21solveConstrainedGroupERNS0_16ConstrainedGroupE": {
+        "size": [
+          "4364",
+          "5495"
+        ]
+      },
+      "_ZNK4dart8dynamics12ZeroDofJoint10getCommandEm": {
+        "size": [
+          "452",
+          "532"
+        ]
+      },
+      "_ZN4dart9collision21DARTCollisionDetector8distanceEPNS0_14CollisionGroupES3_RKNS0_14DistanceOptionEPNS0_14DistanceResultE": {
+        "size": [
+          "335",
+          "409"
+        ]
+      },
+      "_ZN4dart10simulation5World19setConstraintSolverESt10unique_ptrINS_10constraint16ConstraintSolverESt14default_deleteIS4_EE": {
+        "size": [
+          "423",
+          "427"
+        ]
+      },
+      "_ZN4dart10constraint15JointConstraint14getInformationEPNS0_14ConstraintInfoE": {
+        "size": [
+          "807",
+          "1310"
+        ]
+      },
+      "_ZNK4dart8dynamics13SoftMeshShape5cloneEv": {
+        "size": [
+          "313",
+          "381"
+        ]
+      },
+      "_ZNK4dart8dynamics5Joint11checkSanityEb": {
+        "size": [
+          "1660",
+          "1788"
+        ]
+      },
+      "_ZN4dart9collision21DARTCollisionDetector8distanceEPNS0_14CollisionGroupERKNS0_14DistanceOptionEPNS0_14DistanceResultE": {
+        "size": [
+          "335",
+          "409"
+        ]
+      },
+      "_ZN4dart8dynamics12JacobianNode8createIKEv": {
+        "size": [
+          "354",
+          "196"
+        ]
+      },
+      "_ZN4dart9collision14CollisionGroup24removeShapeFrameInternalEPKNS_8dynamics10ShapeFrameEPKv": {
+        "size": [
+          "724",
+          "695"
+        ]
+      },
+      "_ZN4dart9optimizer8Function11evalHessianERKN5Eigen6MatrixIdLin1ELi1ELi0ELin1ELi1EEENS2_3MapIS4_Li1ENS2_6StrideILi0ELi0EEEEE": {
+        "size": [
+          "344",
+          "418"
+        ]
+      },
+      "_ZN4dart8dynamics19ReferentialSkeleton18unregisterSkeletonEPKNS0_8SkeletonE": {
+        "size": [
+          "1049",
+          "1045"
+        ]
+      },
+      "_ZNK4dart10constraint14ConstraintBase7getTypeB5cxx11Ev": {
+        "size": [
+          "473",
+          "537"
+        ]
+      },
+      "_ZN4dart8dynamics6EntityD2Ev": {
+        "size": [
+          "432",
+          "335"
+        ]
+      },
+      "_ZN4dart8dynamics5JointC2Ev": {
+        "size": [
+          "389",
+          "390"
+        ]
+      },
+      "_ZN4dart10constraint17ContactConstraint12applyImpulseEPd": {
+        "size": [
+          "1888",
+          "1936"
+        ]
+      },
+      "_ZNK4dart8dynamics8Skeleton13cloneSkeletonERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE": {
+        "size": [
+          "2982",
+          "3062"
+        ]
+      },
+      "_ZN4dart8dynamics9MeshShape8loadMeshERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKSt10shared_ptrINS_6common17ResourceRetrieverEE": {
+        "size": [
+          "1051",
+          "1042"
+        ]
+      },
+      "_ZNK4dart10constraint16ConstraintSolver12getLCPSolverEv": {
+        "size": [
+          "375",
+          "433"
+        ]
+      },
+      "_ZN4dart8dynamics8BodyNode5splitERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE": {
+        "size": [
+          "327",
+          "378"
+        ]
+      },
+      "_ZN4dart8dynamics8Skeleton21updateCacheDimensionsERNS1_9DataCacheE": {
+        "size": [
+          "945",
+          "1029"
+        ]
+      },
+      "_ZN4dart10constraint21SoftContactConstraintC2ERNS_9collision7ContactEd": {
+        "size": [
+          "6323",
+          "6259"
+        ]
+      },
+      "_ZN4dart9collision23BodyNodeCollisionFilter31removeBodyNodePairFromBlackListEPKNS_8dynamics8BodyNodeES5_": {
+        "size": [
+          "793",
+          "773"
+        ]
+      },
+      "_ZN4dart10simulation5WorldD1Ev": {
+        "size": [
+          "1055",
+          "1015"
+        ]
+      },
+      "_ZN4dart4math17fromSkewSymmetricERKN5Eigen6MatrixIdLi3ELi3ELi0ELi3ELi3EEE": {
+        "size": [
+          "3931",
+          "3913"
+        ]
+      },
+      "_ZN4dart10constraint21SoftContactConstraintC1ERNS_9collision7ContactEd": {
+        "size": [
+          "6323",
+          "6259"
+        ]
+      },
+      "_ZN4dart4math7TriMeshIdE22computeTriangleNormalsEv": {
+        "size": [
+          "479",
+          "488"
+        ]
+      },
+      "_ZN4dart8dynamics6EntityD1Ev": {
+        "size": [
+          "329",
+          "437"
+        ]
+      },
+      "_ZN4dart8dynamics7Inertia16setSpatialTensorERKN5Eigen6MatrixIdLi6ELi6ELi0ELi6ELi6EEEb": {
+        "size": [
+          "446",
+          "513"
+        ]
+      },
+      "_ZN4dart10constraint28DefaultContactSurfaceHandler28computeWorldFirstFrictionDirEPKNS_8dynamics9ShapeNodeE": {
+        "size": [
+          "3574",
+          "3544"
+        ]
+      },
+      "_ZN4dart9optimizer8Function12evalGradientERKN5Eigen6MatrixIdLin1ELi1ELi0ELin1ELi1EEENS2_3MapIS4_Li0ENS2_6StrideILi0ELi0EEEEE": {
+        "size": [
+          "347",
+          "421"
+        ]
+      }
+    }
+  },
+  "baseline_external": {
+    "export_count": 71,
+    "missing_exports": [],
+    "added_exports": [],
+    "missing_undefined": [],
+    "added_undefined": [],
+    "undefined_versions_changed": {},
+    "shared_metadata_differences": {}
+  },
+  "trace_external": {
+    "export_count": 90,
+    "missing_exports": [],
+    "added_exports": [
+      "_ZN4dart8external3ode5trace11EndAssemblyEv",
+      "_ZN4dart8external3ode5trace11FinishWorldEPKv",
+      "_ZN4dart8external3ode5trace13BeginAssemblyEmPKc",
+      "_ZN4dart8external3ode5trace14FlushExclusiveEPKc",
+      "_ZN4dart8external3ode5trace21InitializeEnvironmentEv",
+      "_ZN4dart8external3ode5trace4EmitEPKcS4_S4_PKdmii",
+      "_ZN4dart8external3ode5trace6ActiveEv",
+      "_ZN4dart8external3ode5trace6MatrixEPKcS4_PKdii",
+      "_ZN4dart8external3ode5trace6ScalarEPKcS4_d",
+      "_ZN4dart8external3ode5trace6SetRowEiii",
+      "_ZN4dart8external3ode5trace7EndStepEb",
+      "_ZN4dart8external3ode5trace8IntegersEPKcS4_PKim",
+      "_ZN4dart8external3ode5trace9BeginStepEPKvPKcidd",
+      "_ZN4dart8external3ode5trace9ConfigureERKNS2_6ConfigE",
+      "_ZN4dart8external3ode5trace9GetStatusEv",
+      "_ZN4dart8external3ode5trace9StepScopeC1EPKvPKcidd",
+      "_ZN4dart8external3ode5trace9StepScopeC2EPKvPKcidd",
+      "_ZN4dart8external3ode5trace9StepScopeD1Ev",
+      "_ZN4dart8external3ode5trace9StepScopeD2Ev"
+    ],
+    "missing_undefined": [],
+    "added_undefined": [
+      "_Unwind_Resume",
+      "_ZNKSt5ctypeIcE13_M_widen_initEv",
+      "_ZNSo3putEc",
+      "_ZNSo9_M_insertImEERSoT_",
+      "_ZNSolsEi",
+      "_ZNSt6localeC1Ev",
+      "_ZNSt6localeD1Ev",
+      "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv",
+      "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm",
+      "_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_",
+      "_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev",
+      "_ZNSt8ios_baseC2Ev",
+      "_ZNSt8ios_baseD2Ev",
+      "_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E",
+      "_ZSt11__once_call",
+      "_ZSt15__once_callable",
+      "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l",
+      "_ZSt16__throw_bad_castv",
+      "_ZSt19uncaught_exceptionsv",
+      "_ZSt20__throw_length_errorPKc",
+      "_ZSt20__throw_system_errori",
+      "_ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE",
+      "_ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE",
+      "_ZTVNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE",
+      "_ZTVSt15basic_streambufIcSt11char_traitsIcEE",
+      "_ZTVSt9basic_iosIcSt11char_traitsIcEE",
+      "_ZdlPvm",
+      "_Znwm",
+      "__cxa_atexit",
+      "__cxa_begin_catch",
+      "__cxa_end_catch",
+      "__errno_location",
+      "__gcc_personality_v0",
+      "__gxx_personality_v0",
+      "__isoc23_strtoull",
+      "__once_proxy",
+      "__tls_get_addr",
+      "close",
+      "getenv",
+      "open",
+      "pthread_once",
+      "pthread_self",
+      "strcmp",
+      "strlen",
+      "write"
+    ],
+    "undefined_versions_changed": {},
+    "shared_metadata_differences": {
+      "_ZN4dart8external3ode9dSolveLCPEiPdS2_S2_S2_iS2_S2_Pib": {
+        "size": [
+          "3622",
+          "4138"
+        ]
+      }
+    }
+  },
+  "baseline_ode": {
+    "export_count": 255,
+    "missing_exports": [],
+    "added_exports": [],
+    "missing_undefined": [],
+    "added_undefined": [],
+    "undefined_versions_changed": {},
+    "shared_metadata_differences": {
+      "_ZN4dart9collision20OdeCollisionDetector8distanceEPNS0_14CollisionGroupES3_RKNS0_14DistanceOptionEPNS0_14DistanceResultE": {
+        "size": [
+          "273",
+          "276"
+        ]
+      },
+      "_ZN4dart9collision20OdeCollisionDetector8distanceEPNS0_14CollisionGroupERKNS0_14DistanceOptionEPNS0_14DistanceResultE": {
+        "size": [
+          "273",
+          "276"
+        ]
+      }
+    }
+  },
+  "trace_ode": {
+    "export_count": 255,
+    "missing_exports": [],
+    "added_exports": [],
+    "missing_undefined": [],
+    "added_undefined": [],
+    "undefined_versions_changed": {},
+    "shared_metadata_differences": {
+      "_ZN4dart9collision20OdeCollisionDetector8distanceEPNS0_14CollisionGroupES3_RKNS0_14DistanceOptionEPNS0_14DistanceResultE": {
+        "size": [
+          "273",
+          "276"
+        ]
+      },
+      "_ZN4dart9collision20OdeCollisionDetector8distanceEPNS0_14CollisionGroupERKNS0_14DistanceOptionEPNS0_14DistanceResultE": {
+        "size": [
+          "273",
+          "276"
+        ]
+      }
+    }
+  },
+  "baseline_ipopt": {
+    "export_count": 165,
+    "missing_exports": [],
+    "added_exports": [],
+    "missing_undefined": [],
+    "added_undefined": [],
+    "undefined_versions_changed": {},
+    "shared_metadata_differences": {
+      "_ZN4dart9optimizer8DartTNLP18get_starting_pointEibPdbS2_S2_ibS2_": {
+        "size": [
+          "839",
+          "968"
+        ]
+      },
+      "_ZN4dart9optimizer8DartTNLP6eval_hEiPKdbdiS3_biPiS4_Pd": {
+        "size": [
+          "296",
+          "361"
+        ]
+      }
+    }
+  },
+  "trace_ipopt": {
+    "export_count": 165,
+    "missing_exports": [],
+    "added_exports": [],
+    "missing_undefined": [],
+    "added_undefined": [],
+    "undefined_versions_changed": {},
+    "shared_metadata_differences": {
+      "_ZN4dart9optimizer8DartTNLP18get_starting_pointEibPdbS2_S2_ibS2_": {
+        "size": [
+          "839",
+          "953"
+        ]
+      },
+      "_ZN4dart9optimizer8DartTNLP6eval_hEiPKdbdiS3_biPiS4_Pd": {
+        "size": [
+          "296",
+          "354"
+        ]
+      }
+    }
+  },
+  "baseline_nlopt": {
+    "export_count": 42,
+    "missing_exports": [],
+    "added_exports": [],
+    "missing_undefined": [],
+    "added_undefined": [],
+    "undefined_versions_changed": {},
+    "shared_metadata_differences": {
+      "_ZN4dart9optimizer11NloptSolver16convertAlgorithmENS1_9AlgorithmE": {
+        "size": [
+          "385",
+          "449"
+        ]
+      },
+      "_ZN4dart9optimizer11NloptSolver16convertAlgorithmEN5nlopt9algorithmE": {
+        "size": [
+          "385",
+          "449"
+        ]
+      },
+      "_ZN4dart9optimizer11NloptSolver5solveEv": {
+        "size": [
+          "2403",
+          "2371"
+        ]
+      }
+    }
+  },
+  "trace_nlopt": {
+    "export_count": 42,
+    "missing_exports": [],
+    "added_exports": [],
+    "missing_undefined": [],
+    "added_undefined": [],
+    "undefined_versions_changed": {},
+    "shared_metadata_differences": {
+      "_ZN4dart9optimizer11NloptSolver16convertAlgorithmENS1_9AlgorithmE": {
+        "size": [
+          "385",
+          "449"
+        ]
+      },
+      "_ZN4dart9optimizer11NloptSolver16convertAlgorithmEN5nlopt9algorithmE": {
+        "size": [
+          "385",
+          "449"
+        ]
+      },
+      "_ZN4dart9optimizer11NloptSolver5solveEv": {
+        "size": [
+          "2403",
+          "2371"
+        ]
+      }
+    }
+  }
+}

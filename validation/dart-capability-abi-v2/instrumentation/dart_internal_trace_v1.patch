@@ -1,0 +1,289 @@
+--- a/dart/simulation/World.cpp
++++ b/dart/simulation/World.cpp
+@@ -38,0 +39 @@
++#include "dart/external/odelcpsolver/internal_trace.h"
+@@ -49,0 +51 @@
++#include "dart/dynamics/DegreeOfFreedom.hpp"
+@@ -72,0 +75 @@
++  dart::external::ode::trace::InitializeEnvironment();
+@@ -81,0 +85 @@
++  dart::external::ode::trace::FinishWorld(this);
+@@ -168,0 +173 @@
++  dart::external::ode::trace::StepScope traceScope(this, mName.c_str(), mFrame, mTime, mTimeStep);
+@@ -178,0 +184,9 @@
++  if (dart::external::ode::trace::Active()) {
++    for (const auto& skel : mSkeletons) {
++      for (std::size_t i=0;i<skel->getNumDofs();++i) {
++        const double values[]={double(i),skel->getVelocity(i)};
++        dart::external::ode::trace::Emit("v_free", "World::step.after_integrateVelocities", skel->getName().c_str(),values,2);
++        dart::external::ode::trace::Emit("dof_identity", "World::step", skel->getDof(i)->getName().c_str(),values,1);
++      }
++    }
++  }
+@@ -205,0 +220,2 @@
++  dart::external::ode::trace::Scalar("actual_frame_after","World::step",mFrame);
++  dart::external::ode::trace::Scalar("actual_time_after","World::step",mTime);
+--- a/dart/constraint/ContactConstraint.cpp
++++ b/dart/constraint/ContactConstraint.cpp
+@@ -32,0 +33 @@
++#include "dart/external/odelcpsolver/internal_trace.h"
+@@ -366,0 +368,17 @@
++  if (dart::external::ode::trace::Active()) {
++    dart::external::ode::trace::Emit("contact_identity","ContactConstraint::getInformation",mBodyNodeA->getName().c_str(),nullptr,0);
++    dart::external::ode::trace::Emit("contact_skeletonA","ContactConstraint::getInformation",mBodyNodeA->getSkeleton()->getName().c_str(),nullptr,0);
++    dart::external::ode::trace::Emit("contact_skeletonB","ContactConstraint::getInformation",mBodyNodeB->getSkeleton()->getName().c_str(),nullptr,0);
++    dart::external::ode::trace::Emit("contact_bodyB","ContactConstraint::getInformation",mBodyNodeB->getName().c_str(),nullptr,0);
++    dart::external::ode::trace::Emit("contact_shapeA","ContactConstraint::getInformation",mContact.collisionObject1->getShapeFrame()->getName().c_str(),nullptr,0);
++    dart::external::ode::trace::Emit("contact_shapeB","ContactConstraint::getInformation",mContact.collisionObject2->getShapeFrame()->getName().c_str(),nullptr,0);
++    dart::external::ode::trace::Emit("contact_point","ContactConstraint::getInformation","world_m",mContact.point.data(),3);
++    dart::external::ode::trace::Emit("contact_normal","ContactConstraint::getInformation","world",mContact.normal.data(),3);
++    const double params[]={mContact.penetrationDepth,mPrimaryFrictionCoeff,mSecondaryFrictionCoeff,mErrorAllowance,mErrorReductionParameter,mConstraintForceMixing,mPrimarySlipCompliance,mSecondarySlipCompliance,mRestitutionCoeff,mMaxErrorReductionVelocity,double(mDim)};
++    dart::external::ode::trace::Emit("contact_parameters","ContactConstraint::getInformation","depth,mu1,mu2,allowance,erp,cfm,slip1,slip2,restitution,max_erv,dim",params,11);
++    for (std::size_t col=0;col<mDim;++col) {
++      dart::external::ode::trace::Emit("jacobian_A","ContactConstraint::getInformation","local_angular_linear",mSpatialNormalA.col(col).data(),6,-1,int(col));
++      dart::external::ode::trace::Emit("jacobian_B","ContactConstraint::getInformation","local_angular_linear",mSpatialNormalB.col(col).data(),6,-1,int(col));
++    }
++    dart::external::ode::trace::Emit("contact_relative_free_velocity","ContactConstraint::getInformation","negative_relative_projection",info->b,mDim);
++  }
+@@ -622,0 +641 @@
++  dart::external::ode::trace::Emit("applied_contact_impulse","ContactConstraint::applyImpulse","normal_then_tangents_Ns",lambda,mDim);
+--- a/dart/constraint/JointConstraint.cpp
++++ b/dart/constraint/JointConstraint.cpp
+@@ -32,0 +33 @@
++#include "dart/external/odelcpsolver/internal_trace.h"
+@@ -262 +263,5 @@
+-        ++mDim;
++        if (dart::external::ode::trace::Active()) {
++          const double tag[]={double(i),1.0};
++          dart::external::ode::trace::Emit("joint_branch","JointConstraint::update",mJoint->getName().c_str(),tag,2);
++        }
++        ++mDim; /*trace branch recorded*/
+@@ -304 +309,5 @@
+-        ++mDim;
++        if (dart::external::ode::trace::Active()) {
++          const double tag[]={double(i),2.0};
++          dart::external::ode::trace::Emit("joint_branch","JointConstraint::update",mJoint->getName().c_str(),tag,2);
++        }
++        ++mDim; /*trace branch recorded*/
+@@ -327 +336,5 @@
+-        ++mDim;
++        if (dart::external::ode::trace::Active()) {
++          const double tag[]={double(i),3.0};
++          dart::external::ode::trace::Emit("joint_branch","JointConstraint::update",mJoint->getName().c_str(),tag,2);
++        }
++        ++mDim; /*trace branch recorded*/
+@@ -350 +363,5 @@
+-        ++mDim;
++        if (dart::external::ode::trace::Active()) {
++          const double tag[]={double(i),4.0};
++          dart::external::ode::trace::Emit("joint_branch","JointConstraint::update",mJoint->getName().c_str(),tag,2);
++        }
++        ++mDim; /*trace branch recorded*/
+@@ -389,0 +407,4 @@
++        if (dart::external::ode::trace::Active()) {
++          const double tag[]={double(i),5.0};
++          dart::external::ode::trace::Emit("joint_branch","JointConstraint::update",mJoint->getName().c_str(),tag,2);
++        }
+@@ -415,0 +437,6 @@
++    if (dart::external::ode::trace::Active()) {
++      const double v[]={double(i),double(index),double(mJoint->getActuatorType()),mDesiredVelocityChange[i],mImpulseLowerBound[i],mImpulseUpperBound[i]};
++      dart::external::ode::trace::Emit("joint_row","JointConstraint::getInformation",mJoint->getName().c_str(),v,6,-1,int(index));
++    }
++    if (dart::external::ode::trace::Active())
++      dart::external::ode::trace::Emit("joint_skeleton","JointConstraint::getInformation",mJoint->getSkeleton()->getName().c_str(),nullptr,0);
+--- a/dart/constraint/BoxedLcpConstraintSolver.cpp
++++ b/dart/constraint/BoxedLcpConstraintSolver.cpp
+@@ -32,0 +33 @@
++#include "dart/external/odelcpsolver/internal_trace.h"
+@@ -156,0 +158,2 @@
++  if (dart::external::ode::trace::Active())
++    dart::external::ode::trace::BeginAssembly(n,mBoxedLcpSolver->getType().c_str());
+@@ -194,0 +198,3 @@
++    dart::external::ode::trace::SetRow(int(mOffset[i]),int(i),int(constraint->getDimension()));
++    if (dart::external::ode::trace::Active())
++      dart::external::ode::trace::Emit("constraint_type","BoxedLcpConstraintSolver",constraint->getType().c_str(),nullptr,0);
+@@ -241,0 +248,9 @@
++  if (dart::external::ode::trace::Active()) {
++    dart::external::ode::trace::Matrix("A0","BoxedLcpConstraintSolver.before_primary",mA.data(),int(n),nSkip);
++    dart::external::ode::trace::Emit("b0","BoxedLcpConstraintSolver.before_primary","row_velocity",mB.data(),n);
++    dart::external::ode::trace::Emit("x0","BoxedLcpConstraintSolver.before_primary","row_impulse",mX.data(),n);
++    dart::external::ode::trace::Emit("lo0","BoxedLcpConstraintSolver.before_primary","mixed_initial_bounds",mLo.data(),n);
++    dart::external::ode::trace::Emit("hi0","BoxedLcpConstraintSolver.before_primary","mixed_initial_bounds",mHi.data(),n);
++    dart::external::ode::trace::Integers("findex0","BoxedLcpConstraintSolver.before_primary",mFIndex.data(),n);
++    dart::external::ode::trace::Integers("offsets","BoxedLcpConstraintSolver.before_primary",mOffset.data(),numConstraints);
++  }
+@@ -267,0 +283,2 @@
++  dart::external::ode::trace::Scalar("primary_raw_return","BoxedLcpConstraintSolver",success);
++  if (dart::external::ode::trace::Active()) dart::external::ode::trace::Scalar("primary_has_nan","BoxedLcpConstraintSolver",mX.hasNaN());
+@@ -272,0 +290,2 @@
++  dart::external::ode::trace::Scalar("primary_effective_success","BoxedLcpConstraintSolver",success);
++  dart::external::ode::trace::Scalar("fallback_called","BoxedLcpConstraintSolver",!success && bool(mSecondaryBoxedLcpSolver));
+@@ -275 +294,3 @@
+-    mSecondaryBoxedLcpSolver->solve(
++    if (dart::external::ode::trace::Active())
++      dart::external::ode::trace::Emit("fallback_type","BoxedLcpConstraintSolver",mSecondaryBoxedLcpSolver->getType().c_str(),nullptr,0);
++    const bool traceFallbackReturn = mSecondaryBoxedLcpSolver->solve(
+@@ -284,0 +306 @@
++    dart::external::ode::trace::Scalar("fallback_raw_return","BoxedLcpConstraintSolver",traceFallbackReturn);
+@@ -287,0 +310,2 @@
++  dart::external::ode::trace::Emit("selected_x_before_repair","BoxedLcpConstraintSolver","caller_row_order; inspect failure mapping",mX.data(),n);
++  if (dart::external::ode::trace::Active()) dart::external::ode::trace::Scalar("nan_repair_required","BoxedLcpConstraintSolver",mX.hasNaN());
+@@ -302,0 +327 @@
++  dart::external::ode::trace::Emit("final_x","BoxedLcpConstraintSolver","caller_row_order; inspect failure mapping",mX.data(),n);
+@@ -306,0 +332 @@
++    dart::external::ode::trace::SetRow(int(mOffset[i]),int(i),int(constraint->getDimension()));
+@@ -309,0 +336 @@
++  dart::external::ode::trace::EndAssembly();
+--- a/dart/external/odelcpsolver/lcp.cpp
++++ b/dart/external/odelcpsolver/lcp.cpp
+@@ -110,0 +111 @@
++#include "internal_trace.h"
+@@ -860,0 +862,4 @@
++      trace::Integers("freeze_permutation","dSolveLCP",p,n);
++      trace::Integers("freeze_findex","dSolveLCP",findex,n);
++      trace::Emit("freeze_x_permuted","dSolveLCP","current_permutation",x,n);
++      trace::Emit("freeze_mu_hi","dSolveLCP","before_bound_conversion",hi,n);
+@@ -875,0 +881,3 @@
++      trace::Emit("freeze_lo_effective","dSolveLCP","current_permutation",lo,n);
++      trace::Emit("freeze_hi_effective","dSolveLCP","current_permutation",hi,n);
++      trace::Emit("freeze_x_original_order","dSolveLCP","delta_w_original_order",delta_w,n);
+@@ -1013,0 +1022,3 @@
++            trace::Integers("failure_permutation","dSolveLCP.pre_unpermute",p,n);
++            trace::Emit("failure_x_permuted","dSolveLCP.pre_unpermute","raw",x,n);
++            trace::Scalar("dantzig_failure","dSolveLCP",1);
+@@ -1044,0 +1056 @@
++          trace::Scalar("dantzig_internal_error","dSolveLCP.continue_error_path",1);
+@@ -1098,0 +1111 @@
++  trace::Integers("return_permutation","dSolveLCP",p,n);
+@@ -1099,0 +1113 @@
++  trace::Emit("dantzig_x_unpermuted","dSolveLCP","original_row_order",x,n);
+--- /dev/null
++++ b/dart/external/odelcpsolver/internal_trace.h
+@@ -0,0 +1,24 @@
++#pragma once
++// Isolated diagnostic extension only. No changes to existing DART class layout.
++#include <cstddef>
++#include <cstdint>
++namespace dart { namespace external { namespace ode { namespace trace {
++struct Config { bool enabled=false; std::uint64_t first=0,last=0; std::size_t records=4096,values=262144; const char* run=""; const char* world=""; };
++bool Configure(const Config&) noexcept;
++void InitializeEnvironment() noexcept;
++bool Active() noexcept;
++void BeginStep(const void*, const char*, int, double, double) noexcept;
++void EndStep(bool interrupted=false) noexcept;
++struct StepScope { int exceptions; bool opened; StepScope(const void*,const char*,int,double,double) noexcept; ~StepScope() noexcept; };
++void BeginAssembly(std::size_t,const char*) noexcept;
++void EndAssembly() noexcept;
++void SetRow(int,int,int) noexcept;
++void Emit(const char*,const char*,const char*,const double*,std::size_t,int=-1,int=-1) noexcept;
++void Integers(const char*,const char*,const int*,std::size_t) noexcept;
++void Scalar(const char*,const char*,double) noexcept;
++void Matrix(const char*,const char*,const double*,int,int) noexcept;
++bool FlushExclusive(const char*) noexcept;
++void FinishWorld(const void*) noexcept;
++struct Status { std::size_t records,values,steps,assemblies; unsigned faults; bool enabled,active; };
++Status GetStatus() noexcept;
++}}}}
+--- /dev/null
++++ b/dart/external/odelcpsolver/internal_trace.cpp
+@@ -0,0 +1,100 @@
++#include "internal_trace.h"
++#include <algorithm>
++#include <atomic>
++#include <cerrno>
++#include <cstdio>
++#include <cstdlib>
++#include <cstring>
++#include <exception>
++#include <fcntl.h>
++#include <iomanip>
++#include <limits>
++#include <mutex>
++#include <sstream>
++#include <string>
++#include <thread>
++#include <unistd.h>
++#include <vector>
++namespace dart { namespace external { namespace ode { namespace trace {
++namespace {
++struct Record { char kind[48],source[80],identity[128]; std::uint64_t step,assembly; int row,col; std::size_t offset,count; };
++struct State { Config cfg; char run[128]{},world[128]{}; std::vector<Record> records;std::vector<double> data;std::size_t used=0,filled=0,steps=0,assemblies=0;std::uint64_t lastStep=0;std::atomic<unsigned> faults{0};std::thread::id owner; const void* worldPtr=nullptr;bool enabled=false; };
++State st;
++struct Context { bool active=false;std::uint64_t step=0,assembly=0;int row=-1,col=-1;const void* world=nullptr; };
++thread_local Context ctx;
++std::once_flag environmentChecked;
++enum {Overflow=1,WrongThread=2,Truncated=4,Interrupted=8,ConfigError=16,IoError=32,Nested=64,IdentityMismatch=128};
++bool Owner() noexcept { if(std::this_thread::get_id()==st.owner)return true;st.faults.fetch_or(WrongThread);return false; }
++void Str(char* dest,std::size_t n,const char* src) noexcept { if(!src)src="";std::size_t l=std::strlen(src);if(l>=n)st.faults.fetch_or(Truncated);std::memcpy(dest,src,std::min(l,n-1));dest[std::min(l,n-1)]=0; }
++std::string Json(const char* s){std::ostringstream o;o<<'"';for(const unsigned char* p=reinterpret_cast<const unsigned char*>(s);*p;++p){if(*p=='"'||*p=='\\')o<<'\\'<<char(*p);else if(*p<32)o<<"\\u"<<std::hex<<std::setw(4)<<std::setfill('0')<<int(*p);else o<<char(*p);}o<<'"';return o.str();}
++bool Parse(const char* name,std::uint64_t& n){const char* s=std::getenv(name);if(!s||!*s||*s=='-')return false;char* e=nullptr;errno=0;n=std::strtoull(s,&e,10);return !errno&&e&&!*e;}
++}
++bool Configure(const Config& c) noexcept {
++ if(ctx.active|| (st.enabled&&!Owner()))return false;
++ st.enabled=false;st.faults.store(0);ctx=Context{};
++ st.used=st.filled=st.steps=st.assemblies=0;st.worldPtr=nullptr;st.lastStep=0;st.owner=std::this_thread::get_id();
++ if(!c.enabled){st.records.clear();st.data.clear();return true;}
++ if(!c.first||c.last<c.first||c.last-c.first>4||!c.records||c.records>65536||!c.values||c.values>1048576||!c.run||!*c.run||!c.world||!*c.world){st.faults.fetch_or(ConfigError);return false;}
++ try {st.records.resize(c.records);st.data.resize(c.values);}catch(...){st.faults.fetch_or(ConfigError);return false;}
++ st.cfg=c;Str(st.run,sizeof(st.run),c.run);Str(st.world,sizeof(st.world),c.world);st.enabled=true;return true;
++}
++void InitializeEnvironment() noexcept {
++ try { std::call_once(environmentChecked, [] {
++ const char* e=std::getenv("DART_INTERNAL_TRACE_V1");if(!e||std::strcmp(e,"1"))return;
++ Config c;c.enabled=true;c.run=std::getenv("DART_TRACE_RUN_ID");c.world=std::getenv("DART_TRACE_WORLD");
++ if(!Parse("DART_TRACE_FIRST_FRAME",c.first)||!Parse("DART_TRACE_LAST_FRAME",c.last)){st.faults.fetch_or(ConfigError);return;}
++ Configure(c);
++ }); } catch(...) {st.faults.fetch_or(ConfigError);}
++}
++bool Active() noexcept{return st.enabled&&ctx.active;}
++void Emit(const char* kind,const char* source,const char* identity,const double* data,std::size_t n,int row,int col) noexcept {
++ if(!Active()||!Owner())return;
++ if((n&&!data)||st.used>=st.records.size()||n>st.data.size()-st.filled){st.faults.fetch_or(Overflow);return;}
++ Record& r=st.records[st.used++];Str(r.kind,sizeof(r.kind),kind);Str(r.source,sizeof(r.source),source);Str(r.identity,sizeof(r.identity),identity);
++ r.step=ctx.step;r.assembly=ctx.assembly;r.row=row<0?ctx.row:row;r.col=col<0?ctx.col:col;r.offset=st.filled;r.count=n;
++ if(n && data!=st.data.data()+st.filled) { std::memcpy(st.data.data()+st.filled,data,n*sizeof(double)); }
++ st.filled+=n;
++}
++void Scalar(const char* k,const char* src,double v) noexcept {Emit(k,src,"",&v,1);}
++void Integers(const char* k,const char* src,const int* values,std::size_t n) noexcept {
++ if(!Active()||!Owner())return;
++ if((n&&!values)||st.used>=st.records.size()||n>st.data.size()-st.filled){st.faults.fetch_or(Overflow);return;}
++ std::size_t offset=st.filled;for(std::size_t i=0;i<n;++i)st.data[offset+i]=values[i];
++ // Source aliases our preallocated arena; Emit uses memmove-safe identical pointer.
++ Emit(k,src,"",st.data.data()+offset,n);
++}
++void Matrix(const char* k,const char* src,const double* v,int n,int stride) noexcept {
++ if(!Active())return;
++ if(n<0||stride<n){st.faults.fetch_or(ConfigError);return;}
++ for(int i=0;i<n;++i)Emit(k,src,"",v+std::size_t(i)*stride,n,i,0);
++}
++void BeginStep(const void* w,const char* name,int frame,double time,double dt) noexcept {
++ if(!st.enabled||!Owner())return;
++ if(ctx.active){st.faults.fetch_or(Nested);return;}
++ if(!name||std::strcmp(name,st.world))return;
++ const auto step=std::uint64_t(frame)+1;if(step<st.cfg.first||step>st.cfg.last)return;
++ if(st.worldPtr&&st.worldPtr!=w){st.faults.fetch_or(IdentityMismatch);return;}
++ if(st.lastStep&&step!=st.lastStep+1) { st.faults.fetch_or(IdentityMismatch); }
++ st.lastStep=step;
++ st.worldPtr=w;ctx=Context{true,step,0,-1,-1,w};++st.steps;
++ double d[]={double(frame),time,dt,time+dt};Emit("step_begin","World::step",name,d,4);
++}
++void EndStep(bool interrupted) noexcept {if(!Active())return;if(interrupted)st.faults.fetch_or(Interrupted);Scalar("step_end","World::step",interrupted?1:0);ctx=Context{};}
++StepScope::StepScope(const void* w,const char* name,int f,double t,double dt) noexcept:exceptions(std::uncaught_exceptions()),opened(false){const bool before=Active();BeginStep(w,name,f,t,dt);opened=!before&&Active();}
++StepScope::~StepScope() noexcept {if(opened)EndStep(std::uncaught_exceptions()>exceptions);}
++void BeginAssembly(std::size_t n,const char* solver) noexcept {if(!Active())return;ctx.assembly=++st.assemblies;ctx.row=ctx.col=-1;double d=double(n);Emit("assembly_begin","BoxedLcpConstraintSolver",solver,&d,1);}
++void EndAssembly() noexcept {if(!Active())return;Emit("assembly_end","BoxedLcpConstraintSolver","",nullptr,0);ctx.assembly=0;ctx.row=ctx.col=-1;}
++void SetRow(int row,int col,int dimension) noexcept {if(!Active())return;ctx.row=row;ctx.col=col;double d[]={double(row),double(col),double(dimension)};Emit("row_context","BoxedLcpConstraintSolver","",d,3);}
++Status GetStatus() noexcept{return {st.used,st.filled,st.steps,st.assemblies,st.faults.load(),st.enabled,ctx.active};}
++bool FlushExclusive(const char* path) noexcept {
++ if(!st.enabled||ctx.active||!Owner()||!path||!*path)return false;
++ try {
++ std::ostringstream o;o<<"{\"schema_version\":1,\"protocol\":\"DART_INTERNAL_TRACE_V1\",\"run_id\":"<<Json(st.run)<<",\"world\":"<<Json(st.world)<<",\"time_alignment\":\"UNVERIFIED_DART_FRAME_ONLY\",\"stage_b\":\"BLOCKED\",\"first_frame\":"<<st.cfg.first<<",\"last_frame\":"<<st.cfg.last<<",\"steps\":"<<st.steps<<",\"fault_bits\":"<<st.faults.load()<<",\"window_complete\":"<<((st.steps==st.cfg.last-st.cfg.first+1&&!st.faults.load())?"true":"false")<<",\"records\":[";
++ for(std::size_t i=0;i<st.used;++i){const auto& r=st.records[i];if(i)o<<',';o<<"{\"kind\":"<<Json(r.kind)<<",\"source\":"<<Json(r.source)<<",\"identity\":"<<Json(r.identity)<<",\"step\":"<<r.step<<",\"assembly\":"<<r.assembly<<",\"row\":"<<r.row<<",\"column\":"<<r.col<<",\"data_bits\":[";
++ for(std::size_t j=0;j<r.count;++j){std::uint64_t bits=0;std::memcpy(&bits,st.data.data()+r.offset+j,8);if(j)o<<',';o<<'"'<<std::hex<<std::setw(16)<<std::setfill('0')<<bits<<std::dec<<'"';}o<<"]}";}o<<"]}\n";
++ std::string bytes=o.str();int fd=::open(path,O_CREAT|O_EXCL|O_WRONLY|O_NOFOLLOW,0600);if(fd<0){st.faults.fetch_or(IoError);return false;}
++ std::size_t done=0;while(done<bytes.size()){ssize_t n=::write(fd,bytes.data()+done,bytes.size()-done);if(n<0&&errno==EINTR)continue;if(n<=0){st.faults.fetch_or(IoError);::close(fd);return false;}done+=std::size_t(n);}if(::close(fd)){st.faults.fetch_or(IoError);return false;}return true;
++ }catch(...){st.faults.fetch_or(IoError);return false;}
++}
++void FinishWorld(const void* w) noexcept {if(st.enabled&&st.worldPtr==w){const char* p=std::getenv("DART_TRACE_OUTPUT_V1");if(p)FlushExclusive(p);}}
++}}}}

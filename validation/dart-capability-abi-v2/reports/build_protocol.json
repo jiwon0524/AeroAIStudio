@@ -1,0 +1,17 @@
+{
+  "targets": [
+    "dart",
+    "dart-optimizer-ipopt",
+    "dart-optimizer-nlopt",
+    "dart-collision-ode"
+  ],
+  "forbidden": [
+    "Gazebo",
+    "World::step",
+    "Stage B",
+    "install target",
+    "global loader change"
+  ],
+  "source_changes": "NONE: copy of previously verified sources; no solver/instrumentation changes",
+  "parallel_jobs_per_build": 4
+}

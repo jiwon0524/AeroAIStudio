@@ -1,0 +1,41 @@
+{
+  "ipopt": {
+    "command": [
+      "pkg-config",
+      "--modversion",
+      "--cflags",
+      "--libs",
+      "ipopt"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "3.11.9\n",
+    "stderr": ""
+  },
+  "nlopt": {
+    "command": [
+      "pkg-config",
+      "--modversion",
+      "--cflags",
+      "--libs",
+      "nlopt"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "2.7.1\n",
+    "stderr": ""
+  },
+  "ode": {
+    "command": [
+      "pkg-config",
+      "--modversion",
+      "--cflags",
+      "--libs",
+      "ode"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "0.16.2\n",
+    "stderr": ""
+  }
+}

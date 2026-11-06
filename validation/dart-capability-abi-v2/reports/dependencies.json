@@ -1,0 +1,248 @@
+{
+  "packages": [
+    {
+      "file": "abigail-tools_2.4-3build1_amd64.deb",
+      "package": {
+        "Package": "abigail-tools",
+        "Version": "2.4-3build1",
+        "Architecture": "amd64"
+      },
+      "sha256": "8c88ab8e84abeba512bb476108dbc8cb9fa6218172750af6e968754b819ed428",
+      "apt_metadata_sha256_match": true,
+      "apt_metadata": "Package: abigail-tools\nArchitecture: amd64\nVersion: 2.4-3build1\nMulti-Arch: foreign\nPriority: optional\nSection: universe/devel\nSource: libabigail\nOrigin: Ubuntu\nMaintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>\nOriginal-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>\nBugs: https://bugs.launchpad.net/ubuntu/+filebug\nInstalled-Size: 444\nDepends: libabigail0t64 (= 2.4-3build1), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)\nSuggests: cpio, rpm2cpio, abigail-doc\nReplaces: libabigail-tools\nFilename: pool/universe/liba/libabigail/abigail-tools_2.4-3build1_amd64.deb\nSize: 139776\nMD5sum: b7114c849e7fe8b089ebccf0955604c1\nSHA1: 2adf95774bae9c9caafdce4780a8f3a7f1ae5c35\nSHA256: 8c88ab8e84abeba512bb476108dbc8cb9fa6218172750af6e968754b819ed428\nSHA512: 44c7ab257bd3d11c625acba84f9c839cfcc9e5d1010d4f8ffe3bc283ff9fbc1bf467ff3c81a990cd175a4d8cc3490a218e64b5d6fa7229f4817b57bf0a259e28\nHomepage: https://sourceware.org/libabigail/\nDescription-en: ABI Generic Analysis and Instrumentation Library (tools)\n This is an interface to the GNU Compiler Collection for the collection\n and analysis of compiler-generated binaries.\n .\n This package contains the tools.\nDescription-md5: e6981e21cd3ee6bb6496739dae7c4e3b\n\n",
+      "extraction_command": [
+        "dpkg-deb",
+        "-x",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/downloads/abigail-tools_2.4-3build1_amd64.deb",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies"
+      ],
+      "source": "Ubuntu noble archive via configured apt package index; download/extract only, no install"
+    },
+    {
+      "file": "coinor-libipopt-dev_3.11.9-2.3build4_amd64.deb",
+      "package": {
+        "Package": "coinor-libipopt-dev",
+        "Version": "3.11.9-2.3build4",
+        "Architecture": "amd64"
+      },
+      "sha256": "2c45947b444a73e408bb62ba1efb1b999617c24fb0e9d22afedc3cfc17d4a750",
+      "apt_metadata_sha256_match": true,
+      "apt_metadata": "Package: coinor-libipopt-dev\nArchitecture: amd64\nVersion: 3.11.9-2.3build4\nPriority: extra\nSection: universe/libdevel\nSource: coinor-ipopt\nOrigin: Ubuntu\nMaintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>\nOriginal-Maintainer: Greg Horn <gregmainland@gmail.com>\nBugs: https://bugs.launchpad.net/ubuntu/+filebug\nInstalled-Size: 6496\nDepends: coinor-libipopt1v5 (= 3.11.9-2.3build4), libmumps-seq-dev\nFilename: pool/universe/c/coinor-ipopt/coinor-libipopt-dev_3.11.9-2.3build4_amd64.deb\nSize: 938436\nMD5sum: aab41345e448ebe5238c6d8cdbe6f758\nSHA1: 5cadec6b1980b26348d93b31577d213f47df37ed\nSHA256: 2c45947b444a73e408bb62ba1efb1b999617c24fb0e9d22afedc3cfc17d4a750\nSHA512: de9ba06cdd5cd3d127a5705c9b647485d2b5be10937924f592cfd0774c4635ee2472b21ae1277c7b0393a34cb3161bc8e539d2f4203fbec7043445aa23be3a13\nHomepage: https://projects.coin-or.org/Ipopt\nDescription-en: Interior-Point Optimizer - header files\n Ipopt is an open-source solver for large-scale nonlinear continuous\n optimization. It can be used from modeling environments, such as AMPL,\n GAMS, or Matlab, and it is also available as a callable library with\n interfaces to C++, C, and Fortran. Ipopt uses an interior point method,\n together with a filter linear search procedure. Ipopt is part of the\n larger COIN-OR initiative (Computational Infrastructure for Operations\n Research).\n .\n The Debian package is compiled against MUMPS (as it is the only one of\n the available solvers that is Free Software and included in Debian).\n .\n This package contains the header files for developers.\nDescription-md5: 004a2b4e162fc64f12e7d4eb4d34e764\n\n",
+      "extraction_command": [
+        "dpkg-deb",
+        "-x",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/downloads/coinor-libipopt-dev_3.11.9-2.3build4_amd64.deb",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies"
+      ],
+      "source": "Ubuntu noble archive via configured apt package index; download/extract only, no install"
+    },
+    {
+      "file": "coinor-libipopt1v5_3.11.9-2.3build4_amd64.deb",
+      "package": {
+        "Package": "coinor-libipopt1v5",
+        "Version": "3.11.9-2.3build4",
+        "Architecture": "amd64"
+      },
+      "sha256": "0c349ab15aa1aff63bf673cfa6ebd71bab13831905c166248eb9be963848c228",
+      "apt_metadata_sha256_match": true,
+      "apt_metadata": "Package: coinor-libipopt1v5\nArchitecture: amd64\nVersion: 3.11.9-2.3build4\nPriority: extra\nSection: universe/libs\nSource: coinor-ipopt\nOrigin: Ubuntu\nMaintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>\nOriginal-Maintainer: Greg Horn <gregmainland@gmail.com>\nBugs: https://bugs.launchpad.net/ubuntu/+filebug\nInstalled-Size: 2099\nDepends: libblas3 | libblas.so.3, libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), liblapack3 | liblapack.so.3, libmumps-seq-5.6t64 (>= 5.6.2), libstdc++6 (>= 13.1)\nConflicts: coinor-libipopt1\nReplaces: coinor-libipopt1\nFilename: pool/universe/c/coinor-ipopt/coinor-libipopt1v5_3.11.9-2.3build4_amd64.deb\nSize: 599846\nMD5sum: d384727f2f09591e3f9c806d17dcc36d\nSHA1: a7a01dc8eac87511cfd406fe4810bf4e35c265fb\nSHA256: 0c349ab15aa1aff63bf673cfa6ebd71bab13831905c166248eb9be963848c228\nSHA512: b6cfd37c14bfa6afbe28fdcbcfd5ceb94eb8263e37c29135719ea6b9752ea6b2ce9bb844a562bb8d857028bbc25e681caaa3eb4d64ae15917e81da820954471b\nHomepage: https://projects.coin-or.org/Ipopt\nDescription-en: Interior-Point Optimizer, for large-scale nonlinear optimization\n Ipopt is an open-source solver for large-scale nonlinear continuous\n optimization. It can be used from modeling environments, such as AMPL,\n GAMS, or Matlab, and it is also available as a callable library with\n interfaces to C++, C, and Fortran. Ipopt uses an interior point method,\n together with a filter linear search procedure. Ipopt is part of the\n larger COIN-OR initiative (Computational Infrastructure for Operations\n Research).\n .\n The Debian package is compiled against MUMPS (as it is the only one of\n the available solvers that is Free Software and included in Debian).\n .\n This package contains the library.\nDescription-md5: b22cc6665e1345d36a3c5f15fa8b6fb8\n\n",
+      "extraction_command": [
+        "dpkg-deb",
+        "-x",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/downloads/coinor-libipopt1v5_3.11.9-2.3build4_amd64.deb",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies"
+      ],
+      "source": "Ubuntu noble archive via configured apt package index; download/extract only, no install"
+    },
+    {
+      "file": "libabigail0t64_2.4-3build1_amd64.deb",
+      "package": {
+        "Package": "libabigail0t64",
+        "Version": "2.4-3build1",
+        "Architecture": "amd64"
+      },
+      "sha256": "58a7399e0ad4ac63fb3c2b411c74d759d48a6a21bc49c529188e2a7fceaeb021",
+      "apt_metadata_sha256_match": true,
+      "apt_metadata": "Package: libabigail0t64\nArchitecture: amd64\nVersion: 2.4-3build1\nMulti-Arch: same\nPriority: optional\nSection: universe/libs\nSource: libabigail\nOrigin: Ubuntu\nMaintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>\nOriginal-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>\nBugs: https://bugs.launchpad.net/ubuntu/+filebug\nInstalled-Size: 3211\nProvides: libabigail0 (= 2.4-3build1)\nDepends: libc6 (>= 2.38), libctf0 (>= 2.37), libdw1t64 (>= 0.160), libelf1t64 (>= 0.144), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libxml2 (>= 2.7.4)\nBreaks: libabigail0 (<< 2.4-3build1)\nReplaces: libabigail0\nFilename: pool/universe/liba/libabigail/libabigail0t64_2.4-3build1_amd64.deb\nSize: 988000\nMD5sum: 8a5053a6db5452f97c6310246cbd6b21\nSHA1: f745ba6101f9b66e62b27501befdfade0748c4c3\nSHA256: 58a7399e0ad4ac63fb3c2b411c74d759d48a6a21bc49c529188e2a7fceaeb021\nSHA512: 5d935ec54fdb13df8ca3cc90f388f7e2ae51a67e73ee05305d667a1c5096caa279fd62958610f38bf20fde3977c9d3898a04bdb52cd89cc23723482a9748d689\nHomepage: https://sourceware.org/libabigail/\nDescription-en: ABI Generic Analysis and Instrumentation Library (runtime)\n This is an interface to the GNU Compiler Collection for the collection\n and analysis of compiler-generated binaries.\n .\n This package contains the runtime library.\nDescription-md5: d2eee0fd9ff716cd0684053bf99fb5a3\n\n",
+      "extraction_command": [
+        "dpkg-deb",
+        "-x",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/downloads/libabigail0t64_2.4-3build1_amd64.deb",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies"
+      ],
+      "source": "Ubuntu noble archive via configured apt package index; download/extract only, no install"
+    },
+    {
+      "file": "libmumps-seq-5.6t64_5.6.2-2.1build2_amd64.deb",
+      "package": {
+        "Package": "libmumps-seq-5.6t64",
+        "Version": "5.6.2-2.1build2",
+        "Architecture": "amd64"
+      },
+      "sha256": "da042552e65d40883686e1117ffc916e8abd495730c736a3ac9bec9121123dfb",
+      "apt_metadata_sha256_match": true,
+      "apt_metadata": "Package: libmumps-seq-5.6t64\nArchitecture: amd64\nVersion: 5.6.2-2.1build2\nMulti-Arch: same\nPriority: optional\nSection: universe/libs\nSource: mumps\nOrigin: Ubuntu\nMaintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>\nOriginal-Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>\nBugs: https://bugs.launchpad.net/ubuntu/+filebug\nInstalled-Size: 9677\nProvides: libmumps-seq-5.6 (= 5.6.2-2.1build2)\nDepends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgfortran5 (>= 10), liblapack3 | liblapack.so.3, libscotch-7.0 (>= 7.0.4)\nBreaks: libmumps-seq-5.6 (<< 5.6.2-2.1build2)\nReplaces: libmumps-seq-5.6\nFilename: pool/universe/m/mumps/libmumps-seq-5.6t64_5.6.2-2.1build2_amd64.deb\nSize: 1984142\nMD5sum: 200147fb52bfd8b17ff75f3686735625\nSHA1: aa05153274fb6cb8a2d67aeda535449bb02c955c\nSHA256: da042552e65d40883686e1117ffc916e8abd495730c736a3ac9bec9121123dfb\nSHA512: 3b686b6ec561e4826b09e85b21eb8feac72118fd65f15827cb0e877120c17a2d75dac900b6ad54a53490e7416575e161b68ed1ad2639a263a816ad0e13fda9a8\nHomepage: http://mumps-solver.org/\nDescription-en: Direct linear systems solver - non-parallel shared libraries\n MUMPS implements a direct solver for large sparse linear systems, with a\n particular focus on symmetric positive definite matrices.  It can\n operate on distributed matrices e.g. over a cluster.  It has Fortran and\n C interfaces, and can interface with ordering tools such as Scotch.\n .\n This package is built the MUMPS libseq dummy sequential MPI library.\n Unless you know that you specifically need this, then you almost\n certainly want the libmumps-5.6t64 package.\nDescription-md5: 75f1b6316d3ba3ed9b0a6d65d7f3657a\n\n",
+      "extraction_command": [
+        "dpkg-deb",
+        "-x",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/downloads/libmumps-seq-5.6t64_5.6.2-2.1build2_amd64.deb",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies"
+      ],
+      "source": "Ubuntu noble archive via configured apt package index; download/extract only, no install"
+    },
+    {
+      "file": "libnlopt-cxx-dev_2.7.1-5build2_amd64.deb",
+      "package": {
+        "Package": "libnlopt-cxx-dev",
+        "Version": "2.7.1-5build2",
+        "Architecture": "amd64"
+      },
+      "sha256": "c57a5fdae4593e426b2538a368ba77c4e09b8a992dd0df0f20d2b69b87b3eadf",
+      "apt_metadata_sha256_match": true,
+      "apt_metadata": "Package: libnlopt-cxx-dev\nArchitecture: amd64\nVersion: 2.7.1-5build2\nMulti-Arch: same\nPriority: optional\nSection: universe/libdevel\nSource: nlopt\nOrigin: Ubuntu\nMaintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>\nOriginal-Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>\nBugs: https://bugs.launchpad.net/ubuntu/+filebug\nInstalled-Size: 54\nDepends: libnlopt-dev (= 2.7.1-5build2), libnlopt-cxx0 (= 2.7.1-5build2)\nFilename: pool/universe/n/nlopt/libnlopt-cxx-dev_2.7.1-5build2_amd64.deb\nSize: 9972\nMD5sum: aa8452580f69532c0dd51bc256142b6f\nSHA1: 5ab74797c9421d15a086c62b406f57438aa4a075\nSHA256: c57a5fdae4593e426b2538a368ba77c4e09b8a992dd0df0f20d2b69b87b3eadf\nSHA512: 53d05f0a78bf86c644ea63ee34386f32d1e9d671706a46ec402d046c8607ef7f24ab89c2e9e375b3bf2dd1a3a9c3825b8d2b43922a1a0f0bfa5a490355143c5f\nHomepage: https://github.com/stevengj/nlopt\nDescription-en: nonlinear optimization library -- development package for C++\n NLopt is a free/open-source library for nonlinear optimization, providing\n a common interface for a number of different free optimization routines\n available online as well as original implementations of various other\n algorithms. Its features include:\n .\n    * Callable from C, C++, Fortran, GNU Octave, Python, GNU Guile, GNU R.\n    * A common interface for many different algorithms\n    * Support for large-scale optimization.\n    * Both global and local optimization algorithms.\n    * Algorithms using function values only (derivative-free) and also\n      algorithms exploiting user-supplied gradients.\n    * Algorithms for unconstrained optimization, bound-constrained optimization,\n      and general nonlinear inequality/equality constraints.\n .\n This package contains the header files, static libraries and symbolic\n links that developers using NLopt library with C++ will need.\nDescription-md5: b1b887d825ff0023fdf1105993f65f6b\n\n",
+      "extraction_command": [
+        "dpkg-deb",
+        "-x",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/downloads/libnlopt-cxx-dev_2.7.1-5build2_amd64.deb",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies"
+      ],
+      "source": "Ubuntu noble archive via configured apt package index; download/extract only, no install"
+    },
+    {
+      "file": "libnlopt-cxx0_2.7.1-5build2_amd64.deb",
+      "package": {
+        "Package": "libnlopt-cxx0",
+        "Version": "2.7.1-5build2",
+        "Architecture": "amd64"
+      },
+      "sha256": "86cf0ff2ff0cabbdcf0a629572e6b6def25cf0340ef3dde975142d33d66d4570",
+      "apt_metadata_sha256_match": true,
+      "apt_metadata": "Package: libnlopt-cxx0\nArchitecture: amd64\nVersion: 2.7.1-5build2\nMulti-Arch: same\nPriority: optional\nSection: universe/libs\nSource: nlopt\nOrigin: Ubuntu\nMaintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>\nOriginal-Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>\nBugs: https://bugs.launchpad.net/ubuntu/+filebug\nInstalled-Size: 523\nDepends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)\nFilename: pool/universe/n/nlopt/libnlopt-cxx0_2.7.1-5build2_amd64.deb\nSize: 211756\nMD5sum: 6fc198dceab72078816909fb27fbf8d3\nSHA1: bd6b221771d37308852d66a000970e4f31b8dd0a\nSHA256: 86cf0ff2ff0cabbdcf0a629572e6b6def25cf0340ef3dde975142d33d66d4570\nSHA512: 689d7cd1a05219af4192fb33032e82e19beb43c9e38ca49b4d28ccb1e7a554dcc299b16feefb4a175d7b8f50ce8087f79a06a45d1be088fee18b7b454d1f0d46\nHomepage: https://github.com/stevengj/nlopt\nDescription-en: nonlinear optimization library (C++ interface)\n NLopt is a free/open-source library for nonlinear optimization, providing\n a common interface for a number of different free optimization routines\n available online as well as original implementations of various other\n algorithms. Its features include:\n .\n    * Callable from C, C++, Fortran, GNU Octave, Python, GNU Guile, GNU R.\n    * A common interface for many different algorithms\n    * Support for large-scale optimization.\n    * Both global and local optimization algorithms.\n    * Algorithms using function values only (derivative-free) and also\n      algorithms exploiting user-supplied gradients.\n    * Algorithms for unconstrained optimization, bound-constrained optimization,\n      and general nonlinear inequality/equality constraints.\n .\n This package provides the shared libraries required to run programs\n compiled with NLopt in C++. To compile your own programs you also need to\n install libnlopt-cxx-dev.\nDescription-md5: 1c8baff5ca358ab1ef0b0a9e4b935910\nTask: edubuntu-desktop-gnome, edubuntu-desktop-gnome-raspi\n\n",
+      "extraction_command": [
+        "dpkg-deb",
+        "-x",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/downloads/libnlopt-cxx0_2.7.1-5build2_amd64.deb",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies"
+      ],
+      "source": "Ubuntu noble archive via configured apt package index; download/extract only, no install"
+    },
+    {
+      "file": "libnlopt-dev_2.7.1-5build2_amd64.deb",
+      "package": {
+        "Package": "libnlopt-dev",
+        "Version": "2.7.1-5build2",
+        "Architecture": "amd64"
+      },
+      "sha256": "1d97691fbc8c6d6124385647cdba16ed10721420b42d223035d29edf54cdf312",
+      "apt_metadata_sha256_match": true,
+      "apt_metadata": "Package: libnlopt-dev\nArchitecture: amd64\nVersion: 2.7.1-5build2\nMulti-Arch: same\nPriority: extra\nSection: universe/libdevel\nSource: nlopt\nOrigin: Ubuntu\nMaintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>\nOriginal-Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>\nBugs: https://bugs.launchpad.net/ubuntu/+filebug\nInstalled-Size: 138\nDepends: libnlopt0 (= 2.7.1-5build2)\nFilename: pool/universe/n/nlopt/libnlopt-dev_2.7.1-5build2_amd64.deb\nSize: 43888\nMD5sum: 458c8bfa12af7cb0c14b67f06b9bea39\nSHA1: 93f07fcc0787c8f91b41b0ea030ce8986b1a15ae\nSHA256: 1d97691fbc8c6d6124385647cdba16ed10721420b42d223035d29edf54cdf312\nSHA512: 3e033458f02fe130df4aa5d25daaddfc0904a1a54105895c2e5da93682a133080cd2bc19c7b9b4246f05ec5a1554d4c7170252551c7c88ce3ead74b4f9d9e6f8\nHomepage: https://github.com/stevengj/nlopt\nDescription-en: nonlinear optimization library -- development package\n NLopt is a free/open-source library for nonlinear optimization, providing\n a common interface for a number of different free optimization routines\n available online as well as original implementations of various other\n algorithms. Its features include:\n .\n    * Callable from C, C++, Fortran, GNU Octave, Python, GNU Guile, GNU R.\n    * A common interface for many different algorithms\n    * Support for large-scale optimization.\n    * Both global and local optimization algorithms.\n    * Algorithms using function values only (derivative-free) and also\n      algorithms exploiting user-supplied gradients.\n    * Algorithms for unconstrained optimization, bound-constrained optimization,\n      and general nonlinear inequality/equality constraints.\n .\n This package contains the header files, static libraries and symbolic\n links that developers using NLopt library will need.\nDescription-md5: 19940ab4487c5c8f41f227897338354b\n\n",
+      "extraction_command": [
+        "dpkg-deb",
+        "-x",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/downloads/libnlopt-dev_2.7.1-5build2_amd64.deb",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies"
+      ],
+      "source": "Ubuntu noble archive via configured apt package index; download/extract only, no install"
+    },
+    {
+      "file": "libnlopt0_2.7.1-5build2_amd64.deb",
+      "package": {
+        "Package": "libnlopt0",
+        "Version": "2.7.1-5build2",
+        "Architecture": "amd64"
+      },
+      "sha256": "3f6ee54ee75e0f41ce5ff2cfb0596372835522c4027efe42cbf7f5031b5335b5",
+      "apt_metadata_sha256_match": true,
+      "apt_metadata": "Package: libnlopt0\nArchitecture: amd64\nVersion: 2.7.1-5build2\nMulti-Arch: same\nPriority: extra\nSection: universe/devel\nSource: nlopt\nOrigin: Ubuntu\nMaintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>\nOriginal-Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>\nBugs: https://bugs.launchpad.net/ubuntu/+filebug\nInstalled-Size: 457\nDepends: libc6 (>= 2.29)\nFilename: pool/universe/n/nlopt/libnlopt0_2.7.1-5build2_amd64.deb\nSize: 184286\nMD5sum: 4d3553b67a6039ad45e53c52572cc1dc\nSHA1: 94080fa2846af6b88d6947b0d3b72e668b8cbc57\nSHA256: 3f6ee54ee75e0f41ce5ff2cfb0596372835522c4027efe42cbf7f5031b5335b5\nSHA512: c4b4612da6ed5f7987c037d1d0f52af7e12872f6d2bc69e52b33c91a4fe0a2c6e9268461cfc3b41d713face617bb52d325406d4693ba02736ab8f372e6233a2a\nHomepage: https://github.com/stevengj/nlopt\nDescription-en: nonlinear optimization library\n NLopt is a free/open-source library for nonlinear optimization, providing\n a common interface for a number of different free optimization routines\n available online as well as original implementations of various other\n algorithms. Its features include:\n .\n    * Callable from C, C++, Fortran, GNU Octave, Python, GNU Guile, GNU R.\n    * A common interface for many different algorithms\n    * Support for large-scale optimization.\n    * Both global and local optimization algorithms.\n    * Algorithms using function values only (derivative-free) and also\n      algorithms exploiting user-supplied gradients.\n    * Algorithms for unconstrained optimization, bound-constrained optimization,\n      and general nonlinear inequality/equality constraints.\n .\n This package provides the shared libraries required to run programs\n compiled with NLopt. To compile your own programs you also need to\n install libnlopt-dev.\nDescription-md5: c6a94e889582821770bbdc8e25b14047\n\n",
+      "extraction_command": [
+        "dpkg-deb",
+        "-x",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/downloads/libnlopt0_2.7.1-5build2_amd64.deb",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies"
+      ],
+      "source": "Ubuntu noble archive via configured apt package index; download/extract only, no install"
+    },
+    {
+      "file": "libode-dev_2%3a0.16.2-1.1build1_amd64.deb",
+      "package": {
+        "Package": "libode-dev",
+        "Version": "2:0.16.2-1.1build1",
+        "Architecture": "amd64"
+      },
+      "sha256": "b1e149fc088a94506594420ec0dbe621f53ed59908dcfabdf103c19e637e8833",
+      "apt_metadata_sha256_match": true,
+      "apt_metadata": "Package: libode-dev\nArchitecture: amd64\nVersion: 2:0.16.2-1.1build1\nPriority: optional\nSection: universe/libdevel\nSource: ode\nOrigin: Ubuntu\nMaintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>\nOriginal-Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>\nBugs: https://bugs.launchpad.net/ubuntu/+filebug\nInstalled-Size: 2497\nProvides: libode8-dev\nDepends: libode8t64 (= 2:0.16.2-1.1build1)\nConflicts: libode-sp-dev, libode0-dev, libode4-dev, libode6-dev\nReplaces: libode0-dev\nFilename: pool/universe/o/ode/libode-dev_0.16.2-1.1build1_amd64.deb\nSize: 538080\nMD5sum: a56a080bba9429e55411f3402daecdbd\nSHA1: edad286cc7d541665aa5356046737752b229a855\nSHA256: b1e149fc088a94506594420ec0dbe621f53ed59908dcfabdf103c19e637e8833\nSHA512: 7ffeb5a721e7fc1157282d08c9f2cc57af8adf0a9bc5bf4dae81cb56e138b009fa87b483989f253b3c9f12eea13d35022d8e65095dbf8d1931dd63ae3c9e958c\nHomepage: http://www.ode.org/\nDescription-en: Open Dynamics Engine - development files\n ODE is a free, industrial quality library for simulating articulated rigid\n body dynamics - for example ground vehicles, legged creatures, and moving\n objects in VR environments. It is fast, flexible, robust and platform\n independent, with advanced joints, contact with friction, and built-in\n collision detection.\n .\n This package provides the header files and static libraries built with\n double precision, default in 64 bits platforms. In 32 bits platforms\n default is single precision.\nDescription-md5: 3dff7c471911c9afc8d17588d6f76185\n\n",
+      "extraction_command": [
+        "dpkg-deb",
+        "-x",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/downloads/libode-dev_2%3a0.16.2-1.1build1_amd64.deb",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies"
+      ],
+      "source": "Ubuntu noble archive via configured apt package index; download/extract only, no install"
+    },
+    {
+      "file": "libscotch-7.0_7.0.4-1ubuntu2_amd64.deb",
+      "package": {
+        "Package": "libscotch-7.0",
+        "Version": "7.0.4-1ubuntu2",
+        "Architecture": "amd64"
+      },
+      "sha256": "aea6cb51c92c259751c065ec061908ed3beba62d54185e4dfae5d8eb3230160a",
+      "apt_metadata_sha256_match": true,
+      "apt_metadata": "Package: libscotch-7.0\nArchitecture: amd64\nVersion: 7.0.4-1ubuntu2\nMulti-Arch: same\nPriority: optional\nSection: universe/libs\nSource: scotch\nOrigin: Ubuntu\nMaintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>\nOriginal-Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>\nBugs: https://bugs.launchpad.net/ubuntu/+filebug\nInstalled-Size: 2971\nDepends: libbz2-1.0, libc6 (>= 2.38), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.1.4)\nFilename: pool/universe/s/scotch/libscotch-7.0_7.0.4-1ubuntu2_amd64.deb\nSize: 449314\nMD5sum: e8a4e2624f8f3640b4d48fc3eb949bb8\nSHA1: e6d403830d463c6372d0589f5b5c1913ad37f800\nSHA256: aea6cb51c92c259751c065ec061908ed3beba62d54185e4dfae5d8eb3230160a\nSHA512: 800827d5000e4a46dbc4c7b1b1d854d5fed87746dbcbce4608b7aff55818170865f408d24b90e2f0ef2965bc3c09063f043bd832a595a63ede3d20348d2c8c8b\nHomepage: http://www.labri.fr/perso/pelegrin/scotch/\nDescription-en: programs and libraries for graph, mesh and hypergraph partitioning\n Shared libraries package for scotch, which is a set of programs and\n libraries which implement the static mapping and sparse matrix reordering\n algorithms developed within the SCOTCH project.\nDescription-md5: 7010765d2b2832f99f331f08e36585e8\n\n",
+      "extraction_command": [
+        "dpkg-deb",
+        "-x",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/downloads/libscotch-7.0_7.0.4-1ubuntu2_amd64.deb",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies"
+      ],
+      "source": "Ubuntu noble archive via configured apt package index; download/extract only, no install"
+    }
+  ],
+  "pkgconfig_relocations": [
+    {
+      "file": "usr/lib/pkgconfig/ipopt.pc",
+      "before_sha256": "dbb942a19b232db241ad758e6aa2591e8406e8cc805d1ed133cb26c0def25ffb",
+      "after_sha256": "b3572255eddafa6600a8db3391930e2051efa01b1e5737fabe793d5c02a2bd84",
+      "reason": "Relocate isolated pkg-config prefix only; package files in system are untouched"
+    },
+    {
+      "file": "usr/lib/x86_64-linux-gnu/pkgconfig/octomap.pc",
+      "before_sha256": "b363bc6d19d160c1fa9ccf82b8f3f5c10c4209976b4dd3e736aa4e98a312ffa8",
+      "after_sha256": "b1de00b29bff7de40787d927e3f9fbfe0c30020e661388c3b2385d8557efa997",
+      "reason": "Relocate isolated pkg-config prefix only; package files in system are untouched"
+    },
+    {
+      "file": "usr/lib/x86_64-linux-gnu/pkgconfig/nlopt_cxx.pc",
+      "before_sha256": "c8b900f03ad8230c99c74ea56fac6ba3d37c665dd6dc6682144ca6fef185ea94",
+      "after_sha256": "0f29e6f9e8bdca39dae1f8e43c39eb4629e2c15233494e6b4bb6cd238f66dad9",
+      "reason": "Relocate isolated pkg-config prefix only; package files in system are untouched"
+    },
+    {
+      "file": "usr/lib/x86_64-linux-gnu/pkgconfig/ode.pc",
+      "before_sha256": "179f19d9d88675c9d29888c7de72005321756bc5170e4342da512962ce2e8eb4",
+      "after_sha256": "56a3eb1f8edd33f1b8df1c6c15755d28cb737549dea4ad64d4ba85a3e403dffb",
+      "reason": "Relocate isolated pkg-config prefix only; package files in system are untouched"
+    },
+    {
+      "file": "usr/lib/x86_64-linux-gnu/pkgconfig/nlopt.pc",
+      "before_sha256": "f108fdf062c8a83f6861a531a1be43f832c57559f2897fc5f2d976a35e123224",
+      "after_sha256": "12d32f50f2b1990446ed8d42dd57e0d0c8f0bcddb828cf13c92cde1ea2b88577",
+      "reason": "Relocate isolated pkg-config prefix only; package files in system are untouched"
+    },
+    {
+      "file": "usr/lib/x86_64-linux-gnu/pkgconfig/fcl.pc",
+      "before_sha256": "5c828fc9cc80c81bcc62bc98f28862b80418431970320808331c971a6449c94c",
+      "after_sha256": "3369edef65047e36987ad90e3b4a674f32be3c254243a86e3d752533a547592a",
+      "reason": "Relocate isolated pkg-config prefix only; package files in system are untouched"
+    },
+    {
+      "file": "usr/lib/x86_64-linux-gnu/pkgconfig/ccd.pc",
+      "before_sha256": "196fa505aed0c9c227e154616fd9a099563d23edcfd485542a2799d3ffe3c2ab",
+      "after_sha256": "e624c0b85b9d95f529c889deb77a5ee9afc07379eb7dace95dad37dd9e4c4d60",
+      "reason": "Relocate isolated pkg-config prefix only; package files in system are untouched"
+    }
+  ],
+  "ODE_runtime": "Reuse unchanged installed libode.so.8.0.2 through isolated symlinks",
+  "IPOPT_NLOPT_historical_build_versions": "UNVERIFIED; absent installed runtimes. Version-matched Ubuntu noble dev/runtime pairs selected, not claimed to recover historical buildinfo"
+}

@@ -1,0 +1,34 @@
+{
+  "original": {
+    "command": [
+      "git",
+      "status"
+    ],
+    "cwd": "/home/jiwon/Projects/AeroAIStudio",
+    "rc": 0,
+    "stdout": "On branch main\nYour branch is up to date with 'origin/main'.\n\nChanges not staged for commit:\n  (use \"git add <file>...\" to update what will be committed)\n  (use \"git restore <file>...\" to discard changes in working directory)\n\tmodified:   tests/test_gazebo_contact_opt_in_lifecycle.py\n\tmodified:   tests/test_gazebo_contact_surface_event.py\n\tmodified:   tests/test_gazebo_physical_microstate_ordering.py\n\tmodified:   tools/diagnose_v07_gazebo_action24_continuous_support.py\n\tmodified:   tools/diagnose_v07_gazebo_action24_history_ab.py\n\tmodified:   tools/diagnose_v07_gazebo_action24_one_tick_control.py\n\tmodified:   tools/diagnose_v07_gazebo_contact_surface_event.py\n\tmodified:   tools/gazebo_continuous_support_observer.cc\n\nUntracked files:\n  (use \"git add <file>...\" to include in what will be committed)\n\tAGENTS.md\n\thandoff.md\n\ttests/fixtures/collision_observation_synthetic.cc\n\ttests/test_action24_collision_pair_integration.py\n\ttests/test_contact_event_host4.py\n\ttests/test_gazebo_collision_observation.py\n\ttests/test_host4_failure_diagnostics.py\n\ttests/test_independent_instrumentation.py\n\ttests/test_independent_instrumentation_host.py\n\ttests/test_minimal_clock.py\n\ttests/test_pose_cache_provenance.py\n\ttests/test_strict_clock_receive_hook.py\n\ttests/test_strict_paused_clock_analysis.py\n\ttools/analyze_v07_strict_paused_clock.py\n\ttools/diagnose_v07_gazebo_contact_surface_event_host4.py\n\ttools/diagnose_v07_independent_instrumentation.py\n\ttools/diagnose_v07_independent_instrumentation_host.py\n\ttools/diagnose_v07_minimal_clock.py\n\ttools/diagnostic_capture_failure.py\n\ttools/diagnostic_pose_cache_provenance.py\n\ttools/diagnostic_pose_provenance_integrity.py\n\ttools/forensic_v07_contact_event_host3.py\n\ttools/forensic_v07_host4_extended.py\n\ttools/gazebo_collision_observation.hh\n\ttools/host4_offline_test_guard.py\n\ttools/independent_clock_diagnostics.py\n\ttools/independent_instrumentation_protocol.py\n\ttools/independent_recovery_offline_guard.py\n\ttools/strict_clock_minimal_observation.py\n\ttools/strict_clock_offline_guard.py\n\ttools/strict_clock_receive_hook.py\n\nno changes added to commit (use \"git add\" and/or \"git commit -a\")\n",
+    "stderr": ""
+  },
+  "worktree": {
+    "command": [
+      "git",
+      "status"
+    ],
+    "cwd": "/tmp/AeroAIStudio-dart-internal-trace",
+    "rc": 0,
+    "stdout": "On branch experiment/dart-internal-trace\nnothing to commit, working tree clean\n",
+    "stderr": ""
+  },
+  "worktrees": {
+    "command": [
+      "git",
+      "worktree",
+      "list"
+    ],
+    "cwd": "/home/jiwon/Projects/AeroAIStudio",
+    "rc": 0,
+    "stdout": "/home/jiwon/Projects/AeroAIStudio      46134c6 [main]\n/tmp/AeroAIStudio-dart-internal-trace  46134c6 [experiment/dart-internal-trace]\n",
+    "stderr": ""
+  },
+  "decision": "Separate experiment worktree. Original main/dirty files remain unchanged; no original uncommitted file is included in commits."
+}

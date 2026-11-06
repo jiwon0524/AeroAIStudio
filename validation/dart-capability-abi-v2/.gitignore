@@ -1,0 +1,10 @@
+work/
+downloads/
+__pycache__/
+reports/*.log
+reports/*.xml
+reports/baseline_manifest.json
+reports/preexisting_work_audit.json
+reports/configure_results.json
+reports/symbol_inventory.json
+reports/abidiff_*.txt

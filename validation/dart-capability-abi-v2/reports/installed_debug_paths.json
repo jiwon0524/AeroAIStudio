@@ -1,0 +1,17 @@
+{
+  "core": {
+    "build_id": "071aa565b343db80e31aae393aadaed33c7adb46",
+    "debug_candidate": "/usr/lib/debug/.build-id/07/1aa565b343db80e31aae393aadaed33c7adb46.debug",
+    "exists": false
+  },
+  "external": {
+    "build_id": "abba8be3e710b1a505116d4bada0803f8bd49398",
+    "debug_candidate": "/usr/lib/debug/.build-id/ab/ba8be3e710b1a505116d4bada0803f8bd49398.debug",
+    "exists": false
+  },
+  "ode": {
+    "build_id": "2cbacdc0e4014e0ee69c4deeacd2d088d564599e",
+    "debug_candidate": "/usr/lib/debug/.build-id/2c/bacdc0e4014e0ee69c4deeacd2d088d564599e.debug",
+    "exists": false
+  }
+}

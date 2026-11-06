@@ -1,0 +1,97 @@
+{
+  "installed_core": {
+    "command": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/bin/abidw",
+      "--no-corpus-path",
+      "--no-show-locs",
+      "--out-file",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/abi-installed_core.xml",
+      "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2"
+    ],
+    "rc": 0,
+    "stderr": "",
+    "abi_instr_count": 0,
+    "function_decl_count": 0,
+    "embedded_debug_info_present": false,
+    "has_debuglink": true,
+    "has_debugaltlink": true,
+    "abixml_sha256": "a640200a9c79be1d924eb2ddcbb6ac57b0f57bd1f419e2acc17a9ee906e6d8c3",
+    "scope": "Observe availability of actual type information; do not infer full type ABI from symbol-only comparison"
+  },
+  "installed_external": {
+    "command": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/bin/abidw",
+      "--no-corpus-path",
+      "--no-show-locs",
+      "--out-file",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/abi-installed_external.xml",
+      "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2"
+    ],
+    "rc": 0,
+    "stderr": "",
+    "abi_instr_count": 0,
+    "function_decl_count": 0,
+    "embedded_debug_info_present": false,
+    "has_debuglink": true,
+    "has_debugaltlink": true,
+    "abixml_sha256": "869585e6cce09d1ddb1ee58787f1db08779ea50c5516d505424b49fdb506bef4",
+    "scope": "Observe availability of actual type information; do not infer full type ABI from symbol-only comparison"
+  },
+  "installed_ode": {
+    "command": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/bin/abidw",
+      "--no-corpus-path",
+      "--no-show-locs",
+      "--out-file",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/abi-installed_ode.xml",
+      "/usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.13.2"
+    ],
+    "rc": 0,
+    "stderr": "",
+    "abi_instr_count": 0,
+    "function_decl_count": 0,
+    "embedded_debug_info_present": false,
+    "has_debuglink": true,
+    "has_debugaltlink": true,
+    "abixml_sha256": "5615d4956be5bfcad689cf42cc506c6440d4b0e22620a7da1252a0fac7ed84bb",
+    "scope": "Observe availability of actual type information; do not infer full type ABI from symbol-only comparison"
+  },
+  "packaged_ipopt": {
+    "command": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/bin/abidw",
+      "--no-corpus-path",
+      "--no-show-locs",
+      "--out-file",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/abi-packaged_ipopt.xml",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/reference-modules/usr/lib/x86_64-linux-gnu/libdart-optimizer-ipopt.so.6.13.2"
+    ],
+    "rc": 0,
+    "stderr": "",
+    "abi_instr_count": 0,
+    "function_decl_count": 0,
+    "embedded_debug_info_present": false,
+    "has_debuglink": true,
+    "has_debugaltlink": false,
+    "abixml_sha256": "9884fdfedd8aa4864197820697b4517cd1f7adf5c1c3817f967327c80a40c802",
+    "scope": "Observe availability of actual type information; do not infer full type ABI from symbol-only comparison"
+  },
+  "packaged_nlopt": {
+    "command": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/bin/abidw",
+      "--no-corpus-path",
+      "--no-show-locs",
+      "--out-file",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/abi-packaged_nlopt.xml",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/reference-modules/usr/lib/x86_64-linux-gnu/libdart-optimizer-nlopt.so.6.13.2"
+    ],
+    "rc": 0,
+    "stderr": "",
+    "abi_instr_count": 0,
+    "function_decl_count": 0,
+    "embedded_debug_info_present": false,
+    "has_debuglink": true,
+    "has_debugaltlink": false,
+    "abixml_sha256": "1641429a9b4e515dbdb367b3aff2e556a331c5ee37a12719607ccfa0018ae438",
+    "scope": "Observe availability of actual type information; do not infer full type ABI from symbol-only comparison"
+  }
+}

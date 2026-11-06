@@ -1,0 +1,7 @@
+{
+  "initial_failure": "Octomap std::iterator deprecated declaration under -Werror",
+  "cause": "Combined dependency prefix was passed as -I, demoting third-party headers from prior SYSTEM classification",
+  "resolution": "Separate fmt/spdlog-only normal include prefix; all other imported headers retain -isystem. Werror retained, source/algorithms unmodified. New final build dirs preserve initial failed objects/logs.",
+  "compiler_warning_suppression_added": false,
+  "source_modified": false
+}

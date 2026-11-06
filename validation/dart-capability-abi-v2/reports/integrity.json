@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "original_files_checked": 13281,
+  "changed_original_files": [],
+  "new_source_changed_after_copy": [],
+  "original_main_git_status_preserved": true,
+  "original_main_HEAD_preserved": true,
+  "dpkg_status_unchanged": true,
+  "no_system_package_install": true,
+  "no_original_artifact_overwrite": true,
+  "Gazebo_executed": false,
+  "World_step_called": false,
+  "Stage_B": "BLOCKED",
+  "runtime": "NOT_RUNTIME_VERIFIED"
+}

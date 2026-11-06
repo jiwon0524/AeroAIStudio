@@ -1,0 +1,156 @@
+{
+  "libcmumps_seq-5.6.1.so": {
+    "command": [
+      "ldd",
+      "-r",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libcmumps_seq-5.6.1.so"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "\tlinux-vdso.so.1 (0x0000737665c51000)\n\tliblapack.so.3 => /lib/x86_64-linux-gnu/liblapack.so.3 (0x0000737665200000)\n\tlibmumps_common_seq-5.6.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libmumps_common_seq-5.6.so (0x0000737665950000)\n\tlibgfortran.so.5 => /lib/x86_64-linux-gnu/libgfortran.so.5 (0x0000737664e00000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x0000737664d17000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x0000737664a00000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x0000737665922000)\n\tlibblas.so.3 => /lib/x86_64-linux-gnu/libblas.so.3 (0x0000737665159000)\n\tlibesmumps-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libesmumps-7.0.so (0x0000737665c3f000)\n\tlibscotch-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotch-7.0.so (0x0000737664c82000)\n\t/lib64/ld-linux-x86-64.so.2 (0x0000737665c53000)\n\tlibscotcherr-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotcherr-7.0.so (0x0000737665c3a000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x0000737665904000)\n\tlibbz2.so.1.0 => /lib/x86_64-linux-gnu/libbz2.so.1.0 (0x00007376658f0000)\n\tliblzma.so.5 => /lib/x86_64-linux-gnu/liblzma.so.5 (0x0000737665127000)\n",
+    "stderr": ""
+  },
+  "libdmumps_seq-5.6.1.so": {
+    "command": [
+      "ldd",
+      "-r",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libdmumps_seq-5.6.1.so"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "\tlinux-vdso.so.1 (0x0000763a06c14000)\n\tliblapack.so.3 => /lib/x86_64-linux-gnu/liblapack.so.3 (0x0000763a06000000)\n\tlibmumps_common_seq-5.6.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libmumps_common_seq-5.6.so (0x0000763a06b5c000)\n\tlibgfortran.so.5 => /lib/x86_64-linux-gnu/libgfortran.so.5 (0x0000763a05c00000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x0000763a06a73000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x0000763a05800000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x0000763a06a43000)\n\tlibblas.so.3 => /lib/x86_64-linux-gnu/libblas.so.3 (0x0000763a06759000)\n\tlibesmumps-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libesmumps-7.0.so (0x0000763a06a3b000)\n\tlibscotch-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotch-7.0.so (0x0000763a05f6b000)\n\t/lib64/ld-linux-x86-64.so.2 (0x0000763a06c16000)\n\tlibscotcherr-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotcherr-7.0.so (0x0000763a06a36000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x0000763a0673b000)\n\tlibbz2.so.1.0 => /lib/x86_64-linux-gnu/libbz2.so.1.0 (0x0000763a06727000)\n\tliblzma.so.5 => /lib/x86_64-linux-gnu/liblzma.so.5 (0x0000763a066f5000)\n",
+    "stderr": ""
+  },
+  "libzmumps_seq-5.6.1.so": {
+    "command": [
+      "ldd",
+      "-r",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libzmumps_seq-5.6.1.so"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "\tlinux-vdso.so.1 (0x00007dcfd9340000)\n\tliblapack.so.3 => /lib/x86_64-linux-gnu/liblapack.so.3 (0x00007dcfd8800000)\n\tlibmumps_common_seq-5.6.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libmumps_common_seq-5.6.so (0x00007dcfd9288000)\n\tlibgfortran.so.5 => /lib/x86_64-linux-gnu/libgfortran.so.5 (0x00007dcfd8400000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007dcfd8f17000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007dcfd8000000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007dcfd9258000)\n\tlibblas.so.3 => /lib/x86_64-linux-gnu/libblas.so.3 (0x00007dcfd8759000)\n\tlibesmumps-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libesmumps-7.0.so (0x00007dcfd9250000)\n\tlibscotch-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotch-7.0.so (0x00007dcfd836b000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007dcfd9342000)\n\tlibscotcherr-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotcherr-7.0.so (0x00007dcfd924b000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007dcfd8efb000)\n\tlibbz2.so.1.0 => /lib/x86_64-linux-gnu/libbz2.so.1.0 (0x00007dcfd8745000)\n\tliblzma.so.5 => /lib/x86_64-linux-gnu/liblzma.so.5 (0x00007dcfd8339000)\n",
+    "stderr": ""
+  },
+  "libmumps_common_seq-5.6.1.so": {
+    "command": [
+      "ldd",
+      "-r",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libmumps_common_seq-5.6.1.so"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "\tlinux-vdso.so.1 (0x00007f33d7d4a000)\n\tlibesmumps-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libesmumps-7.0.so (0x00007f33d7cb6000)\n\tlibscotch-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotch-7.0.so (0x00007f33d7c21000)\n\tlibgfortran.so.5 => /lib/x86_64-linux-gnu/libgfortran.so.5 (0x00007f33d7800000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f33d7717000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f33d7400000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f33d7bc5000)\n\tlibscotcherr-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotcherr-7.0.so (0x00007f33d7bc0000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007f33d7ba4000)\n\tlibbz2.so.1.0 => /lib/x86_64-linux-gnu/libbz2.so.1.0 (0x00007f33d7b90000)\n\tliblzma.so.5 => /lib/x86_64-linux-gnu/liblzma.so.5 (0x00007f33d7b5e000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007f33d7d4c000)\n",
+    "stderr": ""
+  },
+  "libnlopt.so.0.11.1": {
+    "command": [
+      "ldd",
+      "-r",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libnlopt.so.0.11.1"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "\tlinux-vdso.so.1 (0x000071e03946d000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x000071e0392e9000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x000071e039000000)\n\t/lib64/ld-linux-x86-64.so.2 (0x000071e03946f000)\n",
+    "stderr": ""
+  },
+  "libesmumps-7.0.4.so": {
+    "command": [
+      "ldd",
+      "-r",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libesmumps-7.0.4.so"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "\tlinux-vdso.so.1 (0x00007beac81f2000)\n\tlibscotch-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotch-7.0.so (0x00007beac814d000)\n\tlibscotcherr-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotcherr-7.0.so (0x00007beac8148000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007beac7e00000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007beac8100000)\n\tlibbz2.so.1.0 => /lib/x86_64-linux-gnu/libbz2.so.1.0 (0x00007beac80ec000)\n\tliblzma.so.5 => /lib/x86_64-linux-gnu/liblzma.so.5 (0x00007beac80b8000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007beac7d17000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007beac81f4000)\n",
+    "stderr": ""
+  },
+  "libscotcherr-7.0.4.so": {
+    "command": [
+      "ldd",
+      "-r",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotcherr-7.0.4.so"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "\tlinux-vdso.so.1 (0x000071087e4a9000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x000071087e200000)\n\t/lib64/ld-linux-x86-64.so.2 (0x000071087e4ab000)\n",
+    "stderr": ""
+  },
+  "libscotch-7.0.4.so": {
+    "command": [
+      "ldd",
+      "-r",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotch-7.0.4.so"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "\tlinux-vdso.so.1 (0x000070a81531d000)\n\tlibscotcherr-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotcherr-7.0.so (0x000070a81527b000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x000070a815233000)\n\tlibbz2.so.1.0 => /lib/x86_64-linux-gnu/libbz2.so.1.0 (0x000070a81521f000)\n\tliblzma.so.5 => /lib/x86_64-linux-gnu/liblzma.so.5 (0x000070a8151ed000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x000070a815104000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x000070a814e00000)\n\t/lib64/ld-linux-x86-64.so.2 (0x000070a81531f000)\n",
+    "stderr": ""
+  },
+  "libscotchmetisv5-7.0.4.so": {
+    "command": [
+      "ldd",
+      "-r",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotchmetisv5-7.0.4.so"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "\tlinux-vdso.so.1 (0x000074d5ebf39000)\n\tlibscotch-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotch-7.0.so (0x000074d5ebe93000)\n\tlibscotcherr-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotcherr-7.0.so (0x000074d5ebe8e000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x000074d5ebd79000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x000074d5eba00000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x000074d5ebd5d000)\n\tlibbz2.so.1.0 => /lib/x86_64-linux-gnu/libbz2.so.1.0 (0x000074d5ebd47000)\n\tliblzma.so.5 => /lib/x86_64-linux-gnu/liblzma.so.5 (0x000074d5ebd15000)\n\t/lib64/ld-linux-x86-64.so.2 (0x000074d5ebf3b000)\n",
+    "stderr": ""
+  },
+  "libscotchmetisv3-7.0.4.so": {
+    "command": [
+      "ldd",
+      "-r",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotchmetisv3-7.0.4.so"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "\tlinux-vdso.so.1 (0x00007dd84132f000)\n\tlibscotch-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotch-7.0.so (0x00007dd841289000)\n\tlibscotcherr-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotcherr-7.0.so (0x00007dd841284000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007dd84116f000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007dd840e00000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007dd841153000)\n\tlibbz2.so.1.0 => /lib/x86_64-linux-gnu/libbz2.so.1.0 (0x00007dd84113d000)\n\tliblzma.so.5 => /lib/x86_64-linux-gnu/liblzma.so.5 (0x00007dd84110b000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007dd841331000)\n",
+    "stderr": ""
+  },
+  "libscotcherrexit-7.0.4.so": {
+    "command": [
+      "ldd",
+      "-r",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotcherrexit-7.0.4.so"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "\tlinux-vdso.so.1 (0x000070e505362000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x000070e505000000)\n\t/lib64/ld-linux-x86-64.so.2 (0x000070e505364000)\n",
+    "stderr": ""
+  },
+  "libsmumps_seq-5.6.1.so": {
+    "command": [
+      "ldd",
+      "-r",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libsmumps_seq-5.6.1.so"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "\tlinux-vdso.so.1 (0x00007d5b22e0c000)\n\tliblapack.so.3 => /lib/x86_64-linux-gnu/liblapack.so.3 (0x00007d5b22200000)\n\tlibmumps_common_seq-5.6.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libmumps_common_seq-5.6.so (0x00007d5b22d54000)\n\tlibgfortran.so.5 => /lib/x86_64-linux-gnu/libgfortran.so.5 (0x00007d5b21e00000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007d5b22c6b000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007d5b21a00000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007d5b22c3b000)\n\tlibblas.so.3 => /lib/x86_64-linux-gnu/libblas.so.3 (0x00007d5b22959000)\n\tlibesmumps-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libesmumps-7.0.so (0x00007d5b22951000)\n\tlibscotch-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotch-7.0.so (0x00007d5b2216b000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007d5b22e0e000)\n\tlibscotcherr-7.0.so => /tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libscotcherr-7.0.so (0x00007d5b22c36000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007d5b22935000)\n\tlibbz2.so.1.0 => /lib/x86_64-linux-gnu/libbz2.so.1.0 (0x00007d5b22921000)\n\tliblzma.so.5 => /lib/x86_64-linux-gnu/liblzma.so.5 (0x00007d5b22139000)\n",
+    "stderr": ""
+  },
+  "libabigail.so.3.0.0": {
+    "command": [
+      "ldd",
+      "-r",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libabigail.so.3.0.0"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "\tlinux-vdso.so.1 (0x0000734e9fc78000)\n\tlibxml2.so.2 => /lib/x86_64-linux-gnu/libxml2.so.2 (0x0000734e9f61e000)\n\tlibelf.so.1 => /lib/x86_64-linux-gnu/libelf.so.1 (0x0000734e9fc25000)\n\tlibdw.so.1 => /lib/x86_64-linux-gnu/libdw.so.1 (0x0000734e9fb71000)\n\tlibctf.so.0 => /lib/x86_64-linux-gnu/libctf.so.0 (0x0000734e9fb3b000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x0000734e9f200000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x0000734e9ee00000)\n\t/lib64/ld-linux-x86-64.so.2 (0x0000734e9fc7a000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x0000734e9f5f0000)\n\tlibicuuc.so.74 => /lib/x86_64-linux-gnu/libicuuc.so.74 (0x0000734e9ea00000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x0000734e9f5d4000)\n\tliblzma.so.5 => /lib/x86_64-linux-gnu/liblzma.so.5 (0x0000734e9f5a2000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x0000734e9f4b9000)\n\tlibzstd.so.1 => /lib/x86_64-linux-gnu/libzstd.so.1 (0x0000734e9f146000)\n\tlibbz2.so.1.0 => /lib/x86_64-linux-gnu/libbz2.so.1.0 (0x0000734e9fb23000)\n\tlibbfd-2.42-system.so => /lib/x86_64-linux-gnu/libbfd-2.42-system.so (0x0000734e9ec97000)\n\tlibicudata.so.74 => /lib/x86_64-linux-gnu/libicudata.so.74 (0x0000734e9cc00000)\n\tlibsframe.so.1 => /lib/x86_64-linux-gnu/libsframe.so.1 (0x0000734e9f4b0000)\n",
+    "stderr": ""
+  },
+  "libnlopt_cxx.so.0.11.1": {
+    "command": [
+      "ldd",
+      "-r",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu/libnlopt_cxx.so.0.11.1"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "\tlinux-vdso.so.1 (0x00007b00cad02000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007b00ca800000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007b00cab68000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007b00cab3a000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007b00ca400000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007b00cad04000)\n",
+    "stderr": ""
+  }
+}

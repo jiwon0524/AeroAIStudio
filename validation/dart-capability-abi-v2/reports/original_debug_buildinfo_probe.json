@@ -1,0 +1,65 @@
+[
+  {
+    "command": [
+      "curl",
+      "--head",
+      "--location",
+      "--silent",
+      "--show-error",
+      "--max-time",
+      "20",
+      "--output",
+      "/dev/null",
+      "--write-out",
+      "%{http_code}",
+      "https://packages.osrfoundation.org/gazebo/ubuntu-stable/pool/main/d/dart/libdart-core+collisions+odelcpsolver6.13-dbgsym_6.13.2+ds1-1~osrf2~noble_amd64.ddeb"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "404",
+    "stderr": "",
+    "url": "https://packages.osrfoundation.org/gazebo/ubuntu-stable/pool/main/d/dart/libdart-core+collisions+odelcpsolver6.13-dbgsym_6.13.2+ds1-1~osrf2~noble_amd64.ddeb"
+  },
+  {
+    "command": [
+      "curl",
+      "--head",
+      "--location",
+      "--silent",
+      "--show-error",
+      "--max-time",
+      "20",
+      "--output",
+      "/dev/null",
+      "--write-out",
+      "%{http_code}",
+      "https://packages.osrfoundation.org/gazebo/ubuntu-stable/pool/main/d/dart/libdart-core+collisions+odelcpsolver6.13-dbgsym_6.13.2+ds1-1~osrf2~noble_amd64.deb"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "404",
+    "stderr": "",
+    "url": "https://packages.osrfoundation.org/gazebo/ubuntu-stable/pool/main/d/dart/libdart-core+collisions+odelcpsolver6.13-dbgsym_6.13.2+ds1-1~osrf2~noble_amd64.deb"
+  },
+  {
+    "command": [
+      "curl",
+      "--head",
+      "--location",
+      "--silent",
+      "--show-error",
+      "--max-time",
+      "20",
+      "--output",
+      "/dev/null",
+      "--write-out",
+      "%{http_code}",
+      "https://packages.osrfoundation.org/gazebo/ubuntu-stable/pool/main/d/dart/dart_6.13.2+ds1-1~osrf2~noble_amd64.buildinfo"
+    ],
+    "cwd": null,
+    "rc": 0,
+    "stdout": "404",
+    "stderr": "",
+    "url": "https://packages.osrfoundation.org/gazebo/ubuntu-stable/pool/main/d/dart/dart_6.13.2+ds1-1~osrf2~noble_amd64.buildinfo"
+  }
+]

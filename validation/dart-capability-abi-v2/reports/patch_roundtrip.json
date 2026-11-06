@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "source_changes": "No change to tested instrumentation source; serialization only",
+  "patch_sha256": "3f497875e61df11b1a0c5e2a2ddf31b70490d3709d2e3bea04d4cb7231b9ac5a",
+  "source_file_count": 7,
+  "files": {
+    "dart/simulation/World.cpp": {
+      "result_sha256": "a5ae91c0f037f52905ea644efc35eb3353cfac86c83b3edcb1a3749303bc29b1",
+      "tested_trace_sha256": "a5ae91c0f037f52905ea644efc35eb3353cfac86c83b3edcb1a3749303bc29b1"
+    },
+    "dart/constraint/ContactConstraint.cpp": {
+      "result_sha256": "a302c5f5b6a207398c84ec789fb01d047f4b5ed7ca434deb0ed9eede57373000",
+      "tested_trace_sha256": "a302c5f5b6a207398c84ec789fb01d047f4b5ed7ca434deb0ed9eede57373000"
+    },
+    "dart/constraint/JointConstraint.cpp": {
+      "result_sha256": "f4126b788ba571d893b2f9d90c76cb2149536eafab406e2ecb048afd30b90f88",
+      "tested_trace_sha256": "f4126b788ba571d893b2f9d90c76cb2149536eafab406e2ecb048afd30b90f88"
+    },
+    "dart/constraint/BoxedLcpConstraintSolver.cpp": {
+      "result_sha256": "18d0e3c7af33c042838a55a1c1fac87e1244665b75754b1f929008db9fe4b078",
+      "tested_trace_sha256": "18d0e3c7af33c042838a55a1c1fac87e1244665b75754b1f929008db9fe4b078"
+    },
+    "dart/external/odelcpsolver/lcp.cpp": {
+      "result_sha256": "17b558944ae44e21db5a237f37a28f7e166dc1574a766c9a7e014868fb534ed2",
+      "tested_trace_sha256": "17b558944ae44e21db5a237f37a28f7e166dc1574a766c9a7e014868fb534ed2"
+    },
+    "dart/external/odelcpsolver/internal_trace.h": {
+      "result_sha256": "6eab2cc9600d94d77c7f8c4cf73c1ab04bb8ba46869b600cbf09682a80696091",
+      "tested_trace_sha256": "6eab2cc9600d94d77c7f8c4cf73c1ab04bb8ba46869b600cbf09682a80696091"
+    },
+    "dart/external/odelcpsolver/internal_trace.cpp": {
+      "result_sha256": "0f45b8086b1b12ba5c50b7690392fecd56ae6eb91f025d73853466954d8578bc",
+      "tested_trace_sha256": "0f45b8086b1b12ba5c50b7690392fecd56ae6eb91f025d73853466954d8578bc"
+    }
+  },
+  "patch_command": [
+    "patch",
+    "--fuzz=0",
+    "-p1",
+    "-d",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/patch-roundtrip",
+    "-i",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/instrumentation/dart_internal_trace_v1.patch"
+  ],
+  "stdout": "patching file dart/simulation/World.cpp\npatching file dart/constraint/ContactConstraint.cpp\npatching file dart/constraint/JointConstraint.cpp\npatching file dart/constraint/BoxedLcpConstraintSolver.cpp\npatching file dart/external/odelcpsolver/lcp.cpp\npatching file dart/external/odelcpsolver/internal_trace.h\npatching file dart/external/odelcpsolver/internal_trace.cpp\n"
+}
