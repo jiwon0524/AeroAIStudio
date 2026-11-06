@@ -1,0 +1,14 @@
+{
+  "verdict": "CGROUP_DELEGATION_PARTIAL",
+  "configured_user_manager_delegation": "VERIFIED: cpu memory pids and active manager hierarchy",
+  "current_terminal_task_aggregate_limits": "UNVERIFIED; no cpu.max at current leaf, memory.max=max",
+  "transient_creation_permission": "UNVERIFIED; API exists but method not invoked",
+  "actual_cgroup_or_unit_creation": false,
+  "actual_resource_pressure_tests": false,
+  "requires_approval": "ONE bounded sleep5 user transient service smoke per approval_plan.json; pressure requires another separate approval",
+  "Probe_A_D": "BLOCKED",
+  "runtime": "NOT_RUNTIME_VERIFIED",
+  "Stage_B": "BLOCKED",
+  "best_option": "systemd-managed user transient service after approval",
+  "initial_observation_error": "busctl member argument unsupported; preserved cgroup_capabilities_initial.json; corrected XML introspection succeeded without unit creation"
+}

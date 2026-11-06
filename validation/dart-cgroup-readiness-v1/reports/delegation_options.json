@@ -1,0 +1,72 @@
+{
+  "preferred": "systemd-run --user transient SERVICE after explicit approval; manager applies group limits, no direct delegation to payload needed",
+  "options": [
+    {
+      "method": "user transient service/scope",
+      "status": "PARTIALLY_VERIFIED",
+      "memory": "MemoryMax -> memory.max (effective readback NOT_RUN)",
+      "pids": "TasksMax -> pids.max; includes threads (readback NOT_RUN)",
+      "cpu": "CPUQuota -> cpu.max; throttles, not exit (readback NOT_RUN)",
+      "user_only": "manager reachable UID1000; Delegate cpu memory pids confirmed; creation authorization/property acceptance NOT_RUN",
+      "advantages": [
+        "manager owns lifecycle and aggregate task cgroup",
+        "service starts fresh processes outside terminal branch missing CPU",
+        "Bubblewrap can run as service payload and inherits cgroup, must attest child/grandchild membership"
+      ],
+      "risks": [
+        "systemd may activate controllers in app.slice/ancestors/siblings",
+        "scope includes caller-spawned processes; service preferred for startup and stop ownership",
+        "external launch denial/property failure/manager lifecycle not established by introspection"
+      ],
+      "cleanup": "only exact created transient unit stop/collect; never restart manager or change siblings",
+      "reproducibility": "record systemd version, full selected properties, returned ControlGroup, readbacks and baseline activation"
+    },
+    {
+      "method": "manual child under existing delegated tree",
+      "status": "BLOCKED",
+      "memory": "current leaf controllers memory pids; creation/write NOT_RUN",
+      "pids": "per-task setting requires own verified subtree",
+      "cpu": "current terminal leaf lacks cpu; cannot assume cpu.max creation",
+      "user_only": "some W_OK observed; not proof operations authorized",
+      "risks": [
+        "systemd-owned tree, no-internal-process rule, parent enablement and migration may affect existing work",
+        "manual ancestor/subtree_control modification forbidden without specific approval"
+      ],
+      "cleanup": "only newly owned empty child; no existing process migration or ancestor edits",
+      "bubblewrap": "possible in principle, not verified"
+    },
+    {
+      "method": "dedicated approved VM/container",
+      "status": "UNVERIFIED",
+      "memory": "requires host/hypervisor-enforced group limit",
+      "pids": "requires verified pids controller/task cap",
+      "cpu": "requires verified CPU quota; namespace alone not enough",
+      "user_only": "availability and delegated controller support UNKNOWN",
+      "advantages": [
+        "can move pressure tests off current desktop"
+      ],
+      "risks": [
+        "container may share host kernel/cgroup and lack controllers",
+        "provisioning/configuration/cost requires separate approval"
+      ],
+      "cleanup": "dispose only owned approved environment; preserve reports",
+      "bubblewrap": "nested userns/mount permissions require harmless validation"
+    },
+    {
+      "method": "existing Bubblewrap plus RLIMIT",
+      "status": "PARTIALLY_VERIFIED",
+      "memory": "per-process AS only; aggregate UNVERIFIED",
+      "pids": "UID-shared NPROC; not dedicated group cap",
+      "cpu": "per-process CPU time; not group bandwidth cap",
+      "advantages": [
+        "V2 bounded tmpfs, supervisor cleanup, IPv6/UNIX isolation evidence retained"
+      ],
+      "risks": [
+        "not substitute for aggregate memory/PID/CPU control"
+      ],
+      "cleanup": "V2 own supervisor/subreaper proven for bounded fixture; no new run",
+      "reproducibility": "V2 fixed fixture and reports",
+      "bubblewrap": "already historical V2 evidence; not rerun"
+    }
+  ]
+}

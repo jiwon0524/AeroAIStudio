@@ -1,0 +1,27 @@
+{
+  "sources": [
+    {
+      "path": "/usr/share/man/man5/systemd.resource-control.5.gz",
+      "exists": true,
+      "sha256": "d21771c04ab20d50afb6e6a72448af0b9d63b0029ba5af1cd8ddc4b189c32370"
+    },
+    {
+      "path": "/usr/share/man/man1/systemd-run.1.gz",
+      "exists": true,
+      "sha256": "baecb6ed42fa1047717c0eb9d79a2975536cc889ad7b7175b0c61214fc8c3834"
+    },
+    {
+      "path": "/usr/share/man/man5/systemd.service.5.gz",
+      "exists": true,
+      "sha256": "e1474882c411afe27115522a72c45bffd9432905b2017cfbcc50086edbf21223"
+    }
+  ],
+  "basis": "installed systemd255 manual; no online version substituted",
+  "interpretation": [
+    "Delegate on user@ service delegates controllers to user manager, not directly to arbitrary terminal child",
+    "resource properties cause systemd controller activation along hierarchy, which can affect siblings",
+    "MemoryMax limits unit group, TasksMax limits tasks including threads, CPUQuota is a bandwidth limit and throttles rather than causing exit",
+    "service is manager-spawned, scope wraps caller-spawned processes; service preferred for clean ownership and runtime stop control"
+  ],
+  "runtime_validation": "NOT_RUN"
+}

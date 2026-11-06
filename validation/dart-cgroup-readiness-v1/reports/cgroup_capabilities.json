@@ -1,0 +1,503 @@
+{
+  "observed_at": "2026-11-06T15:40:09.886292+00:00",
+  "uid": 1000,
+  "scope": "approved same-user host read-only, no cgroup/unit writes",
+  "tools": {
+    "systemd-run": "/usr/bin/systemd-run",
+    "systemctl": "/usr/bin/systemctl",
+    "busctl": "/usr/bin/busctl",
+    "bwrap": "/usr/bin/bwrap"
+  },
+  "systemd_version": {
+    "rc": 0,
+    "stdout": "systemd 255 (255.4-1ubuntu8.18)\n+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -BPF_FRAMEWORK -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified\n",
+    "stderr": "",
+    "seconds": 0.009
+  },
+  "mount": {
+    "rc": 0,
+    "stdout": "/sys/fs/cgroup cgroup2 rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot\n",
+    "stderr": "",
+    "seconds": 0.006
+  },
+  "current_cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice/vte-spawn-14008047-fbbd-4305-8680-66aa55fc87a0.scope",
+  "ancestors_leaf_to_root": [
+    {
+      "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice/vte-spawn-14008047-fbbd-4305-8680-66aa55fc87a0.scope",
+      "directory_writable": true,
+      "files": {
+        "cgroup.controllers": {
+          "value": "memory pids",
+          "owner_uid": 1000,
+          "mode": "0o444",
+          "writable_access": false
+        },
+        "cgroup.subtree_control": {
+          "value": "",
+          "owner_uid": 1000,
+          "mode": "0o644",
+          "writable_access": true
+        },
+        "cgroup.type": {
+          "value": "domain",
+          "owner_uid": 1000,
+          "mode": "0o644",
+          "writable_access": true
+        },
+        "cgroup.events": {
+          "value": "populated 1\nfrozen 0",
+          "owner_uid": 1000,
+          "mode": "0o444",
+          "writable_access": false
+        },
+        "memory.max": {
+          "value": "max",
+          "owner_uid": 1000,
+          "mode": "0o644",
+          "writable_access": true
+        },
+        "memory.swap.max": {
+          "value": "max",
+          "owner_uid": 1000,
+          "mode": "0o644",
+          "writable_access": true
+        },
+        "pids.max": {
+          "value": "34727",
+          "owner_uid": 1000,
+          "mode": "0o644",
+          "writable_access": true
+        },
+        "cpu.max": {
+          "error": "[Errno 2] No such file or directory: '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice/vte-spawn-14008047-fbbd-4305-8680-66aa55fc87a0.scope/cpu.max'",
+          "exists": false
+        },
+        "cgroup.procs": {
+          "count": 6,
+          "contains_inspector": true,
+          "writable_access": true,
+          "owner_uid": 1000
+        }
+      }
+    },
+    {
+      "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice",
+      "directory_writable": true,
+      "files": {
+        "cgroup.controllers": {
+          "value": "memory pids",
+          "owner_uid": 1000,
+          "mode": "0o444",
+          "writable_access": false
+        },
+        "cgroup.subtree_control": {
+          "value": "memory pids",
+          "owner_uid": 1000,
+          "mode": "0o644",
+          "writable_access": true
+        },
+        "cgroup.type": {
+          "value": "domain",
+          "owner_uid": 1000,
+          "mode": "0o644",
+          "writable_access": true
+        },
+        "cgroup.events": {
+          "value": "populated 1\nfrozen 0",
+          "owner_uid": 1000,
+          "mode": "0o444",
+          "writable_access": false
+        },
+        "memory.max": {
+          "value": "max",
+          "owner_uid": 1000,
+          "mode": "0o644",
+          "writable_access": true
+        },
+        "memory.swap.max": {
+          "value": "max",
+          "owner_uid": 1000,
+          "mode": "0o644",
+          "writable_access": true
+        },
+        "pids.max": {
+          "value": "max",
+          "owner_uid": 1000,
+          "mode": "0o644",
+          "writable_access": true
+        },
+        "cpu.max": {
+          "error": "[Errno 2] No such file or directory: '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice/cpu.max'",
+          "exists": false
+        },
+        "cgroup.procs": {
+          "count": 0,
+          "contains_inspector": false,
+          "writable_access": true,
+          "owner_uid": 1000
+        }
+      }
+    },
+    {
+      "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice",
+      "directory_writable": true,
+      "files": {
+        "cgroup.controllers": {
+          "value": "cpu memory pids",
+          "owner_uid": 1000,
+          "mode": "0o444",
+          "writable_access": false
+        },
+        "cgroup.subtree_control": {
+          "value": "memory pids",
+          "owner_uid": 1000,
+          "mode": "0o644",
+          "writable_access": true
+        },
+        "cgroup.type": {
+          "value": "domain",
+          "owner_uid": 1000,
+          "mode": "0o644",
+          "writable_access": true
+        },
+        "cgroup.events": {
+          "value": "populated 1\nfrozen 0",
+          "owner_uid": 1000,
+          "mode": "0o444",
+          "writable_access": false
+        },
+        "memory.max": {
+          "value": "max",
+          "owner_uid": 1000,
+          "mode": "0o644",
+          "writable_access": true
+        },
+        "memory.swap.max": {
+          "value": "max",
+          "owner_uid": 1000,
+          "mode": "0o644",
+          "writable_access": true
+        },
+        "pids.max": {
+          "value": "max",
+          "owner_uid": 1000,
+          "mode": "0o644",
+          "writable_access": true
+        },
+        "cpu.max": {
+          "value": "max 100000",
+          "owner_uid": 1000,
+          "mode": "0o644",
+          "writable_access": true
+        },
+        "cgroup.procs": {
+          "count": 0,
+          "contains_inspector": false,
+          "writable_access": true,
+          "owner_uid": 1000
+        }
+      }
+    },
+    {
+      "path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service",
+      "directory_writable": true,
+      "files": {
+        "cgroup.controllers": {
+          "value": "cpu memory pids",
+          "owner_uid": 0,
+          "mode": "0o444",
+          "writable_access": false
+        },
+        "cgroup.subtree_control": {
+          "value": "cpu memory pids",
+          "owner_uid": 1000,
+          "mode": "0o644",
+          "writable_access": true
+        },
+        "cgroup.type": {
+          "value": "domain",
+          "owner_uid": 0,
+          "mode": "0o644",
+          "writable_access": false
+        },
+        "cgroup.events": {
+          "value": "populated 1\nfrozen 0",
+          "owner_uid": 0,
+          "mode": "0o444",
+          "writable_access": false
+        },
+        "memory.max": {
+          "value": "max",
+          "owner_uid": 0,
+          "mode": "0o644",
+          "writable_access": false
+        },
+        "memory.swap.max": {
+          "value": "max",
+          "owner_uid": 0,
+          "mode": "0o644",
+          "writable_access": false
+        },
+        "pids.max": {
+          "value": "max",
+          "owner_uid": 0,
+          "mode": "0o644",
+          "writable_access": false
+        },
+        "cpu.max": {
+          "value": "max 100000",
+          "owner_uid": 0,
+          "mode": "0o644",
+          "writable_access": false
+        },
+        "cgroup.procs": {
+          "count": 0,
+          "contains_inspector": false,
+          "writable_access": true,
+          "owner_uid": 1000
+        }
+      }
+    },
+    {
+      "path": "/sys/fs/cgroup/user.slice/user-1000.slice",
+      "directory_writable": false,
+      "files": {
+        "cgroup.controllers": {
+          "value": "cpu memory pids",
+          "owner_uid": 0,
+          "mode": "0o444",
+          "writable_access": false
+        },
+        "cgroup.subtree_control": {
+          "value": "cpu memory pids",
+          "owner_uid": 0,
+          "mode": "0o644",
+          "writable_access": false
+        },
+        "cgroup.type": {
+          "value": "domain",
+          "owner_uid": 0,
+          "mode": "0o644",
+          "writable_access": false
+        },
+        "cgroup.events": {
+          "value": "populated 1\nfrozen 0",
+          "owner_uid": 0,
+          "mode": "0o444",
+          "writable_access": false
+        },
+        "memory.max": {
+          "value": "max",
+          "owner_uid": 0,
+          "mode": "0o644",
+          "writable_access": false
+        },
+        "memory.swap.max": {
+          "value": "max",
+          "owner_uid": 0,
+          "mode": "0o644",
+          "writable_access": false
+        },
+        "pids.max": {
+          "value": "76399",
+          "owner_uid": 0,
+          "mode": "0o644",
+          "writable_access": false
+        },
+        "cpu.max": {
+          "value": "max 100000",
+          "owner_uid": 0,
+          "mode": "0o644",
+          "writable_access": false
+        },
+        "cgroup.procs": {
+          "count": 0,
+          "contains_inspector": false,
+          "writable_access": false,
+          "owner_uid": 0
+        }
+      }
+    },
+    {
+      "path": "/sys/fs/cgroup/user.slice",
+      "directory_writable": false,
+      "files": {
+        "cgroup.controllers": {
+          "value": "cpu memory pids",
+          "owner_uid": 0,
+          "mode": "0o444",
+          "writable_access": false
+        },
+        "cgroup.subtree_control": {
+          "value": "cpu memory pids",
+          "owner_uid": 0,
+          "mode": "0o644",
+          "writable_access": false
+        },
+        "cgroup.type": {
+          "value": "domain",
+          "owner_uid": 0,
+          "mode": "0o644",
+          "writable_access": false
+        },
+        "cgroup.events": {
+          "value": "populated 1\nfrozen 0",
+          "owner_uid": 0,
+          "mode": "0o444",
+          "writable_access": false
+        },
+        "memory.max": {
+          "value": "max",
+          "owner_uid": 0,
+          "mode": "0o644",
+          "writable_access": false
+        },
+        "memory.swap.max": {
+          "value": "max",
+          "owner_uid": 0,
+          "mode": "0o644",
+          "writable_access": false
+        },
+        "pids.max": {
+          "value": "max",
+          "owner_uid": 0,
+          "mode": "0o644",
+          "writable_access": false
+        },
+        "cpu.max": {
+          "value": "max 100000",
+          "owner_uid": 0,
+          "mode": "0o644",
+          "writable_access": false
+        },
+        "cgroup.procs": {
+          "count": 0,
+          "contains_inspector": false,
+          "writable_access": false,
+          "owner_uid": 0
+        }
+      }
+    },
+    {
+      "path": "/sys/fs/cgroup",
+      "directory_writable": false,
+      "files": {
+        "cgroup.controllers": {
+          "value": "cpuset cpu io memory hugetlb pids rdma misc dmem",
+          "owner_uid": 0,
+          "mode": "0o444",
+          "writable_access": false
+        },
+        "cgroup.subtree_control": {
+          "value": "cpu memory pids",
+          "owner_uid": 0,
+          "mode": "0o644",
+          "writable_access": false
+        },
+        "cgroup.type": {
+          "error": "[Errno 2] No such file or directory: '/sys/fs/cgroup/cgroup.type'",
+          "exists": false
+        },
+        "cgroup.events": {
+          "error": "[Errno 2] No such file or directory: '/sys/fs/cgroup/cgroup.events'",
+          "exists": false
+        },
+        "memory.max": {
+          "error": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.max'",
+          "exists": false
+        },
+        "memory.swap.max": {
+          "error": "[Errno 2] No such file or directory: '/sys/fs/cgroup/memory.swap.max'",
+          "exists": false
+        },
+        "pids.max": {
+          "error": "[Errno 2] No such file or directory: '/sys/fs/cgroup/pids.max'",
+          "exists": false
+        },
+        "cpu.max": {
+          "error": "[Errno 2] No such file or directory: '/sys/fs/cgroup/cpu.max'",
+          "exists": false
+        },
+        "cgroup.procs": {
+          "count": 278,
+          "contains_inspector": false,
+          "writable_access": false,
+          "owner_uid": 0
+        }
+      }
+    }
+  ],
+  "systemd_show": {
+    "user:manager": {
+      "rc": 0,
+      "stdout": "Version=255.4-1ubuntu8.18\nControlGroup=/user.slice/user-1000.slice/user@1000.service\nSystemState=running\nDefaultCPUAccounting=yes\nDefaultMemoryAccounting=yes\nDefaultTasksAccounting=yes\nDefaultTasksMax=34727\n",
+      "stderr": "",
+      "seconds": 0.004
+    },
+    "user:app.slice": {
+      "rc": 0,
+      "stdout": "ControlGroup=/user.slice/user-1000.slice/user@1000.service/app.slice\nEffectiveCPUs=\nEffectiveMemoryNodes=\nDelegate=no\nDelegateControllers=\nDelegateSubgroup=\nCPUAccounting=yes\nCPUQuotaPerSecUSec=infinity\nMemoryAccounting=yes\nTasksAccounting=yes\nDisableControllers=\nId=app.slice\nLoadState=loaded\nActiveState=active\nSubState=active\n",
+      "stderr": "",
+      "seconds": 0.004
+    },
+    "user:init.scope": {
+      "rc": 0,
+      "stdout": "ControlGroup=/user.slice/user-1000.slice/user@1000.service/init.scope\nEffectiveCPUs=\nEffectiveMemoryNodes=\nDelegate=no\nDelegateControllers=\nDelegateSubgroup=\nCPUAccounting=yes\nCPUQuotaPerSecUSec=infinity\nMemoryAccounting=yes\nTasksAccounting=yes\nDisableControllers=\nId=init.scope\nLoadState=loaded\nActiveState=active\nSubState=running\n",
+      "stderr": "",
+      "seconds": 0.005
+    },
+    "system:user@1000.service": {
+      "rc": 0,
+      "stdout": "ControlGroup=/user.slice/user-1000.slice/user@1000.service\nEffectiveCPUs=\nEffectiveMemoryNodes=\nDelegate=yes\nDelegateControllers=cpu memory pids\nDelegateSubgroup=init.scope\nCPUAccounting=yes\nCPUQuotaPerSecUSec=infinity\nMemoryAccounting=yes\nTasksAccounting=yes\nDisableControllers=\nId=user@1000.service\nLoadState=loaded\nActiveState=active\nSubState=running\n",
+      "stderr": "",
+      "seconds": 0.008
+    },
+    "system:user-1000.slice": {
+      "rc": 0,
+      "stdout": "ControlGroup=/user.slice/user-1000.slice\nEffectiveCPUs=\nEffectiveMemoryNodes=\nDelegate=no\nDelegateControllers=\nDelegateSubgroup=\nCPUAccounting=yes\nCPUQuotaPerSecUSec=infinity\nMemoryAccounting=yes\nTasksAccounting=yes\nDisableControllers=\nId=user-1000.slice\nLoadState=loaded\nActiveState=active\nSubState=active\n",
+      "stderr": "",
+      "seconds": 0.008
+    }
+  },
+  "transient_API_support": {
+    "rc": 0,
+    "method_found": true,
+    "args": [
+      {
+        "type": "s",
+        "name": "name",
+        "direction": "in"
+      },
+      {
+        "type": "s",
+        "name": "mode",
+        "direction": "in"
+      },
+      {
+        "type": "a(sv)",
+        "name": "properties",
+        "direction": "in"
+      },
+      {
+        "type": "a(sa(sv))",
+        "name": "aux",
+        "direction": "in"
+      },
+      {
+        "type": "o",
+        "name": "job",
+        "direction": "out"
+      }
+    ],
+    "semantics": "introspection only; no StartTransientUnit call, no authorization test"
+  },
+  "static_user_service": {
+    "value": "#  SPDX-License-Identifier: LGPL-2.1-or-later\n#\n#  This file is part of systemd.\n#\n#  systemd is free software; you can redistribute it and/or modify it\n#  under the terms of the GNU Lesser General Public License as published by\n#  the Free Software Foundation; either version 2.1 of the License, or\n#  (at your option) any later version.\n\n[Unit]\nDescription=User Manager for UID %i\nDocumentation=man:user@.service(5)\nAfter=user-runtime-dir@%i.service dbus.service systemd-oomd.service\nRequires=user-runtime-dir@%i.service\nIgnoreOnIsolate=yes\n\n[Service]\nUser=%i\nPAMName=systemd-user\nType=notify-reload\nExecStart=/usr/lib/systemd/systemd --user\nSlice=user-%i.slice\nKillMode=mixed\nDelegate=pids memory cpu\nDelegateSubgroup=init.scope\nTasksMax=infinity\nTimeoutStopSec=120s\nKeyringMode=inherit\nOOMScoreAdjust=100\nMemoryPressureWatch=skip",
+    "owner_uid": 0,
+    "mode": "0o644",
+    "writable_access": false
+  },
+  "creation_attempted": false,
+  "resource_excess_tests_run": false,
+  "permissions_note": "access(W_OK) is a current permission observation, not proof mkdir/write/controller activation or StartTransientUnit authorization succeeds"
+}

@@ -1,0 +1,82 @@
+{
+  "status": "DESIGN_ONLY_NOT_RUN",
+  "approval_sequence": [
+    "read-only readiness complete",
+    "separate explicit approval for ONE sleep5 smoke transient service (approval_plan.json)",
+    "record real effective memory/pids/cpu files and cleanup; stop if any mismatch",
+    "separate explicit approval for bounded pressure/descendant/cleanup/fail-closed/Bubblewrap tests"
+  ],
+  "fixture": "own minimal Python/C fixture design only; no unreviewed executable, no DART/Gazebo; no pressure code executed",
+  "baseline_and_gate": [
+    "record exact unit absence, UID and user-manager cgroup/controller baseline",
+    "get ControlGroup from manager; verify dedicated fresh task path and exact memory.max/pids.max/cpu.max before pressure",
+    "read memory.swap.max, memory.events, pids.events, cpu.stat and cgroup.events baseline",
+    "refuse missing values/wrong cgroup or parent-only limits; no fallback to RLIMIT",
+    "verify fixture/child/grandchild membership in same unit cgroup; never migrate existing user jobs"
+  ],
+  "tests": [
+    {
+      "id": "smoke_unit_creation",
+      "status": "SKIP",
+      "requires": "approval_plan.json explicit approval",
+      "limits": "memory64MiB/swap0/tasks8/cpu25%/period100ms/runtime8s/stop2s",
+      "case": "/usr/bin/sleep5; no pressure",
+      "success": "effective files, membership, natural or bounded stop cleanup; zero exit alone insufficient"
+    },
+    {
+      "id": "memory_pressure",
+      "status": "SKIP",
+      "limits": "proposed own service memory96MiB/swap0/tasks12/cpu25%/runtime8s",
+      "case": "at most3 fixture children, each at most48MiB anonymous touched memory, bounded32 small writes per child; hard-stop8s",
+      "success": "memory.events oom/oom_kill delta and group-specific process results; OOM must be confined to own unit",
+      "failure": "no bound/readback or missing events => no pressure; preserve rejected/OOM evidence"
+    },
+    {
+      "id": "pids_pressure",
+      "status": "SKIP",
+      "limits": "proposed TasksMax12/memory96MiB/cpu25%/runtime8s",
+      "case": "try at most16 total child/task creation operations, each owned child sleeps briefly; include one grandchild",
+      "success": "pids.current within12 and pids.events max increment + EAGAIN; tasks count includes threads; wait all"
+    },
+    {
+      "id": "cpu_pressure",
+      "status": "SKIP",
+      "limits": "proposed25% of one CPU,100ms period,memory96MiB/tasks12/runtime8s",
+      "case": "two bounded busy children for2 wall seconds, then stop own unit",
+      "success": "cpu.max readback25000 100000 and cpu.stat throttled delta; report scheduling uncertainty; quota throttles rather than kills"
+    },
+    {
+      "id": "descendant_attachment",
+      "status": "SKIP",
+      "case": "fixture creates child and grandchild only after gate; record host PID/PPid/start/cgroup membership",
+      "success": "all own identities remain in same limited unit subtree"
+    },
+    {
+      "id": "unit_cleanup",
+      "status": "SKIP",
+      "case": "normal/timeout/own supervisor death; stop only exact owned service if necessary",
+      "success": "cgroup.events populated0 + owned identities gone + unit removed/collected; preserve errors; no unrelated kill"
+    },
+    {
+      "id": "bubblewrap_combination",
+      "status": "SKIP",
+      "case": "V2-style fresh root/read-only usr/private bounded tmpfs/PID-net namespace as service payload",
+      "success": "outer/child/grandchild inherit unit cgroup; namespace mismatch and cgroup limit checks precede fixture body",
+      "limitations": "TasksMax may be too low for wrapper; counts must be budgeted/reviewed, never automatically raised"
+    },
+    {
+      "id": "fail_closed",
+      "status": "SKIP",
+      "case": "negative tests absent cpu.max, wrong memory/pids values, rejected property, unit collision, wrong membership; use mock/offline until approved actual service",
+      "success": "no pressure/body entry; write explicit failure and preserve before retry"
+    }
+  ],
+  "evidence": [
+    "fixture/source/build hash if built; exact approved scope and unit ID",
+    "effective files and before/after event counters, selected properties only",
+    "bounded stdout/stderr, exit/signal/OOM/throttle, owned process identities",
+    "read-only original-file/main baseline before/after; no full env or credentials"
+  ],
+  "cleanup": "stop own exact unit only; wait/reap own children, retain logs; never globally disable controllers or move other tasks",
+  "limit_change_policy": "no auto relaxation, retries or destructive OOM outside task unit; stop if actual side effects exceed approval"
+}

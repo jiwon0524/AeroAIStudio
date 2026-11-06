@@ -1,3 +1,26 @@
+# Cgroup Delegation Readiness V1 — current checkpoint
+
+현재 읽기 전용 조사·계획 범위 완료: **CGROUP_DELEGATION_PARTIAL / Probe A~D BLOCKED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. cgroup 생성/설정/프로세스 이동/controller 활성화/transient unit/자원 초과/실제 DART·Gazebo는 전부 NOT_RUN. 사용자 요청5절에 따라 생성·resource 실행은 별도 승인 필요.
+
+시작 local/remote4d727687f03a466a941c296d83e94558cfd0173e clean 일치, main46134c6 수정8/미추적31/staged0 보존. V2 snapshot757f3a1→4d72768은 parent/commit scope로 대조했다. AGENTS/DEVELOPMENT_RULES/handoff/V2 final+verdict/Isolation V1/Readiness V1 읽음. context-handoff 사용, 공통 스킬 변경 없음.
+
+중요 신규 관측: terminal leaf는 memory/pids만 있지만 user@1000.service는 Delegate=yes, DelegateControllers=cpu memory pids, 실제 cgroup.controllers/subtree_control 모두 cpu memory pids다. 사용자 manager running/bus 읽기 가능, StartTransientUnit API 존재. 따라서 CPU leaf 부재를 사용자 전체 위임 부재로 일반화하지 않는다. 실제 StartTransientUnit 권한·property 수락·한계 readback은 미검증. 호스트 cgroup rw와 도구 sandbox ro를 구분한다.
+
+증거 `validation/dart-cgroup-readiness-v1/reports/`: final_report, cgroup_capabilities(+initial), delegation_options, resource_test_plan, approval_plan, probe_a_blockers, verdict, static_checks, test_summary, integrity, local_documentation, handoff_snapshot. 읽기전용6+offline7=**13 PASS/0 FAIL/8 SKIP**. 초기 busctl member 문법 오류1은 initial에 보존 후 XML introspection으로 수정. resource/unit 미실행을 PASS로 세지 않음. V1/V2 숫자 합산 없음.
+
+권장 후보는 승인 후 systemd 사용자 transient SERVICE. 직접 terminal child cgroup 생성/수동 부모 활성화는 피한다. 설치매뉴얼상 자원 속성 때문에 systemd가 상위·형제 controller를 활성화할 수 있고 완전 baseline복구는 보장 못함. 영구설정/직접cgroup writes/사용자 manager 재시작/기존 작업 이동/무관 unit 정리는 금지.
+
+승인 검토 계획 approval_plan.json: exact aero-cgroup-readiness-v1-smoke.service 1개, /usr/bin/sleep5만, MemoryMax64MiB/swap0/TasksMax8/CPU25%/period100ms/runtime8s/stop2s/Delegate=no/기존 app.slice. unit 충돌시 abort, 실제 ControlGroup의 limits/membership 읽고 자연종료 또는 exact own unit만 stop/collect, 잔여identity/cgroup 및 상위활성화 변경 기록. **이 smoke조차 승인 전 실행 금지**, pressure/자식/Bubblewrap/DART는 smoke 승인에 포함 안 됨. scripts/plan.py는 JSON 출력만 하고 실행하지 않음.
+
+남은 aggregate memory/PID/CPU·kernel namespace 실패 주입은 UNVERIFIED; DART closure/B/C External 예상누락/RUNPATH빈항목·init/fini·allocator/EH 위험 유지. Probe A~D BLOCKED. 다음 최소 작업은 **approval_plan.json 범위 단일 sleep5 smoke 생성·readback·정리에 대한 사용자 승인**. 그 뒤에도 pressure 승인 별도, A native fixture/closure 감사 후 Runtime 승인 별도. 현재 요청 종료 후 자동 실행 없음.
+
+보존: 기존54,502파일 변경/누락0·기존범위 신규0, main HEAD/status 유지 PASS(integrity.json). 새 task scripts/tests/경량reports와 실험 handoff만 이번 소유·게시. work/full manifest 제외; /tmp raw/ignored·main untracked 원본은 Git으로 다른 기기에 자동 전달 안 됨. 실제 commit/push/remote SHA는 reports/git_publication.json 로컬 영수증·최종응답 참조. 자기SHA 재귀commit 없음. main/force/reset/rebase/stash/merge/시스템변경 없음.
+
+프로세스 host/time/identity 관측은 새 handoff_snapshot.json을 따른다. 알려진 읽기전용 수집은 완료, project-CWD visible task0; 외부 CWD/remote/container UNKNOWN. 기존 프로세스 종료/재시작·계정 변경 없음.
+
+---
+이하 이전 인계 기록:
+
 # Sandbox Isolation Hardening V2 — current checkpoint
 
 현재 사용자 범위 완료: **SANDBOX_ISOLATION_PARTIAL / Probe A~D BLOCKED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. 실제 DART/Gazebo 로드·객체·예외·OFF/ON·World::step·Probe·Stage B 전부 NOT_RUN.
@@ -239,18 +262,18 @@ Common skill source remains outside the project at `/home/jiwon/Projects/my-agen
 ```context-handoff-state
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06T15:35:26.562035+00:00",
+  "updated_at": "2026-11-06T15:44:20.821489+00:00",
   "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
   "host": "jiwon-System-Product-Name",
   "git": {
-    "head": "757f3a1c043fd12e7683d3244e4ab4466198ac2e",
+    "head": "4d727687f03a466a941c296d83e94558cfd0173e",
     "branch": "experiment/dart-internal-trace",
     "status": []
   },
   "evidence": [
     {
-      "path": "validation/dart-sandbox-hardening-v2/reports/verdict.json",
-      "sha256": "08affabe5e213d59f5ac2480ec5152ff2de471486c12ca1b510954a9d09cf551"
+      "path": "validation/dart-cgroup-readiness-v1/reports/verdict.json",
+      "sha256": "5b0728f09a0f1ec0b4fe3f26380259d3c4454be84bf4f15be689fa8a589e7cd8"
     }
   ],
   "processes": {

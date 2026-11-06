@@ -1,0 +1,38 @@
+{
+  "scope": "read-only observations only; PASS never means cgroup writes/unit creation or pressure success",
+  "tests": [
+    {
+      "test_id": "unified_cgroup_mount",
+      "status": "PASS",
+      "evidence": "reports/cgroup_capabilities.json"
+    },
+    {
+      "test_id": "current_leaf_readable",
+      "status": "PASS",
+      "evidence": "reports/cgroup_capabilities.json"
+    },
+    {
+      "test_id": "user_manager_running",
+      "status": "PASS",
+      "evidence": "reports/cgroup_capabilities.json"
+    },
+    {
+      "test_id": "configured_delegation",
+      "status": "PASS",
+      "evidence": "reports/cgroup_capabilities.json"
+    },
+    {
+      "test_id": "user_manager_effective_controller_availability",
+      "status": "PASS",
+      "evidence": "reports/cgroup_capabilities.json"
+    },
+    {
+      "test_id": "transient_method_advertised",
+      "status": "PASS",
+      "evidence": "reports/cgroup_capabilities.json"
+    }
+  ],
+  "PASS": 6,
+  "FAIL": 0,
+  "SKIP": 0
+}

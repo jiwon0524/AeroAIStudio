@@ -1,0 +1,29 @@
+{
+  "read_only_observations": {
+    "PASS": 6,
+    "FAIL": 0,
+    "SKIP": 0
+  },
+  "offline_unittest": {
+    "PASS": 7,
+    "FAIL": 0,
+    "SKIP": 0
+  },
+  "unit_resource_execution": {
+    "PASS": 0,
+    "FAIL": 0,
+    "SKIP": 8
+  },
+  "final_totals": {
+    "PASS": 13,
+    "FAIL": 0,
+    "SKIP": 8
+  },
+  "initial_failure": {
+    "count": 1,
+    "component": "busctl read-only introspection syntax",
+    "evidence": "cgroup_capabilities_initial.json",
+    "resolution": "corrected XML introspection succeeds; no runtime/unit creation occurred"
+  },
+  "scope": "counts do not include historical V1/V2 or unexecuted DART probes"
+}

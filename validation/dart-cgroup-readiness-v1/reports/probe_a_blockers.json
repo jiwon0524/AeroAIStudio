@@ -1,0 +1,52 @@
+{
+  "Probe_A": "BLOCKED",
+  "Probe_B_D": "BLOCKED",
+  "risks": [
+    {
+      "risk": "aggregate_memory",
+      "status": "UNVERIFIED",
+      "basis": "delegation visible; effective dedicated unit and OOM not run"
+    },
+    {
+      "risk": "aggregate_pids",
+      "status": "UNVERIFIED",
+      "basis": "pids hierarchy visible; dedicated pids.max/excess not run"
+    },
+    {
+      "risk": "aggregate_cpu",
+      "status": "UNVERIFIED",
+      "basis": "cpu delegated at user manager; absent terminal leaf; service quota not run"
+    },
+    {
+      "risk": "kernel_namespace_failure",
+      "status": "UNVERIFIED",
+      "basis": "V2 config rejection only; kernel failure injection not performed"
+    },
+    {
+      "risk": "DART_dependency_paths",
+      "status": "PARTIALLY_VERIFIED",
+      "basis": "V1 identity evidence historical; full closure/retained Bullet/provider missing, B/C External expected paths absent"
+    },
+    {
+      "risk": "RUNPATH_empty_component",
+      "status": "BLOCKED",
+      "basis": "V1 known B/C empty component unresolved; installed-only A scope may exclude B/C only after explicit future scope approval"
+    },
+    {
+      "risk": "dlopen_init_fini",
+      "status": "UNVERIFIED",
+      "basis": "init/fini/IFUNC/TLS/thread shutdown semantics not audited"
+    },
+    {
+      "risk": "Destructor_Allocator",
+      "status": "PARTIALLY_VERIFIED",
+      "basis": "V4 selected static boundary, slot18 INFERRED D1; cross-module lifetime runtime UNKNOWN/HIGH"
+    },
+    {
+      "risk": "Exception_Unwinding",
+      "status": "PARTIALLY_VERIFIED",
+      "basis": "selected static LSDA only; actual unwinding/cleanup UNKNOWN/HIGH"
+    }
+  ],
+  "overall": "no runtime approval; installed-only A limitation must be separately reviewed; sandbox delegation alone not loader safety"
+}

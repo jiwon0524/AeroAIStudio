@@ -1,0 +1,68 @@
+{
+  "unit": "aero-cgroup-readiness-v1-smoke.service",
+  "execute_only_after_explicit_approval": true,
+  "creation_argv": [
+    "systemd-run",
+    "--user",
+    "--unit=aero-cgroup-readiness-v1-smoke.service",
+    "--service-type=exec",
+    "--collect",
+    "--no-block",
+    "--property=MemoryMax=64M",
+    "--property=MemorySwapMax=0",
+    "--property=TasksMax=8",
+    "--property=CPUQuota=25%",
+    "--property=CPUQuotaPeriodSec=100ms",
+    "--property=RuntimeMaxSec=8s",
+    "--property=TimeoutStopSec=2s",
+    "--property=KillMode=control-group",
+    "--property=SendSIGKILL=yes",
+    "--property=OOMPolicy=stop",
+    "--property=Delegate=no",
+    "--property=Slice=app.slice",
+    "/usr/bin/sleep",
+    "5"
+  ],
+  "limits": {
+    "MemoryMax": "64M",
+    "MemorySwapMax": "0",
+    "TasksMax": "8",
+    "CPUQuota": "25%",
+    "CPUQuotaPeriodSec": "100ms",
+    "RuntimeMaxSec": "8s",
+    "TimeoutStopSec": "2s",
+    "KillMode": "control-group",
+    "SendSIGKILL": "yes",
+    "OOMPolicy": "stop",
+    "Delegate": "no",
+    "Slice": "app.slice"
+  },
+  "preflight": [
+    "same UID1000 host user manager; no sudo/system manager unit",
+    "require exact unit LoadState=not-found; collision abort, never replace",
+    "record manager/app.slice ancestor subtree_control and existing unit policies",
+    "confirm user manager DelegateControllers includes cpu memory pids",
+    "verify no existing cgroup or processes use candidate unit identity"
+  ],
+  "attestation": [
+    "while sleep5 alive, get exact service ControlGroup and assert inside user manager subtree, outside current terminal scope",
+    "read memory.max=67108864, memory.swap.max=0, pids.max=8, cpu.max quota/period ratio25%; use returned path, not guessed one",
+    "record cgroup.procs task membership and process start identity",
+    "do not run pressure/children/Bubblewrap/DART in this smoke test"
+  ],
+  "cleanup": [
+    "natural sleep5 completion; RuntimeMaxSec8/TimeoutStopSec2 fallback",
+    "only if necessary systemctl --user stop -- aero-cgroup-readiness-v1-smoke.service",
+    "verify exact task unit cgroup empty/removed and no owned identity remains; collect status/error logs",
+    "compare parent/sibling activation state; systemd may leave controller enabled; record rather than manually disable/restore unrelated policies"
+  ],
+  "side_effects": [
+    "creates ONE user transient service and its cgroup, brief systemd journal metadata",
+    "systemd may automatically activate cpu along app.slice/ancestors and siblings; persistent activation baseline restoration is NOT guaranteed",
+    "no manual cgroup writes, no service config files, no global settings/packages/AppArmor changes"
+  ],
+  "rollback_boundary": "stop exact newly created unit only; no user manager restart, reset-failed wildcard, controller disabling, unrelated process movement or cleanup",
+  "success": "all readback limits and exact membership + empty cleanup observed; zero exit alone insufficient",
+  "failure": "any absent controller, rejected property, wrong path/readback, collision or unexpected process -> stop this unit only, preserve failure, do not retry with weaker limits",
+  "subsequent_resource_pressure_approval": "separate approval; this smoke plan authorizes no pressure tests"
+}
