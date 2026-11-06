@@ -1,0 +1,45 @@
+{
+  "uid": 1000,
+  "kernel": "7.0.0-42-generic",
+  "tools": {
+    "bwrap": "/usr/bin/bwrap",
+    "unshare": "/usr/bin/unshare",
+    "prlimit": "/usr/bin/prlimit",
+    "timeout": "/usr/bin/timeout",
+    "aa-status": "/usr/sbin/aa-status"
+  },
+  "userns_restriction": "1",
+  "userns_clone": "1",
+  "max_user_namespaces": "115757",
+  "apparmor_enabled": "Y",
+  "apparmor_current": "unconfined",
+  "selected_proc_status": [
+    "CapEff:\t0000000000000000",
+    "NoNewPrivs:\t0",
+    "Seccomp:\t0"
+  ],
+  "namespace_probes": {
+    "bwrap": {
+      "rc": 0,
+      "stdout": "",
+      "stderr": "",
+      "seconds": 0.004
+    },
+    "unshare": {
+      "rc": 1,
+      "stdout": "",
+      "stderr": "unshare: write failed /proc/self/uid_map: Operation not permitted\n",
+      "seconds": 0.002
+    }
+  },
+  "prlimit": {
+    "rc": 0,
+    "stdout": "",
+    "stderr": "",
+    "seconds": 0.001
+  },
+  "seccomp": "host state only; no new syscall filter installed/tested; inherited filter not counted as project isolation",
+  "apparmor": "existing enforcement only; no policy/settings changes",
+  "scope": "same-user host via approved execution escalation; ordinary tool sandbox namespace denied; not sudo/root",
+  "system_changes": false
+}

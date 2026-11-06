@@ -1,0 +1,30 @@
+{
+  "tests": [
+    {
+      "test_id": "supervisor_abrupt_death",
+      "purpose": "group kill과 독립된 supervisor death 시 자식 정리",
+      "fixture": "NOT_BUILT",
+      "isolation": "proposed additional containment",
+      "expected": "bounded aggregate use and no surviving children",
+      "actual": "NOT_RUN",
+      "status": "SKIP",
+      "seconds": 0,
+      "error": "test strategy not yet implemented/validated",
+      "evidence": "reports/final_report.md",
+      "original_preservation": "integrity.json PASS"
+    },
+    {
+      "test_id": "aggregate_resources",
+      "purpose": "cgroup 및 tmpfs/output 총량 제한",
+      "fixture": "NOT_BUILT",
+      "isolation": "proposed additional containment",
+      "expected": "bounded aggregate use and no surviving children",
+      "actual": "NOT_RUN",
+      "status": "SKIP",
+      "seconds": 0,
+      "error": "test strategy not yet implemented/validated",
+      "evidence": "reports/final_report.md",
+      "original_preservation": "integrity.json PASS"
+    }
+  ]
+}

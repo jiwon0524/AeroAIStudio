@@ -1,3 +1,22 @@
+# Runtime Sandbox Isolation Verification V1 — current checkpoint
+
+현재 요청 완료: **SANDBOX_ISOLATION_PARTIAL / Probe A~D BLOCKED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. 실제 DART/Gazebo 로드/객체/예외/OFF-ON/World::step/Stage B/Probe는 모두 NOT_RUN.
+
+시작 local/remote HEAD91ee5f7c1627e6d0a7b25b3a9875dc4a065d4ff9 clean 일치. main46134c6 및 기존 dirty 보존. 승인 호스트의 동일 UID1000 bwrap는 가능하지만 도구 sandbox namespace는 거부되고 host unshare uid_map은 EPERM. sudo/sysctl/AppArmor/패키지·라이브러리/production 변경 없음.
+
+증거: `validation/dart-sandbox-isolation-v1/reports/`의 final_report, sandbox_capabilities, filesystem/network/process_isolation, fixture_results, integrity, probe_a_readiness, verdict, test_summary, elf_review, handoff_snapshot. 최종 Fixture12+offline6=**18 PASS/0 FAIL**, 별도 안전항목 **2 SKIP**. 초기 실패6회는 fixture_results_*.json에 보존(원인·수정은 final_report). 이전20 PASS는 재실행 결과로 합산하지 않는다.
+
+강제 효과: Canary2경로 EROFS, private net namespace+route absence+IPv4 차단+호스트 수신0, PID namespace/group timeout 후 live survivor0, CPU/AS/FSIZE pressure와 cleanup/restart/fail-closed 확인. private loopback UDP send 성공과 host 전달을 구분한다. root ro는 비밀 읽기 격리가 아니다. NPROC는 UID공유, namespace 후 적용; 전체 cgroup/tmpfs 총량·supervisor abrupt-death 독립시험·IPv6/UNIX socket 노출 미검증. 따라서 PARTIAL이며 A 승인 요청 준비 완료가 아니다.
+
+무결성: 기존54,455파일 변경/누락0·기존범위 신규0, main HEAD/status 유지 PASS. 새 task와 실험 handoff만 변경.9 ELF 식별 일치, External 예상2경로 누락·RUNPATH 빈항목 및 full closure/init-fini/A native fixture 미감사 유지. 기존 V1~V4/Targeted/Readiness 변경 없음. 새 scripts/tests/reports와 handoff만 이번 소유·게시 대상이며 work/full manifest/바이너리는 제외한다. /tmp raw·ignored/untracked 증거는 Git push로 다른 기기에 자동 전달되지 않는다.
+
+다음 최소 작업: **무해한 Fixture로 tmpfs/output 총량·전체 PID/resource 한계·supervisor 독립 abrupt-death 및 IPv6/UNIX socket 노출 검증**, 또는 이를 충족하는 disposable 환경 준비. 이후 closure/init-fini/A native fixture 감사 및 별도 실행 승인 준비 재판정. 이번 종료 뒤 Runtime/새 AI 기능을 자동 시작하지 않는다.
+
+게시 결과는 새 reports/git_publication.json 로컬 영수증·최종 응답을 따른다. 자기 SHA 재귀 commit 없음. main/force push/reset/rebase/stash/merge 없음. 스킬 저장소 변경 없음. 관측 host/time/visible tasks는 새 handoff_snapshot.json을 따른다. 알려진 Fixture child는 wait 완료, 실제 live survivors0; 외부 CWD/원격/container는 UNKNOWN. 계정 변경·기존 작업 종료/재시작 없음.
+
+---
+이하 과거 인계 기록:
+
 # Isolated Runtime Probe Readiness Review V1 — current checkpoint
 
 이번 사용자 요청 범위를 완료했다. **A/B/C/D BLOCKED / Host NEEDS_ADDITIONAL_EVIDENCE / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. 실제 DART/Gazebo 로드·객체 생성/삭제·예외·OFF/ON·World::step·Stage B는 미실행(4 Probe SKIP)이다. 다음 Runtime 실행 승인은 부여되지 않았다.

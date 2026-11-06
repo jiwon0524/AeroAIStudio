@@ -1,0 +1,28 @@
+{
+  "current_fixture": {
+    "PASS": 12,
+    "FAIL": 0,
+    "SKIP": 0
+  },
+  "offline_review": {
+    "PASS": 6,
+    "FAIL": 0,
+    "SKIP": 0
+  },
+  "additional_safety_tests": {
+    "PASS": 0,
+    "FAIL": 0,
+    "SKIP": 2,
+    "tests": [
+      "independent abrupt supervisor death",
+      "aggregate cgroup/tmpfs bounds"
+    ]
+  },
+  "current_total": {
+    "PASS": 18,
+    "FAIL": 0,
+    "SKIP": 2
+  },
+  "runtime_probe_A_D": "NOT_RUN (outside totals)",
+  "historical_attempts": "six failed runs preserved in separate fixture_results_*.json; excluded from final-run counts, not erased"
+}

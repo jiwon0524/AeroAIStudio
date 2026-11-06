@@ -1,0 +1,106 @@
+{
+  "host_namespaces": {
+    "user": "user:[4026531837]",
+    "mnt": "mnt:[4026531832]",
+    "net": "net:[4026531833]",
+    "pid": "pid:[4026531836]"
+  },
+  "tests": [
+    {
+      "test_id": "normal",
+      "purpose": "normal",
+      "fixture": "tests/fixture.py",
+      "isolation": "bwrap user/mount/net/pid/ipc/uts/cgroup namespaces; root ro; output rw; private tmpfs/dev/proc",
+      "expected": "fixture gate success and bounded outcome",
+      "returncode": 1,
+      "signal": null,
+      "timeout": false,
+      "gate_ready": false,
+      "fixture_entered": false,
+      "seconds": 0.002,
+      "stdout": "",
+      "error": "bwrap: Creating new namespace failed: Resource temporarily unavailable\n",
+      "observed_processes": [],
+      "live_survivors": [],
+      "evidence": "reports/fixture_results.json",
+      "max_output_file_bytes": 71,
+      "temporary_cleanup": true,
+      "status": "FAIL"
+    },
+    {
+      "test_id": "filesystem",
+      "status": "SKIP",
+      "reason": "mandatory sandbox gate failed",
+      "evidence": "reports/fixture_results.json"
+    },
+    {
+      "test_id": "network",
+      "status": "SKIP",
+      "reason": "mandatory sandbox gate failed",
+      "evidence": "reports/fixture_results.json"
+    },
+    {
+      "test_id": "exit",
+      "status": "SKIP",
+      "reason": "mandatory sandbox gate failed",
+      "evidence": "reports/fixture_results.json"
+    },
+    {
+      "test_id": "signal",
+      "status": "SKIP",
+      "reason": "mandatory sandbox gate failed",
+      "evidence": "reports/fixture_results.json"
+    },
+    {
+      "test_id": "timeout",
+      "status": "SKIP",
+      "reason": "mandatory sandbox gate failed",
+      "evidence": "reports/fixture_results.json"
+    },
+    {
+      "test_id": "cpu",
+      "status": "SKIP",
+      "reason": "mandatory sandbox gate failed",
+      "evidence": "reports/fixture_results.json"
+    },
+    {
+      "test_id": "memory",
+      "status": "SKIP",
+      "reason": "mandatory sandbox gate failed",
+      "evidence": "reports/fixture_results.json"
+    },
+    {
+      "test_id": "file",
+      "status": "SKIP",
+      "reason": "mandatory sandbox gate failed",
+      "evidence": "reports/fixture_results.json"
+    },
+    {
+      "test_id": "descendants",
+      "status": "SKIP",
+      "reason": "mandatory sandbox gate failed",
+      "evidence": "reports/fixture_results.json"
+    },
+    {
+      "test_id": "restart",
+      "status": "SKIP",
+      "reason": "mandatory sandbox gate failed",
+      "evidence": "reports/fixture_results.json"
+    },
+    {
+      "test_id": "fail_closed",
+      "status": "SKIP",
+      "reason": "mandatory sandbox gate failed",
+      "evidence": "reports/fixture_results.json"
+    }
+  ],
+  "PASS": 0,
+  "FAIL": 1,
+  "SKIP": 11,
+  "canary_preserved": true,
+  "host_listener_received": [],
+  "canary_temporary_cleanup": true,
+  "actual_DART_Gazebo_execution": false,
+  "system_files_write_tested": false,
+  "system_preservation_basis": "root read-only mount asserted; no destructive write attempt to real project/system"
+}

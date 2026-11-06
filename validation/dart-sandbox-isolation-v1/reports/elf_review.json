@@ -1,0 +1,301 @@
+{
+  "tool": "/usr/bin/readelf -dW/-nW/-SW only",
+  "libraries": [
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "exists": true,
+      "sha256": "f74f4ec9820aee785ef94fb7bedafa7e4c832f209675a8ca1d35019c72b48e06",
+      "build_id": "071aa565b343db80e31aae393aadaed33c7adb46",
+      "soname": [
+        "libdart.so.6.13"
+      ],
+      "needed": [
+        "libdart-external-odelcpsolver.so.6.13",
+        "libfcl.so.0.7",
+        "liboctomap.so.1.9",
+        "liboctomath.so.1.9",
+        "libassimp.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [],
+      "init_fini_tags": [
+        "0x000000000000000c (INIT)               0x14c000",
+        "0x000000000000000d (FINI)               0x3ed44c",
+        "0x0000000000000019 (INIT_ARRAY)         0x52f2a8",
+        "0x000000000000001b (INIT_ARRAYSZ)       16 (bytes)",
+        "0x000000000000001a (FINI_ARRAY)         0x52f2b8",
+        "0x000000000000001c (FINI_ARRAYSZ)       8 (bytes)"
+      ],
+      "previous_identity_match": true,
+      "empty_loader_component": false
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+      "exists": true,
+      "sha256": "b890ed6936ea7cf486303fc5101ee5ff68356fc89596273ebaef83671aa4cb16",
+      "build_id": "abba8be3e710b1a505116d4bada0803f8bd49398",
+      "soname": [
+        "libdart-external-odelcpsolver.so.6.13"
+      ],
+      "needed": [
+        "libstdc++.so.6",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [],
+      "init_fini_tags": [
+        "0x000000000000000c (INIT)               0x2000",
+        "0x000000000000000d (FINI)               0x8388",
+        "0x0000000000000019 (INIT_ARRAY)         0xbd30",
+        "0x000000000000001b (INIT_ARRAYSZ)       8 (bytes)",
+        "0x000000000000001a (FINI_ARRAY)         0xbd38",
+        "0x000000000000001c (FINI_ARRAYSZ)       8 (bytes)"
+      ],
+      "previous_identity_match": true,
+      "empty_loader_component": false
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+      "exists": true,
+      "sha256": "897709e0c988e9e562c662292ed5bc860bce70ee2c64499501f54a6b5ca02201",
+      "build_id": "8bda73145d9c6cc97d6faff5895c2ce1aa091f6f",
+      "soname": [
+        "libdart-collision-bullet.so.6.13"
+      ],
+      "needed": [
+        "libdart.so.6.13",
+        "libBulletCollision.so.3.24",
+        "libLinearMath.so.3.24",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [],
+      "init_fini_tags": [
+        "0x000000000000000c (INIT)               0x10000",
+        "0x000000000000000d (FINI)               0x3ebdc",
+        "0x0000000000000019 (INIT_ARRAY)         0x4c808",
+        "0x000000000000001b (INIT_ARRAYSZ)       16 (bytes)",
+        "0x000000000000001a (FINI_ARRAY)         0x4c818",
+        "0x000000000000001c (FINI_ARRAYSZ)       8 (bytes)"
+      ],
+      "previous_identity_match": true,
+      "empty_loader_component": false
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "exists": true,
+      "sha256": "1ee9350aa09d5a5eb43a5075c9c61d2cdcb85113d2ff1e0f32136847edf1688e",
+      "build_id": "c53e1a304ceb0f0dac85ff0e4872d0ffc50a28ac",
+      "soname": [
+        "libgz-physics7-dartsim-plugin.so.7"
+      ],
+      "needed": [
+        "libdart-collision-bullet.so.6.13",
+        "libLinearMath.so.3.24",
+        "libdart-collision-ode.so.6.13",
+        "libdart.so.6.13",
+        "libsdformat14.so.14",
+        "libgz-physics7.so.7",
+        "libgz-common5-graphics.so.5",
+        "libassimp.so.5",
+        "libgz-math7.so.7",
+        "libgz-common5.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [],
+      "init_fini_tags": [
+        "0x000000000000000c (INIT)               0x1b0000",
+        "0x000000000000000d (FINI)               0x25c3d4",
+        "0x0000000000000019 (INIT_ARRAY)         0x2d5038",
+        "0x000000000000001b (INIT_ARRAYSZ)       128 (bytes)",
+        "0x000000000000001a (FINI_ARRAY)         0x2d50b8",
+        "0x000000000000001c (FINI_ARRAYSZ)       8 (bytes)"
+      ],
+      "previous_identity_match": true,
+      "empty_loader_component": false
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart.so.6.13.2",
+      "exists": true,
+      "sha256": "8403def315fd0395e73f795610a7f258cb70400d93c1de9acab3ffc48e3562a3",
+      "build_id": "5b20c27ee40538cedd07931b3f703fadd3adc98d",
+      "soname": [
+        "libdart.so.6.13"
+      ],
+      "needed": [
+        "libdart-external-odelcpsolver.so.6.13",
+        "libfcl.so.0.7",
+        "liboctomap.so.1.9",
+        "liboctomath.so.1.9",
+        "libassimp.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu:"
+      ],
+      "init_fini_tags": [
+        "0x000000000000000c (INIT)               0x14c000",
+        "0x000000000000000d (FINI)               0x3ed9fc",
+        "0x0000000000000019 (INIT_ARRAY)         0x5312a8",
+        "0x000000000000001b (INIT_ARRAYSZ)       16 (bytes)",
+        "0x000000000000001a (FINI_ARRAY)         0x5312b8",
+        "0x000000000000001c (FINI_ARRAYSZ)       8 (bytes)"
+      ],
+      "previous_identity_match": true,
+      "empty_loader_component": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart.so.6.13.2",
+      "exists": true,
+      "sha256": "08abe8d16ab0060f860e6c937d567a2f4137f61dfecabb4ec6f1a327e22eddcc",
+      "build_id": "a93979d2a4c513bc4e647e36571fad6988432f21",
+      "soname": [
+        "libdart.so.6.13"
+      ],
+      "needed": [
+        "libdart-external-odelcpsolver.so.6.13",
+        "libfcl.so.0.7",
+        "liboctomap.so.1.9",
+        "liboctomath.so.1.9",
+        "libassimp.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu:"
+      ],
+      "init_fini_tags": [
+        "0x000000000000000c (INIT)               0x14c000",
+        "0x000000000000000d (FINI)               0x3eec1c",
+        "0x0000000000000019 (INIT_ARRAY)         0x532248",
+        "0x000000000000001b (INIT_ARRAYSZ)       16 (bytes)",
+        "0x000000000000001a (FINI_ARRAY)         0x532258",
+        "0x000000000000001c (FINI_ARRAYSZ)       8 (bytes)"
+      ],
+      "previous_identity_match": true,
+      "empty_loader_component": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.13.2",
+      "exists": true,
+      "sha256": "2940e0bd6b056f186d3596e051a26ec25f1c27add88d870cdfe673785dad4b44",
+      "build_id": "2cbacdc0e4014e0ee69c4deeacd2d088d564599e",
+      "soname": [
+        "libdart-collision-ode.so.6.13"
+      ],
+      "needed": [
+        "libdart.so.6.13",
+        "libode.so.8",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [],
+      "init_fini_tags": [
+        "0x000000000000000c (INIT)               0xf000",
+        "0x000000000000000d (FINI)               0x37924",
+        "0x0000000000000019 (INIT_ARRAY)         0x449c8",
+        "0x000000000000001b (INIT_ARRAYSZ)       16 (bytes)",
+        "0x000000000000001a (FINI_ARRAY)         0x449d8",
+        "0x000000000000001c (FINI_ARRAYSZ)       8 (bytes)"
+      ],
+      "previous_identity_match": true,
+      "empty_loader_component": false
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart-external-odelcpsolver.so.6.13.2",
+      "exists": false
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib/libdart-collision-ode.so.6.13.2",
+      "exists": true,
+      "sha256": "0ce168081a05d2a184c2bcce105537abc565802e9b8cf4300a6c41b051cc693e",
+      "build_id": "5e5625c1752f240897afdffce3d8c55b9f8ffe60",
+      "soname": [
+        "libdart-collision-ode.so.6.13"
+      ],
+      "needed": [
+        "libdart.so.6.13",
+        "libode.so.8",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-baseline-final/dart/external/odelcpsolver:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu:"
+      ],
+      "init_fini_tags": [
+        "0x000000000000000c (INIT)               0xf000",
+        "0x000000000000000d (FINI)               0x37924",
+        "0x0000000000000019 (INIT_ARRAY)         0x449c8",
+        "0x000000000000001b (INIT_ARRAYSZ)       16 (bytes)",
+        "0x000000000000001a (FINI_ARRAY)         0x449d8",
+        "0x000000000000001c (FINI_ARRAYSZ)       8 (bytes)"
+      ],
+      "previous_identity_match": true,
+      "empty_loader_component": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart-external-odelcpsolver.so.6.13.2",
+      "exists": false
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib/libdart-collision-ode.so.6.13.2",
+      "exists": true,
+      "sha256": "ef6fd736bcba7353fa4ec7d4fa12d757d0fd8db46def6511d408d3a80492e444",
+      "build_id": "900b2ecfaaf829b72f86cdd22a591515fdf0a8bd",
+      "soname": [
+        "libdart-collision-ode.so.6.13"
+      ],
+      "needed": [
+        "libdart.so.6.13",
+        "libode.so.8",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/build-trace-final/dart/external/odelcpsolver:/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/dependencies/usr/lib/x86_64-linux-gnu:"
+      ],
+      "init_fini_tags": [
+        "0x000000000000000c (INIT)               0xf000",
+        "0x000000000000000d (FINI)               0x37924",
+        "0x0000000000000019 (INIT_ARRAY)         0x449c8",
+        "0x000000000000001b (INIT_ARRAYSZ)       16 (bytes)",
+        "0x000000000000001a (FINI_ARRAY)         0x449d8",
+        "0x000000000000001c (FINI_ARRAYSZ)       8 (bytes)"
+      ],
+      "previous_identity_match": true,
+      "empty_loader_component": true
+    }
+  ],
+  "closure_frozen": false,
+  "constructor_semantics_reviewed": false,
+  "symbol_resolution_executed": false,
+  "collision_review": "same Core SONAME across arms: separate processes required; retained installed Bullet binds Core by SONAME; symbol providers/interposition/transitive closure remain unverified",
+  "load_order_plan": "one fresh process per arm; freeze External and transitive providers first, then Core, then selected collision module; Gazebo plugin metadata only, never load",
+  "shutdown_plan": "no assumed safe dlclose: approve reverse handle order only after init/fini/TLS/global/thread ownership audit; process exit also executes cleanup"
+}

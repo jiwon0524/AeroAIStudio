@@ -1,0 +1,48 @@
+{
+  "status": "PASS_BOUNDED_FIXTURE",
+  "namespace": "PID/user/mount/net inodes differ from host before case starts",
+  "cleanup": "timeout kills owned group, bwrap die-with-parent + PID namespace, waits wrapper; observed descendant PID/start identities have no live survivors",
+  "observed_descendants": [
+    {
+      "pid": 177632,
+      "state": "S",
+      "ppid": 177502,
+      "start": "17398401"
+    },
+    {
+      "pid": 177633,
+      "state": "S",
+      "ppid": 177632,
+      "start": "17398402"
+    },
+    {
+      "pid": 177635,
+      "state": "S",
+      "ppid": 177633,
+      "start": "17398402"
+    },
+    {
+      "pid": 177636,
+      "state": "S",
+      "ppid": 177635,
+      "start": "17398404"
+    }
+  ],
+  "live_survivors": [],
+  "limitations": [
+    "Z state is treated as non-live; complete zombie reaping not established",
+    "supervisor abrupt death independently of group kill NOT_RUN",
+    "RLIMIT_NPROC512 per UID applied after bwrap startup; aggregate cgroup pids/memory/cpu controls not configured",
+    "resource limits per process; tmpfs/disk total not bounded"
+  ],
+  "resource_tests": {
+    "cpu": "PASS",
+    "memory": "PASS",
+    "file": "PASS",
+    "timeout": "PASS",
+    "exit": "PASS",
+    "signal": "PASS"
+  },
+  "fail_closed": "PASS",
+  "evidence": "fixture_results.json"
+}

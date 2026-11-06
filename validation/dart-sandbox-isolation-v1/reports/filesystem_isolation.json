@@ -1,0 +1,19 @@
+{
+  "status": "PASS_BOUNDED_FIXTURE",
+  "canary_writes": "EROFS (30) at both /media/value and /opt/value",
+  "allowed_write": "/run/allowed succeeds",
+  "root_mount": "read-only statvfs gate",
+  "canary_preserved": true,
+  "cleanup": true,
+  "writable_exceptions": [
+    "private /run output bind",
+    "private /tmp tmpfs",
+    "private /dev and /proc virtual mounts"
+  ],
+  "limits": [
+    "root read-only is write integrity only, not confidential read isolation",
+    "private tmpfs capacity/aggregate RAM not bounded by RLIMIT_AS",
+    "no destructive system/project writes attempted"
+  ],
+  "evidence": "fixture_results.json:filesystem"
+}

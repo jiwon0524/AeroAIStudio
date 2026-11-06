@@ -1,0 +1,15 @@
+{
+  "status": "PASS_BOUNDED_FIXTURE",
+  "namespace": "net inode differs from host, route table no default/physical routes",
+  "external_TCP_UDP": "192.0.2.1 documentation address returns ENETUNREACH, no packets routed externally",
+  "dns": "private resolv.conf nameserver 127.0.0.1; sandbox-fixture.invalid fails EAI_AGAIN; no external DNS requested",
+  "host_TCP": "host listener refused in private loopback",
+  "host_UDP": "sendto queues to private loopback; host listener receives zero; syscall success is not host delivery",
+  "host_listener_received": [],
+  "loopback": "private enabled loopback; not disabled",
+  "limits": [
+    "IPv4 bounded cases only; IPv6 and filesystem UNIX socket access not tested",
+    "no new seccomp socket filter"
+  ],
+  "evidence": "fixture_results.json:network"
+}
