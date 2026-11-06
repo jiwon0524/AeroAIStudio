@@ -1,0 +1,370 @@
+{
+  "before_to_during": [
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice",
+      "field": "cgroup.subtree_control",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-gnome\\x2dkeyring\\x2dpkcs11-2752.scope",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-gnome\\x2dkeyring\\x2dpkcs11-2752.scope",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-org.gnome.Evolution\\x2dalarm\\x2dnotify-3002.scope",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-org.gnome.Evolution\\x2dalarm\\x2dnotify-3002.scope",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-org.gnome.SettingsDaemon.DiskUtilityNotify-2979.scope",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-org.gnome.SettingsDaemon.DiskUtilityNotify-2979.scope",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-update\\x2dnotifier-5778.scope",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-update\\x2dnotifier-5778.scope",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-x\\x2dterminal\\x2demulator-3602.scope",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome-x\\x2dterminal\\x2demulator-3602.scope",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/dbus.socket",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/dbus.socket",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/dconf.service",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/dconf.service",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/evolution-addressbook-factory.service",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/evolution-addressbook-factory.service",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/evolution-calendar-factory.service",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/evolution-calendar-factory.service",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/evolution-source-registry.service",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/evolution-source-registry.service",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/gcr-ssh-agent.service",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/gcr-ssh-agent.service",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/gnome-keyring-daemon.service",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/gnome-keyring-daemon.service",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/gnome-session-monitor.service",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/gnome-session-monitor.service",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/gpg-agent-ssh.socket",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/gpg-agent-ssh.socket",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/snap.firefox.firefox-4bf7580b-ff7b-45b2-9640-62df2d770fee.scope",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/snap.firefox.firefox-4bf7580b-ff7b-45b2-9640-62df2d770fee.scope",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/snap.snapd-desktop-integration.snapd-desktop-integration.service",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/snap.snapd-desktop-integration.snapd-desktop-integration.service",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/update-notifier-release.service",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/update-notifier-release.service",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/xdg-desktop-portal-gnome.service",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/xdg-desktop-portal-gnome.service",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/xdg-desktop-portal-gtk.service",
+      "field": "cgroup.controllers",
+      "before": "memory pids",
+      "after": "cpu memory pids",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    },
+    {
+      "path": "user.slice/user-1000.slice/user@1000.service/app.slice/xdg-desktop-portal-gtk.service",
+      "field": "cpu.max",
+      "before": null,
+      "after": "max 100000",
+      "expected_systemd_cpu_activation": true,
+      "expected": true
+    }
+  ],
+  "before_to_after": [],
+  "path_counts": {
+    "before": 78,
+    "during": 79,
+    "after": 78
+  },
+  "snapshot_evidence": {
+    "before": {
+      "path": "work/controllers_before.json",
+      "sha256": "582d162a513b5f59c5032b25980aa17a9744788ca7d231a608d511a9b0a2066c"
+    },
+    "during": {
+      "path": "work/controllers_during.json",
+      "sha256": "64f5bb1dad46a4b1ea2c90b1f7943747426cc3c1b9d0c558e2f757428a4d3a3b"
+    },
+    "after": {
+      "path": "work/controllers_after.json",
+      "sha256": "582d162a513b5f59c5032b25980aa17a9744788ca7d231a608d511a9b0a2066c"
+    }
+  },
+  "manual_controller_writes": false,
+  "automatic_restore_attempted": false
+}

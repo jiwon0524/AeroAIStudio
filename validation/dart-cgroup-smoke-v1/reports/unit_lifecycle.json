@@ -1,0 +1,128 @@
+{
+  "creation_attempts": 1,
+  "payload": [
+    "/usr/bin/sleep",
+    "5"
+  ],
+  "observations": [
+    {
+      "rc": 0,
+      "stdout": "TimeoutStopUSec=2s\nRuntimeMaxUSec=8s\nMainPID=0\nResult=success\nExecMainCode=0\nExecMainStatus=0\nControlGroup=\nCPUQuotaPerSecUSec=250ms\nCPUQuotaPeriodUSec=100ms\nMemoryMax=67108864\nMemorySwapMax=0\nTasksMax=8\nKillMode=control-group\nId=aero-cgroup-smoke-v1-20261106T155112-4b7184a3.service\nLoadState=loaded\nActiveState=inactive\nSubState=dead\nTransient=yes\nInvocationID=\n",
+      "stderr": "",
+      "values": {
+        "TimeoutStopUSec": "2s",
+        "RuntimeMaxUSec": "8s",
+        "MainPID": "0",
+        "Result": "success",
+        "ExecMainCode": "0",
+        "ExecMainStatus": "0",
+        "ControlGroup": "",
+        "CPUQuotaPerSecUSec": "250ms",
+        "CPUQuotaPeriodUSec": "100ms",
+        "MemoryMax": "67108864",
+        "MemorySwapMax": "0",
+        "TasksMax": "8",
+        "KillMode": "control-group",
+        "Id": "aero-cgroup-smoke-v1-20261106T155112-4b7184a3.service",
+        "LoadState": "loaded",
+        "ActiveState": "inactive",
+        "SubState": "dead",
+        "Transient": "yes",
+        "InvocationID": ""
+      }
+    },
+    {
+      "rc": 0,
+      "stdout": "TimeoutStopUSec=2s\nRuntimeMaxUSec=8s\nMainPID=183582\nResult=success\nExecMainCode=0\nExecMainStatus=0\nControlGroup=/user.slice/user-1000.slice/user@1000.service/app.slice/aero-cgroup-smoke-v1-20261106T155112-4b7184a3.service\nCPUQuotaPerSecUSec=250ms\nCPUQuotaPeriodUSec=100ms\nMemoryMax=67108864\nMemorySwapMax=0\nTasksMax=8\nKillMode=control-group\nId=aero-cgroup-smoke-v1-20261106T155112-4b7184a3.service\nLoadState=loaded\nActiveState=active\nSubState=running\nTransient=yes\nInvocationID=4e566d5c4ca54803b04bf3a390b0cc5a\n",
+      "stderr": "",
+      "values": {
+        "TimeoutStopUSec": "2s",
+        "RuntimeMaxUSec": "8s",
+        "MainPID": "183582",
+        "Result": "success",
+        "ExecMainCode": "0",
+        "ExecMainStatus": "0",
+        "ControlGroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/aero-cgroup-smoke-v1-20261106T155112-4b7184a3.service",
+        "CPUQuotaPerSecUSec": "250ms",
+        "CPUQuotaPeriodUSec": "100ms",
+        "MemoryMax": "67108864",
+        "MemorySwapMax": "0",
+        "TasksMax": "8",
+        "KillMode": "control-group",
+        "Id": "aero-cgroup-smoke-v1-20261106T155112-4b7184a3.service",
+        "LoadState": "loaded",
+        "ActiveState": "active",
+        "SubState": "running",
+        "Transient": "yes",
+        "InvocationID": "4e566d5c4ca54803b04bf3a390b0cc5a"
+      }
+    },
+    {
+      "rc": 0,
+      "stdout": "TimeoutStopUSec=1min 30s\nRuntimeMaxUSec=infinity\nMainPID=0\nResult=success\nExecMainCode=0\nExecMainStatus=0\nControlGroup=\nCPUQuotaPerSecUSec=infinity\nCPUQuotaPeriodUSec=infinity\nMemoryMax=infinity\nMemorySwapMax=infinity\nTasksMax=34727\nKillMode=control-group\nId=aero-cgroup-smoke-v1-20261106T155112-4b7184a3.service\nLoadState=not-found\nActiveState=inactive\nSubState=dead\nTransient=no\nInvocationID=\n",
+      "stderr": "",
+      "values": {
+        "TimeoutStopUSec": "1min 30s",
+        "RuntimeMaxUSec": "infinity",
+        "MainPID": "0",
+        "Result": "success",
+        "ExecMainCode": "0",
+        "ExecMainStatus": "0",
+        "ControlGroup": "",
+        "CPUQuotaPerSecUSec": "infinity",
+        "CPUQuotaPeriodUSec": "infinity",
+        "MemoryMax": "infinity",
+        "MemorySwapMax": "infinity",
+        "TasksMax": "34727",
+        "KillMode": "control-group",
+        "Id": "aero-cgroup-smoke-v1-20261106T155112-4b7184a3.service",
+        "LoadState": "not-found",
+        "ActiveState": "inactive",
+        "SubState": "dead",
+        "Transient": "no",
+        "InvocationID": ""
+      }
+    }
+  ],
+  "unit": "aero-cgroup-smoke-v1-20261106T155112-4b7184a3.service",
+  "started_at": "2026-11-06T15:51:12.051725+00:00",
+  "control_group": "/user.slice/user-1000.slice/user@1000.service/app.slice/aero-cgroup-smoke-v1-20261106T155112-4b7184a3.service",
+  "invocation_id": "4e566d5c4ca54803b04bf3a390b0cc5a",
+  "launcher_returncode": 0,
+  "launcher_stdout": "",
+  "launcher_stderr": "Running as unit: aero-cgroup-smoke-v1-20261106T155112-4b7184a3.service; invocation ID: 4e566d5c4ca54803b04bf3a390b0cc5a\nFinished with result: success\nMain processes terminated with: code=exited/status=0\nService runtime: 5.011s\nCPU time consumed: 11ms\nMemory peak: 2.0M\nMemory swap peak: 0B\n",
+  "final_state": {
+    "rc": 0,
+    "stdout": "TimeoutStopUSec=1min 30s\nRuntimeMaxUSec=infinity\nMainPID=0\nResult=success\nExecMainCode=0\nExecMainStatus=0\nControlGroup=\nCPUQuotaPerSecUSec=infinity\nCPUQuotaPeriodUSec=infinity\nMemoryMax=infinity\nMemorySwapMax=infinity\nTasksMax=34727\nKillMode=control-group\nId=aero-cgroup-smoke-v1-20261106T155112-4b7184a3.service\nLoadState=not-found\nActiveState=inactive\nSubState=dead\nTransient=no\nInvocationID=\n",
+    "stderr": "",
+    "values": {
+      "TimeoutStopUSec": "1min 30s",
+      "RuntimeMaxUSec": "infinity",
+      "MainPID": "0",
+      "Result": "success",
+      "ExecMainCode": "0",
+      "ExecMainStatus": "0",
+      "ControlGroup": "",
+      "CPUQuotaPerSecUSec": "infinity",
+      "CPUQuotaPeriodUSec": "infinity",
+      "MemoryMax": "infinity",
+      "MemorySwapMax": "infinity",
+      "TasksMax": "34727",
+      "KillMode": "control-group",
+      "Id": "aero-cgroup-smoke-v1-20261106T155112-4b7184a3.service",
+      "LoadState": "not-found",
+      "ActiveState": "inactive",
+      "SubState": "dead",
+      "Transient": "no",
+      "InvocationID": ""
+    }
+  },
+  "cgroup_removed": true,
+  "remaining_identity": null,
+  "completed_at": "2026-11-06T15:51:17.218174+00:00",
+  "observation_count": 47,
+  "full_observation_evidence": {
+    "path": "work/unit_lifecycle_full.json",
+    "sha256": "d53ff5159c64c9eb831fbfcbcab7828dc29bacbb822ff1c45f4f3ee80bcab608"
+  }
+}

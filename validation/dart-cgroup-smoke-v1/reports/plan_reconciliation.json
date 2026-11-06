@@ -1,0 +1,50 @@
+{
+  "source_sha256": "ab631e8bff20de380b5adc387f5870f09f1cb304d6e2b2e3fccb3633db9ca356",
+  "approved_payload": [
+    "/usr/bin/sleep",
+    "5"
+  ],
+  "limits": {
+    "MemoryMax": "64M",
+    "MemorySwapMax": "0",
+    "TasksMax": "8",
+    "CPUQuota": "25%",
+    "CPUQuotaPeriodSec": "100ms",
+    "RuntimeMaxSec": "8s",
+    "TimeoutStopSec": "2s",
+    "KillMode": "control-group",
+    "SendSIGKILL": "yes",
+    "OOMPolicy": "stop",
+    "Delegate": "no",
+    "Slice": "app.slice"
+  },
+  "changes": [
+    "unique unit name required by current approval",
+    "absolute systemd-run executable path",
+    "--wait replaces --no-block; observer runs CLI asynchronously and captures true unit exit; payload unchanged"
+  ],
+  "creation_argv": [
+    "/usr/bin/systemd-run",
+    "--user",
+    "--unit=aero-cgroup-smoke-v1-20261106T155112-4b7184a3.service",
+    "--service-type=exec",
+    "--collect",
+    "--wait",
+    "--property=MemoryMax=64M",
+    "--property=MemorySwapMax=0",
+    "--property=TasksMax=8",
+    "--property=CPUQuota=25%",
+    "--property=CPUQuotaPeriodSec=100ms",
+    "--property=RuntimeMaxSec=8s",
+    "--property=TimeoutStopSec=2s",
+    "--property=KillMode=control-group",
+    "--property=SendSIGKILL=yes",
+    "--property=OOMPolicy=stop",
+    "--property=Delegate=no",
+    "--property=Slice=app.slice",
+    "/usr/bin/sleep",
+    "5"
+  ],
+  "extra_workloads": false,
+  "authorization": "current explicit user approval: single transient sleep5/readback/cleanup only"
+}

@@ -1,0 +1,53 @@
+{
+  "uid": 1000,
+  "git": {
+    "branch": "experiment/dart-internal-trace",
+    "head": "ce1eb75d785680090ca6930d2390bd491e10b704",
+    "status": ""
+  },
+  "main": {
+    "head": "46134c6bf5670ed61ba252f394ccdddb7ff2cf6b",
+    "status": " M tests/test_gazebo_contact_opt_in_lifecycle.py\n M tests/test_gazebo_contact_surface_event.py\n M tests/test_gazebo_physical_microstate_ordering.py\n M tools/diagnose_v07_gazebo_action24_continuous_support.py\n M tools/diagnose_v07_gazebo_action24_history_ab.py\n M tools/diagnose_v07_gazebo_action24_one_tick_control.py\n M tools/diagnose_v07_gazebo_contact_surface_event.py\n M tools/gazebo_continuous_support_observer.cc\n?? AGENTS.md\n?? handoff.md\n?? tests/fixtures/collision_observation_synthetic.cc\n?? tests/test_action24_collision_pair_integration.py\n?? tests/test_contact_event_host4.py\n?? tests/test_gazebo_collision_observation.py\n?? tests/test_host4_failure_diagnostics.py\n?? tests/test_independent_instrumentation.py\n?? tests/test_independent_instrumentation_host.py\n?? tests/test_minimal_clock.py\n?? tests/test_pose_cache_provenance.py\n?? tests/test_strict_clock_receive_hook.py\n?? tests/test_strict_paused_clock_analysis.py\n?? tools/analyze_v07_strict_paused_clock.py\n?? tools/diagnose_v07_gazebo_contact_surface_event_host4.py\n?? tools/diagnose_v07_independent_instrumentation.py\n?? tools/diagnose_v07_independent_instrumentation_host.py\n?? tools/diagnose_v07_minimal_clock.py\n?? tools/diagnostic_capture_failure.py\n?? tools/diagnostic_pose_cache_provenance.py\n?? tools/diagnostic_pose_provenance_integrity.py\n?? tools/forensic_v07_contact_event_host3.py\n?? tools/forensic_v07_host4_extended.py\n?? tools/gazebo_collision_observation.hh\n?? tools/host4_offline_test_guard.py\n?? tools/independent_clock_diagnostics.py\n?? tools/independent_instrumentation_protocol.py\n?? tools/independent_recovery_offline_guard.py\n?? tools/strict_clock_minimal_observation.py\n?? tools/strict_clock_offline_guard.py\n?? tools/strict_clock_receive_hook.py\n"
+  },
+  "manager": {
+    "rc": 0,
+    "stdout": "ControlGroup=/user.slice/user-1000.slice/user@1000.service\nSystemState=running\n",
+    "stderr": "",
+    "values": {
+      "ControlGroup": "/user.slice/user-1000.slice/user@1000.service",
+      "SystemState": "running"
+    }
+  },
+  "delegation": {
+    "rc": 0,
+    "stdout": "Delegate=yes\nDelegateControllers=cpu memory pids\n",
+    "stderr": ""
+  },
+  "unit_absence": {
+    "rc": 0,
+    "stdout": "TimeoutStopUSec=1min 30s\nRuntimeMaxUSec=infinity\nMainPID=0\nResult=success\nExecMainCode=0\nExecMainStatus=0\nControlGroup=\nCPUQuotaPerSecUSec=infinity\nCPUQuotaPeriodUSec=infinity\nMemoryMax=infinity\nMemorySwapMax=infinity\nTasksMax=34727\nKillMode=control-group\nId=aero-cgroup-smoke-v1-20261106T155112-4b7184a3.service\nLoadState=not-found\nActiveState=inactive\nSubState=dead\nTransient=no\nInvocationID=\n",
+    "stderr": "",
+    "values": {
+      "TimeoutStopUSec": "1min 30s",
+      "RuntimeMaxUSec": "infinity",
+      "MainPID": "0",
+      "Result": "success",
+      "ExecMainCode": "0",
+      "ExecMainStatus": "0",
+      "ControlGroup": "",
+      "CPUQuotaPerSecUSec": "infinity",
+      "CPUQuotaPeriodUSec": "infinity",
+      "MemoryMax": "infinity",
+      "MemorySwapMax": "infinity",
+      "TasksMax": "34727",
+      "KillMode": "control-group",
+      "Id": "aero-cgroup-smoke-v1-20261106T155112-4b7184a3.service",
+      "LoadState": "not-found",
+      "ActiveState": "inactive",
+      "SubState": "dead",
+      "Transient": "no",
+      "InvocationID": ""
+    }
+  },
+  "controller_paths": 78
+}

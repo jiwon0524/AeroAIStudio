@@ -1,0 +1,24 @@
+{
+  "verdict": "CGROUP_SMOKE_VERIFIED",
+  "scope": "one transient user service with /usr/bin/sleep5; configuration/membership/normal lifecycle only",
+  "unit": "aero-cgroup-smoke-v1-20261106T155112-4b7184a3.service",
+  "creation_attempts": 1,
+  "actual_limits": {
+    "memory.max": "67108864",
+    "memory.swap.max": "0",
+    "pids.max": "8",
+    "cpu.max": "25000 100000"
+  },
+  "normal_exit": true,
+  "unit_cgroup_removed": true,
+  "remaining_process_identity": null,
+  "controller_during": "expected systemd CPU propagation; see controller_diff.json",
+  "controller_after": "compared78paths/6selected configuration keys identical to baseline; no manual restoration",
+  "resource_excess_enforcement": "UNVERIFIED_NOT_RUN",
+  "child_grandchild_limit_inheritance": "NOT_RUN",
+  "bubblewrap_combination": "NOT_RUN",
+  "Probe_A_D": "BLOCKED",
+  "runtime": "NOT_RUNTIME_VERIFIED",
+  "Stage_B": "BLOCKED",
+  "next_minimum": "separate approval for harmless child/grandchild cgroup inheritance + Bubblewrap integration; then separately approved bounded memory/PID/CPU pressure, never DART automatically"
+}

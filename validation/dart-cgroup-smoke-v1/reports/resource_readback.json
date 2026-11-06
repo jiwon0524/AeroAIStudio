@@ -1,0 +1,54 @@
+{
+  "requested": {
+    "MemoryMax": "64M",
+    "MemorySwapMax": "0",
+    "TasksMax": "8",
+    "CPUQuota": "25%",
+    "CPUQuotaPeriodSec": "100ms",
+    "RuntimeMaxSec": "8s",
+    "TimeoutStopSec": "2s",
+    "KillMode": "control-group",
+    "SendSIGKILL": "yes",
+    "OOMPolicy": "stop",
+    "Delegate": "no",
+    "Slice": "app.slice"
+  },
+  "systemd_properties": {
+    "TimeoutStopUSec": "2s",
+    "RuntimeMaxUSec": "8s",
+    "MainPID": "183582",
+    "Result": "success",
+    "ExecMainCode": "0",
+    "ExecMainStatus": "0",
+    "ControlGroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/aero-cgroup-smoke-v1-20261106T155112-4b7184a3.service",
+    "CPUQuotaPerSecUSec": "250ms",
+    "CPUQuotaPeriodUSec": "100ms",
+    "MemoryMax": "67108864",
+    "MemorySwapMax": "0",
+    "TasksMax": "8",
+    "KillMode": "control-group",
+    "Id": "aero-cgroup-smoke-v1-20261106T155112-4b7184a3.service",
+    "LoadState": "loaded",
+    "ActiveState": "active",
+    "SubState": "running",
+    "Transient": "yes",
+    "InvocationID": "4e566d5c4ca54803b04bf3a390b0cc5a"
+  },
+  "actual_cgroup": {
+    "memory.max": "67108864",
+    "memory.swap.max": "0",
+    "pids.max": "8",
+    "cpu.max": "25000 100000",
+    "cgroup.events": "populated 1\nfrozen 0",
+    "cgroup.procs": "183582"
+  },
+  "process": {
+    "pid": 183582,
+    "start": "17570619",
+    "state": "S",
+    "executable": "/usr/bin/sleep",
+    "cgroup": "0::/user.slice/user-1000.slice/user@1000.service/app.slice/aero-cgroup-smoke-v1-20261106T155112-4b7184a3.service"
+  },
+  "target_path": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/aero-cgroup-smoke-v1-20261106T155112-4b7184a3.service",
+  "excess_test": false
+}

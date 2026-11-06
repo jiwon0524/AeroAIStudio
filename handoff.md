@@ -1,3 +1,24 @@
+# Cgroup Transient Service Smoke Test V1 — current checkpoint
+
+이번 명시 승인 범위 완료: **CGROUP_SMOKE_VERIFIED / Probe A~D BLOCKED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. 단일 transient user service에서 **/usr/bin/sleep5만 1회 실행**. 압력/자식·손자/Bubblewrap/DART/Gazebo/Probe/World::step/Stage B는 미실행. 이전 승인 대기는 이번 sleep smoke에 대해서만 해소됐으며 추가 실행 승인은 없다.
+
+시작 local/remotece1eb75d785680090ca6930d2390bd491e10b704 clean 일치. main46134c6 기존 수정8/미추적31/staged0 보존. AGENTS/DEVELOPMENT_RULES/handoff/Readiness final+approval_plan+verdict와 실제 Git 대조. 이전 snapshot4d72768은 ce1eb75 parent/scope와 연결했다. 공통 context-handoff 스킬 사용·변경 없음.
+
+unit **aero-cgroup-smoke-v1-20261106T155112-4b7184a3.service**, PID183582/start17570619, executable /usr/bin/sleep 및 exact cgroup membership 확인. MemoryMax64MiB=memory.max67108864, swap0, TasksMax8=pids.max8, CPU25%/100ms=cpu.max25000 100000 일치. systemd-run --wait exit0/resultsuccess/mainexit0/runtime5.011s, exact unit not-found/cgroup 제거/동일 PID-start 잔여없음. 수동 stop·controller restore 불필요. 고유unit/절대CLI경로/--wait 관찰 외 원approval plan제한 유지(plan_reconciliation).
+
+새 evidence `validation/dart-cgroup-smoke-v1/reports/`: final_report, unit_lifecycle, resource_readback, controller_diff, integrity, verdict, preflight, plan_reconciliation, smoke_checks, test_summary, handoff_snapshot. smoke13+offline6+integrity1=**20 PASS/0 FAIL/3 SKIP**(미승인 memory/PID/CPU 초과). 첫 생성1회 성공, 실패/자동재시도 없음. work/attempt.json one-shot guard로 재실행 금지. raw47관측은 unit_lifecycle_full에 보존, report는3상태전이로 압축·SHA연결.
+
+controller: 비교78경로/6선택파일. 실행중22기존경로43필드에 systemd CPU 자동전파(app.slice subtree cpu활성화, sibling cpu controller+무제한cpu.max) 발생; 사전예상된 부작용 범위. 종료후78경로 선택설정0변경, before/after snapshotSHA동일. 수동부모/형제설정·기존unit start/stop/set-property·글로벌변경 없음. 모든systemd정책/사용량이 동일하다는 주장은 하지 않음.
+
+보존 기존54,522파일 변경/누락0·기존범위 신규0/main HEAD/status 유지 PASS. 새 task와 실험 handoff만 소유/변경. 경량scripts/tests/reports만 명시 게시; work/fullmanifest/rawsnapshots/logs/marker는 제외. /tmp ignored/raw·main untracked evidence는 Git으로 다른기기에 자동 이전안됨. 실제commit/push/remote SHA는 새 reports/git_publication.json 로컬영수증·최종응답 참조, 자기SHA재귀commit 없음.
+
+잔여: 자원초과 강제효과·자식손자 cgroup상속·Bubblewrap 결합·kernel namespace 실패·DART closure/RUNPATH/init-fini/native fixture·Allocator/EH 미검증. smoke VERIFIED를 runtime안전성/전체sandbox 인증으로 확대하지 않는다. 다음 최소 권장 작업은 **별도 승인 후 무해한 자식·손자의 cgroup상속 및 Bubblewrap 결합 검증**이며 그 뒤 pressure 승인 별도. 이번 종료 뒤 자동추가실행 없음.
+
+최종 host/time/visible tasks는 새 handoff_snapshot.json. 알려진 service/CLI 종료확인, 잔여payload없음. 외부 CWD/remote/container는UNKNOWN. 기존프로세스 종료/재시작·계정변경·main/force/reset/rebase/stash/merge·시스템/AppArmor/패키지 변경 없음.
+
+---
+이하 이전 인계 기록:
+
 # Cgroup Delegation Readiness V1 — current checkpoint
 
 현재 읽기 전용 조사·계획 범위 완료: **CGROUP_DELEGATION_PARTIAL / Probe A~D BLOCKED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. cgroup 생성/설정/프로세스 이동/controller 활성화/transient unit/자원 초과/실제 DART·Gazebo는 전부 NOT_RUN. 사용자 요청5절에 따라 생성·resource 실행은 별도 승인 필요.
@@ -262,18 +283,18 @@ Common skill source remains outside the project at `/home/jiwon/Projects/my-agen
 ```context-handoff-state
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06T15:44:20.821489+00:00",
+  "updated_at": "2026-11-06T15:54:27.486907+00:00",
   "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
   "host": "jiwon-System-Product-Name",
   "git": {
-    "head": "4d727687f03a466a941c296d83e94558cfd0173e",
+    "head": "ce1eb75d785680090ca6930d2390bd491e10b704",
     "branch": "experiment/dart-internal-trace",
     "status": []
   },
   "evidence": [
     {
-      "path": "validation/dart-cgroup-readiness-v1/reports/verdict.json",
-      "sha256": "5b0728f09a0f1ec0b4fe3f26380259d3c4454be84bf4f15be689fa8a589e7cd8"
+      "path": "validation/dart-cgroup-smoke-v1/reports/verdict.json",
+      "sha256": "9df4c8588f3809285133e900a588cce4d49fabd3006d92af4c2b680f8d3e5919"
     }
   ],
   "processes": {

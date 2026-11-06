@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "test_id": "plan_scope",
+      "status": "PASS",
+      "evidence": "reports/plan_reconciliation.json"
+    },
+    {
+      "test_id": "preflight_git_manager",
+      "status": "PASS",
+      "evidence": "reports/preflight.json"
+    },
+    {
+      "test_id": "controller_delegation",
+      "status": "PASS",
+      "evidence": "reports/preflight.json"
+    },
+    {
+      "test_id": "unique_unit_absent",
+      "status": "PASS",
+      "evidence": "reports/preflight.json"
+    },
+    {
+      "test_id": "unit_running",
+      "status": "PASS",
+      "evidence": "reports/unit_lifecycle.json"
+    },
+    {
+      "test_id": "owned_cgroup_path",
+      "status": "PASS",
+      "evidence": "reports/unit_lifecycle.json"
+    },
+    {
+      "test_id": "memory_readback",
+      "status": "PASS",
+      "evidence": "reports/resource_readback.json"
+    },
+    {
+      "test_id": "tasks_readback",
+      "status": "PASS",
+      "evidence": "reports/resource_readback.json"
+    },
+    {
+      "test_id": "cpu_readback",
+      "status": "PASS",
+      "evidence": "reports/resource_readback.json"
+    },
+    {
+      "test_id": "sleep_membership",
+      "status": "PASS",
+      "evidence": "reports/resource_readback.json"
+    },
+    {
+      "test_id": "normal_exit",
+      "status": "PASS",
+      "evidence": "reports/unit_lifecycle.json"
+    },
+    {
+      "test_id": "cleanup",
+      "status": "PASS",
+      "evidence": "reports/unit_lifecycle.json"
+    },
+    {
+      "test_id": "controller_change_review",
+      "status": "PASS",
+      "evidence": "reports/controller_diff.json"
+    }
+  ],
+  "PASS": 13,
+  "FAIL": 0,
+  "SKIP": 0,
+  "actual_DART_Gazebo_execution": false,
+  "resource_excess_tests": "NOT_RUN"
+}
