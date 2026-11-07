@@ -1,0 +1,59 @@
+{
+  "status": "EMPTY_SKELETON_LIFETIME_PASS",
+  "baseline_head": "f96f5b028fac6e3847b6e6a9fad2ce16c1f4db45",
+  "observed_utc": "2026-11-07T12:44:39.391386+00:00",
+  "host": "jiwon-System-Product-Name",
+  "launch_invocations": 1,
+  "launch_exit": 0,
+  "retries": 0,
+  "preflight": {
+    "source_hashes": 22,
+    "core_elf_files": 16,
+    "resolution_edges": 62,
+    "prior_outputs_and_markers_absent": true,
+    "head_branch_clean": true,
+    "manager": "running",
+    "core_alias": "same verified readonly Core FD"
+  },
+  "mapping_status": "PASS_FILE_IDENTITY",
+  "go_sent": true,
+  "empty_created": true,
+  "weak_ptr_expired_after_reset": true,
+  "unit": "aero-skeleton-v2-runtime-8eb2fc9bc0.service",
+  "host_processes": [
+    {
+      "pid": 227751,
+      "start": "25079601",
+      "state": "S",
+      "executable": "/usr/bin/bwrap",
+      "cgroup": "0::/user.slice/user-1000.slice/user@1000.service/app.slice/aero-skeleton-v2-runtime-8eb2fc9bc0.service"
+    },
+    {
+      "pid": 227789,
+      "start": "25079679",
+      "state": "S",
+      "executable": "/usr/bin/bwrap",
+      "cgroup": "0::/user.slice/user-1000.slice/user@1000.service/app.slice/aero-skeleton-v2-runtime-8eb2fc9bc0.service"
+    },
+    {
+      "pid": 227792,
+      "start": "25079688",
+      "state": "S",
+      "executable": "/fixture/native_fixture",
+      "cgroup": "0::/user.slice/user-1000.slice/user@1000.service/app.slice/aero-skeleton-v2-runtime-8eb2fc9bc0.service"
+    }
+  ],
+  "runtime_integrity": {
+    "changed_or_missing": [],
+    "new_existing_scope_files": [],
+    "main_head_unchanged": true,
+    "main_status_unchanged": true,
+    "status": "PASS"
+  },
+  "unknown": [
+    "final cgroup sample not guaranteed",
+    "final service exit properties unavailable after collection",
+    "map_files direct open unavailable; proc-root FD file identity fallback used"
+  ],
+  "scope": "one empty Skeleton only; Stage B BLOCKED; Gazebo/World not runtime verified"
+}

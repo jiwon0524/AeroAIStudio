@@ -1,3 +1,18 @@
+# Empty Skeleton V2 — approved execution checkpoint
+
+**EMPTY_SKELETON_LIFETIME_PASS / Stage B BLOCKED**. Current user approved exactly one specified V2 invocation at f96f5b0; command executed once and wrapper exit0. Preflight source22/ELF/Core16/62edges/readonly Core SONAME alias/HEAD/branch/clean/fresh markers PASS. Sandbox manager read required escalation; outside-sandbox manager running confirmed before the sole launch.
+
+Runtime strict file identity PASS then GO, empty created:true and lifetime_success expired:true; systemd exit0. Unit aero-skeleton-v2-runtime-8eb2fc9bc0.service, observed native PID227792/start25079688; host/time and all observed identities in reports/execution_review.json. Native and own service have ended; unit/cgroup/observed PID-start/temp/canary cleanup PASS. Wrapper completed. External-CWD/remote/container jobs UNKNOWN.
+
+Limits unchanged and live readback matched memory64MiB/swap0/tasks8/CPU25%, service8s/stop2s. Peak11812864 bytes, observed tasks3, recorded memory event counters0; stderr service897ms/CPU222ms/swap0B. Final cgroup sample not guaranteed, final unit exit properties unavailable after collection; map_files EPERM used existing proc-root FD file identity fallback. No resident-page or constructor/whole-ABI certification.
+
+Fresh runtime_integrity.json PASS: original changed/missing0, existing-scope additions0, main HEAD/status unchanged. Probe A/V1/source/evidence preserved. One-shot markers now consumed: never delete/reuse or retry. No limit increase, Gazebo, World::step, sudo, package/system/production changes. Stage B BLOCKED.
+
+New evidence: validation/dart-skeleton-lifetime-v2/reports/execution_report.md, execution_review.json, runtime/*.json, runtime_integrity.json. Previous preparation reports remain historical and unchanged. Only these lightweight execution reports and this handoff selected for experiment-branch automatic publication; raw work snapshots, pins, stdout/stderr, markers and ELF remain local. Other devices do not receive ignored/local evidence through Git. Next action: review result; no additional runtime authorized. No code/tests changed or unrelated tests rerun.
+
+---
+Previous checkpoint follows:
+
 # Empty Skeleton V2 alias fix — current checkpoint
 
 **STATIC_ALIAS_FIX_PREPARED_NOT_EXECUTED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. 기준 HEAD00ac79ea7aa14eb99dc4368a126eb5b998f52963/experiment/dart-internal-trace clean 확인. 이번 명시 범위는 V1 startup libdart.so.6.13 누락 수정과 비실행 검증·새 승인안 준비다. 실제DART/fixture/service0, 새marker소비0. V1실패/one-shot/Probe A 보존.
@@ -457,22 +472,22 @@ Common skill source remains outside the project at `/home/jiwon/Projects/my-agen
 ```context-handoff-state
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07T05:50:34.131648+00:00",
+  "updated_at": "2026-11-07T12:45:00.540331+00:00",
   "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
   "host": "jiwon-System-Product-Name",
   "git": {
-    "head": "00ac79ea7aa14eb99dc4368a126eb5b998f52963",
+    "head": "f96f5b028fac6e3847b6e6a9fad2ce16c1f4db45",
     "branch": "experiment/dart-internal-trace",
     "status": []
   },
   "evidence": [
     {
-      "path": "validation/dart-skeleton-lifetime-v2/reports/verdict.json",
-      "sha256": "58be52d3b4404ad7b2e737ee59a723126334a85da74dfa38a5fbb39427bf1c10"
+      "path": "validation/dart-skeleton-lifetime-v2/reports/execution_review.json",
+      "sha256": "16f470beb97eea469b8e0da19c31f9b45c658fdcd9ad98c7f4a5984c6e8aeb8a"
     },
     {
-      "path": "validation/dart-skeleton-lifetime-v2/reports/integrity.json",
-      "sha256": "d9ae1a54e01140420a565729a8d2eef56571feee5d49be60e2ad290fb104ad5b"
+      "path": "validation/dart-skeleton-lifetime-v2/reports/runtime_integrity.json",
+      "sha256": "04358f264b32c5ab23b07aa217059810c30ed2e2d2ac225797b1686369ceac75"
     }
   ],
   "processes": {

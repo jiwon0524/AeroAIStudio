@@ -1,0 +1,54 @@
+{
+  "case": "runtime",
+  "Core_load_attempted": true,
+  "object_execution_requested": true,
+  "lifetime_events": [
+    {
+      "phase": "created",
+      "empty": true
+    },
+    {
+      "phase": "lifetime_success",
+      "expired": true
+    }
+  ],
+  "open_results": [],
+  "close_results": [],
+  "signal_events": [],
+  "systemd_run_returncode": 0,
+  "last_cgroup_sample": {
+    "memory.current": "4108288",
+    "memory.peak": "11812864",
+    "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 0",
+    "pids.current": "3"
+  },
+  "final_cgroup_sample_guaranteed": false,
+  "service_timeout_result": "UNKNOWN_UNLESS_EXPLICIT_EVENT_OR_STDERR",
+  "raw_evidence": "native_fixture_execution.json",
+  "cleanup": {
+    "unit_state": {
+      "TimeoutStopUSec": "1min 30s",
+      "RuntimeMaxUSec": "infinity",
+      "MainPID": "0",
+      "Result": "success",
+      "ExecMainCode": "0",
+      "ExecMainStatus": "0",
+      "ControlGroup": "",
+      "CPUQuotaPerSecUSec": "infinity",
+      "CPUQuotaPeriodUSec": "infinity",
+      "MemoryMax": "infinity",
+      "MemorySwapMax": "infinity",
+      "TasksMax": "34727",
+      "KillMode": "control-group",
+      "Id": "aero-skeleton-v2-runtime-8eb2fc9bc0.service",
+      "LoadState": "not-found",
+      "ActiveState": "inactive",
+      "SubState": "dead",
+      "Transient": "no",
+      "InvocationID": ""
+    },
+    "cgroup_removed": true,
+    "remaining_identities": [],
+    "status": "PASS"
+  }
+}
