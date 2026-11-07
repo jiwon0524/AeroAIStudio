@@ -1,3 +1,20 @@
+# Gazebo first-step gate preparation — current checkpoint
+
+**PREPARED_BLOCKED_NOT_EXECUTION_READY / Stage B BLOCKED**. Started at aae135bf487a554b7be678b7ae64c3d03c00d601 on experiment/dart-internal-trace, clean. User authorized source/world preparation, compile/link and mocks only. No target loading, native/observer run, physical step, service, runtime marker, sudo/install/system/main change. No risk accepted.
+
+New task: validation/gazebo-minimal-physics-v1. Added headless Server API candidate and unavailable adapter, compiled observer that rejects PreUpdate, minimal world, pinned ELF/mount preflight, pure GO/100-step policy, fail-closed launcher, proposed systemd/cleanup reuse, and tests. Final 42 non-executing tests PASS. Candidate ELF closure: 166 files, 738 edges, 306 RO canonical/SONAME mounts. Server SHA-256 f8252d1e130207abe72eda6d44d5ceaaca511a26bc8847454c7d82dd8a2c5612; observer SHA-256 d3bba7b32205c0f69c215d598d3fdf4661e6af28bc0c152a3a9c10addb165a7a. Neither was run. Initial header/import failures were corrected and documented without overwriting the successful server.
+
+Blockers: no established public Sim bridge to active engine/detector instance/provider; paused RunOnce increments iteration; no trusted iteration-0/time-0 initialization observation; dynamic resource/dlopen coverage and state orientation/provenance remain UNVERIFIED; runtime supervisor/collection/cleanup integration is absent. Adapter=false rejects before Server construction, trustedReady=false blocks Run, observer PreUpdate exits78. None of this certifies an initialized world's no-step behavior. Launcher has no service/process/marker branch and rejects even forged ready flags. Actual backend/detector/provider remain UNVERIFIED. Positive GO exists only in synthetic policy tests.
+
+Evidence: reports/approval_plan.md, api_readiness.json, runtime_contract.json, elf_manifest.json, mount_plan.json, resource_candidates.json, build_initial.json, build_result.json, test_summary.json, integrity.json, final_report.md. Source/scripts/fixtures/tests and lightweight reports plus this handoff are publication scope. Raw work ELF/pin/logs/snapshot stay local. Integrity: 55,017 existing files, changed/missing0, existing-scope additions0, main HEAD/status unchanged PASS. Previous probe evidence/markers intact; new runtime/attempt paths absent. Build/test jobs ended; external-CWD/remote/container UNKNOWN.
+
+Contract: measured initial iteration/time0, active instance/provider plus mapped ELF/process/isolation/limit gates before one GO; then exactly100x1ms, final iteration100/time100ms, z0.95095±0.002, vz-0.981±0.02, lateral/rotation1e-6 and100 finite measured samples. Proposed Gazebo limits512MiB/swap0/tasks64/CPU100%/30s/stop2s, host40s; not applied or runtime verified. No automatic retry or relaxation.
+
+Bullet lifetime, individual destructors, allocator and C exception risks are NOT_ACCEPTED. Comparison arms and D local trace are conditionally outside an installed-only scope only with no local provider/recorder/neutrality claim and verified actual closure; no automatic procedural gate waiver. User risk/scope decisions cannot replace the missing technical adapter/initialization/resource evidence. Next is review of those technical paths and outstanding decisions, not automatic execution or another task. Current artifacts are not executable-approval-ready. Common skill unchanged. Local /tmp ignored data do not transfer through Git.
+
+---
+Previous checkpoint follows:
+
 # Gazebo entry reevaluation after notifications — current checkpoint
 
 **NOT_READY_FOR_GAZEBO_EXECUTION / Stage B BLOCKED**. User requested read-only reclassification before any implementation/build, starting bcbc5a75d5413cd0d6b1ebdc45e118b06c3e13fa/experiment/dart-internal-trace clean. Read instructions/current handoff/notification execution/prerequisite review/Gazebo draft and original Probe/V4 gates. No source implementation/build/target loading/probe rerun/service/marker/sudo/install/system/main changes. No risk accepted or scope waived.
@@ -568,22 +585,22 @@ Common skill source remains outside the project at `/home/jiwon/Projects/my-agen
 ```context-handoff-state
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07T13:30:17.542508+00:00",
+  "updated_at": "2026-11-07T13:48:23.722662+00:00",
   "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
   "host": "jiwon-System-Product-Name",
   "git": {
-    "head": "bcbc5a75d5413cd0d6b1ebdc45e118b06c3e13fa",
+    "head": "aae135bf487a554b7be678b7ae64c3d03c00d601",
     "branch": "experiment/dart-internal-trace",
     "status": []
   },
   "evidence": [
     {
-      "path": "validation/gazebo-entry-review-v2/reports/entry_review.md",
-      "sha256": "8375366a2ee559abe8dcfc2db4223763e8b01fc73ccd740af7ca30a71561274b"
+      "path": "validation/gazebo-minimal-physics-v1/reports/final_report.md",
+      "sha256": "8564fbcaab33e43437a853b02adfbdb216316bc7359c2a967a73c9b09de16877"
     },
     {
-      "path": "validation/gazebo-entry-review-v2/reports/preservation_review.json",
-      "sha256": "5551b44d14636182dad24a6a8a18ed5d4bbfba8344bf958a307099328b573fa7"
+      "path": "validation/gazebo-minimal-physics-v1/reports/integrity.json",
+      "sha256": "de3ff23c5097b523613e4f8fb300aed4c39a4cd7935b1f7396d85c078d2a1c97"
     }
   ],
   "processes": {

@@ -1,0 +1,27 @@
+{
+  "status": "PASS_NON_EXECUTING_ONLY",
+  "tests": 42,
+  "failures": 0,
+  "errors": 0,
+  "raw_log": "work/policy_tests_final.log",
+  "earlier_model_suite": "work/policy_tests_initial.log (40PASS before alias-equivalence case added)",
+  "compiled_artifacts_run": false,
+  "target_loads": 0,
+  "services": 0,
+  "markers_consumed": 0,
+  "coverage": [
+    "backend/detector and object-provider mismatch rejection",
+    "mapping missing/unexpected/hash/inode rejection and approved SONAME alias equivalence",
+    "pre-GO iteration/time change and incomplete observations rejection",
+    "synthetic exact100x1ms trajectory, final freefall/rotation tolerance and missing-state rejection",
+    "source/artifact pins + readelf FD dependency resolution738edges/306ELFmounts",
+    "launcher always blocks actual contract and rejects forged ready flags; no runtime launch path",
+    "proposed systemd limits + cleanup UNKNOWN rejection + InvocationID ownership stop policy"
+  ],
+  "limitations": [
+    "synthetic positive observations are not authenticated live measurements",
+    "no C++ executable or observer loaded/run",
+    "no deployed sandbox/service/pre-step scheduling/backend/detector verification"
+  ],
+  "additional_check": "changed source pin rejects before runtime"
+}

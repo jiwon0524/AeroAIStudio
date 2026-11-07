@@ -1,0 +1,44 @@
+{
+  "status": "BLOCKED",
+  "evidence": [
+    {
+      "path": "/usr/include/gz/sim8/gz/sim/Server.hh",
+      "sha256": "15e83893d736233697545f43ed6d4fecb46ea0ef8072060534ee34b983153700"
+    },
+    {
+      "path": "/usr/include/gz/sim8/gz/sim/ServerConfig.hh",
+      "sha256": "57ece0b27fecacb6f43117500e83caf263c1cb8bc7143f014adee13d5175dfcb"
+    },
+    {
+      "path": "/usr/include/gz/sim8/gz/sim/System.hh",
+      "sha256": "855fe9ac73f1fccf73fa86cc91c7ec9011439b7cdb7647fe211b7ae151e4d8b6"
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/World.hh",
+      "sha256": "e79b1b8e4519cdf511870eaaceb877e6d8afae620682d91ccc36971243d6444b"
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/World.hh",
+      "sha256": "882f0348d754a6152ed9e27436d3ebb9f972766bf37d8413426e92cad748c8db"
+    },
+    {
+      "path": "/usr/include/gz/sim8/gz/sim/components/PhysicsEnginePlugin.hh",
+      "sha256": "b62e85be24f3bbe963a45db78e439621b59db32b60582ccf7f8087654e58169e"
+    }
+  ],
+  "facts": [
+    "Server.hh RunOnce(paused) explicitly increments simulation iteration by1",
+    "Server Run iteration0 means indefinite, not initialization-only",
+    "System.hh UpdateInfo.simTime denotes time reached after updates; unpaused first callback has dt time",
+    "PhysicsEnginePlugin is string component only; no active detector object attestation",
+    "gz-physics World CollisionDetector GetCollisionDetector API exists, but installed Sim public bridge exposing its engine/world instance not established"
+  ],
+  "candidate_behavior": [
+    "adapter.cc LiveAdapterAvailable alwaysfalse",
+    "server main rejects before Server/world construction; trustedReadyCollected false is a second barrier",
+    "Observer PreUpdate always _Exit78; no active-detector report or successful GO path",
+    "PostUpdate candidate lacks orientation/source provenance and component materialization evidence; strict final policy rejects incomplete records",
+    "launcher rejects before any marker/service/native; no runtime supervisor execution path implemented"
+  ],
+  "no_step_claim": "No target was run. No-GO deployed world/physics guarantee is NOT_VERIFIED. Current compile artifact blocks startup instead of pretending a paused update keeps iteration0."
+}
