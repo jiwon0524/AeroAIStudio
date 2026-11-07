@@ -1,0 +1,21 @@
+{
+  "status": "PASS_NON_EXECUTING_ONLY",
+  "public_api_compile_link": "PASS",
+  "audit_tests": 8,
+  "audit_failures": 0,
+  "audit_errors": 0,
+  "existing_gate_regression_tests": 42,
+  "regression_failures": 0,
+  "regression_errors": 0,
+  "new_artifact_sha256": "7de7c7c6980ef47650d7ff4b3a91e4cd68bbf12e65b1e761ac55949732d600c3",
+  "new_artifact_loaded_or_executed": false,
+  "raw_logs": [
+    "work/build.stdout",
+    "work/build.stderr",
+    "work/audit_tests.log",
+    "work/prior_gate_tests.log"
+  ],
+  "runtime_approval_plan_modified": false,
+  "runtime_launcher_modified": false,
+  "risk_acceptance": "NONE"
+}

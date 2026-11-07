@@ -1,3 +1,22 @@
+# Installed Gazebo technical-path audit — current checkpoint
+
+**UNRESOLVED / NOT_EXECUTION_READY / Stage B BLOCKED**. Started at e811d8fe44cfeb777cf0486d5e0d1251133e6817 on experiment/dart-internal-trace, clean. User requested resolving active-detector/provider and zero-iteration initialization, with an explicit stop if unverified private ABI is required. Read all required instructions/current reports. No DART/Gazebo load, artifact run, World/step, service, marker, sudo/install/system/main change. No risk accepted.
+
+New audit only: validation/gazebo-technical-blocker-audit-v1. Installed public headers/package inventory/ELF examined; public API audit source compiled and linked but never loaded. libpublic_api_audit.so SHA-256 7de7c7c6980ef47650d7ff4b3a91e4cd68bbf12e65b1e761ac55949732d600c3. New evidence/stop tests8PASS plus existing gate regression42PASS. These are compile/static/mock checks, not runtime verification.
+
+Finding1 UNRESOLVED: plugin GetWorldCollisionDetector calls actual World::getConstraintSolver and ConstraintSolver::getCollisionDetector (not merely config echo), but public getter returns a string and the inspected installed Sim API does not provide its owned engine/world/detector object handle or active dispatch/provider address. PhysicsPrivate exports are not a public instance/layout contract. No guessed offset/cast/interposition or independent replacement engine used. Missing matching installed PhysicsPrivate source/public hook is a scope-limited finding, not a proof that every possible external API is impossible.
+
+Finding2 UNRESOLVED: named installed ELF path Physics::Update→CreatePhysicsEntities→CreateWorldEntities, then UpdatePhysics/paused branch/Step identified. Public UpdateInfo paused offset verified by static_assert only. No safe initialization-only public hook at measured iteration0/time0 established; Configure indirect/private graph remains partially unknown. paused RunOnce increments iteration1; PreUpdate has no established active world/detector bridge and unpaused simTime is dt. No counter normalization, paused bootstrap, private method call or runtime attempt.
+
+Finding3 NOT_CONNECTED: user's prerequisite condition1+2 not satisfied, so no runtime mapping/GO/cgroup/exit/cleanup supervisor integration added. Previous validation/gazebo-minimal-physics-v1 source/adapter=false/launcher/contract/approval plan unchanged and still reject before service/marker. Existing100x1ms/freefall policy and final-resource UNKNOWN handling unchanged. No new executable approval plan because not all items resolved.
+
+Evidence reports/technical_findings.md, api_path_evidence.json, build_result.json, test_summary.json, integrity.json; new src/public_api_audit.cc, scripts/build.py/collect.py/preservation.py, tests/test_stop_conditions.py. Publish only these lightweight new files and this handoff. Raw work disassembly/build/test logs/shared ELF/snapshot stay local. Integrity55,053 existing files changed/missing0, existing-scope additions0, main HEAD/status unchanged PASS. All prior evidence/markers preserved and v1 runtime paths absent. Known compile/tests ended; external-CWD/remote/container UNKNOWN.
+
+Bullet normal lifetime, individual destructors/allocator and C exception risks remain NOT_ACCEPTED; individual destructors NOT_OBSERVED, allocator NOT_MEASURED. Comparison arms/D trace conditionally out of an installed-only/no-recorder/no-local-trace/no-neutrality-claim scope only after actual closure confirmation and separate scope decision; no automatic waiver. Next material needed is matching installed-build source and a supported public observation/initialization hook contract establishing the SAME Sim-owned instance at iteration0, or separately reviewed scope/build changes. Do not fetch/rebuild/hook/relax/run automatically. Common skill unchanged; /tmp ignored evidence is not transferred by Git. Current request stops after report/publication.
+
+---
+Previous checkpoint follows:
+
 # Gazebo first-step gate preparation — current checkpoint
 
 **PREPARED_BLOCKED_NOT_EXECUTION_READY / Stage B BLOCKED**. Started at aae135bf487a554b7be678b7ae64c3d03c00d601 on experiment/dart-internal-trace, clean. User authorized source/world preparation, compile/link and mocks only. No target loading, native/observer run, physical step, service, runtime marker, sudo/install/system/main change. No risk accepted.
@@ -585,22 +604,22 @@ Common skill source remains outside the project at `/home/jiwon/Projects/my-agen
 ```context-handoff-state
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07T13:48:23.722662+00:00",
+  "updated_at": "2026-11-07T13:59:27.545488+00:00",
   "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
   "host": "jiwon-System-Product-Name",
   "git": {
-    "head": "aae135bf487a554b7be678b7ae64c3d03c00d601",
+    "head": "e811d8fe44cfeb777cf0486d5e0d1251133e6817",
     "branch": "experiment/dart-internal-trace",
     "status": []
   },
   "evidence": [
     {
-      "path": "validation/gazebo-minimal-physics-v1/reports/final_report.md",
-      "sha256": "8564fbcaab33e43437a853b02adfbdb216316bc7359c2a967a73c9b09de16877"
+      "path": "validation/gazebo-technical-blocker-audit-v1/reports/technical_findings.md",
+      "sha256": "165ccffbe642f7d4eff189668ac21c4a6c27765dd636839244d55cd1d2e40675"
     },
     {
-      "path": "validation/gazebo-minimal-physics-v1/reports/integrity.json",
-      "sha256": "de3ff23c5097b523613e4f8fb300aed4c39a4cd7935b1f7396d85c078d2a1c97"
+      "path": "validation/gazebo-technical-blocker-audit-v1/reports/integrity.json",
+      "sha256": "3e197904e9b5b75b3771812c539f814197b3dc1bfe28372d7839749109507cf8"
     }
   ],
   "processes": {

@@ -1,0 +1,136 @@
+{
+  "scope": "STATIC_ONLY",
+  "baseline_head": "e811d8fe44cfeb777cf0486d5e0d1251133e6817",
+  "ELF_identities": [
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-physics-system.so.8.15.0",
+      "sha256": "5d8b8d068628ee7af0774f5d9e0ef65e23d4e9f9cab23c1aac318faaa51f9575",
+      "build_id": "d84fdca46ee5b0a981496fde744460e1b1d9deaa",
+      "device": 66309,
+      "inode": 8183280,
+      "size": 1778784,
+      "mtime_ns": 1786587630000000000,
+      "ctime_ns": 1790082930411511931
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "sha256": "1ee9350aa09d5a5eb43a5075c9c61d2cdcb85113d2ff1e0f32136847edf1688e",
+      "build_id": "c53e1a304ceb0f0dac85ff0e4872d0ffc50a28ac",
+      "device": 66309,
+      "inode": 9991340,
+      "size": 3122968,
+      "mtime_ns": 1780567695000000000,
+      "ctime_ns": 1790082927349520870
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8.so.8.15.0",
+      "sha256": "6120bd5d25a28ced3238f91b8a432e364958cd07706afe00911743072bfe4651",
+      "build_id": "4785a0f397c1a9fea8eea659d89ccb559d82360f",
+      "device": 66309,
+      "inode": 8183301,
+      "size": 2312888,
+      "mtime_ns": 1786587630000000000,
+      "ctime_ns": 1790082930412511928
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-technical-blocker-audit-v1/work/libpublic_api_audit.so",
+      "sha256": "7de7c7c6980ef47650d7ff4b3a91e4cd68bbf12e65b1e761ac55949732d600c3",
+      "build_id": "d1ecb93169a359b0b7cbacf6c5630a44ba24b1b3",
+      "device": 66309,
+      "inode": 3433718,
+      "size": 93560,
+      "mtime_ns": 1794059604918788248,
+      "ctime_ns": 1794059604918800350
+    }
+  ],
+  "headers": [
+    {
+      "path": "/usr/include/gz/sim8/gz/sim/Server.hh",
+      "sha256": "15e83893d736233697545f43ed6d4fecb46ea0ef8072060534ee34b983153700"
+    },
+    {
+      "path": "/usr/include/gz/sim8/gz/sim/System.hh",
+      "sha256": "855fe9ac73f1fccf73fa86cc91c7ec9011439b7cdb7647fe211b7ae151e4d8b6"
+    },
+    {
+      "path": "/usr/include/gz/sim8/gz/sim/Types.hh",
+      "sha256": "0bf2b683b290cda632ad54d97e8a894f948d72b1a446c828b7848a11d5a06d23"
+    },
+    {
+      "path": "/usr/include/gz/sim8/gz/sim/SystemPluginPtr.hh",
+      "sha256": "b2ee15e338c0ff6320ed7385d4545e0bcb114f362fcab1ffb8c874f7929bb6ce"
+    },
+    {
+      "path": "/usr/include/gz/sim8/gz/sim/EntityComponentManager.hh",
+      "sha256": "e47643a1bb4a2715cb6e9a9e7f4008df72ce1aee8731002435ee333c998b9328"
+    },
+    {
+      "path": "/usr/include/gz/sim8/gz/sim/components/Physics.hh",
+      "sha256": "0163db5277de9ca067f3755ce262911220c8122b470be6de748e0eb3a8135200"
+    },
+    {
+      "path": "/usr/include/gz/sim8/gz/sim/components/PhysicsEnginePlugin.hh",
+      "sha256": "b62e85be24f3bbe963a45db78e439621b59db32b60582ccf7f8087654e58169e"
+    },
+    {
+      "path": "/usr/include/gz/sim8/gz/sim/physics/Events.hh",
+      "sha256": "4077a0cea004dd2e484d6052c5d7a3360c009ca301ff34ab1b41d8d9a265ac1d"
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/World.hh",
+      "sha256": "e79b1b8e4519cdf511870eaaceb877e6d8afae620682d91ccc36971243d6444b"
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/World.hh",
+      "sha256": "882f0348d754a6152ed9e27436d3ebb9f972766bf37d8413426e92cad748c8db"
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/GetEntities.hh",
+      "sha256": "191fc12687fffd0ef301716046ad755d171f549571c54c7927f7cf7b15776cca"
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/RequestEngine.hh",
+      "sha256": "ef76059a24a17268643bfc7825fcc2b1cd5551eea9e9da6ebfd78cff8d967eeb"
+    }
+  ],
+  "installed_dev_package_source_members": [],
+  "source_scope_limit": "No matching PhysicsPrivate source/header or public active-engine bridge found in inspected installed dev headers/package and /usr/src; not a universal proof about all possible external artifacts. Preserved DART baseline source is not matched Gazebo Physics source.",
+  "named_call_evidence": {
+    "Physics_Update_CreatePhysicsEntities": [
+      "b850c:\te8 ef 8b ff ff       \tcall   b1100 <gz::sim::v8::systems::PhysicsPrivate::CreatePhysicsEntities(gz::sim::v8::EntityComponentManager const&, bool)@@Base>"
+    ],
+    "Physics_Update_UpdatePhysics": [
+      "b8518:\te8 f3 8c ff ff       \tcall   b1210 <gz::sim::v8::systems::PhysicsPrivate::UpdatePhysics(gz::sim::v8::EntityComponentManager&)@@Base>"
+    ],
+    "Physics_Update_Step": [
+      "b853b:\te8 e0 4a ff ff       \tcall   ad020 <gz::sim::v8::systems::PhysicsPrivate::Step(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)@@Base>"
+    ],
+    "CreatePhysicsEntities_CreateWorldEntities": [
+      "b11b4:\te8 67 b4 ff ff       \tcall   ac620 <gz::sim::v8::systems::PhysicsPrivate::CreateWorldEntities(gz::sim::v8::EntityComponentManager const&, bool)@@Base>"
+    ],
+    "active_name_getter_getConstraintSolver": [
+      "23c1f9:\te8 d2 6c f7 ff       \tcall   1b2ed0 <dart::simulation::World::getConstraintSolver()@plt>"
+    ],
+    "active_name_getter_getCollisionDetector": [
+      "23c205:\te8 e6 64 f7 ff       \tcall   1b26f0 <dart::constraint::ConstraintSolver::getCollisionDetector()@plt>"
+    ]
+  },
+  "configure_direct_named_create_calls": [],
+  "configure_indirect_call_sites": 84,
+  "unknowns": [
+    "Configure indirect/private helpers do not establish a complete call graph",
+    "No live engine/world/detector object or vtable/provider observation",
+    "No installed initialization hook verified at iteration0/sim_time0",
+    "No claims derived from unverified PhysicsPrivate member offsets"
+  ],
+  "status": {
+    "1_active_detector_provider": "UNRESOLVED_PUBLIC_BRIDGE_MISSING",
+    "2_iteration_zero_initialization": "UNRESOLVED_HOOK_NOT_ESTABLISHED",
+    "3_runtime_collection": "NOT_CONNECTED_PREREQUISITES_1_2_UNRESOLVED"
+  },
+  "stop_rule": "Do not dereference PhysicsPrivate or guess its layout; no private symbol call/interposition or standalone replacement engine",
+  "approval_plan_updated": false,
+  "runtime_launcher_changed": false,
+  "target_loading": false,
+  "artifact_executed": false
+}
