@@ -1,3 +1,20 @@
+# Body/Shape B1 approved execution — current checkpoint
+
+**NORMAL_OWNER_RELEASE_B1_PASS / Probe B PARTIAL / Stage B BLOCKED**. User explicitly approved one fixed launch at89a8676fe0dba854a4b01fb7f3696d10599b9ddd. HEAD/branch/clean,27source/manifest pins,ELF identities,62edges/29mount argv,Core RO SONAME alias,fresh output/marker and manager collision checks PASS. Exact launch once, wrapper exit0; retry0,limit increases0,source changes0.
+
+strict Core16+fixture17 file identity PASS before GO; events confirm creation counts/relations and external Shape reset retaining Shape, then Skeleton owner reset with Skeleton/Shape weak expiration. Individual Skeleton/BodyNode/ShapeNode/Joint destructors/order NOT_OBSERVED, allocator balance NOT_MEASURED. No World/step/Gazebo/Probe A/V2 rerun.
+
+unit aero-body-shape-v1-runtime-c1bb91795b.service; native hostPID230417/start25213034. Host/time/all observed process identities in reports/execution_review.json. Service689ms/CPU184ms/swap peak0B, observed memory peak12763136bytes/tasks3, recorded memory events all0. Actual64MiB/swap0/tasks8/CPU25% and8s/stop2s matched. Last sample not guaranteed final; collected unit final execution properties UNKNOWN. map_files EPERM used existing proc-root FD file identity fallback, resident pages/constructor effects unverified.
+
+unit/cgroup/observedPID-start/temp/canary cleanup PASS, controller before/after selected setting diff0. runtime_integrity PASS:changed/missing0,existing-scope additions0,main HEAD/status unchanged. V1/Probe A/V2 original evidence/markers preserved. New B1 collection/service markers now consumed; never delete/reuse/retry. Wrapper and own unit ended; external-CWD/remote/container jobs UNKNOWN.
+
+New evidence validation/dart-body-shape-lifetime-v1/reports/execution_report.md,execution_review.json,runtime/*.json,runtime_integrity.json. Preparation reports/contract/source unchanged. Only new lightweight execution evidence plus this handoff selected for experiment-branch automatic publication; raw work/ELF/pin/snapshot/stdout/stderr/markers remain local and do not transfer via Git. No main/system/production/Clock/Capture changes.
+
+Evidence covers installed normal ownership subset of B only. Outstanding:individual destructor/D0/provider/allocator/balance, Bullet factory/deleter/cast,baseline/trace arms; C partial-construction/fault/unwind; D trace OFF/ON metadata/owner-quiescent/capacity/overflow/flush. No automatic risk acceptance or Host/Gazebo/Stage B promotion. Current approval complete; next minimum action is review or a separately requested bounded preparation. Do not start additional runtime.
+
+---
+Previous checkpoint follows:
+
 # Body/Shape B1 preparation — current checkpoint
 
 **BODY_SHAPE_PREPARED_NOT_EXECUTED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. Started83c9b0c6838f5e1f244811524e45e140cf8657b1/experiment/dart-internal-trace clean. Current user authorized implementation, compile/link and non-executing checks only. No DART/fixture/Gazebo load/run, World/step, service start, new one-shot marker, sudo/install/system changes. V2 one-shot remains consumed/intact; all previous evidence preserved.
@@ -504,22 +521,22 @@ Common skill source remains outside the project at `/home/jiwon/Projects/my-agen
 ```context-handoff-state
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07T13:01:00.454748+00:00",
+  "updated_at": "2026-11-07T13:07:09.052875+00:00",
   "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
   "host": "jiwon-System-Product-Name",
   "git": {
-    "head": "83c9b0c6838f5e1f244811524e45e140cf8657b1",
+    "head": "89a8676fe0dba854a4b01fb7f3696d10599b9ddd",
     "branch": "experiment/dart-internal-trace",
     "status": []
   },
   "evidence": [
     {
-      "path": "validation/dart-body-shape-lifetime-v1/reports/final_report.md",
-      "sha256": "ecd3114a255f91d138e4d4a526a85591f9e54de70881c1e9ffbe2fa0829aedfb"
+      "path": "validation/dart-body-shape-lifetime-v1/reports/execution_review.json",
+      "sha256": "49ce052ca2991c32b39ed858acd72a0a220d0f37c1279cb1db0a2247199ebaeb"
     },
     {
-      "path": "validation/dart-body-shape-lifetime-v1/reports/integrity.json",
-      "sha256": "369f6edc18514a3b7c8624f5905a2821fa8fabc1b75a88fe5dec6b2104f7df38"
+      "path": "validation/dart-body-shape-lifetime-v1/reports/runtime_integrity.json",
+      "sha256": "04358f264b32c5ab23b07aa217059810c30ed2e2d2ac225797b1686369ceac75"
     }
   ],
   "processes": {

@@ -1,0 +1,71 @@
+{
+  "case": "runtime",
+  "Core_load_attempted": true,
+  "object_execution_requested": true,
+  "individual_destructor_calls": "NOT_OBSERVED",
+  "allocation_balance": "NOT_MEASURED",
+  "lifetime_events": [
+    {
+      "phase": "created",
+      "skeletons": 1,
+      "bodies": 1,
+      "joints": 1,
+      "shape_nodes": 1,
+      "shape_owner_matches": true
+    },
+    {
+      "phase": "external_shape_released",
+      "shape_retained": true
+    },
+    {
+      "phase": "owner_release_observed",
+      "skeleton_expired": true,
+      "shape_expired": true,
+      "individual_destructors": "NOT_OBSERVED"
+    },
+    {
+      "phase": "lifetime_success",
+      "scope": "normal_owner_release_only",
+      "individual_destructors": "NOT_OBSERVED"
+    }
+  ],
+  "open_results": [],
+  "close_results": [],
+  "signal_events": [],
+  "systemd_run_returncode": 0,
+  "last_cgroup_sample": {
+    "memory.current": "4198400",
+    "memory.peak": "12763136",
+    "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 0",
+    "pids.current": "3"
+  },
+  "final_cgroup_sample_guaranteed": false,
+  "service_timeout_result": "UNKNOWN_UNLESS_EXPLICIT_EVENT_OR_STDERR",
+  "raw_evidence": "native_fixture_execution.json",
+  "cleanup": {
+    "unit_state": {
+      "TimeoutStopUSec": "1min 30s",
+      "RuntimeMaxUSec": "infinity",
+      "MainPID": "0",
+      "Result": "success",
+      "ExecMainCode": "0",
+      "ExecMainStatus": "0",
+      "ControlGroup": "",
+      "CPUQuotaPerSecUSec": "infinity",
+      "CPUQuotaPeriodUSec": "infinity",
+      "MemoryMax": "infinity",
+      "MemorySwapMax": "infinity",
+      "TasksMax": "34727",
+      "KillMode": "control-group",
+      "Id": "aero-body-shape-v1-runtime-c1bb91795b.service",
+      "LoadState": "not-found",
+      "ActiveState": "inactive",
+      "SubState": "dead",
+      "Transient": "no",
+      "InvocationID": ""
+    },
+    "cgroup_removed": true,
+    "remaining_identities": [],
+    "status": "PASS"
+  }
+}
