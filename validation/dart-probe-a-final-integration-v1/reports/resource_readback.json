@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "requested": {
+    "MemoryMax": "64M",
+    "MemorySwapMax": 0,
+    "TasksMax": 8,
+    "CPUQuota": "25%"
+  },
+  "cases": {
+    "accept": {
+      "memory.max": "67108864",
+      "memory.swap.max": "0",
+      "pids.max": "8",
+      "cpu.max": "25000 100000",
+      "cgroup.procs": "201621\n201627\n201628",
+      "cgroup.threads": "201621\n201627\n201628",
+      "memory.current": "2072576",
+      "memory.peak": "10010624",
+      "pids.current": "3",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 0"
+    },
+    "reject": {
+      "memory.max": "67108864",
+      "memory.swap.max": "0",
+      "pids.max": "8",
+      "cpu.max": "25000 100000",
+      "cgroup.procs": "201652\n201662\n201665",
+      "cgroup.threads": "201652\n201662\n201665",
+      "memory.current": "1949696",
+      "memory.peak": "10399744",
+      "pids.current": "3",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 0"
+    },
+    "timeout": {
+      "memory.max": "67108864",
+      "memory.swap.max": "0",
+      "pids.max": "8",
+      "cpu.max": "25000 100000",
+      "cgroup.procs": "201684\n201691\n201692",
+      "cgroup.threads": "201684\n201691\n201692",
+      "memory.current": "1679360",
+      "memory.peak": "9887744",
+      "pids.current": "3",
+      "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 0"
+    }
+  },
+  "limits_changed": false,
+  "DART_memory_sufficiency": "UNVERIFIED",
+  "excess_enforcement": "NOT_TESTED",
+  "service_runtime_deadline": "8s configured, stop2s; native timeout3s tested; forced systemd timeout not tested"
+}

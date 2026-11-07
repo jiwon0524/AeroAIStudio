@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "cases": {
+    "accept": {
+      "status": "PASS",
+      "unit": "aero-probe-a-final-v1-accept-f13e0107a9.service",
+      "fixture_host_pid": 201628,
+      "go_sent": true,
+      "body_entered": true,
+      "returncode": 0,
+      "elapsed_seconds": 0.323419,
+      "error": null
+    },
+    "reject": {
+      "status": "PASS",
+      "unit": "aero-probe-a-final-v1-reject-92d4673619.service",
+      "fixture_host_pid": 201665,
+      "go_sent": false,
+      "body_entered": false,
+      "returncode": 78,
+      "elapsed_seconds": 0.614245,
+      "error": "mapping identity gate: sha256 mismatch"
+    },
+    "timeout": {
+      "status": "PASS",
+      "unit": "aero-probe-a-final-v1-timeout-511fb3f381.service",
+      "fixture_host_pid": 201692,
+      "go_sent": false,
+      "body_entered": false,
+      "returncode": 78,
+      "elapsed_seconds": 3.35528,
+      "error": "fixture exit/body failure"
+    }
+  },
+  "unittest": {
+    "new": 12,
+    "regression": 15,
+    "FAIL": 0,
+    "runner_SKIP": 0
+  },
+  "actual_DART_load": false,
+  "initial_failures": [
+    "Werror compile-only indentation fixed without weakening flags",
+    "sandbox user manager access rejected before unit creation; outside-sandbox approved execution succeeded"
+  ],
+  "reference": [
+    {
+      "path": "validation/dart-probe-a-final-integration-v1/reports/accept/native_fixture_execution.json",
+      "sha256": "e06f0fc795644e537ba4c373fb781c138d197bb1d9c9d871cb8c63e4ba6dad5e"
+    },
+    {
+      "path": "validation/dart-probe-a-final-integration-v1/reports/reject/native_fixture_execution.json",
+      "sha256": "73532d669bbe593d433d10b35d7896625e10dd56bfa7950af5e83631024d4874"
+    },
+    {
+      "path": "validation/dart-probe-a-final-integration-v1/reports/timeout/native_fixture_execution.json",
+      "sha256": "993ee38a552592d7ef79dff0dc154f0b86d5f3b507d73e43b14813869d97c900"
+    }
+  ]
+}

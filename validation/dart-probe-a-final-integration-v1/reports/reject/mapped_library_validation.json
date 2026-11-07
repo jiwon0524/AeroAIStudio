@@ -1,0 +1,9 @@
+{
+  "pid": 201665,
+  "status": "FAIL",
+  "records": [],
+  "map_files_status": "UNAVAILABLE",
+  "method": "map_files FD preferred; /proc/PID/root FD metadata fallback, never bare host path",
+  "limits": "file identity at bounded snapshots, not private relocated/COW memory equality or initialization safety",
+  "error": "sha256 mismatch"
+}

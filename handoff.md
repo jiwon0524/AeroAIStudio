@@ -1,3 +1,20 @@
+# DART Probe A Final Integration V1 — current checkpoint
+
+**PROBE_A_INTEGRATION_READY / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. READY는 무해 Fixture 통합 기반에 한정. 실제 DART/Gazebo open/close·World·Stage B0. 기준 HEAD2cb4f524ad1f525f5fa9f966c08b0de656ede161 clean 확인. context-handoff 및 기존 증거/지침 대조 후 현재 사용자 범위만 수행.
+
+새 `validation/dart-probe-a-final-integration-v1/` source/tests/reports와 이 handoff만 소유. 기존 Core16/58edges·alias·identity·isolation·systemd/cgroup/cleanup helper 재사용. Core canonical path 통일. 새 manifest pin과 FD readonly mount, no-loader Native post-open WAIT -> host identity -> GO -> simulated close 연결. strict require_core=True는 기존 Core16 mapping gate로 연결하되 실제 Core branch는 REL compile-only, 실행0. 실제 runtime artifact는 별도 승인된 단계에서 링크/pin/실행해야 한다.
+
+실제 user service3회: accept exit0 GO/body true; SHA expectation 불일치 reject exit78 GO/body false; native timeout3s exit78 GO/body false. 모두 cleanup PASS, unit/cgroup 제거·관측PID/start잔여0·temp/canary정리, controller 선택설정전후0. resource64MiB/swap0/pids8/CPU25% readback 일치. 신규12+관련회귀15=27PASS. 초기 Werror/환경manager접근/summary오류 기록은 initial 파일에 보존, 수정후 검증. 서비스 자동retry0. 기존 own attempt를 재실행하지 않는다.
+
+증거: reports/final_report.md, integration_test/core_path_validation/post_open_gate/sandbox_validation/resource_readback/process_cleanup/integrity/verdict.json 및 reports/{accept,reject,timeout}. map_files EPERM, proc-root fallback PASS_FILE_IDENTITY 한정; 초기화 부작용·COW/resident페이지 보장0. DART 메모리64MiB 충분성·초과강제·강제systemd timeout/signal 미검증. reject during-controller snapshot 미수집, 전후비교 PASS.
+
+원본 main/기존 evidence 보존은 integrity.json. host/시간/visibleprocess는 handoff_snapshot.json, own PID/start/output은 각 native_fixture_execution.json. 알려진3unit 종료·정리 완료, 외부 CWD/remote/container UNKNOWN. 계정전환·기존프로세스종료 없음. work binary/object/raw manifest/pin/attempt 및 로컬 git_publication receipt는 게시제외. /tmp ignored/untracked 자료는 다른기기로 자동전달되지 않는다.
+
+다음 최소 작업: 이 무해 통합 결과와 fallback/64MiB 위험 검토 후 별도 실제Core-only runtime 실행 범위 승인. 현재 종료 후 실제 runtime 자동진행 금지. 실제 loader branch 링크/pin/strict Core gate 실행 전 구체 승인 필요. production/시스템/원본main/Clock/Capture 변경0. 게시SHA/원격일치는 로컬 receipt 및 최종응답 참조.
+
+---
+이하 이전 체크포인트:
+
 # DART Probe A Runtime Readiness V1 — current checkpoint
 
 복구 체크포인트: staging 승인 취소 후 기존 staged17개를 확인했다. unstaged tracked 변경0, integrity.json은 ignored/un-staged 상태로 보존되어 있었다. 요청된 결과물9개와 참조 evidence SHA 일치를 확인했다. 기존 구현·alias 실행·REL 컴파일 결과를 재사용하고 신규15개 테스트만 재실행했다. 판정·Runtime 제한은 유지한다. 보존 재비교 후 integrity를 포함해 명시 선택 게시한다.

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "harmless_binary": {
+    "sha256": "6dfeb38c220300e67f1ec3138c78161ee52dd746b981c6bf49c66bda66ee0722",
+    "dlopen_dlclose_symbols": 0
+  },
+  "review_object": "REL only; never linked or executed",
+  "flags": "-std=c11 -O2 -Wall -Wextra -Werror; harmless adds stack protector, RELRO/NOW",
+  "sources": {
+    "validation/dart-probe-a-final-integration-v1/fixtures/integrated_fixture.c": "64c645abf3d26fbf31121bc94ec46644a452a34bfe40b3b73ca906d7e9cbf160",
+    "validation/dart-probe-a-final-integration-v1/fixtures/core_review_only.c": "8bb7657b95ce772144e6d263b0152c7bc7d00658b0dedffe9fdd6987a8ad1a5c"
+  }
+}

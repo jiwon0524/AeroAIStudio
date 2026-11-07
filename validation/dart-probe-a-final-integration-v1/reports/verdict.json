@@ -1,0 +1,29 @@
+{
+  "verdict": "PROBE_A_INTEGRATION_READY",
+  "scope": "harmless complete service/sandbox/native/post-open/cleanup integration; not authorization or certification for actual Core runtime",
+  "runtime": "NOT_RUNTIME_VERIFIED",
+  "Stage_B": "BLOCKED",
+  "DART_loaded": false,
+  "PASS": [
+    "Core16 immutable FD identity and58 dependency edges",
+    "Core canonical/alias mounts within owned transient service",
+    "Native isolation + post-open GO success",
+    "SHA mismatch fail-closed exit78, no GO/body",
+    "bounded no-GO timeout exit78",
+    "64MiB/8tasks/25percent actual readback",
+    "three owned units/cgroups removed; observed identities absent; controller selected settings restored",
+    "new12 and regression15 tests"
+  ],
+  "SKIP": [
+    "actual DART open/close, init/fini and Core mapped gate",
+    "resident page equality and initialization side-effect prevention",
+    "resource pressure/excess enforcement",
+    "forced supervisor/systemd timeout or signal"
+  ],
+  "remaining_risks": [
+    "map_files EPERM fallback only file identity",
+    "64MiB Core initialization sufficiency unknown",
+    "actual loader entry remains compile-only; separately approved build/pinning and runtime execution required",
+    "host-side same-inode mutation after snapshots remains possible"
+  ]
+}

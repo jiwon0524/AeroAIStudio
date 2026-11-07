@@ -1,0 +1,1 @@
+{"status":"FAIL_CORRECTED","reason":"summary expected during-controller sample on early-reject case; now records NOT_SAMPLED instead of claiming PASS"}

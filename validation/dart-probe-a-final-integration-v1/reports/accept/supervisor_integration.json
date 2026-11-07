@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "unit": "aero-probe-a-final-v1-accept-f13e0107a9.service",
+  "go_sent": true,
+  "body_entered": true,
+  "only_harmless_profile": true,
+  "DART_loaded": false,
+  "read_only_fd_binds": true
+}
