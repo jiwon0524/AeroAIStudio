@@ -1,0 +1,40 @@
+{
+  "case": "runtime",
+  "Core_load_attempted": true,
+  "object_execution_requested": true,
+  "lifetime_events": [],
+  "open_results": [],
+  "close_results": [],
+  "signal_events": [],
+  "systemd_run_returncode": 127,
+  "last_cgroup_sample": null,
+  "final_cgroup_sample_guaranteed": false,
+  "service_timeout_result": "UNKNOWN_UNLESS_EXPLICIT_EVENT_OR_STDERR",
+  "raw_evidence": "native_fixture_execution.json",
+  "cleanup": {
+    "unit_state": {
+      "TimeoutStopUSec": "1min 30s",
+      "RuntimeMaxUSec": "infinity",
+      "MainPID": "0",
+      "Result": "success",
+      "ExecMainCode": "0",
+      "ExecMainStatus": "0",
+      "ControlGroup": "",
+      "CPUQuotaPerSecUSec": "infinity",
+      "CPUQuotaPeriodUSec": "infinity",
+      "MemoryMax": "infinity",
+      "MemorySwapMax": "infinity",
+      "TasksMax": "34727",
+      "KillMode": "control-group",
+      "Id": "aero-skeleton-v1-runtime-24536f9ed8.service",
+      "LoadState": "not-found",
+      "ActiveState": "inactive",
+      "SubState": "dead",
+      "Transient": "no",
+      "InvocationID": ""
+    },
+    "cgroup_removed": true,
+    "remaining_identities": [],
+    "status": "PASS"
+  }
+}

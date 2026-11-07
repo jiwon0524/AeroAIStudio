@@ -1,0 +1,35 @@
+{
+  "verdict": "SKELETON_LIFETIME_FAILED_BEFORE_MAIN",
+  "attempts": 1,
+  "approval": "current user explicitly authorized one attempt at prepared commit0376da8",
+  "unit": "aero-skeleton-v1-runtime-24536f9ed8.service",
+  "returncode": 127,
+  "preflight_file_identity": "PASS",
+  "mapped_identity": "NOT_RUN",
+  "GO": false,
+  "Skeleton_create_reset_expired": "NOT_RUN",
+  "cause": "libdart.so.6.13 not found by startup loader; static alias contract omits Core own SONAME because alias builder traverses only Core dependencies, not executable NEEDED",
+  "stage_resource_gate": "passed indirectly: execution reached ELF startup; no saved live readback",
+  "live_resource_readback": "UNKNOWN",
+  "systemd_stderr": {
+    "runtime": "377ms",
+    "CPU": "108ms",
+    "memory_peak": "9.5M (formatted systemd output)",
+    "swap_peak": "0B"
+  },
+  "namespace_runtime_inode_gate": "NOT_REACHED",
+  "cleanup": {
+    "unit": "not-found",
+    "cgroup_removed": true,
+    "PID_start_sampling": "NOT_CAPTURED; empty observed list does not prove comprehensive process enumeration",
+    "temp_canary_removed": true,
+    "controller_after_diff": []
+  },
+  "retry": false,
+  "limits_increased": false,
+  "Probe_A_rerun": false,
+  "runtime_integrity": "PASS: changed/missing0, new existing-scope0, main HEAD/status unchanged",
+  "Stage_B": "BLOCKED",
+  "Gazebo": "NOT_RUNTIME_VERIFIED",
+  "wrapper_returncode": 1
+}

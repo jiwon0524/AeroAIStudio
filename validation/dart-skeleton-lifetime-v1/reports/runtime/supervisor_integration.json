@@ -1,0 +1,9 @@
+{
+  "status": "FAIL",
+  "unit": "aero-skeleton-v1-runtime-24536f9ed8.service",
+  "go_sent": false,
+  "body_entered": false,
+  "only_harmless_profile": false,
+  "DART_load_attempted": true,
+  "read_only_fd_binds": true
+}

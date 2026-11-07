@@ -1,3 +1,20 @@
+# Empty Skeleton Lifetime V1 — approved execution checkpoint
+
+**SKELETON_LIFETIME_FAILED_BEFORE_MAIN / Gazebo NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. 현재 사용자 명시 승인으로 준비commit0376da864f3e7a57d57e50bb0688c7c8cbb7a422의 지정 명령을 정확히1회 실행했다. 시작 HEAD/branch/clean, source/manifest/executable/Core16 FD hash와 fresh marker/output, host manager running/cgroup v2 확인. 권한 승인 후 실행했고 재시도0·한계상향0·코드수정0이다.
+
+unit aero-skeleton-v1-runtime-24536f9ed8.service, startup loader가 libdart.so.6.13을 찾지 못해 exit127(wrapper1). READY/host live mapping gate/GO/객체create-reset-expired 전부 미도달. aliases가 Core dependencies만 다뤄 executable NEEDED의 Core own SONAME을 mount하지 않는 정적 원인 확인. 이번에는 고치지 않았다. 설치 canonical 파일 해시PASS를 runtime 이름 해석PASS로 확대하지 않는다.
+
+증거: validation/dart-skeleton-lifetime-v1/reports/execution_report.md, execution_review.json, runtime/*.json 및 runtime_integrity.json. 기존 preparation 보고서는 역사적 STATIC 결과 그대로 보존한다. work/runtime_collection_attempt.json·runtime_attempt.json은 소진됐고 stdout/stderr/snapshot과 함께 보존한다. Probe A와 그 marker/증거는 변경하지 않았다.
+
+정리 기록: unit not-found/cgroup제거/temp·socket·canary삭제 PASS, controller selected 설정 전후차이0. READY전 실패로 host PID/start sampling과 live resource readback은 UNKNOWN/NOT_CAPTURED. stderr service377ms/CPU108ms/peak9.5M/swap0B. 수거된 unit 기본값을 실제 한계로 해석하지 않는다. runtime_integrity PASS: 기존 변경·누락0/범위추가0/main HEAD·status 유지. wrapper 종료 완료. 외부 CWD/remote/container는 UNKNOWN.
+
+다음 최소 작업은 executable NEEDED까지 포함하는 alias closure의 별도 비실행 보완 검토와 새 승인안 준비다. 이번 실패 뒤 자동수정·재실행하지 않는다. 기존 one-shot 재사용·삭제/제한상향/Probe A/Gazebo/World::step/Stage B 금지. 별도 사용자 승인 전 객체 실행 금지.
+
+현재 변경은 새 실패 보고서·자동 생성된 경량 runtime 증거와 이 인계만이다. 승인된 실험 브랜치에 명시선택 게시하며 receipt execution_publication.json은 로컬 보존. work raw/binary/pin/marker·ignored 자료는 Git 게시만으로 기기이동되지 않는다. 공통 스킬/production/패키지/시스템/Clock/Capture 변경 없음.
+
+---
+이하 이전 체크포인트:
+
 # Empty Skeleton Lifetime V1 — current checkpoint
 
 **STATIC_PREPARED_NOT_EXECUTED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. 이번 명시 승인 범위는 최소 C++ fixture 컴파일·링크 및 비실행 정적 검증까지다. 실제 DART 로딩/객체/서비스/Probe A 재실행0. 기준 HEAD f58d45856ddf423d05a5dc52482e9d02f427142f와 clean 상태를 확인했다.
