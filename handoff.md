@@ -1,3 +1,48 @@
+# Gazebo source materials acquisition — current checkpoint
+
+**PARTIAL provenance / source design prepared / NOT_EXECUTION_READY / Stage B BLOCKED**. Started at9fba01825e6acdcd9fc9ef67aa72cfd44f3c8aac, experiment/dart-internal-trace clean. User authorized downloads/extraction/static comparison/design only. No source modification, patch application, configure/build, target load/run, Step, service/marker, sudo/install/system/main change. No risk acceptance. context-handoff used.
+
+New evidence: validation/gazebo-source-materials-v1/reports/material_review.md and supporting JSON (acquisition,physics_acquisition,provider_probes,download_hashes,source_files,packaging_comparison,debug_matches,dwz_identity,static_line_evidence,provider_static_symbols,integrity). External source/debug/deb/raw static output remain ignored under new work/downloads and work/extracted; not included in Git or automatically portable. Existing artifacts untouched.
+
+Sim8.15.0-1~noble source DSC/orig/debian checksum match provider, installed changelog identical, no debian patches. libgz-sim8-dbg package SHA4884d33c8036df02b275149797181316b962edd52b6864a924f436a69cb660cb; core/Physics/CLI debug Build IDs and debuglink CRC match installed, supplementary DWZ identity matches. Static GDB symbol-file/info line only (auto-load/debuginfod off, no inferior/run/attach) links Physics addresses to source1044/1050/1082 and runner Run/UpdateCurrentInfo/Step to source. Initial addr2line DWZ lookup failed; extraction-only GDB sysroot resolved it without host installation. Original buildinfo/changes/log still absent.
+
+physics7.8.0 native DSC unavailable at checked provider404/current index7.9.0. Upstream7.8.0 tag and release commit dd4ca6f5bdd3d1d2b52b9151ee953a562c3dbbd2 fetched; noble changelog matches installed, no packaging patches, but exact native source payload/binary lineage remains UNVERIFIED. Plugin/core matching debug absent in checked sources. DART missing upstream archive obtained with exact DSC/index SHA b900820b71463476463b9daeb31e81c74ebf59bd95139b7f833f5f6bb9b8058e; packaging/9 patches inventoried without application. Retained installed changelog history matches (older history truncated). DART matching debug/buildinfo absent. Hash comparisons are provider HTTPS/index/DSC plus installed identity, not separate GPG archive-chain verification.
+
+New typed source bridge candidate: Physics owns engine and entityWorldMap; gz-physics src/World.hh RetrieveWorld and CustomFeatures::GetDartsimWorld return SAME stored native world shared_ptr; matching exported function exists but header not found installed and physics exact native provenance unconfirmed. No external private-layout access. Use source-level Physics connection in future build, or explicitly reviewed diagnostic feature. RTTI provider distinct from actual query/collide execution provider. Current fixture lacks detector selection; acquired source defaults GzOde, only conditional static candidate, runtime detector/provider still UNVERIFIED. Bullet risk not automatically waived.
+
+Matching Sim source proves Run calls UpdateCurrentInfo (time/iteration advance) before first Physics::Update creates objects. Proposed minimal split: synchronous init-only phase in Run before first UpdateCurrentInfo/realtime start, registered callback on SAME Physics to CreatePhysicsEntities then native observation, bounded GO and two zero-state snapshots. Preserve EachNew semantics and link/joint-added bookkeeping by handling first duplicate CreatePhysicsEntities; do not clear ECM new flags early. No paused RunOnce/counter reset. Minimum likely Sim core+Physics system/new interface; source-defined RetrieveWorld contract needs confirmation. Strong method-provider/extra GO guard may add gz plugin and selected DART adapter builds. Instrumented Sim/changed initialization is a separate target, not installed-original full runtime evidence. Nothing implemented/built.
+
+integrity:34 selected pre-existing inputs/ELFs/markers unchanged; main HEAD/status unchanged; previous Gazebo runtime/attempt paths absent. JSON/link/doc checks only, no target tests. Snapshot no same-user project-CWD jobs; external-CWD/remote/container UNKNOWN. Downloads completed, no jobs started/stopped beyond acquisition/static tools. Next minimum: user decision on separately scoped source implementation/build preparation and missing provenance limits, then new build/execute approval gates. Risks NOT_ACCEPTED; individual destructors NOT_OBSERVED, allocator NOT_MEASURED; comparison/D trace conditions need re-review if instrumentation changes scope. Stop after report/publication.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-07T14:28:33.891491+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "9fba01825e6acdcd9fc9ef67aa72cfd44f3c8aac",
+    "branch": "experiment/dart-internal-trace",
+    "status": []
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-source-materials-v1/reports/material_review.md",
+      "sha256": "2a756d99fd02d151f9770e163696f5b58f183879e3ee8762da36f4b2fb9669c4"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+---
+Previous checkpoint follows:
+
 # Gazebo source observation review — current checkpoint
 
 **UNRESOLVED / NOT_EXECUTION_READY / Stage B BLOCKED**. Read-only source/build/debug provenance review started at 60eabba9a1a384d85b56697e33c294b46d83bffa on experiment/dart-internal-trace, clean. Used context-handoff and required instructions/audit. No source modification, build, target test/load/run, Step, service, marker, sudo/install/network acquisition/system/main change. No risk acceptance.

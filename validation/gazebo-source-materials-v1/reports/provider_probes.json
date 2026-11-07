@@ -1,0 +1,36 @@
+[
+  {
+    "url": "https://codeload.github.com/gazebo-release/gz-physics7-release/tar.gz/dd4ca6f5bdd3d1d2b52b9151ee953a562c3dbbd2",
+    "file": "physics-release-7.8.tar.gz",
+    "sha256": "5319a1049cfe9b9a616db7c8ba4c51a9f701577f157b2388ed823bd1d677d751",
+    "bytes": 9840
+  },
+  {
+    "url": "https://packages.osrfoundation.org/gazebo/ubuntu-stable/pool/main/g/gz-physics7/gz-physics7_7.8.0-1~noble.dsc",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://packages.osrfoundation.org/gazebo/ubuntu-stable/pool/main/g/gz-physics7/gz-physics7_7.8.0-1~noble_amd64.buildinfo",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://packages.osrfoundation.org/gazebo/ubuntu-stable/pool/main/g/gz-sim8/gz-sim8_8.15.0-1~noble_amd64.buildinfo",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://packages.osrfoundation.org/gazebo/ubuntu-stable/pool/main/d/dart/dart_6.13.2+ds1-1~osrf2~noble_amd64.buildinfo",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://packages.osrfoundation.org/gazebo/ubuntu-stable/pool/main/g/gz-physics7/libgz-physics7-dartsim-dbgsym_7.8.0-1~noble_amd64.ddeb",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://packages.osrfoundation.org/gazebo/ubuntu-stable/pool/main/g/gz-physics7/libgz-physics7-dartsim-dbg_7.8.0-1~noble_amd64.deb",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://packages.osrfoundation.org/gazebo/ubuntu-stable/pool/main/d/dart/libdart-core+collisions+odelcpsolver6.13-dbgsym_6.13.2+ds1-1~osrf2~noble_amd64.ddeb",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "role": "physics_dart_plugin",
+    "path": "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+    "build_id": "c53e1a304ceb0f0dac85ff0e4872d0ffc50a28ac",
+    "sha256": "1ee9350aa09d5a5eb43a5075c9c61d2cdcb85113d2ff1e0f32136847edf1688e",
+    "selected_dynamic_symbols": [
+      "00000000001dee80 T gz::physics::dartsim::CustomFeatures::GetDartsimWorld(gz::physics::Identity const&)",
+      "00000000002dc6b8 V typeinfo for dart::collision::GzCollisionDetector",
+      "00000000002dc6c8 V typeinfo for dart::collision::GzOdeCollisionDetector",
+      "00000000002dc700 V typeinfo for dart::collision::GzBulletCollisionDetector",
+      "00000000001def70 T virtual thunk to gz::physics::dartsim::CustomFeatures::GetDartsimWorld(gz::physics::Identity const&)"
+    ],
+    "runtime_object_identity": "UNVERIFIED"
+  },
+  {
+    "role": "dart_bullet",
+    "path": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+    "build_id": "8bda73145d9c6cc97d6faff5895c2ce1aa091f6f",
+    "sha256": "897709e0c988e9e562c662292ed5bc860bce70ee2c64499501f54a6b5ca02201",
+    "selected_dynamic_symbols": [
+      "0000000000017860 T dart::collision::BulletCollisionDetector::getType[abi:cxx11]() const"
+    ],
+    "runtime_object_identity": "UNVERIFIED"
+  },
+  {
+    "role": "dart_ode",
+    "path": "/usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.13.2",
+    "build_id": "2cbacdc0e4014e0ee69c4deeacd2d088d564599e",
+    "sha256": "2940e0bd6b056f186d3596e051a26ec25f1c27add88d870cdfe673785dad4b44",
+    "selected_dynamic_symbols": [
+      "00000000000177c0 T dart::collision::OdeCollisionDetector::getType[abi:cxx11]() const"
+    ],
+    "runtime_object_identity": "UNVERIFIED"
+  }
+]

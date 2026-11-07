@@ -1,0 +1,11 @@
+{
+  "baseline_head": "9fba01825e6acdcd9fc9ef67aa72cfd44f3c8aac",
+  "selected_existing_file_checks": 34,
+  "changed_or_missing": [],
+  "main_head_status": "UNCHANGED",
+  "gazebo_runtime_paths": "ABSENT",
+  "build_target_execution_service_marker": "NOT_PERFORMED",
+  "source_modification_patch_application": "NOT_PERFORMED",
+  "scope": "selected inputs/install ELF/markers only; not whole-tree byte inventory",
+  "stage_b": "BLOCKED"
+}

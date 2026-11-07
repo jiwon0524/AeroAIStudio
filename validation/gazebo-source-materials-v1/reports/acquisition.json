@@ -1,0 +1,58 @@
+[
+  {
+    "name": "sim.dsc",
+    "url": "https://packages.osrfoundation.org/gazebo/ubuntu-stable/pool/main/g/gz-sim8/gz-sim8_8.15.0-1~noble.dsc",
+    "status": 200,
+    "sha256": "84ab65ae652fc95536e499c6a46e2f7c59bb986bb973b802ad4fee1f19f52ac0",
+    "bytes": 1790
+  },
+  {
+    "name": "sim.orig.tar.bz2",
+    "url": "https://packages.osrfoundation.org/gazebo/ubuntu-stable/pool/main/g/gz-sim8/gz-sim8_8.15.0.orig.tar.bz2",
+    "status": 200,
+    "sha256": "f457478cc8b319be148aa1e7a3bc14042c333c8881c1f92ea6d498344fea891d",
+    "bytes": 63367558
+  },
+  {
+    "name": "sim.debian.tar.xz",
+    "url": "https://packages.osrfoundation.org/gazebo/ubuntu-stable/pool/main/g/gz-sim8/gz-sim8_8.15.0-1~noble.debian.tar.xz",
+    "status": 200,
+    "sha256": "fd14fe0cf6caeeadbae7c408b0a4b295137e175c70c304b56f615d15670bd806",
+    "bytes": 2452
+  },
+  {
+    "name": "sim-dbg.deb",
+    "url": "https://packages.osrfoundation.org/gazebo/ubuntu-stable/pool/main/g/gz-sim8/libgz-sim8-dbg_8.15.0-1~noble_amd64.deb",
+    "status": 200,
+    "sha256": "4884d33c8036df02b275149797181316b962edd52b6864a924f436a69cb660cb",
+    "bytes": 192170392
+  },
+  {
+    "name": "dart.orig.tar.xz",
+    "url": "https://packages.osrfoundation.org/gazebo/ubuntu-stable/pool/main/d/dart/dart_6.13.2+ds1.orig.tar.xz",
+    "status": 200,
+    "sha256": "b900820b71463476463b9daeb31e81c74ebf59bd95139b7f833f5f6bb9b8058e",
+    "bytes": 10968976
+  },
+  {
+    "name": "physics-pool.html",
+    "url": "https://packages.osrfoundation.org/gazebo/ubuntu-stable/pool/main/g/gz-physics7/",
+    "status": 200,
+    "sha256": "dd6e15ffd4fc4bbbc1ddfdbbc01de55c45be0abd63e4b6002cc0c1c00b721991",
+    "bytes": 9235
+  },
+  {
+    "name": "sim-pool.html",
+    "url": "https://packages.osrfoundation.org/gazebo/ubuntu-stable/pool/main/g/gz-sim8/",
+    "status": 200,
+    "sha256": "72190a6a8f9d53516307db6e58c3dbf1f253e44876152bc2e9754d76402507bd",
+    "bytes": 4341
+  },
+  {
+    "name": "dart-pool.html",
+    "url": "https://packages.osrfoundation.org/gazebo/ubuntu-stable/pool/main/d/dart/",
+    "status": 200,
+    "sha256": "28c64c79db25226b934027e469667d34a074acefd3121ca6f2183b2cc2a3c26c",
+    "bytes": 35475
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "role": "physics",
+    "method": "gdb static symbol-file/info line ONLY; no inferior/run/attach",
+    "rc": 0,
+    "output": "Line 1044 of \"/usr/src/gz-sim8-8.15.0-1~noble/src/systems/physics/Physics.cc\" starts at address 0xb850c <_ZN2gz3sim2v87systems7Physics6UpdateERKNS1_10UpdateInfoERNS1_22EntityComponentManagerE+124> and ends at 0xb8511 <_ZN2gz3sim2v87systems7Physics6UpdateERKNS1_10UpdateInfoERNS1_22EntityComponentManagerE+129>.\nLine 199 of \"/usr/include/c++/13/bits/unique_ptr.h\" starts at address 0xb8511 <_ZN2gz3sim2v87systems7Physics6UpdateERKNS1_10UpdateInfoERNS1_22EntityComponentManagerE+129> and ends at 0xb851d <_ZN2gz3sim2v87systems7Physics6UpdateERKNS1_10UpdateInfoERNS1_22EntityComponentManagerE+141>.\nLine 1050 of \"/usr/src/gz-sim8-8.15.0-1~noble/src/systems/physics/Physics.cc\" starts at address 0xb8534 <_ZN2gz3sim2v87systems7Physics6UpdateERKNS1_10UpdateInfoERNS1_22EntityComponentManagerE+164> and ends at 0xb8540 <_ZN2gz3sim2v87systems7Physics6UpdateERKNS1_10UpdateInfoERNS1_22EntityComponentManagerE+176>.\nLine 1082 of \"/usr/src/gz-sim8-8.15.0-1~noble/src/systems/physics/Physics.cc\" starts at address 0xb11b4 <_ZN2gz3sim2v87systems14PhysicsPrivate21CreatePhysicsEntitiesERKNS1_22EntityComponentManagerEb+180> and ends at 0xb11b9 <_ZN2gz3sim2v87systems14PhysicsPrivate21CreatePhysicsEntitiesERKNS1_22EntityComponentManagerEb+185>.\n",
+    "stderr": ""
+  },
+  {
+    "role": "runner",
+    "method": "gdb static symbol-file/info line ONLY; no inferior/run/attach",
+    "rc": 0,
+    "output": "Line 367 of \"/usr/src/gz-sim8-8.15.0-1~noble/src/SimulationRunner.cc\" starts at address 0x161170 <_ZN2gz3sim2v816SimulationRunner17UpdateCurrentInfoEv> and ends at 0x161195 <_ZN2gz3sim2v816SimulationRunner17UpdateCurrentInfoEv+37>.\nNo line number information available for address 0x99b86 <_ZN2gz3sim2v816SimulationRunner17UpdateCurrentInfoEv.cold>\nLine 762 of \"/usr/src/gz-sim8-8.15.0-1~noble/src/SimulationRunner.cc\" starts at address 0x162dd0 <_ZN2gz3sim2v816SimulationRunner3RunEm> and ends at 0x162e01 <_ZN2gz3sim2v816SimulationRunner3RunEm+49>.\nNo line number information available for address 0x99d68 <_ZN2gz3sim2v816SimulationRunner3RunEm.cold>\nLine 1015 of \"/usr/src/gz-sim8-8.15.0-1~noble/src/SimulationRunner.cc\" starts at address 0x16b690 <_ZN2gz3sim2v816SimulationRunner4StepERKNS1_10UpdateInfoE> and ends at 0x16b694 <_ZN2gz3sim2v816SimulationRunner4StepERKNS1_10UpdateInfoE+4>.\n",
+    "stderr": ""
+  }
+]

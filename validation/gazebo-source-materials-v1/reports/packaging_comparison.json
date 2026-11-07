@@ -1,0 +1,81 @@
+{
+  "changelogs": [
+    {
+      "role": "sim",
+      "source_changelog": "validation/gazebo-source-materials-v1/work/extracted/sim-packaging/debian/changelog",
+      "installed_changelog": "/usr/share/doc/libgz-sim8/changelog.Debian.gz",
+      "installed_exists": true,
+      "changelog_bytes_match": true
+    },
+    {
+      "role": "physics",
+      "source_changelog": "validation/gazebo-source-materials-v1/work/extracted/physics-release/gz-physics7-release-dd4ca6f5bdd3d1d2b52b9151ee953a562c3dbbd2/noble/debian/changelog",
+      "installed_changelog": "/usr/share/doc/libgz-physics7-dartsim/changelog.Debian.gz",
+      "installed_exists": true,
+      "changelog_bytes_match": true
+    },
+    {
+      "role": "dart",
+      "source_changelog": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/changelog",
+      "installed_changelog": "/usr/share/doc/libdart-core+collisions+odelcpsolver6.13/changelog.Debian.gz",
+      "installed_exists": true,
+      "changelog_bytes_match": false,
+      "source_starts_with_installed_changelog": false,
+      "note": "Only older entries replaced by installed truncation footer; all retained changelog history matches. See work/dart_changelog.diff.",
+      "installed_history_before_truncation_matches": true
+    }
+  ],
+  "sim_patch_series": "ABSENT in checksum-matched debian archive",
+  "physics_patch_series": "ABSENT in noble packaging commit; exact native source package unavailable",
+  "dart_patch_series": [
+    "disable-skeltest-for-armhf-mips-x86.patch",
+    "fix-test_ForceDependentSlip-armel.patch",
+    "0001-respect-ldflags.patch",
+    "0005-build-type-none.patch",
+    "0002-use-system-gtest.patch",
+    "0007-fix-ikfast.patch",
+    "0004-fix-pkgconfig.patch",
+    "0006-Reduce-test-result-accuracy-to-fix-i386.patch",
+    "0013-Deaktivate-assert-failing-with-Bullet-3.24.patch"
+  ],
+  "dart_patches": [
+    {
+      "file": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/disable-skeltest-for-armhf-mips-x86.patch",
+      "sha256": "3aae8b85cc07691dc4b6c0a3aa5c03b7687c79b3fb47527e6ee2cc5b0101edae"
+    },
+    {
+      "file": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/fix-test_ForceDependentSlip-armel.patch",
+      "sha256": "f36359fc1da9579e0b1926c76c09500abe81c7e394e988c9da1daa80bba54eab"
+    },
+    {
+      "file": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0004-fix-pkgconfig.patch",
+      "sha256": "60c7c1b0d51b97bf3360f00a6af720ea4991920aaaa4bc61cd2e01e3a7280f93"
+    },
+    {
+      "file": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0005-build-type-none.patch",
+      "sha256": "feb2d5c9ec84ed84f841ae17ec9a7db360746c5bf8c1ab08fdae3514d72aa3cd"
+    },
+    {
+      "file": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0001-respect-ldflags.patch",
+      "sha256": "2614dadae6c00540ae471f06204cc92730e9da8fe39f546f17422d1a43331a2a"
+    },
+    {
+      "file": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0002-use-system-gtest.patch",
+      "sha256": "5257806f7368648c3d93fe04ab7bd70c789824d32f41e3633ba9965bad236531"
+    },
+    {
+      "file": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0013-Deaktivate-assert-failing-with-Bullet-3.24.patch",
+      "sha256": "13afd5b12ff1729156b3157d06140671a6a4097bbd46a547370dfb857cba0ba3"
+    },
+    {
+      "file": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0006-Reduce-test-result-accuracy-to-fix-i386.patch",
+      "sha256": "1e4de1d4dc79f02e2bccc495190c2fcde84ec431403f5c282860e6457a48ed9b"
+    },
+    {
+      "file": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0007-fix-ikfast.patch",
+      "sha256": "1b84e3b189837e49ffc15a886cbfe2fee986b7ab6adc3e91b21398976a1b0e0d"
+    }
+  ],
+  "patches_applied": false,
+  "package_signature_verification": "NOT_PERFORMED: HTTPS provider hashes/DSC checksums and installed metadata/debug identity; not signed archive-chain verification"
+}

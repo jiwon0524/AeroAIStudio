@@ -1,0 +1,38 @@
+[
+  {
+    "role": "sim_core",
+    "path": "validation/gazebo-source-materials-v1/work/extracted/sim-debug/usr/lib/debug/.build-id/47/85a0f397c1a9fea8eea659d89ccb559d82360f.debug",
+    "exists": true,
+    "expected_build_id": "4785a0f397c1a9fea8eea659d89ccb559d82360f",
+    "build_id": "4785a0f397c1a9fea8eea659d89ccb559d82360f",
+    "build_id_matches": true,
+    "sha256": "322735b9277e8c98e3a9bd0b59695b5a1dd7085e02c04c886ba2413a8584fa55",
+    "debuglink_crc_expected": 3708878768,
+    "debuglink_crc_actual": 3708878768,
+    "debuglink_crc_matches": true
+  },
+  {
+    "role": "sim_physics_system",
+    "path": "validation/gazebo-source-materials-v1/work/extracted/sim-debug/usr/lib/debug/.build-id/d8/4fdca46ee5b0a981496fde744460e1b1d9deaa.debug",
+    "exists": true,
+    "expected_build_id": "d84fdca46ee5b0a981496fde744460e1b1d9deaa",
+    "build_id": "d84fdca46ee5b0a981496fde744460e1b1d9deaa",
+    "build_id_matches": true,
+    "sha256": "82cdd9672a5a24e7e2ab40a1a047c2de452f227d68450ae9bf70e9f6f8bdbf1b",
+    "debuglink_crc_expected": 2629931048,
+    "debuglink_crc_actual": 2629931048,
+    "debuglink_crc_matches": true
+  },
+  {
+    "role": "sim_cli_library",
+    "path": "validation/gazebo-source-materials-v1/work/extracted/sim-debug/usr/lib/debug/.build-id/37/96557281a8e660befdccee64f5368d5175fc1a.debug",
+    "exists": true,
+    "expected_build_id": "3796557281a8e660befdccee64f5368d5175fc1a",
+    "build_id": "3796557281a8e660befdccee64f5368d5175fc1a",
+    "build_id_matches": true,
+    "sha256": "45456800a65ad4ee2113f989adc3d023d63e9bba564a382b52af84c2259ff344",
+    "debuglink_crc_expected": 479821863,
+    "debuglink_crc_actual": 479821863,
+    "debuglink_crc_matches": true
+  }
+]

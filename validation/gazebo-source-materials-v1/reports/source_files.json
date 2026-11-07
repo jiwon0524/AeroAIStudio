@@ -1,0 +1,94 @@
+[
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/SimulationRunner.cc",
+    "sha256": "81f0c67cc18dbbd4e7e047d987b3ea0999851935467f8a7d74279e33a04f5fe9"
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/SystemManager.cc",
+    "sha256": "2cfc3bfdc84cbd715a613e6b2d2c0a42ffb9fc5040c2eeb425820f69450bfd1a"
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/systems/physics/Physics.cc",
+    "sha256": "5d5c404151f8ae4f7825c43c571dc151c79b9a587c69db35996d7cabbc4e76e1"
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/systems/physics/Physics.hh",
+    "sha256": "34acf8be55a25eabc29b52e892af0e520b1ee59cc7d49ab0398d9ac5f1dd58d1"
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/systems/physics/CMakeLists.txt",
+    "sha256": "f11899941e6ff3ccdaaa37139e59849d9d4eeab07201c5e0c1111d062be25ef5"
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/CMakeLists.txt",
+    "sha256": "32de4e4874f5d6edd2c6dfc6313577c53f229f3d3368d644b9c4bb6cdafcf4d5"
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/World.hh",
+    "sha256": "d052c92e9d35214fe5f33fd1e82b9c6d4e1f64773b48d51e4ce9f98e9f324030"
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/CustomFeatures.cc",
+    "sha256": "23183e2cd977c507ee3fa7c454032f8cdcc53304168d2b7677a286ac336a6541"
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/WorldFeatures.cc",
+    "sha256": "89c89db7dfbf671ec80750bb5e38b8027dbfa3e08014a48b38caeff7d5521d71"
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/EntityManagementFeatures.cc",
+    "sha256": "db63fd480ae913992cfcf69677fdb478f3d6f403add08c5a1bd841aab2f589bf"
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/GzCollisionDetector.cc",
+    "sha256": "bcb648ae849eba9f8d7b64fc6348c29c252a7f40b7cd018eea166a0c6ac68909"
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/GzCollisionDetector.hh",
+    "sha256": "ab36eb9dfa7603bfbd26a677797850568621c31091bdb6e978276105dea4c545"
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/SimulationFeatures.cc",
+    "sha256": "fe2fc764071cac7353a4315b2b3bb2d696620a501e5471bc30623cd4cd720262"
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/SDFFeatures.cc",
+    "sha256": "ef9b59f646ad99020ffc53de0c73984c63c743f5e1fb1ecb6f55fba66915d39e"
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/plugin.cc",
+    "sha256": "6c92bd307de85ef2782b6c953bddf07cafbd5a1efabbcf50f2c899435476d1e5"
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/CMakeLists.txt",
+    "sha256": "1c40854080221c6c8b974236f8a50d9124e30e15a93d1665a100c631a084fc78"
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/simulation/World.cpp",
+    "sha256": "a135de51fb0f5a3db33a2a2af8235cd724695728a8fd9727a20e5b9f74918c06"
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/constraint/ConstraintSolver.cpp",
+    "sha256": "679e625f1ceaa09d870195234c9116baad7a876bd17422dd799e1f382aa61667"
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/bullet/BulletCollisionDetector.cpp",
+    "sha256": "69b9cd30f1ff5ef4c47ee9e5cb632dc9799546f4bf3783230ac881bc6215c9bf"
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/ode/OdeCollisionDetector.cpp",
+    "sha256": "b1c1eb748a255424ce3774b0def266ad73b6694b48a561765e40ebc2b7b489dd"
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/SdfEntityCreator.cc",
+    "sha256": "fbb39c0527bb33d511dc7816e859f5c616d2d4d4f5064607d34ea7e6b4e672b3"
+  },
+  {
+    "path": "validation/gazebo-minimal-physics-v1/fixtures/minimal.sdf",
+    "sha256": "d00ecdde42ee775dc04421e4e46d767811005cde88ae5100d10b2f088940be8e"
+  },
+  {
+    "path": "validation/gazebo-minimal-physics-v1/src/server.cc",
+    "sha256": "63a77b5c476be1380aac79f0d5d6b648f620691f3900a23b6a26d1f920a38899"
+  }
+]

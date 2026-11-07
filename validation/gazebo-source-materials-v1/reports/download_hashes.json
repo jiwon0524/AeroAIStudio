@@ -1,0 +1,110 @@
+[
+  {
+    "file": "validation/gazebo-source-materials-v1/work/downloads/physics-upstream.tar.gz",
+    "sha256": "0d95b1dd3ea8c6f558535efe5fab6ecf5af947902a4367982e6fabd586752266",
+    "bytes": 19252282,
+    "provider_index_sha256": null,
+    "index_hash_matches": null
+  },
+  {
+    "file": "validation/gazebo-source-materials-v1/work/downloads/physics-release-commits.json",
+    "sha256": "9af210245664bce408091083932ef0f0c4b308982f017107675a30736a7fbefd",
+    "bytes": 21298,
+    "provider_index_sha256": null,
+    "index_hash_matches": null
+  },
+  {
+    "file": "validation/gazebo-source-materials-v1/work/downloads/physics-pool.html",
+    "sha256": "dd6e15ffd4fc4bbbc1ddfdbbc01de55c45be0abd63e4b6002cc0c1c00b721991",
+    "bytes": 9235,
+    "provider_index_sha256": null,
+    "index_hash_matches": null
+  },
+  {
+    "file": "validation/gazebo-source-materials-v1/work/downloads/dart.orig.tar.xz",
+    "sha256": "b900820b71463476463b9daeb31e81c74ebf59bd95139b7f833f5f6bb9b8058e",
+    "bytes": 10968976,
+    "provider_index_sha256": "b900820b71463476463b9daeb31e81c74ebf59bd95139b7f833f5f6bb9b8058e",
+    "index_hash_matches": true
+  },
+  {
+    "file": "validation/gazebo-source-materials-v1/work/downloads/sim-dbg.deb",
+    "sha256": "4884d33c8036df02b275149797181316b962edd52b6864a924f436a69cb660cb",
+    "bytes": 192170392,
+    "provider_index_sha256": null,
+    "index_hash_matches": null,
+    "provider_binary_index_sha256": "4884d33c8036df02b275149797181316b962edd52b6864a924f436a69cb660cb",
+    "binary_index_hash_matches": true,
+    "binary_index_source": "Existing OSRF noble main binary-amd64 Packages local apt list; no apt update/install"
+  },
+  {
+    "file": "validation/gazebo-source-materials-v1/work/downloads/sim.dsc",
+    "sha256": "84ab65ae652fc95536e499c6a46e2f7c59bb986bb973b802ad4fee1f19f52ac0",
+    "bytes": 1790,
+    "provider_index_sha256": "84ab65ae652fc95536e499c6a46e2f7c59bb986bb973b802ad4fee1f19f52ac0",
+    "index_hash_matches": true
+  },
+  {
+    "file": "validation/gazebo-source-materials-v1/work/downloads/physics-release-7.8.tar.gz",
+    "sha256": "5319a1049cfe9b9a616db7c8ba4c51a9f701577f157b2388ed823bd1d677d751",
+    "bytes": 9840,
+    "provider_index_sha256": null,
+    "index_hash_matches": null
+  },
+  {
+    "file": "validation/gazebo-source-materials-v1/work/downloads/sim-pool.html",
+    "sha256": "72190a6a8f9d53516307db6e58c3dbf1f253e44876152bc2e9754d76402507bd",
+    "bytes": 4341,
+    "provider_index_sha256": null,
+    "index_hash_matches": null
+  },
+  {
+    "file": "validation/gazebo-source-materials-v1/work/downloads/sim.orig.tar.bz2",
+    "sha256": "f457478cc8b319be148aa1e7a3bc14042c333c8881c1f92ea6d498344fea891d",
+    "bytes": 63367558,
+    "provider_index_sha256": "f457478cc8b319be148aa1e7a3bc14042c333c8881c1f92ea6d498344fea891d",
+    "index_hash_matches": true
+  },
+  {
+    "file": "validation/gazebo-source-materials-v1/work/downloads/Sources.gz",
+    "sha256": "ea7af8c0ea2826ac7ed37d9e332b2420e906af7d5869763b93482109e244c36c",
+    "bytes": 25654,
+    "provider_index_sha256": null,
+    "index_hash_matches": null
+  },
+  {
+    "file": "validation/gazebo-source-materials-v1/work/downloads/dart_6.13.2+ds1-1~osrf2~noble.dsc",
+    "sha256": "15e661dc0b2ac663ae9466bf34347aef87e94b667d62a267f482f5294160b6b3",
+    "bytes": 6165,
+    "provider_index_sha256": "15e661dc0b2ac663ae9466bf34347aef87e94b667d62a267f482f5294160b6b3",
+    "index_hash_matches": true
+  },
+  {
+    "file": "validation/gazebo-source-materials-v1/work/downloads/dart_6.13.2+ds1-1~osrf2~noble.debian.tar.xz",
+    "sha256": "6e9049fcf7c5ddf507dcebd51ccc4e39059376f0e802f7d60398251474295092",
+    "bytes": 13584,
+    "provider_index_sha256": "6e9049fcf7c5ddf507dcebd51ccc4e39059376f0e802f7d60398251474295092",
+    "index_hash_matches": true
+  },
+  {
+    "file": "validation/gazebo-source-materials-v1/work/downloads/physics-release-main.tar.gz",
+    "sha256": "4e43a5df19c50f56920c1668b9d74389321f8081fb103e2ae273ab106ddc75ba",
+    "bytes": 9879,
+    "provider_index_sha256": null,
+    "index_hash_matches": null
+  },
+  {
+    "file": "validation/gazebo-source-materials-v1/work/downloads/dart-pool.html",
+    "sha256": "28c64c79db25226b934027e469667d34a074acefd3121ca6f2183b2cc2a3c26c",
+    "bytes": 35475,
+    "provider_index_sha256": null,
+    "index_hash_matches": null
+  },
+  {
+    "file": "validation/gazebo-source-materials-v1/work/downloads/sim.debian.tar.xz",
+    "sha256": "fd14fe0cf6caeeadbae7c408b0a4b295137e175c70c304b56f615d15670bd806",
+    "bytes": 2452,
+    "provider_index_sha256": "fd14fe0cf6caeeadbae7c408b0a4b295137e175c70c304b56f615d15670bd806",
+    "index_hash_matches": true
+  }
+]

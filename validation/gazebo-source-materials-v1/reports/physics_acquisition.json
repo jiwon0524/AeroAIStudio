@@ -1,0 +1,23 @@
+[
+  {
+    "name": "physics-release-commits.json",
+    "url": "https://api.github.com/repos/gazebo-release/gz-physics7-release/commits?path=noble/debian/changelog&per_page=30",
+    "status": 200,
+    "sha256": "9af210245664bce408091083932ef0f0c4b308982f017107675a30736a7fbefd",
+    "bytes": 21298
+  },
+  {
+    "name": "physics-upstream.tar.gz",
+    "url": "https://codeload.github.com/gazebosim/gz-physics/tar.gz/refs/tags/gz-physics7_7.8.0",
+    "status": 200,
+    "sha256": "0d95b1dd3ea8c6f558535efe5fab6ecf5af947902a4367982e6fabd586752266",
+    "bytes": 19252282
+  },
+  {
+    "name": "physics-release-main.tar.gz",
+    "url": "https://codeload.github.com/gazebo-release/gz-physics7-release/tar.gz/refs/heads/main",
+    "status": 200,
+    "sha256": "4e43a5df19c50f56920c1668b9d74389321f8081fb103e2ae273ab106ddc75ba",
+    "bytes": 9879
+  }
+]
