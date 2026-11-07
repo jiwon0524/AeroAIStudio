@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-07T05:37:14.237739+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "f58d45856ddf423d05a5dc52482e9d02f427142f",
+    "branch": "experiment/dart-internal-trace",
+    "status": []
+  },
+  "evidence": [
+    {
+      "path": "validation/dart-skeleton-lifetime-v1/reports/verdict.json",
+      "sha256": "1646dd57302153d59f28d30f47178affb224dbf9a7f082243a5aab803da314b6"
+    },
+    {
+      "path": "validation/dart-skeleton-lifetime-v1/reports/integrity.json",
+      "sha256": "a4a4ccc2b29bbb5e3d939b9ed9892a9d69fdd031532eb5f3f9574a02c2289d0c"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}

@@ -1,3 +1,20 @@
+# Empty Skeleton Lifetime V1 — current checkpoint
+
+**STATIC_PREPARED_NOT_EXECUTED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. 이번 명시 승인 범위는 최소 C++ fixture 컴파일·링크 및 비실행 정적 검증까지다. 실제 DART 로딩/객체/서비스/Probe A 재실행0. 기준 HEAD f58d45856ddf423d05a5dc52482e9d02f427142f와 clean 상태를 확인했다.
+
+신규 `validation/dart-skeleton-lifetime-v1/`만 구현하고 이 인계를 갱신했다. `fixtures/skeleton.cpp`: host strict Core16 identity와 namespace/cgroup gate -> GO 뒤 빈 Skeleton 1개 create/null/바디0/관절0 -> weak_ptr 유효 -> shared_ptr reset -> expired. 관절/바디/충돌/World 생성 없음. dynamic startup constructors는 main 이전이므로 객체 생성 전 식별과 초기화 전 차단을 구분한다.
+
+compile/link 성공, AST/ELF/15 static checks PASS. 최초 missing external header는 기존 baseline-source include fallback으로 해결했으며 build_result에 남겼다. matching packaged header+fallback과 설치 binary의 전체 ABI는 인증하지 않는다. 새 host/native runtime 결합·64MiB 충분성·초과강제효과는 미검증. `reports/approval_plan.md`, `runtime_contract.json`, `manifest.json`, `static_review.json`, `build_result.json`, `integrity.json`, `verdict.json` 참조.
+
+기존 Probe A runtime JSON 두 기록과 marker는 동일 unit의 Core open/close/exit0을 기록하며 사용자가 당시 승인 미확인·one-shot 소진을 명시했다. 이전 인계의 Core 미실행 문구는 역사 기록이며 현재 로컬 증거와 다르다. 기존 증거/marker 보존, 재실행 금지. 새 work/runtime_collection_attempt.json·runtime_attempt.json과 reports/runtime는 부재이며 실행 승인 후 exclusive 생성한다. 명령은 새 approval_plan에만 따르고 아직 실행하지 않았다.
+
+다음 최소 작업: 승인안과 초기화/파일identity fallback/ABI·메모리·timeout 위험 검토 후, 별도 명시 승인된 단1회 빈 Skeleton 실행 여부 결정. 승인 전 실행·기존 marker 삭제·자동 재시도·제한 상향 금지. Probe B~D/Gazebo/World::step/Stage B는 별도 승인 전 금지.
+
+원본 main과 모든 기존 evidence는 보존 해시 비교 reports/integrity.json 참조. 현재 작업 raw manifest/ELF/pin 및 ignored 출력은 /tmp 로컬이므로 Git 게시만으로 기기 이동되지 않는다. runtime 작업은 시작하지 않았고 compiler는 종료했다. CWD snapshot tasks0; 외부 CWD/remote/container는 UNKNOWN. 공통 context-handoff 스킬 변경 없음. 경량 source/reports와 인계만 명시 게시하며 실제 SHA는 로컬 git_publication.json과 최종응답 참조.
+
+---
+이하 이전 체크포인트 (현재 범위·다음 행동은 위 기록 우선):
+
 # DART Probe A Runtime Launch Preparation V1 — current checkpoint
 
 **PROBE_A_LAUNCH_READY / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. 실제 DART/Gazebo/World/Stage B 실행은 없었다. Core-only Runtime은 별도 승인이 필요하며 Autonomous Experiment Lab은 DEFERRED 상태다.
@@ -404,18 +421,22 @@ Common skill source remains outside the project at `/home/jiwon/Projects/my-agen
 ```context-handoff-state
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06T15:54:27.486907+00:00",
+  "updated_at": "2026-11-07T05:37:14.237739+00:00",
   "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
   "host": "jiwon-System-Product-Name",
   "git": {
-    "head": "ce1eb75d785680090ca6930d2390bd491e10b704",
+    "head": "f58d45856ddf423d05a5dc52482e9d02f427142f",
     "branch": "experiment/dart-internal-trace",
     "status": []
   },
   "evidence": [
     {
-      "path": "validation/dart-cgroup-smoke-v1/reports/verdict.json",
-      "sha256": "9df4c8588f3809285133e900a588cce4d49fabd3006d92af4c2b680f8d3e5919"
+      "path": "validation/dart-skeleton-lifetime-v1/reports/verdict.json",
+      "sha256": "1646dd57302153d59f28d30f47178affb224dbf9a7f082243a5aab803da314b6"
+    },
+    {
+      "path": "validation/dart-skeleton-lifetime-v1/reports/integrity.json",
+      "sha256": "a4a4ccc2b29bbb5e3d939b9ed9892a9d69fdd031532eb5f3f9574a02c2289d0c"
     }
   ],
   "processes": {

@@ -1,0 +1,9 @@
+{
+  "status": "COMPILE_LINK_PASS",
+  "execution": "NOT_RUN",
+  "initial_failure": "safe_convhull_3d.h absent in extracted packaged include; no output ELF",
+  "resolution": "add preserved baseline-source include after extracted package include",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "command_reference": "scripts/build.sh",
+  "header_provenance": "matching extracted packaged DART headers + existing baseline-source external fallback + system Eigen; whole header/binary ABI UNVERIFIED"
+}
