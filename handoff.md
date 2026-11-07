@@ -12,6 +12,11 @@
 
 다음 최소 작업: 이 무해 통합 결과와 fallback/64MiB 위험 검토 후 별도 실제Core-only runtime 실행 범위 승인. 현재 종료 후 실제 runtime 자동진행 금지. 실제 loader branch 링크/pin/strict Core gate 실행 전 구체 승인 필요. production/시스템/원본main/Clock/Capture 변경0. 게시SHA/원격일치는 로컬 receipt 및 최종응답 참조.
 
+## 별도 향후 요구사항 — Autonomous AI Experiment Lab
+
+사용자 요청으로 `docs/AUTONOMOUS_EXPERIMENT_LAB_PLAN.md`에 범용 자율 실험·지도3D·알고리즘 확장·Brain Map/Replay·평가 분리 요구사항과 기존 코드 재사용 후보를 기록했다. 상태 DEFERRED, DART/Gazebo 검증 완료가 구현 착수 선행조건이다. 이번에는 문서만 추가하고 코드·테스트·Runtime 실행을 하지 않았다. Fixture INTEGRATION_READY는 착수 조건 충족이 아니다. daemon/자동시작 없음, 실제 드론 제어는 별도 안전검증·승인 전 비활성 유지. 이 backlog는 DART 작업과 독립 관리하며 기존 제한을 해제하지 않는다.
+
+
 ---
 이하 이전 체크포인트:
 
