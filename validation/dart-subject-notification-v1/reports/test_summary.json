@@ -1,0 +1,19 @@
+{
+  "status": "PASS_NON_EXECUTING",
+  "tests": 26,
+  "failures": 0,
+  "errors": 0,
+  "raw_log": "work/static_tests.log",
+  "target_execution": false,
+  "service_started": false,
+  "runtime_marker_created": false,
+  "checks": [
+    "Core16/fixture FD identity and62 static resolution edges",
+    "wrong/missing alias,provider,FD,interpreter,metadata rejected",
+    "source/manifest pins",
+    "mock pre-marker static/manager failure",
+    "exact event and callback count/order/window/unregistration validation",
+    "weak/exit-only evidence rejected",
+    "callback collector source review no allocation/output"
+  ]
+}

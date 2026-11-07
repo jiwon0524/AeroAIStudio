@@ -1,0 +1,16 @@
+{
+  "status": "COMPILE_LINK_PASS_NOT_EXECUTED",
+  "identity": {
+    "sha256": "453d44703cbe423976aebe721311d22e959fc2ab5613539d7584381593749e9d",
+    "build_id": "5413820f21ad247eeac0a1048667b334aeb1344d",
+    "device": 66309,
+    "inode": 3433631,
+    "size": 86944,
+    "mtime_ns": 1794057094207257637,
+    "ctime_ns": 1794057094207267503
+  },
+  "command": "scripts/build.sh",
+  "stderr": "",
+  "header_provenance": "same extracted packaged DART + preserved baseline external fallback + Eigen; whole installed ABI unverified",
+  "no_interposition": true
+}

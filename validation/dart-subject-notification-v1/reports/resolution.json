@@ -1,0 +1,723 @@
+{
+  "status": "PASS_STATIC_RESOLUTION",
+  "edges": [
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "needed": "libdart-external-odelcpsolver.so.6.13",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13",
+      "provider": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+      "sha256": "b890ed6936ea7cf486303fc5101ee5ff68356fc89596273ebaef83671aa4cb16"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "needed": "libfcl.so.0.7",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7",
+      "provider": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "sha256": "3436bd79e03ed39efce6f7abfd64ed35429d5574bd76337b90edb1fb85506afb"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "needed": "liboctomap.so.1.9",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9",
+      "provider": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+      "sha256": "ec8bfd6cce31e7fd3dced8d5489109f6bca3d066c8ac3035b032940a8eb9ef50"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "needed": "liboctomath.so.1.9",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9",
+      "provider": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+      "sha256": "efd1dcfc111d271e13173f02153c0a950bbce9ccd53d1319990a5e6ff56c8dca"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "needed": "libassimp.so.5",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libassimp.so.5",
+      "provider": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "sha256": "f5524225032201d129cac2adf305af9c7ffcf612d8662f3c87a2d891d5cd3d18"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "needed": "libstdc++.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "sha256": "1fd75fe70354a416d75aef22bcae68c47bd25d20e2d0568c30b1a9838cf62f11"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "needed": "libm.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "sha256": "fce00b6f25f459cf4ae0b7fae4257909a1a8a86f9149e7c029a5d617baf1ccd0"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "needed": "libgcc_s.so.1",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "sha256": "d93224d2b0dab4247598be683adca02f5cf00586f99c187579cd7e92058fb7cb"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "needed": "libc.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+      "needed": "libstdc++.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "sha256": "1fd75fe70354a416d75aef22bcae68c47bd25d20e2d0568c30b1a9838cf62f11"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+      "needed": "libc.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "needed": "libccd.so.2",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libccd.so.2",
+      "provider": "/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+      "sha256": "aa285639c8e4fa83f5987357fdc882e6df614949e40a7e85676b640ffb25f4f1"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "needed": "liboctomap.so.1.9",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9",
+      "provider": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+      "sha256": "ec8bfd6cce31e7fd3dced8d5489109f6bca3d066c8ac3035b032940a8eb9ef50"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "needed": "liboctomath.so.1.9",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9",
+      "provider": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+      "sha256": "efd1dcfc111d271e13173f02153c0a950bbce9ccd53d1319990a5e6ff56c8dca"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "needed": "libstdc++.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "sha256": "1fd75fe70354a416d75aef22bcae68c47bd25d20e2d0568c30b1a9838cf62f11"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "needed": "libm.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "sha256": "fce00b6f25f459cf4ae0b7fae4257909a1a8a86f9149e7c029a5d617baf1ccd0"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "needed": "libgcc_s.so.1",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "sha256": "d93224d2b0dab4247598be683adca02f5cf00586f99c187579cd7e92058fb7cb"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "needed": "libc.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+      "needed": "liboctomath.so.1.9",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9",
+      "provider": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+      "sha256": "efd1dcfc111d271e13173f02153c0a950bbce9ccd53d1319990a5e6ff56c8dca"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+      "needed": "libstdc++.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "sha256": "1fd75fe70354a416d75aef22bcae68c47bd25d20e2d0568c30b1a9838cf62f11"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+      "needed": "libm.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "sha256": "fce00b6f25f459cf4ae0b7fae4257909a1a8a86f9149e7c029a5d617baf1ccd0"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+      "needed": "libgcc_s.so.1",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "sha256": "d93224d2b0dab4247598be683adca02f5cf00586f99c187579cd7e92058fb7cb"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+      "needed": "libc.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+      "needed": "libstdc++.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "sha256": "1fd75fe70354a416d75aef22bcae68c47bd25d20e2d0568c30b1a9838cf62f11"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+      "needed": "libm.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "sha256": "fce00b6f25f459cf4ae0b7fae4257909a1a8a86f9149e7c029a5d617baf1ccd0"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+      "needed": "libgcc_s.so.1",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "sha256": "d93224d2b0dab4247598be683adca02f5cf00586f99c187579cd7e92058fb7cb"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+      "needed": "libc.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "needed": "libz.so.1",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libz.so.1.3",
+      "sha256": "f61677c7bdb7c2aa2a243ea781bfd16afcb361cede7b4ef76127a9d8eb9a5242"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "needed": "libdraco.so.8",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libdraco.so.8",
+      "provider": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+      "sha256": "b368d354f2778606b2553037fc8a3212719ee76a82711c60f7c72de49818e781"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "needed": "libminizip.so.1",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libminizip.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0",
+      "sha256": "7397458805900a67287673a7d469d1ff207525ae7694ed885e8603d0164828bf"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "needed": "libpugixml.so.1",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+      "sha256": "b5493d9c8c6e36e3b72e38564b7e287ad925ab717577ded997465f9ac9da1c9e"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "needed": "libstdc++.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "sha256": "1fd75fe70354a416d75aef22bcae68c47bd25d20e2d0568c30b1a9838cf62f11"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "needed": "libm.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "sha256": "fce00b6f25f459cf4ae0b7fae4257909a1a8a86f9149e7c029a5d617baf1ccd0"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "needed": "libgcc_s.so.1",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "sha256": "d93224d2b0dab4247598be683adca02f5cf00586f99c187579cd7e92058fb7cb"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "needed": "libc.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "needed": "libm.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "sha256": "fce00b6f25f459cf4ae0b7fae4257909a1a8a86f9149e7c029a5d617baf1ccd0"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "needed": "libc.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "needed": "ld-linux-x86-64.so.2",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "provider": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "sha256": "c20a2dc8917c755f02b94049356320fe1f62ac7d9f8994731f807d9df39302da"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "needed": "libgcc_s.so.1",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "sha256": "d93224d2b0dab4247598be683adca02f5cf00586f99c187579cd7e92058fb7cb"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "needed": "libc.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "needed": "ld-linux-x86-64.so.2",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "provider": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "sha256": "c20a2dc8917c755f02b94049356320fe1f62ac7d9f8994731f807d9df39302da"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "needed": "libc.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "needed": "ld-linux-x86-64.so.2",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "provider": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "sha256": "c20a2dc8917c755f02b94049356320fe1f62ac7d9f8994731f807d9df39302da"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "needed": "ld-linux-x86-64.so.2",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "provider": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "sha256": "c20a2dc8917c755f02b94049356320fe1f62ac7d9f8994731f807d9df39302da"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+      "needed": "libm.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "sha256": "fce00b6f25f459cf4ae0b7fae4257909a1a8a86f9149e7c029a5d617baf1ccd0"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+      "needed": "libc.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libz.so.1.3",
+      "needed": "libc.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+      "needed": "libstdc++.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "sha256": "1fd75fe70354a416d75aef22bcae68c47bd25d20e2d0568c30b1a9838cf62f11"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+      "needed": "libm.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "sha256": "fce00b6f25f459cf4ae0b7fae4257909a1a8a86f9149e7c029a5d617baf1ccd0"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+      "needed": "libgcc_s.so.1",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "sha256": "d93224d2b0dab4247598be683adca02f5cf00586f99c187579cd7e92058fb7cb"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+      "needed": "libc.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+      "needed": "ld-linux-x86-64.so.2",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "provider": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "sha256": "c20a2dc8917c755f02b94049356320fe1f62ac7d9f8994731f807d9df39302da"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0",
+      "needed": "libz.so.1",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libz.so.1.3",
+      "sha256": "f61677c7bdb7c2aa2a243ea781bfd16afcb361cede7b4ef76127a9d8eb9a5242"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0",
+      "needed": "libc.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+      "needed": "libstdc++.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "sha256": "1fd75fe70354a416d75aef22bcae68c47bd25d20e2d0568c30b1a9838cf62f11"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+      "needed": "libm.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "sha256": "fce00b6f25f459cf4ae0b7fae4257909a1a8a86f9149e7c029a5d617baf1ccd0"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+      "needed": "libgcc_s.so.1",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "sha256": "d93224d2b0dab4247598be683adca02f5cf00586f99c187579cd7e92058fb7cb"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+      "needed": "libc.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf"
+    },
+    {
+      "consumer": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-subject-notification-v1/work/notification_fixture",
+      "needed": "libdart.so.6.13",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13",
+      "provider": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "sha256": "f74f4ec9820aee785ef94fb7bedafa7e4c832f209675a8ca1d35019c72b48e06"
+    },
+    {
+      "consumer": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-subject-notification-v1/work/notification_fixture",
+      "needed": "libstdc++.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "sha256": "1fd75fe70354a416d75aef22bcae68c47bd25d20e2d0568c30b1a9838cf62f11"
+    },
+    {
+      "consumer": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-subject-notification-v1/work/notification_fixture",
+      "needed": "libgcc_s.so.1",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "sha256": "d93224d2b0dab4247598be683adca02f5cf00586f99c187579cd7e92058fb7cb"
+    },
+    {
+      "consumer": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-subject-notification-v1/work/notification_fixture",
+      "needed": "libc.so.6",
+      "sandbox_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf"
+    }
+  ],
+  "mounts": {
+    "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "sha256": "c20a2dc8917c755f02b94049356320fe1f62ac7d9f8994731f807d9df39302da"
+    },
+    "/usr/lib/x86_64-linux-gnu/libassimp.so.5": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "sha256": "f5524225032201d129cac2adf305af9c7ffcf612d8662f3c87a2d891d5cd3d18"
+    },
+    "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "sha256": "f5524225032201d129cac2adf305af9c7ffcf612d8662f3c87a2d891d5cd3d18"
+    },
+    "/usr/lib/x86_64-linux-gnu/libc.so.6": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf"
+    },
+    "/usr/lib/x86_64-linux-gnu/libccd.so.2": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+      "sha256": "aa285639c8e4fa83f5987357fdc882e6df614949e40a7e85676b640ffb25f4f1"
+    },
+    "/usr/lib/x86_64-linux-gnu/libccd.so.2.0": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+      "sha256": "aa285639c8e4fa83f5987357fdc882e6df614949e40a7e85676b640ffb25f4f1"
+    },
+    "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+      "sha256": "b890ed6936ea7cf486303fc5101ee5ff68356fc89596273ebaef83671aa4cb16"
+    },
+    "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+      "sha256": "b890ed6936ea7cf486303fc5101ee5ff68356fc89596273ebaef83671aa4cb16"
+    },
+    "/usr/lib/x86_64-linux-gnu/libdart.so.6.13": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "sha256": "f74f4ec9820aee785ef94fb7bedafa7e4c832f209675a8ca1d35019c72b48e06"
+    },
+    "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "sha256": "f74f4ec9820aee785ef94fb7bedafa7e4c832f209675a8ca1d35019c72b48e06"
+    },
+    "/usr/lib/x86_64-linux-gnu/libdraco.so.8": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+      "sha256": "b368d354f2778606b2553037fc8a3212719ee76a82711c60f7c72de49818e781"
+    },
+    "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+      "sha256": "b368d354f2778606b2553037fc8a3212719ee76a82711c60f7c72de49818e781"
+    },
+    "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "sha256": "3436bd79e03ed39efce6f7abfd64ed35429d5574bd76337b90edb1fb85506afb"
+    },
+    "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "sha256": "3436bd79e03ed39efce6f7abfd64ed35429d5574bd76337b90edb1fb85506afb"
+    },
+    "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "sha256": "d93224d2b0dab4247598be683adca02f5cf00586f99c187579cd7e92058fb7cb"
+    },
+    "/usr/lib/x86_64-linux-gnu/libm.so.6": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "sha256": "fce00b6f25f459cf4ae0b7fae4257909a1a8a86f9149e7c029a5d617baf1ccd0"
+    },
+    "/usr/lib/x86_64-linux-gnu/libminizip.so.1": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0",
+      "sha256": "7397458805900a67287673a7d469d1ff207525ae7694ed885e8603d0164828bf"
+    },
+    "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0",
+      "sha256": "7397458805900a67287673a7d469d1ff207525ae7694ed885e8603d0164828bf"
+    },
+    "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+      "sha256": "ec8bfd6cce31e7fd3dced8d5489109f6bca3d066c8ac3035b032940a8eb9ef50"
+    },
+    "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+      "sha256": "ec8bfd6cce31e7fd3dced8d5489109f6bca3d066c8ac3035b032940a8eb9ef50"
+    },
+    "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+      "sha256": "efd1dcfc111d271e13173f02153c0a950bbce9ccd53d1319990a5e6ff56c8dca"
+    },
+    "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+      "sha256": "efd1dcfc111d271e13173f02153c0a950bbce9ccd53d1319990a5e6ff56c8dca"
+    },
+    "/usr/lib/x86_64-linux-gnu/libpugixml.so.1": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+      "sha256": "b5493d9c8c6e36e3b72e38564b7e287ad925ab717577ded997465f9ac9da1c9e"
+    },
+    "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+      "sha256": "b5493d9c8c6e36e3b72e38564b7e287ad925ab717577ded997465f9ac9da1c9e"
+    },
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "sha256": "1fd75fe70354a416d75aef22bcae68c47bd25d20e2d0568c30b1a9838cf62f11"
+    },
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "sha256": "1fd75fe70354a416d75aef22bcae68c47bd25d20e2d0568c30b1a9838cf62f11"
+    },
+    "/usr/lib/x86_64-linux-gnu/libz.so.1": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libz.so.1.3",
+      "sha256": "f61677c7bdb7c2aa2a243ea781bfd16afcb361cede7b4ef76127a9d8eb9a5242"
+    },
+    "/usr/lib/x86_64-linux-gnu/libz.so.1.3": {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libz.so.1.3",
+      "sha256": "f61677c7bdb7c2aa2a243ea781bfd16afcb361cede7b4ef76127a9d8eb9a5242"
+    },
+    "/fixture/native_fixture": {
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-subject-notification-v1/work/notification_fixture",
+      "sha256": "453d44703cbe423976aebe721311d22e959fc2ab5613539d7584381593749e9d"
+    }
+  },
+  "limitation": "static default x86-64 search-dir/layout contract, not runtime loader execution or symbol-version certification",
+  "actual_shared_builder_argv_with_symbolic_fds": [
+    "/usr/bin/prlimit",
+    "--cpu=2:2",
+    "--as=268435456:268435456",
+    "--fsize=65536:65536",
+    "--nofile=64:64",
+    "--core=0:0",
+    "--",
+    "/usr/bin/bwrap",
+    "--unshare-all",
+    "--die-with-parent",
+    "--new-session",
+    "--cap-drop",
+    "ALL",
+    "--size",
+    "16777216",
+    "--tmpfs",
+    "/",
+    "--dir",
+    "/usr",
+    "--dir",
+    "/usr/lib",
+    "--dir",
+    "/usr/lib/x86_64-linux-gnu",
+    "--dir",
+    "/usr/lib64",
+    "--symlink",
+    "usr/lib",
+    "/lib",
+    "--symlink",
+    "usr/lib64",
+    "/lib64",
+    "--symlink",
+    "../lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+    "/usr/lib64/ld-linux-x86-64.so.2",
+    "--proc",
+    "/proc",
+    "--dev",
+    "/dev",
+    "--size",
+    "1048576",
+    "--tmpfs",
+    "/dev/shm",
+    "--remount-ro",
+    "/dev",
+    "--ro-bind-fd",
+    "115",
+    "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+    "--ro-bind-fd",
+    "105",
+    "/usr/lib/x86_64-linux-gnu/libassimp.so.5",
+    "--ro-bind-fd",
+    "105",
+    "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+    "--ro-bind-fd",
+    "109",
+    "/usr/lib/x86_64-linux-gnu/libc.so.6",
+    "--ro-bind-fd",
+    "110",
+    "/usr/lib/x86_64-linux-gnu/libccd.so.2",
+    "--ro-bind-fd",
+    "110",
+    "/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+    "--ro-bind-fd",
+    "101",
+    "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13",
+    "--ro-bind-fd",
+    "101",
+    "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+    "--ro-bind-fd",
+    "100",
+    "/usr/lib/x86_64-linux-gnu/libdart.so.6.13",
+    "--ro-bind-fd",
+    "100",
+    "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+    "--ro-bind-fd",
+    "112",
+    "/usr/lib/x86_64-linux-gnu/libdraco.so.8",
+    "--ro-bind-fd",
+    "112",
+    "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+    "--ro-bind-fd",
+    "102",
+    "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7",
+    "--ro-bind-fd",
+    "102",
+    "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+    "--ro-bind-fd",
+    "108",
+    "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+    "--ro-bind-fd",
+    "107",
+    "/usr/lib/x86_64-linux-gnu/libm.so.6",
+    "--ro-bind-fd",
+    "113",
+    "/usr/lib/x86_64-linux-gnu/libminizip.so.1",
+    "--ro-bind-fd",
+    "113",
+    "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0",
+    "--ro-bind-fd",
+    "103",
+    "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9",
+    "--ro-bind-fd",
+    "103",
+    "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+    "--ro-bind-fd",
+    "104",
+    "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9",
+    "--ro-bind-fd",
+    "104",
+    "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+    "--ro-bind-fd",
+    "114",
+    "/usr/lib/x86_64-linux-gnu/libpugixml.so.1",
+    "--ro-bind-fd",
+    "114",
+    "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+    "--ro-bind-fd",
+    "106",
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+    "--ro-bind-fd",
+    "106",
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+    "--ro-bind-fd",
+    "111",
+    "/usr/lib/x86_64-linux-gnu/libz.so.1",
+    "--ro-bind-fd",
+    "111",
+    "/usr/lib/x86_64-linux-gnu/libz.so.1.3",
+    "--ro-bind-fd",
+    "200",
+    "/fixture/native_fixture",
+    "--ro-bind-fd",
+    "201",
+    "/usr/lib/x86_64-linux-gnu/libc.so.6",
+    "--ro-bind-fd",
+    "202",
+    "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+    "--ro-bind-fd",
+    "300",
+    "/input/canary",
+    "--ro-bind-fd",
+    "301",
+    "/limits",
+    "--dir",
+    "/cwd",
+    "--size",
+    "4194304",
+    "--tmpfs",
+    "/tmp",
+    "--size",
+    "4194304",
+    "--tmpfs",
+    "/run",
+    "--remount-ro",
+    "/",
+    "--chdir",
+    "/cwd",
+    "--clearenv",
+    "--setenv",
+    "LC_ALL",
+    "C",
+    "/fixture/native_fixture",
+    "--owned-notification-once"
+  ]
+}

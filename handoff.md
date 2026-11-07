@@ -1,3 +1,18 @@
+# Post-B1 Subject notification preparation — current checkpoint
+
+**SUBJECT_NOTIFICATION_PREPARED_NOT_EXECUTED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. User requested smallest prerequisite preparation only, starting5f5a496dce3acf3f777a816308c1d0d018f30ff3/experiment/dart-internal-trace clean. Read AGENTS/development rules/handoff/B1 execution/Gazebo draft and original Probe/V4 conditions. prerequisite_review.md separates default evidence gates and potential explicit itemized risk acceptance; no risk accepted or requirement waived.
+
+New task validation/dart-subject-notification-v1 prepares B destroy/notify subcase: BodyNode/ShapeNode Subject notification callbacks each1, target identity, during owner.reset window, order[node,body], zero early/unknown/duplicate/overflow and zero remaining registrations. Recorder outlives owner; callback fixed2slot/noexcept/no logging/allocation. No weak_ptr/exit-only proof. Subject notification can occur outside destructors: individual derived destructor entry/order/D0/free remains NOT_OBSERVED, allocator balance NOT_MEASURED, even on future success. B whole/C/D still incomplete. This is smallest additional callback evidence, not a substitute for full destructor/allocator proof.
+
+Compile/link PASS. notification_fixture SHA256453d44703cbe423976aebe721311d22e959fc2ab5613539d7584381593749e9d, Build-ID5413820f21ad247eeac0a1048667b334aeb1344d. Existing Core16 readonly SONAME alias/actual resolution62edges/29mount PASS. Reused B1 Bubblewrap/systemd/hash/GO/cleanup with unique notification_supervisor/task paths.26non-executing tests PASS/0FAIL/0ERROR, AST/sourcepins and FD/readelf/negative-mount/mock-pre-marker/event rejection checked. Runtime/DART/Gazebo loading,fixture,World/step,service,newmarker0. No sudo/install/system/main/production/Clock/Capture changes.
+
+Evidence reports/{prerequisite_review.md,approval_plan.md,runtime_contract.json,manifest.json,resolution.json,static_review.json,build_result.json,test_summary.json,integrity.json,final_report.md}. integrity before/after54,971existing files changed/missing0,existing-scope additions0,main HEAD/statusunchanged PASS. B1/V2/ProbeA evidence/markers preserved. New reports/runtime and all runtime attempt/before/stdout/stderr/canary paths absent. Source/scripts/tests/these lightweight reports and handoff only publication scope; rawwork/ELF/pin/snapshot/log remain local.
+
+Limits unchanged64MiB/swap0/tasks8/CPU25%/service8s/stop2s; new target sufficiency/notification order/runtime integration unverified until separate approval. No retry/automatic limit increases. Next minimum action review frozen exact command/commit/ELF and separately approve once if desired; do not automatically start it. Bullet/D0/provider/allocator/compare arms/Cfault-unwind/Dtrace/quiescent-capacity-flush/Gazebo backend-step gates remain. Risk acceptance not decided. Build/test jobs ended; remote/container/external-CWD UNKNOWN. /tmp ignored/raw data do not transfer via Git. Common skill untouched.
+
+---
+Previous checkpoint follows:
+
 # Body/Shape B1 approved execution — current checkpoint
 
 **NORMAL_OWNER_RELEASE_B1_PASS / Probe B PARTIAL / Stage B BLOCKED**. User explicitly approved one fixed launch at89a8676fe0dba854a4b01fb7f3696d10599b9ddd. HEAD/branch/clean,27source/manifest pins,ELF identities,62edges/29mount argv,Core RO SONAME alias,fresh output/marker and manager collision checks PASS. Exact launch once, wrapper exit0; retry0,limit increases0,source changes0.
@@ -521,22 +536,22 @@ Common skill source remains outside the project at `/home/jiwon/Projects/my-agen
 ```context-handoff-state
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07T13:07:09.052875+00:00",
+  "updated_at": "2026-11-07T13:16:40.333486+00:00",
   "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
   "host": "jiwon-System-Product-Name",
   "git": {
-    "head": "89a8676fe0dba854a4b01fb7f3696d10599b9ddd",
+    "head": "5f5a496dce3acf3f777a816308c1d0d018f30ff3",
     "branch": "experiment/dart-internal-trace",
     "status": []
   },
   "evidence": [
     {
-      "path": "validation/dart-body-shape-lifetime-v1/reports/execution_review.json",
-      "sha256": "49ce052ca2991c32b39ed858acd72a0a220d0f37c1279cb1db0a2247199ebaeb"
+      "path": "validation/dart-subject-notification-v1/reports/final_report.md",
+      "sha256": "f016430d767965c04d7482d24dee016abaccf2feb87f3c8497c8275e55f433b4"
     },
     {
-      "path": "validation/dart-body-shape-lifetime-v1/reports/runtime_integrity.json",
-      "sha256": "04358f264b32c5ab23b07aa217059810c30ed2e2d2ac225797b1686369ceac75"
+      "path": "validation/dart-subject-notification-v1/reports/integrity.json",
+      "sha256": "d7d1c8857c0c59dfdba67f1eb378b3c7f2f64d92928857b0172c5d636da67723"
     }
   ],
   "processes": {

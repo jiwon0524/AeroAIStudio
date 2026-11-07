@@ -1,0 +1,134 @@
+{
+  "status": "SUBJECT_NOTIFICATION_PREPARED_NOT_EXECUTED",
+  "requires_separate_runtime_authorization": true,
+  "working_directory": "/tmp/AeroAIStudio-dart-internal-trace",
+  "future_actual_command": "env -u LD_PRELOAD -u LD_AUDIT -u LD_LIBRARY_PATH PYTHONDONTWRITEBYTECODE=1 python3 validation/dart-subject-notification-v1/scripts/launch.py --execute-approved-notification-once",
+  "safe_default_command": "python3 validation/dart-subject-notification-v1/scripts/launch.py",
+  "limits_change_allowed": false,
+  "prepared_source_sha256": {
+    "scripts/preservation.py": "9e764224b8f560fb0ea6c0895d09a6f1fe76feb33bc16f1a8e971f4c453a7a5a",
+    "scripts/readiness_fixed.py": "2a7ad27184b0f6aacc94913e7b16235fd168da358616e8142b60c3eb9f3a071b",
+    "scripts/launch.py": "5dbc69f8846ba33b6f93791f5833b27fcee0cb3efa9e7e3af7156553a10cd017",
+    "scripts/prepare.py": "4fa6bf7e96bb78e349ac65020edf2ab42a1630e64b6973c8461225c3d84ecc8b",
+    "scripts/common.py": "755e598b1bb49ce50122726a796a51a032f26b836517116aad4d65ee45f413a9",
+    "scripts/resolution.py": "ecf076bcf0a3db7937a032f18cc115dc2270564ac39c85c4db8fc2be453371c9",
+    "scripts/build.sh": "78ad95f3568c97bfd84553a70e1fe7524b145d8208dc7190f8f4e250b542f4ee",
+    "scripts/notification_supervisor.py": "7c002eda7af6fcbf02ec7c18805de258a5e1d71c8a72fac14656f9ad42474e53",
+    "scripts/stage.py": "5a4b1575267276011dc6ea560bd8487ad89644d9557a39baecfdcf9be73db7cc",
+    "tests/test_contract.py": "1d4c22c5f2526624a26d2e00b61b50da20b7224c0ff07a7a494d72fb87654775",
+    "tests/test_resolution.py": "1e6085556ed2a5c26d0f6d1e2f44369d8f1a1d041db8e4e220e3a386156c6dde",
+    "fixtures/notification.cpp": "bebd9c0e83a1213334e2b80d2b2e1c98c3dbe0b9e91b8dfd264b5f0dd2321683",
+    "reports/manifest.json": "b6a29035f82cdc2e165e81bb90094a83da023cf3697193adf3a51ec8e7e239ed",
+    "work/manifest.sha256": "ba33ccee9efbcbd535441c2294efb414e051e516a8c3549a3789d65516e8baac",
+    "../dart-probe-a-harness-v1/scripts/supervisor.py": "3adc2ced34f130ffeec2166e84cb9504711bc4906da56eaac7094d52ad77cae2",
+    "../dart-probe-a-harness-v1/scripts/allowlist.py": "b9c891a5dc20baf0105a3223fc32d4df8b1ec36c6923d307e39863a31e2795d2",
+    "../dart-probe-a-harness-v1/scripts/preserve.py": "188e2cabe3d645b4e7cdb7c65858790945174d0791a62b333e18281218958351",
+    "../dart-probe-a-harness-v1/scripts/memory_preflight.py": "a173f81a1c1617837732119ecb47f85c9d51139aee845e88d6604a8254eb54e5",
+    "../dart-probe-a-harness-v1/scripts/stage.py": "eb8eafc006d284091c108443cd6e68e6097b982a62857241ffee8380da7656d6",
+    "../dart-probe-a-harness-v1/scripts/mapped.py": "e136dfcb552cd03a90166459f483e5cee20125c8b4def31ea8c13d61f14a6dc6",
+    "../dart-probe-a-harness-v1/scripts/identity.py": "2cd0a79749a0825156e85433960066df08c37c28d5adcb7319a0a6f50f5ad7f4",
+    "../dart-probe-a-runtime-readiness-v1/scripts/check_alias_namespace.py": "b2707ae4f263c9fe5c762000cd04138a618df2e883b7bf636184e594da76534f",
+    "../dart-probe-a-runtime-readiness-v1/scripts/readiness.py": "907c42b01604c6b1a4a7af5f5e8f34529778ff6cab3c59da0ecb459a5b246d32",
+    "../dart-cgroup-integration-v1/scripts/preserve.py": "2de0cb7296cfceabf97455088ae98ab5d32f32c9ed7d672e73eb9924efcbdeb7",
+    "../dart-cgroup-integration-v1/scripts/integration.py": "d5d77ec43551b98bbe6b4b8f19ca3ab3ab536e2d02326ce521e1499733a3dac8",
+    "../dart-cgroup-smoke-v1/scripts/smoke.py": "500463adc143fcbe923cab04670be89c33352e2c0b4e564ae47ad14962b1736e",
+    "../dart-cgroup-smoke-v1/scripts/preserve.py": "f2b7afdc34389275a55d7388301000933ba0cbe0afc40894879e858c0c9bfe9d"
+  },
+  "loader_identity": {
+    "sha256": "453d44703cbe423976aebe721311d22e959fc2ab5613539d7584381593749e9d",
+    "build_id": "5413820f21ad247eeac0a1048667b334aeb1344d",
+    "device": 66309,
+    "inode": 3433631,
+    "size": 86944,
+    "mtime_ns": 1794057094207257637,
+    "ctime_ns": 1794057094207267503
+  },
+  "preflight": [
+    "fresh paths via lexists; manager running and exact unit collision read-only check BEFORE collection marker",
+    "correct experiment branch and base ancestry",
+    "prepared-source hashes and immutable manifest pin",
+    "all Core16 and executable baseline FD identities verified before service",
+    "unique one-shot attempt markers; refuse existing attempt; no retry",
+    "manager available; exact own unit collision check; pristine loader env",
+    "original/main/evidence pre-run snapshot; no production changes",
+    "readelf fixture + every approved ELF NEEDED/SONAME and exact shared bwrap argv resolution BEFORE any marker/service"
+  ],
+  "collection": {
+    "dlopen_success_error": "DT_NEEDED before main; collect READY/registered/notifications_observed/lifetime_success, not individual destructor events",
+    "mapped_libraries_allowlist": "runtime/mapped_library_validation.json: strict Core16 + fixture identity BEFORE GO / Skeleton::create",
+    "memory_events": "post-open resource_readback.json plus runtime_observation.json last_cgroup_sample; current/peak/events; not guaranteed final sample",
+    "exit_signal_timeout": "systemd-run returncode and captured stderr; default native signal termination; missing final unit/cgroup properties UNKNOWN",
+    "cleanup": "runtime/process_cleanup.json unit/cgroup/observedPID-start/temp/canary; exact own-unit stop only with InvocationID match",
+    "integrity": "runtime_integrity.json compares fresh runtime_integrity_before snapshot; allowlisted files/executable are in snapshot; no implicit restoration"
+  },
+  "gate_limit": "Constructors before main; unchanged object gate/FD identity semantics with Core own SONAME included in allowed paths.",
+  "outcomes": [
+    "77 bad/default argv",
+    "78 absent/partial/timeout GO",
+    "20 null/wrong structural counts",
+    "21 wrong node association/subject identity",
+    "22 registration/callback count/order/window/unregistration mismatch",
+    "23 unexpected exception FAIL",
+    "24 flush failure",
+    "exit0 + four exact ordered events + strict gate/cleanup/integrity PASS; individual destructors remain NOT_OBSERVED"
+  ],
+  "stop_rules": [
+    "separate explicit object-execution approval required",
+    "no retry, limit increase, old marker removal, Probe A rerun, World, Gazebo or Stage B"
+  ],
+  "portability": "ELF/manifest pin/raw snapshots live locally in work; rebuild on another host changes identity and requires revalidation; never blindly regenerate allowlist pins to bypass mismatch",
+  "scope": "one installed Core BodyNode and ShapeNode Subject destruction notification each during Skeleton owner reset; not individual destructor/allocator proof",
+  "one_shot": [
+    "work/runtime_collection_attempt.json",
+    "work/runtime_attempt.json"
+  ],
+  "output": "validation/dart-subject-notification-v1/reports/runtime",
+  "base_commit": "5f5a496dce3acf3f777a816308c1d0d018f30ff3",
+  "observation_limits": [
+    "Subject may send destruction notification without full derived destruction; notification order is not destructor order",
+    "weak_ptr expiration/exit0 cannot substitute for callbacks",
+    "No global allocator override/interposition; no allocator balance",
+    "No Bullet/cast/exception/trace comparison evidence"
+  ],
+  "limits": {
+    "MemoryMax": 67108864,
+    "MemorySwapMax": 0,
+    "TasksMax": 8,
+    "CPUQuota": "25%",
+    "CPUQuotaPeriodSec": "100ms",
+    "RuntimeMaxSec": 8,
+    "TimeoutStopSec": 2,
+    "KillMode": "control-group",
+    "OOMPolicy": "stop",
+    "Delegate": "no",
+    "RLIMIT_CPU": 2,
+    "RLIMIT_AS": 268435456,
+    "RLIMIT_FSIZE": 65536,
+    "RLIMIT_NOFILE": 64,
+    "RLIMIT_CORE": 0,
+    "GO_timeout_seconds": 3,
+    "READY_timeout_seconds": 5
+  },
+  "native_argv": [
+    "/fixture/native_fixture",
+    "--owned-notification-once"
+  ],
+  "observation_contract": {
+    "signal": "installed Subject/Observer delivery to fixture Recorder::handleDestructionNotification",
+    "before_reset_callbacks": 0,
+    "during_reset_callbacks": {
+      "shape_node": 1,
+      "body_node": 1
+    },
+    "notification_order": [
+      "shape_node",
+      "body_node"
+    ],
+    "subjects_after_reset": 0,
+    "callback_identity": "same live Subject pointers registered before reset; unknown pointer rejected",
+    "collector": "stack fixed two-slot buffer; no allocation/printing/throw in callback; observer outlives owner",
+    "individual_destructor_calls": "NOT_OBSERVED",
+    "allocator_balance": "NOT_MEASURED",
+    "runtime_status": "NOT_EXECUTED"
+  }
+}

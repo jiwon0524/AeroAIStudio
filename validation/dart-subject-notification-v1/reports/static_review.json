@@ -1,0 +1,90 @@
+{
+  "status": "STATIC_ONLY_PASS",
+  "observation": "Subject notification callbacks, not derived destructor entry",
+  "evidence": [
+    {
+      "path": "validation/dart-destructor-cleanup-v4/reports/targeted_evidence_plan.md",
+      "sha256": "97a6c8c334c494bfdb553651e55bffac3c375215245411d0bce066b819296196"
+    },
+    {
+      "path": "validation/dart-probe-readiness-v1/reports/next_steps.md",
+      "sha256": "1dd83486a23198d5d69e9b3a1ee49ca6e2dbef83adde0246e7fda921e8b82242"
+    },
+    {
+      "path": "validation/dart-targeted-evidence-v1/reports/probe_plan.json",
+      "sha256": "a695b5c03b7f0e6317a43e009beeaa85605e0835697ec9c45d57c2708165cc28"
+    },
+    {
+      "path": "validation/dart-body-shape-lifetime-v1/reports/execution_report.md",
+      "sha256": "e05daed28736ffd9ff980cbc2f3d959f4fa2160a5d950bbcdcb3cf4d67796e8f"
+    },
+    {
+      "path": "validation/dart-capability-abi-v2/work/dependencies/usr/include/dart/common/Subject.hpp",
+      "sha256": "215f718092aac783549830375d08633926c49b66d3dfb7605996b09fc1340b25"
+    },
+    {
+      "path": "validation/dart-capability-abi-v2/work/dependencies/usr/include/dart/common/Observer.hpp",
+      "sha256": "a4d7e3b0d9c206f4fee4f9123cc1de595b53bfb72a4b20a49c27ec31c8808a95"
+    },
+    {
+      "path": "validation/dart-capability-abi-v2/work/baseline-source/dart/common/Subject.cpp",
+      "sha256": "2080cea3746396f452b5022b6c61305fd3d71a7ecfb6a9a35cff96bc949bd48a"
+    },
+    {
+      "path": "validation/dart-capability-abi-v2/work/baseline-source/dart/common/Observer.cpp",
+      "sha256": "6fa860fcc783a6c95cd4a12c742d28cf1100b7c4cfa194408ca4d1a4f4b1d9ed"
+    },
+    {
+      "path": "validation/dart-capability-abi-v2/work/baseline-source/dart/dynamics/BodyNode.cpp",
+      "sha256": "8c8fcefac2d67e2776bff2e816e26df5aa61de7a92ab51a460909bdcaeca6718"
+    }
+  ],
+  "fixture_dynamic_symbols": [
+    "15: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND _ZN4dart6common8ObserverD2Ev",
+    "45: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND _ZN4dart6common8Observer10addSubjectEPKNS0_7SubjectE"
+  ],
+  "installed_core_dynamic_symbols": [
+    "571: 0000000000197b00   136 FUNC    GLOBAL DEFAULT   14 _ZN4dart6common8ObserverD1Ev",
+    "1173: 000000000019e870    85 FUNC    GLOBAL DEFAULT   14 _ZN4dart6common7SubjectD2Ev",
+    "1321: 0000000000197bc0   465 FUNC    GLOBAL DEFAULT   14 _ZN4dart6common8Observer13removeSubjectEPKNS0_7SubjectE",
+    "1413: 000000000018ec20     5 FUNC    GLOBAL DEFAULT   14 _ZN4dart6common8Observer29handleDestructionNotificationEPKNS0_7SubjectE",
+    "2085: 0000000000197b00   136 FUNC    GLOBAL DEFAULT   14 _ZN4dart6common8ObserverD2Ev",
+    "2262: 0000000000197e20   305 FUNC    GLOBAL DEFAULT   14 _ZN4dart6common8Observer10addSubjectEPKNS0_7SubjectE",
+    "3246: 00000000004972b0    23 OBJECT  GLOBAL DEFAULT   16 _ZTSN4dart6common7SubjectE",
+    "3544: 0000000000197da0    41 FUNC    GLOBAL DEFAULT   14 _ZN4dart6common8Observer30receiveDestructionNotificationEPKNS0_7SubjectE",
+    "3654: 0000000000558078    32 OBJECT  GLOBAL DEFAULT   22 _ZTVN4dart6common7SubjectE",
+    "3796: 000000000019e8d0    39 FUNC    GLOBAL DEFAULT   14 _ZN4dart6common7SubjectD0Ev",
+    "3966: 0000000000197dd0    73 FUNC    GLOBAL DEFAULT   14 _ZN4dart6common8Observer17removeAllSubjectsEv",
+    "4148: 0000000000558020    16 OBJECT  GLOBAL DEFAULT   22 _ZTIN4dart6common7SubjectE",
+    "4680: 000000000019ea40   465 FUNC    GLOBAL DEFAULT   14 _ZNK4dart6common7Subject14removeObserverEPNS0_8ObserverE",
+    "4756: 0000000000197b90    39 FUNC    GLOBAL DEFAULT   14 _ZN4dart6common8ObserverD0Ev",
+    "5064: 000000000019e820    73 FUNC    GLOBAL DEFAULT   14 _ZNK4dart6common7Subject27sendDestructionNotificationEv",
+    "5358: 000000000019e870    85 FUNC    GLOBAL DEFAULT   14 _ZN4dart6common7SubjectD1Ev",
+    "5712: 0000000000358cc0   235 FUNC    GLOBAL DEFAULT   14 _ZN4dart9collision14CollisionGroup18ShapeFrameObserver29handleDestructionNotificationEPKNS_6common7SubjectE",
+    "5808: 000000000019e900   305 FUNC    GLOBAL DEFAULT   14 _ZNK4dart6common7Subject11addObserverEPNS0_8ObserverE"
+  ],
+  "callback_contract": {
+    "signal": "installed Subject/Observer delivery to fixture Recorder::handleDestructionNotification",
+    "before_reset_callbacks": 0,
+    "during_reset_callbacks": {
+      "shape_node": 1,
+      "body_node": 1
+    },
+    "notification_order": [
+      "shape_node",
+      "body_node"
+    ],
+    "subjects_after_reset": 0,
+    "callback_identity": "same live Subject pointers registered before reset; unknown pointer rejected",
+    "collector": "stack fixed two-slot buffer; no allocation/printing/throw in callback; observer outlives owner",
+    "individual_destructor_calls": "NOT_OBSERVED",
+    "allocator_balance": "NOT_MEASURED",
+    "runtime_status": "NOT_EXECUTED"
+  },
+  "limitations": [
+    "static source and exported-symbol identity are not a runtime call stack",
+    "Subject protected notification can be emitted independently of destructor; individual destructor entry/order remains NOT_OBSERVED",
+    "Observer registration uses std::set allocation; callback handler itself only bounded scalar stores",
+    "callback window/order expectations are unverified until separately approved run"
+  ]
+}
