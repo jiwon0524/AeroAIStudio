@@ -1,0 +1,19 @@
+{
+  "status": "NEEDS_RUNTIME_EVIDENCE",
+  "limits_unchanged": {
+    "MemoryMax": "64M",
+    "TasksMax": 8,
+    "CPUQuota": "25%",
+    "MemorySwapMax": 0
+  },
+  "historical": {
+    "path": "validation/dart-probe-a-harness-v1/reports/resource_readback.json",
+    "sha256": "575062525deb4698616db5274fe6c0422033fabb62ba7fec45d9b8b91a1972fd",
+    "result": "historical evidence reused; no new service run"
+  },
+  "historical_harmless_peak_bytes": 9469952,
+  "Core_closure_file_bytes": 28732296,
+  "assessment": "ELF file size is not RSS or cgroup charge; faults, constructors, allocator, TLS, page tables and supervisor stage can exceed harmless peak. 64MiB sufficiency cannot be established without Core execution. TasksMax counts loader threads and bwrap processes; 25% CPU can extend initialization beyond deadline.",
+  "proposed_alternative": "Only if later authorized: separate 128MiB candidate, retaining TasksMax8/CPU25%; this is a review candidate, not a measured requirement. No limit changed.",
+  "excess_enforcement": "NOT_TESTED"
+}

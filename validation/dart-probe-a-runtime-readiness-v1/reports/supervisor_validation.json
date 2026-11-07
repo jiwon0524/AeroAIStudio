@@ -1,0 +1,29 @@
+{
+  "status": "PASS_REUSED_HARMLESS_ONLY",
+  "evidence": [
+    {
+      "path": "validation/dart-probe-a-harness-v1/reports/supervisor_integration.json",
+      "sha256": "d4cdd6c90c728faf4e24e6c9ebfec30bfc0567d3e687ca176a5171474a32cb42",
+      "result": "historical evidence reused; no new service run"
+    },
+    {
+      "path": "validation/dart-probe-a-harness-v1/reports/process_cleanup.json",
+      "sha256": "6ff4dfefeaa2bc657ce6c74df21c4e73dc1a8bba289e38663fe6598f3e436387",
+      "result": "historical evidence reused; no new service run"
+    },
+    {
+      "path": "validation/dart-probe-a-harness-v1/reports/controller_diff.json",
+      "sha256": "ae97d2c154c5eea85ee26a599575e85b597976d64a9d3be33f9b4fe5378305a4",
+      "result": "historical evidence reused; no new service run"
+    },
+    {
+      "path": "validation/dart-probe-a-harness-v1/reports/native_fixture_execution.json",
+      "sha256": "47aa06755338a5577effc10133b86843973906c24e52845a1362040a5038b5e3",
+      "result": "historical evidence reused; no new service run"
+    }
+  ],
+  "unchanged": "systemd user service -> Bubblewrap -> Native Harness; RO root/files, net namespace, cgroup, exact owned cleanup",
+  "timeout_and_signal": "harmless protocol timeout exit78 newly tested; forced systemd timeout and supervisor SIGKILL not tested",
+  "new_Core_protocol_connection": "NEEDS_EVIDENCE",
+  "new_alias_namespace": "PASS outside service; not equivalent to combined service verification"
+}

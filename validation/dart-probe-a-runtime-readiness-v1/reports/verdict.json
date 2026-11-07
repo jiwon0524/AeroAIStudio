@@ -1,0 +1,29 @@
+{
+  "verdict": "PROBE_A_NEEDS_EVIDENCE",
+  "runtime": "NOT_RUNTIME_VERIFIED",
+  "Stage_B": "BLOCKED",
+  "DART_loaded": false,
+  "PASS": [
+    "Core16 pinned FD SHA/Build-ID/device/inode",
+    "58-edge transitive closure and deterministic readonly alias mount arguments",
+    "actual no-loader alias namespace fixture exit0",
+    "15 new tests and 31 Harness regression tests",
+    "loader branch compiled to REL only"
+  ],
+  "FAIL": [
+    "initial namespace creation rejected by execution sandbox; preserved then authorized outside-sandbox check passed"
+  ],
+  "SKIP": [
+    "DART load/init/fini and actual mapping",
+    "direct map_files unavailable in prior observation",
+    "resource excess enforcement",
+    "new combined service/post-open contract"
+  ],
+  "blockers": [
+    "Loader-enabled post-open branch is compile-only and not connected to owned Supervisor/stage; existing stage remains harmless-only.",
+    "Core path in review source is /audit/libdart.so.6.13.2 whereas current alias contract uses canonical /usr path; harmonize and pin rebuilt executable before any launch.",
+    "Need combined no-loader fixture under existing service with post-open verification callback; focused namespace test does not prove that connection.",
+    "64MiB DART initialization sufficiency and excess enforcement remain unverified.",
+    "map_files EPERM fallback assurance must be explicitly accepted for future runtime."
+  ]
+}

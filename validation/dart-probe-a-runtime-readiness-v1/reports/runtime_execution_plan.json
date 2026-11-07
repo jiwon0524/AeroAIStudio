@@ -1,0 +1,34 @@
+{
+  "status": "NOT_EXECUTABLE_PENDING_EVIDENCE",
+  "execute_now": false,
+  "launch_command": null,
+  "reason": "Conditions not all met; no safe runnable Probe A command issued",
+  "preconditions": [
+    "Loader-enabled post-open branch is compile-only and not connected to owned Supervisor/stage; existing stage remains harmless-only.",
+    "Core path in review source is /audit/libdart.so.6.13.2 whereas current alias contract uses canonical /usr path; harmonize and pin rebuilt executable before any launch.",
+    "Need combined no-loader fixture under existing service with post-open verification callback; focused namespace test does not prove that connection.",
+    "64MiB DART initialization sufficiency and excess enforcement remain unverified.",
+    "map_files EPERM fallback assurance must be explicitly accepted for future runtime."
+  ],
+  "next_pre_runtime_steps": [
+    "Unify Core mount path and immutable manifest pin with reviewed Native source.",
+    "Wire post_open_ready event to post_open(pid,start,core,baseline,send), with service deadline, process identity and resource readback before CLOSE.",
+    "Compile/link only in isolated work area and validate combined no-loader service fixture once with exact binary manifest.",
+    "Obtain separate explicit DART runtime approval and fallback/resource risk decision."
+  ],
+  "future_approved_sequence": [
+    "preflight immutable FD closure and baseline profile",
+    "owned transient unit with unchanged constraints and sterile loader environment",
+    "RO Core canonical and SONAME alias FD binds, no host /usr bind",
+    "pre-open identity/limits gate, RTLD_NOW|RTLD_LOCAL Core only",
+    "post-open WAIT external gate; no DART symbols/objects/World",
+    "exact CLOSE then one dlclose; collect exit/signal/cgroup/cleanup and post-hashes"
+  ],
+  "risks": [
+    "ELF constructors/IFUNC execute before post-open gate; gate cannot prevent initialization side effects.",
+    "dlclose/finalizers may fail, hang or retain mappings.",
+    "read-only mount does not prevent host inode writes; snapshot file identity is bounded.",
+    "OOM/PID/CPU deadline risk remains."
+  ],
+  "Stage_B": "BLOCKED"
+}

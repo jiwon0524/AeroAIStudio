@@ -1,0 +1,22 @@
+{
+  "status": "PASS_IMPLEMENTATION_OFFLINE",
+  "host_gate": "scripts/readiness.py:post_open",
+  "native_branch": "fixtures/core_review_only.c; compiled REL object only, never linked/executed",
+  "protocol": "open returns -> bounded maps dump -> post_open_ready WAIT <=5s -> host PID/start/maps/device/inode/SHA/Build-ID/closure check -> exact CLOSE -> dlclose",
+  "reject": "no permission; native _exit(78) on EOF/invalid/timeout to avoid normal exit finalizers",
+  "map_files": {
+    "path": "validation/dart-probe-a-harness-v1/reports/mapped_library_validation.json",
+    "sha256": "c284550ad64b0f195a9e933140b9cc1710a60724abde2b06ed10cfcfff78b7b6",
+    "result": "historical evidence reused; no new service run"
+  },
+  "fallback": "proc-root FD matched to maps device/inode then SHA/Build-ID; no resident COW/relocation/constructor safety guarantee",
+  "integration": "NOT_WIRED_TO_SUPERVISOR",
+  "harmless_protocol_cases": [
+    "CLOSE success",
+    "GO reject",
+    "EOF reject",
+    "timeout reject"
+  ],
+  "tests": 15,
+  "actual_Core_post_open": "SKIP_NO_DART_LOAD_AUTHORIZED"
+}

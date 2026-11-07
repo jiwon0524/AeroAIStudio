@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "exit_code": 0,
+  "stdout": "POST_OPEN_SIMULATED\nCLOSE_SIMULATED\n",
+  "stderr": "",
+  "DART_loaded": false,
+  "Core_files_mounted": true,
+  "scope": "successful exit demonstrates FD alias arguments accepted and libc loader aliases exercised; DART alias resolution not dynamically exercised",
+  "supervisor": "not used in this focused mount check; previous integration reused"
+}

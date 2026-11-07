@@ -1,0 +1,478 @@
+{
+  "status": "PASS_STATIC_CONTRACT",
+  "mounts": {
+    "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+    "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+    "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+    "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+    "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+    "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+    "/usr/lib/x86_64-linux-gnu/libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+    "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+    "/usr/lib/x86_64-linux-gnu/libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+    "/usr/lib/x86_64-linux-gnu/libccd.so.2.0": "/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+    "/usr/lib/x86_64-linux-gnu/libz.so.1.3": "/usr/lib/x86_64-linux-gnu/libz.so.1.3",
+    "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+    "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0": "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0",
+    "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+    "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+    "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+    "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+    "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+    "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+    "/usr/lib/x86_64-linux-gnu/libassimp.so.5": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+    "/usr/lib/x86_64-linux-gnu/libccd.so.2": "/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+    "/usr/lib/x86_64-linux-gnu/libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1.3",
+    "/usr/lib/x86_64-linux-gnu/libdraco.so.8": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+    "/usr/lib/x86_64-linux-gnu/libminizip.so.1": "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0",
+    "/usr/lib/x86_64-linux-gnu/libpugixml.so.1": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14"
+  },
+  "edges": [
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "needed": "libdart-external-odelcpsolver.so.6.13",
+      "target": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13",
+      "provider": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "needed": "libfcl.so.0.7",
+      "target": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7",
+      "provider": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "needed": "liboctomap.so.1.9",
+      "target": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9",
+      "provider": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "needed": "liboctomath.so.1.9",
+      "target": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9",
+      "provider": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "needed": "libassimp.so.5",
+      "target": "/usr/lib/x86_64-linux-gnu/libassimp.so.5",
+      "provider": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "needed": "libstdc++.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "needed": "libm.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libm.so.6"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "needed": "libgcc_s.so.1",
+      "target": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "needed": "libc.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+      "needed": "libstdc++.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+      "needed": "libc.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "needed": "libccd.so.2",
+      "target": "/usr/lib/x86_64-linux-gnu/libccd.so.2",
+      "provider": "/usr/lib/x86_64-linux-gnu/libccd.so.2.0"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "needed": "liboctomap.so.1.9",
+      "target": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9",
+      "provider": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "needed": "liboctomath.so.1.9",
+      "target": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9",
+      "provider": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "needed": "libstdc++.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "needed": "libm.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libm.so.6"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "needed": "libgcc_s.so.1",
+      "target": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "needed": "libc.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+      "needed": "liboctomath.so.1.9",
+      "target": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9",
+      "provider": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+      "needed": "libstdc++.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+      "needed": "libm.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libm.so.6"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+      "needed": "libgcc_s.so.1",
+      "target": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+      "needed": "libc.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+      "needed": "libstdc++.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+      "needed": "libm.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libm.so.6"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+      "needed": "libgcc_s.so.1",
+      "target": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+      "needed": "libc.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "needed": "libz.so.1",
+      "target": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libz.so.1.3"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "needed": "libdraco.so.8",
+      "target": "/usr/lib/x86_64-linux-gnu/libdraco.so.8",
+      "provider": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "needed": "libminizip.so.1",
+      "target": "/usr/lib/x86_64-linux-gnu/libminizip.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "needed": "libpugixml.so.1",
+      "target": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "needed": "libstdc++.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "needed": "libm.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libm.so.6"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "needed": "libgcc_s.so.1",
+      "target": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "needed": "libc.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "needed": "libm.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libm.so.6"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "needed": "libc.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "needed": "ld-linux-x86-64.so.2",
+      "target": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "provider": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "needed": "libgcc_s.so.1",
+      "target": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "needed": "libc.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "needed": "ld-linux-x86-64.so.2",
+      "target": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "provider": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "needed": "libc.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "needed": "ld-linux-x86-64.so.2",
+      "target": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "provider": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "needed": "ld-linux-x86-64.so.2",
+      "target": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "provider": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+      "needed": "libm.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libm.so.6"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+      "needed": "libc.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libz.so.1.3",
+      "needed": "libc.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+      "needed": "libstdc++.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+      "needed": "libm.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libm.so.6"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+      "needed": "libgcc_s.so.1",
+      "target": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+      "needed": "libc.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+      "needed": "ld-linux-x86-64.so.2",
+      "target": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "provider": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0",
+      "needed": "libz.so.1",
+      "target": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libz.so.1.3"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0",
+      "needed": "libc.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+      "needed": "libstdc++.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+      "needed": "libm.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libm.so.6"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+      "needed": "libgcc_s.so.1",
+      "target": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "provider": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1"
+    },
+    {
+      "consumer": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+      "needed": "libc.so.6",
+      "target": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "provider": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+    }
+  ],
+  "fd_arguments": [
+    "--ro-bind-fd",
+    "18",
+    "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+    "--ro-bind-fd",
+    "8",
+    "/usr/lib/x86_64-linux-gnu/libassimp.so.5",
+    "--ro-bind-fd",
+    "8",
+    "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+    "--ro-bind-fd",
+    "12",
+    "/usr/lib/x86_64-linux-gnu/libc.so.6",
+    "--ro-bind-fd",
+    "13",
+    "/usr/lib/x86_64-linux-gnu/libccd.so.2",
+    "--ro-bind-fd",
+    "13",
+    "/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+    "--ro-bind-fd",
+    "4",
+    "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13",
+    "--ro-bind-fd",
+    "4",
+    "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+    "--ro-bind-fd",
+    "3",
+    "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+    "--ro-bind-fd",
+    "15",
+    "/usr/lib/x86_64-linux-gnu/libdraco.so.8",
+    "--ro-bind-fd",
+    "15",
+    "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+    "--ro-bind-fd",
+    "5",
+    "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7",
+    "--ro-bind-fd",
+    "5",
+    "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+    "--ro-bind-fd",
+    "11",
+    "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+    "--ro-bind-fd",
+    "10",
+    "/usr/lib/x86_64-linux-gnu/libm.so.6",
+    "--ro-bind-fd",
+    "16",
+    "/usr/lib/x86_64-linux-gnu/libminizip.so.1",
+    "--ro-bind-fd",
+    "16",
+    "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0",
+    "--ro-bind-fd",
+    "6",
+    "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9",
+    "--ro-bind-fd",
+    "6",
+    "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+    "--ro-bind-fd",
+    "7",
+    "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9",
+    "--ro-bind-fd",
+    "7",
+    "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+    "--ro-bind-fd",
+    "17",
+    "/usr/lib/x86_64-linux-gnu/libpugixml.so.1",
+    "--ro-bind-fd",
+    "17",
+    "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+    "--ro-bind-fd",
+    "9",
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+    "--ro-bind-fd",
+    "9",
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+    "--ro-bind-fd",
+    "14",
+    "/usr/lib/x86_64-linux-gnu/libz.so.1",
+    "--ro-bind-fd",
+    "14",
+    "/usr/lib/x86_64-linux-gnu/libz.so.1.3"
+  ],
+  "arguments_are_nonportable_fd_examples": true,
+  "actual_alias_namespace_test": "SKIP",
+  "runtime_resolution": "UNVERIFIED",
+  "namespace_check": {
+    "status": "PASS",
+    "exit_code": 0,
+    "stdout": "POST_OPEN_SIMULATED\nCLOSE_SIMULATED\n",
+    "stderr": "",
+    "DART_loaded": false,
+    "Core_files_mounted": true,
+    "scope": "successful exit demonstrates FD alias arguments accepted and libc loader aliases exercised; DART alias resolution not dynamically exercised",
+    "supervisor": "not used in this focused mount check; previous integration reused"
+  }
+}

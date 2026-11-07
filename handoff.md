@@ -1,3 +1,20 @@
+# DART Probe A Runtime Readiness V1 — current checkpoint
+
+복구 체크포인트: staging 승인 취소 후 기존 staged17개를 확인했다. unstaged tracked 변경0, integrity.json은 ignored/un-staged 상태로 보존되어 있었다. 요청된 결과물9개와 참조 evidence SHA 일치를 확인했다. 기존 구현·alias 실행·REL 컴파일 결과를 재사용하고 신규15개 테스트만 재실행했다. 판정·Runtime 제한은 유지한다. 보존 재비교 후 integrity를 포함해 명시 선택 게시한다.
+
+범위 종료: **PROBE_A_NEEDS_EVIDENCE / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. DART/Gazebo 로드, World/Stage B 미실행. 새 `validation/dart-probe-a-runtime-readiness-v1/reports/final_report.md`와 요청된 JSON 참조.
+
+기준 HEAD e135cc5227ac584466c857e03f574e90b5c37ea7 clean 대조. Core16 FD identity/58-edge closure PASS. canonical/SONAME readonly FD alias contract 구현 및 no-loader namespace fixture exit0. 최초 namespace 환경거부는 initial에 보존, 환경 승인 후 outside-sandbox 검증 PASS. 실제 DART 파일 readonly mount만 했고 로드하지 않았다. 기존 Native ETXTBSY 수정·supervisor/isolation/cleanup 증거 재사용.
+
+Host Post-open Gate와 Native WAIT/CLOSE 검토본 구현. loader branch는 REL object로만 컴파일, 실행0. 무해 protocol success/bad-input/EOF/timeout 확인. 신규15+Harness 회귀31=46PASS; observed tests는 과거 evidence 확인이며 새 service 실행 아님. map_files EPERM은 과거 관측; proc-root FD fallback의 file identity 한계 유지. MemoryMax64M/TasksMax8/CPU25% 불변; DART 충분성 및 초과 강제효과 미검증.
+
+다음 최소 작업: 검토본 /audit Core 경로와 canonical mount 경로를 통일하고 binary/manifest pin을 새로 만든 뒤 post_open_ready를 owned Supervisor에 연결, no-loader service fixture로 결합 검증. 현재 stage는 harmless-only이고 실행계획은 NOT_EXECUTABLE_PENDING_EVIDENCE다. 별도 명시 승인 전 DART runtime 시작 금지. 신규 보고서의 판정은 실제 runtime 승인이나 READY가 아니다.
+
+이번 소유 파일은 새 task의 scripts/fixtures/tests/경량reports와 이 handoff만. 원본 main과 기존 자료 보존 비교는 integrity.json, host/PID/start/관측시각은 handoff_snapshot.json. 알려진 fixture 종료/wait 완료, 기존 작업 종료/계정전환 없음; 외부 CWD/remote/container는 UNKNOWN. /tmp/work/ignored/untracked 자료는 다른 기기로 자동 이전되지 않는다. binary/object/fullmanifest 및 로컬 git_publication.json은 게시 제외. 실제 commit/push/원격 일치는 영수증과 최종 응답 참조.
+
+---
+이하 이전 체크포인트:
+
 # Probe A Native Harness Integration V1 — current checkpoint
 
 현재 승인 범위 완료: **PROBE_A_HARNESS_NEEDS_EVIDENCE / NOT_RUNTIME_VERIFIED / Stage B BLOCKED / Probe B~D BLOCKED**. 실제 DART/Gazebo/Probe/World/Stage B 미실행. 실제 실행은 default no-loader harmless C Fixture와 시스템 libc/loader만이다. 종료 후 후속 Runtime 자동 실행 없음.
