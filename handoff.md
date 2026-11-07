@@ -1,3 +1,44 @@
+# Gazebo source observation review — current checkpoint
+
+**UNRESOLVED / NOT_EXECUTION_READY / Stage B BLOCKED**. Read-only source/build/debug provenance review started at 60eabba9a1a384d85b56697e33c294b46d83bffa on experiment/dart-internal-trace, clean. Used context-handoff and required instructions/audit. No source modification, build, target test/load/run, Step, service, marker, sudo/install/network acquisition/system/main change. No risk acceptance.
+
+New documents only: validation/gazebo-source-observation-review-v1/reports/source_observation_review.md, material_inventory.json, integrity.json and this handoff. Installed Sim8.15.0-1~noble, physics7.8.0-1~noble, DART6.13.2+ds1-1~osrf2~noble identities fixed with 9 ELF SHA/Build IDs. Exact debuglink/Build-ID/DWZ candidates absent. No matching Gazebo implementation source/buildinfo in inspected local scopes. DART DSC and50 packaging files match; missing upstream archive and installed build provenance prevent full source identity. Local baseline/trace DWARF Build IDs differ from installed. Original DART reference copies match installed SHA but do not establish source/debug identity.
+
+Both blockers remain. Existing ELF function anchors reused, no source line falsely certified. Conditional design requires typed SAME Sim-owned world/solver/detector diagnostic path and actual method-provider evidence (RTTI module alone insufficient), plus initialization-only phase before runner iteration/time advances and a GO barrier dominating all Step paths. Current Physics Update pre-Step gap alone fails iteration0. Exact source hook lines/minimal targets UNVERIFIED until matching materials arrive. Likely separate build scope Sim core+Physics system+gz DART plugin, selected adapter only if required. Instrumented ELF/new initialization behavior is a separate validation target, not installed-original runtime evidence. No new execution approval issued; launcher/contract/adapter remain unchanged and blocked.
+
+integrity.json:33 selected input/marker/installed ELF hashes unchanged, main HEAD/status unchanged, prior Gazebo runtime/attempt paths absent. This is selected-scope verification, not full ignored-tree comparison. Documentation/JSON/link/diff checks only; historical compile/mock results were not rerun. Snapshot shows no same-user project-CWD jobs; external-CWD/remote/container UNKNOWN. No job started/stopped. Local /tmp and ignored source/binary evidence are not transported by Git publication.
+
+Next minimum work: separately authorized acquisition/provenance comparison of exact gz-sim8/gz-physics7 source/buildinfo/matching debug and missing DART orig/buildinfo/debug (full required versions/Build IDs/archive SHA in report). Do not automatically download, build, hook, run, relax gates or accept risks. Bullet/destructor/allocator/C risks NOT_ACCEPTED; destructors NOT_OBSERVED, allocator NOT_MEASURED. Prior comparison/trace conditional nonapplicability needs re-review for an instrumented build. Stop after this investigation/publication.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-07T14:13:33.366456+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "60eabba9a1a384d85b56697e33c294b46d83bffa",
+    "branch": "experiment/dart-internal-trace",
+    "status": []
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-source-observation-review-v1/reports/source_observation_review.md",
+      "sha256": "3dfc05a4d028787f676d369886c82ec663929779780ecb2dfacd0e51165bf7eb"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+---
+Previous checkpoint follows:
+
 # Installed Gazebo technical-path audit — current checkpoint
 
 **UNRESOLVED / NOT_EXECUTION_READY / Stage B BLOCKED**. Started at e811d8fe44cfeb777cf0486d5e0d1251133e6817 on experiment/dart-internal-trace, clean. User requested resolving active-detector/provider and zero-iteration initialization, with an explicit stop if unverified private ABI is required. Read all required instructions/current reports. No DART/Gazebo load, artifact run, World/step, service, marker, sudo/install/system/main change. No risk accepted.

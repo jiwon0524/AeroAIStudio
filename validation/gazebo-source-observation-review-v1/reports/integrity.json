@@ -1,0 +1,9 @@
+{
+  "selected_file_checks": 33,
+  "changed_or_missing": [],
+  "main_head_status": "UNCHANGED",
+  "gazebo_runtime_paths": "ABSENT",
+  "scope": "Selected inputs, installed ELF, known markers; not full tree content inventory",
+  "build_test_load_execution": "NOT_PERFORMED",
+  "stage_b": "BLOCKED"
+}
