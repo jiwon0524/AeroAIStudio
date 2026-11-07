@@ -1,3 +1,18 @@
+# Gazebo entry reevaluation after notifications — current checkpoint
+
+**NOT_READY_FOR_GAZEBO_EXECUTION / Stage B BLOCKED**. User requested read-only reclassification before any implementation/build, starting bcbc5a75d5413cd0d6b1ebdc45e118b06c3e13fa/experiment/dart-internal-trace clean. Read instructions/current handoff/notification execution/prerequisite review/Gazebo draft and original Probe/V4 gates. No source implementation/build/target loading/probe rerun/service/marker/sudo/install/system/main changes. No risk accepted or scope waived.
+
+New docs only: validation/gazebo-entry-review-v2/reports/{entry_review.md,static_evidence.json,preservation_review.json}. Static193 installed candidate files unchanged. Intended DARTplugin/installedCore/Bullet/ODE candidates and hashes identified, but actual engine/detector/mapped closure UNKNOWN. Plugin NEEDED includes Bullet/ODE and symbols reference GzBullet factory plus adapter destroy/notify; presence does not prove active selection. Preserved Core FCL default source is not installed Gazebo wrapper selection proof. New gazebo-minimal-physics-v1 world/observer/launcher still absent.
+
+Classification: B Bullet/provider identity is mandatory evidence. B Bullet behavior, individual destructor/D0, allocator balance and C exception cleanup are explicit itemized risk-acceptance candidates under V4, currently unmet/unaccepted. Baseline/trace comparison and D recorder testing are technically non-applicable CONDITIONALLY to an installed-only/no-local-trace/no-neutrality-claim smoke; full future closure condition still unconfirmed and original procedural gate not automatically waived. Notification callback success remains historical; individual destructors NOT_OBSERVED, allocator NOT_MEASURED.
+
+One mandatory blocker highlighted: fixed Gazebo payload/provider/closure and pre-step GO contract missing. Proposed minimum future signals: pinned actual mount/ELF/world/observer contract; READY_PAUSED at iteration/time0 with active DART instance+detector/provider identity and exact mapped closure; host GO only after complete gates; then100x1ms and state/exit/cleanup/integrity. This is a review proposal, not implemented/observed/approved. Safe observer access and gate feasibility UNKNOWN.
+
+Selected-input hashes and main HEAD/status preserved PASS; prior markers intact. Full original-tree hash was not rerun. Only docs and this handoff published to experiment branch; original code/evidence untouched. Known jobs: no runtime/build started; external-CWD/remote/container UNKNOWN. /tmp ignored evidence not transferred by Git. Next: user reviews classifications and chooses further bounded preparation or explicit scope/risk decisions; do not implement/build/run automatically. Common skill unchanged.
+
+---
+Previous checkpoint follows:
+
 # Subject notification approved execution — current checkpoint
 
 **SUBJECT_NOTIFICATION_OBSERVATION_PASS / Probe B PARTIAL / Stage B BLOCKED**. User approved exactly one fixed launch at3c6654b45c78b42a5eaed3a1ba3d988a84552a29. HEAD/branch/clean,27source/manifest pins,fixture/Core16 FDidentity,62edges/29ROmount/sameCoreSONAMEalias,fresh output/markers,limits/manager-unit preflight PASS. Launch once,wrapper exit0;retry0,limit increase0,source changes0. Previous probes not rerun.
@@ -553,22 +568,22 @@ Common skill source remains outside the project at `/home/jiwon/Projects/my-agen
 ```context-handoff-state
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07T13:23:14.328977+00:00",
+  "updated_at": "2026-11-07T13:30:17.542508+00:00",
   "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
   "host": "jiwon-System-Product-Name",
   "git": {
-    "head": "3c6654b45c78b42a5eaed3a1ba3d988a84552a29",
+    "head": "bcbc5a75d5413cd0d6b1ebdc45e118b06c3e13fa",
     "branch": "experiment/dart-internal-trace",
     "status": []
   },
   "evidence": [
     {
-      "path": "validation/dart-subject-notification-v1/reports/execution_review.json",
-      "sha256": "cdaebca74acb278e6eab0678d05bf9d9207aeada51e7fe3bb79acd73518ab864"
+      "path": "validation/gazebo-entry-review-v2/reports/entry_review.md",
+      "sha256": "8375366a2ee559abe8dcfc2db4223763e8b01fc73ccd740af7ca30a71561274b"
     },
     {
-      "path": "validation/dart-subject-notification-v1/reports/runtime_integrity.json",
-      "sha256": "04358f264b32c5ab23b07aa217059810c30ed2e2d2ac225797b1686369ceac75"
+      "path": "validation/gazebo-entry-review-v2/reports/preservation_review.json",
+      "sha256": "5551b44d14636182dad24a6a8a18ed5d4bbfba8344bf958a307099328b573fa7"
     }
   ],
   "processes": {

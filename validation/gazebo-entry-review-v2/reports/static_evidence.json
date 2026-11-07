@@ -1,0 +1,254 @@
+{
+  "observed_utc": "2026-11-07T13:27:46.618029+00:00",
+  "baseline_head": "bcbc5a75d5413cd0d6b1ebdc45e118b06c3e13fa",
+  "method": "read-only text/sha256/readelf/nm/bounded objdump; no target loading/help/plugin-info or execution",
+  "input_records": [
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/AGENTS.md",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/AGENTS.md",
+      "sha256": "b2e2a3e8d6492884f646f124f9fa64c669185e025a5f8db228136f4aabc40594"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/docs/DEVELOPMENT_RULES.md",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/docs/DEVELOPMENT_RULES.md",
+      "sha256": "907019ccb9343e4155d59847400912ce99bf0c08136f6e6bbf3dbcf9ca585a96"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-subject-notification-v1/reports/execution_report.md",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-subject-notification-v1/reports/execution_report.md",
+      "sha256": "e0f06fbb0de3455707f6c83b1ce1885cdf45939ef58770da8bc26fa5d0c68d78"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-subject-notification-v1/reports/prerequisite_review.md",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-subject-notification-v1/reports/prerequisite_review.md",
+      "sha256": "d73d0d6b6f3e13f95bbf61877d1421a42f566d3c6f0b45aa688c177fb7f51f2a"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-minimal-approval-v1/reports/approval_plan.md",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-minimal-approval-v1/reports/approval_plan.md",
+      "sha256": "bbcf771186edfa5b9b4cccfa7c4d7eeeb7ccef205ef1daff420ec6a3abc00fa9"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-targeted-evidence-v1/reports/probe_plan.json",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-targeted-evidence-v1/reports/probe_plan.json",
+      "sha256": "a695b5c03b7f0e6317a43e009beeaa85605e0835697ec9c45d57c2708165cc28"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/reports/targeted_evidence_plan.md",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-destructor-cleanup-v4/reports/targeted_evidence_plan.md",
+      "sha256": "97a6c8c334c494bfdb553651e55bffac3c375215245411d0bce066b819296196"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-readiness-v1/reports/next_steps.md",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-readiness-v1/reports/next_steps.md",
+      "sha256": "1dd83486a23198d5d69e9b3a1ee49ca6e2dbef83adde0246e7fda921e8b82242"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/tools/gazebo_runtime_physics_backend_observer.cc",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/tools/gazebo_runtime_physics_backend_observer.cc",
+      "sha256": "082e8362c7f4d10f6f5c106e7d65aec6800862f6876a511f11e9176f89b8870e"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/baseline-source/dart/constraint/ConstraintSolver.cpp",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/baseline-source/dart/constraint/ConstraintSolver.cpp",
+      "sha256": "679e625f1ceaa09d870195234c9116baad7a876bd17422dd799e1f382aa61667"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/baseline-source/dart/collision/CollisionDetector.cpp",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/baseline-source/dart/collision/CollisionDetector.cpp",
+      "sha256": "a623138d32c8e94dc5c07794abb5036a6eee2b5019c55597efba2994102eb042"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/baseline-source/dart/collision/bullet/BulletCollisionDetector.cpp",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/baseline-source/dart/collision/bullet/BulletCollisionDetector.cpp",
+      "sha256": "69b9cd30f1ff5ef4c47ee9e5cb632dc9799546f4bf3783230ac881bc6215c9bf"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/trace-source/dart/external/odelcpsolver/internal_trace.h",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/work/trace-source/dart/external/odelcpsolver/internal_trace.h",
+      "sha256": "6eab2cc9600d94d77c7f8c4cf73c1ab04bb8ba46869b600cbf09682a80696091"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-subject-notification-v1/work/runtime_collection_attempt.json",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-subject-notification-v1/work/runtime_collection_attempt.json",
+      "sha256": "0d9353700a45132723fa69d2bb4e78ab16d4caad3438a9960ddf04ec89b73672"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-subject-notification-v1/work/runtime_attempt.json",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-subject-notification-v1/work/runtime_attempt.json",
+      "sha256": "517d86c5409e441f78c2285686f626d2e6699333493d5ece34fef85057bd705b"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-body-shape-lifetime-v1/work/runtime_collection_attempt.json",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-body-shape-lifetime-v1/work/runtime_collection_attempt.json",
+      "sha256": "a5de2f77e014671dfe6076badfd7cbe5953dcc87ffdc3f97677332c226248164"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-body-shape-lifetime-v1/work/runtime_attempt.json",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-body-shape-lifetime-v1/work/runtime_attempt.json",
+      "sha256": "d7b15811bbfd606de70023656de2a41907d74e70f3a2ac2dd699175b878dc426"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-skeleton-lifetime-v2/work/runtime_collection_attempt.json",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-skeleton-lifetime-v2/work/runtime_collection_attempt.json",
+      "sha256": "7142a0ae88713bebc2f6587e0f8b3853e9052c5f915ff0d3a0917c88378c13d2"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-skeleton-lifetime-v2/work/runtime_attempt.json",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-skeleton-lifetime-v2/work/runtime_attempt.json",
+      "sha256": "65e8d85725b2f9f79f7f1ac1b1ff9d173a9dc74279a4f39d0bf8aada4117055b"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-skeleton-lifetime-v1/work/runtime_collection_attempt.json",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-skeleton-lifetime-v1/work/runtime_collection_attempt.json",
+      "sha256": "7142a0ae88713bebc2f6587e0f8b3853e9052c5f915ff0d3a0917c88378c13d2"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-skeleton-lifetime-v1/work/runtime_attempt.json",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-skeleton-lifetime-v1/work/runtime_attempt.json",
+      "sha256": "ad999e562c1d88f13f8c8f9ed9b7e033896ac67ea983d6f969ab122e309a624d"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-launch-preparation-v1/work/reject_attempt.json",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-launch-preparation-v1/work/reject_attempt.json",
+      "sha256": "641ef970da76891d1e5b39a829bc0178351b4a0ebb4e9dec2b4212ebd0296292"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-launch-preparation-v1/work/timeout_attempt.json",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-launch-preparation-v1/work/timeout_attempt.json",
+      "sha256": "8489a398aada7174ea17136503791cf745be9331157b2e0866a1ff24656e51f0"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-launch-preparation-v1/work/runtime_collection_attempt.json",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-launch-preparation-v1/work/runtime_collection_attempt.json",
+      "sha256": "ff578a2c97c5637ac10253b32ad4e0cbe2fd98922e5b90b59ab83d2e1249ec73"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-launch-preparation-v1/work/accept_attempt.json",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-launch-preparation-v1/work/accept_attempt.json",
+      "sha256": "21f104669cb1aa932cfee60c863ca494cfd0c2bea3faf628426c359b1581b755"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-launch-preparation-v1/work/runtime_attempt.json",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-launch-preparation-v1/work/runtime_attempt.json",
+      "sha256": "b47ad0a545e46e9107bcd09da930b8ff67e4d244372026455aa4c464dcf9db1a"
+    },
+    {
+      "path": "/usr/share/gz/sim8.yaml",
+      "real_path": "/usr/share/gz/sim8.yaml",
+      "sha256": "a6b7d809febb79ef22f8322e6709b39a168904a0d3bfb26374fc30df55c1b448"
+    },
+    {
+      "path": "/usr/lib/ruby/gz/cmdsim8.rb",
+      "real_path": "/usr/lib/ruby/gz/cmdsim8.rb",
+      "sha256": "7c8d12f4bdfb016a5b7bd1c2b8600e497e23267f1a64cd480d7e2024b0b597ba"
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/World.hh",
+      "real_path": "/usr/include/gz/physics7/gz/physics/World.hh",
+      "sha256": "e79b1b8e4519cdf511870eaaceb877e6d8afae620682d91ccc36971243d6444b"
+    },
+    {
+      "path": "/usr/include/gz/sim8/gz/sim/components/PhysicsEnginePlugin.hh",
+      "real_path": "/usr/include/gz/sim8/gz/sim/components/PhysicsEnginePlugin.hh",
+      "sha256": "b62e85be24f3bbe963a45db78e439621b59db32b60582ccf7f8087654e58169e"
+    }
+  ],
+  "prior_static_inventory_rehashed": 193,
+  "prior_inventory_changed": [],
+  "prior_inventory_reference": "validation/gazebo-minimal-approval-v1/reports/static_inventory.json",
+  "critical_installed_candidates": [
+    {
+      "real_path": "/usr/bin/gz",
+      "sha256": "863c95b52d3d60a23b8e7f542d5ca71f4d783ce617989742eb0d63d85e3578cc"
+    },
+    {
+      "real_path": "/usr/bin/ruby3.2",
+      "sha256": "ead53704d7da35c85a28db19070d34e7ecef9461ecf8ae5e9d51ae79125bb731"
+    },
+    {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-gz.so.8.15.0",
+      "sha256": "9a1b8b361548428dfdfab51c530a15d0b3199be2cd567079a8ef1b4e218ee094"
+    },
+    {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libgz-sim8.so.8.15.0",
+      "sha256": "6120bd5d25a28ced3238f91b8a432e364958cd07706afe00911743072bfe4651"
+    },
+    {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-physics-system.so.8.15.0",
+      "sha256": "5d8b8d068628ee7af0774f5d9e0ef65e23d4e9f9cab23c1aac318faaa51f9575"
+    },
+    {
+      "real_path": "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "sha256": "1ee9350aa09d5a5eb43a5075c9c61d2cdcb85113d2ff1e0f32136847edf1688e"
+    },
+    {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "sha256": "f74f4ec9820aee785ef94fb7bedafa7e4c832f209675a8ca1d35019c72b48e06"
+    },
+    {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+      "sha256": "897709e0c988e9e562c662292ed5bc860bce70ee2c64499501f54a6b5ca02201"
+    },
+    {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+      "sha256": "31c7e0d2d17efc3924613bf561a645a4258f2d8df54167c162c490ed7fe84fea"
+    },
+    {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.13.2",
+      "sha256": "2940e0bd6b056f186d3596e051a26ec25f1c27add88d870cdfe673785dad4b44"
+    },
+    {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+      "sha256": "b890ed6936ea7cf486303fc5101ee5ff68356fc89596273ebaef83671aa4cb16"
+    },
+    {
+      "real_path": "/usr/lib/x86_64-linux-gnu/libBulletCollision.so.3.24",
+      "sha256": "a356d9ef207a31737b91a39c4c75a43b05a49cde51891cfa13b4b1c71c223f0a"
+    }
+  ],
+  "plugin_dynamic_metadata": "\nDynamic section at offset 0x2f7af0 contains 38 entries:\n  Tag        Type                         Name/Value\n 0x0000000000000001 (NEEDED)             Shared library: [libdart-collision-bullet.so.6.13]\n 0x0000000000000001 (NEEDED)             Shared library: [libLinearMath.so.3.24]\n 0x0000000000000001 (NEEDED)             Shared library: [libdart-collision-ode.so.6.13]\n 0x0000000000000001 (NEEDED)             Shared library: [libdart.so.6.13]\n 0x0000000000000001 (NEEDED)             Shared library: [libsdformat14.so.14]\n 0x0000000000000001 (NEEDED)             Shared library: [libgz-physics7.so.7]\n 0x0000000000000001 (NEEDED)             Shared library: [libgz-common5-graphics.so.5]\n 0x0000000000000001 (NEEDED)             Shared library: [libassimp.so.5]\n 0x0000000000000001 (NEEDED)             Shared library: [libgz-math7.so.7]\n 0x0000000000000001 (NEEDED)             Shared library: [libgz-common5.so.5]\n 0x0000000000000001 (NEEDED)             Shared library: [libstdc++.so.6]\n 0x0000000000000001 (NEEDED)             Shared library: [libm.so.6]\n 0x0000000000000001 (NEEDED)             Shared library: [libgcc_s.so.1]\n 0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]\n 0x000000000000000e (SONAME)             Library soname: [libgz-physics7-dartsim-plugin.so.7]\n 0x000000000000000c (INIT)               0x1b0000\n 0x000000000000000d (FINI)               0x25c3d4\n 0x0000000000000019 (INIT_ARRAY)         0x2d5038\n 0x000000000000001b (INIT_ARRAYSZ)       128 (bytes)\n 0x000000000000001a (FINI_ARRAY)         0x2d50b8\n 0x000000000000001c (FINI_ARRAYSZ)       8 (bytes)\n 0x000000006ffffef5 (GNU_HASH)           0x2f0\n 0x0000000000000005 (STRTAB)             0x18500\n 0x0000000000000006 (SYMTAB)             0x5588\n 0x000000000000000a (STRSZ)              1440039 (bytes)\n 0x000000000000000b (SYMENT)             24 (bytes)\n 0x0000000000000003 (PLTGOT)             0x2f8fe8\n 0x0000000000000002 (PLTRELSZ)           10368 (bytes)\n 0x0000000000000014 (PLTREL)             RELA\n 0x0000000000000017 (JMPREL)             0x1ad478\n 0x0000000000000007 (RELA)               0x179908\n 0x0000000000000008 (RELASZ)             211824 (bytes)\n 0x0000000000000009 (RELAENT)            24 (bytes)\n 0x000000006ffffffe (VERNEED)            0x179778\n 0x000000006fffffff (VERNEEDNUM)         4\n 0x000000006ffffff0 (VERSYM)             0x177e28\n 0x000000006ffffff9 (RELACOUNT)          4159\n 0x0000000000000000 (NULL)               0x0\n",
+  "plugin_relevant_dynamic_symbols": [
+    "000000000021cce0 T gz::physics::dartsim::SDFFeatures::ConstructSdfWorld(gz::physics::Identity const&, sdf::v14::World const&)",
+    "000000000023de40 T gz::physics::dartsim::WorldFeatures::SetWorldCollisionDetector(gz::physics::Identity const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)",
+    "                 U dart::collision::BulletCollisionDetector::getStaticType[abi:cxx11]()",
+    "                 U dart::collision::BulletCollisionDetector::createCollisionGroup()",
+    "                 U dart::collision::BulletCollisionDetector::createCollisionObject(dart::dynamics::ShapeFrame const*)",
+    "                 U dart::collision::BulletCollisionDetector::refreshCollisionObject(dart::collision::CollisionObject*)",
+    "                 U dart::collision::BulletCollisionDetector::notifyCollisionObjectDestroying(dart::collision::CollisionObject*)",
+    "                 U dart::collision::BulletCollisionDetector::collide(dart::collision::CollisionGroup*, dart::collision::CollisionOption const&, dart::collision::CollisionResult*)",
+    "                 U dart::collision::BulletCollisionDetector::collide(dart::collision::CollisionGroup*, dart::collision::CollisionGroup*, dart::collision::CollisionOption const&, dart::collision::CollisionResult*)",
+    "                 U dart::collision::BulletCollisionDetector::raycast(dart::collision::CollisionGroup*, Eigen::Matrix<double, 3, 1, 0, 3, 1> const&, Eigen::Matrix<double, 3, 1, 0, 3, 1> const&, dart::collision::RaycastOption const&, dart::collision::RaycastResult*)",
+    "                 U dart::collision::BulletCollisionDetector::distance(dart::collision::CollisionGroup*, dart::collision::DistanceOption const&, dart::collision::DistanceResult*)",
+    "                 U dart::collision::BulletCollisionDetector::distance(dart::collision::CollisionGroup*, dart::collision::CollisionGroup*, dart::collision::DistanceOption const&, dart::collision::DistanceResult*)",
+    "                 U dart::collision::BulletCollisionDetector::BulletCollisionDetector()",
+    "                 U dart::collision::BulletCollisionDetector::~BulletCollisionDetector()",
+    "00000000001fc4b0 T dart::collision::GzBulletCollisionDetector::create()",
+    "000000000023c1d0 T gz::physics::dartsim::WorldFeatures::GetWorldCollisionDetector[abi:cxx11](gz::physics::Identity const&) const",
+    "                 U dart::collision::BulletCollisionDetector::cloneWithoutCollisionObjects() const",
+    "                 U dart::collision::BulletCollisionDetector::getType[abi:cxx11]() const",
+    "00000000002e0a00 V typeinfo for gz::physics::sdf::ConstructSdfWorld::Implementation<gz::physics::FeaturePolicy<double, 3ul> >",
+    "00000000002687e0 V typeinfo name for gz::physics::sdf::ConstructSdfWorld::Implementation<gz::physics::FeaturePolicy<double, 3ul> >",
+    "000000000021d2e0 T virtual thunk to gz::physics::dartsim::SDFFeatures::ConstructSdfWorld(gz::physics::Identity const&, sdf::v14::World const&)",
+    "000000000023e240 T virtual thunk to gz::physics::dartsim::WorldFeatures::SetWorldCollisionDetector(gz::physics::Identity const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)",
+    "000000000023c2d0 T virtual thunk to gz::physics::dartsim::WorldFeatures::GetWorldCollisionDetector[abi:cxx11](gz::physics::Identity const&) const"
+  ],
+  "world_observer_launcher_present": false,
+  "actual_runtime_backend": "UNKNOWN",
+  "actual_collision_detector": "UNKNOWN",
+  "actual_mapped_closure": "UNKNOWN",
+  "local_trace_namespace_exports_in_installed_Core_External": {
+    "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2": 0,
+    "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2": 0
+  },
+  "main_head": "46134c6bf5670ed61ba252f394ccdddb7ff2cf6b",
+  "main_status": " M tests/test_gazebo_contact_opt_in_lifecycle.py\n M tests/test_gazebo_contact_surface_event.py\n M tests/test_gazebo_physical_microstate_ordering.py\n M tools/diagnose_v07_gazebo_action24_continuous_support.py\n M tools/diagnose_v07_gazebo_action24_history_ab.py\n M tools/diagnose_v07_gazebo_action24_one_tick_control.py\n M tools/diagnose_v07_gazebo_contact_surface_event.py\n M tools/gazebo_continuous_support_observer.cc\n?? AGENTS.md\n?? handoff.md\n?? tests/fixtures/collision_observation_synthetic.cc\n?? tests/test_action24_collision_pair_integration.py\n?? tests/test_contact_event_host4.py\n?? tests/test_gazebo_collision_observation.py\n?? tests/test_host4_failure_diagnostics.py\n?? tests/test_independent_instrumentation.py\n?? tests/test_independent_instrumentation_host.py\n?? tests/test_minimal_clock.py\n?? tests/test_pose_cache_provenance.py\n?? tests/test_strict_clock_receive_hook.py\n?? tests/test_strict_paused_clock_analysis.py\n?? tools/analyze_v07_strict_paused_clock.py\n?? tools/diagnose_v07_gazebo_contact_surface_event_host4.py\n?? tools/diagnose_v07_independent_instrumentation.py\n?? tools/diagnose_v07_independent_instrumentation_host.py\n?? tools/diagnose_v07_minimal_clock.py\n?? tools/diagnostic_capture_failure.py\n?? tools/diagnostic_pose_cache_provenance.py\n?? tools/diagnostic_pose_provenance_integrity.py\n?? tools/forensic_v07_contact_event_host3.py\n?? tools/forensic_v07_host4_extended.py\n?? tools/gazebo_collision_observation.hh\n?? tools/host4_offline_test_guard.py\n?? tools/independent_clock_diagnostics.py\n?? tools/independent_instrumentation_protocol.py\n?? tools/independent_recovery_offline_guard.py\n?? tools/strict_clock_minimal_observation.py\n?? tools/strict_clock_offline_guard.py\n?? tools/strict_clock_receive_hook.py\n",
+  "prohibited_operations": {
+    "implementation": 0,
+    "build": 0,
+    "target_loads": 0,
+    "services": 0,
+    "marker_consumption": 0,
+    "risk_acceptance": "NONE"
+  }
+}

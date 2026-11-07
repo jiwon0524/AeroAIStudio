@@ -1,0 +1,13 @@
+{
+  "status": "PASS_SELECTED_INPUTS_ONLY",
+  "input_records": 30,
+  "changed_or_missing": [],
+  "rehashed_previous_static_candidate_files": 193,
+  "previous_candidate_changes": [],
+  "main_head_unchanged": true,
+  "main_status_unchanged": true,
+  "full_original_tree_rehash": "NOT_PERFORMED",
+  "new_runtime_or_markers": "NONE",
+  "implementation_build_or_target_loading": "NONE",
+  "risk_acceptance": "NONE"
+}
