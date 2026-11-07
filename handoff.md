@@ -1,3 +1,18 @@
+# Gazebo minimal approval preparation — current checkpoint
+
+**DRAFT_BLOCKED_NOT_EXECUTABLE / Gazebo NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. User requested read-only investigation and an approval plan, starting d35df02bb4be613223e558236c1a92a65dfce49e/experiment/dart-internal-trace clean. No compilation/linking, target loading/execution, World::step, service start, new one-shot marker, package/system/main edit. V2 remains historical PASS and its two one-shot markers remain consumed/intact.
+
+New evidence only: validation/gazebo-minimal-approval-v1/reports/{approval_plan.md,approval_contract.json,static_inventory.json,preservation_review.json}. Existing next_steps and targeted_evidence_plan require Probe B/C/D evidence or itemized risk acceptance before separate Host/Gazebo approval. Empty Skeleton V2 does not cover Body/Shape/Bullet/exception/trace boundaries. Chosen smallest next scope: B1 installed Core normal nonphysics Skeleton/WeldJoint/BodyNode/BoxShape/ShapeNode lifetime, not B whole PASS.
+
+Approval draft includes exact proposed argv, paths and hashes of available installed inputs; 193 provisional Gazebo static files and Core16 rehashed with readelf only. Proposed B1 source/launcher/native do not exist: binary hash and actual closure/mount plan UNKNOWN, no execution-ready approval asserted. B1 retains V2 64MiB/swap0/tasks8/CPU25%/8s/stop2s as unproven-sufficient upper bounds; no automatic increase. Gazebo appendix proposes fixed100 steps of1ms, explicit DART identity cross-check and freefall criteria, provisional512MiB/tasks64/CPU100%/30s/stop2s; world/observer/step GO gate and dynamic closure still unimplemented/unconfirmed. These are future design proposals, not authorization.
+
+Selected-input preservation PASS and main HEAD/status unchanged; full original-tree rehash not performed this task. Existing sources/evidence/markers unchanged. Only new lightweight reports and this handoff selected for experiment-branch publication; no main/force/merge. /tmp and ignored raw evidence do not transfer through Git. Current task ends after reporting the draft. Next separately requested work could prepare B1 compile-only source and offline gates, then freeze actual ELF hashes and final contract before any execution approval. No automatic follow-on work.
+
+Process snapshot below is scoped visibility; remote/container/external-CWD jobs UNKNOWN. Known V2 unit ended according to prior execution evidence; no new service created. Common skill untouched.
+
+---
+Previous checkpoint follows:
+
 # Empty Skeleton V2 — approved execution checkpoint
 
 **EMPTY_SKELETON_LIFETIME_PASS / Stage B BLOCKED**. Current user approved exactly one specified V2 invocation at f96f5b0; command executed once and wrapper exit0. Preflight source22/ELF/Core16/62edges/readonly Core SONAME alias/HEAD/branch/clean/fresh markers PASS. Sandbox manager read required escalation; outside-sandbox manager running confirmed before the sole launch.
@@ -472,22 +487,22 @@ Common skill source remains outside the project at `/home/jiwon/Projects/my-agen
 ```context-handoff-state
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07T12:45:00.540331+00:00",
+  "updated_at": "2026-11-07T12:51:20.655822+00:00",
   "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
   "host": "jiwon-System-Product-Name",
   "git": {
-    "head": "f96f5b028fac6e3847b6e6a9fad2ce16c1f4db45",
+    "head": "d35df02bb4be613223e558236c1a92a65dfce49e",
     "branch": "experiment/dart-internal-trace",
     "status": []
   },
   "evidence": [
     {
-      "path": "validation/dart-skeleton-lifetime-v2/reports/execution_review.json",
-      "sha256": "16f470beb97eea469b8e0da19c31f9b45c658fdcd9ad98c7f4a5984c6e8aeb8a"
+      "path": "validation/gazebo-minimal-approval-v1/reports/approval_plan.md",
+      "sha256": "bbcf771186edfa5b9b4cccfa7c4d7eeeb7ccef205ef1daff420ec6a3abc00fa9"
     },
     {
-      "path": "validation/dart-skeleton-lifetime-v2/reports/runtime_integrity.json",
-      "sha256": "04358f264b32c5ab23b07aa217059810c30ed2e2d2ac225797b1686369ceac75"
+      "path": "validation/gazebo-minimal-approval-v1/reports/preservation_review.json",
+      "sha256": "4af0f2008864641b3cad2aab4e56876636ee38b29d0e34741923824b2fe3bb02"
     }
   ],
   "processes": {

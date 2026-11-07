@@ -1,0 +1,13 @@
+{
+  "status": "PASS_SELECTED_INPUTS_ONLY",
+  "checked_records": 230,
+  "changed_or_missing": [],
+  "main_head_unchanged": true,
+  "main_status_unchanged": true,
+  "future_runtime_directories_absent": [
+    "validation/dart-body-shape-lifetime-v1",
+    "validation/gazebo-minimal-physics-v1"
+  ],
+  "full_original_tree_rehash": "NOT_PERFORMED; selected inputs and Git state only",
+  "no_new_runtime_marker_or_service": true
+}

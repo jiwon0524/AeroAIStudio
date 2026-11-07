@@ -1,0 +1,49 @@
+{
+  "status": "DRAFT_BLOCKED_NOT_EXECUTABLE",
+  "baseline_head": "d35df02bb4be613223e558236c1a92a65dfce49e",
+  "selected_next_scope": "B1 installed Core normal nonphysics ownership chain only",
+  "ready_for_execution_approval": false,
+  "gazebo_entry_allowed": false,
+  "runtime_authorized_this_task": false,
+  "target_loads": 0,
+  "services_started": 0,
+  "new_markers_consumed": 0,
+  "builds": 0,
+  "blocking_unknowns": [
+    "B1 source/launcher/native not implemented or built; executable SHA-256 UNKNOWN",
+    "source/import/ownership/collector safety review incomplete",
+    "actual executable NEEDED and FD/mount closure incomplete",
+    "fresh preflight gates not implemented or verified",
+    "remaining B/C/D evidence or explicit itemized risk acceptance before Gazebo"
+  ],
+  "b1_proposed_argv": [
+    "env",
+    "-u",
+    "LD_PRELOAD",
+    "-u",
+    "LD_AUDIT",
+    "-u",
+    "LD_LIBRARY_PATH",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "python3",
+    "validation/dart-body-shape-lifetime-v1/scripts/launch.py",
+    "--execute-approved-body-shape-once"
+  ],
+  "b1_proposed_limits": {
+    "MemoryMax": 67108864,
+    "MemorySwapMax": 0,
+    "TasksMax": 8,
+    "CPUQuota": "25%",
+    "RuntimeMaxSec": 8,
+    "TimeoutStopSec": 2
+  },
+  "gazebo_proposed_only_limits": {
+    "MemoryMax": 536870912,
+    "MemorySwapMax": 0,
+    "TasksMax": 64,
+    "CPUQuota": "100%",
+    "RuntimeMaxSec": 30,
+    "TimeoutStopSec": 2
+  },
+  "prohibited": "No target loading/World::step/service/marker/sudo/install/system configuration/main edits; V2/Probe A/V1 never rerun; Stage B BLOCKED"
+}
