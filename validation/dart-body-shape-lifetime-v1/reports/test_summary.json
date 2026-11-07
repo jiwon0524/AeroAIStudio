@@ -1,0 +1,24 @@
+{
+  "status": "PASS_NON_EXECUTING",
+  "tests": 22,
+  "failures": 0,
+  "errors": 0,
+  "raw_log": "work/static_tests_final.log",
+  "initial_errors": 6,
+  "initial_cause": "generic supervisor module shadowed by imported helper path; use unique body_shape_supervisor name",
+  "initial_logs": [
+    "work/static_tests_initial.log",
+    "work/static_tests_import_initial2.log"
+  ],
+  "native_execution": false,
+  "service_start": false,
+  "marker_consumed": false,
+  "coverage": [
+    "source pins and ancestry",
+    "actual readelf/FD/hash and SONAME mount closure",
+    "alias/mount/interpreter/metadata rejection",
+    "preflight and manager denial before collection marker using mocks",
+    "default print-only",
+    "structured event contract rejection without destructor claim"
+  ]
+}

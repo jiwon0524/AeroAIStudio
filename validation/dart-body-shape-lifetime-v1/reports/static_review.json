@@ -1,0 +1,77 @@
+{
+  "status": "PASS_STATIC_ONLY",
+  "compiled_source": "fixtures/body_shape.cpp",
+  "binary_sha256": "2d0001f80a1f1f1c2f80db5fd68a6018b3bed59fbfda1813934945d3884069f7",
+  "API_evidence": [
+    {
+      "path": "validation/dart-capability-abi-v2/work/baseline-source/dart/dynamics/Skeleton.cpp",
+      "sha256": "c7b63d7aa33de698bc0d6308558cce0bfb58237bd14d5e57b70afef430f1f4b9"
+    },
+    {
+      "path": "validation/dart-capability-abi-v2/work/baseline-source/dart/dynamics/BodyNode.cpp",
+      "sha256": "8c8fcefac2d67e2776bff2e816e26df5aa61de7a92ab51a460909bdcaeca6718"
+    },
+    {
+      "path": "validation/dart-capability-abi-v2/work/baseline-source/dart/dynamics/ShapeFrame.cpp",
+      "sha256": "4019ac1236c168608ea694329acd1ae208b92125cdfbaa5a9d140c85da433c61"
+    },
+    {
+      "path": "validation/dart-capability-abi-v2/work/baseline-source/dart/dynamics/Node.cpp",
+      "sha256": "f944c455d802d5e84c5dc66c77d4c65bf3f555c4abd392163d85e966bbda16fe"
+    },
+    {
+      "path": "validation/dart-capability-abi-v2/work/dependencies/usr/include/dart/dynamics/Skeleton.hpp",
+      "sha256": "e2797626f2a0dbea77147bb3b1caf6f33a68e2da46d326c6bbff1307d9c2b756"
+    },
+    {
+      "path": "validation/dart-capability-abi-v2/work/dependencies/usr/include/dart/dynamics/BodyNode.hpp",
+      "sha256": "5c3204f181038222bbc8c83bf69daafc680785167f1cd3b567644dba0ee52c72"
+    },
+    {
+      "path": "validation/dart-capability-abi-v2/work/dependencies/usr/include/dart/dynamics/Node.hpp",
+      "sha256": "91b5635d5d6ddc123684a308eb71c689ad3323907613b77de8bd2f86a34ae819"
+    },
+    {
+      "path": "validation/dart-capability-abi-v2/work/dependencies/usr/include/dart/dynamics/ShapeNode.hpp",
+      "sha256": "b0f9b9a5aef10a67baa63ffb35c8bf7e973711364e10c121ca733ed16de17265"
+    },
+    {
+      "path": "validation/dart-capability-abi-v2/work/dependencies/usr/include/dart/dynamics/ShapeFrame.hpp",
+      "sha256": "ea5fe8f58c2660136189fa08fc821f2da5b52348a961cf974630ab209d647d38"
+    },
+    {
+      "path": "validation/dart-capability-abi-v2/work/dependencies/usr/include/dart/dynamics/BoxShape.hpp",
+      "sha256": "b073cfe1b4bf22e09adfee7373d6ee7d993faf34c0b800f7b002cfa13a82e936"
+    },
+    {
+      "path": "validation/dart-capability-abi-v2/work/dependencies/usr/include/dart/dynamics/WeldJoint.hpp",
+      "sha256": "2a672b46868f77fb9b22caf238487a6596fd61dd7f0fc259f0345de48e7a905a"
+    }
+  ],
+  "ownership_basis": [
+    "Skeleton.cpp destructor loops cached BodyNode pointers and deletes them (source evidence, not installed runtime observation)",
+    "BodyNode.cpp destructor clears node/destructor maps and deletes parent joint (source evidence only)",
+    "Node.hpp documents borrowed association and Node removal strong-reference semantics",
+    "ShapeFrame.hpp/cpp hold shared Shape; body owns attached ShapeNode; no manual raw delete",
+    "getBodyNodePtr()/getShape() temporaries end within creation check before release sequence"
+  ],
+  "observed_in_fixture_source": [
+    "creation nonnull counts owner identity",
+    "Shape retained after external shared_ptr reset",
+    "Skeleton/Shape weak expiration after owner reset"
+  ],
+  "NOT_OBSERVED": [
+    "Skeleton/BodyNode/ShapeNode/Joint individual destructor entries and order",
+    "D0/provider/exact allocation and deallocation balance",
+    "exception partial cleanup",
+    "Bullet factories/casts",
+    "runtime ABI/neutrality"
+  ],
+  "world_step_gazebo_calls": false,
+  "dynamic_symbol_world_step_present": false,
+  "init_fini_metadata": [
+    "[22] .init_array       INIT_ARRAY      000000000000c5f8 00b5f8 000010 08  WA  0   0  8",
+    "[23] .fini_array       FINI_ARRAY      000000000000c608 00b608 000008 08  WA  0   0  8"
+  ],
+  "startup_limit": "C++ runtime/header static registration may initialize before main. Host GO gates test object factories only. No claim of preventing loader constructors."
+}

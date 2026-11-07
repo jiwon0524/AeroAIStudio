@@ -1,3 +1,20 @@
+# Body/Shape B1 preparation — current checkpoint
+
+**BODY_SHAPE_PREPARED_NOT_EXECUTED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. Started83c9b0c6838f5e1f244811524e45e140cf8657b1/experiment/dart-internal-trace clean. Current user authorized implementation, compile/link and non-executing checks only. No DART/fixture/Gazebo load/run, World/step, service start, new one-shot marker, sudo/install/system changes. V2 one-shot remains consumed/intact; all previous evidence preserved.
+
+New task validation/dart-body-shape-lifetime-v1: fixture creates one Skeleton/rootWeldJoint+BodyNode/BoxShape+ShapeNode after host GO; normal API ownership releases external Shape then Skeleton owner. Creation counts/identity and owner-release weak expiration are separate events. Individual destructor calls/order NOT_OBSERVED and allocator balance NOT_MEASURED. No claim of B whole or C/D PASS.
+
+Compile/link PASS; executable SHA2562d0001f80a1f1f1c2f80db5fd68a6018b3bed59fbfda1813934945d3884069f7, Build-IDfddd45515eed547e410b246d19754cc562fca603. V2 Core16 unchanged; same RO Core SONAME FD alias, actual mount argv readelf62edges PASS, pre-object mapped identity/namespace/cgroup/resource GO and cleanup preserved. Added source pin checks/direct-stage defense, fresh lexists paths, manager check before collection marker, exact5-event validation. Shared helpers and V2 untouched. Import shadowing corrected using unique body_shape_supervisor.py.
+
+22 non-executing tests final PASS/0FAIL/0ERROR. Initial compile/import errors preserved and explained in reports/build_initial.json/test_summary.json. No target invocation or real service validation this phase. Final reports: reports/{approval_plan.md,runtime_contract.json,manifest.json,resolution.json,static_review.json,build_result.json,test_summary.json,integrity.json,final_report.md}. Source/scripts/tests + these lightweight reports and this handoff are publication scope only. Raw work/ELF/pin/snapshots/logs stay local.
+
+integrity.json:54,925 original files checked, changed/missing0, existing-scope additions0, main HEAD/status unchanged PASS. Fresh runtime/, runtime_integrity.json, both attempt markers, runtime before snapshot/stdout/stderr/canary all absent. Existing V1/Probe A/V2 markers unchanged. Limits remain64MiB/swap0/tasks8/CPU25%/8s/stop2s; new allocation/startup sufficiency and actual combined runtime unknown. No automatic retry/limit increase.
+
+Next minimum action: review exact prepared command/ELF/source contract and separately authorize one B1 execution; no automatic runtime or other DART work. Remaining Bullet/cast/deleter/allocator/individual destructors/baseline-trace arms/exception/unwind/trace owner-quiescent-capacity-flush require separate evidence or explicit itemized risk acceptance; Stage B BLOCKED. Known compile/test jobs ended, runtime jobs0; remote/container/external-CWD UNKNOWN. /tmp ignored evidence does not transfer with Git. Common context-handoff skill unchanged.
+
+---
+Previous checkpoint follows:
+
 # Gazebo minimal approval preparation — current checkpoint
 
 **DRAFT_BLOCKED_NOT_EXECUTABLE / Gazebo NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. User requested read-only investigation and an approval plan, starting d35df02bb4be613223e558236c1a92a65dfce49e/experiment/dart-internal-trace clean. No compilation/linking, target loading/execution, World::step, service start, new one-shot marker, package/system/main edit. V2 remains historical PASS and its two one-shot markers remain consumed/intact.
@@ -487,22 +504,22 @@ Common skill source remains outside the project at `/home/jiwon/Projects/my-agen
 ```context-handoff-state
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07T12:51:20.655822+00:00",
+  "updated_at": "2026-11-07T13:01:00.454748+00:00",
   "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
   "host": "jiwon-System-Product-Name",
   "git": {
-    "head": "d35df02bb4be613223e558236c1a92a65dfce49e",
+    "head": "83c9b0c6838f5e1f244811524e45e140cf8657b1",
     "branch": "experiment/dart-internal-trace",
     "status": []
   },
   "evidence": [
     {
-      "path": "validation/gazebo-minimal-approval-v1/reports/approval_plan.md",
-      "sha256": "bbcf771186edfa5b9b4cccfa7c4d7eeeb7ccef205ef1daff420ec6a3abc00fa9"
+      "path": "validation/dart-body-shape-lifetime-v1/reports/final_report.md",
+      "sha256": "ecd3114a255f91d138e4d4a526a85591f9e54de70881c1e9ffbe2fa0829aedfb"
     },
     {
-      "path": "validation/gazebo-minimal-approval-v1/reports/preservation_review.json",
-      "sha256": "4af0f2008864641b3cad2aab4e56876636ee38b29d0e34741923824b2fe3bb02"
+      "path": "validation/dart-body-shape-lifetime-v1/reports/integrity.json",
+      "sha256": "369f6edc18514a3b7c8624f5905a2821fa8fabc1b75a88fe5dec6b2104f7df38"
     }
   ],
   "processes": {

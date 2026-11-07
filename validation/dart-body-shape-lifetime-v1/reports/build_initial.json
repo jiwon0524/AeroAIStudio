@@ -1,0 +1,8 @@
+{
+  "status": "COMPILE_FAILED_NO_ELF",
+  "issues": [
+    "DART third-party headers overloaded-virtual warnings promoted by Werror",
+    "ShapeNode getBodyNode unavailable; use getBodyNodePtr().get()"
+  ],
+  "resolution": "Use system include classification for external headers; retain Wall Wextra Werror on fixture. Use documented Node getBodyNodePtr API; temporary smart ref ends before owner release. No fixture run."
+}

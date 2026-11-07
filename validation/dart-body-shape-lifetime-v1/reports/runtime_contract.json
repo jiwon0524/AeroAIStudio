@@ -1,0 +1,123 @@
+{
+  "status": "BODY_SHAPE_PREPARED_NOT_EXECUTED",
+  "requires_separate_runtime_authorization": true,
+  "working_directory": "/tmp/AeroAIStudio-dart-internal-trace",
+  "future_actual_command": "env -u LD_PRELOAD -u LD_AUDIT -u LD_LIBRARY_PATH PYTHONDONTWRITEBYTECODE=1 python3 validation/dart-body-shape-lifetime-v1/scripts/launch.py --execute-approved-body-shape-once",
+  "safe_default_command": "python3 validation/dart-body-shape-lifetime-v1/scripts/launch.py",
+  "limits_change_allowed": false,
+  "prepared_source_sha256": {
+    "scripts/preservation.py": "9e764224b8f560fb0ea6c0895d09a6f1fe76feb33bc16f1a8e971f4c453a7a5a",
+    "scripts/readiness_fixed.py": "2a7ad27184b0f6aacc94913e7b16235fd168da358616e8142b60c3eb9f3a071b",
+    "scripts/launch.py": "49a3506b4105497cd2dadc6a332802e8f7461a215456425ea562710f23091677",
+    "scripts/prepare.py": "91498668aa23ee9c9ec2d47fdf7b2044b105927e8dff92f3c0c829467211ecfa",
+    "scripts/common.py": "755e598b1bb49ce50122726a796a51a032f26b836517116aad4d65ee45f413a9",
+    "scripts/resolution.py": "e783aa964df8e642b50cdb68c642a47c7fee6bc8167c280edca36b3153aa3f80",
+    "scripts/build.sh": "ddbae246e8afe4cfea476a7017c3a4cb57653f672aaeabbd79d917b3fc37f355",
+    "scripts/stage.py": "5a4b1575267276011dc6ea560bd8487ad89644d9557a39baecfdcf9be73db7cc",
+    "tests/test_contract.py": "8dd078ed2aed3619b2f87da9a21b7ff8c1752d53050d8c963a1b48010b62103e",
+    "tests/test_resolution.py": "b06cc580e92728f9cc18cc880e3dac49430c6447236fad5e77da2d52f5357294",
+    "fixtures/body_shape.cpp": "30e655da235b9c487b4294fef1fa359c7f2788cc220dfc0fa80ad1a929383d80",
+    "../dart-probe-a-harness-v1/scripts/supervisor.py": "3adc2ced34f130ffeec2166e84cb9504711bc4906da56eaac7094d52ad77cae2",
+    "../dart-probe-a-harness-v1/scripts/allowlist.py": "b9c891a5dc20baf0105a3223fc32d4df8b1ec36c6923d307e39863a31e2795d2",
+    "../dart-probe-a-harness-v1/scripts/preserve.py": "188e2cabe3d645b4e7cdb7c65858790945174d0791a62b333e18281218958351",
+    "../dart-probe-a-harness-v1/scripts/memory_preflight.py": "a173f81a1c1617837732119ecb47f85c9d51139aee845e88d6604a8254eb54e5",
+    "../dart-probe-a-harness-v1/scripts/stage.py": "eb8eafc006d284091c108443cd6e68e6097b982a62857241ffee8380da7656d6",
+    "../dart-probe-a-harness-v1/scripts/mapped.py": "e136dfcb552cd03a90166459f483e5cee20125c8b4def31ea8c13d61f14a6dc6",
+    "../dart-probe-a-harness-v1/scripts/identity.py": "2cd0a79749a0825156e85433960066df08c37c28d5adcb7319a0a6f50f5ad7f4",
+    "../dart-probe-a-runtime-readiness-v1/scripts/check_alias_namespace.py": "b2707ae4f263c9fe5c762000cd04138a618df2e883b7bf636184e594da76534f",
+    "../dart-probe-a-runtime-readiness-v1/scripts/readiness.py": "907c42b01604c6b1a4a7af5f5e8f34529778ff6cab3c59da0ecb459a5b246d32",
+    "../dart-cgroup-integration-v1/scripts/preserve.py": "2de0cb7296cfceabf97455088ae98ab5d32f32c9ed7d672e73eb9924efcbdeb7",
+    "../dart-cgroup-integration-v1/scripts/integration.py": "d5d77ec43551b98bbe6b4b8f19ca3ab3ab536e2d02326ce521e1499733a3dac8",
+    "../dart-cgroup-smoke-v1/scripts/smoke.py": "500463adc143fcbe923cab04670be89c33352e2c0b4e564ae47ad14962b1736e",
+    "../dart-cgroup-smoke-v1/scripts/preserve.py": "f2b7afdc34389275a55d7388301000933ba0cbe0afc40894879e858c0c9bfe9d",
+    "scripts/body_shape_supervisor.py": "d058e17fa0abd884cdb0e5b7b1c352b30dca4d6c3783fa8760db8aa7d983d33d",
+    "reports/manifest.json": "d21769dd72e6db59e5a1a94b97af2490bb21de602e8d7ec09c0a50c189e8ca6e",
+    "work/manifest.sha256": "00688f40e1d1bf7b1d34e83965b2156927418801abe19c4c9441b8ae84ed17b1"
+  },
+  "loader_identity": {
+    "sha256": "2d0001f80a1f1f1c2f80db5fd68a6018b3bed59fbfda1813934945d3884069f7",
+    "build_id": "fddd45515eed547e410b246d19754cc562fca603",
+    "device": 66309,
+    "inode": 3433570,
+    "size": 82560,
+    "mtime_ns": 1794056123166692084,
+    "ctime_ns": 1794056123167188174
+  },
+  "preflight": [
+    "fresh paths via lexists; manager running and exact unit collision read-only check BEFORE collection marker",
+    "correct experiment branch and base ancestry",
+    "prepared-source hashes and immutable manifest pin",
+    "all Core16 and executable baseline FD identities verified before service",
+    "unique one-shot attempt markers; refuse existing attempt; no retry",
+    "manager available; exact own unit collision check; pristine loader env",
+    "original/main/evidence pre-run snapshot; no production changes",
+    "readelf fixture + every approved ELF NEEDED/SONAME and exact shared bwrap argv resolution BEFORE any marker/service"
+  ],
+  "collection": {
+    "dlopen_success_error": "No explicit dlopen/dlclose; DT_NEEDED before main. Collect ordered created/external_shape_released/owner_release_observed/lifetime_success events. Individual destructor calls NOT_OBSERVED.",
+    "mapped_libraries_allowlist": "runtime/mapped_library_validation.json: strict Core16 + fixture identity BEFORE GO / Skeleton::create",
+    "memory_events": "post-open resource_readback.json plus runtime_observation.json last_cgroup_sample; current/peak/events; not guaranteed final sample",
+    "exit_signal_timeout": "systemd-run returncode and captured stderr; default native signal termination; missing final unit/cgroup properties UNKNOWN",
+    "cleanup": "runtime/process_cleanup.json unit/cgroup/observedPID-start/temp/canary; exact own-unit stop only with InvocationID match",
+    "integrity": "runtime_integrity.json compares fresh runtime_integrity_before snapshot; allowlisted files/executable are in snapshot; no implicit restoration"
+  },
+  "gate_limit": "Constructors before main; unchanged object gate/FD identity semantics with Core own SONAME included in allowed paths.",
+  "outcomes": [
+    "77 unsupported/default argv",
+    "78 GO absent/partial/timeout",
+    "20 null or incorrect counts/parent joint",
+    "21 missing ShapeNode or owner identity mismatch/early expiration",
+    "22 retained/expired expectation failure",
+    "23 caught exception; FAIL, not injected",
+    "24 output flush failure",
+    "exit0 + exact five ordered observation events + strict identity/live limits/cleanup/integrity PASS; individual destructors still NOT_OBSERVED"
+  ],
+  "stop_rules": [
+    "separate explicit object-execution approval required",
+    "no retry, limit increase, old marker removal, Probe A rerun, World, Gazebo or Stage B"
+  ],
+  "portability": "ELF/manifest pin/raw snapshots live locally in work; rebuild on another host changes identity and requires revalidation; never blindly regenerate allowlist pins to bypass mismatch",
+  "scope": "one installed Core Skeleton/WeldJoint/BodyNode/BoxShape/ShapeNode normal owner release; individual destructors NOT_OBSERVED; no collision/World/step",
+  "one_shot": [
+    "work/runtime_collection_attempt.json",
+    "work/runtime_attempt.json"
+  ],
+  "output": "validation/dart-body-shape-lifetime-v1/reports/runtime",
+  "base_commit": "83c9b0c6838f5e1f244811524e45e140cf8657b1",
+  "observation_limits": [
+    "Individual BodyNode/ShapeNode/Joint/Skeleton destructor invocations NOT_OBSERVED",
+    "weak expiration/control-block lifetime is not allocator balance or ABI proof",
+    "No Bullet factory/cast/fault/unwind/trace OFF/ON evidence"
+  ],
+  "limits": {
+    "MemoryMax": 67108864,
+    "MemorySwapMax": 0,
+    "TasksMax": 8,
+    "CPUQuota": "25%",
+    "CPUQuotaPeriodSec": "100ms",
+    "RuntimeMaxSec": 8,
+    "TimeoutStopSec": 2,
+    "KillMode": "control-group",
+    "OOMPolicy": "stop",
+    "Delegate": "no",
+    "RLIMIT_CPU": 2,
+    "RLIMIT_AS": 268435456,
+    "RLIMIT_FSIZE": 65536,
+    "RLIMIT_NOFILE": 64,
+    "RLIMIT_CORE": 0,
+    "GO_timeout_seconds": 3,
+    "READY_timeout_seconds": 5
+  },
+  "native_argv": [
+    "/fixture/native_fixture",
+    "--owned-body-shape-once"
+  ],
+  "observation_contract": {
+    "creation": "borrowed pointers/non-null/counts/parent joint/body and Shape owner identity",
+    "release": "external Shape reset retains it; Skeleton owner reset then Skeleton/Shape weak expiration",
+    "individual_destructor_calls": "NOT_OBSERVED",
+    "BodyNode_ShapeNode_destroy_order": "NOT_OBSERVED",
+    "allocator_balance": "NOT_MEASURED",
+    "runtime_status": "NOT_EXECUTED"
+  }
+}

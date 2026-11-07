@@ -1,0 +1,16 @@
+{
+  "status": "COMPILE_LINK_PASS_NOT_EXECUTED",
+  "fixture": {
+    "sha256": "2d0001f80a1f1f1c2f80db5fd68a6018b3bed59fbfda1813934945d3884069f7",
+    "build_id": "fddd45515eed547e410b246d19754cc562fca603",
+    "device": 66309,
+    "inode": 3433570,
+    "size": 82560,
+    "mtime_ns": 1794056123166692084,
+    "ctime_ns": 1794056123167188174
+  },
+  "compiler_command": "scripts/build.sh",
+  "build_stderr": "",
+  "header_provenance": "preserved extracted packaged DART headers + baseline external fallback + system Eigen; third-party headers classified isystem; no whole ABI certification",
+  "initial_failure_report": "reports/build_initial.json"
+}
