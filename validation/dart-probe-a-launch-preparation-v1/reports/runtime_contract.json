@@ -1,0 +1,54 @@
+{
+  "status": "PREPARED_NOT_EXECUTED",
+  "requires_separate_runtime_authorization": true,
+  "working_directory": "/tmp/AeroAIStudio-dart-internal-trace",
+  "future_actual_command": "env -u LD_PRELOAD -u LD_AUDIT -u LD_LIBRARY_PATH PYTHONDONTWRITEBYTECODE=1 python3 validation/dart-probe-a-launch-preparation-v1/scripts/launch.py --execute-approved-core-load",
+  "safe_default_command": "python3 validation/dart-probe-a-launch-preparation-v1/scripts/launch.py",
+  "limits_change_allowed": false,
+  "prepared_source_sha256": {
+    "scripts/common.py": "2ef9efce14d7605a295bab2f4d5c4ab027dcdd14d1f39152432398771b105fe2",
+    "scripts/launch.py": "f6ac29e842c8edd9713ac483e7f7fe4a4ffd03c9ecb25280bd149be9264af031",
+    "scripts/preservation.py": "9e764224b8f560fb0ea6c0895d09a6f1fe76feb33bc16f1a8e971f4c453a7a5a",
+    "scripts/report.py": "aff8c2ee52e0d4ea1d32e084f97278d687c57fa788adb870c0646a4584c3faf2",
+    "scripts/stage.py": "28b874686df2facbdb4072f3e71669d84e30ce3ca8fb342abe23273d82d39539",
+    "scripts/supervisor.py": "81b2c1113c90845f0cffa6e1d0484cecfec1259049d03a847b6e0171b1324c09",
+    "fixtures/core_loader.c": "e9ca1b3cc9653ff2d395cbb9002b0bca5e6f85a06555e14a426aa01337a141d2",
+    "fixtures/native_loader.c": "7335097b354165ef331a953d20d6f68be2fecacc534eacf7789fa34a2be62e5b"
+  },
+  "loader_identity": {
+    "path": "reports/loader_identity.json",
+    "sha256": "f7668a73461feca54d2178cd0ab3bef37958a1d8d3ab0118fec3511894f16cc3",
+    "build_id": "5215d51221cf598875d5b9b362c9b4d6afc412d4"
+  },
+  "preflight": [
+    "correct experiment branch and base ancestry",
+    "prepared-source hashes and immutable manifest pin",
+    "all Core16 and executable baseline FD identities verified before service",
+    "unique one-shot attempt markers; refuse existing attempt; no retry",
+    "manager available; exact own unit collision check; pristine loader env",
+    "original/main/evidence pre-run snapshot; no production changes"
+  ],
+  "collection": {
+    "dlopen_success_error": "runtime/runtime_observation.json open_results and native_fixture_execution.json stdout/stderr; Native actual open errors20",
+    "mapped_libraries_allowlist": "runtime/mapped_library_validation.json; strict Core16 closure plus native baseline; unexpected/deleted/changed mapping rejects GO",
+    "memory_events": "post-open resource_readback.json plus runtime_observation.json last_cgroup_sample; current/peak/events; not guaranteed final sample",
+    "exit_signal_timeout": "systemd-run propagated returncode, Native signal events, stderr, active properties and elapsed time; collected service may already be not-found. No evidence means UNKNOWN, not success.",
+    "cleanup": "runtime/process_cleanup.json unit/cgroup/observedPID-start/temp/canary; exact own-unit stop only with InvocationID match",
+    "integrity": "runtime_integrity.json compares fresh runtime_integrity_before snapshot; allowlisted files/executable are in snapshot; no implicit restoration"
+  },
+  "gate_limit": "dlopen constructors/IFUNC run before post-open identity. FD fallback proves bounded file identity, not resident private pages or prevention of initialization side effects.",
+  "outcomes": [
+    "open error20",
+    "close error21",
+    "mapping dump failure22",
+    "no GO/native timeout78",
+    "service timeout/OOM/signal as observed; never infer from collected default properties",
+    "exit0 only with Core closure and cleanup/integrity evidence; not physical validation"
+  ],
+  "stop_rules": [
+    "one Core-only attempt; no automatic retry/limit raise",
+    "no symbols/objects/World/Gazebo/Stage B",
+    "on failure preserve evidence and stop; no system security changes"
+  ],
+  "portability": "ELF/manifest pin/raw snapshots live locally in work; rebuild on another host changes identity and requires revalidation; never blindly regenerate allowlist pins to bypass mismatch"
+}

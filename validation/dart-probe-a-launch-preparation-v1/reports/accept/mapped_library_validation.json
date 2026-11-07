@@ -1,0 +1,68 @@
+{
+  "pid": 202501,
+  "status": "PASS_FILE_IDENTITY",
+  "records": [
+    {
+      "path": "/fixture/native_fixture",
+      "device": 66309,
+      "inode": 3432159,
+      "range": "59deff03d000-59deff03e000",
+      "map_files_link": "/fixture/native_fixture",
+      "map_files_open": "UNAVAILABLE",
+      "map_files_errno": 1,
+      "fallback": "proc_root_fd",
+      "identity": {
+        "sha256": "f7668a73461feca54d2178cd0ab3bef37958a1d8d3ab0118fec3511894f16cc3",
+        "build_id": "5215d51221cf598875d5b9b362c9b4d6afc412d4",
+        "device": 66309,
+        "inode": 3432159,
+        "size": 26088,
+        "mtime_ns": 1794012200231669473,
+        "ctime_ns": 1794012200231677016
+      }
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "device": 66309,
+      "inode": 8153876,
+      "range": "7f09e8400000-7f09e8428000",
+      "map_files_link": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "map_files_open": "UNAVAILABLE",
+      "map_files_errno": 1,
+      "fallback": "proc_root_fd",
+      "identity": {
+        "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf",
+        "build_id": "a4a7992a8e66555c8141ab2a08a8465ff6e0ea65",
+        "device": 66309,
+        "inode": 8153876,
+        "size": 2129424,
+        "mtime_ns": 1788444912000000000,
+        "ctime_ns": 1789650809357119313
+      }
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "device": 66309,
+      "inode": 8153674,
+      "range": "7f09e8773000-7f09e8774000",
+      "map_files_link": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "map_files_open": "UNAVAILABLE",
+      "map_files_errno": 1,
+      "fallback": "proc_root_fd",
+      "identity": {
+        "sha256": "c20a2dc8917c755f02b94049356320fe1f62ac7d9f8994731f807d9df39302da",
+        "build_id": "0d77dbd4379bf0b5af3e05be7fb6af1e4cea7c96",
+        "device": 66309,
+        "inode": 8153674,
+        "size": 236616,
+        "mtime_ns": 1788444912000000000,
+        "ctime_ns": 1789650808877554027
+      }
+    }
+  ],
+  "map_files_status": "UNAVAILABLE",
+  "method": "map_files FD preferred; /proc/PID/root FD metadata fallback, never bare host path",
+  "limits": "file identity at bounded snapshots, not private relocated/COW memory equality or initialization safety",
+  "start": "20763908",
+  "all_required": true
+}

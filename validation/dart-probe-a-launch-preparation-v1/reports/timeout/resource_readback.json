@@ -1,0 +1,20 @@
+{
+  "requested": {
+    "MemoryMax": "64M",
+    "TasksMax": 8,
+    "CPUQuota": "25%"
+  },
+  "observed": {
+    "memory.max": "67108864",
+    "memory.swap.max": "0",
+    "pids.max": "8",
+    "cpu.max": "25000 100000",
+    "cgroup.procs": "202584\n202591\n202592",
+    "cgroup.threads": "202584\n202591\n202592",
+    "memory.current": "1941504",
+    "memory.peak": "10022912",
+    "pids.current": "3",
+    "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 0"
+  },
+  "excess_enforcement": "NOT_TESTED"
+}

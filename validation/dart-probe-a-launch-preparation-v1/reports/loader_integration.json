@@ -1,0 +1,154 @@
+{
+  "status": "PASS_NO_DART_LOAD",
+  "cases": {
+    "accept": {
+      "status": "PASS",
+      "unit": "aero-probe-a-launch-v1-accept-ffbd8249fe.service",
+      "fixture_host_pid": 202501,
+      "returncode": 0,
+      "go_sent": true,
+      "body_entered": true,
+      "resource_readback": {
+        "memory.max": "67108864",
+        "memory.swap.max": "0",
+        "pids.max": "8",
+        "cpu.max": "25000 100000",
+        "cgroup.procs": "202494\n202499\n202501",
+        "cgroup.threads": "202494\n202499\n202501",
+        "memory.current": "2027520",
+        "memory.peak": "10321920",
+        "pids.current": "3",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 0"
+      },
+      "cleanup": {
+        "unit_state": {
+          "TimeoutStopUSec": "1min 30s",
+          "RuntimeMaxUSec": "infinity",
+          "MainPID": "0",
+          "Result": "success",
+          "ExecMainCode": "0",
+          "ExecMainStatus": "0",
+          "ControlGroup": "",
+          "CPUQuotaPerSecUSec": "infinity",
+          "CPUQuotaPeriodUSec": "infinity",
+          "MemoryMax": "infinity",
+          "MemorySwapMax": "infinity",
+          "TasksMax": "34727",
+          "KillMode": "control-group",
+          "Id": "aero-probe-a-launch-v1-accept-ffbd8249fe.service",
+          "LoadState": "not-found",
+          "ActiveState": "inactive",
+          "SubState": "dead",
+          "Transient": "no",
+          "InvocationID": ""
+        },
+        "cgroup_removed": true,
+        "remaining_identities": [],
+        "status": "PASS"
+      }
+    },
+    "reject": {
+      "status": "PASS",
+      "unit": "aero-probe-a-launch-v1-reject-a999a172fe.service",
+      "fixture_host_pid": 202561,
+      "returncode": 78,
+      "go_sent": false,
+      "body_entered": false,
+      "resource_readback": {
+        "memory.max": "67108864",
+        "memory.swap.max": "0",
+        "pids.max": "8",
+        "cpu.max": "25000 100000",
+        "cgroup.procs": "202551\n202558\n202561",
+        "cgroup.threads": "202551\n202558\n202561",
+        "memory.current": "1998848",
+        "memory.peak": "10088448",
+        "pids.current": "3",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 0"
+      },
+      "cleanup": {
+        "unit_state": {
+          "TimeoutStopUSec": "1min 30s",
+          "RuntimeMaxUSec": "infinity",
+          "MainPID": "0",
+          "Result": "success",
+          "ExecMainCode": "0",
+          "ExecMainStatus": "0",
+          "ControlGroup": "",
+          "CPUQuotaPerSecUSec": "infinity",
+          "CPUQuotaPeriodUSec": "infinity",
+          "MemoryMax": "infinity",
+          "MemorySwapMax": "infinity",
+          "TasksMax": "34727",
+          "KillMode": "control-group",
+          "Id": "aero-probe-a-launch-v1-reject-a999a172fe.service",
+          "LoadState": "not-found",
+          "ActiveState": "inactive",
+          "SubState": "dead",
+          "Transient": "no",
+          "InvocationID": ""
+        },
+        "cgroup_removed": true,
+        "remaining_identities": [],
+        "status": "PASS"
+      }
+    },
+    "timeout": {
+      "status": "PASS",
+      "unit": "aero-probe-a-launch-v1-timeout-8d7f295278.service",
+      "fixture_host_pid": 202592,
+      "returncode": 78,
+      "go_sent": false,
+      "body_entered": false,
+      "resource_readback": {
+        "memory.max": "67108864",
+        "memory.swap.max": "0",
+        "pids.max": "8",
+        "cpu.max": "25000 100000",
+        "cgroup.procs": "202584\n202591\n202592",
+        "cgroup.threads": "202584\n202591\n202592",
+        "memory.current": "1941504",
+        "memory.peak": "10022912",
+        "pids.current": "3",
+        "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 0"
+      },
+      "cleanup": {
+        "unit_state": {
+          "TimeoutStopUSec": "1min 30s",
+          "RuntimeMaxUSec": "infinity",
+          "MainPID": "0",
+          "Result": "success",
+          "ExecMainCode": "0",
+          "ExecMainStatus": "0",
+          "ControlGroup": "",
+          "CPUQuotaPerSecUSec": "infinity",
+          "CPUQuotaPeriodUSec": "infinity",
+          "MemoryMax": "infinity",
+          "MemorySwapMax": "infinity",
+          "TasksMax": "34727",
+          "KillMode": "control-group",
+          "Id": "aero-probe-a-launch-v1-timeout-8d7f295278.service",
+          "LoadState": "not-found",
+          "ActiveState": "inactive",
+          "SubState": "dead",
+          "Transient": "no",
+          "InvocationID": ""
+        },
+        "cgroup_removed": true,
+        "remaining_identities": [],
+        "status": "PASS"
+      }
+    }
+  },
+  "tests": {
+    "PASS": 12,
+    "FAIL": 0,
+    "runner_SKIP": 0
+  },
+  "real_Core_gate": "common.gate(require_core=True) -> prior readiness.post_open -> GO; dispatch mock-tested only; actual Core maps untested",
+  "DART_loaded": false,
+  "sandbox": "existing readonly FD aliases and proven Bubblewrap layout reused",
+  "source_change_after_accept": "preflight HEAD condition generalized to base ancestry and correct branch; last-cgroup sampling added; reject/timeout verified updated Supervisor; accept on prior version with same launch/gate/cleanup path",
+  "actual_loader_flag": "Supervisor --execute-approved-core-load -> stage --owned-runtime-stage -> Native --harness-runtime",
+  "notes": "fixture slot remains /fixture/native_fixture; mounted bytes now native_loader executable"
+}

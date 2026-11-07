@@ -1,0 +1,43 @@
+{
+  "case": "timeout",
+  "Core_load_attempted": false,
+  "open_results": [],
+  "close_results": [],
+  "signal_events": [],
+  "systemd_run_returncode": 78,
+  "last_cgroup_sample": {
+    "memory.current": "1904640",
+    "memory.peak": "10022912",
+    "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 0",
+    "pids.current": "3"
+  },
+  "final_cgroup_sample_guaranteed": false,
+  "service_timeout_result": "UNKNOWN_UNLESS_EXPLICIT_EVENT_OR_STDERR",
+  "raw_evidence": "native_fixture_execution.json",
+  "cleanup": {
+    "unit_state": {
+      "TimeoutStopUSec": "1min 30s",
+      "RuntimeMaxUSec": "infinity",
+      "MainPID": "0",
+      "Result": "success",
+      "ExecMainCode": "0",
+      "ExecMainStatus": "0",
+      "ControlGroup": "",
+      "CPUQuotaPerSecUSec": "infinity",
+      "CPUQuotaPeriodUSec": "infinity",
+      "MemoryMax": "infinity",
+      "MemorySwapMax": "infinity",
+      "TasksMax": "34727",
+      "KillMode": "control-group",
+      "Id": "aero-probe-a-launch-v1-timeout-8d7f295278.service",
+      "LoadState": "not-found",
+      "ActiveState": "inactive",
+      "SubState": "dead",
+      "Transient": "no",
+      "InvocationID": ""
+    },
+    "cgroup_removed": true,
+    "remaining_identities": [],
+    "status": "PASS"
+  }
+}

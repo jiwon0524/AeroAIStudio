@@ -1,0 +1,49 @@
+{
+  "case": "reject",
+  "Core_load_attempted": false,
+  "open_results": [],
+  "close_results": [],
+  "signal_events": [],
+  "systemd_run_returncode": 78,
+  "last_cgroup_sample": {
+    "memory.max": "67108864",
+    "memory.swap.max": "0",
+    "pids.max": "8",
+    "cpu.max": "25000 100000",
+    "cgroup.procs": "202551\n202558\n202561",
+    "cgroup.threads": "202551\n202558\n202561",
+    "memory.current": "1998848",
+    "memory.peak": "10088448",
+    "pids.current": "3",
+    "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 0"
+  },
+  "final_cgroup_sample_guaranteed": false,
+  "service_timeout_result": "UNKNOWN_UNLESS_EXPLICIT_EVENT_OR_STDERR",
+  "raw_evidence": "native_fixture_execution.json",
+  "cleanup": {
+    "unit_state": {
+      "TimeoutStopUSec": "1min 30s",
+      "RuntimeMaxUSec": "infinity",
+      "MainPID": "0",
+      "Result": "success",
+      "ExecMainCode": "0",
+      "ExecMainStatus": "0",
+      "ControlGroup": "",
+      "CPUQuotaPerSecUSec": "infinity",
+      "CPUQuotaPeriodUSec": "infinity",
+      "MemoryMax": "infinity",
+      "MemorySwapMax": "infinity",
+      "TasksMax": "34727",
+      "KillMode": "control-group",
+      "Id": "aero-probe-a-launch-v1-reject-a999a172fe.service",
+      "LoadState": "not-found",
+      "ActiveState": "inactive",
+      "SubState": "dead",
+      "Transient": "no",
+      "InvocationID": ""
+    },
+    "cgroup_removed": true,
+    "remaining_identities": [],
+    "status": "PASS"
+  }
+}

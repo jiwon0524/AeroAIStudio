@@ -1,3 +1,22 @@
+# DART Probe A Runtime Launch Preparation V1 — current checkpoint
+
+**PROBE_A_LAUNCH_READY / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. 실제 DART/Gazebo/World/Stage B 실행은 없었다. Core-only Runtime은 별도 승인이 필요하며 Autonomous Experiment Lab은 DEFERRED 상태다.
+
+기준 HEAD `9abcbff2cf1ef3f52a2c2d1a348779e87b304841`과 clean 상태를 대조했다. 신규 `validation/dart-probe-a-launch-preparation-v1/`와 이 handoff만 이번 소유다. 기존 REL Loader, Native isolation, Core16/58edges, alias, Supervisor와 Post-open Gate를 재사용했다. 실행 가능한 `work/native_loader`의 SHA-256은 `f7668a73461feca54d2178cd0ab3bef37958a1d8d3ab0118fec3511894f16cc3`, Build-ID는 `5215d51221cf598875d5b9b362c9b4d6afc412d4`다. 기본 실행은 exit77/no-load, contract와 기본 wrapper는 출력만 한다. binary는 Git 제외다.
+
+실제 옵션은 launch.py --execute-approved-core-load → Supervisor runtime → stage runtime → Native --harness-runtime으로 연결된다. host/stage가 pin과 FD identity를 검사하고, strict Core16 mapped gate 뒤 GO와 dlclose를 진행한다. 실제 Core 분기는 실행하지 않았고 dispatch만 mock 검증했다. source hash, branch/base ancestry를 확인하며 별도 승인 전 actual runtime은 금지한다.
+
+새 ELF의 무해 service3건은 accept exit0/GO true, SHA reject exit78/GO false, timeout exit78/약3초/GO false이며 모두 정리 PASS다. 집중 테스트12 PASS/FAIL0. accept 이후 ancestry 및 last-cgroup sampling 변경은 reject/timeout에서 검증했고 accept 핵심 경로는 동일하다. 전체 회귀 반복은 없었다.64MiB/8tasks/CPU25% readback이 일치하며 제한을 올리지 않았다. 기존 own attempt를 재실행하지 않는다.
+
+증거는 reports/final_report.md, loader_identity/loader_integration/runtime_contract/resource_assessment/integrity/verdict.json 및 각 case 보고서다. map_files EPERM의 fallback은 file identity만 보장하며 초기화 부작용·COW 페이지를 보장하지 않는다. DART64MiB 충분성, 초과 강제효과, 실제 Core, 강제 systemd timeout/signal은 미검증이다. 빠른 unit 수거로 최종 cgroup/exit 속성이 없으면 UNKNOWN으로 기록한다.
+
+다음 최소 작업은 계약/위험 검토와 별도1회 Core-only Runtime 승인이다. 명령은 final_report/runtime_contract에 있으며 이번에는 실행하지 않았다. 실제 wrapper는 새 원본 snapshot, one-shot marker, service wait/cleanup, 무결성 수집을 수행한다. 실패 시 자동 재시도/제한 상향이 없고 Gazebo/World/Stage B로 확장하지 않는다.
+
+보존 비교54,789개 변경·누락0 및 main HEAD/status 유지는 integrity.json에 있다. host/시각/visible process는 handoff_snapshot, own PID/start/output은 각 case 보고서를 따른다. 알려진3unit은 종료·정리됐고 외부 CWD/remote/container는 UNKNOWN이다. 기존 프로세스 종료·계정 전환은 없었다. work ELF/raw manifest/pin/attempt와 로컬 git_publication은 게시 제외다. /tmp/ignored/untracked 자료는 다른 기기로 자동 전달되지 않는다. 실제 commit/push/원격 일치는 receipt와 최종 응답 참조.
+
+---
+이하 이전 체크포인트:
+
 # DART Probe A Final Integration V1 — current checkpoint
 
 **PROBE_A_INTEGRATION_READY / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. READY는 무해 Fixture 통합 기반에 한정. 실제 DART/Gazebo open/close·World·Stage B0. 기준 HEAD2cb4f524ad1f525f5fa9f966c08b0de656ede161 clean 확인. context-handoff 및 기존 증거/지침 대조 후 현재 사용자 범위만 수행.

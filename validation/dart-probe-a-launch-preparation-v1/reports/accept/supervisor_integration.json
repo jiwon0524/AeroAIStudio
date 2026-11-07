@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "unit": "aero-probe-a-launch-v1-accept-ffbd8249fe.service",
+  "go_sent": true,
+  "body_entered": true,
+  "only_harmless_profile": true,
+  "DART_load_attempted": false,
+  "read_only_fd_binds": true
+}

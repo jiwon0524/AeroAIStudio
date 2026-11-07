@@ -1,0 +1,27 @@
+{
+  "verdict": "PROBE_A_LAUNCH_READY",
+  "scope": "executable Native Loader and no-load supervised integration prepared; actual runtime separately authorized",
+  "runtime": "NOT_RUNTIME_VERIFIED",
+  "Stage_B": "BLOCKED",
+  "DART_loaded": false,
+  "PASS": [
+    "ELF linked with explicit runtime-only entry",
+    "default/contract/unsupported options no DART load",
+    "Core16 FD identity and canonical aliases reused",
+    "Loader SHA/Build-ID pinned",
+    "3 harmless supervised cases and12 tests",
+    "strict Core gate dispatch verified without invoking dlopen"
+  ],
+  "SKIP": [
+    "actual Core dlopen/dlclose/init/fini/maps",
+    "DART64MiB sufficiency",
+    "resource excess enforcement and forced systemd timeout/signal"
+  ],
+  "risks": [
+    "map_files EPERM fallback only file identity",
+    "initialization precedes gate",
+    "memory/CPU/task limits unverified for Core",
+    "final cgroup samples/service exit metadata may be unavailable after fast collection; mark UNKNOWN"
+  ],
+  "next_step": "review runtime contract and approve one Core-only runtime attempt separately"
+}

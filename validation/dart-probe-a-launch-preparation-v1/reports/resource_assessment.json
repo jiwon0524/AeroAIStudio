@@ -1,0 +1,17 @@
+{
+  "status": "UNCHANGED_NEEDS_RUNTIME_MEASUREMENT",
+  "MemoryMax": "64M",
+  "MemorySwapMax": 0,
+  "TasksMax": 8,
+  "CPUQuota": "25%",
+  "harmless_peaks_bytes": {
+    "accept": 10321920,
+    "reject": 10088448,
+    "timeout": 10022912
+  },
+  "DART_sufficiency": "UNVERIFIED",
+  "risk": "Core constructor/IFUNC, allocator/TLS/threads, mapped pages/page tables and stage/bwrap overhead may exceed64MiB/8tasks;25% CPU can trip8s service deadline. ELF sizes and harmless peaks cannot certify DART capacity.",
+  "candidate_only": "128MiB may be reviewed if64MiB proves inadequate; no measured requirement and no setting changed",
+  "excess_enforcement": "NOT_TESTED",
+  "timeouts": "native3s after open; service8s total, stop2s, RLIMIT_CPU2s and AS256MiB unchanged"
+}
