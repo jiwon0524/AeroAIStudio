@@ -1,0 +1,175 @@
+{
+  "status": "SUBJECT_NOTIFICATION_OBSERVATION_PASS",
+  "observed_utc": "2026-11-07T13:23:14.306357+00:00",
+  "host": "jiwon-System-Product-Name",
+  "approved_preparation_head": "3c6654b45c78b42a5eaed3a1ba3d988a84552a29",
+  "launch_invocations": 1,
+  "wrapper_exit": 0,
+  "retries": 0,
+  "limit_changes": 0,
+  "preflight": {
+    "HEAD_branch_clean": "PASS",
+    "source_manifest_pins": 27,
+    "ELF_FD_identity_hashes": "PASS",
+    "dependency_edges": 62,
+    "RO_mounts": 29,
+    "actual_argv_matches": "PASS",
+    "Core_SONAME_alias": "same approved readonly canonical Core FD",
+    "fresh_outputs_and_markers": true,
+    "manager_running_unique_unit": "PASS"
+  },
+  "unit": "aero-notification-v1-runtime-cb58e147a9.service",
+  "host_processes": [
+    {
+      "pid": 231851,
+      "start": "25308895",
+      "state": "S",
+      "executable": "/usr/bin/bwrap",
+      "cgroup": "0::/user.slice/user-1000.slice/user@1000.service/app.slice/aero-notification-v1-runtime-cb58e147a9.service"
+    },
+    {
+      "pid": 231892,
+      "start": "25308976",
+      "state": "S",
+      "executable": "/usr/bin/bwrap",
+      "cgroup": "0::/user.slice/user-1000.slice/user@1000.service/app.slice/aero-notification-v1-runtime-cb58e147a9.service"
+    },
+    {
+      "pid": 231895,
+      "start": "25308986",
+      "state": "S",
+      "executable": "/fixture/native_fixture",
+      "cgroup": "0::/user.slice/user-1000.slice/user@1000.service/app.slice/aero-notification-v1-runtime-cb58e147a9.service"
+    }
+  ],
+  "mapping_status": "PASS_FILE_IDENTITY",
+  "mapping_records": 17,
+  "go_sent": true,
+  "events": [
+    {
+      "phase": "post_open_ready",
+      "result": "WAIT"
+    },
+    {
+      "phase": "registered",
+      "bodies": 1,
+      "shape_nodes": 1,
+      "subjects": 2,
+      "callbacks_before_release": 0
+    },
+    {
+      "phase": "notifications_observed",
+      "shape_node_callbacks": 1,
+      "body_node_callbacks": 1,
+      "order": [
+        "shape_node",
+        "body_node"
+      ],
+      "within_owner_reset": true,
+      "subjects_remaining": 0
+    },
+    {
+      "phase": "lifetime_success",
+      "scope": "subject_notifications_only",
+      "individual_destructors": "NOT_OBSERVED",
+      "allocator_balance": "NOT_MEASURED"
+    }
+  ],
+  "criteria": {
+    "target_identity": "PASS; only registered live Subject pointers recognized",
+    "counts": "PASS; ShapeNode1 BodyNode1, no early/unknown/duplicate/overflow",
+    "owner_reset_window": "PASS",
+    "notification_order": "PASS; ShapeNode then BodyNode",
+    "unregistration": "PASS; subjects_remaining0"
+  },
+  "individual_destructor_calls": "NOT_OBSERVED",
+  "individual_destructor_order": "NOT_OBSERVED",
+  "allocator_balance": "NOT_MEASURED",
+  "service_exit": 0,
+  "resource_readback": {
+    "memory.max": "67108864",
+    "memory.swap.max": "0",
+    "pids.max": "8",
+    "cpu.max": "25000 100000",
+    "cgroup.procs": "231851\n231892\n231895",
+    "cgroup.threads": "231851\n231892\n231895",
+    "memory.current": "4603904",
+    "memory.peak": "12402688",
+    "pids.current": "3",
+    "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 0"
+  },
+  "last_cgroup_sample": {
+    "memory.current": "4861952",
+    "memory.peak": "12402688",
+    "memory.events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\nsock_throttled 0",
+    "pids.current": "3"
+  },
+  "stderr_metrics": {
+    "service_runtime_ms": 989,
+    "cpu_ms": 243,
+    "swap_peak_bytes": 0
+  },
+  "cleanup": {
+    "unit_state": {
+      "TimeoutStopUSec": "1min 30s",
+      "RuntimeMaxUSec": "infinity",
+      "MainPID": "0",
+      "Result": "success",
+      "ExecMainCode": "0",
+      "ExecMainStatus": "0",
+      "ControlGroup": "",
+      "CPUQuotaPerSecUSec": "infinity",
+      "CPUQuotaPeriodUSec": "infinity",
+      "MemoryMax": "infinity",
+      "MemorySwapMax": "infinity",
+      "TasksMax": "34727",
+      "KillMode": "control-group",
+      "Id": "aero-notification-v1-runtime-cb58e147a9.service",
+      "LoadState": "not-found",
+      "ActiveState": "inactive",
+      "SubState": "dead",
+      "Transient": "no",
+      "InvocationID": ""
+    },
+    "cgroup_removed": true,
+    "remaining_identities": [],
+    "status": "PASS"
+  },
+  "host_temp_removed": true,
+  "canary_removed": true,
+  "socket_controls": {
+    "positive_controls": [
+      true,
+      true,
+      true
+    ],
+    "sandbox_host_connections": false
+  },
+  "controller_during_expected": true,
+  "controller_before_after_diff": [],
+  "integrity": {
+    "changed_or_missing": [],
+    "new_existing_scope_files": [],
+    "main_head_unchanged": true,
+    "main_status_unchanged": true,
+    "status": "PASS"
+  },
+  "limitations": [
+    "Subject notification is not derived destructor entry/order/D0/free proof",
+    "map_files EPERM; proc_root_fd file identity fallback; resident pages not certified",
+    "last cgroup sample not guaranteed final; collected final unit exit properties unavailable",
+    "finite installed arm only; whole ABI/runtime neutrality not certified"
+  ],
+  "probe_evidence": {
+    "B_added": "registered BodyNode/ShapeNode Subject callback identity/count/window/order/unregistration observed",
+    "B_remaining": [
+      "individual destructor/D0/provider/allocator balance",
+      "Bullet detector/group/object factory/deleter/cast",
+      "baseline/trace OFF arm comparison"
+    ],
+    "C": "no new exception/partial construction/fault/unwind evidence",
+    "D": "no new OFF/ON metadata/recorder owner-quiescent/capacity/overflow/flush evidence"
+  },
+  "stage_b": "BLOCKED",
+  "risk_acceptance": "NONE"
+}

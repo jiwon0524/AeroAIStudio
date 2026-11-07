@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "unit": "aero-notification-v1-runtime-cb58e147a9.service",
+  "go_sent": true,
+  "body_entered": true,
+  "only_harmless_profile": false,
+  "DART_load_attempted": true,
+  "read_only_fd_binds": true
+}

@@ -1,3 +1,20 @@
+# Subject notification approved execution — current checkpoint
+
+**SUBJECT_NOTIFICATION_OBSERVATION_PASS / Probe B PARTIAL / Stage B BLOCKED**. User approved exactly one fixed launch at3c6654b45c78b42a5eaed3a1ba3d988a84552a29. HEAD/branch/clean,27source/manifest pins,fixture/Core16 FDidentity,62edges/29ROmount/sameCoreSONAMEalias,fresh output/markers,limits/manager-unit preflight PASS. Launch once,wrapper exit0;retry0,limit increase0,source changes0. Previous probes not rerun.
+
+Strict Core16+fixture17 file identities and namespace/cgroup/live limit checks passed before GO. registered2/earlycallbacks0,ShapeNode1+BodyNode1 during owner.reset,notificationorder[node,body],remainingregistrations0 all PASS. Individual derived destructor calls/order/D0/free NOT_OBSERVED; allocator balance NOT_MEASURED. Notification order is not destructor order; weak/exit-only proof not used.
+
+unit aero-notification-v1-runtime-cb58e147a9.service,nativehostPID231895/start25308986. Host/time/all observed identities in reports/execution_review.json. Service989ms/CPU243ms/swap0B,observedpeak12402688bytes/tasks3,memory.events all recorded0. Actual64MiB/swap0/tasks8/CPU25%/8s/stop2s matched. map_files EPERM used existing proc-rootFD identity fallback;resident pages unverified. Last sample not guaranteed final,final collected unit execution properties UNKNOWN.
+
+cleanup ownunit/cgroup/observedPID-start/temp/canary PASS,controller selected before-afterdiff0,host socket connections absent. runtime_integrity PASS:changed/missing0,existing-scopeadditions0,mainHEAD/dirty unchanged. Existing B1/V2/ProbeA/failure evidence and markers preserved. New notification two markers now consumed;never delete/reuse/retry. Wrapper and service completed. External-CWD/remote/container jobs UNKNOWN.
+
+New lightweight evidence validation/dart-subject-notification-v1/reports/execution_report.md,execution_review.json,runtime/*.json,runtime_integrity.json and this handoff only selected for experiment publication. Prepared source/approval/contract and historical reports unchanged. rawwork ELF/pin/snapshot/stdout/stderr/markers remain local and do not transfer via Git. No World/step/Gazebo/system/production/main/Clock/Capture changes. Common skill unchanged.
+
+B gets installed normal notification callback evidence only. Remaining:Bindividualdestructor/allocator/provider/Bulletfactory-deleter-cast/comparisonarms;Cpartialconstruction/fault/unwind;DtraceOFF-ONmetadata/quiescent/capacity/overflow/flush;Gazebo backend/step/closure gates. No risk accepted or scope waived;Stage B BLOCKED. Current one-shot approval complete. Next action review or separately requested bounded preparation;do not automatically launch more runtime.
+
+---
+Previous checkpoint follows:
+
 # Post-B1 Subject notification preparation — current checkpoint
 
 **SUBJECT_NOTIFICATION_PREPARED_NOT_EXECUTED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. User requested smallest prerequisite preparation only, starting5f5a496dce3acf3f777a816308c1d0d018f30ff3/experiment/dart-internal-trace clean. Read AGENTS/development rules/handoff/B1 execution/Gazebo draft and original Probe/V4 conditions. prerequisite_review.md separates default evidence gates and potential explicit itemized risk acceptance; no risk accepted or requirement waived.
@@ -536,22 +553,22 @@ Common skill source remains outside the project at `/home/jiwon/Projects/my-agen
 ```context-handoff-state
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07T13:16:40.333486+00:00",
+  "updated_at": "2026-11-07T13:23:14.328977+00:00",
   "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
   "host": "jiwon-System-Product-Name",
   "git": {
-    "head": "5f5a496dce3acf3f777a816308c1d0d018f30ff3",
+    "head": "3c6654b45c78b42a5eaed3a1ba3d988a84552a29",
     "branch": "experiment/dart-internal-trace",
     "status": []
   },
   "evidence": [
     {
-      "path": "validation/dart-subject-notification-v1/reports/final_report.md",
-      "sha256": "f016430d767965c04d7482d24dee016abaccf2feb87f3c8497c8275e55f433b4"
+      "path": "validation/dart-subject-notification-v1/reports/execution_review.json",
+      "sha256": "cdaebca74acb278e6eab0678d05bf9d9207aeada51e7fe3bb79acd73518ab864"
     },
     {
-      "path": "validation/dart-subject-notification-v1/reports/integrity.json",
-      "sha256": "d7d1c8857c0c59dfdba67f1eb378b3c7f2f64d92928857b0172c5d636da67723"
+      "path": "validation/dart-subject-notification-v1/reports/runtime_integrity.json",
+      "sha256": "04358f264b32c5ab23b07aa217059810c30ed2e2d2ac225797b1686369ceac75"
     }
   ],
   "processes": {
