@@ -1,0 +1,80 @@
+{
+  "status": "STATIC_ALIAS_FIX_PREPARED_NOT_EXECUTED",
+  "requires_separate_runtime_authorization": true,
+  "working_directory": "/tmp/AeroAIStudio-dart-internal-trace",
+  "future_actual_command": "env -u LD_PRELOAD -u LD_AUDIT -u LD_LIBRARY_PATH PYTHONDONTWRITEBYTECODE=1 python3 validation/dart-skeleton-lifetime-v2/scripts/launch.py --execute-approved-skeleton-once",
+  "safe_default_command": "python3 validation/dart-probe-a-launch-preparation-v1/scripts/launch.py",
+  "limits_change_allowed": false,
+  "prepared_source_sha256": {
+    "scripts/common.py": "44a9874e6aea82e668fe6ef7f4f63696398534f3a3474ff26f53f2ee2833c8bf",
+    "scripts/launch.py": "97040f225c1fe56ac15f5c0c04930b1a365e42fb90f918d7d069196a9b58e304",
+    "scripts/preservation.py": "9e764224b8f560fb0ea6c0895d09a6f1fe76feb33bc16f1a8e971f4c453a7a5a",
+    "scripts/readiness_fixed.py": "2a7ad27184b0f6aacc94913e7b16235fd168da358616e8142b60c3eb9f3a071b",
+    "scripts/resolution.py": "c81b5367f8b69565e556fe92c384a7a24fd8137cbb16587efcb552a4b5e5bed9",
+    "scripts/stage.py": "96c4a72db283f308d321960671a52a0dfea62b991d59b49cbd4944a5692e0c8c",
+    "scripts/supervisor.py": "46c6d7106d40903f1dd6d8e2d7b04c0de7806593d08615c3d807dd1981610b5b",
+    "tests/test_resolution.py": "d0c7169d1f48478b1c32cd8ac91225518b5328d68c516631801651419738e75a",
+    "../../validation/dart-probe-a-harness-v1/scripts/supervisor.py": "3adc2ced34f130ffeec2166e84cb9504711bc4906da56eaac7094d52ad77cae2",
+    "../../validation/dart-probe-a-harness-v1/scripts/allowlist.py": "b9c891a5dc20baf0105a3223fc32d4df8b1ec36c6923d307e39863a31e2795d2",
+    "../../validation/dart-probe-a-harness-v1/scripts/preserve.py": "188e2cabe3d645b4e7cdb7c65858790945174d0791a62b333e18281218958351",
+    "../../validation/dart-probe-a-harness-v1/scripts/memory_preflight.py": "a173f81a1c1617837732119ecb47f85c9d51139aee845e88d6604a8254eb54e5",
+    "../../validation/dart-probe-a-harness-v1/scripts/stage.py": "eb8eafc006d284091c108443cd6e68e6097b982a62857241ffee8380da7656d6",
+    "../../validation/dart-probe-a-harness-v1/scripts/mapped.py": "e136dfcb552cd03a90166459f483e5cee20125c8b4def31ea8c13d61f14a6dc6",
+    "../../validation/dart-probe-a-harness-v1/scripts/identity.py": "2cd0a79749a0825156e85433960066df08c37c28d5adcb7319a0a6f50f5ad7f4",
+    "../../validation/dart-probe-a-runtime-readiness-v1/scripts/check_alias_namespace.py": "b2707ae4f263c9fe5c762000cd04138a618df2e883b7bf636184e594da76534f",
+    "../../validation/dart-probe-a-runtime-readiness-v1/scripts/readiness.py": "907c42b01604c6b1a4a7af5f5e8f34529778ff6cab3c59da0ecb459a5b246d32",
+    "../../validation/dart-cgroup-integration-v1/scripts/preserve.py": "2de0cb7296cfceabf97455088ae98ab5d32f32c9ed7d672e73eb9924efcbdeb7",
+    "../../validation/dart-cgroup-integration-v1/scripts/integration.py": "d5d77ec43551b98bbe6b4b8f19ca3ab3ab536e2d02326ce521e1499733a3dac8",
+    "../../validation/dart-cgroup-smoke-v1/scripts/smoke.py": "500463adc143fcbe923cab04670be89c33352e2c0b4e564ae47ad14962b1736e",
+    "../../validation/dart-cgroup-smoke-v1/scripts/preserve.py": "f2b7afdc34389275a55d7388301000933ba0cbe0afc40894879e858c0c9bfe9d",
+    "../../validation/dart-skeleton-lifetime-v1/fixtures/skeleton.cpp": "d20c2726b868fad006685507bc9a9ab909c187dd551ace0d59c9ca5b49688864"
+  },
+  "loader_identity": {
+    "sha256": "2bc3e2d18c2360e1d4a2c276226c147f441dbd871cb3b003a054ba695d555292",
+    "build_id": "a0b31f19797f7cb36f6d5c0e311ac62517004b2b",
+    "device": 66309,
+    "inode": 3433472,
+    "size": 17920,
+    "mtime_ns": 1794029625473630589,
+    "ctime_ns": 1794029625473641377
+  },
+  "preflight": [
+    "correct experiment branch and base ancestry",
+    "prepared-source hashes and immutable manifest pin",
+    "all Core16 and executable baseline FD identities verified before service",
+    "unique one-shot attempt markers; refuse existing attempt; no retry",
+    "manager available; exact own unit collision check; pristine loader env",
+    "original/main/evidence pre-run snapshot; no production changes",
+    "readelf fixture + every approved ELF NEEDED/SONAME and exact shared bwrap argv resolution BEFORE any marker/service"
+  ],
+  "collection": {
+    "dlopen_success_error": "No explicit dlopen/dlclose: DT_NEEDED loads installed Core before main. Collect created/lifetime_success events and errors.",
+    "mapped_libraries_allowlist": "runtime/mapped_library_validation.json: strict Core16 + fixture identity BEFORE GO / Skeleton::create",
+    "memory_events": "post-open resource_readback.json plus runtime_observation.json last_cgroup_sample; current/peak/events; not guaranteed final sample",
+    "exit_signal_timeout": "systemd-run returncode and captured stderr; default native signal termination; missing final unit/cgroup properties UNKNOWN",
+    "cleanup": "runtime/process_cleanup.json unit/cgroup/observedPID-start/temp/canary; exact own-unit stop only with InvocationID match",
+    "integrity": "runtime_integrity.json compares fresh runtime_integrity_before snapshot; allowlisted files/executable are in snapshot; no implicit restoration"
+  },
+  "gate_limit": "Constructors before main; unchanged object gate/FD identity semantics with Core own SONAME included in allowed paths.",
+  "outcomes": [
+    "77 unsupported/default argv",
+    "78 GO absent/partial/timeout",
+    "20 null or nonempty Skeleton",
+    "21 premature expiration",
+    "22 expiration failed after reset",
+    "23 caught exception",
+    "24 output error",
+    "exit0 + lifetime_success + strict Core identity + cleanup + integrity PASS required"
+  ],
+  "stop_rules": [
+    "separate explicit object-execution approval required",
+    "no retry, limit increase, old marker removal, Probe A rerun, World, Gazebo or Stage B"
+  ],
+  "portability": "ELF/manifest pin/raw snapshots live locally in work; rebuild on another host changes identity and requires revalidation; never blindly regenerate allowlist pins to bypass mismatch",
+  "scope": "exactly one empty Skeleton create/shared_ptr reset/weak_ptr expired; no joint/body/collision/World",
+  "one_shot": [
+    "work/runtime_collection_attempt.json",
+    "work/runtime_attempt.json"
+  ],
+  "output": "validation/dart-skeleton-lifetime-v2/reports/runtime/"
+}

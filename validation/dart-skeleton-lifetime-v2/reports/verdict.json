@@ -1,0 +1,16 @@
+{
+  "verdict": "STATIC_ALIAS_FIX_PREPARED_NOT_EXECUTED",
+  "original_failed_plan": "REJECTED missing alias libdart.so.6.13",
+  "corrected_plan": "PASS_STATIC_RESOLUTION",
+  "NEEDED_edges_including_fixture": 62,
+  "tests_PASS": 10,
+  "tests_FAIL": 0,
+  "services_started": 0,
+  "fixture_executions": 0,
+  "markers_consumed": 0,
+  "fixture_rebuilt": false,
+  "allowlist_unchanged": true,
+  "integrity": "PASS",
+  "runtime": "NOT_RUNTIME_VERIFIED",
+  "Stage_B": "BLOCKED"
+}

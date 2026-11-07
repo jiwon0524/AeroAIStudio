@@ -1,0 +1,17 @@
+{
+  "final_nonexecuting_tests": {
+    "PASS": 10,
+    "FAIL": 0
+  },
+  "initial_nonexecuting_tests": {
+    "PASS": 9,
+    "FAIL": 1,
+    "reason": "loader environment rejected before mocked resolution failure; rerun with approved pristine env, no code/criterion change"
+  },
+  "fixture_execution": "NOT_RUN",
+  "service_creations": 0,
+  "recompile": "NOT_NEEDED: original pinned ELF reused",
+  "new_markers": [],
+  "original_manifest_sha256": "1a9d227d1f3cbc83c6b9f8de4f2ac3cc93ca5ae390b16d219a86c2e6cd5fa150",
+  "new_manifest_sha256": "1a9d227d1f3cbc83c6b9f8de4f2ac3cc93ca5ae390b16d219a86c2e6cd5fa150"
+}

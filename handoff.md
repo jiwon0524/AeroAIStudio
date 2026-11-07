@@ -1,3 +1,22 @@
+# Empty Skeleton V2 alias fix — current checkpoint
+
+**STATIC_ALIAS_FIX_PREPARED_NOT_EXECUTED / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. 기준 HEAD00ac79ea7aa14eb99dc4368a126eb5b998f52963/experiment/dart-internal-trace clean 확인. 이번 명시 범위는 V1 startup libdart.so.6.13 누락 수정과 비실행 검증·새 승인안 준비다. 실제DART/fixture/service0, 새marker소비0. V1실패/one-shot/Probe A 보존.
+
+신규 validation/dart-skeleton-lifetime-v2/와 이 handoff만 변경. installedCore canonical/DT_SONAME/FDidentity 유지, 새 alias /usr/lib/x86_64-linux-gnu/libdart.so.6.13 하나를 동일ROFD로 mount한다. executable·Core16 allowlist manifest는 V1과 byte-identical, 기존 pinned ELF를 재사용해 recompile0. 새 readiness_fixed의 post-open gate도 같은 alias를 인정하며 PID/start/Core16identity/객체전GO는 유지한다.
+
+resolution.py: 실제 readelf로 fixture와 허용ELF NEEDED/SONAME/RPATH/RUNPATH/interpreter 확인, stage와 동일 build_command의 ordered ro-bind-fd argv에서62edges를 approvedprovider로 연결한다. launch의 collection marker 전, supervisor의 service marker/systemd-run 전, stageexec 전 확인. 누락/충돌/잘못된승인대상/미승인FD/metadata/interpreter오류 거부. static x86-64 default search-dir 계약이며 실제loader/symbolversion/namespace 인증은 아님.
+
+reports/resolution.json: 실제 V1 argv REJECTED missing alias libdart.so.6.13, 수정 argv PASS; alias추가1. tests/test_resolution.py: 정리된 loader환경10PASS/0FAIL. 최초9PASS/1FAIL은 도구loaderenv gate 선차단이며 안전기준수정없이 승인명령과 같은 env에서 통과. test_summary.json 보존. AST/sourcepin/fileidentity 확인. integrity.json: 기존54,886files 변경·누락/기존범위추가0/main HEAD/status유지 PASS.
+
+새 명령/한계/성공/중단/정리와 hash는 reports/approval_plan.md/runtime_contract.json/manifest.json. memory64MiB/swap0/tasks8/CPU25%/service8s/stop2s 불변. 새 reports/runtime/ 및 work/runtime_collection_attempt.json·runtime_attempt.json은 아직 부재. 실제 빈Skeleton1회는 **별도 새 명시 승인 전 금지**. 현수정 승인은 runtime 재시도 승인이 아니다.
+
+다음 최소작업: 수정된 새승인안 검토 후 제한된 V2 1회 runtime 승인 여부 결정. 새gate/readelf의 service overhead·64MiB충분성/실제 init/fini·객체ABI·강제한계효과는 미검증. Gazebo/World::step/Stage B/Probe A재실행/기존marker삭제/자동상향 금지. known hash/static 작업 완료, runtime작업 없음; 외부CWD/remote/container UNKNOWN.
+
+게시대상은 신규V2 scripts/tests/경량reports와 handoff만. workpin/rawsnapshots와 V1로컬ELF·기존marker는 Git으로 기기이동되지 않는다. 별도 skill/production/system/main/Clock/Capture 변경0. 실제commit/push/remote일치는 로컬 git_publication.json 및 최종응답 참조.
+
+---
+이하 이전 체크포인트:
+
 # Empty Skeleton Lifetime V1 — approved execution checkpoint
 
 **SKELETON_LIFETIME_FAILED_BEFORE_MAIN / Gazebo NOT_RUNTIME_VERIFIED / Stage B BLOCKED**. 현재 사용자 명시 승인으로 준비commit0376da864f3e7a57d57e50bb0688c7c8cbb7a422의 지정 명령을 정확히1회 실행했다. 시작 HEAD/branch/clean, source/manifest/executable/Core16 FD hash와 fresh marker/output, host manager running/cgroup v2 확인. 권한 승인 후 실행했고 재시도0·한계상향0·코드수정0이다.
@@ -438,22 +457,22 @@ Common skill source remains outside the project at `/home/jiwon/Projects/my-agen
 ```context-handoff-state
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07T05:37:14.237739+00:00",
+  "updated_at": "2026-11-07T05:50:34.131648+00:00",
   "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
   "host": "jiwon-System-Product-Name",
   "git": {
-    "head": "f58d45856ddf423d05a5dc52482e9d02f427142f",
+    "head": "00ac79ea7aa14eb99dc4368a126eb5b998f52963",
     "branch": "experiment/dart-internal-trace",
     "status": []
   },
   "evidence": [
     {
-      "path": "validation/dart-skeleton-lifetime-v1/reports/verdict.json",
-      "sha256": "1646dd57302153d59f28d30f47178affb224dbf9a7f082243a5aab803da314b6"
+      "path": "validation/dart-skeleton-lifetime-v2/reports/verdict.json",
+      "sha256": "58be52d3b4404ad7b2e737ee59a723126334a85da74dfa38a5fbb39427bf1c10"
     },
     {
-      "path": "validation/dart-skeleton-lifetime-v1/reports/integrity.json",
-      "sha256": "a4a4ccc2b29bbb5e3d939b9ed9892a9d69fdd031532eb5f3f9574a02c2289d0c"
+      "path": "validation/dart-skeleton-lifetime-v2/reports/integrity.json",
+      "sha256": "d9ae1a54e01140420a565729a8d2eef56571feee5d49be60e2ad290fb104ad5b"
     }
   ],
   "processes": {
