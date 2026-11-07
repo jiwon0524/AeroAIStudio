@@ -1,0 +1,32 @@
+test_absent_path_not_empty_element (test_audit.StaticAuditTests.test_absent_path_not_empty_element) ... ok
+test_actual_init_arrays (test_audit.StaticAuditTests.test_actual_init_arrays) ... ok
+test_cache_parser_filters_arch (test_audit.StaticAuditTests.test_cache_parser_filters_arch) ... ok
+test_core_closure_candidates (test_audit.StaticAuditTests.test_core_closure_candidates) ... ok
+test_core_has_no_runpath (test_audit.StaticAuditTests.test_core_has_no_runpath) ... ok
+test_empty_paths (test_audit.StaticAuditTests.test_empty_paths) ... ok
+test_invalid_elf_rejected (test_audit.StaticAuditTests.test_invalid_elf_rejected) ... ok
+test_inventory_metadata (test_audit.StaticAuditTests.test_inventory_metadata) ... ok
+test_local_runpath_empty (test_audit.StaticAuditTests.test_local_runpath_empty) ... ok
+test_missing_candidate (test_audit.StaticAuditTests.test_missing_candidate) ... ok
+test_missing_old_external_stays_missing (test_audit.StaticAuditTests.test_missing_old_external_stays_missing) ... ok
+test_optional_bullet_ode (test_audit.StaticAuditTests.test_optional_bullet_ode) ... ok
+test_origin_relative (test_audit.StaticAuditTests.test_origin_relative) ... ok
+test_prior_identity (test_audit.StaticAuditTests.test_prior_identity) ... ok
+test_source_no_unsafe_tool (test_audit.StaticAuditTests.test_source_no_unsafe_tool) ... ok
+test_static_plan_not_execution (test_audit.StaticAuditTests.test_static_plan_not_execution) ... ok
+test_tls_ifunc_unknown_semantics (test_audit.StaticAuditTests.test_tls_ifunc_unknown_semantics) ... ok
+test_versioned_undefined_names (test_audit.StaticAuditTests.test_versioned_undefined_names) ... ok
+test_actual_entry_disabled (test_fixture.FixtureTests.test_actual_entry_disabled) ... ok
+test_default_contract (test_fixture.FixtureTests.test_default_contract) ... ok
+test_default_no_dynamic_load_imports (test_fixture.FixtureTests.test_default_no_dynamic_load_imports) ... ok
+test_native_branch_object_only (test_fixture.FixtureTests.test_native_branch_object_only) ... ok
+test_simulated_close_error (test_fixture.FixtureTests.test_simulated_close_error) ... ok
+test_simulated_open_error (test_fixture.FixtureTests.test_simulated_open_error) ... ok
+test_simulated_success (test_fixture.FixtureTests.test_simulated_success) ... ok
+test_timeout_and_signal_cleanup (test_fixture.FixtureTests.test_timeout_and_signal_cleanup) ... ok
+test_unknown_input (test_fixture.FixtureTests.test_unknown_input) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.063s
+
+OK

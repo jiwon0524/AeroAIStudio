@@ -1,0 +1,13 @@
+{
+  "scripts/supervisor.py": "3adc2ced34f130ffeec2166e84cb9504711bc4906da56eaac7094d52ad77cae2",
+  "scripts/allowlist.py": "b9c891a5dc20baf0105a3223fc32d4df8b1ec36c6923d307e39863a31e2795d2",
+  "scripts/preserve.py": "188e2cabe3d645b4e7cdb7c65858790945174d0791a62b333e18281218958351",
+  "scripts/memory_preflight.py": "a173f81a1c1617837732119ecb47f85c9d51139aee845e88d6604a8254eb54e5",
+  "scripts/stage.py": "eb8eafc006d284091c108443cd6e68e6097b982a62857241ffee8380da7656d6",
+  "scripts/mapped.py": "e136dfcb552cd03a90166459f483e5cee20125c8b4def31ea8c13d61f14a6dc6",
+  "scripts/identity.py": "2cd0a79749a0825156e85433960066df08c37c28d5adcb7319a0a6f50f5ad7f4",
+  "fixtures/harness_fixture.c": "3623ffa49a47d18573a088ab4dfabdf7155d6e00065cf97b637dacc435d4c6a8",
+  "fixtures/base_probe_a.c": "65fa85d7e3f5130b342c9a74215f1a4e9f5209f5ac077e7494f212183668235e",
+  "tests/test_guards.py": "bea688b9e5bc89155886174d04fd4a5b523ccb34f9fae20e978ce0fe5b6898e4",
+  "tests/test_observed.py": "9e545ab3bcd4152b0d44d2a81fa4125ddfb7747440f283c8244bf7f93c448678"
+}

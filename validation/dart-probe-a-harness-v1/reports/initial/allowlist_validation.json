@@ -1,0 +1,12 @@
+{
+  "installed_core_future_only": {
+    "status": "PASS",
+    "entries": 16,
+    "meaning": "file identity only, no runtime binding claim"
+  },
+  "harmless_fixture_only": {
+    "status": "PASS",
+    "entries": 3,
+    "meaning": "file identity only, no runtime binding claim"
+  }
+}

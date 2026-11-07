@@ -1,0 +1,37 @@
+{
+  "verdict": "PROBE_A_HARNESS_NEEDS_EVIDENCE",
+  "verified": [
+    "Core-only static pinned16-file allowlist",
+    "harmless three-file native profile",
+    "per-file readonly FD mounts",
+    "systemd/bwrap/resource normal integration",
+    "proc-root FD identity fallback using maps device/inode/hash/Build-ID",
+    "mock prelaunch fail-closed and real pre-body GO gate",
+    "normal process/unit/cgroup/temp cleanup"
+  ],
+  "unavailable": [
+    {
+      "id": "direct_map_files_fd",
+      "status": "UNAVAILABLE",
+      "observed_errno": 1,
+      "reason": "EPERM for all3 mappings; no sudo/capability changes attempted",
+      "fallback": "proc-root matching fd, qualified only as file identity"
+    }
+  ],
+  "mandatory_before_real_Probe_A": [
+    "explicit separate user approval",
+    "review whether proc-root fd evidence is sufficient under declared threat model; do not label direct map_files verified",
+    "complete Core-only mount aliases and loader-enabled post-open validation handshake; current service runner cannot load DART",
+    "evaluate64MiB bound and init/fini risks prospectively, no automatic increase"
+  ],
+  "unverified": [
+    "resource excess enforcement",
+    "kernel namespace failure injection",
+    "native dlopen/dlclose init/fini and symbol binding",
+    "relocated/COW resident-page contents",
+    "full dependency dynamic plugin behavior"
+  ],
+  "excluded_local_builds": "Baseline/Trace remain excluded; old External expected paths and empty RUNPATH risks unchanged",
+  "Probe_B_D": "BLOCKED",
+  "Stage_B": "BLOCKED"
+}

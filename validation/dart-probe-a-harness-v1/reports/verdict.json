@@ -1,0 +1,17 @@
+{
+  "verdict": "PROBE_A_HARNESS_NEEDS_EVIDENCE",
+  "harmless_native_harness": "VERIFIED",
+  "actual_DART_Gazebo": "NOT_RUNTIME_VERIFIED",
+  "direct_map_files": "UNAVAILABLE",
+  "fallback_file_identity": "PASS_FILE_IDENTITY",
+  "unit_test_PASS": 107,
+  "unit_test_FAIL": 0,
+  "unit_test_SKIP": 0,
+  "harmless_runtime_revalidation_PASS": 1,
+  "excluded_initial_runtime_FAIL": 1,
+  "not_run_activity_SKIP": 7,
+  "original_integrity": "PASS",
+  "Stage_B": "BLOCKED",
+  "Probe_B_D": "BLOCKED",
+  "real_Probe_A_approved": false
+}

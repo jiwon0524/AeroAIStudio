@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/usr/bin/cc",
+    "-std=c11",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-fstack-protector-strong",
+    "-Wl,-z,relro,-z,now",
+    "validation/dart-probe-a-harness-v1/fixtures/harness_fixture.c",
+    "-o",
+    "validation/dart-probe-a-harness-v1/work/native_fixture"
+  ],
+  "final_returncode": 0,
+  "DART_headers_or_linking": false,
+  "source_hashes": {
+    "fixtures/harness_fixture.c": "3623ffa49a47d18573a088ab4dfabdf7155d6e00065cf97b637dacc435d4c6a8",
+    "fixtures/base_probe_a.c": "65fa85d7e3f5130b342c9a74215f1a4e9f5209f5ac077e7494f212183668235e"
+  },
+  "binary_sha256": "3e9b882512bb496f0f8b57744beb509b6f606dc25e2d4a56a8625f5a978b1223",
+  "actual_implementation_profile": "PROBE_A_LOADER_ENABLED hardwired0; external macro prohibited"
+}

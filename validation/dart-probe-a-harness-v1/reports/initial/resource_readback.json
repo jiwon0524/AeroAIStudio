@@ -1,0 +1,9 @@
+{
+  "requested": {
+    "MemoryMax": "64M",
+    "TasksMax": 8,
+    "CPUQuota": "25%"
+  },
+  "observed": null,
+  "excess_enforcement": "NOT_TESTED"
+}

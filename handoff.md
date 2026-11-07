@@ -1,3 +1,26 @@
+# Probe A Native Harness Integration V1 — current checkpoint
+
+현재 승인 범위 완료: **PROBE_A_HARNESS_NEEDS_EVIDENCE / NOT_RUNTIME_VERIFIED / Stage B BLOCKED / Probe B~D BLOCKED**. 실제 DART/Gazebo/Probe/World/Stage B 미실행. 실제 실행은 default no-loader harmless C Fixture와 시스템 libc/loader만이다. 종료 후 후속 Runtime 자동 실행 없음.
+
+시작 worktree experiment/dart-internal-trace/HEAD9d375b4b58aa6dc9d87afd436a0ddf1ebf671c27 clean; main46134c6 및 기존dirty 보존. context-handoff/AGENTS/개발규칙/StaticAudit/Integration/Hardening와 실제자료 대조.
+
+새증거 `validation/dart-probe-a-harness-v1/reports/`: final_report, library_allowlist, allowlist_validation, native_fixture_execution, supervisor_integration, mapped_library_validation, fail_closed, resource_readback, process_cleanup, controller_diff, integrity, remaining_blockers, verdict. Core16은 정적FD검사만; fixture/libc/ld3만 readonly FD bind. Native namespace/RO/tmpfs/network/limit gate 뒤 WAIT, host live identity 검증 뒤 GO. 실제DART 파일 Sandbox미노출/미로드.
+
+최종 unit aero-probe-a-harmless-v1-c95f35522f.service; native host PID189868/start17933760/내부2, bwrap189863/189867 포함tasks3 동일leaf. memory.max67108864/swap0/pids.max8/cpu.max25000 100000, peak9469952B, service150ms/host0.194142s/exit0. unit/cgroup 제거·관측PID/start잔여0·temp/canary정리PASS. controller77경로/6필드비교, 동안43CPU자동전파·종료후0, 수동복구없음.
+
+직접map_files open은3파일 모두EPERM(1), UNAVAILABLE/SKIP. proc-root FD로 maps device/inode 및SHA/Build-ID3일치(PASS_FILE_IDENTITY에한정). PID/start/maps전후안정검사·변조/deleted/unexpectedmapping거부구현. residentCOW페이지/초기화이전안전성은미인증. 권한상향·sudo/AppArmor변경없음.
+
+초기 loader환경거부(service0), initial native gate exit78/body0 FAIL1은 보존. 실행binary write-open의ETXTBSY를EROFS로만판정하던진단오류검토후 readonlyST_RDONLY+canaryEROFS유지/세부gate추가; 재검증errno26관측. 원실패subpredicate로그는없음. 초기binary/manifest/source·보고서해시보존 및별도one-shot재검증, 자동retry0. ownedunit총2. 신규31+회귀76=107PASS/0FAIL/runnerSKIP0, harmless재검증1PASS별도; 미확인/미실행활동7SKIP. 기존54,654파일 변경·누락/기존범위신규0, mainHEAD/status보존PASS; Core16/fixture3실행후검사PASS.
+
+새 scripts/fixtures/tests/경량reports와이handoff만소유. work/binary/rawfullmanifest·pin은게시제외. /tmp/ignored/untracked원본은다른기기로자동전달안됨. 실제commit/push/원격SHA는새reports/git_publication.json로컬영수증과최종응답참조. 같은one-shot재실행금지, 새실행승인없음.
+
+다음최소작업: **DART미로드상태로 Core-only alias/post-open검증gate와 FDfallback의보장범위를단일실행계약으로확정**. 실제DART초기화/종료·64MiB충분성·초과강제효과·kernel실패는미검증. 실제Probe A는별도명시승인필요; B~D/Stage B차단유지. 이번종료후자동시작하지않음.
+
+host/시간/visibleprocess는handoff_snapshot.json. 알려진fixture종료/wait/cleanup확인; projectCWD관측밖외부/remote/container는UNKNOWN. 계정전환/기존프로세스종료·재시작없음. production/패키지/loader환경전역/Clock/Capture무변경.
+
+---
+이하 이전 인계 기록:
+
 # DART Probe A Static Readiness Audit V1 — current checkpoint
 
 현재 범위 완료: **PROBE_A_STATIC_NEEDS_EVIDENCE / NOT_RUNTIME_VERIFIED / Stage B BLOCKED / Probe B~D BLOCKED**. 실제 DART dlopen/dlclose·객체·Gazebo·World·Probe·새systemd service는 전부 미실행. 기존 main 무수정. 현재 요청 종료 후 후속작업 자동 실행 없음.

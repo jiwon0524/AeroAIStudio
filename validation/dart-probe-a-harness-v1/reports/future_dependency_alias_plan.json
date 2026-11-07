@@ -1,0 +1,53 @@
+{
+  "status": "PROSPECTIVE_NOT_EXECUTED",
+  "source_allowlist_sha256": "b1a66f055f64ac62cb39674405353a2c042bc4403287353e39e81d28c228bcc7",
+  "aliases": {
+    "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2": [
+      "/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13"
+    ],
+    "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0": [
+      "/lib/x86_64-linux-gnu/libfcl.so.0.7"
+    ],
+    "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7": [
+      "/lib/x86_64-linux-gnu/liboctomap.so.1.9"
+    ],
+    "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7": [
+      "/lib/x86_64-linux-gnu/liboctomath.so.1.9"
+    ],
+    "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0": [
+      "/lib/x86_64-linux-gnu/libassimp.so.5"
+    ],
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33": [
+      "/lib/x86_64-linux-gnu/libstdc++.so.6"
+    ],
+    "/usr/lib/x86_64-linux-gnu/libm.so.6": [
+      "/lib/x86_64-linux-gnu/libm.so.6"
+    ],
+    "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1": [
+      "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+    ],
+    "/usr/lib/x86_64-linux-gnu/libc.so.6": [
+      "/lib/x86_64-linux-gnu/libc.so.6"
+    ],
+    "/usr/lib/x86_64-linux-gnu/libccd.so.2.0": [
+      "/lib/x86_64-linux-gnu/libccd.so.2"
+    ],
+    "/usr/lib/x86_64-linux-gnu/libz.so.1.3": [
+      "/lib/x86_64-linux-gnu/libz.so.1"
+    ],
+    "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0": [
+      "/lib/x86_64-linux-gnu/libdraco.so.8"
+    ],
+    "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0": [
+      "/lib/x86_64-linux-gnu/libminizip.so.1"
+    ],
+    "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14": [
+      "/lib/x86_64-linux-gnu/libpugixml.so.1"
+    ],
+    "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2": [
+      "/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+    ]
+  },
+  "requirement": "Core-only future mount plan must map needed-name aliases to pinned canonical files; current fixture profile does not mount DART",
+  "current_frozen_allowlist_changed": false
+}

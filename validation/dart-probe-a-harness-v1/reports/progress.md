@@ -1,0 +1,1 @@
+완료: pinned allowlist16/fixture3, readonly FD bind, native pre-body GO gate, live maps/dev/inode/hash/Build-ID 검사 및 정상 정리. 최초env거부(service0)/native gateFAIL1 보존, 재검증PASS1. map_files 직접open3EPERM→UNAVAILABLE; proc-rootFD identity3match. 31신규+76회귀=107PASS. 54,654파일 및main보존PASS. PROBE_A_HARNESS_NEEDS_EVIDENCE, NOT_RUNTIME_VERIFIED/Stage B BLOCKED. 추가실행없음; 게시검토중.

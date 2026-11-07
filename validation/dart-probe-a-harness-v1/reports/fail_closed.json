@@ -1,0 +1,83 @@
+{
+  "status": "PASS_WITH_SCOPED_EVIDENCE",
+  "offline_scope": "synthetic/mocked invalid preflight; launch callback not invoked, not actual kernel failure injection",
+  "cases": [
+    {
+      "test_id": "manifest_pin",
+      "status": "PASS",
+      "body_executed": false,
+      "source": "tests/test_guards.py",
+      "kind": "OFFLINE_MOCK"
+    },
+    {
+      "test_id": "missing_library",
+      "status": "PASS",
+      "body_executed": false,
+      "source": "tests/test_guards.py",
+      "kind": "OFFLINE_MOCK"
+    },
+    {
+      "test_id": "hash_mismatch",
+      "status": "PASS",
+      "body_executed": false,
+      "source": "tests/test_guards.py",
+      "kind": "OFFLINE_MOCK"
+    },
+    {
+      "test_id": "build_id_mismatch",
+      "status": "PASS",
+      "body_executed": false,
+      "source": "tests/test_guards.py",
+      "kind": "OFFLINE_MOCK"
+    },
+    {
+      "test_id": "sandbox_gate",
+      "status": "PASS",
+      "body_executed": false,
+      "source": "tests/test_guards.py",
+      "kind": "OFFLINE_MOCK"
+    },
+    {
+      "test_id": "network_gate",
+      "status": "PASS",
+      "body_executed": false,
+      "source": "tests/test_guards.py",
+      "kind": "OFFLINE_MOCK"
+    },
+    {
+      "test_id": "readonly_gate",
+      "status": "PASS",
+      "body_executed": false,
+      "source": "tests/test_guards.py",
+      "kind": "OFFLINE_MOCK"
+    },
+    {
+      "test_id": "resource_gate",
+      "status": "PASS",
+      "body_executed": false,
+      "source": "tests/test_guards.py",
+      "kind": "OFFLINE_MOCK"
+    },
+    {
+      "test_id": "supervisor_gate",
+      "status": "PASS",
+      "body_executed": false,
+      "source": "tests/test_guards.py",
+      "kind": "OFFLINE_MOCK"
+    }
+  ],
+  "actual_initial_gate": {
+    "status": "REJECTED_BEFORE_BODY",
+    "qualification": "initial positive test FAIL, not retrospectively PASS",
+    "unit": "aero-probe-a-harmless-v1-564af64de7.service",
+    "go_sent": false,
+    "body_entered": false,
+    "evidence": "reports/initial/native_fixture_execution.json"
+  },
+  "actual_environment_gate": {
+    "status": "REJECTED_BEFORE_UNIT",
+    "evidence": "reports/preflight_environment_initial.json"
+  },
+  "actual_kernel_namespace_failure": "NOT_TESTED",
+  "system_library_mutated": false
+}

@@ -1,0 +1,24 @@
+{
+  "before_to_after": [],
+  "during": null,
+  "manager_before": {
+    "rc": 0,
+    "stdout": "ControlGroup=/user.slice/user-1000.slice/user@1000.service\nSystemState=running\n",
+    "stderr": "",
+    "values": {
+      "ControlGroup": "/user.slice/user-1000.slice/user@1000.service",
+      "SystemState": "running"
+    }
+  },
+  "manager_after": {
+    "rc": 0,
+    "stdout": "ControlGroup=/user.slice/user-1000.slice/user@1000.service\nSystemState=running\n",
+    "stderr": "",
+    "values": {
+      "ControlGroup": "/user.slice/user-1000.slice/user@1000.service",
+      "SystemState": "running"
+    }
+  },
+  "compared_paths": 77,
+  "manual_writes": false
+}

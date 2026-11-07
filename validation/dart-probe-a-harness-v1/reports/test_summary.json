@@ -1,0 +1,63 @@
+{
+  "new_tests": 31,
+  "regressions": {
+    "static_audit": 27,
+    "integration": 15,
+    "smoke": 6,
+    "hardening": 6,
+    "targeted": 22
+  },
+  "unit_test_PASS": 107,
+  "unit_test_FAIL": 0,
+  "unit_test_SKIP": 0,
+  "current_harmless_runtime_PASS": 1,
+  "final_scoped_PASS_total": 108,
+  "initial_failures_preserved": [
+    {
+      "type": "loader environment gate",
+      "unit_created": false,
+      "outcome": "rejected, recorded; cleared only for new process/own unit"
+    },
+    {
+      "type": "native gate",
+      "unit_created": true,
+      "body_entered": false,
+      "exact_original_subpredicate": "not logged; preserved as unavailable",
+      "correction": "independent readonly mount requirement retained; distinguish executing-file ETXTBSY from canary EROFS; finer gate errors",
+      "revalidation_observed_binary_errno": 26
+    }
+  ],
+  "SKIP": [
+    {
+      "test_id": "direct_map_files_fd_open",
+      "status": "SKIP"
+    },
+    {
+      "test_id": "memory_exhaustion",
+      "status": "SKIP"
+    },
+    {
+      "test_id": "PID_exhaustion",
+      "status": "SKIP"
+    },
+    {
+      "test_id": "CPU_pressure",
+      "status": "SKIP"
+    },
+    {
+      "test_id": "kernel_namespace_failure_injection",
+      "status": "SKIP"
+    },
+    {
+      "test_id": "supervisor_SIGKILL",
+      "status": "SKIP"
+    },
+    {
+      "test_id": "actual_DART_Probe_A",
+      "status": "SKIP"
+    }
+  ],
+  "automatic_runtime_retries": false,
+  "owned_units_created": 2,
+  "no_DART_library_mapping": true
+}

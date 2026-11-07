@@ -1,0 +1,13 @@
+{
+  "reports/initial/native_fixture_execution.json": "342786c0f6eb55e7998aa56ade594dd5fb3ee42cde8a953bb56035111f2ab67d",
+  "reports/initial/controller_diff.json": "8785cee7bf2959e95171aaa331a135dcb4914907f9f6f468ffb36fac69036a82",
+  "reports/initial/process_cleanup.json": "4ef2fd7c5bdcc7ba3bf3d09422ba097edfcb9dac8bc569756c5826b9f5c5ec54",
+  "reports/initial/resource_readback.json": "7f9f82ba458442851304e9d611b3790739b22496fb7af580486b18cb396bdc50",
+  "reports/initial/mapped_library_validation.json": "6178d747a07ef1c1ff1e3cab2af752ec27904622cc2586e519af67e8a7b4c275",
+  "reports/initial/allowlist_validation.json": "449158379a585eafaa3554d15805abf81e46205b858a2e9df71ed8afa03ffcdf",
+  "reports/initial/supervisor_integration.json": "3b3a904fd06fa09d7e4ded081ef057c5857d21e1f53a833514a72629efa9329d",
+  "reports/initial/library_allowlist.json": "afca0d7710ed9b4b5f1236188fb21b19172b378149ed14db17a126cd0d1202fa",
+  "work/initial/harness_fixture.c": "176d3aec93eb0c003bd13c0852aff0328d543903439b06c940297cec39098d4f",
+  "work/initial/manifest.sha256": "cf3fec03f2d603f73f9c89e9ff418e8b53f7d7eeaf6969233fe1b60f944359e4",
+  "work/initial/native_fixture": "19b8719609d5b80fa5c4c1ead785eb9ad6427142b36d9b85fb3a10a2f31fd880"
+}

@@ -1,0 +1,27 @@
+test_corrupt_real_debug_crc (test_artifacts.ArtifactTests.test_corrupt_real_debug_crc) ... ok
+test_evidence_safety_and_classification (test_artifacts.ArtifactTests.test_evidence_safety_and_classification) ... ok
+test_inventory_and_v4_hashes (test_artifacts.ArtifactTests.test_inventory_and_v4_hashes) ... ok
+test_malformed_real_section_table (test_artifacts.ArtifactTests.test_malformed_real_section_table) ... ok
+test_real_debug_match (test_artifacts.ArtifactTests.test_real_debug_match) ... ok
+test_signed_original_package_match (test_artifacts.ArtifactTests.test_signed_original_package_match) ... ok
+test_ubuntu_metadata_mismatch (test_artifacts.ArtifactTests.test_ubuntu_metadata_mismatch) ... ok
+test_wrong_build_rejected (test_artifacts.ArtifactTests.test_wrong_build_rejected) ... ok
+test_allowlist (test_evidence.EvidenceTests.test_allowlist) ... ok
+test_bad_package (test_evidence.EvidenceTests.test_bad_package) ... ok
+test_build_id (test_evidence.EvidenceTests.test_build_id) ... ok
+test_build_id_reject (test_evidence.EvidenceTests.test_build_id_reject) ... ok
+test_classify (test_evidence.EvidenceTests.test_classify) ... ok
+test_debuglink_and_crc (test_evidence.EvidenceTests.test_debuglink_and_crc) ... ok
+test_debuglink_invalid (test_evidence.EvidenceTests.test_debuglink_invalid) ... ok
+test_empty_package_field (test_evidence.EvidenceTests.test_empty_package_field) ... ok
+test_package_continuation (test_evidence.EvidenceTests.test_package_continuation) ... ok
+test_path_escape (test_evidence.EvidenceTests.test_path_escape) ... ok
+test_path_file (test_evidence.EvidenceTests.test_path_file) ... ok
+test_real_elf_crosscheck (test_evidence.EvidenceTests.test_real_elf_crosscheck) ... ok
+test_sections_invalid (test_evidence.EvidenceTests.test_sections_invalid) ... ok
+test_sha_known_vector (test_evidence.EvidenceTests.test_sha_known_vector) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 1.140s
+
+OK

@@ -1,0 +1,28 @@
+test_allowlist_valid (test_guards.Guards.test_allowlist_valid) ... ok
+test_base_source_exact_reuse (test_guards.Guards.test_base_source_exact_reuse) ... ok
+test_build_id_matches_readelf (test_guards.Guards.test_build_id_matches_readelf) ... ok
+test_build_id_mismatch (test_guards.Guards.test_build_id_mismatch) ... ok
+test_corrupt_elf (test_guards.Guards.test_corrupt_elf) ... ok
+test_fd_bind_only (test_guards.Guards.test_fd_bind_only) ... ok
+test_fd_cleanup_on_second_profile_failure (test_guards.Guards.test_fd_cleanup_on_second_profile_failure) ... ok
+test_hash_mismatch (test_guards.Guards.test_hash_mismatch) ... ok
+test_live_limit_reader_rejects_mock_bad_value (test_guards.Guards.test_live_limit_reader_rejects_mock_bad_value) ... ok
+test_manifest_pin (test_guards.Guards.test_manifest_pin) ... ok
+test_maps_deleted (test_guards.Guards.test_maps_deleted) ... ok
+test_maps_replaced_inode (test_guards.Guards.test_maps_replaced_inode) ... ok
+test_maps_unexpected (test_guards.Guards.test_maps_unexpected) ... ok
+test_missing_library (test_guards.Guards.test_missing_library) ... ok
+test_missing_pid_is_failure (test_guards.Guards.test_missing_pid_is_failure) ... ok
+test_network_gate (test_guards.Guards.test_network_gate) ... ok
+test_no_implicit_execution (test_guards.Guards.test_no_implicit_execution) ... ok
+test_no_loader_imports (test_guards.Guards.test_no_loader_imports) ... ok
+test_profile_runpath_gate (test_guards.Guards.test_profile_runpath_gate) ... ok
+test_readonly_gate (test_guards.Guards.test_readonly_gate) ... ok
+test_resource_gate (test_guards.Guards.test_resource_gate) ... ok
+test_sandbox_gate (test_guards.Guards.test_sandbox_gate) ... ok
+test_supervisor_gate (test_guards.Guards.test_supervisor_gate) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.034s
+
+OK

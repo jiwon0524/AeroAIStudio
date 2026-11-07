@@ -1,0 +1,1691 @@
+{
+  "schema": "probe_a_allowlist_v1",
+  "profiles": {
+    "installed_core_future_only": [
+      {
+        "requested_path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+        "exists": true,
+        "is_symlink": false,
+        "link_target": null,
+        "real_path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+        "sha256": "f74f4ec9820aee785ef94fb7bedafa7e4c832f209675a8ca1d35019c72b48e06",
+        "build_id": "071aa565b343db80e31aae393aadaed33c7adb46",
+        "soname": [
+          "libdart.so.6.13"
+        ],
+        "needed": [
+          "libdart-external-odelcpsolver.so.6.13",
+          "libfcl.so.0.7",
+          "liboctomap.so.1.9",
+          "liboctomath.so.1.9",
+          "libassimp.so.5",
+          "libstdc++.so.6",
+          "libm.so.6",
+          "libgcc_s.so.1",
+          "libc.so.6"
+        ],
+        "rpath": [],
+        "runpath": [],
+        "has_debug_info": false,
+        "has_symtab": false,
+        "debuglink": {
+          "filename": "1aa565b343db80e31aae393aadaed33c7adb46.debug",
+          "crc32": 1834565908
+        },
+        "architecture": "Advanced Micro Devices X86-64",
+        "elf_class": "ELF64",
+        "stat": {
+          "bytes": 5783040,
+          "mode": "0o644",
+          "uid": 65534
+        },
+        "special_sections": {
+          ".eh_frame": {
+            "address": 4974160,
+            "size_bytes": 377388,
+            "section_type": 1
+          },
+          ".gcc_except_table": {
+            "address": 5351548,
+            "size_bytes": 80062,
+            "section_type": 1
+          },
+          ".init_array": {
+            "address": 5436072,
+            "size_bytes": 16,
+            "section_type": 14,
+            "file_pointer_values": [
+              "0x1787d0",
+              "0x176840"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          },
+          ".fini_array": {
+            "address": 5436088,
+            "size_bytes": 8,
+            "section_type": 15,
+            "file_pointer_values": [
+              "0x178790"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          }
+        },
+        "flags": [
+          "0x000000000000000c (INIT)               0x14c000",
+          "0x000000000000000d (FINI)               0x3ed44c",
+          "0x0000000000000019 (INIT_ARRAY)         0x52f2a8",
+          "0x000000000000001a (FINI_ARRAY)         0x52f2b8",
+          "0x000000000000001e (FLAGS)              BIND_NOW",
+          "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+        ],
+        "ifunc_count": 0,
+        "gnu_unique_count": 0,
+        "lifetime_imports": [
+          "free@GLIBC_2.2.5",
+          "__cxa_finalize@GLIBC_2.2.5",
+          "__cxa_throw@CXXABI_1.3",
+          "_Unwind_Resume@GCC_3.0",
+          "__cxa_throw_bad_array_new_length@CXXABI_1.3.8",
+          "dlopen@GLIBC_2.34",
+          "__cxa_atexit@GLIBC_2.2.5",
+          "__cxa_free_exception@CXXABI_1.3",
+          "malloc@GLIBC_2.2.5"
+        ],
+        "device": 66309,
+        "inode": 8183120,
+        "size": 5783040,
+        "mtime_ns": 1715181769000000000,
+        "ctime_ns": 1790082927308520990,
+        "library_name": "libdart.so.6.13.2",
+        "absolute_path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+        "symlink_final_path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+        "sandbox_path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+        "required": true,
+        "role": "installed_core_DT_NEEDED",
+        "runtime_binding": "UNVERIFIED"
+      },
+      {
+        "requested_path": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+        "exists": true,
+        "is_symlink": false,
+        "link_target": null,
+        "real_path": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+        "sha256": "b890ed6936ea7cf486303fc5101ee5ff68356fc89596273ebaef83671aa4cb16",
+        "build_id": "abba8be3e710b1a505116d4bada0803f8bd49398",
+        "soname": [
+          "libdart-external-odelcpsolver.so.6.13"
+        ],
+        "needed": [
+          "libstdc++.so.6",
+          "libc.so.6"
+        ],
+        "rpath": [],
+        "runpath": [],
+        "has_debug_info": false,
+        "has_symtab": false,
+        "debuglink": {
+          "filename": "ba8be3e710b1a505116d4bada0803f8bd49398.debug",
+          "crc32": 3338103984
+        },
+        "architecture": "Advanced Micro Devices X86-64",
+        "elf_class": "ELF64",
+        "stat": {
+          "bytes": 47280,
+          "mode": "0o644",
+          "uid": 65534
+        },
+        "special_sections": {
+          ".eh_frame": {
+            "address": 38848,
+            "size_bytes": 2556,
+            "section_type": 1
+          },
+          ".init_array": {
+            "address": 48432,
+            "size_bytes": 8,
+            "section_type": 14,
+            "file_pointer_values": [
+              "0x22f0"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          },
+          ".fini_array": {
+            "address": 48440,
+            "size_bytes": 8,
+            "section_type": 15,
+            "file_pointer_values": [
+              "0x22b0"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          }
+        },
+        "flags": [
+          "0x000000000000000c (INIT)               0x2000",
+          "0x000000000000000d (FINI)               0x8388",
+          "0x0000000000000019 (INIT_ARRAY)         0xbd30",
+          "0x000000000000001a (FINI_ARRAY)         0xbd38",
+          "0x000000000000001e (FLAGS)              BIND_NOW",
+          "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+        ],
+        "ifunc_count": 0,
+        "gnu_unique_count": 0,
+        "lifetime_imports": [
+          "__cxa_finalize@GLIBC_2.2.5",
+          "__cxa_throw_bad_array_new_length@CXXABI_1.3.8"
+        ],
+        "device": 66309,
+        "inode": 8183119,
+        "size": 47280,
+        "mtime_ns": 1715181769000000000,
+        "ctime_ns": 1790082927308520990,
+        "library_name": "libdart-external-odelcpsolver.so.6.13.2",
+        "absolute_path": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+        "symlink_final_path": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+        "sandbox_path": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+        "required": true,
+        "role": "installed_core_DT_NEEDED",
+        "runtime_binding": "UNVERIFIED"
+      },
+      {
+        "requested_path": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+        "exists": true,
+        "is_symlink": false,
+        "link_target": null,
+        "real_path": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+        "sha256": "3436bd79e03ed39efce6f7abfd64ed35429d5574bd76337b90edb1fb85506afb",
+        "build_id": "9a88c1c7d36d5eb881b69a2eee7893e322d06e69",
+        "soname": [
+          "libfcl.so.0.7"
+        ],
+        "needed": [
+          "libccd.so.2",
+          "liboctomap.so.1.9",
+          "liboctomath.so.1.9",
+          "libstdc++.so.6",
+          "libm.so.6",
+          "libgcc_s.so.1",
+          "libc.so.6"
+        ],
+        "rpath": [],
+        "runpath": [],
+        "has_debug_info": false,
+        "has_symtab": false,
+        "debuglink": {
+          "filename": "88c1c7d36d5eb881b69a2eee7893e322d06e69.debug",
+          "crc32": 20518633
+        },
+        "architecture": "Advanced Micro Devices X86-64",
+        "elf_class": "ELF64",
+        "stat": {
+          "bytes": 5679280,
+          "mode": "0o644",
+          "uid": 65534
+        },
+        "special_sections": {
+          ".eh_frame": {
+            "address": 5049320,
+            "size_bytes": 352660,
+            "section_type": 1
+          },
+          ".gcc_except_table": {
+            "address": 5401980,
+            "size_bytes": 47260,
+            "section_type": 1
+          },
+          ".init_array": {
+            "address": 5453096,
+            "size_bytes": 8,
+            "section_type": 14,
+            "file_pointer_values": [
+              "0x13a040"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          },
+          ".fini_array": {
+            "address": 5453104,
+            "size_bytes": 8,
+            "section_type": 15,
+            "file_pointer_values": [
+              "0x13a000"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          }
+        },
+        "flags": [
+          "0x000000000000000c (INIT)               0x118000",
+          "0x000000000000000d (FINI)               0x48405c",
+          "0x0000000000000019 (INIT_ARRAY)         0x533528",
+          "0x000000000000001a (FINI_ARRAY)         0x533530",
+          "0x000000000000001e (FLAGS)              BIND_NOW",
+          "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+        ],
+        "ifunc_count": 0,
+        "gnu_unique_count": 0,
+        "lifetime_imports": [
+          "free@GLIBC_2.2.5",
+          "__cxa_finalize@GLIBC_2.2.5",
+          "__cxa_throw@CXXABI_1.3",
+          "_Unwind_Resume@GCC_3.0",
+          "__cxa_throw_bad_array_new_length@CXXABI_1.3.8",
+          "__cxa_atexit@GLIBC_2.2.5",
+          "__cxa_free_exception@CXXABI_1.3",
+          "malloc@GLIBC_2.2.5"
+        ],
+        "device": 66309,
+        "inode": 8183113,
+        "size": 5679280,
+        "mtime_ns": 1711908833000000000,
+        "ctime_ns": 1790082927161521419,
+        "library_name": "libfcl.so.0.7.0",
+        "absolute_path": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+        "symlink_final_path": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+        "sandbox_path": "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+        "required": true,
+        "role": "installed_core_DT_NEEDED",
+        "runtime_binding": "UNVERIFIED"
+      },
+      {
+        "requested_path": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+        "exists": true,
+        "is_symlink": false,
+        "link_target": null,
+        "real_path": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+        "sha256": "ec8bfd6cce31e7fd3dced8d5489109f6bca3d066c8ac3035b032940a8eb9ef50",
+        "build_id": "87246fca06ed85bc40623d259d53297dfee76f31",
+        "soname": [
+          "liboctomap.so.1.9"
+        ],
+        "needed": [
+          "liboctomath.so.1.9",
+          "libstdc++.so.6",
+          "libm.so.6",
+          "libgcc_s.so.1",
+          "libc.so.6"
+        ],
+        "rpath": [],
+        "runpath": [],
+        "has_debug_info": false,
+        "has_symtab": false,
+        "debuglink": {
+          "filename": "246fca06ed85bc40623d259d53297dfee76f31.debug",
+          "crc32": 3498262944
+        },
+        "architecture": "Advanced Micro Devices X86-64",
+        "elf_class": "ELF64",
+        "stat": {
+          "bytes": 256328,
+          "mode": "0o644",
+          "uid": 65534
+        },
+        "special_sections": {
+          ".eh_frame": {
+            "address": 223160,
+            "size_bytes": 20032,
+            "section_type": 1
+          },
+          ".gcc_except_table": {
+            "address": 243192,
+            "size_bytes": 3703,
+            "section_type": 1
+          },
+          ".init_array": {
+            "address": 252008,
+            "size_bytes": 16,
+            "section_type": 14,
+            "file_pointer_values": [
+              "0xc7c0",
+              "0xc570"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          },
+          ".fini_array": {
+            "address": 252024,
+            "size_bytes": 8,
+            "section_type": 15,
+            "file_pointer_values": [
+              "0xc780"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          }
+        },
+        "flags": [
+          "0x000000000000000c (INIT)               0xa000",
+          "0x000000000000000d (FINI)               0x30e88",
+          "0x0000000000000019 (INIT_ARRAY)         0x3d868",
+          "0x000000000000001a (FINI_ARRAY)         0x3d878",
+          "0x000000000000001e (FLAGS)              BIND_NOW",
+          "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+        ],
+        "ifunc_count": 0,
+        "gnu_unique_count": 0,
+        "lifetime_imports": [
+          "__cxa_finalize@GLIBC_2.2.5",
+          "__cxa_atexit@GLIBC_2.2.5",
+          "_Unwind_Resume@GCC_3.0"
+        ],
+        "device": 66309,
+        "inode": 8183109,
+        "size": 256328,
+        "mtime_ns": 1712900483000000000,
+        "ctime_ns": 1790082927076521667,
+        "library_name": "liboctomap.so.1.9.7",
+        "absolute_path": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+        "symlink_final_path": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+        "sandbox_path": "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+        "required": true,
+        "role": "installed_core_DT_NEEDED",
+        "runtime_binding": "UNVERIFIED"
+      },
+      {
+        "requested_path": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+        "exists": true,
+        "is_symlink": false,
+        "link_target": null,
+        "real_path": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+        "sha256": "efd1dcfc111d271e13173f02153c0a950bbce9ccd53d1319990a5e6ff56c8dca",
+        "build_id": "aa28eb0ffa9d812eae7eb7c981aa3ee816518fb2",
+        "soname": [
+          "liboctomath.so.1.9"
+        ],
+        "needed": [
+          "libstdc++.so.6",
+          "libm.so.6",
+          "libgcc_s.so.1",
+          "libc.so.6"
+        ],
+        "rpath": [],
+        "runpath": [],
+        "has_debug_info": false,
+        "has_symtab": false,
+        "debuglink": {
+          "filename": "28eb0ffa9d812eae7eb7c981aa3ee816518fb2.debug",
+          "crc32": 164524062
+        },
+        "architecture": "Advanced Micro Devices X86-64",
+        "elf_class": "ELF64",
+        "stat": {
+          "bytes": 22776,
+          "mode": "0o644",
+          "uid": 65534
+        },
+        "special_sections": {
+          ".eh_frame": {
+            "address": 16936,
+            "size_bytes": 1908,
+            "section_type": 1
+          },
+          ".gcc_except_table": {
+            "address": 18844,
+            "size_bytes": 21,
+            "section_type": 1
+          },
+          ".init_array": {
+            "address": 23840,
+            "size_bytes": 8,
+            "section_type": 14,
+            "file_pointer_values": [
+              "0x2300"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          },
+          ".fini_array": {
+            "address": 23848,
+            "size_bytes": 8,
+            "section_type": 15,
+            "file_pointer_values": [
+              "0x22c0"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          }
+        },
+        "flags": [
+          "0x000000000000000c (INIT)               0x2000",
+          "0x000000000000000d (FINI)               0x3e7c",
+          "0x0000000000000019 (INIT_ARRAY)         0x5d20",
+          "0x000000000000001a (FINI_ARRAY)         0x5d28",
+          "0x000000000000001e (FLAGS)              BIND_NOW",
+          "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+        ],
+        "ifunc_count": 0,
+        "gnu_unique_count": 0,
+        "lifetime_imports": [
+          "__cxa_finalize@GLIBC_2.2.5",
+          "_Unwind_Resume@GCC_3.0"
+        ],
+        "device": 66309,
+        "inode": 8183110,
+        "size": 22776,
+        "mtime_ns": 1712900483000000000,
+        "ctime_ns": 1790082927076521667,
+        "library_name": "liboctomath.so.1.9.7",
+        "absolute_path": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+        "symlink_final_path": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+        "sandbox_path": "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+        "required": true,
+        "role": "installed_core_DT_NEEDED",
+        "runtime_binding": "UNVERIFIED"
+      },
+      {
+        "requested_path": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+        "exists": true,
+        "is_symlink": false,
+        "link_target": null,
+        "real_path": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+        "sha256": "f5524225032201d129cac2adf305af9c7ffcf612d8662f3c87a2d891d5cd3d18",
+        "build_id": "f23e97079e66c1f6f868432cf38805d3d03fe987",
+        "soname": [
+          "libassimp.so.5"
+        ],
+        "needed": [
+          "libz.so.1",
+          "libdraco.so.8",
+          "libminizip.so.1",
+          "libpugixml.so.1",
+          "libstdc++.so.6",
+          "libm.so.6",
+          "libgcc_s.so.1",
+          "libc.so.6"
+        ],
+        "rpath": [],
+        "runpath": [],
+        "has_debug_info": false,
+        "has_symtab": false,
+        "debuglink": {
+          "filename": "3e97079e66c1f6f868432cf38805d3d03fe987.debug",
+          "crc32": 3785953200
+        },
+        "architecture": "Advanced Micro Devices X86-64",
+        "elf_class": "ELF64",
+        "stat": {
+          "bytes": 7547664,
+          "mode": "0o644",
+          "uid": 65534
+        },
+        "special_sections": {
+          ".eh_frame": {
+            "address": 6469664,
+            "size_bytes": 456724,
+            "section_type": 1
+          },
+          ".gcc_except_table": {
+            "address": 6926388,
+            "size_bytes": 132856,
+            "section_type": 1
+          },
+          ".tbss": {
+            "address": 7063112,
+            "size_bytes": 8,
+            "section_type": 8
+          },
+          ".init_array": {
+            "address": 7063112,
+            "size_bytes": 16,
+            "section_type": 14,
+            "file_pointer_values": [
+              "0x14f640",
+              "0x148c00"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          },
+          ".fini_array": {
+            "address": 7063128,
+            "size_bytes": 8,
+            "section_type": 15,
+            "file_pointer_values": [
+              "0x14f600"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          }
+        },
+        "flags": [
+          "0x000000000000000c (INIT)               0xdd000",
+          "0x000000000000000d (FINI)               0x5b8d68",
+          "0x0000000000000019 (INIT_ARRAY)         0x6bc648",
+          "0x000000000000001a (FINI_ARRAY)         0x6bc658",
+          "0x000000000000001e (FLAGS)              BIND_NOW",
+          "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+        ],
+        "ifunc_count": 0,
+        "gnu_unique_count": 0,
+        "lifetime_imports": [
+          "free@GLIBC_2.2.5",
+          "__cxa_finalize@GLIBC_2.2.5",
+          "__cxa_throw@CXXABI_1.3",
+          "_Unwind_Resume@GCC_3.0",
+          "__cxa_throw_bad_array_new_length@CXXABI_1.3.8",
+          "__cxa_atexit@GLIBC_2.2.5",
+          "__cxa_free_exception@CXXABI_1.3",
+          "malloc@GLIBC_2.2.5"
+        ],
+        "device": 66309,
+        "inode": 8179758,
+        "size": 7547664,
+        "mtime_ns": 1711844356000000000,
+        "ctime_ns": 1789773349156873463,
+        "library_name": "libassimp.so.5.3.0",
+        "absolute_path": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+        "symlink_final_path": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+        "sandbox_path": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+        "required": true,
+        "role": "installed_core_DT_NEEDED",
+        "runtime_binding": "UNVERIFIED"
+      },
+      {
+        "requested_path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+        "exists": true,
+        "is_symlink": false,
+        "link_target": null,
+        "real_path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+        "sha256": "1fd75fe70354a416d75aef22bcae68c47bd25d20e2d0568c30b1a9838cf62f11",
+        "build_id": "753c6c8608b61d4e67be8f0c890e03e0aa046b8b",
+        "soname": [
+          "libstdc++.so.6"
+        ],
+        "needed": [
+          "libm.so.6",
+          "libc.so.6",
+          "ld-linux-x86-64.so.2",
+          "libgcc_s.so.1"
+        ],
+        "rpath": [],
+        "runpath": [],
+        "has_debug_info": false,
+        "has_symtab": false,
+        "debuglink": {
+          "filename": "3c6c8608b61d4e67be8f0c890e03e0aa046b8b.debug",
+          "crc32": 2525019382
+        },
+        "architecture": "Advanced Micro Devices X86-64",
+        "elf_class": "ELF64",
+        "stat": {
+          "bytes": 2592224,
+          "mode": "0o644",
+          "uid": 65534
+        },
+        "special_sections": {
+          ".eh_frame": {
+            "address": 2317624,
+            "size_bytes": 180960,
+            "section_type": 1
+          },
+          ".gcc_except_table": {
+            "address": 2498584,
+            "size_bytes": 36971,
+            "section_type": 1
+          },
+          ".tbss": {
+            "address": 2540304,
+            "size_bytes": 32,
+            "section_type": 8
+          },
+          ".init_array": {
+            "address": 2540304,
+            "size_bytes": 136,
+            "section_type": 14,
+            "file_pointer_values": [
+              "0xb74f0",
+              "0xb7ae0",
+              "0xb7120",
+              "0xb71b0",
+              "0xb71c0",
+              "0xb71e0",
+              "0xb7400",
+              "0xb7530",
+              "0xb76a0",
+              "0xb76c0",
+              "0xb76e0",
+              "0xb7730",
+              "0xb77b0",
+              "0xb7830",
+              "0xb78f0",
+              "0xb79b0",
+              "0xb7a10"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          },
+          ".fini_array": {
+            "address": 2540440,
+            "size_bytes": 8,
+            "section_type": 15,
+            "file_pointer_values": [
+              "0xb7aa0"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          }
+        },
+        "flags": [
+          "0x000000000000000c (INIT)               0x9d000",
+          "0x000000000000000d (FINI)               0x1e4ce4",
+          "0x0000000000000019 (INIT_ARRAY)         0x26c310",
+          "0x000000000000001a (FINI_ARRAY)         0x26c398"
+        ],
+        "ifunc_count": 0,
+        "gnu_unique_count": 106,
+        "lifetime_imports": [
+          "_Unwind_GetRegionStart@GCC_3.0",
+          "_Unwind_SetGR@GCC_3.0",
+          "_Unwind_GetDataRelBase@GCC_3.0",
+          "malloc@GLIBC_2.2.5",
+          "_Unwind_DeleteException@GCC_3.0",
+          "__cxa_atexit@GLIBC_2.2.5",
+          "_Unwind_GetLanguageSpecificData@GCC_3.0",
+          "_Unwind_Resume_or_Rethrow@GCC_3.3",
+          "pthread_create@GLIBC_2.34",
+          "free@GLIBC_2.2.5",
+          "__cxa_thread_atexit_impl@GLIBC_2.18",
+          "_Unwind_RaiseException@GCC_3.0",
+          "__cxa_finalize@GLIBC_2.2.5",
+          "_Unwind_GetIPInfo@GCC_4.2.0",
+          "freelocale@GLIBC_2.3",
+          "_Unwind_GetTextRelBase@GCC_3.0",
+          "__freelocale@GLIBC_2.2.5",
+          "_Unwind_Resume@GCC_3.0",
+          "_Unwind_SetIP@GCC_3.0"
+        ],
+        "device": 66309,
+        "inode": 8154402,
+        "size": 2592224,
+        "mtime_ns": 1766093810000000000,
+        "ctime_ns": 1789650810916851252,
+        "library_name": "libstdc++.so.6.0.33",
+        "absolute_path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+        "symlink_final_path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+        "sandbox_path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+        "required": true,
+        "role": "installed_core_DT_NEEDED",
+        "runtime_binding": "UNVERIFIED"
+      },
+      {
+        "requested_path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "exists": true,
+        "is_symlink": false,
+        "link_target": null,
+        "real_path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "sha256": "fce00b6f25f459cf4ae0b7fae4257909a1a8a86f9149e7c029a5d617baf1ccd0",
+        "build_id": "d53fcbff9f855463606b25cfbe2a2e10856ea3a7",
+        "soname": [
+          "libm.so.6"
+        ],
+        "needed": [
+          "libc.so.6",
+          "ld-linux-x86-64.so.2"
+        ],
+        "rpath": [],
+        "runpath": [],
+        "has_debug_info": false,
+        "has_symtab": false,
+        "debuglink": {
+          "filename": "3fcbff9f855463606b25cfbe2a2e10856ea3a7.debug",
+          "crc32": 2079339273
+        },
+        "architecture": "Advanced Micro Devices X86-64",
+        "elf_class": "ELF64",
+        "stat": {
+          "bytes": 952616,
+          "mode": "0o644",
+          "uid": 65534
+        },
+        "special_sections": {
+          ".eh_frame": {
+            "address": 912928,
+            "size_bytes": 33072,
+            "section_type": 1
+          },
+          ".init_array": {
+            "address": 949248,
+            "size_bytes": 8,
+            "section_type": 14,
+            "file_pointer_values": [
+              "0x104e0"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          },
+          ".fini_array": {
+            "address": 949256,
+            "size_bytes": 8,
+            "section_type": 15,
+            "file_pointer_values": [
+              "0x104a0"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          }
+        },
+        "flags": [
+          "0x000000000000000c (INIT)               0x10000",
+          "0x000000000000000d (FINI)               0x8e3a8",
+          "0x0000000000000019 (INIT_ARRAY)         0xe7c00",
+          "0x000000000000001a (FINI_ARRAY)         0xe7c08",
+          "0x000000000000001e (FLAGS)              BIND_NOW STATIC_TLS",
+          "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+        ],
+        "ifunc_count": 85,
+        "gnu_unique_count": 0,
+        "lifetime_imports": [
+          "__cxa_finalize@GLIBC_2.2.5"
+        ],
+        "device": 66309,
+        "inode": 8154180,
+        "size": 952616,
+        "mtime_ns": 1788444912000000000,
+        "ctime_ns": 1789650810736842947,
+        "library_name": "libm.so.6",
+        "absolute_path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "symlink_final_path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "sandbox_path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "required": true,
+        "role": "installed_core_DT_NEEDED",
+        "runtime_binding": "UNVERIFIED"
+      },
+      {
+        "requested_path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "exists": true,
+        "is_symlink": false,
+        "link_target": null,
+        "real_path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "sha256": "d93224d2b0dab4247598be683adca02f5cf00586f99c187579cd7e92058fb7cb",
+        "build_id": "58736497cba1173fec6ad05c75e996dacefd1def",
+        "soname": [
+          "libgcc_s.so.1"
+        ],
+        "needed": [
+          "libc.so.6",
+          "ld-linux-x86-64.so.2"
+        ],
+        "rpath": [],
+        "runpath": [],
+        "has_debug_info": false,
+        "has_symtab": false,
+        "debuglink": {
+          "filename": "736497cba1173fec6ad05c75e996dacefd1def.debug",
+          "crc32": 2375649357
+        },
+        "architecture": "Advanced Micro Devices X86-64",
+        "elf_class": "ELF64",
+        "stat": {
+          "bytes": 183024,
+          "mode": "0o644",
+          "uid": 65534
+        },
+        "special_sections": {
+          ".eh_frame": {
+            "address": 168808,
+            "size_bytes": 10136,
+            "section_type": 1
+          },
+          ".tbss": {
+            "address": 183696,
+            "size_bytes": 8,
+            "section_type": 8
+          },
+          ".init_array": {
+            "address": 183696,
+            "size_bytes": 16,
+            "section_type": 14,
+            "file_pointer_values": [
+              "0x0",
+              "0x5b10"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          },
+          ".fini_array": {
+            "address": 183712,
+            "size_bytes": 16,
+            "section_type": 15,
+            "file_pointer_values": [
+              "0x5ad0",
+              "0x4940"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          }
+        },
+        "flags": [
+          "0x000000000000000c (INIT)               0x4000",
+          "0x000000000000000d (FINI)               0x27748",
+          "0x0000000000000019 (INIT_ARRAY)         0x2cd90",
+          "0x000000000000001a (FINI_ARRAY)         0x2cda0"
+        ],
+        "ifunc_count": 0,
+        "gnu_unique_count": 0,
+        "lifetime_imports": [
+          "free@GLIBC_2.2.5",
+          "malloc@GLIBC_2.2.5",
+          "__cxa_finalize@GLIBC_2.2.5"
+        ],
+        "device": 66309,
+        "inode": 8154009,
+        "size": 183024,
+        "mtime_ns": 1766093810000000000,
+        "ctime_ns": 1789650809533701752,
+        "library_name": "libgcc_s.so.1",
+        "absolute_path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "symlink_final_path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "sandbox_path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "required": true,
+        "role": "installed_core_DT_NEEDED",
+        "runtime_binding": "UNVERIFIED"
+      },
+      {
+        "requested_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "exists": true,
+        "is_symlink": false,
+        "link_target": null,
+        "real_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf",
+        "build_id": "a4a7992a8e66555c8141ab2a08a8465ff6e0ea65",
+        "soname": [
+          "libc.so.6"
+        ],
+        "needed": [
+          "ld-linux-x86-64.so.2"
+        ],
+        "rpath": [],
+        "runpath": [],
+        "has_debug_info": false,
+        "has_symtab": false,
+        "debuglink": {
+          "filename": "a7992a8e66555c8141ab2a08a8465ff6e0ea65.debug",
+          "crc32": 748533535
+        },
+        "architecture": "Advanced Micro Devices X86-64",
+        "elf_class": "ELF64",
+        "stat": {
+          "bytes": 2129424,
+          "mode": "0o755",
+          "uid": 65534
+        },
+        "special_sections": {
+          ".eh_frame": {
+            "address": 1961576,
+            "size_bytes": 130124,
+            "section_type": 1
+          },
+          ".gcc_except_table": {
+            "address": 2091700,
+            "size_bytes": 1582,
+            "section_type": 1
+          },
+          ".tdata": {
+            "address": 2100320,
+            "size_bytes": 16,
+            "section_type": 1
+          },
+          ".tbss": {
+            "address": 2100336,
+            "size_bytes": 120,
+            "section_type": 8
+          },
+          ".init_array": {
+            "address": 2100336,
+            "size_bytes": 16,
+            "section_type": 14,
+            "file_pointer_values": [
+              "0x2a060",
+              "0x2a0d0"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          }
+        },
+        "flags": [
+          "0x0000000000000019 (INIT_ARRAY)         0x200c70",
+          "0x000000000000001e (FLAGS)              BIND_NOW STATIC_TLS",
+          "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+        ],
+        "ifunc_count": 63,
+        "gnu_unique_count": 0,
+        "lifetime_imports": [],
+        "device": 66309,
+        "inode": 8153876,
+        "size": 2129424,
+        "mtime_ns": 1788444912000000000,
+        "ctime_ns": 1789650809357119313,
+        "library_name": "libc.so.6",
+        "absolute_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "symlink_final_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "sandbox_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "required": true,
+        "role": "installed_core_DT_NEEDED",
+        "runtime_binding": "UNVERIFIED"
+      },
+      {
+        "requested_path": "/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+        "exists": true,
+        "is_symlink": false,
+        "link_target": null,
+        "real_path": "/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+        "sha256": "aa285639c8e4fa83f5987357fdc882e6df614949e40a7e85676b640ffb25f4f1",
+        "build_id": "a47fe55dce7de568f3a4f69662f59ac606032bb9",
+        "soname": [
+          "libccd.so.2"
+        ],
+        "needed": [
+          "libm.so.6",
+          "libc.so.6"
+        ],
+        "rpath": [],
+        "runpath": [],
+        "has_debug_info": false,
+        "has_symtab": false,
+        "debuglink": {
+          "filename": "7fe55dce7de568f3a4f69662f59ac606032bb9.debug",
+          "crc32": 2620913693
+        },
+        "architecture": "Advanced Micro Devices X86-64",
+        "elf_class": "ELF64",
+        "stat": {
+          "bytes": 44056,
+          "mode": "0o644",
+          "uid": 65534
+        },
+        "special_sections": {
+          ".eh_frame": {
+            "address": 37248,
+            "size_bytes": 1592,
+            "section_type": 1
+          },
+          ".init_array": {
+            "address": 44368,
+            "size_bytes": 8,
+            "section_type": 14,
+            "file_pointer_values": [
+              "0x1230"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          },
+          ".fini_array": {
+            "address": 44376,
+            "size_bytes": 8,
+            "section_type": 15,
+            "file_pointer_values": [
+              "0x11f0"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          }
+        },
+        "flags": [
+          "0x000000000000000c (INIT)               0x1000",
+          "0x000000000000000d (FINI)               0x8a7c",
+          "0x0000000000000019 (INIT_ARRAY)         0xad50",
+          "0x000000000000001a (FINI_ARRAY)         0xad58",
+          "0x000000000000001e (FLAGS)              BIND_NOW",
+          "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+        ],
+        "ifunc_count": 0,
+        "gnu_unique_count": 0,
+        "lifetime_imports": [
+          "free@GLIBC_2.2.5",
+          "malloc@GLIBC_2.2.5",
+          "__cxa_finalize@GLIBC_2.2.5"
+        ],
+        "device": 66309,
+        "inode": 8183107,
+        "size": 44056,
+        "mtime_ns": 1637006212000000000,
+        "ctime_ns": 1790082927016521842,
+        "library_name": "libccd.so.2.0",
+        "absolute_path": "/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+        "symlink_final_path": "/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+        "sandbox_path": "/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+        "required": true,
+        "role": "installed_core_DT_NEEDED",
+        "runtime_binding": "UNVERIFIED"
+      },
+      {
+        "requested_path": "/usr/lib/x86_64-linux-gnu/libz.so.1.3",
+        "exists": true,
+        "is_symlink": false,
+        "link_target": null,
+        "real_path": "/usr/lib/x86_64-linux-gnu/libz.so.1.3",
+        "sha256": "f61677c7bdb7c2aa2a243ea781bfd16afcb361cede7b4ef76127a9d8eb9a5242",
+        "build_id": "2f47d490170763b8b8e0064675d234bfede6c1db",
+        "soname": [
+          "libz.so.1"
+        ],
+        "needed": [
+          "libc.so.6"
+        ],
+        "rpath": [],
+        "runpath": [],
+        "has_debug_info": false,
+        "has_symtab": false,
+        "debuglink": {
+          "filename": "47d490170763b8b8e0064675d234bfede6c1db.debug",
+          "crc32": 2186677601
+        },
+        "architecture": "Advanced Micro Devices X86-64",
+        "elf_class": "ELF64",
+        "stat": {
+          "bytes": 113000,
+          "mode": "0o644",
+          "uid": 65534
+        },
+        "special_sections": {
+          ".eh_frame": {
+            "address": 101232,
+            "size_bytes": 4868,
+            "section_type": 1
+          },
+          ".init_array": {
+            "address": 109680,
+            "size_bytes": 8,
+            "section_type": 14,
+            "file_pointer_values": [
+              "0x2310"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          },
+          ".fini_array": {
+            "address": 109688,
+            "size_bytes": 8,
+            "section_type": 15,
+            "file_pointer_values": [
+              "0x22d0"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          }
+        },
+        "flags": [
+          "0x000000000000000c (INIT)               0x2000",
+          "0x000000000000000d (FINI)               0x13c80",
+          "0x0000000000000019 (INIT_ARRAY)         0x1ac70",
+          "0x000000000000001a (FINI_ARRAY)         0x1ac78"
+        ],
+        "ifunc_count": 0,
+        "gnu_unique_count": 0,
+        "lifetime_imports": [
+          "free@GLIBC_2.2.5",
+          "malloc@GLIBC_2.2.5",
+          "__cxa_finalize@GLIBC_2.2.5"
+        ],
+        "device": 66309,
+        "inode": 8152458,
+        "size": 113000,
+        "mtime_ns": 1792616177000000000,
+        "ctime_ns": 1793482199073972447,
+        "library_name": "libz.so.1.3",
+        "absolute_path": "/usr/lib/x86_64-linux-gnu/libz.so.1.3",
+        "symlink_final_path": "/usr/lib/x86_64-linux-gnu/libz.so.1.3",
+        "sandbox_path": "/usr/lib/x86_64-linux-gnu/libz.so.1.3",
+        "required": true,
+        "role": "installed_core_DT_NEEDED",
+        "runtime_binding": "UNVERIFIED"
+      },
+      {
+        "requested_path": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+        "exists": true,
+        "is_symlink": false,
+        "link_target": null,
+        "real_path": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+        "sha256": "b368d354f2778606b2553037fc8a3212719ee76a82711c60f7c72de49818e781",
+        "build_id": "6fe5f5fa84e3bd21620dc273d97b817b605db238",
+        "soname": [
+          "libdraco.so.8"
+        ],
+        "needed": [
+          "libstdc++.so.6",
+          "libm.so.6",
+          "libgcc_s.so.1",
+          "libc.so.6",
+          "ld-linux-x86-64.so.2"
+        ],
+        "rpath": [],
+        "runpath": [],
+        "has_debug_info": false,
+        "has_symtab": false,
+        "debuglink": {
+          "filename": "e5f5fa84e3bd21620dc273d97b817b605db238.debug",
+          "crc32": 1098684468
+        },
+        "architecture": "Advanced Micro Devices X86-64",
+        "elf_class": "ELF64",
+        "stat": {
+          "bytes": 2853216,
+          "mode": "0o644",
+          "uid": 65534
+        },
+        "special_sections": {
+          ".eh_frame": {
+            "address": 2609448,
+            "size_bytes": 171780,
+            "section_type": 1
+          },
+          ".gcc_except_table": {
+            "address": 2781228,
+            "size_bytes": 51408,
+            "section_type": 1
+          },
+          ".tbss": {
+            "address": 2837328,
+            "size_bytes": 32,
+            "section_type": 8
+          },
+          ".init_array": {
+            "address": 2837328,
+            "size_bytes": 24,
+            "section_type": 14,
+            "file_pointer_values": [
+              "0x7cde0",
+              "0x7ccf0",
+              "0x7cd10"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          },
+          ".fini_array": {
+            "address": 2837352,
+            "size_bytes": 8,
+            "section_type": 15,
+            "file_pointer_values": [
+              "0x7cda0"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          }
+        },
+        "flags": [
+          "0x000000000000000c (INIT)               0x6a000",
+          "0x000000000000000d (FINI)               0x25fcb8",
+          "0x0000000000000019 (INIT_ARRAY)         0x2b4b50",
+          "0x000000000000001a (FINI_ARRAY)         0x2b4b68",
+          "0x000000000000001e (FLAGS)              BIND_NOW",
+          "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+        ],
+        "ifunc_count": 0,
+        "gnu_unique_count": 5,
+        "lifetime_imports": [
+          "__cxa_finalize@GLIBC_2.2.5",
+          "__cxa_free_exception@CXXABI_1.3",
+          "__cxa_atexit@GLIBC_2.2.5",
+          "free@GLIBC_2.2.5",
+          "malloc@GLIBC_2.2.5",
+          "__cxa_throw_bad_array_new_length@CXXABI_1.3.8",
+          "__cxa_throw@CXXABI_1.3",
+          "_Unwind_Resume@GCC_3.0"
+        ],
+        "device": 66309,
+        "inode": 8179752,
+        "size": 2853216,
+        "mtime_ns": 1713463029000000000,
+        "ctime_ns": 1789773348924867075,
+        "library_name": "libdraco.so.8.0.0",
+        "absolute_path": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+        "symlink_final_path": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+        "sandbox_path": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+        "required": true,
+        "role": "installed_core_DT_NEEDED",
+        "runtime_binding": "UNVERIFIED"
+      },
+      {
+        "requested_path": "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0",
+        "exists": true,
+        "is_symlink": false,
+        "link_target": null,
+        "real_path": "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0",
+        "sha256": "7397458805900a67287673a7d469d1ff207525ae7694ed885e8603d0164828bf",
+        "build_id": "319ba9cdb0ebf9951a808486a67bb87a1321add4",
+        "soname": [
+          "libminizip.so.1"
+        ],
+        "needed": [
+          "libz.so.1",
+          "libc.so.6"
+        ],
+        "rpath": [],
+        "runpath": [],
+        "has_debug_info": false,
+        "has_symtab": false,
+        "debuglink": {
+          "filename": "9ba9cdb0ebf9951a808486a67bb87a1321add4.debug",
+          "crc32": 290023697
+        },
+        "architecture": "Advanced Micro Devices X86-64",
+        "elf_class": "ELF64",
+        "stat": {
+          "bytes": 51504,
+          "mode": "0o644",
+          "uid": 65534
+        },
+        "special_sections": {
+          ".eh_frame": {
+            "address": 41888,
+            "size_bytes": 2648,
+            "section_type": 1
+          },
+          ".init_array": {
+            "address": 48600,
+            "size_bytes": 8,
+            "section_type": 14,
+            "file_pointer_values": [
+              "0x24b0"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          },
+          ".fini_array": {
+            "address": 48608,
+            "size_bytes": 8,
+            "section_type": 15,
+            "file_pointer_values": [
+              "0x2470"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          }
+        },
+        "flags": [
+          "0x000000000000000c (INIT)               0x2000",
+          "0x000000000000000d (FINI)               0x9cbc",
+          "0x0000000000000019 (INIT_ARRAY)         0xbdd8",
+          "0x000000000000001a (FINI_ARRAY)         0xbde0"
+        ],
+        "ifunc_count": 0,
+        "gnu_unique_count": 0,
+        "lifetime_imports": [
+          "free@GLIBC_2.2.5",
+          "malloc@GLIBC_2.2.5",
+          "__cxa_finalize@GLIBC_2.2.5"
+        ],
+        "device": 66309,
+        "inode": 8152504,
+        "size": 51504,
+        "mtime_ns": 1792616177000000000,
+        "ctime_ns": 1793482199335074469,
+        "library_name": "libminizip.so.1.0.0",
+        "absolute_path": "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0",
+        "symlink_final_path": "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0",
+        "sandbox_path": "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0",
+        "required": true,
+        "role": "installed_core_DT_NEEDED",
+        "runtime_binding": "UNVERIFIED"
+      },
+      {
+        "requested_path": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+        "exists": true,
+        "is_symlink": false,
+        "link_target": null,
+        "real_path": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+        "sha256": "b5493d9c8c6e36e3b72e38564b7e287ad925ab717577ded997465f9ac9da1c9e",
+        "build_id": "717378b661c2476ebbeedf0a4a812f38854b30ff",
+        "soname": [
+          "libpugixml.so.1"
+        ],
+        "needed": [
+          "libstdc++.so.6",
+          "libm.so.6",
+          "libgcc_s.so.1",
+          "libc.so.6"
+        ],
+        "rpath": [],
+        "runpath": [],
+        "has_debug_info": false,
+        "has_symtab": false,
+        "debuglink": {
+          "filename": "7378b661c2476ebbeedf0a4a812f38854b30ff.debug",
+          "crc32": 1273417599
+        },
+        "architecture": "Advanced Micro Devices X86-64",
+        "elf_class": "ELF64",
+        "stat": {
+          "bytes": 240248,
+          "mode": "0o644",
+          "uid": 65534
+        },
+        "special_sections": {
+          ".eh_frame": {
+            "address": 216944,
+            "size_bytes": 17616,
+            "section_type": 1
+          },
+          ".gcc_except_table": {
+            "address": 234560,
+            "size_bytes": 1371,
+            "section_type": 1
+          },
+          ".init_array": {
+            "address": 240688,
+            "size_bytes": 16,
+            "section_type": 14,
+            "file_pointer_values": [
+              "0xa5f0",
+              "0xa500"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          },
+          ".fini_array": {
+            "address": 240704,
+            "size_bytes": 8,
+            "section_type": 15,
+            "file_pointer_values": [
+              "0xa5b0"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          }
+        },
+        "flags": [
+          "0x000000000000000c (INIT)               0x9000",
+          "0x000000000000000d (FINI)               0x2eb90",
+          "0x0000000000000019 (INIT_ARRAY)         0x3ac30",
+          "0x000000000000001a (FINI_ARRAY)         0x3ac40"
+        ],
+        "ifunc_count": 0,
+        "gnu_unique_count": 0,
+        "lifetime_imports": [
+          "__cxa_finalize@GLIBC_2.2.5",
+          "__cxa_free_exception@CXXABI_1.3",
+          "__cxa_atexit@GLIBC_2.2.5",
+          "free@GLIBC_2.2.5",
+          "malloc@GLIBC_2.2.5",
+          "__cxa_throw@CXXABI_1.3",
+          "_Unwind_Resume@GCC_3.0"
+        ],
+        "device": 66309,
+        "inode": 8179756,
+        "size": 240248,
+        "mtime_ns": 1713462797000000000,
+        "ctime_ns": 1789773349038870217,
+        "library_name": "libpugixml.so.1.14",
+        "absolute_path": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+        "symlink_final_path": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+        "sandbox_path": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+        "required": true,
+        "role": "installed_core_DT_NEEDED",
+        "runtime_binding": "UNVERIFIED"
+      },
+      {
+        "requested_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+        "exists": true,
+        "is_symlink": false,
+        "link_target": null,
+        "real_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+        "sha256": "c20a2dc8917c755f02b94049356320fe1f62ac7d9f8994731f807d9df39302da",
+        "build_id": "0d77dbd4379bf0b5af3e05be7fb6af1e4cea7c96",
+        "soname": [
+          "ld-linux-x86-64.so.2"
+        ],
+        "needed": [],
+        "rpath": [],
+        "runpath": [],
+        "has_debug_info": false,
+        "has_symtab": false,
+        "debuglink": {
+          "filename": "77dbd4379bf0b5af3e05be7fb6af1e4cea7c96.debug",
+          "crc32": 1920172106
+        },
+        "architecture": "Advanced Micro Devices X86-64",
+        "elf_class": "ELF64",
+        "stat": {
+          "bytes": 236616,
+          "mode": "0o755",
+          "uid": 65534
+        },
+        "special_sections": {
+          ".eh_frame": {
+            "address": 208368,
+            "size_bytes": 10988,
+            "section_type": 1
+          }
+        },
+        "flags": [
+          "0x000000000000001e (FLAGS)              BIND_NOW",
+          "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+        ],
+        "ifunc_count": 0,
+        "gnu_unique_count": 0,
+        "lifetime_imports": [],
+        "device": 66309,
+        "inode": 8153674,
+        "size": 236616,
+        "mtime_ns": 1788444912000000000,
+        "ctime_ns": 1789650808877554027,
+        "library_name": "ld-linux-x86-64.so.2",
+        "absolute_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+        "symlink_final_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+        "sandbox_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+        "required": true,
+        "role": "installed_core_DT_NEEDED",
+        "runtime_binding": "UNVERIFIED"
+      }
+    ],
+    "harmless_fixture_only": [
+      {
+        "requested_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-harness-v1/work/native_fixture",
+        "exists": true,
+        "is_symlink": false,
+        "link_target": null,
+        "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-harness-v1/work/native_fixture",
+        "sha256": "3e9b882512bb496f0f8b57744beb509b6f606dc25e2d4a56a8625f5a978b1223",
+        "build_id": "4c9d7ddbd48e4f7cf80750e287910f76bf71a829",
+        "soname": [],
+        "needed": [
+          "libc.so.6"
+        ],
+        "rpath": [],
+        "runpath": [],
+        "has_debug_info": false,
+        "has_symtab": true,
+        "debuglink": null,
+        "architecture": "Advanced Micro Devices X86-64",
+        "elf_class": "ELF64",
+        "stat": {
+          "bytes": 21672,
+          "mode": "0o775",
+          "uid": 1000
+        },
+        "special_sections": {
+          ".eh_frame": {
+            "address": 14240,
+            "size_bytes": 628,
+            "section_type": 1
+          },
+          ".init_array": {
+            "address": 19664,
+            "size_bytes": 8,
+            "section_type": 14,
+            "file_pointer_values": [
+              "0x16a0"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          },
+          ".fini_array": {
+            "address": 19672,
+            "size_bytes": 8,
+            "section_type": 15,
+            "file_pointer_values": [
+              "0x1660"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          }
+        },
+        "flags": [
+          "0x000000000000000c (INIT)               0x1000",
+          "0x000000000000000d (FINI)               0x256c",
+          "0x0000000000000019 (INIT_ARRAY)         0x4cd0",
+          "0x000000000000001a (FINI_ARRAY)         0x4cd8",
+          "0x000000000000001e (FLAGS)              BIND_NOW",
+          "0x000000006ffffffb (FLAGS_1)            Flags: NOW PIE"
+        ],
+        "ifunc_count": 0,
+        "gnu_unique_count": 0,
+        "lifetime_imports": [
+          "__cxa_finalize@GLIBC_2.2.5"
+        ],
+        "device": 66309,
+        "inode": 3432003,
+        "size": 21672,
+        "mtime_ns": 1793983863122060163,
+        "ctime_ns": 1793983863122067610,
+        "library_name": "native_fixture",
+        "absolute_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-harness-v1/work/native_fixture",
+        "symlink_final_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-harness-v1/work/native_fixture",
+        "sandbox_path": "/fixture/native_fixture",
+        "required": true,
+        "role": "harmless_fixture"
+      },
+      {
+        "requested_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "exists": true,
+        "is_symlink": false,
+        "link_target": null,
+        "real_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf",
+        "build_id": "a4a7992a8e66555c8141ab2a08a8465ff6e0ea65",
+        "soname": [
+          "libc.so.6"
+        ],
+        "needed": [
+          "ld-linux-x86-64.so.2"
+        ],
+        "rpath": [],
+        "runpath": [],
+        "has_debug_info": false,
+        "has_symtab": false,
+        "debuglink": {
+          "filename": "a7992a8e66555c8141ab2a08a8465ff6e0ea65.debug",
+          "crc32": 748533535
+        },
+        "architecture": "Advanced Micro Devices X86-64",
+        "elf_class": "ELF64",
+        "stat": {
+          "bytes": 2129424,
+          "mode": "0o755",
+          "uid": 65534
+        },
+        "special_sections": {
+          ".eh_frame": {
+            "address": 1961576,
+            "size_bytes": 130124,
+            "section_type": 1
+          },
+          ".gcc_except_table": {
+            "address": 2091700,
+            "size_bytes": 1582,
+            "section_type": 1
+          },
+          ".tdata": {
+            "address": 2100320,
+            "size_bytes": 16,
+            "section_type": 1
+          },
+          ".tbss": {
+            "address": 2100336,
+            "size_bytes": 120,
+            "section_type": 8
+          },
+          ".init_array": {
+            "address": 2100336,
+            "size_bytes": 16,
+            "section_type": 14,
+            "file_pointer_values": [
+              "0x2a060",
+              "0x2a0d0"
+            ],
+            "pointer_values_not_runtime_addresses": true
+          }
+        },
+        "flags": [
+          "0x0000000000000019 (INIT_ARRAY)         0x200c70",
+          "0x000000000000001e (FLAGS)              BIND_NOW STATIC_TLS",
+          "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+        ],
+        "ifunc_count": 63,
+        "gnu_unique_count": 0,
+        "lifetime_imports": [],
+        "device": 66309,
+        "inode": 8153876,
+        "size": 2129424,
+        "mtime_ns": 1788444912000000000,
+        "ctime_ns": 1789650809357119313,
+        "library_name": "libc.so.6",
+        "absolute_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "symlink_final_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "sandbox_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "required": true,
+        "role": "installed_core_DT_NEEDED",
+        "runtime_binding": "UNVERIFIED"
+      },
+      {
+        "requested_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+        "exists": true,
+        "is_symlink": false,
+        "link_target": null,
+        "real_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+        "sha256": "c20a2dc8917c755f02b94049356320fe1f62ac7d9f8994731f807d9df39302da",
+        "build_id": "0d77dbd4379bf0b5af3e05be7fb6af1e4cea7c96",
+        "soname": [
+          "ld-linux-x86-64.so.2"
+        ],
+        "needed": [],
+        "rpath": [],
+        "runpath": [],
+        "has_debug_info": false,
+        "has_symtab": false,
+        "debuglink": {
+          "filename": "77dbd4379bf0b5af3e05be7fb6af1e4cea7c96.debug",
+          "crc32": 1920172106
+        },
+        "architecture": "Advanced Micro Devices X86-64",
+        "elf_class": "ELF64",
+        "stat": {
+          "bytes": 236616,
+          "mode": "0o755",
+          "uid": 65534
+        },
+        "special_sections": {
+          ".eh_frame": {
+            "address": 208368,
+            "size_bytes": 10988,
+            "section_type": 1
+          }
+        },
+        "flags": [
+          "0x000000000000001e (FLAGS)              BIND_NOW",
+          "0x000000006ffffffb (FLAGS_1)            Flags: NOW"
+        ],
+        "ifunc_count": 0,
+        "gnu_unique_count": 0,
+        "lifetime_imports": [],
+        "device": 66309,
+        "inode": 8153674,
+        "size": 236616,
+        "mtime_ns": 1788444912000000000,
+        "ctime_ns": 1789650808877554027,
+        "library_name": "ld-linux-x86-64.so.2",
+        "absolute_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+        "symlink_final_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+        "sandbox_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+        "required": true,
+        "role": "installed_core_DT_NEEDED",
+        "runtime_binding": "UNVERIFIED"
+      }
+    ]
+  },
+  "current_execution_profile": "harmless_fixture_only",
+  "DART_libraries_mounted_or_loaded_now": false,
+  "excluded": [
+    "local Baseline/Trace Core and External",
+    "ODE/Bullet optional plugins",
+    "Gazebo"
+  ],
+  "historical_risks": "B/C expected External lib/ paths missing; actual elsewhere; trailing empty RUNPATH; no repair or automatic substitute",
+  "source_audit_sha256": "95b256d2a8f86fe0898f78b0abed2b0b48d121e25715ece5bd6f3685e0dbca43",
+  "required_paths": {
+    "installed_core_future_only": [
+      "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+      "/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+      "/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+      "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+      "/usr/lib/x86_64-linux-gnu/libz.so.1.3",
+      "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+      "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0",
+      "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+      "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+    ],
+    "harmless_fixture_only": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-harness-v1/work/native_fixture",
+      "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+    ]
+  }
+}
