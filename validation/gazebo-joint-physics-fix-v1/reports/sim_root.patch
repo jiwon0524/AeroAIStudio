@@ -1,0 +1,7 @@
+--- a/sim/CMakeLists.txt
++++ b/sim/CMakeLists.txt
+@@ -14,0 +15 @@
++include("${AERO_JOINT_INPUTS}/GzPackaging-sim.cmake")
+@@ -309 +310 @@
+-include("${AERO_JOINT_INPUTS}/install-selected.cmake")
++include("${AERO_JOINT_INPUTS}/install-selected-sim.cmake")

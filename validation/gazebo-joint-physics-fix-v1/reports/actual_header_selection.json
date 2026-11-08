@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "object_records": 25,
+  "unique_headers": 1572,
+  "local_headers": [],
+  "DART_config_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/include/dart/config.hpp",
+  "DART_config_sha256": "3e79ca3e9c6fbf904948d7a26ca2b08d71c621a6c7f4f51adb8d5d84548f49de",
+  "same_build_source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/config.hpp",
+  "metadata_sha256": "c02853aaffb96aef2f9438719800e425994f286ca48c4635dfc9f91bb0dfc891"
+}

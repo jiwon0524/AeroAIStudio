@@ -1,0 +1,13 @@
+{
+  "status": "PASS_CONFIGURE_PACKAGE_RESOLUTION",
+  "selected": {
+    "gz-physics7_DIR": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/cmake/gz-physics7",
+    "gz-physics7-dartsim_DIR": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/cmake/gz-physics7-dartsim",
+    "gz-physics7-sdf_DIR": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/cmake/gz-physics7-sdf",
+    "gz-physics7-mesh_DIR": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/cmake/gz-physics7-mesh",
+    "gz-physics7-heightmap_DIR": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/cmake/gz-physics7-heightmap"
+  },
+  "physics_component_namespace": "gz-physics7::",
+  "Sim_attempt2_configure_generate": 0,
+  "Sim_build": "NOT_STARTED_OUT_OF_CONTRACT_DESCRIPTOR"
+}

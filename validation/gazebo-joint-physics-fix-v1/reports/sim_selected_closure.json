@@ -1,0 +1,1834 @@
+{
+  "status": "BLOCKED",
+  "configuration": "RelWithDebInfo",
+  "selected_targets": [
+    "gz-sim8",
+    "gz-sim8-physics-system"
+  ],
+  "generated_dependency_targets": [
+    "gz-sim8",
+    "gz-sim8-physics-system"
+  ],
+  "tinyxml2_raw": "CMake File API evaluated build configuration",
+  "checked_external_files": 521,
+  "errors": [
+    "unexpected selected command  /usr/bin/python3 /usr//bin/gz-msgs10_generate.py --protoc-exec /usr/bin/protoc --gz-generator-bin /usr//bin/gz-msgs10_protoc_plugin --proto-path /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/src/proto --input-path /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/src/proto/gz/sim/private_msgs/peer_control.proto --dependency-proto-descs /usr/share/gz/protos/gz-msgs10.gz_desc --generate-cpp --output-cpp-path /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/gz_msgs_gen --generate-python --output-python-path /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/gz_msgs_gen/python/",
+    "unexpected selected command  /usr/bin/python3 /usr//bin/gz-msgs10_generate.py --protoc-exec /usr/bin/protoc --gz-generator-bin /usr//bin/gz-msgs10_protoc_plugin --proto-path /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/src/proto --input-path /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/src/proto/gz/sim/private_msgs/peer_info.proto --dependency-proto-descs /usr/share/gz/protos/gz-msgs10.gz_desc --generate-cpp --output-cpp-path /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/gz_msgs_gen --generate-python --output-python-path /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/gz_msgs_gen/python/",
+    "unexpected selected command  /usr/bin/python3 /usr//bin/gz-msgs10_generate.py --protoc-exec /usr/bin/protoc --gz-generator-bin /usr//bin/gz-msgs10_protoc_plugin --proto-path /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/src/proto --input-path /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/src/proto/gz/sim/private_msgs/performer_affinity.proto --dependency-proto-descs /usr/share/gz/protos/gz-msgs10.gz_desc --generate-cpp --output-cpp-path /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/gz_msgs_gen --generate-python --output-python-path /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/gz_msgs_gen/python/",
+    "unexpected selected command  /usr/bin/python3 /usr//bin/gz-msgs10_generate.py --protoc-exec /usr/bin/protoc --gz-generator-bin /usr//bin/gz-msgs10_protoc_plugin --proto-path /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/src/proto --input-path /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/src/proto/gz/sim/private_msgs/simulation_step.proto --dependency-proto-descs /usr/share/gz/protos/gz-msgs10.gz_desc --generate-cpp --output-cpp-path /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/gz_msgs_gen --generate-python --output-python-path /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/gz_msgs_gen/python/",
+    "unexpected selected command  /usr/bin/python3 /usr//bin/gz-msgs10_generate_factory.py --output-cpp-path /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/gz_msgs_gen --proto-package gz.sim.private_msgs --proto-path /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/src/proto --protos /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/src/proto/gz/sim/private_msgs/peer_control.proto /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/src/proto/gz/sim/private_msgs/peer_info.proto /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/src/proto/gz/sim/private_msgs/performer_affinity.proto /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/src/proto/gz/sim/private_msgs/simulation_step.proto",
+    "unexpected selected command cd /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02 ",
+    "unresolved link library -lstdc++fs"
+  ],
+  "generated": {
+    "gz-sim8-physics-system": {
+      "compile_groups": [
+        {
+          "compileCommandFragments": [
+            {
+              "fragment": "-fuse-ld=bfd -fno-lto -frtti -fexceptions -D_GLIBCXX_USE_CXX11_ABI=1 -DEIGEN_MAX_ALIGN_BYTES=16 -DEIGEN_MAX_STATIC_ALIGN_BYTES=16 -I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/inputs/pinned-include -O2 -g -DNDEBUG  -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -UNDEBUG -std=c++17 -fPIC -fvisibility=default"
+            },
+            {
+              "backtrace": 200,
+              "fragment": "-msse"
+            },
+            {
+              "backtrace": 200,
+              "fragment": "-msse2"
+            },
+            {
+              "backtrace": 201,
+              "fragment": "-mfpmath=sse"
+            },
+            {
+              "backtrace": 202,
+              "fragment": "-msse3"
+            },
+            {
+              "backtrace": 203,
+              "fragment": "-mssse3"
+            },
+            {
+              "backtrace": 204,
+              "fragment": "-msse4.1"
+            },
+            {
+              "backtrace": 205,
+              "fragment": "-msse4.2"
+            },
+            {
+              "backtrace": 12,
+              "fragment": "-I/usr/include/uuid"
+            },
+            {
+              "backtrace": 12,
+              "fragment": "-I/usr/include"
+            },
+            {
+              "backtrace": 12,
+              "fragment": "-fPIC"
+            },
+            {
+              "backtrace": 12,
+              "fragment": "-I/usr/include/x86_64-linux-gnu"
+            }
+          ],
+          "defines": [
+            {
+              "backtrace": 206,
+              "define": "AERO_JOINT_PREFIX=\"/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix\""
+            },
+            {
+              "backtrace": 4,
+              "define": "DART_ACTIVE_LOG_LEVEL=2"
+            },
+            {
+              "backtrace": 4,
+              "define": "DART_HAVE_spdlog=1"
+            },
+            {
+              "backtrace": 4,
+              "define": "FMT_HEADER_ONLY=1"
+            },
+            {
+              "backtrace": 4,
+              "define": "FMT_SHARED"
+            },
+            {
+              "backtrace": 207,
+              "define": "GZ_PROFILER_ENABLE=0"
+            },
+            {
+              "backtrace": 12,
+              "define": "QT_CORE_LIB"
+            },
+            {
+              "backtrace": 12,
+              "define": "QT_GUI_LIB"
+            },
+            {
+              "backtrace": 12,
+              "define": "QT_NETWORK_LIB"
+            },
+            {
+              "backtrace": 12,
+              "define": "QT_NO_DEBUG"
+            },
+            {
+              "backtrace": 12,
+              "define": "QT_QMLMODELS_LIB"
+            },
+            {
+              "backtrace": 12,
+              "define": "QT_QML_LIB"
+            },
+            {
+              "backtrace": 12,
+              "define": "QT_QUICKCONTROLS2_LIB"
+            },
+            {
+              "backtrace": 12,
+              "define": "QT_QUICK_LIB"
+            },
+            {
+              "backtrace": 12,
+              "define": "QT_WIDGETS_LIB"
+            },
+            {
+              "backtrace": 4,
+              "define": "SPDLOG_FMT_EXTERNAL"
+            },
+            {
+              "backtrace": 4,
+              "define": "TINYXML2_IMPORT"
+            },
+            {
+              "backtrace": 4,
+              "define": "_FILE_OFFSET_BITS=64"
+            },
+            {
+              "define": "gz_sim8_physics_system_EXPORTS"
+            }
+          ],
+          "includes": [
+            {
+              "backtrace": 208,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/inputs"
+            },
+            {
+              "backtrace": 209,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/include"
+            },
+            {
+              "backtrace": 210,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/include"
+            },
+            {
+              "backtrace": 211,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/physics/dartsim/src"
+            },
+            {
+              "backtrace": 212,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/physics-system/include"
+            },
+            {
+              "backtrace": 12,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/core/include"
+            },
+            {
+              "backtrace": 12,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/src"
+            },
+            {
+              "backtrace": 12,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/gz_msgs_gen"
+            },
+            {
+              "backtrace": 4,
+              "isSystem": true,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/include"
+            },
+            {
+              "backtrace": 4,
+              "isSystem": true,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/include/gz/physics7"
+            },
+            {
+              "backtrace": 4,
+              "isSystem": true,
+              "path": "/usr/include/gz/math7"
+            },
+            {
+              "backtrace": 4,
+              "isSystem": true,
+              "path": "/usr/include/gz/utils2"
+            },
+            {
+              "backtrace": 4,
+              "isSystem": true,
+              "path": "/usr/include/gz/plugin2"
+            },
+            {
+              "backtrace": 4,
+              "isSystem": true,
+              "path": "/usr/include/eigen3"
+            },
+            {
+              "backtrace": 4,
+              "isSystem": true,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/include"
+            },
+            {
+              "backtrace": 4,
+              "isSystem": true,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/include/bullet"
+            },
+            {
+              "backtrace": 4,
+              "isSystem": true,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/urdfdom/cmake/../../../../include/urdfdom"
+            },
+            {
+              "backtrace": 12,
+              "isSystem": true,
+              "path": "/usr/include/gz/common5"
+            },
+            {
+              "backtrace": 12,
+              "isSystem": true,
+              "path": "/usr/include/uuid"
+            },
+            {
+              "backtrace": 12,
+              "isSystem": true,
+              "path": "/usr/include/gz/fuel_tools9"
+            },
+            {
+              "backtrace": 12,
+              "isSystem": true,
+              "path": "/usr/include/gz/msgs10"
+            },
+            {
+              "backtrace": 12,
+              "isSystem": true,
+              "path": "/usr/include/gz/gui8"
+            },
+            {
+              "backtrace": 12,
+              "isSystem": true,
+              "path": "/usr/include/gz/transport13"
+            },
+            {
+              "backtrace": 12,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5"
+            },
+            {
+              "backtrace": 12,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtCore"
+            },
+            {
+              "backtrace": 12,
+              "isSystem": true,
+              "path": "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
+            },
+            {
+              "backtrace": 12,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtQml"
+            },
+            {
+              "backtrace": 12,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtNetwork"
+            },
+            {
+              "backtrace": 12,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtQuick"
+            },
+            {
+              "backtrace": 12,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtQmlModels"
+            },
+            {
+              "backtrace": 12,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtGui"
+            },
+            {
+              "backtrace": 12,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtQuickControls2"
+            },
+            {
+              "backtrace": 12,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
+            },
+            {
+              "backtrace": 12,
+              "isSystem": true,
+              "path": "/usr/include/gz/rendering8"
+            },
+            {
+              "backtrace": 12,
+              "isSystem": true,
+              "path": "/usr/include/gz/sdformat14"
+            }
+          ],
+          "language": "CXX",
+          "languageStandard": {
+            "backtraces": [
+              4,
+              4,
+              12,
+              12
+            ],
+            "standard": "17"
+          },
+          "sourceIndexes": [
+            0
+          ]
+        }
+      ],
+      "link": {
+        "commandFragments": [
+          {
+            "fragment": "",
+            "role": "flags"
+          },
+          {
+            "fragment": "-Wl,-rpath,/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 4,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 12,
+            "fragment": "lib/libgz-sim8.so.8.15.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 21,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13.2",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 30,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libBulletDynamics.so.3.24",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 30,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libBulletCollision.so.3.24",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 30,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 30,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libBulletSoftBody.so.3.24",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 21,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13.2",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 33,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libode.so.8",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 41,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libode.so.8",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 21,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-utils-urdf.so.6.13.2",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 21,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-utils.so.6.13.2",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 44,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so.10.0.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 49,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 49,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 49,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liburdfdom_model.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 49,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liburdfdom_world.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 21,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 53,
+            "fragment": "-ldl",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 53,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13.2",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 56,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 53,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 53,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+            "role": "libraries"
+          },
+          {
+            "fragment": "-lm",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 65,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libfmt.so.9.1.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 53,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 75,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 77,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-fuel_tools9.so.9.1.1",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 77,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-gui8.so.8.4.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 84,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-plugin2-loader.so.2.0.4",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 90,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libQt5QuickControls2.so.5.15.13",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 90,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libQt5Quick.so.5.15.13",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 96,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libQt5QmlModels.so.5.15.13",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 90,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libQt5Qml.so.5.15.13",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 102,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.13",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 90,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 96,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 90,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 103,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7.8.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 4,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 104,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-plugin2.so.2.0.4",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 107,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-rendering8.so.8.2.3",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 114,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-common5-profiler.so.5.9.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 118,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-common5-events.so.5.9.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 124,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-common5-av.so.5.9.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 130,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libswscale.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 135,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libswscale.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 130,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libavdevice.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 140,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libavdevice.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 130,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libavformat.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 145,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libavformat.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 130,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libavcodec.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 150,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libavcodec.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 130,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libavutil.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 155,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libavutil.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 124,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-common5-io.so.5.9.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 124,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-common5-testing.so.5.9.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 162,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-transport13-parameters.so.13.6.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 77,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-transport13.so.13.6.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 90,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-msgs10.so.10.4.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 90,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 170,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 77,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libsdformat14.so.14.9.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 77,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libprotobuf.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 171,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-common5-geospatial.so.5.9.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 175,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-common5-graphics.so.5.9.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 103,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5.9.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 178,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libuuid.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 183,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libuuid.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 178,
+            "fragment": "-lpthread",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 186,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 193,
+            "fragment": "-lpugixml",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 196,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7.7.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 178,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-utils2.so.2.2.1",
+            "role": "libraries"
+          }
+        ],
+        "language": "CXX"
+      },
+      "artifacts": [
+        {
+          "path": "lib/libgz-sim8-physics-system.so"
+        }
+      ]
+    },
+    "gz-sim8": {
+      "compile_groups": [
+        {
+          "compileCommandFragments": [
+            {
+              "fragment": "-fuse-ld=bfd -fno-lto -frtti -fexceptions -D_GLIBCXX_USE_CXX11_ABI=1 -DEIGEN_MAX_ALIGN_BYTES=16 -DEIGEN_MAX_STATIC_ALIGN_BYTES=16 -I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/inputs/pinned-include -O2 -g -DNDEBUG  -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -UNDEBUG -std=c++17 -fPIC -fvisibility=default"
+            },
+            {
+              "backtrace": 125,
+              "fragment": "-msse"
+            },
+            {
+              "backtrace": 125,
+              "fragment": "-msse2"
+            },
+            {
+              "backtrace": 126,
+              "fragment": "-mfpmath=sse"
+            },
+            {
+              "backtrace": 127,
+              "fragment": "-msse3"
+            },
+            {
+              "backtrace": 128,
+              "fragment": "-mssse3"
+            },
+            {
+              "backtrace": 129,
+              "fragment": "-msse4.1"
+            },
+            {
+              "backtrace": 130,
+              "fragment": "-msse4.2"
+            },
+            {
+              "backtrace": 9,
+              "fragment": "-I/usr/include/uuid"
+            },
+            {
+              "backtrace": 9,
+              "fragment": "-I/usr/include"
+            },
+            {
+              "backtrace": 9,
+              "fragment": "-fPIC"
+            },
+            {
+              "backtrace": 9,
+              "fragment": "-I/usr/include/x86_64-linux-gnu"
+            }
+          ],
+          "defines": [
+            {
+              "backtrace": 131,
+              "define": "AERO_JOINT_PREFIX=\"/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix\""
+            },
+            {
+              "backtrace": 132,
+              "define": "GZ_PROFILER_ENABLE=0"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_CORE_LIB"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_GUI_LIB"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_NETWORK_LIB"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_NO_DEBUG"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_QMLMODELS_LIB"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_QML_LIB"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_QUICKCONTROLS2_LIB"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_QUICK_LIB"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_WIDGETS_LIB"
+            },
+            {
+              "define": "gz_sim8_EXPORTS"
+            }
+          ],
+          "includes": [
+            {
+              "backtrace": 133,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/inputs"
+            },
+            {
+              "backtrace": 134,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/include"
+            },
+            {
+              "backtrace": 135,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/include"
+            },
+            {
+              "backtrace": 136,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/core/include"
+            },
+            {
+              "backtrace": 137,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/src"
+            },
+            {
+              "backtrace": 137,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/gz_msgs_gen"
+            },
+            {
+              "backtrace": 138,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/test"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/math7"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/utils2"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/plugin2"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/common5"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/uuid"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/fuel_tools9"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/msgs10"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/gui8"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/transport13"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtCore"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtQml"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtNetwork"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtQuick"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtQmlModels"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtGui"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtQuickControls2"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/include/gz/physics7"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/eigen3"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/rendering8"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/sdformat14"
+            }
+          ],
+          "language": "CXX",
+          "languageStandard": {
+            "backtraces": [
+              140,
+              9,
+              9
+            ],
+            "standard": "17"
+          },
+          "sourceIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            42,
+            43,
+            44
+          ]
+        },
+        {
+          "compileCommandFragments": [
+            {
+              "fragment": "-fuse-ld=bfd -fno-lto -frtti -fexceptions -D_GLIBCXX_USE_CXX11_ABI=1 -DEIGEN_MAX_ALIGN_BYTES=16 -DEIGEN_MAX_STATIC_ALIGN_BYTES=16 -I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/inputs/pinned-include -O2 -g -DNDEBUG  -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -UNDEBUG -std=c++17 -fPIC -fvisibility=default"
+            },
+            {
+              "backtrace": 125,
+              "fragment": "-msse"
+            },
+            {
+              "backtrace": 125,
+              "fragment": "-msse2"
+            },
+            {
+              "backtrace": 126,
+              "fragment": "-mfpmath=sse"
+            },
+            {
+              "backtrace": 127,
+              "fragment": "-msse3"
+            },
+            {
+              "backtrace": 128,
+              "fragment": "-mssse3"
+            },
+            {
+              "backtrace": 129,
+              "fragment": "-msse4.1"
+            },
+            {
+              "backtrace": 130,
+              "fragment": "-msse4.2"
+            },
+            {
+              "backtrace": 9,
+              "fragment": "-I/usr/include/uuid"
+            },
+            {
+              "backtrace": 9,
+              "fragment": "-I/usr/include"
+            },
+            {
+              "backtrace": 9,
+              "fragment": "-fPIC"
+            },
+            {
+              "backtrace": 9,
+              "fragment": "-I/usr/include/x86_64-linux-gnu"
+            }
+          ],
+          "defines": [
+            {
+              "backtrace": 131,
+              "define": "AERO_JOINT_PREFIX=\"/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix\""
+            },
+            {
+              "backtrace": 132,
+              "define": "GZ_PROFILER_ENABLE=0"
+            },
+            {
+              "backtrace": 141,
+              "define": "GZ_SIM_GUI_CONFIG_RELATIVE_PATH=\"share/gz/gz-sim8/gui\""
+            },
+            {
+              "backtrace": 141,
+              "define": "GZ_SIM_GUI_PLUGIN_RELATIVE_INSTALL_DIR=\"lib/gz-sim-8/plugins/gui\""
+            },
+            {
+              "backtrace": 141,
+              "define": "GZ_SIM_MEDIA_RELATIVE_INSTALL_DIR=\"share/gz/gz-sim8/media\""
+            },
+            {
+              "backtrace": 141,
+              "define": "GZ_SIM_PLUGIN_RELATIVE_INSTALL_DIR=\"lib/gz-sim-8/plugins\""
+            },
+            {
+              "backtrace": 141,
+              "define": "GZ_SIM_SERVER_CONFIG_RELATIVE_PATH=\"share/gz/gz-sim8\""
+            },
+            {
+              "backtrace": 141,
+              "define": "GZ_SIM_SYSTEM_CONFIG_RELATIVE_PATH=\"share/gz/gz-sim8/systems\""
+            },
+            {
+              "backtrace": 141,
+              "define": "GZ_SIM_WORLD_RELATIVE_INSTALL_DIR=\"share/gz/gz-sim8/worlds\""
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_CORE_LIB"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_GUI_LIB"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_NETWORK_LIB"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_NO_DEBUG"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_QMLMODELS_LIB"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_QML_LIB"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_QUICKCONTROLS2_LIB"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_QUICK_LIB"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_WIDGETS_LIB"
+            },
+            {
+              "define": "gz_sim8_EXPORTS"
+            }
+          ],
+          "includes": [
+            {
+              "backtrace": 133,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/inputs"
+            },
+            {
+              "backtrace": 134,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/include"
+            },
+            {
+              "backtrace": 135,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/include"
+            },
+            {
+              "backtrace": 136,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/core/include"
+            },
+            {
+              "backtrace": 137,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/src"
+            },
+            {
+              "backtrace": 137,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/gz_msgs_gen"
+            },
+            {
+              "backtrace": 138,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/test"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/math7"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/utils2"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/plugin2"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/common5"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/uuid"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/fuel_tools9"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/msgs10"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/gui8"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/transport13"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtCore"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtQml"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtNetwork"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtQuick"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtQmlModels"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtGui"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtQuickControls2"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/include/gz/physics7"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/eigen3"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/rendering8"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/sdformat14"
+            }
+          ],
+          "language": "CXX",
+          "languageStandard": {
+            "backtraces": [
+              140,
+              9,
+              9
+            ],
+            "standard": "17"
+          },
+          "sourceIndexes": [
+            7
+          ]
+        },
+        {
+          "compileCommandFragments": [
+            {
+              "fragment": "-fuse-ld=bfd -fno-lto -frtti -fexceptions -D_GLIBCXX_USE_CXX11_ABI=1 -DEIGEN_MAX_ALIGN_BYTES=16 -DEIGEN_MAX_STATIC_ALIGN_BYTES=16 -I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/inputs/pinned-include -O2 -g -DNDEBUG  -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -UNDEBUG -std=c++17 -fPIC -fvisibility=default"
+            },
+            {
+              "backtrace": 125,
+              "fragment": "-msse"
+            },
+            {
+              "backtrace": 125,
+              "fragment": "-msse2"
+            },
+            {
+              "backtrace": 126,
+              "fragment": "-mfpmath=sse"
+            },
+            {
+              "backtrace": 127,
+              "fragment": "-msse3"
+            },
+            {
+              "backtrace": 128,
+              "fragment": "-mssse3"
+            },
+            {
+              "backtrace": 129,
+              "fragment": "-msse4.1"
+            },
+            {
+              "backtrace": 130,
+              "fragment": "-msse4.2"
+            },
+            {
+              "backtrace": 9,
+              "fragment": "-I/usr/include/uuid"
+            },
+            {
+              "backtrace": 9,
+              "fragment": "-I/usr/include"
+            },
+            {
+              "backtrace": 9,
+              "fragment": "-fPIC"
+            },
+            {
+              "backtrace": 9,
+              "fragment": "-I/usr/include/x86_64-linux-gnu"
+            },
+            {
+              "fragment": "-Wno-switch-default -Wno-float-equal"
+            }
+          ],
+          "defines": [
+            {
+              "backtrace": 131,
+              "define": "AERO_JOINT_PREFIX=\"/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix\""
+            },
+            {
+              "backtrace": 132,
+              "define": "GZ_PROFILER_ENABLE=0"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_CORE_LIB"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_GUI_LIB"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_NETWORK_LIB"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_NO_DEBUG"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_QMLMODELS_LIB"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_QML_LIB"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_QUICKCONTROLS2_LIB"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_QUICK_LIB"
+            },
+            {
+              "backtrace": 9,
+              "define": "QT_WIDGETS_LIB"
+            },
+            {
+              "define": "gz_sim8_EXPORTS"
+            }
+          ],
+          "includes": [
+            {
+              "backtrace": 133,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/inputs"
+            },
+            {
+              "backtrace": 134,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/include"
+            },
+            {
+              "backtrace": 135,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/include"
+            },
+            {
+              "backtrace": 136,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/core/include"
+            },
+            {
+              "backtrace": 137,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/src"
+            },
+            {
+              "backtrace": 137,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/gz_msgs_gen"
+            },
+            {
+              "backtrace": 138,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/test"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/math7"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/utils2"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/plugin2"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/common5"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/uuid"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/fuel_tools9"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/msgs10"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/gui8"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/transport13"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtCore"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtQml"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtNetwork"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtQuick"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtQmlModels"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtGui"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtQuickControls2"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/include/gz/physics7"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/eigen3"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/rendering8"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/sdformat14"
+            }
+          ],
+          "language": "CXX",
+          "languageStandard": {
+            "backtraces": [
+              140,
+              9,
+              9
+            ],
+            "standard": "17"
+          },
+          "sourceIndexes": [
+            37,
+            38,
+            39,
+            40,
+            41
+          ]
+        }
+      ],
+      "link": {
+        "commandFragments": [
+          {
+            "fragment": "",
+            "role": "flags"
+          },
+          {
+            "fragment": "-Wl,-rpath,/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 3,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 9,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-fuel_tools9.so.9.1.1",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 9,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-gui8.so.8.4.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 9,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libsdformat14.so.14.9.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 9,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libprotobuf.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 10,
+            "fragment": "-lstdc++fs",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 17,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-plugin2-loader.so.2.0.4",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 23,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libQt5QuickControls2.so.5.15.13",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 23,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libQt5Quick.so.5.15.13",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 29,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libQt5QmlModels.so.5.15.13",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 23,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libQt5Qml.so.5.15.13",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 35,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.13",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 23,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 29,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 23,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 39,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7.8.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 3,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 40,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-plugin2.so.2.0.4",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 43,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-rendering8.so.8.2.3",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 50,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-common5-profiler.so.5.9.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 54,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-common5-events.so.5.9.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 60,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-common5-av.so.5.9.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 66,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libswscale.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 71,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libswscale.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 66,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libavdevice.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 76,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libavdevice.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 66,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libavformat.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 81,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libavformat.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 66,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libavcodec.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 86,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libavcodec.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 66,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libavutil.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 91,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libavutil.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 60,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-common5-io.so.5.9.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 60,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-common5-testing.so.5.9.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 60,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-common5-geospatial.so.5.9.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 95,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-common5-graphics.so.5.9.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 9,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5.9.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 98,
+            "fragment": "-lpthread",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 105,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-transport13-parameters.so.13.6.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 9,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-transport13.so.13.6.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 98,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libuuid.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 110,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libuuid.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 23,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-msgs10.so.10.4.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 9,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libprotobuf.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 23,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 118,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 121,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7.7.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 98,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-utils2.so.2.2.1",
+            "role": "libraries"
+          }
+        ],
+        "language": "CXX"
+      },
+      "artifacts": [
+        {
+          "path": "lib/libgz-sim8.so"
+        }
+      ]
+    }
+  },
+  "commands_sha256": "0c5466711fba3fa3b14b6b89ec62a0dfb48d1322f3be04b768d099f04759d92e",
+  "scope": "only selected build closure; all executed configure file hashes still checked"
+}

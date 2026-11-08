@@ -1,0 +1,112 @@
+[
+  {
+    "step": "physics.configure",
+    "returncode": 0,
+    "host": "jiwon-System-Product-Name",
+    "pid": 15,
+    "start_identity": "32587439",
+    "seconds": 18.04,
+    "cwd": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics",
+    "log": "validation/gazebo-joint-physics-fix-v1/logs/physics.configure.log",
+    "log_sha256": "6c3c3a2988c9a700090ec7485c7bf807a0ade99dbe17917b46825b361c861192"
+  },
+  {
+    "step": "physics.selection",
+    "returncode": 1,
+    "host": "jiwon-System-Product-Name",
+    "pid": 6,
+    "start_identity": "32607030",
+    "seconds": 4.49,
+    "cwd": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics",
+    "log": "validation/gazebo-joint-physics-fix-v1/logs/physics.selection.log",
+    "log_sha256": "924fc5ccc49522ce8357fa9ccd6aa998942619048801e08dd0d911fa01295dcc"
+  },
+  {
+    "step": "physics.selection.recheck",
+    "returncode": 0,
+    "host": "jiwon-System-Product-Name",
+    "pid": 8,
+    "start_identity": "32615625",
+    "seconds": 4.99,
+    "log": "validation/gazebo-joint-physics-fix-v1/logs/physics.selection.recheck.log",
+    "log_sha256": "a8465958e13dc9fcc435716ff7d03ec11cb2f356b9da7423f4c52a7853d5c257",
+    "reason": "exact already-authorized reuse binding after recorded review"
+  },
+  {
+    "step": "physics.build",
+    "returncode": 0,
+    "host": "jiwon-System-Product-Name",
+    "pid": 7,
+    "start_identity": "32618196",
+    "seconds": 98.28,
+    "cwd": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics",
+    "log": "validation/gazebo-joint-physics-fix-v1/logs/physics.build.log",
+    "log_sha256": "5b317e2ddf168f642b1a4df26e622b590b7e0c2c6356f571c659729319f7a3fa"
+  },
+  {
+    "step": "physics.elf",
+    "returncode": 0,
+    "host": "jiwon-System-Product-Name",
+    "pid": 11,
+    "start_identity": "32630631",
+    "seconds": 3.19,
+    "cwd": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics",
+    "log": "validation/gazebo-joint-physics-fix-v1/logs/physics.elf.log",
+    "log_sha256": "c68410b3ab7a38153f5a02a03f07979a4fd3bef4599487d283032278f018f75b"
+  },
+  {
+    "step": "physics.stage.0",
+    "returncode": 0,
+    "host": "jiwon-System-Product-Name",
+    "pid": 74,
+    "start_identity": "32630954",
+    "seconds": 0.07,
+    "cwd": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics",
+    "log": "validation/gazebo-joint-physics-fix-v1/logs/physics.stage.0.log",
+    "log_sha256": "9f430edb0b960ece33fd746eddd101c72148c186ef1293184c6aa256b906f1d2"
+  },
+  {
+    "step": "physics.stage.1",
+    "returncode": 0,
+    "host": "jiwon-System-Product-Name",
+    "pid": 76,
+    "start_identity": "32630965",
+    "seconds": 0.01,
+    "cwd": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics",
+    "log": "validation/gazebo-joint-physics-fix-v1/logs/physics.stage.1.log",
+    "log_sha256": "b5b029979fb957c3c1bf3bac5a60c5a0646c703e662a406ba61eb787eb9eb638"
+  },
+  {
+    "step": "physics.stage.2",
+    "returncode": 0,
+    "host": "jiwon-System-Product-Name",
+    "pid": 78,
+    "start_identity": "32630969",
+    "seconds": 0.01,
+    "cwd": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics",
+    "log": "validation/gazebo-joint-physics-fix-v1/logs/physics.stage.2.log",
+    "log_sha256": "3a7432256fb8fbd9bedf95c45734cc9ee152be40595012ddbdf4bd2a55ca1cc7"
+  },
+  {
+    "step": "physics.receipt",
+    "returncode": 0,
+    "host": "jiwon-System-Product-Name",
+    "pid": 80,
+    "start_identity": "32630973",
+    "seconds": 2.39,
+    "cwd": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics",
+    "log": "validation/gazebo-joint-physics-fix-v1/logs/physics.receipt.log",
+    "log_sha256": "0ab554d7b745bcfe8cfb02b5a6609540c3f2b2169cd77d08502f6877043ce0be"
+  },
+  {
+    "step": "sim.configure",
+    "returncode": 1,
+    "host": "jiwon-System-Product-Name",
+    "pid": 82,
+    "start_identity": "32631214",
+    "seconds": 19.53,
+    "cwd": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim",
+    "log": "validation/gazebo-joint-physics-fix-v1/logs/sim.configure.log",
+    "log_sha256": "1767e35a813733470ff8d831242734f6ea653b3d0945ad5975bd7d02ac4ad686"
+  }
+]

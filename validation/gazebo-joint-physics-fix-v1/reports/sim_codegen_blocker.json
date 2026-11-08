@@ -1,0 +1,14 @@
+{
+  "status": "BLOCKED_OUT_OF_CONTRACT_CODEGEN_INPUT",
+  "path": "/usr/share/gz/protos/gz-msgs10.gz_desc",
+  "realpath": "/usr/share/gz/protos/gz-msgs10.gz_desc",
+  "sha256": "c7e1d435538f1a009d034a1e237d3a9a41233aaf9846e41e02525163b1cc5861",
+  "size": 83796,
+  "package": "libgz-msgs10:amd64\t10.4.0-1~noble\tgz-msgs10\t10.4.0-1~noble",
+  "selected_files_entry": null,
+  "toolchain_inventory_entries": [],
+  "role": "--dependency-proto-descs for four selected Sim private protobuf sources; generator passes the descriptor to protoc",
+  "build_commands_source": "logs/sim.selected_commands.txt",
+  "execution": "Sim generator/compile/harness NOT_STARTED; no allowlist added",
+  "required_decision": "Contract would need exact descriptor data-file identity (and any further required codegen data) reviewed/approved; stop at first such file"
+}

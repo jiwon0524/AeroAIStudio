@@ -1,0 +1,1023 @@
+{
+  "ELFs": [
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/lib/libgz-physics7.so.7.8.0",
+      "sha256": "06bdf00cda17153e57e1b00194fc90264bde9d466ab9fc521407ee9152f4194b",
+      "size": 2640456,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "3f0ab788985f00cc3965990abd36d327e6773c26"
+      ],
+      "soname": [
+        "libgz-physics7.so.7"
+      ],
+      "needed": [
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/lib/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "sha256": "c652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c",
+      "size": 99090256,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "dfaac182e5227709a5743c64698f9e798053eb80"
+      ],
+      "soname": [
+        "libgz-physics7-dartsim-plugin.so.7"
+      ],
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libdart-collision-bullet.so.6.13",
+        "libLinearMath.so.3.24",
+        "libdart-collision-ode.so.6.13",
+        "libdart.so.6.13",
+        "libsdformat14.so.14",
+        "libgz-physics7.so.7",
+        "libgz-common5-graphics.so.5",
+        "libassimp.so.5",
+        "libgz-math7.so.7",
+        "libgz-common5.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/src/CMakeFiles/gz-physics7.dir/Identity.cc.o",
+      "sha256": "5d13e3df200bb1e6e09a831a8a85a8b22f0b7b9493b801ffd2c98fd22f99b35a",
+      "size": 45248,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/src/CMakeFiles/gz-physics7.dir/InstallationDirectories.cc.o",
+      "sha256": "df4271b9aa4c69e1ece672f48ec518427d4e3995f0aabb1254b1a2756a06afb1",
+      "size": 4327536,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/src/CMakeFiles/gz-physics7.dir/CanWriteData.cc.o",
+      "sha256": "b01d8c2dd04464e7103dcab6c57f462bf822e5218efa23169426213b64126845",
+      "size": 27048,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/src/CMakeFiles/gz-physics7.dir/gz-physics7_get_install_prefix_impl.cc.o",
+      "sha256": "4d055e44d5815c8259283b5ba6ec3dafb4a935b6a9aa7e1ca3c6f22092b9087c",
+      "size": 93376,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/src/CMakeFiles/gz-physics7.dir/DataStatusMask.cc.o",
+      "sha256": "66235ea82dc81056febaae867f5fc6904ff9e0ab2817d773d61848be15462aed",
+      "size": 28928,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/src/CMakeFiles/gz-physics7.dir/CompositeData.cc.o",
+      "sha256": "25f0b7901cbd8745fa105ee2bfd2b797e5839cf9a935f9725744d17665c15c51",
+      "size": 603424,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/src/CMakeFiles/gz-physics7.dir/FrameID.cc.o",
+      "sha256": "531e96148a46161de0b1df1ecf01ddf42c22eda3f267c83a891ca72bb3506d83",
+      "size": 54656,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/src/CMakeFiles/gz-physics7.dir/CanReadData.cc.o",
+      "sha256": "690ff9bf1da2ac13e98adcc690f73adb64542e222d6de96429afa5f143b32b1d",
+      "size": 26920,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/CMakeFiles/3.28.3/CMakeDetermineCompilerABI_CXX.bin",
+      "sha256": "2820761b760e676c47fce40f0553ebf06f2c77c89af24e5500503dd72b947360",
+      "size": 15992,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "56d8b923956939652f86b00c7e1ffb8ff4b550d9"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/CMakeFiles/3.28.3/CMakeDetermineCompilerABI_C.bin",
+      "sha256": "118bcdca60ed2520fdef0472b98e9c2ab7f97777aa3fe5b2664f06046507f7de",
+      "size": 15968,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "88d4b0ab672c6a18e7b37da1275512fce052b311"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/CMakeFiles/3.28.3/CompilerIdC/a.out",
+      "sha256": "88aa2744b35746a2f6464f0d7f31c3991c8fdb255d08727ecfbf676478e051b8",
+      "size": 16088,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "2f3eadba19e189dada72e67783f117d80cfcc4e4"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/CMakeFiles/3.28.3/CompilerIdCXX/a.out",
+      "sha256": "a3d366f5f634a9cc0d9340115704a2d978e930f75ce0aceac02d7177849a8a1a",
+      "size": 16096,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "32b99493f7577afb3d188cacc03c1900c12a363c"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/dartsim/CMakeFiles/gz-physics7-dartsim-plugin.dir/src/SimulationFeatures.cc.o",
+      "sha256": "fa95739cfc7695c4877911cb8c61b230a77d31fc2a1a55a4b5bbc4f28f2f7d5e",
+      "size": 17602368,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/dartsim/CMakeFiles/gz-physics7-dartsim-plugin.dir/src/CustomConeMeshShape.cc.o",
+      "sha256": "4255b0d07dceb667b26b73d24e53a1567b7503bda6687424a678564e9fc8281f",
+      "size": 744656,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/dartsim/CMakeFiles/gz-physics7-dartsim-plugin.dir/src/plugin.cc.o",
+      "sha256": "2cada68967fe6906b24d9aa10e39a1ad3a0bfa452990510bb97143c7f9b5ac2a",
+      "size": 46767512,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/dartsim/CMakeFiles/gz-physics7-dartsim-plugin.dir/src/SDFFeatures.cc.o",
+      "sha256": "54df5e4c018221fefebb9c2680cda10df5a5ba9b393b4ebb33ac25019896c707",
+      "size": 28274176,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/dartsim/CMakeFiles/gz-physics7-dartsim-plugin.dir/src/ModelFeatures.cc.o",
+      "sha256": "a2cecb3cc955082cd3b636abcc6d051f7403a85cf1707aaf21f62ee2139ab8a1",
+      "size": 13606928,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/dartsim/CMakeFiles/gz-physics7-dartsim-plugin.dir/src/JointFeatures.cc.o",
+      "sha256": "89f5daf3b90626371fed013deced8a4f3517e25d022643c631486ede1de7f390",
+      "size": 18980848,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/dartsim/CMakeFiles/gz-physics7-dartsim-plugin.dir/src/GzCollisionDetector.cc.o",
+      "sha256": "c937fad817a28afbbf0f2f0ed57952637e840babce0940facb54c97c2ff60c2d",
+      "size": 10403680,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/dartsim/CMakeFiles/gz-physics7-dartsim-plugin.dir/src/WorldFeatures.cc.o",
+      "sha256": "c8d0d068cc1a3f5db68cfce0dcf8d7c4fd73898609881b97b92a6bea8eda1810",
+      "size": 14275808,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/dartsim/CMakeFiles/gz-physics7-dartsim-plugin.dir/src/CustomFeatures.cc.o",
+      "sha256": "bb37e4bb46cfcbbecb01fd68719c4813c0018ab218b6297370dff07eeabbd3de",
+      "size": 13841888,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/dartsim/CMakeFiles/gz-physics7-dartsim-plugin.dir/src/CustomHeightmapShape.cc.o",
+      "sha256": "a287ba883ad468df640c32a8d6d912b52ec890f1c53a8c29c9d65a9a0a1cc874",
+      "size": 2607232,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/dartsim/CMakeFiles/gz-physics7-dartsim-plugin.dir/src/AddedMassFeatures.cc.o",
+      "sha256": "1a60800a7c69215358d91f47268aaad569a2a72d91a9b5751f492ea324580f43",
+      "size": 14234960,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/dartsim/CMakeFiles/gz-physics7-dartsim-plugin.dir/src/CustomMeshShape.cc.o",
+      "sha256": "fdc0eeff56825eb00cde64a44c3d4038de0992184b04a68fbe71fe7f77ef76a7",
+      "size": 1726248,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/dartsim/CMakeFiles/gz-physics7-dartsim-plugin.dir/src/ShapeFeatures.cc.o",
+      "sha256": "920ef34423783fda0a982702dff7fe30d5d1348e9bef2697eb6224cd3f9d3724",
+      "size": 18923184,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/dartsim/CMakeFiles/gz-physics7-dartsim-plugin.dir/src/EntityManagementFeatures.cc.o",
+      "sha256": "651a3d7e1fbfd2f50a894e3a957389a00a6b22debe7537407a787c4f77585b10",
+      "size": 17952128,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/dartsim/CMakeFiles/gz-physics7-dartsim-plugin.dir/src/LinkFeatures.cc.o",
+      "sha256": "6150da673b14b2bb324c64c77c1be70ab738884c9809bc1b342e50ee37771a6c",
+      "size": 13487080,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/dartsim/CMakeFiles/gz-physics7-dartsim-plugin.dir/src/FreeGroupFeatures.cc.o",
+      "sha256": "482b574982d543829d6959e5b35090d6227da383793eae9290bc86849a8865af",
+      "size": 16598968,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/dartsim/CMakeFiles/gz-physics7-dartsim-plugin.dir/src/KinematicsFeatures.cc.o",
+      "sha256": "f4c45ec1858d3d9df3bf3dbd84db589b2c012fcd897e40d9e5ac7d4a19a7e5d9",
+      "size": 14083792,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/CMakeFiles/3.28.3/CMakeDetermineCompilerABI_CXX.bin",
+      "sha256": "2820761b760e676c47fce40f0553ebf06f2c77c89af24e5500503dd72b947360",
+      "size": 15992,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "56d8b923956939652f86b00c7e1ffb8ff4b550d9"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/CMakeFiles/3.28.3/CMakeDetermineCompilerABI_C.bin",
+      "sha256": "118bcdca60ed2520fdef0472b98e9c2ab7f97777aa3fe5b2664f06046507f7de",
+      "size": 15968,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "88d4b0ab672c6a18e7b37da1275512fce052b311"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/CMakeFiles/3.28.3/CompilerIdC/a.out",
+      "sha256": "88aa2744b35746a2f6464f0d7f31c3991c8fdb255d08727ecfbf676478e051b8",
+      "size": 16088,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "2f3eadba19e189dada72e67783f117d80cfcc4e4"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/CMakeFiles/3.28.3/CompilerIdCXX/a.out",
+      "sha256": "a3d366f5f634a9cc0d9340115704a2d978e930f75ce0aceac02d7177849a8a1a",
+      "size": 16096,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "32b99493f7577afb3d188cacc03c1900c12a363c"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim/CMakeFiles/3.28.3/CMakeDetermineCompilerABI_CXX.bin",
+      "sha256": "2820761b760e676c47fce40f0553ebf06f2c77c89af24e5500503dd72b947360",
+      "size": 15992,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "56d8b923956939652f86b00c7e1ffb8ff4b550d9"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim/CMakeFiles/3.28.3/CMakeDetermineCompilerABI_C.bin",
+      "sha256": "118bcdca60ed2520fdef0472b98e9c2ab7f97777aa3fe5b2664f06046507f7de",
+      "size": 15968,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "88d4b0ab672c6a18e7b37da1275512fce052b311"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim/CMakeFiles/3.28.3/CompilerIdC/a.out",
+      "sha256": "88aa2744b35746a2f6464f0d7f31c3991c8fdb255d08727ecfbf676478e051b8",
+      "size": 16088,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "2f3eadba19e189dada72e67783f117d80cfcc4e4"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim/CMakeFiles/3.28.3/CompilerIdCXX/a.out",
+      "sha256": "a3d366f5f634a9cc0d9340115704a2d978e930f75ce0aceac02d7177849a8a1a",
+      "size": 16096,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "32b99493f7577afb3d188cacc03c1900c12a363c"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13.2",
+      "sha256": "29c63da664722f13f27317de27a49fe8422cf4160044f898951f31fb1ee28c27",
+      "size": 31037912,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "5032164402c90698b251e36f7ffd1d6676ac3203"
+      ],
+      "soname": [
+        "libdart-collision-ode.so.6.13"
+      ],
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libdart.so.6.13",
+        "libode.so.8",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13.2",
+      "sha256": "5d48de3d22e998bdb81b26982dbc0845769aa9e1f179c81ee759ce6d54361fad",
+      "size": 18102136,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "87a64358383d1344454d0bc952108f53220e1f9f"
+      ],
+      "soname": [
+        "libdart-collision-bullet.so.6.13"
+      ],
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libdart.so.6.13",
+        "libBulletCollision.so.3.24",
+        "libLinearMath.so.3.24",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7.8.0",
+      "sha256": "06bdf00cda17153e57e1b00194fc90264bde9d466ab9fc521407ee9152f4194b",
+      "size": 2640456,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "3f0ab788985f00cc3965990abd36d327e6773c26"
+      ],
+      "soname": [
+        "libgz-physics7.so.7"
+      ],
+      "needed": [
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2",
+      "sha256": "42ff81108e013b45ed1b11a1433cea0ea18964d2280d09c61d05d0fbe49b4af4",
+      "size": 543979760,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "73389f08b463d16f3dc99cf86175ac3269fca169"
+      ],
+      "soname": [
+        "libdart.so.6.13"
+      ],
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libdart-external-odelcpsolver.so.6.13",
+        "libfcl.so.0.7",
+        "liboctomap.so.1.9",
+        "liboctomath.so.1.9",
+        "libassimp.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-utils-urdf.so.6.13.2",
+      "sha256": "7f25cede2ed1e7e6d5dd614b7f6ac6bae9dc18756d120abd94dc8b9f3ba7e0c1",
+      "size": 12506280,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "47c744b3c9a89d23ad77956e785ab7af8e88ae39"
+      ],
+      "soname": [
+        "libdart-utils-urdf.so.6.13"
+      ],
+      "needed": [
+        "libdart-utils.so.6.13",
+        "libdart.so.6.13",
+        "libtinyxml2.so.10",
+        "liburdfdom_model.so.4.0",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-utils.so.6.13.2",
+      "sha256": "77c411fdb057d0b820e650763034c13d0345f89b7eea58b5230e75004c5389fe",
+      "size": 134229712,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "2f54745f7bd03265d07eb91f222700d5445f8f66"
+      ],
+      "soname": [
+        "libdart-utils.so.6.13"
+      ],
+      "needed": [
+        "libdart.so.6.13",
+        "libtinyxml2.so.10",
+        "libassimp.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0",
+      "sha256": "9dca4718eda1f970ba0d28e6d2f3233d081b781c2c44438e19b27a87448f43e8",
+      "size": 361432,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "e4d63405c531714379c1444ead4aeed25390a876"
+      ],
+      "soname": [
+        "libaero-joint-probe.so.1"
+      ],
+      "needed": [
+        "libcrypto.so.3",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13.2",
+      "sha256": "18f2ce0216b00fe03d086e3ac2bfc7b7036c6355c8e57633ef075aefd7330b9a",
+      "size": 267112,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "d2f1cba8846f829c928989a93888775ce5b3b6d7"
+      ],
+      "soname": [
+        "libdart-external-odelcpsolver.so.6.13"
+      ],
+      "needed": [
+        "libstdc++.so.6",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "sha256": "c652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c",
+      "size": 99090256,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "dfaac182e5227709a5743c64698f9e798053eb80"
+      ],
+      "soname": [
+        "libgz-physics7-dartsim-plugin.so.7"
+      ],
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libdart-collision-bullet.so.6.13",
+        "libLinearMath.so.3.24",
+        "libdart-collision-ode.so.6.13",
+        "libdart.so.6.13",
+        "libsdformat14.so.14",
+        "libgz-physics7.so.7",
+        "libgz-common5-graphics.so.5",
+        "libassimp.so.5",
+        "libgz-math7.so.7",
+        "libgz-common5.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "sha256": "c652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c",
+      "size": 99090256,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "dfaac182e5227709a5743c64698f9e798053eb80"
+      ],
+      "soname": [
+        "libgz-physics7-dartsim-plugin.so.7"
+      ],
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libdart-collision-bullet.so.6.13",
+        "libLinearMath.so.3.24",
+        "libdart-collision-ode.so.6.13",
+        "libdart.so.6.13",
+        "libsdformat14.so.14",
+        "libgz-physics7.so.7",
+        "libgz-common5-graphics.so.5",
+        "libassimp.so.5",
+        "libgz-math7.so.7",
+        "libgz-common5.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    }
+  ],
+  "build_prefix_identity": [
+    {
+      "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0",
+      "build": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/probe/libaero-joint-probe.so.1.0",
+      "sha256": "9dca4718eda1f970ba0d28e6d2f3233d081b781c2c44438e19b27a87448f43e8",
+      "component": "probe",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0",
+      "status": "PASS_BYTE_IDENTICAL"
+    },
+    {
+      "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13.2",
+      "build": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-collision-ode.so.6.13.2",
+      "sha256": "29c63da664722f13f27317de27a49fe8422cf4160044f898951f31fb1ee28c27",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13.2",
+      "status": "PASS_BYTE_IDENTICAL"
+    },
+    {
+      "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2",
+      "build": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart.so.6.13.2",
+      "sha256": "42ff81108e013b45ed1b11a1433cea0ea18964d2280d09c61d05d0fbe49b4af4",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2",
+      "status": "PASS_BYTE_IDENTICAL"
+    },
+    {
+      "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-utils.so.6.13.2",
+      "build": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-utils.so.6.13.2",
+      "sha256": "77c411fdb057d0b820e650763034c13d0345f89b7eea58b5230e75004c5389fe",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart-utils.so.6.13.2",
+      "status": "PASS_BYTE_IDENTICAL"
+    },
+    {
+      "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13.2",
+      "build": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-collision-bullet.so.6.13.2",
+      "sha256": "5d48de3d22e998bdb81b26982dbc0845769aa9e1f179c81ee759ce6d54361fad",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13.2",
+      "status": "PASS_BYTE_IDENTICAL"
+    },
+    {
+      "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13.2",
+      "build": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2",
+      "sha256": "18f2ce0216b00fe03d086e3ac2bfc7b7036c6355c8e57633ef075aefd7330b9a",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13.2",
+      "status": "PASS_BYTE_IDENTICAL"
+    },
+    {
+      "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-utils-urdf.so.6.13.2",
+      "build": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-utils-urdf.so.6.13.2",
+      "sha256": "7f25cede2ed1e7e6d5dd614b7f6ac6bae9dc18756d120abd94dc8b9f3ba7e0c1",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart-utils-urdf.so.6.13.2",
+      "status": "PASS_BYTE_IDENTICAL"
+    },
+    {
+      "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7.8.0",
+      "build": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/lib/libgz-physics7.so.7.8.0",
+      "sha256": "06bdf00cda17153e57e1b00194fc90264bde9d466ab9fc521407ee9152f4194b",
+      "component": "physics",
+      "reused_from": null,
+      "status": "PASS_BYTE_IDENTICAL"
+    },
+    {
+      "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "build": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/lib/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "sha256": "c652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c",
+      "component": "physics",
+      "reused_from": null,
+      "status": "PASS_BYTE_IDENTICAL"
+    },
+    {
+      "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "build": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/lib/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "sha256": "c652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c",
+      "component": "physics",
+      "reused_from": null,
+      "status": "PASS_BYTE_IDENTICAL"
+    }
+  ],
+  "receipt": {
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0": {
+      "sha256": "9dca4718eda1f970ba0d28e6d2f3233d081b781c2c44438e19b27a87448f43e8",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/probe/libaero-joint-probe.so.1.0",
+      "component": "probe",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0"
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13.2": {
+      "sha256": "29c63da664722f13f27317de27a49fe8422cf4160044f898951f31fb1ee28c27",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-collision-ode.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13.2"
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2": {
+      "sha256": "42ff81108e013b45ed1b11a1433cea0ea18964d2280d09c61d05d0fbe49b4af4",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2"
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-utils.so.6.13.2": {
+      "sha256": "77c411fdb057d0b820e650763034c13d0345f89b7eea58b5230e75004c5389fe",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-utils.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart-utils.so.6.13.2"
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13.2": {
+      "sha256": "5d48de3d22e998bdb81b26982dbc0845769aa9e1f179c81ee759ce6d54361fad",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-collision-bullet.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13.2"
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13.2": {
+      "sha256": "18f2ce0216b00fe03d086e3ac2bfc7b7036c6355c8e57633ef075aefd7330b9a",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13.2"
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-utils-urdf.so.6.13.2": {
+      "sha256": "7f25cede2ed1e7e6d5dd614b7f6ac6bae9dc18756d120abd94dc8b9f3ba7e0c1",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-utils-urdf.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart-utils-urdf.so.6.13.2"
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7.8.0": {
+      "sha256": "06bdf00cda17153e57e1b00194fc90264bde9d466ab9fc521407ee9152f4194b",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/lib/libgz-physics7.so.7.8.0",
+      "component": "physics"
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libgz-physics7-dartsim-plugin.so.7.8.0": {
+      "sha256": "c652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/lib/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "component": "physics"
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0": {
+      "sha256": "c652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/lib/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "component": "physics"
+    }
+  }
+}

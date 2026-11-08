@@ -1,0 +1,120 @@
+{
+  "reused_prefix_files_verified": 400,
+  "old_and_new_DART_ELFs_match_build_receipt": true,
+  "same_build_config_sha256": "3e79ca3e9c6fbf904948d7a26ca2b08d71c621a6c7f4f51adb8d5d84548f49de",
+  "guard_sha256": {
+    "old": "7446e7d3d4e6f542cf4a7b67c2997f7bd4f322593eb0054c6fe79f0e07f3489b",
+    "current": "7446e7d3d4e6f542cf4a7b67c2997f7bd4f322593eb0054c6fe79f0e07f3489b"
+  },
+  "system_packaging_source_sha256": "4bce778b2f1dee141413a7da9e5a304e4f900996e23df18dab319e0c0ae13bc4",
+  "traces": {
+    "physics": {
+      "sha256": "e736e7261362846909dcfe2389119aeae156c4d670c6ce9224f9a08acc2718f4",
+      "architecture_try_run_calls": [
+        {
+          "args": [
+            "run_result_unused",
+            "compile_result_unused",
+            "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics",
+            "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/arch.c",
+            "COMPILE_OUTPUT_VARIABLE",
+            "ARCH",
+            "CMAKE_FLAGS",
+            "CMAKE_OSX_ARCHITECTURES="
+          ],
+          "cmd": "try_run",
+          "file": "/usr/share/cmake/gz-cmake3/cmake3/GzCheckSSE.cmake",
+          "frame": 5,
+          "global_frame": 5,
+          "line": 133,
+          "line_end": 140,
+          "time": 1794130453.449417
+        }
+      ],
+      "scope": "locked GzCheckSSE intentional compile-error protocol; review ConfigureLog, not subject execution"
+    },
+    "sim": {
+      "sha256": "cd721a43c954cfefd6e3b9e669337ec07cb691498ecb812cbe6eba6bc3b77f87",
+      "architecture_try_run_calls": [
+        {
+          "args": [
+            "run_result_unused",
+            "compile_result_unused",
+            "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim",
+            "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim/arch.c",
+            "COMPILE_OUTPUT_VARIABLE",
+            "ARCH",
+            "CMAKE_FLAGS",
+            "CMAKE_OSX_ARCHITECTURES="
+          ],
+          "cmd": "try_run",
+          "file": "/usr/share/cmake/gz-cmake3/cmake3/GzCheckSSE.cmake",
+          "frame": 5,
+          "global_frame": 5,
+          "line": 133,
+          "line_end": 140,
+          "time": 1794130892.951934
+        }
+      ],
+      "scope": "locked GzCheckSSE intentional compile-error protocol; review ConfigureLog, not subject execution"
+    },
+    "sim-02": {
+      "sha256": "4c6216fad4e78be69ce89d87403698920fd43c851947206867902ff73f818228",
+      "architecture_try_run_calls": [
+        {
+          "args": [
+            "run_result_unused",
+            "compile_result_unused",
+            "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02",
+            "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/arch.c",
+            "COMPILE_OUTPUT_VARIABLE",
+            "ARCH",
+            "CMAKE_FLAGS",
+            "CMAKE_OSX_ARCHITECTURES="
+          ],
+          "cmd": "try_run",
+          "file": "/usr/share/cmake/gz-cmake3/cmake3/GzCheckSSE.cmake",
+          "frame": 5,
+          "global_frame": 5,
+          "line": 133,
+          "line_end": 140,
+          "time": 1794131035.062031
+        }
+      ],
+      "scope": "locked GzCheckSSE intentional compile-error protocol; review ConfigureLog, not subject execution"
+    }
+  },
+  "inputs": {
+    "validation/gazebo-joint-physics-fix-v1/inputs/GzPackaging-sim.cmake": "8d62d142f51d9ebd32ea52b62c7b5ad750bbdf19f7b5cc8e5fae5bb677c82c90",
+    "validation/gazebo-joint-physics-fix-v1/inputs/01-dart-typed-entry.patch": "6970a30cfe4a4902954be6394a78074363ac4176a2066e40622047e312f88b5a",
+    "validation/gazebo-joint-physics-fix-v1/inputs/harness.cc": "5af963058ff4f083329b6ab6dc6573cb9b32283531606a0269b9667b8ff4a473",
+    "validation/gazebo-joint-physics-fix-v1/inputs/probe.hh": "9a17d5cbfbbb2b1d0c674e933c1c2ad43525fdbf051fb67721185802302b168f",
+    "validation/gazebo-joint-physics-fix-v1/inputs/probe.cc": "3e4f07c0d03211ab4aed07d7104defb16c33aa5d18222699d56612dfd1f3db7b",
+    "validation/gazebo-joint-physics-fix-v1/inputs/compile_gate.py": "7446e7d3d4e6f542cf4a7b67c2997f7bd4f322593eb0054c6fe79f0e07f3489b",
+    "validation/gazebo-joint-physics-fix-v1/inputs/GzPackaging.cmake": "df74b73819bc5e2d0c87bfa797df46e78ae817c78120de2917a43678fbf42f27",
+    "validation/gazebo-joint-physics-fix-v1/inputs/install-selected-sim.cmake": "32849f010d34e38745b0211b852bad39483ca5cff229fb256dd1bdcb373ac1b1",
+    "validation/gazebo-joint-physics-fix-v1/inputs/03-sim-prestep-go.patch": "7af32f06f905ed317923f65a6d59506bb595b677e0257a3a745cd1dd5f590575",
+    "validation/gazebo-joint-physics-fix-v1/inputs/verify_anchor.cc": "e1ef3269991593677f4bb20204005a438562f35b1a81310cc66b560d0d6768f6",
+    "validation/gazebo-joint-physics-fix-v1/inputs/fixture.sdf.in": "c596f0c9344540a7ea47002451977b2a46ac5b20a75324b5672016f6aa8e7765",
+    "validation/gazebo-joint-physics-fix-v1/inputs/CMakeLists.txt": "47694c2d22fe2f9532b1291bc1fd8479d8e5eb185367b8b295dc8f9d1c7ecbab",
+    "validation/gazebo-joint-physics-fix-v1/inputs/fixture.hh": "4f6e9fec8b67b40db1fe8604cd8d59c54cae3933a68573439fd8369755536cca",
+    "validation/gazebo-joint-physics-fix-v1/inputs/toolchain.cmake": "4e5ebffcc14e7c0f433f1fa325008b430fe1d1655e400d8e5cb9d8003a1816e7",
+    "validation/gazebo-joint-physics-fix-v1/inputs/02-physics-wrapper-entry.patch": "bd434e3e11e0e4640985ce5bc8356ee272ab8c5d139682e415100c66b1ab0f5e",
+    "validation/gazebo-joint-physics-fix-v1/inputs/deny-target-exec.sh": "dc2c6175d0aa15bf94420a5d8bec6fdd699f76e83064a54f1aae92dd9265cd97",
+    "validation/gazebo-joint-physics-fix-v1/inputs/snapshot-current.cmake": "5b5a2696495b378b1e1c289e083c6e4e7e0921fd97b55356f314583adedbc3bb",
+    "validation/gazebo-joint-physics-fix-v1/inputs/prepare_sources.py": "cab0d0fa10ceea1413ca3771402f01ba45aeb7e81f8ab1c794409b287ab96c86",
+    "validation/gazebo-joint-physics-fix-v1/inputs/broker.py": "1606029d847eaf8e83a10765bafc4f7e381a6becc460b1d1b7a2ebac6d895c5a",
+    "validation/gazebo-joint-physics-fix-v1/inputs/telemetry.hh": "0d93429080a2643702a93017aef0dee09023e6b3e8e5ab340e65d6f96259625b",
+    "validation/gazebo-joint-physics-fix-v1/inputs/install-selected.cmake": "ee908735f98109ab67da0c54be293f59be61f327c7d4ffc87c5e9cc8cc4dbaf1",
+    "validation/gazebo-joint-physics-fix-v1/inputs/export-targets.cmake": "13b23a88f5a0710c2db310a73960d29e6ad5612f814510c045aa2c643fafbdc6",
+    "validation/gazebo-joint-physics-fix-v1/inputs/stage-generated-header.cmake": "6873a5cff4a91cd976a930636a20dcfe5fdfc31518b72620df3194eb55205238",
+    "validation/gazebo-joint-physics-fix-v1/inputs/pkgconfig/console_bridge.pc": "47f6681ebb095eb65136e3757e78294fd85bd378fb89ccdbabbc761820c199d6",
+    "validation/gazebo-joint-physics-fix-v1/inputs/pkgconfig/octomap.pc": "7fe547f21402df16df8021857ad2eba861f04865365e802e6cdbab12846eb2eb",
+    "validation/gazebo-joint-physics-fix-v1/inputs/pkgconfig/urdfdom.pc": "0496181b0660fdfe5ed2dffec5f9f202b0699df4eb47572f7fcb91734d6b5da8",
+    "validation/gazebo-joint-physics-fix-v1/inputs/pkgconfig/bullet.pc": "6861b4b1c07a602aae0f0d67d7444cbde391cb9202c07484c5d4d1f1304f3077",
+    "validation/gazebo-joint-physics-fix-v1/inputs/pkgconfig/ode.pc": "08ff848bbbdea0d5b26b7e38009a72514a1b1f4315652d9db5131a508faa1159",
+    "validation/gazebo-joint-physics-fix-v1/inputs/pkgconfig/bullet-float64.pc": "093dec9a5bc8c6a4050892a71d94baba21081b73e2c1e55e66e6413e06894af1",
+    "validation/gazebo-joint-physics-fix-v1/inputs/pkgconfig/fcl.pc": "c9cc33e8b2abc9a85a47588f4ca892072309e521ba59b368f1518995b12a4a99",
+    "validation/gazebo-joint-physics-fix-v1/inputs/pkgconfig/ccd.pc": "367c6b0b2c0b8d7ca4036fb0c94cd30c517f7ae234625939b730849ef642ecb3"
+  }
+}

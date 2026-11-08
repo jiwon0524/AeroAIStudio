@@ -1,0 +1,5 @@
+--- a/physics/CMakeLists.txt
++++ b/physics/CMakeLists.txt
+@@ -12,0 +13,2 @@
++# Reuse pinned packaging definitions with only export component ownership fixed.
++include("${AERO_JOINT_INPUTS}/GzPackaging.cmake")

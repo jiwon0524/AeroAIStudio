@@ -1,0 +1,68 @@
+{
+  "gz-sim8": {
+    "registration": {
+      "args": [
+        "EXPORT",
+        "gz-sim8",
+        "DESTINATION",
+        "lib/cmake/gz-sim8",
+        "FILE",
+        "gz-sim8-targets.cmake",
+        "NAMESPACE",
+        "gz-sim8::",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ],
+      "cmd": "install",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/inputs/GzPackaging-sim.cmake",
+      "frame": 3,
+      "global_frame": 5,
+      "line": 379,
+      "line_end": 385,
+      "time": 1794131039.213166
+    },
+    "namespace": "gz-sim8::",
+    "exported_targets": [
+      "gz-sim8::gz-sim8"
+    ],
+    "export_file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/Export/61cda8dce6caaca2ab0c2491aadb4522/gz-sim8-targets.cmake",
+    "export_sha256": "c8d97b97928909f3d5e8a3a3907566b3491db45708db23e593c44e61c797dec8",
+    "transitive_links": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so;gz-math7;gz-plugin2::core;gz-common5::gz-common5;gz-common5::graphics;gz-common5::profiler;gz-fuel_tools9::gz-fuel_tools9;gz-gui8::gz-gui8;gz-physics7::core;gz-rendering8::core;gz-transport13::gz-transport13;gz-transport13::parameters;sdformat14::sdformat14;protobuf::libprotobuf"
+    ],
+    "package_config_sha256": "852d4f7241a67fa07c7df4c12cc31659e5e89c36451042ab03dcae93663c8eca"
+  },
+  "gz-sim8-physics-system": {
+    "registration": {
+      "args": [
+        "EXPORT",
+        "gz-sim8-physics-system",
+        "DESTINATION",
+        "lib/cmake/gz-sim8-physics-system",
+        "FILE",
+        "gz-sim8-physics-system-targets.cmake",
+        "NAMESPACE",
+        "gz-sim8::",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ],
+      "cmd": "install",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/inputs/GzPackaging-sim.cmake",
+      "frame": 4,
+      "global_frame": 8,
+      "line": 379,
+      "line_end": 385,
+      "time": 1794131038.95966
+    },
+    "namespace": "gz-sim8::",
+    "exported_targets": [
+      "gz-sim8::gz-sim8-physics-system"
+    ],
+    "export_file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/sim-02/src/systems/physics/CMakeFiles/Export/b6fbf4c21916dcc35b08586ebeaf5621/gz-sim8-physics-system-targets.cmake",
+    "export_sha256": "e1a575dd8c471f1a2adf8140404c6bd27e6fee450498a66300298810a1e33b43",
+    "transitive_links": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so;gz-physics7::dartsim;gz-sim8::gz-sim8;gz-common5::gz-common5;gz-common5::geospatial;gz-common5::graphics;gz-common5::profiler;gz-physics7::gz-physics7;gz-sim8::gz-sim8"
+    ],
+    "package_config_sha256": "e7cb3c44fd94ea4fa50630712c63977fb3dec1ac881873e68a0ab5a15520c542"
+  }
+}

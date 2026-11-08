@@ -1,0 +1,705 @@
+{
+  "status": "PASS_STATIC_SELECTED_CLOSURE",
+  "configuration": "RelWithDebInfo",
+  "selected_targets": [
+    "gz-physics7",
+    "gz-physics7-dartsim-plugin"
+  ],
+  "generated_dependency_targets": [
+    "gz-physics7",
+    "gz-physics7-dartsim-plugin"
+  ],
+  "tinyxml2_raw": "CMake File API evaluated build configuration",
+  "checked_external_files": 288,
+  "errors": [],
+  "generated": {
+    "gz-physics7-dartsim-plugin": {
+      "compile_groups": [
+        {
+          "compileCommandFragments": [
+            {
+              "fragment": "-fuse-ld=bfd -fno-lto -frtti -fexceptions -D_GLIBCXX_USE_CXX11_ABI=1 -DEIGEN_MAX_ALIGN_BYTES=16 -DEIGEN_MAX_STATIC_ALIGN_BYTES=16 -I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/inputs/pinned-include -O2 -g -DNDEBUG  -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -UNDEBUG -std=c++17 -fPIC -fvisibility=default"
+            },
+            {
+              "backtrace": 125,
+              "fragment": "-msse"
+            },
+            {
+              "backtrace": 125,
+              "fragment": "-msse2"
+            },
+            {
+              "backtrace": 126,
+              "fragment": "-mfpmath=sse"
+            },
+            {
+              "backtrace": 127,
+              "fragment": "-msse3"
+            },
+            {
+              "backtrace": 128,
+              "fragment": "-mssse3"
+            },
+            {
+              "backtrace": 129,
+              "fragment": "-msse4.1"
+            },
+            {
+              "backtrace": 130,
+              "fragment": "-msse4.2"
+            },
+            {
+              "backtrace": 113,
+              "fragment": "-I/usr/include/uuid"
+            }
+          ],
+          "defines": [
+            {
+              "backtrace": 131,
+              "define": "AERO_JOINT_PREFIX=\"/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix\""
+            },
+            {
+              "backtrace": 113,
+              "define": "DART_ACTIVE_LOG_LEVEL=2"
+            },
+            {
+              "backtrace": 132,
+              "define": "DART_HAS_CONTACT_SURFACE"
+            },
+            {
+              "backtrace": 113,
+              "define": "DART_HAVE_spdlog=1"
+            },
+            {
+              "backtrace": 113,
+              "define": "FMT_HEADER_ONLY=1"
+            },
+            {
+              "backtrace": 113,
+              "define": "FMT_SHARED"
+            },
+            {
+              "backtrace": 133,
+              "define": "GZ_PROFILER_ENABLE=0"
+            },
+            {
+              "backtrace": 113,
+              "define": "SPDLOG_FMT_EXTERNAL"
+            },
+            {
+              "backtrace": 113,
+              "define": "TINYXML2_IMPORT"
+            },
+            {
+              "backtrace": 113,
+              "define": "_FILE_OFFSET_BITS=64"
+            },
+            {
+              "define": "gz_physics7_dartsim_plugin_EXPORTS"
+            }
+          ],
+          "includes": [
+            {
+              "backtrace": 134,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/inputs"
+            },
+            {
+              "backtrace": 135,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/physics/include"
+            },
+            {
+              "backtrace": 136,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/include"
+            },
+            {
+              "backtrace": 137,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/dartsim-plugin/include"
+            },
+            {
+              "backtrace": 78,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/core/include"
+            },
+            {
+              "backtrace": 113,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/dartsim/include"
+            },
+            {
+              "backtrace": 113,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/physics/sdf/include"
+            },
+            {
+              "backtrace": 113,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/sdf/include"
+            },
+            {
+              "backtrace": 113,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/physics/heightmap/include"
+            },
+            {
+              "backtrace": 113,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/heightmap/include"
+            },
+            {
+              "backtrace": 113,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/physics/mesh/include"
+            },
+            {
+              "backtrace": 113,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/mesh/include"
+            },
+            {
+              "backtrace": 78,
+              "isSystem": true,
+              "path": "/usr/include/gz/math7"
+            },
+            {
+              "backtrace": 78,
+              "isSystem": true,
+              "path": "/usr/include/gz/utils2"
+            },
+            {
+              "backtrace": 78,
+              "isSystem": true,
+              "path": "/usr/include/gz/plugin2"
+            },
+            {
+              "backtrace": 78,
+              "isSystem": true,
+              "path": "/usr/include/eigen3"
+            },
+            {
+              "backtrace": 113,
+              "isSystem": true,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/include"
+            },
+            {
+              "backtrace": 113,
+              "isSystem": true,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/include"
+            },
+            {
+              "backtrace": 113,
+              "isSystem": true,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/include/bullet"
+            },
+            {
+              "backtrace": 113,
+              "isSystem": true,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/urdfdom/cmake/../../../../include/urdfdom"
+            },
+            {
+              "backtrace": 113,
+              "isSystem": true,
+              "path": "/usr/include/gz/sdformat14"
+            },
+            {
+              "backtrace": 113,
+              "isSystem": true,
+              "path": "/usr/include/gz/common5"
+            },
+            {
+              "backtrace": 113,
+              "isSystem": true,
+              "path": "/usr/include/uuid"
+            }
+          ],
+          "language": "CXX",
+          "languageStandard": {
+            "backtraces": [
+              78,
+              113
+            ],
+            "standard": "17"
+          },
+          "sourceIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      ],
+      "link": {
+        "commandFragments": [
+          {
+            "fragment": "",
+            "role": "flags"
+          },
+          {
+            "fragment": "-Wl,-rpath,/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 3,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 11,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13.2",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 21,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libBulletDynamics.so.3.24",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 21,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libBulletCollision.so.3.24",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 21,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 21,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libBulletSoftBody.so.3.24",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 11,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13.2",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 24,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libode.so.8",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 32,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libode.so.8",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 11,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-utils-urdf.so.6.13.2",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 11,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-utils.so.6.13.2",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 35,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so.10.0.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 40,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 40,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 40,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liburdfdom_model.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 40,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liburdfdom_world.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 11,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 44,
+            "fragment": "-ldl",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 44,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13.2",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 47,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 44,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 44,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+            "role": "libraries"
+          },
+          {
+            "fragment": "-lm",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 56,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libfmt.so.9.1.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 44,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 66,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 70,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libsdformat14.so.14.9.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 77,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-common5-geospatial.so.5.9.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 78,
+            "fragment": "lib/libgz-physics7.so.7.8.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 3,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 90,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-plugin2.so.2.0.4",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 96,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-common5-graphics.so.5.9.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 99,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 106,
+            "fragment": "-lpugixml",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 108,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7.7.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 112,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-common5-profiler.so.5.9.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 113,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5.9.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 108,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-utils2.so.2.2.1",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 116,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libuuid.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 121,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libuuid.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 116,
+            "fragment": "-lpthread",
+            "role": "libraries"
+          }
+        ],
+        "language": "CXX"
+      },
+      "artifacts": [
+        {
+          "path": "lib/libgz-physics7-dartsim-plugin.so"
+        }
+      ]
+    },
+    "gz-physics7": {
+      "compile_groups": [
+        {
+          "compileCommandFragments": [
+            {
+              "fragment": "-fuse-ld=bfd -fno-lto -frtti -fexceptions -D_GLIBCXX_USE_CXX11_ABI=1 -DEIGEN_MAX_ALIGN_BYTES=16 -DEIGEN_MAX_STATIC_ALIGN_BYTES=16 -I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/inputs/pinned-include -O2 -g -DNDEBUG  -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -UNDEBUG -std=c++17 -fPIC -fvisibility=default"
+            },
+            {
+              "backtrace": 25,
+              "fragment": "-msse"
+            },
+            {
+              "backtrace": 25,
+              "fragment": "-msse2"
+            },
+            {
+              "backtrace": 26,
+              "fragment": "-mfpmath=sse"
+            },
+            {
+              "backtrace": 27,
+              "fragment": "-msse3"
+            },
+            {
+              "backtrace": 28,
+              "fragment": "-mssse3"
+            },
+            {
+              "backtrace": 29,
+              "fragment": "-msse4.1"
+            },
+            {
+              "backtrace": 30,
+              "fragment": "-msse4.2"
+            }
+          ],
+          "defines": [
+            {
+              "backtrace": 31,
+              "define": "AERO_JOINT_PREFIX=\"/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix\""
+            },
+            {
+              "backtrace": 32,
+              "define": "GZ_PROFILER_ENABLE=0"
+            },
+            {
+              "define": "gz_physics7_EXPORTS"
+            }
+          ],
+          "includes": [
+            {
+              "backtrace": 33,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/inputs"
+            },
+            {
+              "backtrace": 34,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/physics/include"
+            },
+            {
+              "backtrace": 35,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/include"
+            },
+            {
+              "backtrace": 36,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/core/include"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/math7"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/utils2"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/plugin2"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/eigen3"
+            }
+          ],
+          "language": "CXX",
+          "languageStandard": {
+            "backtraces": [
+              38
+            ],
+            "standard": "17"
+          },
+          "sourceIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "compileCommandFragments": [
+            {
+              "fragment": "-fuse-ld=bfd -fno-lto -frtti -fexceptions -D_GLIBCXX_USE_CXX11_ABI=1 -DEIGEN_MAX_ALIGN_BYTES=16 -DEIGEN_MAX_STATIC_ALIGN_BYTES=16 -I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/inputs/pinned-include -O2 -g -DNDEBUG  -Wall -Wextra -Wno-long-long -Wno-unused-value -Wfloat-equal -Wshadow -Winit-self -Wswitch-default -Wmissing-include-dirs -pedantic -UNDEBUG -std=c++17 -fPIC -fvisibility=default"
+            },
+            {
+              "backtrace": 25,
+              "fragment": "-msse"
+            },
+            {
+              "backtrace": 25,
+              "fragment": "-msse2"
+            },
+            {
+              "backtrace": 26,
+              "fragment": "-mfpmath=sse"
+            },
+            {
+              "backtrace": 27,
+              "fragment": "-msse3"
+            },
+            {
+              "backtrace": 28,
+              "fragment": "-mssse3"
+            },
+            {
+              "backtrace": 29,
+              "fragment": "-msse4.1"
+            },
+            {
+              "backtrace": 30,
+              "fragment": "-msse4.2"
+            }
+          ],
+          "defines": [
+            {
+              "backtrace": 31,
+              "define": "AERO_JOINT_PREFIX=\"/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix\""
+            },
+            {
+              "backtrace": 39,
+              "define": "GZ_PHYSICS_ENGINE_RELATIVE_INSTALL_DIR=\"lib/gz-physics-7/engine-plugins\""
+            },
+            {
+              "backtrace": 32,
+              "define": "GZ_PROFILER_ENABLE=0"
+            },
+            {
+              "define": "gz_physics7_EXPORTS"
+            }
+          ],
+          "includes": [
+            {
+              "backtrace": 33,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/inputs"
+            },
+            {
+              "backtrace": 34,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/physics/include"
+            },
+            {
+              "backtrace": 35,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/include"
+            },
+            {
+              "backtrace": 36,
+              "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/core/include"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/math7"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/utils2"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/gz/plugin2"
+            },
+            {
+              "backtrace": 9,
+              "isSystem": true,
+              "path": "/usr/include/eigen3"
+            }
+          ],
+          "language": "CXX",
+          "languageStandard": {
+            "backtraces": [
+              38
+            ],
+            "standard": "17"
+          },
+          "sourceIndexes": [
+            6
+          ]
+        }
+      ],
+      "link": {
+        "commandFragments": [
+          {
+            "fragment": "",
+            "role": "flags"
+          },
+          {
+            "fragment": "-Wl,-rpath,/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 3,
+            "fragment": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 9,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7.7.0",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 21,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-plugin2.so.2.0.4",
+            "role": "libraries"
+          },
+          {
+            "backtrace": 9,
+            "fragment": "/usr/lib/x86_64-linux-gnu/libgz-utils2.so.2.2.1",
+            "role": "libraries"
+          }
+        ],
+        "language": "CXX"
+      },
+      "artifacts": [
+        {
+          "path": "lib/libgz-physics7.so"
+        }
+      ]
+    }
+  },
+  "commands_sha256": "de98fb061a879e8a0ab2dfb2bfd0871a3d446215295ba4359db89b0926a000d2",
+  "scope": "only selected build closure; all executed configure file hashes still checked"
+}

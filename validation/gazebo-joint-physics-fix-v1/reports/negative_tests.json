@@ -1,0 +1,24 @@
+[
+  {
+    "case": "unapproved_selected_library",
+    "status": "PASS_REJECTED",
+    "errors": [
+      "previously unpinned optional dependency selected",
+      "unlocked file: /usr/lib/x86_64-linux-gnu/libGLESv2.so.2.1.0"
+    ]
+  },
+  {
+    "case": "changed_reused_hash",
+    "status": "PASS_REJECTED",
+    "errors": [
+      "reused predecessor hash mismatch /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0"
+    ]
+  },
+  {
+    "case": "missing_contact_feature",
+    "status": "PASS_REJECTED",
+    "errors": [
+      "ContactSurface header check did not pass"
+    ]
+  }
+]

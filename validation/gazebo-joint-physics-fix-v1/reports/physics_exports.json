@@ -1,0 +1,200 @@
+{
+  "gz-physics7": {
+    "registration": {
+      "args": [
+        "EXPORT",
+        "gz-physics7",
+        "DESTINATION",
+        "lib/cmake/gz-physics7",
+        "FILE",
+        "gz-physics7-targets.cmake",
+        "NAMESPACE",
+        "gz-physics7::",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ],
+      "cmd": "install",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/inputs/GzPackaging.cmake",
+      "frame": 3,
+      "global_frame": 5,
+      "line": 379,
+      "line_end": 385,
+      "time": 1794130456.551442
+    },
+    "namespace": "gz-physics7::",
+    "exported_targets": [
+      "gz-physics7::gz-physics7"
+    ],
+    "export_file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/src/CMakeFiles/Export/b29db4321637031ffaa149c8fb252c6c/gz-physics7-targets.cmake",
+    "export_sha256": "8bf07988e237953615e042ee6413f65fc9ea01780b682deddeffc8a88ba8f28c",
+    "transitive_links": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so;gz-math7::gz-math7;gz-utils2::gz-utils2;gz-plugin2::register;Eigen3::Eigen"
+    ],
+    "package_config_sha256": "968aeceb94e63a7d51fe4e5888edfe3b983cd1f201421cbf3db1efd53b7d8383"
+  },
+  "gz-physics7-sdf": {
+    "registration": {
+      "args": [
+        "EXPORT",
+        "gz-physics7-sdf",
+        "DESTINATION",
+        "lib/cmake/gz-physics7-sdf",
+        "FILE",
+        "gz-physics7-sdf-targets.cmake",
+        "NAMESPACE",
+        "gz-physics7::",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ],
+      "cmd": "install",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/inputs/GzPackaging.cmake",
+      "frame": 3,
+      "global_frame": 5,
+      "line": 379,
+      "line_end": 385,
+      "time": 1794130456.561324
+    },
+    "namespace": "gz-physics7::",
+    "exported_targets": [
+      "gz-physics7::gz-physics7-sdf"
+    ],
+    "export_file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/sdf/CMakeFiles/Export/99ebccc83642ba538a99f86b261f42d2/gz-physics7-sdf-targets.cmake",
+    "export_sha256": "c0edd5b2c1f23ab0c306e35895dc7047ba07fba3befe90809154d6e822fae843",
+    "transitive_links": [
+      "gz-physics7::gz-physics7;sdformat14::requested"
+    ],
+    "package_config_sha256": "10c2564bd2c6c2eb12671e56bf1094f3b336fcf0a0c73d995ddfad17eba74af9"
+  },
+  "gz-physics7-mesh": {
+    "registration": {
+      "args": [
+        "EXPORT",
+        "gz-physics7-mesh",
+        "DESTINATION",
+        "lib/cmake/gz-physics7-mesh",
+        "FILE",
+        "gz-physics7-mesh-targets.cmake",
+        "NAMESPACE",
+        "gz-physics7::",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ],
+      "cmd": "install",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/inputs/GzPackaging.cmake",
+      "frame": 3,
+      "global_frame": 5,
+      "line": 379,
+      "line_end": 385,
+      "time": 1794130456.567775
+    },
+    "namespace": "gz-physics7::",
+    "exported_targets": [
+      "gz-physics7::gz-physics7-mesh"
+    ],
+    "export_file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/mesh/CMakeFiles/Export/800babe92acc904302f9204c464ae9f5/gz-physics7-mesh-targets.cmake",
+    "export_sha256": "8c6935b688d9e62a4089af5f998106c582b07081955911817205269870c78a51",
+    "transitive_links": [
+      "gz-physics7::gz-physics7;gz-common5::graphics"
+    ],
+    "package_config_sha256": "5307e1bf6f11c854e1d051fad44b4e227be3d67d687750c3d6f371984b0554b4"
+  },
+  "gz-physics7-heightmap": {
+    "registration": {
+      "args": [
+        "EXPORT",
+        "gz-physics7-heightmap",
+        "DESTINATION",
+        "lib/cmake/gz-physics7-heightmap",
+        "FILE",
+        "gz-physics7-heightmap-targets.cmake",
+        "NAMESPACE",
+        "gz-physics7::",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ],
+      "cmd": "install",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/inputs/GzPackaging.cmake",
+      "frame": 3,
+      "global_frame": 5,
+      "line": 379,
+      "line_end": 385,
+      "time": 1794130456.564565
+    },
+    "namespace": "gz-physics7::",
+    "exported_targets": [
+      "gz-physics7::gz-physics7-heightmap"
+    ],
+    "export_file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/heightmap/CMakeFiles/Export/7335f66725376faf84346c986c596bbc/gz-physics7-heightmap-targets.cmake",
+    "export_sha256": "52cdd9685c67140efa5ad8a0f22b34a92f03ae4aef778863b4536873377e52d7",
+    "transitive_links": [
+      "gz-physics7::gz-physics7;gz-common5::geospatial"
+    ],
+    "package_config_sha256": "11d14f2ce7b992b75df4e3ef23461d863c85be2578469c4370aad43f57211492"
+  },
+  "gz-physics7-dartsim": {
+    "registration": {
+      "args": [
+        "EXPORT",
+        "gz-physics7-dartsim",
+        "DESTINATION",
+        "lib/cmake/gz-physics7-dartsim",
+        "FILE",
+        "gz-physics7-dartsim-targets.cmake",
+        "NAMESPACE",
+        "gz-physics7::",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ],
+      "cmd": "install",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/inputs/GzPackaging.cmake",
+      "frame": 3,
+      "global_frame": 5,
+      "line": 379,
+      "line_end": 385,
+      "time": 1794130456.571046
+    },
+    "namespace": "gz-physics7::",
+    "exported_targets": [
+      "gz-physics7::gz-physics7-dartsim"
+    ],
+    "export_file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/dartsim/CMakeFiles/Export/550e57499a6b3adfc2991d00f7a09676/gz-physics7-dartsim-targets.cmake",
+    "export_sha256": "13f61db1601d3d43ab7e0035a9e174803229a81b2bbca60949141b38aa7fd021",
+    "transitive_links": [
+      "gz-physics7::gz-physics7;dart-collision-bullet;dart-collision-ode;dart-utils;dart-utils-urdf;dart"
+    ],
+    "package_config_sha256": "4f399bd37d5445c7ac3abc6734b08c733facf69e41c4e7d366333b89a09e5c0d"
+  },
+  "gz-physics7-dartsim-plugin": {
+    "registration": {
+      "args": [
+        "EXPORT",
+        "gz-physics7-dartsim-plugin",
+        "DESTINATION",
+        "lib/cmake/gz-physics7-dartsim-plugin",
+        "FILE",
+        "gz-physics7-dartsim-plugin-targets.cmake",
+        "NAMESPACE",
+        "gz-physics7::",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ],
+      "cmd": "install",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/inputs/GzPackaging.cmake",
+      "frame": 3,
+      "global_frame": 5,
+      "line": 379,
+      "line_end": 385,
+      "time": 1794130456.575315
+    },
+    "namespace": "gz-physics7::",
+    "exported_targets": [
+      "gz-physics7::gz-physics7-dartsim-plugin"
+    ],
+    "export_file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/dartsim/CMakeFiles/Export/81411b3c6a22d1c657e4157db2861fd1/gz-physics7-dartsim-plugin-targets.cmake",
+    "export_sha256": "f56f7be1223eed3457377e7bc5378db73849faa9fc053478e15a146a6fa69b34",
+    "transitive_links": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so;gz-physics7::gz-physics7;gz-physics7::gz-physics7-dartsim;gz-physics7::gz-physics7-sdf;gz-physics7::gz-physics7-heightmap;gz-physics7::gz-physics7-mesh;gz-common5::gz-common5;gz-common5::geospatial;gz-math7::eigen3"
+    ],
+    "package_config_sha256": "2da5b1124c0460ac2f459ec25d999167a8ab740f9e63528d5c9a56009771e732"
+  }
+}

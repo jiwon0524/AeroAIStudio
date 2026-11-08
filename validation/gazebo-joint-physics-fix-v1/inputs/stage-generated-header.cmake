@@ -1,0 +1,10 @@
+# Exact generated header from the same verified DART build as reused ELFs.
+file(SHA256 "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/config.hpp" _sha)
+if(NOT _sha STREQUAL "3e79ca3e9c6fbf904948d7a26ca2b08d71c621a6c7f4f51adb8d5d84548f49de")
+  message(FATAL_ERROR "DART generated header changed")
+endif()
+file(INSTALL DESTINATION "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/include/dart" TYPE FILE FILES "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/config.hpp")
+file(SHA256 "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/include/dart/config.hpp" _installed)
+if(NOT _installed STREQUAL _sha)
+  message(FATAL_ERROR "DART generated header copy differs")
+endif()

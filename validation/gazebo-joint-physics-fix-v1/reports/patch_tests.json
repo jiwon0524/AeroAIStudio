@@ -1,0 +1,27 @@
+[
+  {
+    "patch": "validation/gazebo-joint-physics-fix-v1/reports/physics_root.patch",
+    "status": "PASS_EXACT_REPLAY",
+    "sha256": "293ea0c76f7b36a14f127012c46cb1ddf7ac8ac5ebf87106deef9ea29873824a"
+  },
+  {
+    "patch": "validation/gazebo-joint-physics-fix-v1/reports/physics_install.patch",
+    "status": "PASS_EXACT_REPLAY",
+    "sha256": "4517e80de4ef5f872e6804a08962bef6fd91ba425be284ba17c71e801dd18049"
+  },
+  {
+    "patch": "validation/gazebo-joint-physics-fix-v1/reports/sim_root.patch",
+    "status": "PASS_EXACT_REPLAY",
+    "sha256": "3d398043005bd4e0edb6febc4b081fed627b1ada384cbfdc14898ac934c9b2da"
+  },
+  {
+    "patch": "validation/gazebo-joint-physics-fix-v1/reports/sim_install.patch",
+    "status": "PASS_EXACT_REPLAY",
+    "sha256": "1b21ca9ad24508b036e99b1427828dd33f71078b4cd070dc3370fa369847781d"
+  },
+  {
+    "patch": "validation/gazebo-joint-physics-fix-v1/reports/sim_packaging.patch",
+    "status": "PASS_EXACT_REPLAY",
+    "sha256": "219f071a1e90eca4bea3b0dda570253fc238accecc87309a06327d2c81f5505f"
+  }
+]

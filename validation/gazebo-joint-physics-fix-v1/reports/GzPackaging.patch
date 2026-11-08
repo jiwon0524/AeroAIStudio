@@ -1,0 +1,13 @@
+--- a/GzPackaging.cmake
++++ b/GzPackaging.cmake
+@@ -371,0 +372,6 @@
++    # Only the six selected physics export files use the narrow component.
++    set(_aero_export_component Unspecified)
++    set(_aero_exports gz-physics7 gz-physics7-sdf gz-physics7-heightmap gz-physics7-mesh gz-physics7-dartsim gz-physics7-dartsim-plugin)
++    if(PROJECT_NAME STREQUAL "gz-physics7" AND target_name IN_LIST _aero_exports)
++      set(_aero_export_component aero-joint-cmake)
++    endif()
+@@ -378 +384,2 @@
+-    NAMESPACE ${gz_namespace})
++    NAMESPACE ${gz_namespace}
++    COMPONENT ${_aero_export_component})

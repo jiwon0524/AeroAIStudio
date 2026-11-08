@@ -1,0 +1,7 @@
+{
+  "source": "/usr/share/cmake/gz-cmake3/cmake3/GzPackaging.cmake",
+  "source_sha256": "4bce778b2f1dee141413a7da9e5a304e4f900996e23df18dab319e0c0ae13bc4",
+  "local_sha256": "df74b73819bc5e2d0c87bfa797df46e78ae817c78120de2917a43678fbf42f27",
+  "scope": "only component metadata ownership; target membership/namespaces/transitive references unchanged",
+  "unused_physics_BUILD_EXAMPLES_removed": true
+}

@@ -1,0 +1,7 @@
+{
+  "reason": "Selected DART export retains absolute old probe path; same ELF was verified and explicitly reused by user scope, not a new external dependency",
+  "first_failure_preserved": "logs/physics.selection.log",
+  "previous_checker_sha256": "761cc1c0039eb11a31f525339bf21dfad5b914b50088bd767e343f23258984d4",
+  "corrected_checker_sha256": "a2fa9a7b4509cd2791e3bed3fc420e449b0be8aba265ae98f3805e506df0c1a3",
+  "scope": "exact reused_elfs realpath+SHA only; SDK allowlist and installed-stack rejection unchanged"
+}

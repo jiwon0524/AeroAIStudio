@@ -1,0 +1,8 @@
+--- a/inputs/install-selected.cmake
++++ b/inputs/install-selected.cmake
+@@ -41,4 +41 @@
+-    if(NOT AERO_JOINT_STAGE STREQUAL "physics")
+-      install(EXPORT ${_t} FILE ${_t}-targets.cmake NAMESPACE ${_joint_core}::
+-        DESTINATION lib/cmake/${_t} COMPONENT aero-joint-cmake)
+-    endif()
++    # Sole export registration is owned by isolated GzPackaging-sim.cmake.

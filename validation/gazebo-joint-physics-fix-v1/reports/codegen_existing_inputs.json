@@ -1,0 +1,37 @@
+[
+  {
+    "path": "/usr/bin/gz-msgs10_generate.py",
+    "realpath": "/usr/bin/gz-msgs10_generate.py",
+    "sha256": "4c9ba6050b50c1e79660b6c5d2ca4448076ad3bcf08f734a5869794bcc27d38f",
+    "existing_lock_match": true,
+    "execution": "not run by Sim build; classification review only"
+  },
+  {
+    "path": "/usr/bin/gz-msgs10_generate_factory.py",
+    "realpath": "/usr/bin/gz-msgs10_generate_factory.py",
+    "sha256": "bf88e651afff23c6e6afd8bd3e7962d895e4852cdb04ed288f7788d387c28f22",
+    "existing_lock_match": true,
+    "execution": "not run by Sim build; classification review only"
+  },
+  {
+    "path": "/usr/bin/gz-msgs10_protoc_plugin",
+    "realpath": "/usr/bin/gz-msgs10_protoc_plugin",
+    "sha256": "81fb47d5e772f989d49efaa7b1fc53196c1e4b645bf7adb7a1134edac4c244c4",
+    "existing_lock_match": true,
+    "execution": "not run by Sim build; classification review only"
+  },
+  {
+    "path": "/usr/bin/protoc",
+    "realpath": "/usr/bin/protoc",
+    "sha256": "95bb3996d5b48f94929ee510cfddb57fb543ae4d8d335909972cfb32347203fc",
+    "existing_lock_match": true,
+    "execution": "not run by Sim build; classification review only"
+  },
+  {
+    "path": "/usr/lib/gcc/x86_64-linux-gnu/13/libstdc++fs.a",
+    "realpath": "/usr/lib/gcc/x86_64-linux-gnu/13/libstdc++fs.a",
+    "sha256": "fa5e0f758f2556f64488d0e6d974c88beab02d7b97067b851339c67e439202d9",
+    "existing_lock_match": true,
+    "execution": "not run by Sim build; classification review only"
+  }
+]

@@ -1,0 +1,13 @@
+--- a/GzPackaging.cmake
++++ b/GzPackaging.cmake
+@@ -371,0 +372,6 @@
++    # Only the two selected Sim export files use the narrow component.
++    set(_aero_export_component Unspecified)
++    set(_aero_exports gz-sim8 gz-sim8-physics-system)
++    if(PROJECT_NAME STREQUAL "gz-sim8" AND target_name IN_LIST _aero_exports)
++      set(_aero_export_component aero-joint-cmake)
++    endif()
+@@ -378 +384,2 @@
+-    NAMESPACE ${gz_namespace})
++    NAMESPACE ${gz_namespace}
++    COMPONENT ${_aero_export_component})

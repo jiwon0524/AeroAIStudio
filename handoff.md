@@ -1,3 +1,57 @@
+# gz-physics configure repair / joint build continuation — current checkpoint
+
+2026-11-08 UTC. Starting HEADc699442, experiment/dart-internal-trace, tracked clean; prior untracked root libgz-physics-dartsim-plugin.so preserved. Explicit user scope: generated DART header + physics export repair, reuse valid DART artifacts, isolated build/static continuation until out-of-contract input or target execution requirement. Required instructions/contracts/readouts read; context-handoff used.
+
+**DART_REUSED_WITH_MATCHING_CONFIG / PHYSICS_BUILD_STAGE_RECEIPT_PASS / SIM_CONFIGURE_GENERATE_PASS / SIM_CODEGEN_INPUT_BLOCKED / joint build INCOMPLETE / NOT_RUNTIME_VERIFIED. Stage B BLOCKED; risk acceptance UNDECIDED.**
+
+Report validation/gazebo-joint-physics-fix-v1/reports/build_result.md. Original DART generated config.hpp (build/dart/dart/config.hpp) SHA3e79ca3e9c6fbf904948d7a26ca2b08d71c621a6c7f4f51adb8d5d84548f49de was omitted by its Unspecified install component. New explicit hash-guarded stage-generated-header.cmake installs exactly that header to new prefix/include/dart/config.hpp; no host substitute or regenerated macros. Existing probe+6 DART build/prefix receipts rechecked, DART not rebuilt;400 prefix regular files copied byte-for-byte. Prior actual DART deps reference same header161 times. dart_reuse.json binds settings/header/ELF/build lineage. Generated constants and reused RUNPATH remain path-bound to old approved prefix; exact old/new ELF identities tracked, not a directory-wide fallback. Old prefix must remain available for future separately authorized loader validation.
+
+Physics6 export sets had upstream+staging duplicate install(EXPORT), same cause as DART. Local hash-derived GzPackaging definitions assign narrow metadata component only to the6 sole registrations; remove duplicate physics staging registrations. No system module/library change, namespace gz-physics7:: and membership/transitive refs retained. Both original blockers fixed: configure/generate/contact-header PASS; exports6 sole sets. Initial selector rejected old absolute probe path despite authorized reuse; old failure preserved, exact reused realpath+SHA binding added/rechecked PASS, SDK lock unchanged. Negative tests3 reject unapproved selected lib / reused SHA mismatch / missing contact feature.
+
+Physics build PASS98.28s;25 objects/1572 actual deps, no /usr/local headers, actual new prefix config.hpp path/SHA matches original DART build. Static ELF closure, selected library/header/config stages and receipt PASS. Core libgz-physics7.so.7 SHA06bdf00cda17153e57e1b00194fc90264bde9d466ab9fc521407ee9152f4194b; plugin libgz-physics7-dartsim-plugin.so.7 SHAc652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c at both plugin locations. artifacts/elf_summary record49 ELF/helper/object entries and10 byte-identical prefix/build pairs (7 reused+core+2 plugin copies). New physics RUNPATH new prefix/lib+old fixed deps, reused7 retain approved old RUNPATH, no RPATH/empty/build search entry. Runtime mapping not verified.
+
+Sim first configure successfully resolves new physics base+dartsim/heightmap/mesh/sdf but fails duplicate Sim exports. Preserve failed src/sim,build/sim,logs. New src/sim-02/build/sim-02 uses distinct same-pattern GzPackaging-sim and staging fix for only gz-sim8/gz-sim8-physics-system, namespace gz-sim8::. Sim attempt2 configure/generate and2 sole exports PASS; no change to successful physics inputs. Patches/5 exact replay tests and sim_consumer.json record actual package resolution. No extra system target staged.
+
+Hard stop at Sim codegen input: /usr/share/gz/protos/gz-msgs10.gz_desc,83796 bytes, SHAc7e1d435538f1a009d034a1e237d3a9a41233aaf9846e41e02525163b1cc5861, package libgz-msgs10:amd64/source gz-msgs10 10.4.0-1~noble. Needed by4 selected private proto generation commands; absent from both selected_files and toolchain inventory. sim_codegen_blocker.json records source/version/hash/role. Generator scripts/protoc/plugin/libstdc++fs.a already match existing locks (codegen_existing_inputs), but current Sim checker also conservatively rejects their command forms/short -lstdc++fs resolution. No Sim selection PASS, generators/compile/link/stage or harness started. No descriptor added/lock relaxed/installed outputs substituted. Next minimum: explicit descriptor/codegen-data contract pinning decision, then exact already-pinned command/tool/archive resolution review; do not bypass checks.
+
+Existing header guard/SDK allowlist/spdlog-fmt overlay/ABI flags/BUILD_WITH_INSTALL_RPATH ON/strict receipts retained. No DART/Gazebo loading, target execution/CTest/steps/services/markers/sudo/package/system changes. GzCheckSSE try_run calls remain intentional compile-error architecture protocol, no linked/run target; deny emulator unchanged. Original main/dirty work, old inputs/evidence/ELFs/receipt and root dangling link preserved. All launched commands observed exited, host/PID/start/log hashes in steps/sim_retry_steps; no existing process terminated/restarted. Snapshot scope below; external-CWD/remote/container/other namespaces UNKNOWN. New configure CWD per build directory preserves old root link.
+
+Only reviewed lightweight patches/guards/tests/recording scripts/reports/handoff publish. Full external module/source/input copies, incomplete future Sim classifier, raw traces/deps/command/build logs, prefixes/ELFs remain local/ignored; Git does not transfer them and /tmp is not durable. Automatic experiment-only checkpoint, no main/merge/force. Snapshot is pre-publication; reconcile commit parent/file list/remote receipt.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-08T09:50:57.717361+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "c699442a14f4764d92f80afd9648e64dc6fc9d86",
+    "branch": "experiment/dart-internal-trace",
+    "status": [
+      {
+        "status": "??",
+        "path": "libgz-physics-dartsim-plugin.so"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-physics-fix-v1/reports/build_result.md",
+      "sha256": "010aee4805023fdbd0233023998a804636fcaa0d4fad3acb85470072459eafdd"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+---
+Previous checkpoint follows:
+
 # DART spdlog header precedence repair — current checkpoint
 
 2026-11-08 UTC. Starting HEADa3e2e77, clean experiment/dart-internal-trace. Explicit user scope: diagnose local spdlog inclusion, minimal isolated fix, failed units first then DART→physics→Sim→harness build/static continuation, stop on first new mismatch. Required instructions/contracts read; context-handoff used.
