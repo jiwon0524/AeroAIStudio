@@ -1,0 +1,140 @@
+{
+  "baseline_head": "64ada5acd9a28ca1af5c3a6590e51317dc379551",
+  "branch": "experiment/dart-internal-trace",
+  "initial_status": "",
+  "files": [
+    {
+      "path": "validation/gazebo-source-materials-v1/work/downloads/dart.orig.tar.xz",
+      "expected": "b900820b71463476463b9daeb31e81c74ebf59bd95139b7f833f5f6bb9b8058e",
+      "actual": "b900820b71463476463b9daeb31e81c74ebf59bd95139b7f833f5f6bb9b8058e",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/downloads/sim.dsc",
+      "expected": "84ab65ae652fc95536e499c6a46e2f7c59bb986bb973b802ad4fee1f19f52ac0",
+      "actual": "84ab65ae652fc95536e499c6a46e2f7c59bb986bb973b802ad4fee1f19f52ac0",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/downloads/sim.orig.tar.bz2",
+      "expected": "f457478cc8b319be148aa1e7a3bc14042c333c8881c1f92ea6d498344fea891d",
+      "actual": "f457478cc8b319be148aa1e7a3bc14042c333c8881c1f92ea6d498344fea891d",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/downloads/dart_6.13.2+ds1-1~osrf2~noble.debian.tar.xz",
+      "expected": "6e9049fcf7c5ddf507dcebd51ccc4e39059376f0e802f7d60398251474295092",
+      "actual": "6e9049fcf7c5ddf507dcebd51ccc4e39059376f0e802f7d60398251474295092",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/downloads/sim.debian.tar.xz",
+      "expected": "fd14fe0cf6caeeadbae7c408b0a4b295137e175c70c304b56f615d15670bd806",
+      "actual": "fd14fe0cf6caeeadbae7c408b0a4b295137e175c70c304b56f615d15670bd806",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/disable-skeltest-for-armhf-mips-x86.patch",
+      "expected": "3aae8b85cc07691dc4b6c0a3aa5c03b7687c79b3fb47527e6ee2cc5b0101edae",
+      "actual": "3aae8b85cc07691dc4b6c0a3aa5c03b7687c79b3fb47527e6ee2cc5b0101edae",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/fix-test_ForceDependentSlip-armel.patch",
+      "expected": "f36359fc1da9579e0b1926c76c09500abe81c7e394e988c9da1daa80bba54eab",
+      "actual": "f36359fc1da9579e0b1926c76c09500abe81c7e394e988c9da1daa80bba54eab",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0004-fix-pkgconfig.patch",
+      "expected": "60c7c1b0d51b97bf3360f00a6af720ea4991920aaaa4bc61cd2e01e3a7280f93",
+      "actual": "60c7c1b0d51b97bf3360f00a6af720ea4991920aaaa4bc61cd2e01e3a7280f93",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0005-build-type-none.patch",
+      "expected": "feb2d5c9ec84ed84f841ae17ec9a7db360746c5bf8c1ab08fdae3514d72aa3cd",
+      "actual": "feb2d5c9ec84ed84f841ae17ec9a7db360746c5bf8c1ab08fdae3514d72aa3cd",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0001-respect-ldflags.patch",
+      "expected": "2614dadae6c00540ae471f06204cc92730e9da8fe39f546f17422d1a43331a2a",
+      "actual": "2614dadae6c00540ae471f06204cc92730e9da8fe39f546f17422d1a43331a2a",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0002-use-system-gtest.patch",
+      "expected": "5257806f7368648c3d93fe04ab7bd70c789824d32f41e3633ba9965bad236531",
+      "actual": "5257806f7368648c3d93fe04ab7bd70c789824d32f41e3633ba9965bad236531",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0013-Deaktivate-assert-failing-with-Bullet-3.24.patch",
+      "expected": "13afd5b12ff1729156b3157d06140671a6a4097bbd46a547370dfb857cba0ba3",
+      "actual": "13afd5b12ff1729156b3157d06140671a6a4097bbd46a547370dfb857cba0ba3",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0006-Reduce-test-result-accuracy-to-fix-i386.patch",
+      "expected": "1e4de1d4dc79f02e2bccc495190c2fcde84ec431403f5c282860e6457a48ed9b",
+      "actual": "1e4de1d4dc79f02e2bccc495190c2fcde84ec431403f5c282860e6457a48ed9b",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0007-fix-ikfast.patch",
+      "expected": "1b84e3b189837e49ffc15a886cbfe2fee986b7ab6adc3e91b21398976a1b0e0d",
+      "actual": "1b84e3b189837e49ffc15a886cbfe2fee986b7ab6adc3e91b21398976a1b0e0d",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-abi-reassessment-v1/work/downloads/upstream-release.tar.bz2",
+      "expected": "120b7ea6e1dd9c34515948de3c69ab5e27ab098e56379a3ef61a414c6e606927",
+      "actual": "120b7ea6e1dd9c34515948de3c69ab5e27ab098e56379a3ef61a414c6e606927",
+      "match": true
+    },
+    {
+      "path": "/usr/bin/x86_64-linux-gnu-g++-13",
+      "exists": true,
+      "sha256": "1353e9bdd29a7295c7226bf6c63abccce056d8cac31f112e5cdbecc3f28c2769"
+    },
+    {
+      "path": "/usr/bin/x86_64-linux-gnu-gcc-13",
+      "exists": true,
+      "sha256": "1b99826121ae6682a634e5efe09bd3e3df58ce58e0b28f849114ab5b89139c26"
+    },
+    {
+      "path": "/usr/bin/x86_64-linux-gnu-ld.bfd",
+      "exists": true,
+      "sha256": "e9ceb054c12207970f2726dfc07e9a66b411602748628baf27399f02a9bbb31b"
+    },
+    {
+      "path": "/usr/bin/cmake",
+      "exists": true,
+      "sha256": "1c5227af4edd22d8d689def545e18ee458260c0fd579eba2187967f38817e638"
+    },
+    {
+      "path": "/usr/bin/ninja",
+      "exists": true,
+      "sha256": "5965527e09fe2b3787772aa4f711d6a36b393e7f2fcaa744a7a96c5a4ddf59cb"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "exists": true,
+      "sha256": "1fd75fe70354a416d75aef22bcae68c47bd25d20e2d0568c30b1a9838cf62f11"
+    },
+    {
+      "path": "/usr/include/bullet/LinearMath/btScalar.h",
+      "exists": true,
+      "sha256": "5f4895f833a745205d93e9de5a40b4b328524aab3d5e8ff5b46baf4bea3084c7"
+    },
+    {
+      "path": "/usr/include/ode/ode.h",
+      "exists": false,
+      "sha256": null
+    }
+  ],
+  "main_head": "46134c6bf5670ed61ba252f394ccdddb7ff2cf6b",
+  "main_status": " M tests/test_gazebo_contact_opt_in_lifecycle.py\n M tests/test_gazebo_contact_surface_event.py\n M tests/test_gazebo_physical_microstate_ordering.py\n M tools/diagnose_v07_gazebo_action24_continuous_support.py\n M tools/diagnose_v07_gazebo_action24_history_ab.py\n M tools/diagnose_v07_gazebo_action24_one_tick_control.py\n M tools/diagnose_v07_gazebo_contact_surface_event.py\n M tools/gazebo_continuous_support_observer.cc\n?? AGENTS.md\n?? handoff.md\n?? tests/fixtures/collision_observation_synthetic.cc\n?? tests/test_action24_collision_pair_integration.py\n?? tests/test_contact_event_host4.py\n?? tests/test_gazebo_collision_observation.py\n?? tests/test_host4_failure_diagnostics.py\n?? tests/test_independent_instrumentation.py\n?? tests/test_independent_instrumentation_host.py\n?? tests/test_minimal_clock.py\n?? tests/test_pose_cache_provenance.py\n?? tests/test_strict_clock_receive_hook.py\n?? tests/test_strict_paused_clock_analysis.py\n?? tools/analyze_v07_strict_paused_clock.py\n?? tools/diagnose_v07_gazebo_contact_surface_event_host4.py\n?? tools/diagnose_v07_independent_instrumentation.py\n?? tools/diagnose_v07_independent_instrumentation_host.py\n?? tools/diagnose_v07_minimal_clock.py\n?? tools/diagnostic_capture_failure.py\n?? tools/diagnostic_pose_cache_provenance.py\n?? tools/diagnostic_pose_provenance_integrity.py\n?? tools/forensic_v07_contact_event_host3.py\n?? tools/forensic_v07_host4_extended.py\n?? tools/gazebo_collision_observation.hh\n?? tools/host4_offline_test_guard.py\n?? tools/independent_clock_diagnostics.py\n?? tools/independent_instrumentation_protocol.py\n?? tools/independent_recovery_offline_guard.py\n?? tools/strict_clock_minimal_observation.py\n?? tools/strict_clock_offline_guard.py\n?? tools/strict_clock_receive_hook.py\n",
+  "execution": "file bytes / Git metadata only; no compiler, configure, link, target loading or execution"
+}

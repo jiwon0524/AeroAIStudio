@@ -1,3 +1,45 @@
+# Joint instrumentation build plan — current checkpoint
+
+**BLOCKED inputs / NOT_RUNTIME_VERIFIED / Stage B BLOCKED / risk acceptance undecided**.
+2026-11-08 UTC. Direct starting HEAD 64ada5acd9a28ca1af5c3a6590e51317dc379551, experiment/dart-internal-trace clean. context-handoff and required instructions/reassessment/build_gate read. Current authorization is planning and static input validation ONLY. No patch application, configure, compilation/linking, DART/Gazebo load/run, service, marker consumption, sudo/package/system/main change performed.
+
+Completed: validation/gazebo-joint-build-plan-v1/reports/build_plan.md and input_validation.json. Selected source archives and nine packaging patch hashes directly match prior values. Joint scope: Sim core/Physics/harness; physics core/dartsim and required sdf/heightmap/mesh; DART core/ODE+Bullet adapters/external-odelcpsolver. External ODE/Bullet are distinct from DART adapters, conditional installed reuse only; no certified dependency reuse allowlist yet. /usr/include/ode/ode.h absent. Tool candidates hashed without invoking compiler. Installed equivalence remains PARTIAL/ABI UNRESOLVED; new configuration reproducibility BLOCKED on exact instrumentation inputs, external dev/runtime ABI mapping, transitive/toolchain closure, CMake argv/targets/search allowlist. Existing debug/buildinfo absence alone is not a new-build blocker.
+
+Report contains stage order/command contracts (explicitly incomplete, not executable READY recipe), stop criteria, ELF/link-log/plugin mixing checks and Run-before-first-UpdateCurrentInfo init/GO plus typed provider entry locations. All future findings apply only to the final coherent build manifest. No actual provider observation claimed. No build outputs created.
+
+Changed files: only this handoff and two new lightweight reports. Main metadata captured in input_validation.json; existing source/evidence/markers preserved. Prior 71-file integrity result is historical, not rerun. Ignored inputs remain local and /tmp is not durable; publication does not transfer them. Same-user project-CWD task snapshot empty; external CWD/remote/container UNKNOWN. No process stopped/restarted.
+
+Next minimum: review BLOCKED input list, then obtain explicit source/build authorization before implementing patches or configure. Current request ends after report/publication. Runtime/markers/Stage B remain separately forbidden. Snapshot is pre-publication; reconcile commit parent/file list on resume.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-08T05:46:32.048335+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "64ada5acd9a28ca1af5c3a6590e51317dc379551",
+    "branch": "experiment/dart-internal-trace",
+    "status": []
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-build-plan-v1/reports/build_plan.md",
+      "sha256": "d18566897280162496acd86cf9e866791a5915e25b74ab9ba6b2f165ab6c1a0b"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+---
+Previous checkpoint follows:
+
 # ABI reassessment — current checkpoint
 
 **PARTIAL evidence / mixed ABI UNRESOLVED / Stage B BLOCKED / risks undecided**.
