@@ -1,0 +1,184 @@
+[
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/01-dart-typed-entry.patch",
+    "sha256": "6970a30cfe4a4902954be6394a78074363ac4176a2066e40622047e312f88b5a",
+    "mode": "0o664",
+    "bytes": 5531,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/02-physics-wrapper-entry.patch",
+    "sha256": "bd434e3e11e0e4640985ce5bc8356ee272ab8c5d139682e415100c66b1ab0f5e",
+    "mode": "0o664",
+    "bytes": 2462,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/03-sim-prestep-go.patch",
+    "sha256": "7af32f06f905ed317923f65a6d59506bb595b677e0257a3a745cd1dd5f590575",
+    "mode": "0o664",
+    "bytes": 15013,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/CMakeLists.txt",
+    "sha256": "b5fa587ef164957fce8cdf1bda0aa4faf7bdc72759e17696864999c548887f9d",
+    "mode": "0o664",
+    "bytes": 1113,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/broker.py",
+    "sha256": "1606029d847eaf8e83a10765bafc4f7e381a6becc460b1d1b7a2ebac6d895c5a",
+    "mode": "0o664",
+    "bytes": 6363,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/compile_gate.py",
+    "sha256": "7446e7d3d4e6f542cf4a7b67c2997f7bd4f322593eb0054c6fe79f0e07f3489b",
+    "mode": "0o664",
+    "bytes": 2150,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/deny-target-exec.sh",
+    "sha256": "dc2c6175d0aa15bf94420a5d8bec6fdd699f76e83064a54f1aae92dd9265cd97",
+    "mode": "0o775",
+    "bytes": 95,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/export-targets.cmake",
+    "sha256": "5e420b49d33915d99de3ac199061afa1a66365b0d1c8d73091d798f1e915c342",
+    "mode": "0o664",
+    "bytes": 1286,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/fixture.hh",
+    "sha256": "4f6e9fec8b67b40db1fe8604cd8d59c54cae3933a68573439fd8369755536cca",
+    "mode": "0o664",
+    "bytes": 863,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/fixture.sdf.in",
+    "sha256": "c596f0c9344540a7ea47002451977b2a46ac5b20a75324b5672016f6aa8e7765",
+    "mode": "0o664",
+    "bytes": 793,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/harness.cc",
+    "sha256": "5af963058ff4f083329b6ab6dc6573cb9b32283531606a0269b9667b8ff4a473",
+    "mode": "0o664",
+    "bytes": 1916,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/install-selected.cmake",
+    "sha256": "488ee8849dae0b4b06bd5140f2c338e50ac810da96ec71b3326b0267281a652e",
+    "mode": "0o664",
+    "bytes": 3137,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/pkgconfig/bullet-float64.pc",
+    "sha256": "093dec9a5bc8c6a4050892a71d94baba21081b73e2c1e55e66e6413e06894af1",
+    "mode": "0o664",
+    "bytes": 489,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/pkgconfig/bullet.pc",
+    "sha256": "6861b4b1c07a602aae0f0d67d7444cbde391cb9202c07484c5d4d1f1304f3077",
+    "mode": "0o664",
+    "bytes": 432,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/pkgconfig/ccd.pc",
+    "sha256": "367c6b0b2c0b8d7ca4036fb0c94cd30c517f7ae234625939b730849ef642ecb3",
+    "mode": "0o664",
+    "bytes": 377,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/pkgconfig/console_bridge.pc",
+    "sha256": "47f6681ebb095eb65136e3757e78294fd85bd378fb89ccdbabbc761820c199d6",
+    "mode": "0o664",
+    "bytes": 362,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/pkgconfig/fcl.pc",
+    "sha256": "c9cc33e8b2abc9a85a47588f4ca892072309e521ba59b368f1518995b12a4a99",
+    "mode": "0o664",
+    "bytes": 370,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/pkgconfig/octomap.pc",
+    "sha256": "7fe547f21402df16df8021857ad2eba861f04865365e802e6cdbab12846eb2eb",
+    "mode": "0o664",
+    "bytes": 278,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/pkgconfig/ode.pc",
+    "sha256": "08ff848bbbdea0d5b26b7e38009a72514a1b1f4315652d9db5131a508faa1159",
+    "mode": "0o664",
+    "bytes": 337,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/pkgconfig/urdfdom.pc",
+    "sha256": "0496181b0660fdfe5ed2dffec5f9f202b0699df4eb47572f7fcb91734d6b5da8",
+    "mode": "0o664",
+    "bytes": 388,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/prepare_sources.py",
+    "sha256": "cab0d0fa10ceea1413ca3771402f01ba45aeb7e81f8ab1c794409b287ab96c86",
+    "mode": "0o664",
+    "bytes": 1946,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/probe.cc",
+    "sha256": "3e4f07c0d03211ab4aed07d7104defb16c33aa5d18222699d56612dfd1f3db7b",
+    "mode": "0o664",
+    "bytes": 3917,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/probe.hh",
+    "sha256": "9a17d5cbfbbb2b1d0c674e933c1c2ad43525fdbf051fb67721185802302b168f",
+    "mode": "0o664",
+    "bytes": 440,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/telemetry.hh",
+    "sha256": "0d93429080a2643702a93017aef0dee09023e6b3e8e5ab340e65d6f96259625b",
+    "mode": "0o664",
+    "bytes": 1538,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/toolchain.cmake",
+    "sha256": "12e4804f1f4da885063192ee0efff753458b9ec19afc61d9928b3fe615bbf7b2",
+    "mode": "0o664",
+    "bytes": 5938,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/inputs/verify_anchor.cc",
+    "sha256": "e1ef3269991593677f4bb20204005a438562f35b1a81310cc66b560d0d6768f6",
+    "mode": "0o664",
+    "bytes": 3136,
+    "status": "STATIC_INPUT_NOT_COMPILED_LOCAL_ONLY"
+  }
+]

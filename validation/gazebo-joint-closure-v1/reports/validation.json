@@ -1,0 +1,38 @@
+{
+  "starting_head": "0a0ff67dac42a3956fb64441741918cc2c8bd9e4",
+  "checks": {
+    "python_ast": "PASS",
+    "fixture_physical_subtree_unchanged": "PASS",
+    "git_apply_check": [
+      0,
+      0,
+      0
+    ],
+    "dart_distribution_then_instrumentation_in_memory": "PASS",
+    "original_source_input_hashes": "PASS",
+    "previous_independent_candidates_preserved": "PASS",
+    "main_HEAD_status_preserved": "PASS"
+  },
+  "not_performed": [
+    "source_tree_patch_application",
+    "CMake_configure",
+    "compile",
+    "link",
+    "DART_Gazebo_load_run",
+    "services",
+    "marker_consumption",
+    "sudo_install_system_changes"
+  ],
+  "input_files": 26,
+  "stage_b": "BLOCKED",
+  "risk_acceptance": "UNDECIDED",
+  "runtime_status": "NOT_RUNTIME_VERIFIED",
+  "build_entry": "READY_FOR_BUILD_STATIC_INPUT_GATE",
+  "remaining_two": {
+    "dependency_selection_staging": "RESOLVED",
+    "initialization_harness_static_inputs": "RESOLVED"
+  },
+  "direct_include_paths": 43,
+  "prior_independent_inputs_preserved": 18,
+  "negative_guards": "PASS_EXPECTED_REJECTION"
+}

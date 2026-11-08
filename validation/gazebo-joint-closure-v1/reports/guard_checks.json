@@ -1,0 +1,22 @@
+[
+  {
+    "argv": [
+      "python3",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/scripts/check_selection.py",
+      "probe"
+    ],
+    "expected": "BLOCKED_WITHOUT_CONFIGURE_OR_BUILD",
+    "returncode": 1,
+    "diagnostic": "BLOCKED: configure trace missing\n"
+  },
+  {
+    "argv": [
+      "python3",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/scripts/audit_outputs.py",
+      "probe"
+    ],
+    "expected": "BLOCKED_WITHOUT_CONFIGURE_OR_BUILD",
+    "returncode": 1,
+    "diagnostic": "BLOCKED missing/ambiguous output aero-joint-probe\n"
+  }
+]

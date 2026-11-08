@@ -1,0 +1,130 @@
+[
+  {
+    "patch": "validation/gazebo-joint-closure-v1/inputs/01-dart-typed-entry.patch",
+    "sha256": "6970a30cfe4a4902954be6394a78074363ac4176a2066e40622047e312f88b5a",
+    "inputs": [
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/CMakeLists.txt",
+        "sha256": "032b1da9781af4e8ea6890a190796d36770ca0f8ab9aaedaec3f941f5ebe2c59",
+        "candidate_sha256": "53b669fa32863cf3e8be14148c4e5661dd8259a5a8a9f728cb657d561a510f6f"
+      },
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/ode/OdeCollisionDetector.cpp",
+        "sha256": "b1c1eb748a255424ce3774b0def266ad73b6694b48a561765e40ebc2b7b489dd",
+        "candidate_sha256": "54cf4259b551b0fa305aa8619fda56908d3d167049e858d24b9a7b366d34dd33"
+      },
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/bullet/BulletCollisionDetector.cpp",
+        "sha256": "69b9cd30f1ff5ef4c47ee9e5cb632dc9799546f4bf3783230ac881bc6215c9bf",
+        "candidate_sha256": "4358a67253529e88abea9acfb81db867eb4d530da5bed256ad7f32368d584a63"
+      },
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/fcl/FCLCollisionDetector.cpp",
+        "sha256": "5c6ce56d29ac195c3673ba4513a5ff07ef634241948d1b7869e22469c40dcb37",
+        "candidate_sha256": "5760e6887cb24037ad1b365f3540138c2b9160ec1793aedf01e629aa47c9a5a9"
+      },
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/dart/DARTCollisionDetector.cpp",
+        "sha256": "5611041ef00298abce0479c4735a7f4a9dedc44b29cc9c5e6d3bbe982a1ab54e",
+        "candidate_sha256": "9d692a65eafe39a151a2ecb2f19937f21bd4f2779a29685eb3967d727d667377"
+      },
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/simulation/World.cpp",
+        "sha256": "a135de51fb0f5a3db33a2a2af8235cd724695728a8fd9727a20e5b9f74918c06",
+        "candidate_sha256": "5df142a7fe513adaafb9ffad314d529c22e698467c2ddb305eb8f77b442f76d8"
+      }
+    ],
+    "check_argv": [
+      "git",
+      "apply",
+      "--check",
+      "--directory=validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/inputs/01-dart-typed-entry.patch"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "patch": "validation/gazebo-joint-closure-v1/inputs/02-physics-wrapper-entry.patch",
+    "sha256": "bd434e3e11e0e4640985ce5bc8356ee272ab8c5d139682e415100c66b1ab0f5e",
+    "inputs": [
+      {
+        "path": "validation/gazebo-abi-reassessment-v1/work/extracted/upstream/gz-physics-7.8.0/CMakeLists.txt",
+        "sha256": "be8853d88cbfb191880d867dd7bdc68c1a062d5b207737be961bf2cb54de37e0",
+        "candidate_sha256": "0b3b29ce3ed20c1c36c4eb59a248944de377bec4073cfa04019b8cecf15a329c"
+      },
+      {
+        "path": "validation/gazebo-abi-reassessment-v1/work/extracted/upstream/gz-physics-7.8.0/dartsim/src/GzCollisionDetector.hh",
+        "sha256": "ab36eb9dfa7603bfbd26a677797850568621c31091bdb6e978276105dea4c545",
+        "candidate_sha256": "a248306f684e38ffde01f4b7382e108761bc04f6da555938468e43e7ac2ccca1"
+      },
+      {
+        "path": "validation/gazebo-abi-reassessment-v1/work/extracted/upstream/gz-physics-7.8.0/dartsim/src/CustomFeatures.cc",
+        "sha256": "23183e2cd977c507ee3fa7c454032f8cdcc53304168d2b7677a286ac336a6541",
+        "candidate_sha256": "5e25431a108b03ee448b0a1c452de93415c6a3f7a402c8732d234706f7447063"
+      }
+    ],
+    "check_argv": [
+      "git",
+      "apply",
+      "--check",
+      "--directory=validation/gazebo-abi-reassessment-v1/work/extracted/upstream/gz-physics-7.8.0",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/inputs/02-physics-wrapper-entry.patch"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "patch": "validation/gazebo-joint-closure-v1/inputs/03-sim-prestep-go.patch",
+    "sha256": "7af32f06f905ed317923f65a6d59506bb595b677e0257a3a745cd1dd5f590575",
+    "inputs": [
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/CMakeLists.txt",
+        "sha256": "ae0637b8ab2ef4532944785a0076c514e54af46d25907efecb9f6761fc91d59d",
+        "candidate_sha256": "54a1e50dc315c41134c409982c6b9fc7041867651d75d37debd704ced9b69094"
+      },
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/include/gz/sim/JointPrestep.hh",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "candidate_sha256": "32edc4aca379794bcb8ddceafaa1a98aba24d8d2a9c8a4ebf053831fa15782c6"
+      },
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/SimulationRunner.cc",
+        "sha256": "81f0c67cc18dbbd4e7e047d987b3ea0999851935467f8a7d74279e33a04f5fe9",
+        "candidate_sha256": "e68a654f583b74123d9a7f57b61b585dabbb38496de319423dcf38d3ffef13cc"
+      },
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/systems/physics/Physics.hh",
+        "sha256": "34acf8be55a25eabc29b52e892af0e520b1ee59cc7d49ab0398d9ac5f1dd58d1",
+        "candidate_sha256": "c1a87560376b1ac51da0b9f483864174972e37cd237f69ea04a65fcb9264d0fb"
+      },
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/systems/physics/Physics.cc",
+        "sha256": "5d5c404151f8ae4f7825c43c571dc151c79b9a587c69db35996d7cabbc4e76e1",
+        "candidate_sha256": "75b0ddc377e695fafbb35d8aab8e5f9a3bd6163ac7379cc5c0e588ab1029b994"
+      },
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/SystemManager.cc",
+        "sha256": "2cfc3bfdc84cbd715a613e6b2d2c0a42ffb9fc5040c2eeb425820f69450bfd1a",
+        "candidate_sha256": "7c66d5038758168f9ba100adf2102a1efd88d8d5b7f18f1b60895480a49df428"
+      },
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/systems/physics/CMakeLists.txt",
+        "sha256": "f11899941e6ff3ccdaaa37139e59849d9d4eeab07201c5e0c1111d062be25ef5",
+        "candidate_sha256": "79a699a18d975aea327e5ab887a99ebf95fe03d90e1a9e79550a0e11eb0d5836"
+      }
+    ],
+    "check_argv": [
+      "git",
+      "apply",
+      "--check",
+      "--directory=validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/inputs/03-sim-prestep-go.patch"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "current_authorization": "STATIC_ONLY; the following source application argv is NOT executed or authorized this turn",
+  "prepare_argv": [
+    "python3",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/inputs/prepare_sources.py",
+    "--prepare-and-apply-authorized"
+  ],
+  "sources": [
+    {
+      "component": "dart",
+      "archive": "validation/gazebo-source-materials-v1/work/downloads/dart.orig.tar.xz",
+      "sha256": "b900820b71463476463b9daeb31e81c74ebf59bd95139b7f833f5f6bb9b8058e",
+      "archive_root": "dart-6.13.2",
+      "patches": [
+        "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/disable-skeltest-for-armhf-mips-x86.patch",
+        "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/fix-test_ForceDependentSlip-armel.patch",
+        "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0001-respect-ldflags.patch",
+        "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0005-build-type-none.patch",
+        "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0002-use-system-gtest.patch",
+        "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0007-fix-ikfast.patch",
+        "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0004-fix-pkgconfig.patch",
+        "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0006-Reduce-test-result-accuracy-to-fix-i386.patch",
+        "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0013-Deaktivate-assert-failing-with-Bullet-3.24.patch",
+        "validation/gazebo-joint-closure-v1/inputs/01-dart-typed-entry.patch"
+      ],
+      "expected_modified_files": {
+        "CMakeLists.txt": "a4c16f8162d211bb3bf95353ae270e2f0eefec7a078f43bf5637e3faf179e31e",
+        "dart/collision/ode/OdeCollisionDetector.cpp": "54cf4259b551b0fa305aa8619fda56908d3d167049e858d24b9a7b366d34dd33",
+        "dart/collision/bullet/BulletCollisionDetector.cpp": "4358a67253529e88abea9acfb81db867eb4d530da5bed256ad7f32368d584a63",
+        "dart/collision/fcl/FCLCollisionDetector.cpp": "5760e6887cb24037ad1b365f3540138c2b9160ec1793aedf01e629aa47c9a5a9",
+        "dart/collision/dart/DARTCollisionDetector.cpp": "9d692a65eafe39a151a2ecb2f19937f21bd4f2779a29685eb3967d727d667377",
+        "dart/simulation/World.cpp": "5df142a7fe513adaafb9ffad314d529c22e698467c2ddb305eb8f77b442f76d8",
+        "unittests/integration/test_SkelParser.cpp": "2095d3705232d9bc13346d6dc87b10329c6b69dcc063839769febd621f0e0368",
+        "unittests/integration/test_ForceDependentSlip.cpp": "a4332aa1f7905af5bf02a25e8dd76ad13ddca5ca6c88f0974f9f63ae8b690d15",
+        "unittests/CMakeLists.txt": "93c25c62d894840f9fedeedce556759255896620679d1cff89fb66cb76cc09a6",
+        "unittests/integration/test_IkFast.cpp": "bf5059be8f57928818cd50c4eaa20f67358b8b6cd29b40d65fb233064c951918",
+        "cmake/dart.pc.in": "c8f50e9528869566147fe50451399cdf26fba1db77428286365c07241d7bfbb3",
+        "unittests/regression/test_Issue1445.cpp": "188d9e23ec8e372a04f414ab1e510e20d0c81b32b1a7b379cfe1532cede49ace",
+        "dart/constraint/ContactConstraint.cpp": "5364ee8f32ce392eb52368337e026c9324b059484dc1fa818ead0bbf4342a74d"
+      }
+    },
+    {
+      "component": "physics",
+      "archive": "validation/gazebo-abi-reassessment-v1/work/downloads/upstream-release.tar.bz2",
+      "sha256": "120b7ea6e1dd9c34515948de3c69ab5e27ab098e56379a3ef61a414c6e606927",
+      "archive_root": "gz-physics-7.8.0",
+      "patches": [
+        "validation/gazebo-joint-closure-v1/inputs/02-physics-wrapper-entry.patch"
+      ],
+      "expected_modified_files": {
+        "CMakeLists.txt": "0b3b29ce3ed20c1c36c4eb59a248944de377bec4073cfa04019b8cecf15a329c",
+        "dartsim/src/GzCollisionDetector.hh": "a248306f684e38ffde01f4b7382e108761bc04f6da555938468e43e7ac2ccca1",
+        "dartsim/src/CustomFeatures.cc": "5e25431a108b03ee448b0a1c452de93415c6a3f7a402c8732d234706f7447063"
+      }
+    },
+    {
+      "component": "sim",
+      "archive": "validation/gazebo-source-materials-v1/work/downloads/sim.orig.tar.bz2",
+      "sha256": "f457478cc8b319be148aa1e7a3bc14042c333c8881c1f92ea6d498344fea891d",
+      "archive_root": "gz-sim-8.15.0",
+      "patches": [
+        "validation/gazebo-joint-closure-v1/inputs/03-sim-prestep-go.patch"
+      ],
+      "expected_modified_files": {
+        "CMakeLists.txt": "54a1e50dc315c41134c409982c6b9fc7041867651d75d37debd704ced9b69094",
+        "include/gz/sim/JointPrestep.hh": "32edc4aca379794bcb8ddceafaa1a98aba24d8d2a9c8a4ebf053831fa15782c6",
+        "src/SimulationRunner.cc": "e68a654f583b74123d9a7f57b61b585dabbb38496de319423dcf38d3ffef13cc",
+        "src/systems/physics/Physics.hh": "c1a87560376b1ac51da0b9f483864174972e37cd237f69ea04a65fcb9264d0fb",
+        "src/systems/physics/Physics.cc": "75b0ddc377e695fafbb35d8aab8e5f9a3bd6163ac7379cc5c0e588ab1029b994",
+        "src/SystemManager.cc": "7c66d5038758168f9ba100adf2102a1efd88d8d5b7f18f1b60895480a49df428",
+        "src/systems/physics/CMakeLists.txt": "79a699a18d975aea327e5ab887a99ebf95fe03d90e1a9e79550a0e11eb0d5836"
+      }
+    }
+  ],
+  "patch_sha256": {
+    "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/disable-skeltest-for-armhf-mips-x86.patch": "3aae8b85cc07691dc4b6c0a3aa5c03b7687c79b3fb47527e6ee2cc5b0101edae",
+    "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/fix-test_ForceDependentSlip-armel.patch": "f36359fc1da9579e0b1926c76c09500abe81c7e394e988c9da1daa80bba54eab",
+    "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0001-respect-ldflags.patch": "2614dadae6c00540ae471f06204cc92730e9da8fe39f546f17422d1a43331a2a",
+    "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0005-build-type-none.patch": "feb2d5c9ec84ed84f841ae17ec9a7db360746c5bf8c1ab08fdae3514d72aa3cd",
+    "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0002-use-system-gtest.patch": "5257806f7368648c3d93fe04ab7bd70c789824d32f41e3633ba9965bad236531",
+    "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0007-fix-ikfast.patch": "1b84e3b189837e49ffc15a886cbfe2fee986b7ab6adc3e91b21398976a1b0e0d",
+    "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0004-fix-pkgconfig.patch": "60c7c1b0d51b97bf3360f00a6af720ea4991920aaaa4bc61cd2e01e3a7280f93",
+    "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0006-Reduce-test-result-accuracy-to-fix-i386.patch": "1e4de1d4dc79f02e2bccc495190c2fcde84ec431403f5c282860e6457a48ed9b",
+    "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0013-Deaktivate-assert-failing-with-Bullet-3.24.patch": "13afd5b12ff1729156b3157d06140671a6a4097bbd46a547370dfb857cba0ba3",
+    "validation/gazebo-joint-closure-v1/inputs/01-dart-typed-entry.patch": "6970a30cfe4a4902954be6394a78074363ac4176a2066e40622047e312f88b5a",
+    "validation/gazebo-joint-closure-v1/inputs/02-physics-wrapper-entry.patch": "bd434e3e11e0e4640985ce5bc8356ee272ab8c5d139682e415100c66b1ab0f5e",
+    "validation/gazebo-joint-closure-v1/inputs/03-sim-prestep-go.patch": "7af32f06f905ed317923f65a6d59506bb595b677e0257a3a745cd1dd5f590575"
+  }
+}

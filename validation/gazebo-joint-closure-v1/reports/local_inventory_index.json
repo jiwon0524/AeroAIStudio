@@ -1,0 +1,26 @@
+[
+  {
+    "path": "validation/gazebo-joint-closure-v1/work/dependency_files.json",
+    "sha256": "244b5d66bf547c1ee720366b4a6c3bf005389fcb112c1ed7d7af81beb6d70b58",
+    "bytes": 8608932,
+    "publication": "LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/work/selected_files.json",
+    "sha256": "b7dcb3958abfc52901df7878b418f56e806702373543d0ba6b00a5b971d3ced7",
+    "bytes": 9016156,
+    "publication": "LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/reports/import_graph.json",
+    "sha256": "bba8787a450617b4f82713d132cc538377c67acbd7fd9cb06b898b153c7ede52",
+    "bytes": 559672,
+    "publication": "LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/reports/elf_graph.json",
+    "sha256": "0c54ed915c5645de052d49436b09ac79dfd65196e241cec63a7416c87243032b",
+    "bytes": 803635,
+    "publication": "LOCAL_ONLY"
+  }
+]

@@ -1,0 +1,228 @@
+[
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/SimulationRunner.cc",
+    "sha256": "81f0c67cc18dbbd4e7e047d987b3ea0999851935467f8a7d74279e33a04f5fe9",
+    "locations": {
+      "SimulationRunner::Run(": [
+        761
+      ],
+      "SimulationRunner::UpdateCurrentInfo(": [
+        366
+      ],
+      "SimulationRunner::Step(": [
+        1014
+      ],
+      "SimulationRunner::CreateEntities(": [
+        1703
+      ]
+    }
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/SystemManager.cc",
+    "sha256": "2cfc3bfdc84cbd715a613e6b2d2c0a42ffb9fc5040c2eeb425820f69450bfd1a",
+    "locations": {
+      "SystemManager::ActivatePendingSystems(": [
+        105
+      ],
+      "SystemManager::AddSystemImpl(": [
+        261
+      ]
+    }
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/systems/physics/Physics.cc",
+    "sha256": "5d5c404151f8ae4f7825c43c571dc151c79b9a587c69db35996d7cabbc4e76e1",
+    "locations": {
+      "PhysicsPrivate::CreatePhysicsEntities(": [
+        1075
+      ],
+      "PhysicsPrivate::CreateWorldEntities(": [
+        1092
+      ],
+      "PhysicsPrivate::CreateModelEntities(": [
+        1213
+      ],
+      "PhysicsPrivate::CreateLinkEntities(": [
+        1373
+      ],
+      "PhysicsPrivate::CreateCollisionEntities(": [
+        1496
+      ],
+      "PhysicsPrivate::CreateJointEntities(": [
+        1787
+      ],
+      "PhysicsPrivate::CreateBatteryEntities(": [
+        2094
+      ],
+      "PhysicsPrivate::ResetPhysics(": [
+        3192
+      ],
+      "Physics::Update(": [
+        1038
+      ]
+    }
+  },
+  {
+    "path": "validation/gazebo-abi-reassessment-v1/work/extracted/upstream/gz-physics-7.8.0/dartsim/src/SDFFeatures.cc",
+    "sha256": "ef9b59f646ad99020ffc53de0c73984c63c743f5e1fb1ecb6f55fba66915d39e",
+    "locations": {
+      "SDFFeatures::ConstructSdfWorld(": [
+        489
+      ],
+      "SDFFeatures::ConstructSdfModelImpl(": [
+        554
+      ],
+      "SDFFeatures::ConstructSdfLink(": [
+        653
+      ],
+      "SDFFeatures::ConstructSdfCollision(": [
+        847
+      ],
+      "ConstructGeometry(": [
+        339,
+        858,
+        997
+      ]
+    }
+  },
+  {
+    "path": "validation/gazebo-abi-reassessment-v1/work/extracted/upstream/gz-physics-7.8.0/dartsim/src/EntityManagementFeatures.cc",
+    "sha256": "db63fd480ae913992cfcf69677fdb478f3d6f403add08c5a1bd841aab2f589bf",
+    "locations": {
+      "EntityManagementFeatures::ConstructEmptyWorld(": [
+        763
+      ]
+    }
+  },
+  {
+    "path": "validation/gazebo-abi-reassessment-v1/work/extracted/upstream/gz-physics-7.8.0/dartsim/src/Base.hh",
+    "sha256": "46acb295d30a860efdd14bee35e6addddb8bfea5c218a645c525781db399e906",
+    "locations": {
+      "AddWorld(": [
+        302
+      ],
+      "AddModel(": [
+        320
+      ]
+    }
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/simulation/World.cpp",
+    "sha256": "a135de51fb0f5a3db33a2a2af8235cd724695728a8fd9727a20e5b9f74918c06",
+    "locations": {
+      "World::World(": [
+        62
+      ],
+      "World::addSkeleton(": [
+        295
+      ],
+      "World::setConstraintSolver(": [
+        563
+      ],
+      "World::step(": [
+        167
+      ]
+    }
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/constraint/ConstraintSolver.cpp",
+    "sha256": "679e625f1ceaa09d870195234c9116baad7a876bd17422dd799e1f382aa61667",
+    "locations": {
+      "ConstraintSolver::ConstraintSolver(": [
+        64,
+        84
+      ],
+      "ConstraintSolver::addSkeleton(": [
+        102
+      ],
+      "ConstraintSolver::setCollisionDetector(": [
+        266,
+        274
+      ]
+    }
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/detail/CollisionGroup.hpp",
+    "sha256": "78bcae5449c91f869940c2412e9d0bb02c028c89d4c55b96d36456360e0269fb",
+    "locations": {
+      "void CollisionGroup::subscribeTo(": [
+        111,
+        132
+      ]
+    }
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/ode/OdeCollisionDetector.cpp",
+    "sha256": "b1c1eb748a255424ce3774b0def266ad73b6694b48a561765e40ebc2b7b489dd",
+    "locations": {
+      "OdeCollisionDetector::OdeCollisionDetector(": [
+        216
+      ],
+      "OdeCollisionDetector::collide(": [
+        151,
+        168
+      ]
+    }
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/ode/OdeCollisionGroup.cpp",
+    "sha256": "85825dada34760e3d5fd2b43e80fa091867b631830a9285d365644fa7a11aa5d",
+    "locations": {
+      "OdeCollisionGroup::OdeCollisionGroup(": [
+        41
+      ]
+    }
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/fcl/FCLCollisionDetector.cpp",
+    "sha256": "5c6ce56d29ac195c3673ba4513a5ff07ef634241948d1b7869e22469c40dcb37",
+    "locations": {
+      "FCLCollisionDetector::FCLCollisionDetector(": [
+        834
+      ]
+    }
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/fcl/FCLCollisionGroup.cpp",
+    "sha256": "5058d2ee40e20d847b038b2fe0dd2e7f087e9ed0c17e447b93a9af6632487567",
+    "locations": {
+      "FCLCollisionGroup::FCLCollisionGroup(": [
+        42
+      ]
+    }
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/constraint/BoxedLcpConstraintSolver.cpp",
+    "sha256": "38ec5eccfe9bf05112647affdf06e2461e879a03e0f42c97d442e16eaf6d66f1",
+    "locations": {
+      "BoxedLcpConstraintSolver::BoxedLcpConstraintSolver(": [
+        52,
+        63,
+        70,
+        79
+      ]
+    }
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/dynamics/detail/Skeleton.hpp",
+    "sha256": "195b66e150991a4d9bc87cc1d0ab14cc4ff93d73ea83b665c70005d2add104bc",
+    "locations": {
+      "Skeleton::createJointAndBodyNodePair(": [
+        77
+      ]
+    }
+  },
+  {
+    "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/dynamics/Frame.hpp",
+    "sha256": "72edbcda5a3559dd81ac714428e96271a24809127f545a0dace62aea89b8b1c0",
+    "locations": {
+      "getLinearVelocity(": [
+        127,
+        134
+      ],
+      "getAngularVelocity(": [
+        141
+      ]
+    }
+  }
+]

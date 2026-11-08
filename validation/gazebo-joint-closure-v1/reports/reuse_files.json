@@ -1,0 +1,26 @@
+[
+  {
+    "path": "validation/gazebo-minimal-physics-v1/scripts/gate.py",
+    "sha256": "d10cf112b5dd587e0bb831ca734773ab63841549707a4d353b14ddbb4e4d915a"
+  },
+  {
+    "path": "validation/dart-probe-a-harness-v1/scripts/mapped.py",
+    "sha256": "e136dfcb552cd03a90166459f483e5cee20125c8b4def31ea8c13d61f14a6dc6"
+  },
+  {
+    "path": "validation/dart-probe-a-harness-v1/scripts/identity.py",
+    "sha256": "2cd0a79749a0825156e85433960066df08c37c28d5adcb7319a0a6f50f5ad7f4"
+  },
+  {
+    "path": "validation/gazebo-minimal-physics-v1/fixtures/minimal.sdf",
+    "sha256": "d00ecdde42ee775dc04421e4e46d767811005cde88ae5100d10b2f088940be8e"
+  },
+  {
+    "path": "validation/gazebo-minimal-physics-v1/scripts/runtime_layout.py",
+    "sha256": "f3d099021a91599df32e7257c58f138b7983b7653c75dc601de6a52432e828bd"
+  },
+  {
+    "path": "validation/gazebo-joint-inputs-v1/scripts/make_elf_allowlist.py",
+    "sha256": "c3e77398097b69431fe32020685733e31170b7547690ddea1708c29acd6b47c1"
+  }
+]

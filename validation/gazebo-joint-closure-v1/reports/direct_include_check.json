@@ -1,0 +1,303 @@
+[
+  {
+    "include": "World.hh",
+    "candidate_paths": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-abi-reassessment-v1/work/extracted/upstream/gz-physics-7.8.0/dartsim/src/World.hh"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "atomic",
+    "candidate_paths": [
+      "/usr/include/c++/13/atomic"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "chrono",
+    "candidate_paths": [
+      "/usr/include/c++/13/chrono"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "cmath",
+    "candidate_paths": [
+      "/usr/include/c++/13/cmath"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "cstddef",
+    "candidate_paths": [
+      "/usr/include/c++/13/cstddef"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "cstdint",
+    "candidate_paths": [
+      "/usr/include/c++/13/cstdint"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "cstdio",
+    "candidate_paths": [
+      "/usr/include/c++/13/cstdio"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "cstdlib",
+    "candidate_paths": [
+      "/usr/include/c++/13/cstdlib"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "cstring",
+    "candidate_paths": [
+      "/usr/include/c++/13/cstring"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "dart/collision/CollisionDetector.hpp",
+    "candidate_paths": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/CollisionDetector.hpp"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "dart/constraint/ConstraintSolver.hpp",
+    "candidate_paths": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/constraint/ConstraintSolver.hpp"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "dart/dynamics/BodyNode.hpp",
+    "candidate_paths": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/dynamics/BodyNode.hpp"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "dart/dynamics/Skeleton.hpp",
+    "candidate_paths": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/dynamics/Skeleton.hpp"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "dart/simulation/World.hpp",
+    "candidate_paths": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/simulation/World.hpp"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "dlfcn.h",
+    "candidate_paths": [
+      "/usr/include/dlfcn.h"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "fcntl.h",
+    "candidate_paths": [
+      "/usr/include/fcntl.h"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "filesystem",
+    "candidate_paths": [
+      "/usr/include/c++/13/filesystem"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "fixture.hh",
+    "candidate_paths": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/inputs/fixture.hh"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "fstream",
+    "candidate_paths": [
+      "/usr/include/c++/13/fstream"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "gz/sim/EntityComponentManager.hh",
+    "candidate_paths": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/include/gz/sim/EntityComponentManager.hh"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "gz/sim/JointPrestep.hh",
+    "candidate_paths": [],
+    "new_source_patch_header": true
+  },
+  {
+    "include": "gz/sim/Server.hh",
+    "candidate_paths": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/include/gz/sim/Server.hh"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "gz/sim/ServerConfig.hh",
+    "candidate_paths": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/include/gz/sim/ServerConfig.hh"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "gz/sim/System.hh",
+    "candidate_paths": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/include/gz/sim/System.hh"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "gz/sim/Types.hh",
+    "candidate_paths": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/include/gz/sim/Types.hh"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "gz/sim/Util.hh",
+    "candidate_paths": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/include/gz/sim/Util.hh"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "gz/sim/components/LinearVelocity.hh",
+    "candidate_paths": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/include/gz/sim/components/LinearVelocity.hh"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "iomanip",
+    "candidate_paths": [
+      "/usr/include/c++/13/iomanip"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "iostream",
+    "candidate_paths": [
+      "/usr/include/c++/13/iostream"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "mutex",
+    "candidate_paths": [
+      "/usr/include/c++/13/mutex"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "openssl/evp.h",
+    "candidate_paths": [
+      "/usr/include/openssl/evp.h"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "poll.h",
+    "candidate_paths": [
+      "/usr/include/poll.h"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "probe.hh",
+    "candidate_paths": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/inputs/probe.hh"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "set",
+    "candidate_paths": [
+      "/usr/include/c++/13/set"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "sstream",
+    "candidate_paths": [
+      "/usr/include/c++/13/sstream"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "stdexcept",
+    "candidate_paths": [
+      "/usr/include/c++/13/stdexcept"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "string",
+    "candidate_paths": [
+      "/usr/include/c++/13/string"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "sys/stat.h",
+    "candidate_paths": [
+      "/usr/include/sys/stat.h",
+      "/usr/include/x86_64-linux-gnu/sys/stat.h"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "sys/sysmacros.h",
+    "candidate_paths": [
+      "/usr/include/sys/sysmacros.h",
+      "/usr/include/x86_64-linux-gnu/sys/sysmacros.h"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "telemetry.hh",
+    "candidate_paths": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/inputs/telemetry.hh"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "thread",
+    "candidate_paths": [
+      "/usr/include/c++/13/thread"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "unistd.h",
+    "candidate_paths": [
+      "/usr/include/unistd.h"
+    ],
+    "new_source_patch_header": false
+  },
+  {
+    "include": "vector",
+    "candidate_paths": [
+      "/usr/include/c++/13/vector"
+    ],
+    "new_source_patch_header": false
+  }
+]

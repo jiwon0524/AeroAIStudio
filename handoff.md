@@ -1,3 +1,49 @@
+# Joint build final input closure — current checkpoint
+
+**READY_FOR_BUILD (static inputs only); NOT_EXECUTION_READY / NOT_RUNTIME_VERIFIED. Stage B BLOCKED. Risk acceptance UNDECIDED.**
+2026-11-08 UTC. Direct starting HEAD0a0ff67dac42a3956fb64441741918cc2c8bd9e4/experiment/dart-internal-trace clean. context-handoff and required AGENTS/DEVELOPMENT_RULES/handoff/input_gate/build_plan read. Scope: isolated layout preparation, independent patch/harness edits, static comparison ONLY. No source-tree patch application, CMake configure, compilation/linking, DART/Gazebo load/run, service, marker consumption, sudo/install/system/main change.
+
+Current evidence: validation/gazebo-joint-closure-v1/reports/build_gate.md and initialization_review.md. Both requested input gates RESOLVED within fixed one-box fixture/static scope. Exact future argv/component-only staging: build_commands.json/txt. source_plan.json pins archives,9 distribution patches,3 independent patches,application order and expected post-source digests. Future application/configure/build commands have not been executed or authorized this turn; actual CMake selection is a rejecting next-stage gate, not an observed PASS.
+
+Reused18 packages, ODE/Bullet pairing and old toolchain. Static inventory:28 dev/tool roots,706 package versions,34112 relevant file entries,1623 CMake configs,1261 ELF candidates; missing roots/forbidden stack/unresolved needed0. Raw graphs/selected-files inventory local, package_lock.tsv/dependency_summary/local_inventory_index link them. Original extraction remains preserved; new work/deps is hash-verified copy. No new download. Conditional CMake/import target selection requires future trace/property guard. Prepared compiler-header and ELF/staging receipt guards were not run on real compiler/output artifacts.
+
+Independent26 local inputs under validation/gazebo-joint-closure-v1/inputs, SHA/mode in input_files.json. Three git apply --check PASS. Ordered9 distribution then newDART patch RAM exact-context PASS with CRLF preserved; no patched source tree written.43 direct added includes checked. Python AST and fixture physical subtree equality PASS. Negative guards reject absent configure/output as expected. Checked source inputs/prior18 independent candidate hashes and main HEAD/status preserved. Previous archive/toolchain investigations reused, not rerun as new runtime results.
+
+Source candidates fix omitted control/time-update guards, nativeWorld/collide guards, active engine/wrapper/base typed entries and mapping anchors, same world/solver/detector/native zero checks, FIFO GO and100x1ms/sample counters. Added native references release before engine/plugin owner teardown. Existing minimal fixture physics and Gate/validate_run/mapped/identity code reused without threshold changes; source-level call review is limited to that scene. Broker binds an existing separately-authorized supervisor, never launches services/processes or accepts risk; old capability/contract values not promoted. Actual ABI/no-step/concurrency/destructor/allocator behavior still not runtime verified and later results apply only to this coherent manifest.
+
+Publish only verified lightweight reports/static investigation scripts. Uncompiled inputs/emitters/future builders and large graphs remain ignored/local. Git does not transfer them; /tmp is not durable. Another device/account needs original workspace or explicit transfer. Same-user project-CWD snapshot empty; external CWD/remote/container UNKNOWN. No existing task stopped/restarted.
+
+Next minimum after explicit source/application/build authorization: verify fixed hashes, prepare a fresh source tree, configure then rejecting selection guard; compile/link then ELF guard; selected-component stage/receipt per phase. Stop on mismatches/missing targets/unresolved expressions and never fall back to installed DART/Sim/physics or broaden automatically. Loading/execution/services/markers/Stage B remain separately prohibited. Current task ends after report/publication. Snapshot is pre-publication; reconcile actual commit parent/file list/remote on resume.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-08T07:03:04.419333+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "0a0ff67dac42a3956fb64441741918cc2c8bd9e4",
+    "branch": "experiment/dart-internal-trace",
+    "status": []
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-closure-v1/reports/build_gate.md",
+      "sha256": "84029930e815d3fba19d5108a8fcde7536f069968068bd05fd1c522a00cda5a3"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+---
+Previous checkpoint follows:
+
 # Joint build missing inputs — current checkpoint
 
 **Build input gate BLOCKED; Stage B BLOCKED; risk acceptance undecided; NOT_RUNTIME_VERIFIED.**
