@@ -1,3 +1,59 @@
+# Gazebo isolation resolution — current checkpoint
+
+Observed 2026-11-08T15:05:43.870949+00:00. Starting HEAD9825dc6fd8479fe880c668bf6a6ee1e3490e1961, experiment/dart-internal-trace; no tracked/staged changes, root dangling symlink preserved. context-handoff used; required AGENTS/rules/handoff/implementation_result/ordered argv and preceding review read. Current user permitted static source/resource/ACK work plus exactly ONE harmless systemd→bwrap→FD-shim service, explicitly no real DART/Gazebo/harness/steps.
+
+**ACK_BOUNDARY_PREPARED_BUILT / HARMLESS_END_TO_END_PASS_ONCE / DYNAMIC_RESOURCE_PARTIAL_BLOCKED / ACTUAL_RUNTIME_UNVERIFIED. Stage B BLOCKED; risk acceptance UNDECIDED.**
+
+Primary report validation/gazebo-joint-resolution-v1/reports/resolution_result.md; resources.json, ack_contract.json, harmless_summary.json/harmless_packets.json, actual_plan.json/actual_argv.json, execution_binding.json, actual_preflight.json. Prior phase reports and artifacts remain unchanged.
+
+Dynamic scope: world1.10 has no external URI/include/mesh; explicit empty server config pins environment-first return and prevents HOME/installed-config copy. Source lookup hashes/lines and search order recorded. Selected sdformat config.hh is protocol1.11; added129 1.11 schema/conversion files (including1_10.convert), package/control md5/SHA checked,135 filename include edges close. Original125 1.10 files unchanged. Actual FD plan now575 RO file mounts/428 backing FDs. Internal parser/Fuel/transport file attempts and silent fallback lack complete attestation; one remaining DYNAMIC_RESOURCE_CLOSURE_UNVERIFIED blocker. No broad directory/network/HOME fallback allowed. Need reviewed source-complete/access-collector scope, not exit0 acceptance.
+
+Native termination race: separate harness_ack.cc + shared exit_ack.h built without executing; Server remains alive after100samples while final_wait waits5000ms for distinct EXIT_ACK newline on FD3. GO and ACK are separate/latch-once. Parent validates same PID/start live maps before ACK, then EOF/exit0/no101st sample. New harness work/aero-joint-harness-ack SHA23f5cfb408c12eff76e560101888f5c8437acf5b584b677f82235383c4c5c88b, Build IDfcb6eae9c2dc758795e8784b2ac36fdd4734e99d. DT_NEEDED and RUNPATH match original successful harness; no RPATH. Original harness SHAbd7ce6480b15debab915a69cd9e9a429b92c066063cd31882666617c0a0b3d5a preserved. No stack rebuild or real harness load/run. Static/mock ACK cases12 PASS; actual DART hold/lifetime/physics behavior unexecuted.
+
+**The authorized harmless service has been CONSUMED successfully; DO NOT rerun it automatically.** Unit aero-joint-resolution-fixture-v1-35d7e67821f34abebe48e8cd2521cf5e.service, InvocationID7efafe4455bc4cf78e63113deb75e418. Fixture native PID299920/start34454704: same before GO/final maps. Harmless SHAd990c57e67b8cccc83625aeaa2d34d5e0f75d6de78e581c97abac85b2ee4d88b, libc-only; loaded maps were harmless+libc+interpreter only. Same FD3/4 bridge, namespace/RO mount/cgroup/rlimit checks, one GO and one EXIT_ACK,100 synthetic fixture packets, EOF both/exit0 passed. Physical steps0. Unit not-found/cgroup gone, remaining saved PID-start identities0, controller diff0, original integrity PASS; no owned stop or retry. Runtime1.740137s supervisor scope. Applicability is isolation/collection path only, not actual stack/resource/physics.
+
+Consumed test markers: new phase work/harmless_collection_attempt.json and work/harmless_attempt.json, raw outputs reports/harmless_runtime/ and reports/harmless_integrity.json preserved locally/ignored. Lightweight mapped/namespace/cgroup/pipe/EOF/cleanup summaries and parsed packets published. Marker files do not transfer via Git: absence on another account/device is NOT permission to repeat this one-shot.
+
+Executed code and harmless plan remain byte-identical. executed_source_pin.json preserves the execution seal; current source_pin.json includes later actual-resource metadata/helper. execution_binding.json distinguishes only actual_plan/actual_argv/resources metadata changes plus resource-only new preparation script; no rerun after resource expansion. Source/plan pins and binaries are path/inode bound. Original main HEAD/status/dirty hashes, old9 fixed input/logs,170 old ELFs/13 receipt pairs and dangling-link identity rechecked. All old source/evidence/markers retained. Actual runtime output/marker paths absent, actual preflight exits78 before manager/marker/service. No actual approval proposal while resource blocker remains; no risk acceptance/comparison/trace-neutrality exemption inferred.
+
+All launched work completed; no process needs resuming. Project-CWD visibility is limited; external-CWD/remote/container work UNKNOWN. Only the explicitly authorized harmless unit was started; no sudo/install/system configuration change or existing-process termination. Current scope ends after verified checkpoint publication on experiment branch only. Next minimum: separately scope the remaining dynamic-access attestation; no automatic real execution or second harmless service. Stage B remains BLOCKED, risk UNDECIDED, actual runtime UNVERIFIED. Any future actual evidence belongs only to this joint instrumented configuration.
+
+Raw logs, markers, new/old binaries and build/prefix trees remain local/ignored under /tmp, not durable or transferred by Git. Snapshot is pre-publication; reconcile subsequent commit parent/list and local publication receipt. No main/merge/force push.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-08T15:05:43.855408+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "9825dc6fd8479fe880c668bf6a6ee1e3490e1961",
+    "branch": "experiment/dart-internal-trace",
+    "status": [
+      {
+        "status": "??",
+        "path": "libgz-physics-dartsim-plugin.so"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-resolution-v1/reports/resolution_result.md",
+      "sha256": "256d22cc659eb44387dc12907e67d80005f42405af3df72e70a4e43f3887f6c3"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+---
+Previous checkpoint follows:
+
 # Joint-build isolated execution path — current checkpoint
 
 2026-11-08 UTC. Starting HEAD2797bb1cb55b9dbc93f35b24e0f0d6e50585f74e, experiment/dart-internal-trace, no tracked/staged changes; original untracked dangling root link preserved. Current user authorizes implementation and static/mock validation only. Required instructions/rules/handoff/proposal/build manifest and preceding conversation review reconciled; context-handoff used.

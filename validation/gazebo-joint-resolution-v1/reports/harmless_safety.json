@@ -1,0 +1,11 @@
+{
+  "status": "PASS_LIBC_ONLY_STATIC",
+  "exe": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-resolution-v1/work/harmless",
+  "sha256": "d990c57e67b8cccc83625aeaa2d34d5e0f75d6de78e581c97abac85b2ee4d88b",
+  "DT_NEEDED": [
+    "libc.so.6"
+  ],
+  "undefined_symbols": "                 w _ITM_deregisterTMCloneTable\n                 w _ITM_registerTMCloneTable\n                 w __cxa_finalize@GLIBC_2.2.5\n                 U __dprintf_chk@GLIBC_2.8\n                 U __errno_location@GLIBC_2.2.5\n                 w __gmon_start__\n                 U __libc_start_main@GLIBC_2.34\n                 U __stack_chk_fail@GLIBC_2.4\n                 U clock_gettime@GLIBC_2.17\n                 U fstat@GLIBC_2.33\n                 U poll@GLIBC_2.2.5\n                 U read@GLIBC_2.2.5\n                 U strlen@GLIBC_2.2.5\n",
+  "exec_path": "systemd-run -> pinned Python stage -> bwrap -> original libc-only fd_bridge -> libc-only harmless; no GZ/DART mount",
+  "claim": "static safety, not an execution result"
+}

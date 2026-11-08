@@ -1,0 +1,261 @@
+{
+  "status": "PASS_ISOLATION_PATH_ONLY",
+  "unit": "aero-joint-resolution-fixture-v1-35d7e67821f34abebe48e8cd2521cf5e.service",
+  "saved_unit": {
+    "TimeoutStopUSec": "2s",
+    "RuntimeMaxUSec": "30s",
+    "MainPID": "299915",
+    "Result": "success",
+    "ExecMainCode": "0",
+    "ExecMainStatus": "0",
+    "ControlGroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/aero-joint-resolution-fixture-v1-35d7e67821f34abebe48e8cd2521cf5e.service",
+    "CPUQuotaPerSecUSec": "1s",
+    "CPUQuotaPeriodUSec": "100ms",
+    "MemoryMax": "536870912",
+    "MemorySwapMax": "0",
+    "TasksMax": "64",
+    "KillMode": "control-group",
+    "Id": "aero-joint-resolution-fixture-v1-35d7e67821f34abebe48e8cd2521cf5e.service",
+    "LoadState": "loaded",
+    "ActiveState": "active",
+    "SubState": "running",
+    "Transient": "yes",
+    "InvocationID": "7efafe4455bc4cf78e63113deb75e418"
+  },
+  "final_unit": {
+    "TimeoutStopUSec": "1min 30s",
+    "RuntimeMaxUSec": "infinity",
+    "MainPID": "0",
+    "Result": "success",
+    "ExecMainCode": "0",
+    "ExecMainStatus": "0",
+    "ControlGroup": "",
+    "CPUQuotaPerSecUSec": "infinity",
+    "CPUQuotaPeriodUSec": "infinity",
+    "MemoryMax": "infinity",
+    "MemorySwapMax": "infinity",
+    "TasksMax": "34727",
+    "KillMode": "control-group",
+    "Id": "aero-joint-resolution-fixture-v1-35d7e67821f34abebe48e8cd2521cf5e.service",
+    "LoadState": "not-found",
+    "ActiveState": "inactive",
+    "SubState": "dead",
+    "Transient": "no",
+    "InvocationID": ""
+  },
+  "go_sent": true,
+  "exit_ack_sent": true,
+  "returncode": 0,
+  "cleanup": true,
+  "cleanup_visibility_unknown": false,
+  "original_integrity": true,
+  "remaining": [],
+  "controller_diff": [],
+  "cgroup_removed": true,
+  "elapsed_seconds": 1.7401373679749668,
+  "control_tokens": [
+    "GO\n",
+    "EXIT_ACK\n"
+  ],
+  "stdout_eof": true,
+  "stderr_eof": true,
+  "stream_bytes": {
+    "stdout": 6556,
+    "stderr": 310
+  },
+  "physical_steps": 0,
+  "sample_count": 100,
+  "live_pid": 299920,
+  "live_start": "34454704",
+  "pre_GO_mapping": {
+    "pid": 299920,
+    "status": "PASS_FILE_IDENTITY",
+    "records": [
+      {
+        "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-resolution-v1/work/harmless",
+        "device": 66309,
+        "inode": 4601247,
+        "range": "5d2214610000-5d2214611000",
+        "map_files_link": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-resolution-v1/work/harmless",
+        "map_files_open": "UNAVAILABLE",
+        "map_files_errno": 1,
+        "fallback": "proc_root_fd",
+        "identity": {
+          "sha256": "d990c57e67b8cccc83625aeaa2d34d5e0f75d6de78e581c97abac85b2ee4d88b",
+          "build_id": "faa57403dfc82c789738c2cdf651416c4aac3a5b",
+          "device": 66309,
+          "inode": 4601247,
+          "size": 16336,
+          "mtime_ns": 1794148550697668866,
+          "ctime_ns": 1794148550697684203
+        }
+      },
+      {
+        "path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "device": 66309,
+        "inode": 8153876,
+        "range": "7b346f800000-7b346f828000",
+        "map_files_link": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "map_files_open": "UNAVAILABLE",
+        "map_files_errno": 1,
+        "fallback": "proc_root_fd",
+        "identity": {
+          "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf",
+          "build_id": "a4a7992a8e66555c8141ab2a08a8465ff6e0ea65",
+          "device": 66309,
+          "inode": 8153876,
+          "size": 2129424,
+          "mtime_ns": 1788444912000000000,
+          "ctime_ns": 1789650809357119313
+        }
+      },
+      {
+        "path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+        "device": 66309,
+        "inode": 8153674,
+        "range": "7b346fa6d000-7b346fa6e000",
+        "map_files_link": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+        "map_files_open": "UNAVAILABLE",
+        "map_files_errno": 1,
+        "fallback": "proc_root_fd",
+        "identity": {
+          "sha256": "c20a2dc8917c755f02b94049356320fe1f62ac7d9f8994731f807d9df39302da",
+          "build_id": "0d77dbd4379bf0b5af3e05be7fb6af1e4cea7c96",
+          "device": 66309,
+          "inode": 8153674,
+          "size": 236616,
+          "mtime_ns": 1788444912000000000,
+          "ctime_ns": 1789650808877554027
+        }
+      }
+    ],
+    "map_files_status": "UNAVAILABLE",
+    "method": "map_files FD preferred; /proc/PID/root FD metadata fallback, never bare host path",
+    "limits": "file identity at bounded snapshots, not private relocated/COW memory equality or initialization safety",
+    "start": "34454704",
+    "all_required": true
+  },
+  "final_mapping": {
+    "pid": 299920,
+    "status": "PASS_FILE_IDENTITY",
+    "records": [
+      {
+        "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-resolution-v1/work/harmless",
+        "device": 66309,
+        "inode": 4601247,
+        "range": "5d2214610000-5d2214611000",
+        "map_files_link": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-resolution-v1/work/harmless",
+        "map_files_open": "UNAVAILABLE",
+        "map_files_errno": 1,
+        "fallback": "proc_root_fd",
+        "identity": {
+          "sha256": "d990c57e67b8cccc83625aeaa2d34d5e0f75d6de78e581c97abac85b2ee4d88b",
+          "build_id": "faa57403dfc82c789738c2cdf651416c4aac3a5b",
+          "device": 66309,
+          "inode": 4601247,
+          "size": 16336,
+          "mtime_ns": 1794148550697668866,
+          "ctime_ns": 1794148550697684203
+        }
+      },
+      {
+        "path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "device": 66309,
+        "inode": 8153876,
+        "range": "7b346f800000-7b346f828000",
+        "map_files_link": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "map_files_open": "UNAVAILABLE",
+        "map_files_errno": 1,
+        "fallback": "proc_root_fd",
+        "identity": {
+          "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf",
+          "build_id": "a4a7992a8e66555c8141ab2a08a8465ff6e0ea65",
+          "device": 66309,
+          "inode": 8153876,
+          "size": 2129424,
+          "mtime_ns": 1788444912000000000,
+          "ctime_ns": 1789650809357119313
+        }
+      },
+      {
+        "path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+        "device": 66309,
+        "inode": 8153674,
+        "range": "7b346fa6d000-7b346fa6e000",
+        "map_files_link": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+        "map_files_open": "UNAVAILABLE",
+        "map_files_errno": 1,
+        "fallback": "proc_root_fd",
+        "identity": {
+          "sha256": "c20a2dc8917c755f02b94049356320fe1f62ac7d9f8994731f807d9df39302da",
+          "build_id": "0d77dbd4379bf0b5af3e05be7fb6af1e4cea7c96",
+          "device": 66309,
+          "inode": 8153674,
+          "size": 236616,
+          "mtime_ns": 1788444912000000000,
+          "ctime_ns": 1789650808877554027
+        }
+      }
+    ],
+    "map_files_status": "UNAVAILABLE",
+    "method": "map_files FD preferred; /proc/PID/root FD metadata fallback, never bare host path",
+    "limits": "file identity at bounded snapshots, not private relocated/COW memory equality or initialization safety",
+    "start": "34454704",
+    "all_required": true
+  },
+  "observed_scope": "isolation/collection path only; no Gazebo/DART or physical validation",
+  "raw_result_sha256": "fef5be8c38f56e2610317cdf3c7832b2be4ec0094b9cd91d1ec4fd62b2ee1d3c",
+  "raw_stdout_sha256": "32bf710ddef8f642ddc0ea1a642470d78125a2a1bcc30da669688ad69a326e37",
+  "isolation_readback": {
+    "pid": 299920,
+    "start": "34454704",
+    "cgroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/aero-joint-resolution-fixture-v1-35d7e67821f34abebe48e8cd2521cf5e.service",
+    "namespaces": {
+      "mnt": "mnt:[4026533780]",
+      "net": "net:[4026533785]",
+      "user": "user:[4026533841]",
+      "pid": "pid:[4026533783]"
+    },
+    "cgroup_readback": {
+      "memory.max": "536870912",
+      "memory.swap.max": "0",
+      "pids.max": "64",
+      "cpu.max": "100000 100000"
+    },
+    "proc_limits": "Limit                     Soft Limit           Hard Limit           Units     \nMax cpu time              10                   10                   seconds   \nMax file size             1048576              1048576              bytes     \nMax data size             unlimited            unlimited            bytes     \nMax stack size            8388608              unlimited            bytes     \nMax core file size        0                    0                    bytes     \nMax resident set          unlimited            unlimited            bytes     \nMax processes             115757               115757               processes \nMax open files            256                  256                  files     \nMax locked memory         4177969152           4177969152           bytes     \nMax address space         2147483648           2147483648           bytes     \nMax file locks            unlimited            unlimited            locks     \nMax pending signals       115757               115757               signals   \nMax msgqueue size         819200               819200               bytes     \nMax nice priority         0                    0                    \nMax realtime priority     0                    0                    \nMax realtime timeout      unlimited            unlimited            us        \n",
+    "mountinfo_sha256": "541c09b5c66e6d022df294562cf7b414790b26e57bc6dafaf06b0e49f7cdfa6e",
+    "mounted_inputs_checked": 6,
+    "FD3_identity": [
+      16,
+      2767814
+    ],
+    "FD4_identity": [
+      16,
+      2767815
+    ]
+  },
+  "observed_process_identities": [
+    {
+      "pid": 299915,
+      "start": "34454696",
+      "state": "R",
+      "executable": "/usr/bin/python3.12",
+      "cgroup": "0::/user.slice/user-1000.slice/user@1000.service/app.slice/aero-joint-resolution-fixture-v1-35d7e67821f34abebe48e8cd2521cf5e.service"
+    },
+    {
+      "pid": 299919,
+      "start": "34454704",
+      "state": "S",
+      "executable": "/usr/bin/bwrap",
+      "cgroup": "0::/user.slice/user-1000.slice/user@1000.service/app.slice/aero-joint-resolution-fixture-v1-35d7e67821f34abebe48e8cd2521cf5e.service"
+    },
+    {
+      "pid": 299920,
+      "start": "34454704",
+      "state": "S",
+      "executable": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-resolution-v1/work/harmless",
+      "cgroup": "0::/user.slice/user-1000.slice/user@1000.service/app.slice/aero-joint-resolution-fixture-v1-35d7e67821f34abebe48e8cd2521cf5e.service"
+    }
+  ],
+  "raw_stderr_sha256": "16dff8b46dbc57d759c1ae8517701b4add3636e8cd00cc76d5c0523bc743759f"
+}

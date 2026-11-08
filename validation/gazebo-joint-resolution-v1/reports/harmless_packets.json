@@ -1,0 +1,517 @@
+[
+  {
+    "kind": "fixture_ready",
+    "iteration": 0,
+    "sim_time_ns": 0
+  },
+  {
+    "kind": "fixture_ready",
+    "iteration": 0,
+    "sim_time_ns": 0
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 1,
+    "sim_time_ns": 1000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 2,
+    "sim_time_ns": 2000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 3,
+    "sim_time_ns": 3000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 4,
+    "sim_time_ns": 4000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 5,
+    "sim_time_ns": 5000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 6,
+    "sim_time_ns": 6000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 7,
+    "sim_time_ns": 7000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 8,
+    "sim_time_ns": 8000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 9,
+    "sim_time_ns": 9000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 10,
+    "sim_time_ns": 10000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 11,
+    "sim_time_ns": 11000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 12,
+    "sim_time_ns": 12000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 13,
+    "sim_time_ns": 13000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 14,
+    "sim_time_ns": 14000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 15,
+    "sim_time_ns": 15000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 16,
+    "sim_time_ns": 16000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 17,
+    "sim_time_ns": 17000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 18,
+    "sim_time_ns": 18000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 19,
+    "sim_time_ns": 19000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 20,
+    "sim_time_ns": 20000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 21,
+    "sim_time_ns": 21000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 22,
+    "sim_time_ns": 22000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 23,
+    "sim_time_ns": 23000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 24,
+    "sim_time_ns": 24000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 25,
+    "sim_time_ns": 25000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 26,
+    "sim_time_ns": 26000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 27,
+    "sim_time_ns": 27000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 28,
+    "sim_time_ns": 28000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 29,
+    "sim_time_ns": 29000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 30,
+    "sim_time_ns": 30000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 31,
+    "sim_time_ns": 31000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 32,
+    "sim_time_ns": 32000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 33,
+    "sim_time_ns": 33000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 34,
+    "sim_time_ns": 34000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 35,
+    "sim_time_ns": 35000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 36,
+    "sim_time_ns": 36000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 37,
+    "sim_time_ns": 37000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 38,
+    "sim_time_ns": 38000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 39,
+    "sim_time_ns": 39000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 40,
+    "sim_time_ns": 40000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 41,
+    "sim_time_ns": 41000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 42,
+    "sim_time_ns": 42000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 43,
+    "sim_time_ns": 43000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 44,
+    "sim_time_ns": 44000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 45,
+    "sim_time_ns": 45000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 46,
+    "sim_time_ns": 46000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 47,
+    "sim_time_ns": 47000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 48,
+    "sim_time_ns": 48000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 49,
+    "sim_time_ns": 49000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 50,
+    "sim_time_ns": 50000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 51,
+    "sim_time_ns": 51000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 52,
+    "sim_time_ns": 52000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 53,
+    "sim_time_ns": 53000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 54,
+    "sim_time_ns": 54000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 55,
+    "sim_time_ns": 55000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 56,
+    "sim_time_ns": 56000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 57,
+    "sim_time_ns": 57000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 58,
+    "sim_time_ns": 58000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 59,
+    "sim_time_ns": 59000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 60,
+    "sim_time_ns": 60000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 61,
+    "sim_time_ns": 61000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 62,
+    "sim_time_ns": 62000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 63,
+    "sim_time_ns": 63000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 64,
+    "sim_time_ns": 64000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 65,
+    "sim_time_ns": 65000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 66,
+    "sim_time_ns": 66000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 67,
+    "sim_time_ns": 67000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 68,
+    "sim_time_ns": 68000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 69,
+    "sim_time_ns": 69000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 70,
+    "sim_time_ns": 70000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 71,
+    "sim_time_ns": 71000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 72,
+    "sim_time_ns": 72000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 73,
+    "sim_time_ns": 73000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 74,
+    "sim_time_ns": 74000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 75,
+    "sim_time_ns": 75000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 76,
+    "sim_time_ns": 76000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 77,
+    "sim_time_ns": 77000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 78,
+    "sim_time_ns": 78000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 79,
+    "sim_time_ns": 79000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 80,
+    "sim_time_ns": 80000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 81,
+    "sim_time_ns": 81000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 82,
+    "sim_time_ns": 82000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 83,
+    "sim_time_ns": 83000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 84,
+    "sim_time_ns": 84000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 85,
+    "sim_time_ns": 85000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 86,
+    "sim_time_ns": 86000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 87,
+    "sim_time_ns": 87000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 88,
+    "sim_time_ns": 88000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 89,
+    "sim_time_ns": 89000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 90,
+    "sim_time_ns": 90000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 91,
+    "sim_time_ns": 91000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 92,
+    "sim_time_ns": 92000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 93,
+    "sim_time_ns": 93000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 94,
+    "sim_time_ns": 94000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 95,
+    "sim_time_ns": 95000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 96,
+    "sim_time_ns": 96000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 97,
+    "sim_time_ns": 97000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 98,
+    "sim_time_ns": 98000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 99,
+    "sim_time_ns": 99000000
+  },
+  {
+    "kind": "fixture_sample",
+    "iteration": 100,
+    "sim_time_ns": 100000000
+  },
+  {
+    "kind": "final_wait",
+    "iteration": 100,
+    "sim_time_ns": 100000000
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "status": "PASS_EXECUTED_CONTROL_CODE_AND_HARMLESS_PLAN_UNCHANGED",
+  "metadata_only_changes": {
+    "validation/gazebo-joint-resolution-v1/reports/actual_argv.json": {
+      "executed_sha256": "a2d483356fcedeec8ae61a41539371dbc97bd478e4ade62e280f6fcd3268c5e5",
+      "current_sha256": "541507de6f9f7a715c63dd8c6a15b9f1caf7187e0463c3275a163ef94f59143d"
+    },
+    "validation/gazebo-joint-resolution-v1/reports/actual_plan.json": {
+      "executed_sha256": "ab2c57981d2e10143342e3526626048722e4f6166f5a7aa44748e00d4ea709cd",
+      "current_sha256": "3f808d5df8f270a9a8f0a7a28e9bde5964e1f06d7696fd16d83428e7f97dc5e1"
+    },
+    "validation/gazebo-joint-resolution-v1/reports/resources.json": {
+      "executed_sha256": "698a4a65da5aacea58f890269e12c01f9e452dca8535ab20fa03cd9aca710b3d",
+      "current_sha256": "87d92c53c1fec73a34eb113f897e45d1075a7c55a87da777e6fab8a91709092f"
+    }
+  },
+  "new_preparation_code": [
+    "validation/gazebo-joint-resolution-v1/scripts/extend_resources.py"
+  ],
+  "native_fixture_invocations": 1,
+  "automatic_retry": false,
+  "executed_source_pin_sha256": "e84661932bf168a317cdf9a88f4571446d6843c2c81c3ecd5d0ec87f37cff59f",
+  "current_source_pin_sha256": "94a5b22cfde6d712d8ae012f82b847c275afbe8cc6ce17f1679b95798ae68aa5"
+}

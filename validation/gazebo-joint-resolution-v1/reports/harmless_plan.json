@@ -1,0 +1,198 @@
+{
+  "profile": "harmless",
+  "status": "AUTHORIZED_HARMLESS_ONCE_ONLY",
+  "candidate_elfs": {
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-resolution-v1/work/harmless": {
+      "sha256": "d990c57e67b8cccc83625aeaa2d34d5e0f75d6de78e581c97abac85b2ee4d88b",
+      "build_id": "faa57403dfc82c789738c2cdf651416c4aac3a5b",
+      "device": 66309,
+      "inode": 4601247,
+      "size": 16336,
+      "mtime_ns": 1794148550697668866,
+      "ctime_ns": 1794148550697684203,
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-resolution-v1/work/harmless",
+      "soname": [],
+      "needed": [],
+      "runpath": [],
+      "rpath": []
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-isolation-v1/work/fd_bridge": {
+      "sha256": "3c313ff9ff42624aaeb44bb3823749786d137cb9c3177d25783ee24db25a7236",
+      "build_id": "46293021bfd58f0abfda8bfdad457a85cfa56822",
+      "device": 66309,
+      "inode": 4601187,
+      "size": 16320,
+      "mtime_ns": 1794147022171047978,
+      "ctime_ns": 1794147022171054151,
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-isolation-v1/work/fd_bridge",
+      "soname": [],
+      "needed": [],
+      "runpath": [],
+      "rpath": []
+    },
+    "/usr/lib/x86_64-linux-gnu/libc.so.6": {
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf",
+      "build_id": "a4a7992a8e66555c8141ab2a08a8465ff6e0ea65",
+      "device": 66309,
+      "inode": 8153876,
+      "size": 2129424,
+      "mtime_ns": 1788444912000000000,
+      "ctime_ns": 1789650809357119313,
+      "real_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "soname": [
+        "libc.so.6"
+      ],
+      "needed": [],
+      "runpath": [],
+      "rpath": []
+    },
+    "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2": {
+      "sha256": "c20a2dc8917c755f02b94049356320fe1f62ac7d9f8994731f807d9df39302da",
+      "build_id": "0d77dbd4379bf0b5af3e05be7fb6af1e4cea7c96",
+      "device": 66309,
+      "inode": 8153674,
+      "size": 236616,
+      "mtime_ns": 1788444912000000000,
+      "ctime_ns": 1789650808877554027,
+      "real_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "soname": [
+        "ld-linux-x86-64.so.2"
+      ],
+      "needed": [],
+      "runpath": [],
+      "rpath": []
+    }
+  },
+  "mounts": {
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-resolution-v1/work/harmless": {
+      "sha256": "d990c57e67b8cccc83625aeaa2d34d5e0f75d6de78e581c97abac85b2ee4d88b",
+      "build_id": "faa57403dfc82c789738c2cdf651416c4aac3a5b",
+      "device": 66309,
+      "inode": 4601247,
+      "size": 16336,
+      "mtime_ns": 1794148550697668866,
+      "ctime_ns": 1794148550697684203,
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-resolution-v1/work/harmless",
+      "soname": [],
+      "needed": [],
+      "runpath": [],
+      "rpath": [],
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-resolution-v1/work/harmless",
+      "kind": "ELF_canonical"
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-isolation-v1/work/fd_bridge": {
+      "sha256": "3c313ff9ff42624aaeb44bb3823749786d137cb9c3177d25783ee24db25a7236",
+      "build_id": "46293021bfd58f0abfda8bfdad457a85cfa56822",
+      "device": 66309,
+      "inode": 4601187,
+      "size": 16320,
+      "mtime_ns": 1794147022171047978,
+      "ctime_ns": 1794147022171054151,
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-isolation-v1/work/fd_bridge",
+      "soname": [],
+      "needed": [],
+      "runpath": [],
+      "rpath": [],
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-isolation-v1/work/fd_bridge",
+      "kind": "ELF_canonical"
+    },
+    "/usr/lib/x86_64-linux-gnu/libc.so.6": {
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf",
+      "build_id": "a4a7992a8e66555c8141ab2a08a8465ff6e0ea65",
+      "device": 66309,
+      "inode": 8153876,
+      "size": 2129424,
+      "mtime_ns": 1788444912000000000,
+      "ctime_ns": 1789650809357119313,
+      "real_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "soname": [
+        "libc.so.6"
+      ],
+      "needed": [],
+      "runpath": [],
+      "rpath": [],
+      "source": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "kind": "SONAME_alias"
+    },
+    "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2": {
+      "sha256": "c20a2dc8917c755f02b94049356320fe1f62ac7d9f8994731f807d9df39302da",
+      "build_id": "0d77dbd4379bf0b5af3e05be7fb6af1e4cea7c96",
+      "device": 66309,
+      "inode": 8153674,
+      "size": 236616,
+      "mtime_ns": 1788444912000000000,
+      "ctime_ns": 1789650808877554027,
+      "real_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "soname": [
+        "ld-linux-x86-64.so.2"
+      ],
+      "needed": [],
+      "runpath": [],
+      "rpath": [],
+      "source": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "kind": "SONAME_alias"
+    },
+    "/input/unused-a": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-resolution-v1/inputs/unused-a",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-resolution-v1/inputs/unused-a",
+      "sha256": "e2ff5fb9c89a1b0df9f06232ce8b1a680aec275ab43f4bf1f87f5009c179732a",
+      "device": 66309,
+      "inode": 4601254,
+      "kind": "fixture_argument"
+    },
+    "/input/unused-b": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-resolution-v1/inputs/unused-b",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-resolution-v1/inputs/unused-b",
+      "sha256": "e2ff5fb9c89a1b0df9f06232ce8b1a680aec275ab43f4bf1f87f5009c179732a",
+      "device": 66309,
+      "inode": 4601255,
+      "kind": "fixture_argument"
+    }
+  },
+  "required_canonical_mappings": [
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-resolution-v1/work/harmless",
+    "/usr/lib/x86_64-linux-gnu/libc.so.6",
+    "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+  ],
+  "payload": [
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-isolation-v1/work/fd_bridge",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-resolution-v1/work/harmless",
+    "/input/unused-a",
+    "/input/unused-b"
+  ],
+  "resources": {
+    "MemoryMax": "536870912",
+    "MemorySwapMax": "0",
+    "TasksMax": "64",
+    "CPUQuota": "100%",
+    "CPUQuotaPeriodSec": "100ms",
+    "RuntimeMaxSec": "30s",
+    "TimeoutStopSec": "2s",
+    "KillMode": "control-group",
+    "OOMPolicy": "stop",
+    "Delegate": "no",
+    "Slice": "app.slice"
+  },
+  "blockers": [],
+  "outputs": [
+    "reports/harmless_runtime",
+    "reports/harmless_integrity.json"
+  ],
+  "one_shot": [
+    "work/harmless_collection_attempt.json",
+    "work/harmless_attempt.json"
+  ],
+  "host_tools": {
+    "/usr/bin/bwrap": "e318903862396f96de3df57264e0158682b952fd3fb53ac23d876413e7b30f71",
+    "/usr/bin/systemd-run": "de28cc5757d3789efa5f6fed5659893410469f68b42175d4531f5b34d3a09e16",
+    "/usr/bin/systemctl": "37ec607113f55f1b385b4fa75588a43402aec0de57927500763b267713f10f63",
+    "/usr/bin/python3.12": "e50d468e8b0adfb05733f5b87b3cff34829c4a8c1aea50c865aa8bdfe4bb150f"
+  },
+  "ack_protocol": {
+    "GO": "GO\n",
+    "EXIT_ACK": "EXIT_ACK\n",
+    "timeout_ms": 5000,
+    "native_waits_before_Server_destructor": true
+  },
+  "subject_load_allowed": false
+}

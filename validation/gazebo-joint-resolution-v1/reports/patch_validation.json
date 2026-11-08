@@ -1,0 +1,6 @@
+{
+  "status": "PASS_EXACT_REPLAY",
+  "patch_sha256": "8b42e2c62da6efabb00754f2eaaff8d0be4a2d79c8d25534e7f32cec9f82136f",
+  "algorithm": "git histogram; zero-context",
+  "lines": 1074
+}

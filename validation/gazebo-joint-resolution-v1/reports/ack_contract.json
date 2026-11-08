@@ -1,0 +1,25 @@
+{
+  "status": "PASS_ACK_BUILD_STATIC_CONTRACT",
+  "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-resolution-v1/work/aero-joint-harness-ack",
+  "sha256": "23f5cfb408c12eff76e560101888f5c8437acf5b584b677f82235383c4c5c88b",
+  "build_id": [
+    "fcb6eae9c2dc758795e8784b2ac36fdd4734e99d"
+  ],
+  "DT_NEEDED": [
+    "libgz-sim8.so.8",
+    "libsdformat14.so.14",
+    "libstdc++.so.6",
+    "libgcc_s.so.1",
+    "libc.so.6"
+  ],
+  "RUNPATH": [
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+  ],
+  "RPATH": [],
+  "holds": "Server object remains in lexical scope until final_wait -> matching EXIT_ACK; token deadline5000ms; GO token distinct",
+  "actual_execution": false,
+  "headers_sha256": {
+    "validation/gazebo-joint-resolution-v1/inputs/harness_ack.cc": "ca653ccbf0e9ee9af67188d2c246399210a1d288cd4a8855d8f8f52c5f57df5d",
+    "validation/gazebo-joint-resolution-v1/inputs/exit_ack.h": "6383ed5ae13869b0a74afd2901db5d58c4aaebee53a68d69e1f3252aa1d672da"
+  }
+}

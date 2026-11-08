@@ -1,0 +1,9 @@
+{
+  "status": "PASS_REJECT_ACTUAL_PRE_SERVICE",
+  "returncode": 78,
+  "stderr": "supervisor refused: actual launcher BLOCKED before marker/service: DYNAMIC_RESOURCE_CLOSURE_UNVERIFIED: sdformat/Fuel runtime accesses and silent fallback are not fully attested\n",
+  "actual_runtime_paths_absent": true,
+  "remaining_blockers": [
+    "DYNAMIC_RESOURCE_CLOSURE_UNVERIFIED: sdformat/Fuel runtime accesses and silent fallback are not fully attested"
+  ]
+}

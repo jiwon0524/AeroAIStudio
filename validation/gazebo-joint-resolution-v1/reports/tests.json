@@ -1,0 +1,64 @@
+{
+  "status": "PASS_STATIC_MOCK_ONLY",
+  "cases": [
+    {
+      "case": "positive_GO_final_mapping_ACK_EOF_exit",
+      "status": "PASS_SYNTHETIC"
+    },
+    {
+      "case": "duplicate_ACK",
+      "status": "PASS_REJECTED",
+      "reason": "missing final barrier/duplicate ACK"
+    },
+    {
+      "case": "missing_mapping",
+      "status": "PASS_REJECTED",
+      "reason": "final mapping/PID/start mismatch"
+    },
+    {
+      "case": "wrong_PID",
+      "status": "PASS_REJECTED",
+      "reason": "final mapping/PID/start mismatch"
+    },
+    {
+      "case": "PID_reused",
+      "status": "PASS_REJECTED",
+      "reason": "final mapping/PID/start mismatch"
+    },
+    {
+      "case": "ACK_missing_or_timeout",
+      "status": "PASS_REJECTED",
+      "reason": "ACK/EOF/exit evidence missing"
+    },
+    {
+      "case": "early_child_exit",
+      "status": "PASS_REJECTED",
+      "reason": "child exited before snapshot"
+    },
+    {
+      "case": "ACK_timeout",
+      "status": "PASS_REJECTED",
+      "reason": "mapping deadline exceeded"
+    },
+    {
+      "case": "101st_sample_after_ACK",
+      "status": "PASS_REJECTED",
+      "reason": "unexpected fixture sample"
+    },
+    {
+      "case": "EOF_missing_after_ACK",
+      "status": "PASS_REJECTED",
+      "reason": "ACK/EOF/exit evidence missing"
+    },
+    {
+      "case": "exit_nonzero_after_ACK",
+      "status": "PASS_REJECTED",
+      "reason": "ACK/EOF/exit evidence missing"
+    },
+    {
+      "case": "actual_profile_blocked_before_manager_marker_service",
+      "status": "PASS_REJECTED",
+      "reason": "actual launcher BLOCKED before marker/service: DYNAMIC_RESOURCE_CLOSURE_UNVERIFIED: sdformat/Fuel runtime accesses and silent fallback are not fully attested"
+    }
+  ]
+}
