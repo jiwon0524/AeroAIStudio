@@ -1,0 +1,110 @@
+[
+  {
+    "path": "validation/gazebo-joint-inputs-v1/inputs/01-dart-typed-entry.patch",
+    "sha256": "358ccb914fbffbc6df3a81d476f9da568d6437d32197e9e0f79f679a9b0f3346",
+    "bytes": 2957,
+    "status": "UNCOMPILED_CANDIDATE_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-inputs-v1/inputs/02-physics-wrapper-entry.patch",
+    "sha256": "ab04e69d349ba0b9d56e53cce7f03f6bec1413b2c566ba6cfe39eb2203dd9099",
+    "bytes": 1864,
+    "status": "UNCOMPILED_CANDIDATE_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-inputs-v1/inputs/03-sim-prestep-go.patch",
+    "sha256": "9f1675398490c81cbdf0088c5da220f81e437a8d993dfca7ef4e6e70fbf630d5",
+    "bytes": 9917,
+    "status": "UNCOMPILED_CANDIDATE_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-inputs-v1/inputs/CMakeLists.txt",
+    "sha256": "c7e0896d318ce0f3b22f709aabe0cd4a3ef966616ca82474e29694598e9fbba6",
+    "bytes": 1021,
+    "status": "UNCOMPILED_CANDIDATE_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-inputs-v1/inputs/deny-target-exec.sh",
+    "sha256": "dc2c6175d0aa15bf94420a5d8bec6fdd699f76e83064a54f1aae92dd9265cd97",
+    "bytes": 95,
+    "status": "UNCOMPILED_CANDIDATE_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-inputs-v1/inputs/harness.cc",
+    "sha256": "8528d168f2f0e660cd898d65a14cfa24c80dd99bc172e8b91a56b230b7715b35",
+    "bytes": 1903,
+    "status": "UNCOMPILED_CANDIDATE_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-inputs-v1/inputs/pkgconfig/bullet-float64.pc",
+    "sha256": "724795e48d563d69a997858addfbdbb8aed173d35b9adbd6395b67a78988b692",
+    "bytes": 488,
+    "status": "UNCOMPILED_CANDIDATE_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-inputs-v1/inputs/pkgconfig/bullet.pc",
+    "sha256": "6dacb94c13c6f5e0638c9fc00d1624792b916efdaecd1733ae3e84bbe25c5fb5",
+    "bytes": 431,
+    "status": "UNCOMPILED_CANDIDATE_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-inputs-v1/inputs/pkgconfig/ccd.pc",
+    "sha256": "52b2c136c608f372cb80653deaa1ddc610a1d99b2e11a88dfda10971ed824233",
+    "bytes": 376,
+    "status": "UNCOMPILED_CANDIDATE_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-inputs-v1/inputs/pkgconfig/console_bridge.pc",
+    "sha256": "f2e51734ada4de30674792674db3625a313d18171aa8bf8c9958351ef5bf6b98",
+    "bytes": 361,
+    "status": "UNCOMPILED_CANDIDATE_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-inputs-v1/inputs/pkgconfig/fcl.pc",
+    "sha256": "48e4ed934d90f477422778432d7ae70a4c4b98b213eef38205dd119933db693c",
+    "bytes": 369,
+    "status": "UNCOMPILED_CANDIDATE_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-inputs-v1/inputs/pkgconfig/octomap.pc",
+    "sha256": "588ea9751251e7080dbd7efa4dd8901ad42979f0223be0365ce44c8905fe86e2",
+    "bytes": 277,
+    "status": "UNCOMPILED_CANDIDATE_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-inputs-v1/inputs/pkgconfig/ode.pc",
+    "sha256": "ebf58007b557014dad1227cf226f7e6dd9107a1ccf6d04b49319b7c209f84fcd",
+    "bytes": 336,
+    "status": "UNCOMPILED_CANDIDATE_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-inputs-v1/inputs/pkgconfig/urdfdom.pc",
+    "sha256": "0496181b0660fdfe5ed2dffec5f9f202b0699df4eb47572f7fcb91734d6b5da8",
+    "bytes": 388,
+    "status": "UNCOMPILED_CANDIDATE_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-inputs-v1/inputs/probe.cc",
+    "sha256": "f383741c71f42e8a722bdc8013699df48ba6a888454c3cca31a1f5872b9a6915",
+    "bytes": 3165,
+    "status": "UNCOMPILED_CANDIDATE_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-inputs-v1/inputs/probe.hh",
+    "sha256": "a219b05beda4f54e7848ae59875ea078b24cd63631d2afe1493560eee6586e6e",
+    "bytes": 384,
+    "status": "UNCOMPILED_CANDIDATE_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-inputs-v1/inputs/toolchain.cmake",
+    "sha256": "38a8ee5fe3bde9780289200be419148014b3e39a0f6c00ab29be03b91beacb53",
+    "bytes": 4776,
+    "status": "UNCOMPILED_CANDIDATE_LOCAL_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-inputs-v1/inputs/verify_anchor.cc",
+    "sha256": "e1ef3269991593677f4bb20204005a438562f35b1a81310cc66b560d0d6768f6",
+    "bytes": 3136,
+    "status": "UNCOMPILED_CANDIDATE_LOCAL_ONLY"
+  }
+]

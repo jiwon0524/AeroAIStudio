@@ -1,3 +1,47 @@
+# Joint build missing inputs — current checkpoint
+
+**Build input gate BLOCKED; Stage B BLOCKED; risk acceptance undecided; NOT_RUNTIME_VERIFIED.**
+2026-11-08 UTC. Direct starting HEAD72a9ff95f37eb955edf1395e6699c27b03056b8c/experiment/dart-internal-trace clean. Required documents and context-handoff read. Current user authorization: downloads/separate extraction, independent patch/harness input preparation, read-only applicability/static comparison. No patch applied to any source tree, configure/compiler/linker/target executed, service started, marker consumed, sudo/install/system/main change.
+
+New report: validation/gazebo-joint-inputs-v1/reports/input_gate.md. Five gates: ODE RESOLVED; Bullet RESOLVED; toolchain file/version lock RESOLVED; transitive dependency/search/staging BLOCKED; completed instrumentation inputs BLOCKED. ODE/Bullet exact t64 runtime and dev packages acquired with APT metadata SHA matches; selected installed ODE runtime,18 Bullet runtime files,417 Bullet dev files byte MATCH. ODE double, ordinary Bullet float branch pinned. DART adapters/core/external-odelcpsolver still joint-build, not installed reuse. DART utils+utils-urdf requirement found; required FCL/CCD/Octomap/urdfdom development/runtime packages acquired,18 total. Tool ELF closure readelf-only71 files,missing0; full local header/tool inventory40806 entries. Prior archive/patch validation reused, not rerun.
+
+Independent candidate inputs under validation/gazebo-joint-inputs-v1/inputs:3 patches, observer/verifier/harness,CMake/toolchain/relocated pc files. SHA in reports/input_files.json. git apply --check3 PASS; ordered9 distribution patches then DART instrumentation checked in RAM only, no source tree modified. No C++/CMake compilation/semantic PASS claimed. Empty-world harness is a candidate, not existing freefall/Clock/Capture acceptance harness. Initialization subcall no-Step/mutation-surface review and final acceptance-fixture integration remain before gate5 can resolve.
+
+Command candidates have exact argv/paths but are NOT an executable READY recipe. Gate4 needs package/config/header/ELF allowlist through unconditional Sim GUI/Qt/sensors/rendering/Fuel/codegen dependencies and a staging procedure that does not reference unbuilt targets. Whole cmake --install candidate must not be used yet. Configure can compile/run probes, so was not performed. Input report lists precise stop/closure criteria.
+
+Changes: this handoff plus new phase reports and verified acquisition/static-audit scripts. Uncompiled source inputs/generators remain ignored/local per publication rules; do not automatically publish them. reports/local_inventory_index.json hashes large local inventories. Package archives/extracted trees/raw files, local candidates, and /tmp are not carried by Git and not durable; other accounts/devices require explicit access/transfer. Direct main metadata comparison and source input hashes preserved; broader old71-file result remains historical. Snapshot sees no same-user project-CWD task; external CWD/remote/container UNKNOWN. No existing process stopped/restarted.
+
+Next minimum within a later authorized input-preparation task: close gate4 dependency selection/staging and gate5 static semantic/acceptance-fixture gaps. Do not configure/build/load/run automatically; further source tree application/build requires explicit authorization. Stop after current report/publication. All later instrumentation observations limited to final coherent build manifest. Snapshot is pre-publication, reconcile actual commit parent/file list/remote on resume.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-08T06:06:55.643769+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "72a9ff95f37eb955edf1395e6699c27b03056b8c",
+    "branch": "experiment/dart-internal-trace",
+    "status": []
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-inputs-v1/reports/input_gate.md",
+      "sha256": "40d02e9a6a2d6cfc726bae3de318dbaa7935fb72a03726641d987df183112f7c"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+---
+Previous checkpoint follows:
+
 # Joint instrumentation build plan — current checkpoint
 
 **BLOCKED inputs / NOT_RUNTIME_VERIFIED / Stage B BLOCKED / risk acceptance undecided**.

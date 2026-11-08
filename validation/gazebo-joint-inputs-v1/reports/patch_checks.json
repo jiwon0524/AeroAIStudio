@@ -1,0 +1,120 @@
+[
+  {
+    "patch": "validation/gazebo-joint-inputs-v1/inputs/01-dart-typed-entry.patch",
+    "sha256": "358ccb914fbffbc6df3a81d476f9da568d6437d32197e9e0f79f679a9b0f3346",
+    "inputs": [
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/CMakeLists.txt",
+        "sha256": "032b1da9781af4e8ea6890a190796d36770ca0f8ab9aaedaec3f941f5ebe2c59",
+        "candidate_sha256": "4846094b17862da153b618717b900958b4ebf4c5ef6a45f76c3b7f3e85d8c204"
+      },
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/ode/OdeCollisionDetector.cpp",
+        "sha256": "b1c1eb748a255424ce3774b0def266ad73b6694b48a561765e40ebc2b7b489dd",
+        "candidate_sha256": "4c0ed55c9ff299a0987f03c737f5517dd912e8fada9ec94ec4ca7f7b0e40e81a"
+      },
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/bullet/BulletCollisionDetector.cpp",
+        "sha256": "69b9cd30f1ff5ef4c47ee9e5cb632dc9799546f4bf3783230ac881bc6215c9bf",
+        "candidate_sha256": "af332c14edd9affd48b46f99b8b76e66712dfe0f396f62b41b31bcf02b11e8d0"
+      },
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/fcl/FCLCollisionDetector.cpp",
+        "sha256": "5c6ce56d29ac195c3673ba4513a5ff07ef634241948d1b7869e22469c40dcb37",
+        "candidate_sha256": "acb344ec3fbee474985724bdd0cee552a96ceb3aa61b3f8c4335aa1bf2db17a7"
+      },
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/dart/DARTCollisionDetector.cpp",
+        "sha256": "5611041ef00298abce0479c4735a7f4a9dedc44b29cc9c5e6d3bbe982a1ab54e",
+        "candidate_sha256": "8d20b9a6cf229a38a5c221778f8023d98ccf62725de64c610a91a9307b0226b9"
+      }
+    ],
+    "check_argv": [
+      "git",
+      "apply",
+      "--check",
+      "--directory=validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/inputs/01-dart-typed-entry.patch"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "patch": "validation/gazebo-joint-inputs-v1/inputs/02-physics-wrapper-entry.patch",
+    "sha256": "ab04e69d349ba0b9d56e53cce7f03f6bec1413b2c566ba6cfe39eb2203dd9099",
+    "inputs": [
+      {
+        "path": "validation/gazebo-abi-reassessment-v1/work/extracted/upstream/gz-physics-7.8.0/CMakeLists.txt",
+        "sha256": "be8853d88cbfb191880d867dd7bdc68c1a062d5b207737be961bf2cb54de37e0",
+        "candidate_sha256": "72096c05d1fcc95e73c26e4fe531495aa85ae88a9aa9d16164af9a0bbc95a878"
+      },
+      {
+        "path": "validation/gazebo-abi-reassessment-v1/work/extracted/upstream/gz-physics-7.8.0/dartsim/src/GzCollisionDetector.hh",
+        "sha256": "ab36eb9dfa7603bfbd26a677797850568621c31091bdb6e978276105dea4c545",
+        "candidate_sha256": "a248306f684e38ffde01f4b7382e108761bc04f6da555938468e43e7ac2ccca1"
+      }
+    ],
+    "check_argv": [
+      "git",
+      "apply",
+      "--check",
+      "--directory=validation/gazebo-abi-reassessment-v1/work/extracted/upstream/gz-physics-7.8.0",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/inputs/02-physics-wrapper-entry.patch"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "patch": "validation/gazebo-joint-inputs-v1/inputs/03-sim-prestep-go.patch",
+    "sha256": "9f1675398490c81cbdf0088c5da220f81e437a8d993dfca7ef4e6e70fbf630d5",
+    "inputs": [
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/CMakeLists.txt",
+        "sha256": "ae0637b8ab2ef4532944785a0076c514e54af46d25907efecb9f6761fc91d59d",
+        "candidate_sha256": "483c9c8dfa6b13abd6c2b2693509a2750e3758fbdae4d594b73a03effbfb262c"
+      },
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/include/gz/sim/JointPrestep.hh",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "candidate_sha256": "fb56433beb82fff15e8119645d39c6ff84e192e9d8f8e8548daf2f80850db7c8"
+      },
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/SimulationRunner.cc",
+        "sha256": "81f0c67cc18dbbd4e7e047d987b3ea0999851935467f8a7d74279e33a04f5fe9",
+        "candidate_sha256": "41e92c79d6df74ae8aca08fef9dcb247d8d9929339a161fab997570f84ca907a"
+      },
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/systems/physics/Physics.hh",
+        "sha256": "34acf8be55a25eabc29b52e892af0e520b1ee59cc7d49ab0398d9ac5f1dd58d1",
+        "candidate_sha256": "c07ecc097dcd9ff88feba90e4616513f793d123366ca20822b176492e04a5ded"
+      },
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/systems/physics/Physics.cc",
+        "sha256": "5d5c404151f8ae4f7825c43c571dc151c79b9a587c69db35996d7cabbc4e76e1",
+        "candidate_sha256": "2602a0113442287ae6b96cb61b2d56061bc04935a969107ab55d3b9a6dd2b0ec"
+      },
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/SystemManager.cc",
+        "sha256": "2cfc3bfdc84cbd715a613e6b2d2c0a42ffb9fc5040c2eeb425820f69450bfd1a",
+        "candidate_sha256": "7c66d5038758168f9ba100adf2102a1efd88d8d5b7f18f1b60895480a49df428"
+      },
+      {
+        "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/systems/physics/CMakeLists.txt",
+        "sha256": "f11899941e6ff3ccdaaa37139e59849d9d4eeab07201c5e0c1111d062be25ef5",
+        "candidate_sha256": "79a699a18d975aea327e5ab887a99ebf95fe03d90e1a9e79550a0e11eb0d5836"
+      }
+    ],
+    "check_argv": [
+      "git",
+      "apply",
+      "--check",
+      "--directory=validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/inputs/03-sim-prestep-go.patch"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

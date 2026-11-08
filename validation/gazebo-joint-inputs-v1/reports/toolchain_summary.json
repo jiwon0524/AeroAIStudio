@@ -1,0 +1,36 @@
+{
+  "files": 40806,
+  "manifest_sha256": "9cd2a5b7e74ee42bdf461046f82eef16546daf2e97f487cbd4e15700aae9d3b3",
+  "versions": [
+    "binutils\t2.42-4ubuntu2.10\tamd64\tinstalled",
+    "binutils-x86-64-linux-gnu\t2.42-4ubuntu2.10\tamd64\tinstalled",
+    "cmake\t3.28.3-1build7\tamd64\tinstalled",
+    "cmake-data\t3.28.3-1build7\tall\tinstalled",
+    "cpp-13-x86-64-linux-gnu\t13.3.0-6ubuntu2~24.04.1\tamd64\tinstalled",
+    "g++-13\t13.3.0-6ubuntu2~24.04.1\tamd64\tinstalled",
+    "g++-13-x86-64-linux-gnu\t13.3.0-6ubuntu2~24.04.1\tamd64\tinstalled",
+    "gcc-13\t13.3.0-6ubuntu2~24.04.1\tamd64\tinstalled",
+    "gcc-13-x86-64-linux-gnu\t13.3.0-6ubuntu2~24.04.1\tamd64\tinstalled",
+    "libc6\t2.39-0ubuntu8.9\tamd64\tinstalled",
+    "libc6-dev\t2.39-0ubuntu8.9\tamd64\tinstalled",
+    "libgcc-13-dev\t13.3.0-6ubuntu2~24.04.1\tamd64\tinstalled",
+    "libssl-dev\t3.0.13-0ubuntu3.16\tamd64\tinstalled",
+    "libstdc++-13-dev\t13.3.0-6ubuntu2~24.04.1\tamd64\tinstalled",
+    "libstdc++6\t14.2.0-4ubuntu2~24.04.1\tamd64\tinstalled",
+    "linux-libc-dev\t6.8.0-147.147\tamd64\tinstalled",
+    "ninja-build\t1.11.1-2\tamd64\tinstalled",
+    "pkgconf\t1.8.1-2build1\tamd64\tinstalled"
+  ],
+  "coverage": [
+    "/usr/libexec/gcc/x86_64-linux-gnu/13",
+    "/usr/include",
+    "/usr/lib/python3.12",
+    "/usr/lib/gcc/x86_64-linux-gnu/13",
+    "/usr/include/c++/13",
+    "/usr/include/x86_64-linux-gnu/c++/13",
+    "/usr/include/x86_64-linux-gnu",
+    "/usr/share/cmake-3.28/Modules",
+    "/usr/share/cmake/gz-cmake3"
+  ],
+  "limitation": "header/tool inventory; include tracing not performed; tool ELF closure is in tool_elf_closure.json; project dependency closure not certified"
+}

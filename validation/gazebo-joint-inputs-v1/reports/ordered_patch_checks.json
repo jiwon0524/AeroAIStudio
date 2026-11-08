@@ -1,0 +1,94 @@
+{
+  "method": "in-memory exact-context simulation only; no patch applied to any tree",
+  "results": [
+    {
+      "patch": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/disable-skeltest-for-armhf-mips-x86.patch",
+      "status": "PASS_EXACT_CONTEXT_IN_MEMORY",
+      "files": [
+        "unittests/integration/test_SkelParser.cpp"
+      ]
+    },
+    {
+      "patch": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/fix-test_ForceDependentSlip-armel.patch",
+      "status": "PASS_EXACT_CONTEXT_IN_MEMORY",
+      "files": [
+        "unittests/integration/test_ForceDependentSlip.cpp"
+      ]
+    },
+    {
+      "patch": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0001-respect-ldflags.patch",
+      "status": "PASS_EXACT_CONTEXT_IN_MEMORY",
+      "files": [
+        "CMakeLists.txt"
+      ]
+    },
+    {
+      "patch": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0005-build-type-none.patch",
+      "status": "PASS_EXACT_CONTEXT_IN_MEMORY",
+      "files": [
+        "CMakeLists.txt"
+      ]
+    },
+    {
+      "patch": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0002-use-system-gtest.patch",
+      "status": "PASS_EXACT_CONTEXT_IN_MEMORY",
+      "files": [
+        "unittests/CMakeLists.txt"
+      ]
+    },
+    {
+      "patch": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0007-fix-ikfast.patch",
+      "status": "PASS_EXACT_CONTEXT_IN_MEMORY",
+      "files": [
+        "unittests/integration/test_IkFast.cpp"
+      ]
+    },
+    {
+      "patch": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0004-fix-pkgconfig.patch",
+      "status": "PASS_EXACT_CONTEXT_IN_MEMORY",
+      "files": [
+        "CMakeLists.txt",
+        "cmake/dart.pc.in"
+      ]
+    },
+    {
+      "patch": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0006-Reduce-test-result-accuracy-to-fix-i386.patch",
+      "status": "PASS_EXACT_CONTEXT_IN_MEMORY",
+      "files": [
+        "unittests/regression/test_Issue1445.cpp"
+      ]
+    },
+    {
+      "patch": "validation/gazebo-source-materials-v1/work/extracted/dart-packaging/debian/patches/0013-Deaktivate-assert-failing-with-Bullet-3.24.patch",
+      "status": "PASS_EXACT_CONTEXT_IN_MEMORY",
+      "files": [
+        "dart/constraint/ContactConstraint.cpp"
+      ]
+    },
+    {
+      "patch": "validation/gazebo-joint-inputs-v1/inputs/01-dart-typed-entry.patch",
+      "status": "PASS_EXACT_CONTEXT_IN_MEMORY",
+      "files": [
+        "CMakeLists.txt",
+        "dart/collision/ode/OdeCollisionDetector.cpp",
+        "dart/collision/bullet/BulletCollisionDetector.cpp",
+        "dart/collision/fcl/FCLCollisionDetector.cpp",
+        "dart/collision/dart/DARTCollisionDetector.cpp"
+      ]
+    }
+  ],
+  "hypothetical_modified_file_sha256": {
+    "unittests/integration/test_SkelParser.cpp": "2095d3705232d9bc13346d6dc87b10329c6b69dcc063839769febd621f0e0368",
+    "unittests/integration/test_ForceDependentSlip.cpp": "a4332aa1f7905af5bf02a25e8dd76ad13ddca5ca6c88f0974f9f63ae8b690d15",
+    "CMakeLists.txt": "1a0e2b314f05b7855ff8b83513e82ee4c33f966c28250761cf208c0c09004a35",
+    "unittests/CMakeLists.txt": "d036232c32c65359929e20acb36b555a16c779fe402633055cf3ee9aa0ef412a",
+    "unittests/integration/test_IkFast.cpp": "bf5059be8f57928818cd50c4eaa20f67358b8b6cd29b40d65fb233064c951918",
+    "cmake/dart.pc.in": "c8f50e9528869566147fe50451399cdf26fba1db77428286365c07241d7bfbb3",
+    "unittests/regression/test_Issue1445.cpp": "188d9e23ec8e372a04f414ab1e510e20d0c81b32b1a7b379cfe1532cede49ace",
+    "dart/constraint/ContactConstraint.cpp": "5364ee8f32ce392eb52368337e026c9324b059484dc1fa818ead0bbf4342a74d",
+    "dart/collision/ode/OdeCollisionDetector.cpp": "4c0ed55c9ff299a0987f03c737f5517dd912e8fada9ec94ec4ca7f7b0e40e81a",
+    "dart/collision/bullet/BulletCollisionDetector.cpp": "af332c14edd9affd48b46f99b8b76e66712dfe0f396f62b41b31bcf02b11e8d0",
+    "dart/collision/fcl/FCLCollisionDetector.cpp": "acb344ec3fbee474985724bdd0cee552a96ceb3aa61b3f8c4335aa1bf2db17a7",
+    "dart/collision/dart/DARTCollisionDetector.cpp": "8d20b9a6cf229a38a5c221778f8023d98ccf62725de64c610a91a9307b0226b9"
+  }
+}

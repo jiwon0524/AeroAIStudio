@@ -1,0 +1,97 @@
+[
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libode.so.8",
+    "realpath": "/usr/lib/x86_64-linux-gnu/libode.so.8.0.2",
+    "sha256": "c511d66333708785c1a22f6cd572c4c84495a535566c9c80eb37d8e0f67bc469",
+    "precision_symbols": [],
+    "needed": [
+      "libccd.so.2",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libc.so.6",
+      "libgcc_s.so.1"
+    ],
+    "soname": [
+      "libode.so.8"
+    ],
+    "build_id": [
+      "8266294ec6924f2f072f6a5ff6434068a38ceb92"
+    ],
+    "symbol_versions": [
+      "CXXABI_1.3",
+      "CXXABI_1.3.8",
+      "CXXABI_1.3.9",
+      "GLIBCXX_3.4",
+      "GLIBC_2.14",
+      "GLIBC_2.17",
+      "GLIBC_2.2.5",
+      "GLIBC_2.3.2",
+      "GLIBC_2.3.4",
+      "GLIBC_2.34",
+      "GLIBC_2.4"
+    ]
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libBulletCollision.so.3.24",
+    "realpath": "/usr/lib/x86_64-linux-gnu/libBulletCollision.so.3.24",
+    "sha256": "a356d9ef207a31737b91a39c4c75a43b05a49cde51891cfa13b4b1c71c223f0a",
+    "precision_symbols": [
+      "00000000000876b0 T btStaticPlaneShape::btStaticPlaneShape(btVector3 const&, float)",
+      "00000000000876b0 T btStaticPlaneShape::btStaticPlaneShape(btVector3 const&, float)"
+    ],
+    "needed": [
+      "libLinearMath.so.3.24",
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "soname": [
+      "libBulletCollision.so.3.24"
+    ],
+    "build_id": [
+      "78e4c8281568b878d8e9b589700bd661e54f46b8"
+    ],
+    "symbol_versions": [
+      "CXXABI_1.3",
+      "CXXABI_1.3.8",
+      "CXXABI_1.3.9",
+      "GLIBCXX_3.4",
+      "GLIBCXX_3.4.21",
+      "GLIBC_2.14",
+      "GLIBC_2.2.5",
+      "GLIBC_2.3.4",
+      "GLIBC_2.4"
+    ]
+  },
+  {
+    "path": "/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+    "realpath": "/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+    "sha256": "31c7e0d2d17efc3924613bf561a645a4258f2d8df54167c162c490ed7fe84fea",
+    "precision_symbols": [],
+    "needed": [
+      "libstdc++.so.6",
+      "libm.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6",
+      "ld-linux-x86-64.so.2"
+    ],
+    "soname": [
+      "libLinearMath.so.3.24"
+    ],
+    "build_id": [
+      "10bd4f12513972fa38393f205d96234101b7e2da"
+    ],
+    "symbol_versions": [
+      "CXXABI_1.3",
+      "CXXABI_1.3.9",
+      "GLIBCXX_3.4",
+      "GLIBC_2.14",
+      "GLIBC_2.2.5",
+      "GLIBC_2.27",
+      "GLIBC_2.3",
+      "GLIBC_2.3.4",
+      "GLIBC_2.4"
+    ]
+  }
+]

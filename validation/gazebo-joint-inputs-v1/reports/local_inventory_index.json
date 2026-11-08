@@ -1,0 +1,26 @@
+[
+  {
+    "path": "validation/gazebo-joint-inputs-v1/reports/toolchain_files.json",
+    "bytes": 9269239,
+    "sha256": "9cd2a5b7e74ee42bdf461046f82eef16546daf2e97f487cbd4e15700aae9d3b3",
+    "publication": "LOCAL_ONLY_LARGE_INVENTORY"
+  },
+  {
+    "path": "validation/gazebo-joint-inputs-v1/reports/dependency_files.json",
+    "bytes": 167566,
+    "sha256": "699c836a89543adcc1a1ab0b97ab82c60fc445773045bd14f5ae3d0666869c33",
+    "publication": "LOCAL_ONLY_LARGE_INVENTORY"
+  },
+  {
+    "path": "validation/gazebo-joint-inputs-v1/reports/installed_config_snapshot.json",
+    "bytes": 491815,
+    "sha256": "c541064171c2608c11fa99655f03887be8992ffe6a178c83e582673fd91d7df9",
+    "publication": "LOCAL_ONLY_LARGE_INVENTORY"
+  },
+  {
+    "path": "validation/gazebo-joint-inputs-v1/reports/package_bytes.json",
+    "bytes": 123999,
+    "sha256": "987bdeb63a5b402298c6bef77fac3f51cf7e4819539f624cfbc6c212d7e08a83",
+    "publication": "LOCAL_ONLY_LARGE_INVENTORY"
+  }
+]

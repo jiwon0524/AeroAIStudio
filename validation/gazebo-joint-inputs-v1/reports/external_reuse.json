@@ -1,0 +1,32 @@
+{
+  "ode": {
+    "status": "RESOLVED_FOR_NEW_BUILD_INPUT_REUSE",
+    "development_package": "libode-dev 2:0.16.2-1.1build1 amd64",
+    "runtime_package": "libode8t64 2:0.16.2-1.1build1 amd64",
+    "settings": [
+      "precision.h defaults dDOUBLE",
+      "ode.pc precision=dDOUBLE",
+      "no dIDESINGLE/dSINGLE overrides permitted"
+    ],
+    "runtime_config_string": [
+      "ODE ODE_EXT_trimesh ODE_EXT_opcode ODE_OPC_new_collider ODE_EXT_threading ODE_THR_builtin_impl ODE_double_precision"
+    ]
+  },
+  "bullet": {
+    "status": "RESOLVED_FOR_NEW_BUILD_INPUT_REUSE",
+    "development_package": "libbullet-dev 3.24+dfsg-2.1build1 amd64",
+    "runtime_package": "libbullet3.24t64 3.24+dfsg-2.1build1 amd64",
+    "settings": [
+      "ordinary BulletCollision/LinearMath .so.3.24 branch uses float; float64 branch excluded",
+      "BT_USE_DOUBLE_PRECISION must be unset/false",
+      "no custom SIMD/NEON/BT_USE_SSE_IN_API or alignment macros; x86_64 GCC defaults",
+      "DART check_cxx_source_compiles expected false for double branch, stop on unexpected result"
+    ]
+  },
+  "evidence": [
+    "packages.json",
+    "package_byte_summary.json",
+    "external_elf.json"
+  ],
+  "limits": "paired distribution dev/runtime identity and static precision evidence; not a universal C++ ABI certification or target runtime verification"
+}

@@ -1,0 +1,70 @@
+{
+  "source_files_unchanged": [
+    {
+      "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/CMakeLists.txt",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/ode/OdeCollisionDetector.cpp",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/bullet/BulletCollisionDetector.cpp",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/fcl/FCLCollisionDetector.cpp",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/dart/DARTCollisionDetector.cpp",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-abi-reassessment-v1/work/extracted/upstream/gz-physics-7.8.0/CMakeLists.txt",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-abi-reassessment-v1/work/extracted/upstream/gz-physics-7.8.0/dartsim/src/GzCollisionDetector.hh",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/CMakeLists.txt",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/include/gz/sim/JointPrestep.hh",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/SimulationRunner.cc",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/systems/physics/Physics.hh",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/systems/physics/Physics.cc",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/SystemManager.cc",
+      "match": true
+    },
+    {
+      "path": "validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/systems/physics/CMakeLists.txt",
+      "match": true
+    }
+  ],
+  "main_metadata_matches_previous_checkpoint": true,
+  "python_ast": "PASS",
+  "git_apply_checks": [
+    0,
+    0,
+    0
+  ],
+  "target_compile_link_load_run": "NOT_PERFORMED",
+  "previous_archive_patch_validation": "REUSED from gazebo-joint-build-plan-v1/reports/input_validation.json; not rerun",
+  "candidate_inputs_count": 18
+}

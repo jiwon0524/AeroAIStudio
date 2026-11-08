@@ -1,0 +1,229 @@
+{
+  "status": "BLOCKED_NOT_EXECUTABLE_RECIPE",
+  "warning": "exact candidate argv only; install ALL can reference unbuilt nonselected targets; use component-specific staging after closure audit. No command executed.",
+  "environment_policy": {
+    "PKG_CONFIG_LIBDIR": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/inputs/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/share/pkgconfig",
+    "clear": [
+      "CPATH",
+      "CPLUS_INCLUDE_PATH",
+      "C_INCLUDE_PATH",
+      "LIBRARY_PATH",
+      "LD_PRELOAD",
+      "LD_LIBRARY_PATH",
+      "CMAKE_PREFIX_PATH"
+    ]
+  },
+  "paths": {
+    "root": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01",
+    "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/prefix",
+    "logs": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/logs",
+    "manifests": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/manifests"
+  },
+  "steps": [
+    {
+      "component": "probe",
+      "configure_argv": [
+        "/usr/bin/cmake",
+        "-S",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/inputs",
+        "-B",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/build/probe",
+        "-G",
+        "Ninja",
+        "--toolchain",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/inputs/toolchain.cmake",
+        "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
+        "-DCMAKE_INSTALL_PREFIX=/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/prefix",
+        "-DCMAKE_INSTALL_LIBDIR=lib",
+        "-DAERO_JOINT_PREFIX=/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/prefix",
+        "-DAERO_JOINT_INPUTS=/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/inputs",
+        "-DBUILD_SHARED_LIBS=ON",
+        "-DBUILD_TESTING=OFF",
+        "-DAERO_BUILD_HARNESS=OFF"
+      ],
+      "build_argv": [
+        "/usr/bin/cmake",
+        "--build",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/build/probe",
+        "--target",
+        "aero-joint-probe",
+        "--parallel",
+        "2",
+        "--verbose"
+      ],
+      "install_argv": [
+        "/usr/bin/cmake",
+        "--install",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/build/probe",
+        "--prefix",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/prefix"
+      ]
+    },
+    {
+      "component": "dart",
+      "configure_argv": [
+        "/usr/bin/cmake",
+        "-S",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/src/dart",
+        "-B",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/build/dart",
+        "-G",
+        "Ninja",
+        "--toolchain",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/inputs/toolchain.cmake",
+        "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
+        "-DCMAKE_INSTALL_PREFIX=/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/prefix",
+        "-DCMAKE_INSTALL_LIBDIR=lib",
+        "-DAERO_JOINT_PREFIX=/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/prefix",
+        "-DAERO_JOINT_INPUTS=/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/inputs",
+        "-DBUILD_SHARED_LIBS=ON",
+        "-DBUILD_TESTING=OFF",
+        "-DDART_ENABLE_SIMD=OFF",
+        "-DDART_BUILD_GUI_OSG=OFF",
+        "-DDART_BUILD_EXTRAS=OFF",
+        "-DDART_BUILD_DARTPY=OFF",
+        "-DDART_VERBOSE=ON"
+      ],
+      "build_argv": [
+        "/usr/bin/cmake",
+        "--build",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/build/dart",
+        "--target",
+        "dart",
+        "dart-external-odelcpsolver",
+        "dart-collision-ode",
+        "dart-collision-bullet",
+        "dart-utils",
+        "dart-utils-urdf",
+        "--parallel",
+        "2",
+        "--verbose"
+      ],
+      "install_argv": [
+        "/usr/bin/cmake",
+        "--install",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/build/dart",
+        "--prefix",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/prefix"
+      ]
+    },
+    {
+      "component": "physics",
+      "configure_argv": [
+        "/usr/bin/cmake",
+        "-S",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/src/physics",
+        "-B",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/build/physics",
+        "-G",
+        "Ninja",
+        "--toolchain",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/inputs/toolchain.cmake",
+        "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
+        "-DCMAKE_INSTALL_PREFIX=/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/prefix",
+        "-DCMAKE_INSTALL_LIBDIR=lib",
+        "-DAERO_JOINT_PREFIX=/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/prefix",
+        "-DAERO_JOINT_INPUTS=/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/inputs",
+        "-DBUILD_SHARED_LIBS=ON",
+        "-DBUILD_TESTING=OFF",
+        "-DSKIP_tpe=ON",
+        "-DSKIP_bullet=ON",
+        "-DSKIP_bullet-featherstone=ON",
+        "-DBUILD_EXAMPLES=OFF"
+      ],
+      "build_argv": [
+        "/usr/bin/cmake",
+        "--build",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/build/physics",
+        "--target",
+        "gz-physics7",
+        "gz-physics7-dartsim-plugin",
+        "--parallel",
+        "2",
+        "--verbose"
+      ],
+      "install_argv": [
+        "/usr/bin/cmake",
+        "--install",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/build/physics",
+        "--prefix",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/prefix"
+      ]
+    },
+    {
+      "component": "sim",
+      "configure_argv": [
+        "/usr/bin/cmake",
+        "-S",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/src/sim",
+        "-B",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/build/sim",
+        "-G",
+        "Ninja",
+        "--toolchain",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/inputs/toolchain.cmake",
+        "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
+        "-DCMAKE_INSTALL_PREFIX=/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/prefix",
+        "-DCMAKE_INSTALL_LIBDIR=lib",
+        "-DAERO_JOINT_PREFIX=/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/prefix",
+        "-DAERO_JOINT_INPUTS=/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/inputs",
+        "-DBUILD_SHARED_LIBS=ON",
+        "-DBUILD_TESTING=OFF",
+        "-DSKIP_PYBIND11=ON",
+        "-DBUILD_EXAMPLES=OFF",
+        "-DAERO_JOINT_PHYSICS_SOURCE=/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/src/physics"
+      ],
+      "build_argv": [
+        "/usr/bin/cmake",
+        "--build",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/build/sim",
+        "--target",
+        "gz-sim8",
+        "gz-sim8-physics-system",
+        "--parallel",
+        "2",
+        "--verbose"
+      ],
+      "install_argv": [
+        "/usr/bin/cmake",
+        "--install",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/build/sim",
+        "--prefix",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/prefix"
+      ]
+    },
+    {
+      "component": "harness",
+      "configure_argv": [
+        "/usr/bin/cmake",
+        "-S",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/inputs",
+        "-B",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/build/harness",
+        "-G",
+        "Ninja",
+        "--toolchain",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/inputs/toolchain.cmake",
+        "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
+        "-DCMAKE_INSTALL_PREFIX=/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/prefix",
+        "-DCMAKE_INSTALL_LIBDIR=lib",
+        "-DAERO_JOINT_PREFIX=/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/prefix",
+        "-DAERO_JOINT_INPUTS=/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/inputs",
+        "-DBUILD_SHARED_LIBS=ON",
+        "-DBUILD_TESTING=OFF",
+        "-DAERO_BUILD_HARNESS=ON"
+      ],
+      "build_argv": [
+        "/usr/bin/cmake",
+        "--build",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-inputs-v1/work/config-01/build/harness",
+        "--target",
+        "aero-joint-harness",
+        "--parallel",
+        "2",
+        "--verbose"
+      ],
+      "install_argv": null
+    }
+  ]
+}
