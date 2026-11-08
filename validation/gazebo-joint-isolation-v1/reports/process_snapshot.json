@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-08T14:19:33.890228+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "2797bb1cb55b9dbc93f35b24e0f0d6e50585f74e",
+    "branch": "experiment/dart-internal-trace",
+    "status": [
+      {
+        "status": "??",
+        "path": "libgz-physics-dartsim-plugin.so"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-isolation-v1/reports/implementation_result.md",
+      "sha256": "59c529f3a5de164def295dc8efde7dbc11d7a791286296510a9f73d760397ca7"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}

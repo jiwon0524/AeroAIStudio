@@ -1,3 +1,57 @@
+# Joint-build isolated execution path — current checkpoint
+
+2026-11-08 UTC. Starting HEAD2797bb1cb55b9dbc93f35b24e0f0d6e50585f74e, experiment/dart-internal-trace, no tracked/staged changes; original untracked dangling root link preserved. Current user authorizes implementation and static/mock validation only. Required instructions/rules/handoff/proposal/build manifest and preceding conversation review reconciled; context-handoff used.
+
+**IMPLEMENTED_AND_STATIC_MOCK_TESTED / NOT_EXECUTION_READY / NOT_RUNTIME_VERIFIED. Stage B BLOCKED; risk acceptance UNDECIDED.**
+
+Result validation/gazebo-joint-isolation-v1/reports/implementation_result.md; disabled future CLI boundary launch_boundary.md. New plan.py produces actual ordered FD-only bwrap argv:445 individual RO mounts,298 source FDs,171 candidates (original170+new FD bridge),8 required canonical mapping identities, exact source/inode aliases, original absolute stack/predecessor prefixes and125 pinned SDF schema candidates. No host directory bind, installed subject stack, main/evidence/marker/HOME exposure. Original harness SHA bd7ce6480b15debab915a69cd9e9a429b92c066063cd31882666617c0a0b3d5a, original170 ELF/world and13 receipt pairs rehashed/reused; no subject rebuild.
+
+FD bridge compiled/static audited only,92 headers match locks; bridge SHA3c313ff9ff42624aaeb44bb3823749786d137cb9c3177d25783ee24db25a7236. Standard stdin/stdout service pipes cross bwrap; bridge moves them to harness FD3/4, redirects ordinary stdout to stderr, closes extra descriptors and applies the fixed rlimits after mount FDs are consumed. Never executed. Anchor allowlist at inputs/joint-elf.sha256 mounts RO /input/joint-elf.sha256. Plan/source/reused-module/host-tool pins enforced by read-only preflight; current reports/source_pin.json + inputs/source_pin.sha256 and reports/plan.sha256 are active (earlier work/plan.sha256 is obsolete local preparation evidence).
+
+New supervisor/live/stage reuse old systemd argv and cgroup/identity/controller helpers, not old broad directory-bind workload builders. Runtime-only attestation checks PID/start, namespaces, cgroup/rlimits, FD3/4, RO mounts, actual backing mappings and typed engine/ODE providers. Protocol requires two identical measured zero/init1 ready/world states before one parent GO; unchanged100x1ms/freefall policy, native counters, cumulative+pending output limits, EOF on both streams, exit0, no101st sample and final live mapping are required. Unit cleanup is saved InvocationID/Id/ControlGroup/MainPID and PID/start scoped; unknown visibility, remaining processes, controller differences or original integrity failure cannot PASS. Outputs and one-shots are lexists/ancestor checked and exclusive, created only by future runtime after gates.
+
+31 static/synthetic tests PASS, including alias/inode/mapping/schema errors, pre-GO changes, duplicate GO,101st sample, EOF/exit/limits failures, cleanup identity, risk missing and pre-service blocker. Positive is synthetic only. Final pinned CLI --preflight exits78/BLOCKED; manager queries/marker/service branch unreachable under current blockers. reports/preflight_result.json and tests.json evidence. All runtime output/marker paths and reports/approved_execution.json remain absent.
+
+Pinned blockers: (1) dynamic SDF/config/plugin/resource lookup coverage is not certified, despite125 pinned candidate schema files; source-defined exact closure or separately authorized bounded fixture needed, no broad fallback. (2) systemd-pipe→stage→bwrap→bridge and cgroup/cleanup topology lacks end-to-end harmless fixture verification; no test service allowed/run this task. (3) current native binary may exit before final live mapping snapshot; require reviewed final acknowledgement/collection strategy, and rebuild/hash review if native protocol changes. Missing evidence is rejected, never waived. Itemized Bullet lifetime/destructor/allocator/C exception risks remain user decisions, not replacements for technical blockers. No executable approval proposal submitted.
+
+preservation.json rechecks original main HEAD/status/dirty hashes, old9 fixed input/failure-log hashes,13 receipt pairs, backing files and dangling-link identity. Existing source/ELF/evidence/markers preserved; no old marker opened/consumed, no existing process stopped/restarted. No DART/Gazebo load, harness/bridge execution, physics step, service start, sudo/install/system change. New tests used only temporary synthetic symlinks and Python policies. Launched preparation commands exited; project-CWD snapshot has limited visibility, external-CWD/remote/container work UNKNOWN.
+
+Current implementation/static scope complete. Next minimum: resolve the three documented technical boundaries under separately authorized scope, retain failed/preparation logs, reseal/review changed source/plan and then prepare a concrete one-shot approval; no automatic runtime, risk acceptance or Stage B change. Future evidence applies only to this coherent joint instrumented configuration. Publish verified source/tests/RO plan/allowlist/hash pins/lightweight reports/handoff only on experiment branch. Raw logs, bridge binary/deps, old builds and work prefixes remain local/ignored under /tmp, not durable or transferred by Git. Snapshot pre-publication; reconcile following commit parent/list and local publication receipt.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-08T14:19:33.890228+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "2797bb1cb55b9dbc93f35b24e0f0d6e50585f74e",
+    "branch": "experiment/dart-internal-trace",
+    "status": [
+      {
+        "status": "??",
+        "path": "libgz-physics-dartsim-plugin.so"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-isolation-v1/reports/implementation_result.md",
+      "sha256": "59c529f3a5de164def295dc8efde7dbc11d7a791286296510a9f73d760397ca7"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+---
+Previous checkpoint follows:
+
 # Harness selection repair — current checkpoint
 
 2026-11-08 UTC. Start HEAD d38acab27c00d18fd68e8b0c8fb024b03c1e5f81, experiment/dart-internal-trace, no staged/tracked changes; prior dangling root symlink only. User authorizes checker repair/configure review/compile/link/separate-prefix deployment/static checks. context-handoff used. Required instructions/rules/handoff/feature-fix result/closure build contract read.

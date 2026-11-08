@@ -1,0 +1,163 @@
+{
+  "status": "PASS_STATIC_MOCK_ONLY",
+  "cases": [
+    {
+      "case": "wrong_alias",
+      "status": "PASS_REJECTED",
+      "reason": "mount SHA/path mismatch /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1"
+    },
+    {
+      "case": "same_SHA_wrong_inode",
+      "status": "PASS_REJECTED",
+      "reason": "mount inode changed /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1"
+    },
+    {
+      "case": "dynamic_inputs_missing",
+      "status": "PASS_REJECTED",
+      "reason": "dynamic schema inputs missing"
+    },
+    {
+      "case": "technical_block_before_manager_marker_service",
+      "status": "PASS_REJECTED",
+      "reason": "runtime technical blocker before marker/service"
+    },
+    {
+      "case": "risk_decision_missing",
+      "status": "PASS_REJECTED",
+      "reason": "explicit approval record missing"
+    },
+    {
+      "case": "live_required_mapping_missing",
+      "status": "PASS_REJECTED",
+      "reason": "required mapping missing /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13.2"
+    },
+    {
+      "case": "positive_GO_100_samples_EOF_exit_cleanup_integrity",
+      "status": "PASS_SYNTHETIC_ONLY"
+    },
+    {
+      "case": "pre_GO_iteration_change",
+      "status": "PASS_REJECTED",
+      "reason": "pre-GO state/provider/world changed"
+    },
+    {
+      "case": "pre_GO_native_time_change",
+      "status": "PASS_REJECTED",
+      "reason": "pre-GO state/provider/world changed"
+    },
+    {
+      "case": "pre_GO_world_change",
+      "status": "PASS_REJECTED",
+      "reason": "pre-GO state/provider/world changed"
+    },
+    {
+      "case": "provider_evidence_missing",
+      "status": "PASS_REJECTED",
+      "reason": "pre-GO state/provider/world changed"
+    },
+    {
+      "case": "unexpected_mapping",
+      "status": "PASS_REJECTED",
+      "reason": "unexpected mapping"
+    },
+    {
+      "case": "required_mapping_missing",
+      "status": "PASS_REJECTED",
+      "reason": "'/missing'"
+    },
+    {
+      "case": "isolation_or_collector_unknown",
+      "status": "PASS_REJECTED",
+      "reason": "live collector unavailable"
+    },
+    {
+      "case": "duplicate_GO",
+      "status": "PASS_REJECTED",
+      "reason": "duplicate GO"
+    },
+    {
+      "case": "101st_sample",
+      "status": "PASS_REJECTED",
+      "reason": "101st sample"
+    },
+    {
+      "case": "EOF_missing",
+      "status": "PASS_REJECTED",
+      "reason": "EOF missing"
+    },
+    {
+      "case": "exit_failure",
+      "status": "PASS_REJECTED",
+      "reason": "nonzero exit"
+    },
+    {
+      "case": "cleanup_unknown",
+      "status": "PASS_REJECTED",
+      "reason": "cleanup/integrity/final mapping missing"
+    },
+    {
+      "case": "integrity_failure",
+      "status": "PASS_REJECTED",
+      "reason": "cleanup/integrity/final mapping missing"
+    },
+    {
+      "case": "final_mapping_unknown",
+      "status": "PASS_REJECTED",
+      "reason": "cleanup/integrity/final mapping missing"
+    },
+    {
+      "case": "sample_missing",
+      "status": "PASS_REJECTED",
+      "reason": "not exactly 100 samples"
+    },
+    {
+      "case": "freefall_failure",
+      "status": "PASS_REJECTED",
+      "reason": "freefall z mismatch"
+    },
+    {
+      "case": "cumulative_output_overflow",
+      "status": "PASS_REJECTED",
+      "reason": "cumulative output exceeded"
+    },
+    {
+      "case": "pending_buffer_overflow",
+      "status": "PASS_REJECTED",
+      "reason": "pending buffer exceeded"
+    },
+    {
+      "case": "EOF_truncated_line",
+      "status": "PASS_REJECTED",
+      "reason": "truncated output at EOF"
+    },
+    {
+      "case": "cleanup_InvocationID_changed",
+      "status": "PASS_REJECTED",
+      "reason": "unit ownership changed"
+    },
+    {
+      "case": "cleanup_PID_start_changed",
+      "status": "PASS_REJECTED",
+      "reason": "PID/start ownership changed"
+    },
+    {
+      "case": "dangling_output_collision",
+      "status": "PASS_REJECTED",
+      "reason": "existing output/one-shot /tmp/joint-policy-fixture-v03i_hwa/dangling"
+    },
+    {
+      "case": "dangling_parent_collision",
+      "status": "PASS_REJECTED",
+      "reason": "symlink output ancestor /tmp/joint-policy-fixture-v03i_hwa/dangling"
+    },
+    {
+      "case": "symlink_output_ancestor",
+      "status": "PASS_REJECTED",
+      "reason": "symlink output ancestor /tmp/joint-policy-fixture-v03i_hwa/alias"
+    }
+  ],
+  "service_starts": 0,
+  "subject_loads": 0,
+  "harness_runs": 0,
+  "runtime_markers_created": 0
+}

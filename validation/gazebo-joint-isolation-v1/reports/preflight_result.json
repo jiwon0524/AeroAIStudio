@@ -1,0 +1,21 @@
+{
+  "status": "PASS_BLOCKED_BEFORE_RUNTIME",
+  "returncode": 78,
+  "stdout": {
+    "status": "BLOCKED",
+    "blockers": [
+      "DYNAMIC_RESOURCE_CLOSURE_UNVERIFIED: schema candidates are pinned, but sdformat/config/plugin runtime lookup coverage is not certified",
+      "LIVE_SUPERVISOR_INTEGRATION_UNVERIFIED: no allowed native/service fixture execution in this scope",
+      "FINAL_MAPPING_HANDSHAKE_UNVERIFIED: current harness may exit before final live mapping snapshot; fail rather than waive"
+    ],
+    "risk_acceptance": "UNDECIDED",
+    "stage_b": "BLOCKED",
+    "side_effects": "none"
+  },
+  "stderr": "",
+  "runtime_output_marker_paths_absent": true,
+  "risk_record_absent": true,
+  "final_source_pin_sha256": "b117a324f4889f8e071517eaf2ca9523e8ff63b878816738dae20378c1517d6d",
+  "plan_sha256": "7f41ac68501035ed4c9a91173c44c3279f8e765a5e1504807b1d8e5d277e55d5",
+  "shim_sha256": "3c313ff9ff42624aaeb44bb3823749786d137cb9c3177d25783ee24db25a7236"
+}

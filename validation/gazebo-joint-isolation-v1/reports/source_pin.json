@@ -1,0 +1,24 @@
+{
+  "status": "SEALED_PREPARATION_ONLY",
+  "files": {
+    "validation/dart-cgroup-integration-v1/scripts/integration.py": "d5d77ec43551b98bbe6b4b8f19ca3ab3ab536e2d02326ce521e1499733a3dac8",
+    "validation/dart-cgroup-smoke-v1/scripts/smoke.py": "500463adc143fcbe923cab04670be89c33352e2c0b4e564ae47ad14962b1736e",
+    "validation/dart-probe-a-harness-v1/scripts/identity.py": "2cd0a79749a0825156e85433960066df08c37c28d5adcb7319a0a6f50f5ad7f4",
+    "validation/dart-probe-a-harness-v1/scripts/mapped.py": "e136dfcb552cd03a90166459f483e5cee20125c8b4def31ea8c13d61f14a6dc6",
+    "validation/gazebo-joint-isolation-v1/inputs/fd_bridge.c": "df874a140ba6b7aaeab86034fd7fb5482049868663cc75250b1858c40fc07fa3",
+    "validation/gazebo-joint-isolation-v1/inputs/joint-elf.sha256": "6bd5b438e5781c8141040b7ed5f37f2a0965814bd7ce9d8d4bc50f0be89176fc",
+    "validation/gazebo-joint-isolation-v1/reports/ordered_argv.json": "a8d3f8cc8dca1c4754d1899c73abf035f3904f81926f5fa87c8a89f4895eea55",
+    "validation/gazebo-joint-isolation-v1/reports/plan.json": "7f41ac68501035ed4c9a91173c44c3279f8e765a5e1504807b1d8e5d277e55d5",
+    "validation/gazebo-joint-isolation-v1/scripts/audit_static.py": "4d9316d75fc3de333a45e5ffc81f6166f0e5c74d3b3ef818ac1df18aca86da38",
+    "validation/gazebo-joint-isolation-v1/scripts/common.py": "6e7a7d7e6438a1528f5bc6d7c8b6f91f97c9aebc9ee73a1de30c989c32521690",
+    "validation/gazebo-joint-isolation-v1/scripts/integrity.py": "17b68b78f809f490536245142e67dd37d17c5ebf4615f35ee62f07d9d83f1a76",
+    "validation/gazebo-joint-isolation-v1/scripts/live.py": "2417bf72b377d1109294b737c58da45127288f9bc1a8a357975f5a80ebfd7703",
+    "validation/gazebo-joint-isolation-v1/scripts/plan.py": "4984f87ee525f0f32d04c3e74cadef337e2a5439ac1af52616211ee5f735264b",
+    "validation/gazebo-joint-isolation-v1/scripts/protocol.py": "459bf224ccf200648f6a2c0fc6569171a8746ced48293202ab1eee7f001425cf",
+    "validation/gazebo-joint-isolation-v1/scripts/stage.py": "0a750dd45efd70d6a09ce3477e45bdd4e6f19b23fdcff4d5fc83b375b199f4e6",
+    "validation/gazebo-joint-isolation-v1/scripts/supervisor.py": "f35ae30e7e704f7f9634cdf96328b76a0494f120b8102dcb47a3520963057b84",
+    "validation/gazebo-joint-isolation-v1/tests/test_isolation.py": "88b5b5cf36e1950e3dbd45562042e8e4b18ad46e6c793ebd9f6432792205f274",
+    "validation/gazebo-minimal-physics-v1/scripts/gate.py": "d10cf112b5dd587e0bb831ca734773ab63841549707a4d353b14ddbb4e4d915a"
+  },
+  "bridge_sha256": "3c313ff9ff42624aaeb44bb3823749786d137cb9c3177d25783ee24db25a7236"
+}
