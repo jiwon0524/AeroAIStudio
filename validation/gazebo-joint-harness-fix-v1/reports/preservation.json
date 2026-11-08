@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "fixed_input_hashes_unchanged": 9,
+  "receipt_pairs_unchanged": 13,
+  "main_HEAD_status_dirty_hashes_unchanged": true,
+  "root_symlink_inode_target_mtime_unchanged": true,
+  "previous_failure_log_unchanged": true,
+  "markers": "no marker path was opened, written or consumed by this task; no marker-content revalidation claimed"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "step": "harness.build",
+    "returncode": 0,
+    "host": "jiwon-System-Product-Name",
+    "pid": 6,
+    "start_identity": "34081726",
+    "seconds": 1.91,
+    "log": "validation/gazebo-joint-harness-fix-v1/logs/harness.build.log",
+    "sha256": "fe878a14714a5d135517f0197a7ac7116f04257d70ed8aacc403a1c3778c2fd1"
+  },
+  {
+    "step": "harness.elf",
+    "returncode": 0,
+    "host": "jiwon-System-Product-Name",
+    "pid": 6,
+    "start_identity": "34083082",
+    "seconds": 1.43,
+    "log": "validation/gazebo-joint-harness-fix-v1/logs/harness.elf.log",
+    "sha256": "c466737d19b35805a912103e1e1c7cf35993fef8dc1cd1de58748f473dbb18b8"
+  }
+]

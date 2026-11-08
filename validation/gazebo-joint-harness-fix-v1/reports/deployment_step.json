@@ -1,0 +1,9 @@
+{
+  "returncode": 0,
+  "host": "jiwon-System-Product-Name",
+  "pid": 8,
+  "start_identity": "34093535",
+  "seconds": 4.36,
+  "log": "validation/gazebo-joint-harness-fix-v1/logs/deployment.final.log",
+  "sha256": "730b1b881f75ab38acf7b3a2612e15d0e0e1ae03f610f9d4f486ad6be8a0fd7c"
+}

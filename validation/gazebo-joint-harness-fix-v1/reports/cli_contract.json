@@ -1,0 +1,7 @@
+{
+  "status": "PASS_STATIC_SELECTED_CLOSURE",
+  "argv_contract": "original commands_final.json harness.selection unchanged",
+  "returncode": 0,
+  "stdout_path": "validation/gazebo-joint-harness-fix-v1/logs/selection.cli.json",
+  "stdout_sha256": "857790bdba0a989121e55bbdf328d132ebb9858c7056d3c7740c6e80f9f009a8"
+}

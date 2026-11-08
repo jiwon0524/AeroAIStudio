@@ -1,3 +1,55 @@
+# Harness selection repair — current checkpoint
+
+2026-11-08 UTC. Start HEAD d38acab27c00d18fd68e8b0c8fb024b03c1e5f81, experiment/dart-internal-trace, no staged/tracked changes; prior dangling root symlink only. User authorizes checker repair/configure review/compile/link/separate-prefix deployment/static checks. context-handoff used. Required instructions/rules/handoff/feature-fix result/closure build contract read.
+
+**JOINT_BUILD_AND_STATIC_DEPLOYMENT_PASS / NOT_RUNTIME_VERIFIED / NOT_EXECUTION_APPROVED. Stage B BLOCKED; risk acceptance UNDECIDED.**
+
+Report validation/gazebo-joint-harness-fix-v1/reports/build_result.md. Restored exact previously missing validation/gazebo-joint-codegen-fix-v1/scripts/check_selection_harness.py (single argument harness, JSON stdout, nonzero rejection), reusing original broad external SHA/installed-subject rejection logic plus harness File API/direct-target/Ninja/link checks. Existing compile gate, SDK lock and all13 receipt pairs unchanged. Exact existing CLI/env PASS; approved selection plus11 negative cases PASS_REJECTED. CMake-deleted generated try_compile scripts classified as trace metadata only, persistent required inputs still fail if missing. Initial checker diagnostic preserved in logs/selection.first.json. Final inventory's initial /usr/lib fallback omission corrected to match existing auditor; diagnostic deployment_first_attempt.json, no new allowlist entries.
+
+Harness configure metadata reused; source-built DART/gz-physics/Sim13 build-prefix pairs rehashed PASS, no stack rebuild. Harness compile/link PASS1.91s under original compiler gate/env. Actual1 object/543 dependencies checked, no /usr/local/installed subject headers. Existing audit_outputs_sim.py harness mode PASS; selected 475 external files. Separate deployment prefix validation/gazebo-joint-harness-fix-v1/work/prefix, executable bin/aero-joint-harness SHA bd7ce6480b15debab915a69cd9e9a429b92c066063cd31882666617c0a0b3d5a, Build ID82c1f5a064a9d7c044c31cb9cdc7c8d3cc5fbe02, equals codegen-fix build/harness/aero-joint-harness bytes. ELF PIE, DT_RPATH absent, RUNPATH exactly previous stack prefix/lib+closure-v1 deps lib. No RPATH editing/strip. share/aero/world.sdf SHA534b09dddb318e5db1f9ccb2267fb7c7744c552d8bc4034008d547514c37ba69, same embedded template with fixed verified plugin arguments.
+
+final_manifest.json fixes executable/world/plugins and170 static recursive DT_NEEDED ELF files with SHA/Build ID/paths/edges/RPATH/RUNPATH. Physics system remains codegen-fix prefix/lib/gz-sim-8/plugins/libgz-sim8-physics-system.so.8.15.0 SHAdfe093dc43a949bc554de3f52223aae3f437759a6378cd5aa22cca5d21423a11. Engine remains prefix/lib/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0 SHAc652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c. Current separate executable deployment retains compiled original stack prefix and predecessor ELF RUNPATH bindings; it is not standalone/relocatable or a runtime-mapping certificate.
+
+preservation.json verifies9 original input/log hashes,13 receipt pairs, original main HEAD/status/dirty-file hashes and dangling symlink inode/target/mtime unchanged. Existing failed logs and prior source/artifact/marker state preserved; no marker path opened/written/consumed (no new marker hash certification). No DART/Gazebo subject load/run, harness execution, step, service, sudo, package/system changes. All launched tasks exited; steps/deployment/process snapshots provide scoped identities. External-CWD/remote/container processes UNKNOWN; no existing task terminated/restarted.
+
+Current build request is complete. Next boundary: review execution_proposal.md and obtain explicit future loading/pre-GO scope/risk decision; no automatic runtime phase. Native provider/mapping/PID/FD identity, zero-time init and rejection behavior remain untested;100x1ms stepping needs separately explicit scope and does not follow from build completion. Existing Clock/Capture criteria unchanged.
+
+Publish restored checker and verified lightweight reports/scripts/handoff on experiment branch only. Raw logs/dependency metadata/builds/executable/world and original large locks remain ignored/local under /tmp, which is not durable or transferred by Git; referenced predecessor prefixes must remain available. Pre-publication snapshot follows; reconcile publication commit parent/file list and local publication receipt. No main/merge/force push.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-08T13:49:05.340296+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "d38acab27c00d18fd68e8b0c8fb024b03c1e5f81",
+    "branch": "experiment/dart-internal-trace",
+    "status": [
+      {
+        "status": "??",
+        "path": "libgz-physics-dartsim-plugin.so"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-harness-fix-v1/reports/build_result.md",
+      "sha256": "e5e98133a51cb3984db8c09152c6132ceee6137c00c869b414d8e8f77859bd55"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+---
+Previous checkpoint follows:
+
 # RetrieveWorld feature repair — current checkpoint
 
 2026-11-08 UTC. User scope: resume interrupted joint build in experiment worktree; build/static checks only, stop at first mismatch. context-handoff used. Starting HEAD and actual GitHub experiment ref b82792eb0b269f355cebcecfbcaa6fdb4988feef; 37 prior staged checkpoint files, no prior commit/push. Root dangling symlink origin confirmed and preserved untracked.

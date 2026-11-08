@@ -1,0 +1,84 @@
+{
+  "positive": "PASS_STATIC_SELECTED_CLOSURE",
+  "negative_tests": [
+    {
+      "case": "required_path_missing",
+      "status": "PASS_REJECTED",
+      "errors": [
+        "missing input /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/inputs/missing-required-input.hh"
+      ]
+    },
+    {
+      "case": "outside_allowlist",
+      "status": "PASS_REJECTED",
+      "errors": [
+        "unlocked file: /etc/hostname"
+      ]
+    },
+    {
+      "case": "installed_Sim",
+      "status": "PASS_REJECTED",
+      "errors": [
+        "forbidden installed stack path: /usr/lib/x86_64-linux-gnu/libgz-sim8.so.8.15.0"
+      ]
+    },
+    {
+      "case": "local_headers",
+      "status": "PASS_REJECTED",
+      "errors": [
+        "forbidden local/root-symlink input /usr/local/include"
+      ]
+    },
+    {
+      "case": "root_dangling_symlink",
+      "status": "PASS_REJECTED",
+      "errors": [
+        "forbidden local/root-symlink input /tmp/AeroAIStudio-dart-internal-trace/libgz-physics-dartsim-plugin.so"
+      ]
+    },
+    {
+      "case": "unresolved_link_library",
+      "status": "PASS_REJECTED",
+      "errors": [
+        "unresolved link input -laero_unapproved_missing"
+      ]
+    },
+    {
+      "case": "unresolved_target_expression",
+      "status": "PASS_REJECTED",
+      "errors": [
+        "unresolved expression $<TARGET_FILE:unknown>",
+        "unresolved link input $<TARGET_FILE:unknown>"
+      ]
+    },
+    {
+      "case": "relative_uninterpreted_link_input",
+      "status": "PASS_REJECTED",
+      "errors": [
+        "unresolved link input unresolved/library.so"
+      ]
+    },
+    {
+      "case": "response_file",
+      "status": "PASS_REJECTED",
+      "errors": [
+        "unresolved link input @unknown.rsp"
+      ]
+    },
+    {
+      "case": "missing_link_metadata",
+      "status": "PASS_REJECTED",
+      "errors": [
+        "missing compile/link inputs"
+      ]
+    },
+    {
+      "case": "unexpected_generated_target",
+      "status": "PASS_REJECTED",
+      "errors": [
+        "unplanned generated target dependency"
+      ]
+    }
+  ],
+  "execution": "Python gate and ninja metadata only; no subject execution"
+}

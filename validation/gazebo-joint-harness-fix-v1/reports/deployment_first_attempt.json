@@ -1,0 +1,6 @@
+{
+  "status": "IMPLEMENTATION_SEARCH_LIST_INCOMPLETE",
+  "observed_error": "AssertionError: ('/usr/lib/x86_64-linux-gnu/libgdal.so.34.3.8.4', 'libarmadillo.so.12')",
+  "cause": "new inventory omitted /usr/lib fallback already present in original audit_outputs_sim.py; target exists at /usr/lib/libarmadillo.so.12, still subject to exact same file hash lock",
+  "action": "restore existing static auditor search list; preserve staged binary/world; never load or execute; no lock addition"
+}
