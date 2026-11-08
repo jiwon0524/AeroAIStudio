@@ -1,3 +1,45 @@
+# ABI reassessment — current checkpoint
+
+**PARTIAL evidence / mixed ABI UNRESOLVED / Stage B BLOCKED / risks undecided**.
+2026-11-08 UTC. Starting HEAD5ebadc2f6fc7cbcecd0b293f6d24ea68d3ea5dfc matched, experiment branch clean. Required documents read; context-handoff used. Current authorization: acquisition/extraction/static comparison only; no target source modifications/build/load/run/service/marker/sudo/install/system/main changes. Prior build-preparation authorization does not carry into this request.
+
+New report: `validation/gazebo-abi-reassessment-v1/reports/reassessment.md`; acquisition/static manifests in same reports folder; reproducible download/byte-comparison scripts in sibling scripts. Official S3 releases yielded upstream7.8.0 archive and exact noble core/core-dev/dartsim/dartsim-dev debs. Core/plugin match installed bytes and prior Build IDs.101 core-dev headers match installed,97 also match release source.464 common release/tag files match. Exact native source package/debug/buildinfo remain absent in checked locations; current provider pool only7.9.0, historical search listing is not current availability. HTTP200 classic landing HTML rejected as archive. Source/patch provenance, debug identity, ABI compatibility are separately assessed in report.
+
+Actual typed contracts/ownership identified: plugin proxy+Identity(size_t/shared_ptr<void>), internal RetrieveWorld virtual feature returns shared_ptr<World>, borrowed solver, shared detector/virtual string getter and multiple-inheritance wrappers. Public header identity is stronger evidence but does not certify internal feature/DART ABI. No mixed composition certified. Separate coherent source-built candidate is Sim core+Physics+harness, gz-physics core+dartsim, DART core+ODE+Bullet (both DT_NEEDED), with external LCP/third-party reuse separately proved or expanded. Original binary buildinfo is not mandatory to define a NEW configuration, but its own fixed source/toolchain/generated config/ABI closure is. Results would belong only to that instrumented configuration. No build/execution approval issued.
+
+Direct preservation:71 selected prior input hashes unchanged; main HEAD/status unchanged. Installed ELF hashes/IDs reused as baselines, new extracted copies statically matched. No target ELF/test execution. Existing reports/source/evidence/markers preserved. Changed files: this handoff plus new reassessment reports/scripts. Ignored source/deb/raw downloads are local under new work, not transported by Git; /tmp not durable.
+
+No same-user project-CWD task observed; external CWD/remote/container UNKNOWN. No existing process stopped/restarted. Next minimum is resolve actual mixed boundary evidence OR fix a coherent new source-built input/closure scope before requesting source/build work. Current task stops after report/publication. Runtime/Step/services/markers require separate explicit approval. Snapshot is pre-publication; verify actual commit parent/file list/remote at resume.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-08T00:38:35.118206+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "5ebadc2f6fc7cbcecd0b293f6d24ea68d3ea5dfc",
+    "branch": "experiment/dart-internal-trace",
+    "status": []
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-abi-reassessment-v1/reports/reassessment.md",
+      "sha256": "8a1ee63f4e5e5ac1b331d9f4025db4fe994b2b0ba55f974ecc3ec7ade3b13f06"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+---
+Previous checkpoint follows:
+
 # Pre-step instrumentation build gate — current checkpoint
 
 **BLOCKED_BEFORE_CONFIGURE / NOT_EXECUTION_READY / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**.

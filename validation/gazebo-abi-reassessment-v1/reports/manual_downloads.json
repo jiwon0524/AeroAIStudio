@@ -1,0 +1,20 @@
+[
+  {
+    "file": "validation/gazebo-abi-reassessment-v1/work/downloads/physics-index.html",
+    "url": "https://packages.osrfoundation.org/gazebo/ubuntu/pool/main/g/gz-physics7/",
+    "sha256": "f2b0c981cd1b36f40259ee3dbe4efab5dfe2a6281440888e2e9c7f617ff0250b",
+    "bytes": 9221
+  },
+  {
+    "file": "validation/gazebo-abi-reassessment-v1/work/downloads/s3-index.xml",
+    "url": "https://osrf-distributions.s3.us-east-1.amazonaws.com/?prefix=gz-physics/releases/&max-keys=1000",
+    "sha256": "a5332f3a2287f012066fdcf280fc12b4b7a2d0e37d32e46888a15ffa2e2eb2a3",
+    "bytes": 273666
+  },
+  {
+    "file": "validation/gazebo-abi-reassessment-v1/work/downloads/upstream-release.tar.bz2",
+    "url": "https://osrf-distributions.s3.us-east-1.amazonaws.com/gz-physics/releases/gz-physics-7.8.0.tar.bz2",
+    "sha256": "120b7ea6e1dd9c34515948de3c69ab5e27ab098e56379a3ef61a414c6e606927",
+    "bytes": 18711469
+  }
+]

@@ -1,0 +1,390 @@
+[
+  {
+    "path": "GetRayIntersection.hh",
+    "equal": true
+  },
+  {
+    "path": "FindFeatures.hh",
+    "equal": true
+  },
+  {
+    "path": "Entity.hh",
+    "equal": true
+  },
+  {
+    "path": "EllipsoidShape.hh",
+    "equal": true
+  },
+  {
+    "path": "ForwardStep.hh",
+    "equal": true
+  },
+  {
+    "path": "PlaneShape.hh",
+    "equal": true
+  },
+  {
+    "path": "CanReadData.hh",
+    "equal": true
+  },
+  {
+    "path": "Gravity.hh",
+    "equal": true
+  },
+  {
+    "path": "ConstructEmpty.hh",
+    "equal": true
+  },
+  {
+    "path": "GetEntities.hh",
+    "equal": true
+  },
+  {
+    "path": "Implements.hh",
+    "equal": true
+  },
+  {
+    "path": "SpecifyData.hh",
+    "equal": true
+  },
+  {
+    "path": "CanWriteData.hh",
+    "equal": true
+  },
+  {
+    "path": "FreeGroup.hh",
+    "equal": true
+  },
+  {
+    "path": "CapsuleShape.hh",
+    "equal": true
+  },
+  {
+    "path": "ContactProperties.hh",
+    "equal": true
+  },
+  {
+    "path": "FixedJoint.hh",
+    "equal": true
+  },
+  {
+    "path": "Model.hh",
+    "equal": true
+  },
+  {
+    "path": "CompositeData.hh",
+    "equal": true
+  },
+  {
+    "path": "GetContacts.hh",
+    "equal": true
+  },
+  {
+    "path": "Register.hh",
+    "equal": true
+  },
+  {
+    "path": "OperateOnSpecifiedData.hh",
+    "equal": true
+  },
+  {
+    "path": "FreeJoint.hh",
+    "equal": true
+  },
+  {
+    "path": "DeclareShapeType.hh",
+    "equal": true
+  },
+  {
+    "path": "DeclareJointType.hh",
+    "equal": true
+  },
+  {
+    "path": "Link.hh",
+    "equal": true
+  },
+  {
+    "path": "FrameID.hh",
+    "equal": true
+  },
+  {
+    "path": "GetBoundingBox.hh",
+    "equal": true
+  },
+  {
+    "path": "SphereShape.hh",
+    "equal": true
+  },
+  {
+    "path": "RegisterMore.hh",
+    "equal": true
+  },
+  {
+    "path": "CylinderShape.hh",
+    "equal": true
+  },
+  {
+    "path": "RelativeQuantity.hh",
+    "equal": true
+  },
+  {
+    "path": "ConeShape.hh",
+    "equal": true
+  },
+  {
+    "path": "RequestEngine.hh",
+    "equal": true
+  },
+  {
+    "path": "TemplateHelpers.hh",
+    "equal": true
+  },
+  {
+    "path": "PrismaticJoint.hh",
+    "equal": true
+  },
+  {
+    "path": "FrameData.hh",
+    "equal": true
+  },
+  {
+    "path": "Shape.hh",
+    "equal": true
+  },
+  {
+    "path": "FeatureList.hh",
+    "equal": true
+  },
+  {
+    "path": "Geometry.hh",
+    "equal": true
+  },
+  {
+    "path": "Cloneable.hh",
+    "equal": true
+  },
+  {
+    "path": "AddedMass.hh",
+    "equal": true
+  },
+  {
+    "path": "FrameSemantics.hh",
+    "equal": true
+  },
+  {
+    "path": "InstallationDirectories.hh",
+    "equal": true
+  },
+  {
+    "path": "World.hh",
+    "equal": true
+  },
+  {
+    "path": "RevoluteJoint.hh",
+    "equal": true
+  },
+  {
+    "path": "RequestFeatures.hh",
+    "equal": true
+  },
+  {
+    "path": "FeaturePolicy.hh",
+    "equal": true
+  },
+  {
+    "path": "Feature.hh",
+    "equal": true
+  },
+  {
+    "path": "BoxShape.hh",
+    "equal": true
+  },
+  {
+    "path": "DataStatusMask.hh",
+    "equal": true
+  },
+  {
+    "path": "RemoveEntities.hh",
+    "equal": true
+  },
+  {
+    "path": "Joint.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/GetRayIntersection.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/FindFeatures.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/Entity.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/PrivateSpecifyData.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/EllipsoidShape.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/PlaneShape.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/CanReadData.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/Gravity.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/ConstructEmpty.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/GetEntities.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/SpecifyData.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/CanWriteData.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/FreeGroup.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/CapsuleShape.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/ContactProperties.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/FixedJoint.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/Model.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/CompositeData.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/GetContacts.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/DeclareDerivedType.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/Register.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/OperateOnSpecifiedData.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/FreeJoint.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/Link.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/GetBoundingBox.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/SphereShape.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/CylinderShape.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/RelativeQuantity.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/ConeShape.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/RequestEngine.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/PrismaticJoint.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/FrameData.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/Shape.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/FeatureList.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/InspectFeatures.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/Cloneable.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/Identity.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/FrameSemantics.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/World.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/RevoluteJoint.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/RequestFeatures.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/BoxShape.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/RemoveEntities.hh",
+    "equal": true
+  },
+  {
+    "path": "detail/Joint.hh",
+    "equal": true
+  }
+]

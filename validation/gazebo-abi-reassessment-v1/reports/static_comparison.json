@@ -1,0 +1,1029 @@
+{
+  "release_vs_tag": {
+    "same_count": 464,
+    "different": [],
+    "release_only": []
+  },
+  "headers": [
+    {
+      "path": "/usr/include/gz/physics7/gz/physics.hh",
+      "sha256": "b9a3672ef0e834fc843568f9bb4f19f61f8b74bdf88b9008784bfd6ed167537f",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/GetRayIntersection.hh",
+      "sha256": "e8814e4d9c8b3713c4d6e5b8b7e2004594f8a63515494700693858b74605b1e6",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/FindFeatures.hh",
+      "sha256": "09a2908db9d3229a3dcbdc043ee06096b25b48cfb66262d3c493b8a54059b393",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/Entity.hh",
+      "sha256": "1306801ba45fbb3679b200cca4465c91aed07f31637e48b1aec34eceb9efa778",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/EllipsoidShape.hh",
+      "sha256": "5340ebf80d4d7c47ea6743d974bcf6606334998e578cc0aeddcc1ae49e69d85d",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/ForwardStep.hh",
+      "sha256": "cac6761d3b187be7d703d57f400dbc5cac3441e7534d5e48f688d560cce06cd6",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/PlaneShape.hh",
+      "sha256": "a239f91c4338af31baf2b58e8fdb23af99b5d0610d86b577bb5753e9ace5372b",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/CanReadData.hh",
+      "sha256": "f4f7bf5c2e014034282233d6d6829885b07fb0fe386e4c26841ced86ab465669",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/Gravity.hh",
+      "sha256": "624354a10aeca7e17b100782b5ea4dba1c0d2c2a66d00fe90abfb7054022eaa3",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/ConstructEmpty.hh",
+      "sha256": "299a0a25834ff0a047835e02c39f3f0321671bb1e60532f8d2af39131f8ef0e0",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/GetEntities.hh",
+      "sha256": "191fc12687fffd0ef301716046ad755d171f549571c54c7927f7cf7b15776cca",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/Implements.hh",
+      "sha256": "4686504c95f3c8ff10f24309b4261503e66771f92c17e80e2f5817fafbf54003",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/SpecifyData.hh",
+      "sha256": "fd69a39029e32d6a8a9667a940343279df5acceeab7be4c58ade92f7153e0901",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/config.hh",
+      "sha256": "6e7261ee4522e73b360c02935466678d9332072991b33ccbdcf27e61950dfe7e",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/CanWriteData.hh",
+      "sha256": "c6b1d5ee7de05ad454bb85a426024d33f8c435457eee3d1dea5aa7a9f0471c9a",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/FreeGroup.hh",
+      "sha256": "159f05905a25536cc954613b1de36ce4bb286062eaa6f0af48ed04f438c28dec",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/CapsuleShape.hh",
+      "sha256": "0ad31ed3d6a0f45c5459e4e46df64787359f160afe78f6658d64cab949bd520d",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/ContactProperties.hh",
+      "sha256": "5c1f7446abee1611bfb1b15ed9bedd7872eedd1165c22aab9476c9f0f8c6faa0",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/FixedJoint.hh",
+      "sha256": "91e1c062bdaecd8580cc93b06456f31b656507ec689a05b18b3f60fd649e39e9",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/Model.hh",
+      "sha256": "3f1eef4f28af3d01329d06f65ca0fd562905cf4cc1a3934970bdf469f0c2b930",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/CompositeData.hh",
+      "sha256": "023c7cdc71971cba79cc255339fe6931677119bb6f347ceb3fc30f110082bc87",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/GetContacts.hh",
+      "sha256": "9c5c2b5f9b67d08f68f6ce728fadc2fa8803cf713a864c9eec00078f3b872d5f",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/Register.hh",
+      "sha256": "2c4bbafc719bd635ac6050a212a741642230dfa0d4107869445e384bb1b642d1",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/OperateOnSpecifiedData.hh",
+      "sha256": "f231c4ceea853ad841cd89793be3591a735043d75251ccdd205e49e51f11f8c1",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/FreeJoint.hh",
+      "sha256": "9fa561d86911a0dedc2738b6f01980619c61e3a764047c51bd5f6f9063a7ee02",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/DeclareShapeType.hh",
+      "sha256": "c2ba2c33f8dd460d21c6dcd4f06e5b58023a6d74999ad3b3478b6d17abe835f1",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/DeclareJointType.hh",
+      "sha256": "f1965f604c8fc639e180d5acf70645a64009f19c6dad1856f019e4c8cd686c01",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/Link.hh",
+      "sha256": "258e61bb97fee6702c8806371bb4fdf414e0f0becdb0b1275c0d62b12f5fc414",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/Export.hh",
+      "sha256": "33b47eb08f1d07046c8d2c7ca2a41ee72b9dc78e9755eab20c060143a909a297",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/FrameID.hh",
+      "sha256": "020b65247387526f09677a7e26c5eb9682af5fbaca6165eb4df2ff24c04d0265",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/GetBoundingBox.hh",
+      "sha256": "8c9e52c320056f295713f3acc1d51049ed9691cc55cbb5244b025cefe0e424db",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/SphereShape.hh",
+      "sha256": "7087c8741f1ba608d33dcfe0103b0ba706713696dfc99a6585392cad39a00118",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/RegisterMore.hh",
+      "sha256": "17926d45d2d18866367341ac89fabcb1f12a0070ea2f3aee47abd28ec2f60ebe",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/CylinderShape.hh",
+      "sha256": "fd61fdd0e23615beebf09ee4b56de41e1140dac568742a03a33cfeea4e8490a7",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/RelativeQuantity.hh",
+      "sha256": "038c063c388c101bb2c46ed214a342da4e2ab52f3db81fa52159895131123d18",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/ConeShape.hh",
+      "sha256": "cc8a046d1403483a715b93f8f72624de7fd940fad2e89825e72847e5d69c97c7",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/RequestEngine.hh",
+      "sha256": "ef76059a24a17268643bfc7825fcc2b1cd5551eea9e9da6ebfd78cff8d967eeb",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/TemplateHelpers.hh",
+      "sha256": "4b44a57a9fe7bb08c34932c3476b74ffb0a8dbb7615af29293a237ab882b83db",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/PrismaticJoint.hh",
+      "sha256": "b479ff78774382ba249ccb1f194c211b5bdbc7e18ad01327e1cfc9fb7c81f7eb",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/FrameData.hh",
+      "sha256": "0e8048315f82a2c68a258a595761268f670a8c740a5b980f5d2285b293616177",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/Shape.hh",
+      "sha256": "7779cfed707121a1aff04a585d3696b8089df1c65b29ae1d92b64fd712104387",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/FeatureList.hh",
+      "sha256": "bee8e1ec2122f8cd9e55e7f53df1a7b34d909d2c0e44cc8a282a77ce7140bd2a",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/Geometry.hh",
+      "sha256": "b5a58e85a4372c7513f6c64deec78ee29aaff14335af293ce8cd582f346873c5",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/Cloneable.hh",
+      "sha256": "8e8c69bf9746dbd9a88ad482ca6c728a7323f62842e132e8b7012bd12b3c8af8",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/AddedMass.hh",
+      "sha256": "9a5f65eb6fcce9601b15a3ee942bd5044b40406bde59eff7d052771a64c18d6d",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/FrameSemantics.hh",
+      "sha256": "e6abfacf56f79de0607d3f9f3099336772e0142e77fec90f60949becd1370991",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/InstallationDirectories.hh",
+      "sha256": "780efb015890768218465c674c0deb7d0d32c4a64d3429538da0ad1ded726df4",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/World.hh",
+      "sha256": "e79b1b8e4519cdf511870eaaceb877e6d8afae620682d91ccc36971243d6444b",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/RevoluteJoint.hh",
+      "sha256": "cf1368d8d17c47ef106c66e02047330a6adf79b22d00c9a0490e14355f3821f2",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/RequestFeatures.hh",
+      "sha256": "bd4119715adc4d2e1a4ed70a32fe5c10b2016bbe89e659d57b747639db9e9c9f",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/FeaturePolicy.hh",
+      "sha256": "430179210399aebfe5aa88f9b161cdf93b2ae0068263aa5859d8b105047314c3",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/Feature.hh",
+      "sha256": "a9ef02881cc9f22e856c4c5577a4dddf304e0f6d549b8e84ec3011fc89182446",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/BoxShape.hh",
+      "sha256": "7c31d16ac3685cea4da386aecae243047c7df7ea7393f0b4e583ea2560294485",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/DataStatusMask.hh",
+      "sha256": "9b6022e9ff76a009f0f02a7eedb90dbfdfea5137bfec3c7590608515ff02baa5",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/RemoveEntities.hh",
+      "sha256": "05cb59cbfb14c53d0327fca6c60b2348529dde764b506e52dfd22766eb7f9794",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/Joint.hh",
+      "sha256": "75221fc616e92fc75d42733ab54faeca574716ab3f984cec9edbb9e4c7ddfdff",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/GetRayIntersection.hh",
+      "sha256": "93b90b8884da8e47fd0004e807456562f41444394101d2f84c347ada825aa3da",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/FindFeatures.hh",
+      "sha256": "01974e694278681dc60a0a935d0b2a7dd98c5168ed22f1231d3764639678c064",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/Entity.hh",
+      "sha256": "e8b0890473a733a45dab54cbcd0e855349680e5844c805541eb3c4a71143d540",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/PrivateSpecifyData.hh",
+      "sha256": "a66f61d3602ec50fc76f9e1ad84966450604e30ec2d72ae4c2ebfa96f0a11060",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/EllipsoidShape.hh",
+      "sha256": "df8c7ddef60f8ad0405dab24990116d769940a9690c6c3fc833b9dfbfa76b898",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/PlaneShape.hh",
+      "sha256": "c76bc9f92c41d7ad165a1745225c1e2c2b85bbd967cb2d38fc7b3ba228322707",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/CanReadData.hh",
+      "sha256": "f0adb8f474bb4696c11f8d3d913d183f30652535baef7e0e9a4b4461ae814b7c",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/Gravity.hh",
+      "sha256": "4ae432b1528b91d70782576d643445af06f1a7163d61bb71c6dd937b9b8e56d2",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/ConstructEmpty.hh",
+      "sha256": "54fb6ade6c19f852eae9f45e2f65cb1294a6773a99c21247e1d42bb60d6051bd",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/GetEntities.hh",
+      "sha256": "bddfa4d7c4a1431e2a39eda0340a74ff5bee2a5b6f341b6f3d18280a998353ae",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/SpecifyData.hh",
+      "sha256": "a99b0fabf32a3db5564c86461a092f16e810825107e118b428ecd619d8de6c03",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/CanWriteData.hh",
+      "sha256": "62711b2a914a4683218f83caba61246e1d478107da86ecb9882fd8120f3aa1ec",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/FreeGroup.hh",
+      "sha256": "92372edc14143d9892ad2a151e7eaf30e6e9bb6cd4391f6f10974343173620f6",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/CapsuleShape.hh",
+      "sha256": "0debb1d8ffd76c858341f855e79e4a076763978632280a57e2c1cb6f856a93ba",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/ContactProperties.hh",
+      "sha256": "563b230f2d3840ce2ca740280a6385b229d8e745fe68ef74f79471c7b29d7751",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/FixedJoint.hh",
+      "sha256": "b121f11e4c746b01934f05251df357e384960141b34fc18ee040a79ef3552a8a",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/Model.hh",
+      "sha256": "869ea21a0cbdc126bc311f07be08786fada8cba4cfd4ab12f5b30446d33309a0",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/CompositeData.hh",
+      "sha256": "039c70147b645af4af6666afb73097238b5ccb500493642732d57a41843d62e4",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/GetContacts.hh",
+      "sha256": "826e938fb2916ac9f17df462f6808c5bf572247a25caf117a0fe38b3d0fda39e",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/DeclareDerivedType.hh",
+      "sha256": "ed2706f5507806abe7d0fb7f5e39b8ada100be39827b1e1f96769d7add733310",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/Register.hh",
+      "sha256": "4e09be69599de8748ac0926253efcb6e347b93c8b3d9546df50a3639a6343e3e",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/OperateOnSpecifiedData.hh",
+      "sha256": "327890ca5ff89907f7a93c8cebe15441f4b4b24637d43f1c771d4441908df534",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/FreeJoint.hh",
+      "sha256": "41cc79e93ca90bedd771f66b57d4bdeb319256a2efed7392217cc7aa1bbc31d0",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/Link.hh",
+      "sha256": "1274f9a5598112c1c3ddbf7ce1da3a74aea881b0b29b4408049f160cdb595216",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/Export.hh",
+      "sha256": "04bbfeacc9cb44c904cd8be3789d1f8ae8520055284b7973e6419799a026a8e6",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/GetBoundingBox.hh",
+      "sha256": "0d7417d478db491baa3d6bd299bd3b1a0cbe76275d2568a6be2133b39b7f1bb6",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/SphereShape.hh",
+      "sha256": "84515ee82704ee8828c83d5f85e711a32d3239ae453bc649d805ac27c3aa6da1",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/CylinderShape.hh",
+      "sha256": "5a05f6eab0841ce34539fa8d2bd3079dc803dbae898ed99eec7290992052b4d1",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/RelativeQuantity.hh",
+      "sha256": "bd83b158798c1cee304aca8272818135ae6219727c365525688b387c6b2e4a77",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/ConeShape.hh",
+      "sha256": "9f8d10c241a66969c00a4a70c65b442bc683e3cbef9aea18fa2194ae9c94978e",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/RequestEngine.hh",
+      "sha256": "f376a9631ccb9ce191d4b2466b712a2a7fc20a5f4c3369ed792328da027f091b",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/PrismaticJoint.hh",
+      "sha256": "b322640bf990b6d9f4895be8ca4b9e10fed882ad9292553613f5355b364d857d",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/FrameData.hh",
+      "sha256": "9747ab111fae8bf19d151c40737cb7d895c35a41509a3def7a8e98d00419d256",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/Shape.hh",
+      "sha256": "71cc77c41ded0d2aa0169029fd55b1b95e544df426f13be1d071a45221ece2c8",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/FeatureList.hh",
+      "sha256": "2cf660b74ee3468f40b5be016969dfe88268eedc682e22798f03fc8a785ff74a",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/InspectFeatures.hh",
+      "sha256": "54536bca23930058b1793dc34a7d42f6217ac92d690faddeed1e81e6d30a2e81",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/Cloneable.hh",
+      "sha256": "446c9c8e74ba5cab232276cc6f751fde36d06e359182de1fa29f594441eb5b5b",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/Identity.hh",
+      "sha256": "3e8c9778cec8a9657d914431132b7d17788e152159c6a47c9cb77608e72c5d68",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/FrameSemantics.hh",
+      "sha256": "d990f3ce7ebdf37c2b814d253d9c5bcc0fb4c865019aba7cf0143c91a917a5a5",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/World.hh",
+      "sha256": "882f0348d754a6152ed9e27436d3ebb9f972766bf37d8413426e92cad748c8db",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/RevoluteJoint.hh",
+      "sha256": "b0af35297bf4aa9648e66ccaa1b904028ddfd0a8f44cdb8af77cb78c22ad294f",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/RequestFeatures.hh",
+      "sha256": "5bcadb3063099fc72b1807a4d761830fd69cecccf82563f2c0cca7c652a239fc",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/BoxShape.hh",
+      "sha256": "ef819a00dd9b8e0517ba36ec8e30c3272bb0b810dec89b6dbde9e50ac2891e22",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/RemoveEntities.hh",
+      "sha256": "67ece515cf7f733198617f432ac56d3013900f4d7bcd7de8e1c3bfd6f481d3ec",
+      "installed_match": true
+    },
+    {
+      "path": "/usr/include/gz/physics7/gz/physics/detail/Joint.hh",
+      "sha256": "baf219c63c27b9c3043086bef4f7e38682f585fbdff26f31efa033beda8d41ea",
+      "installed_match": true
+    }
+  ],
+  "elfs": [
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-physics7.so.7.8.0",
+      "sha256": "6b1dc93504ed958ef8c006d967e5e12eea24ebfe778af4ec25007bdba7ca290e",
+      "build_ids": [
+        "4e60105d86d50ee9e394f6c461411e3cba5eeec1"
+      ],
+      "installed_byte_match": true
+    },
+    {
+      "path": "/usr/libexec/gz/physics7/COMMON_TEST_joint_features",
+      "sha256": "c02840b7c51c0b1e7d981c1d28a676c1c76cc73e9092e0c1361533b68a5bfa80",
+      "build_ids": [
+        "fba2d55d1e708a60040792c658a545f22a45e41e"
+      ],
+      "installed_byte_match": true
+    },
+    {
+      "path": "/usr/libexec/gz/physics7/COMMON_TEST_shape_features",
+      "sha256": "063839acbb9c8fa1fd50f421bdcdcbc92611a09af3ff2a2bcd878cf016af10e3",
+      "build_ids": [
+        "7bc7358c7f9a18b948c84a8c4918770e7e1491e7"
+      ],
+      "installed_byte_match": true
+    },
+    {
+      "path": "/usr/libexec/gz/physics7/COMMON_TEST_joint_mimic_features",
+      "sha256": "9ae343401863d1aa5cfdde0b4c5a5aab55999840b9f01aa5ac0af0fb1cad3f9c",
+      "build_ids": [
+        "83321d27d23bc3c9d1304def39f4179cf47d065d"
+      ],
+      "installed_byte_match": true
+    },
+    {
+      "path": "/usr/libexec/gz/physics7/COMMON_TEST_link_features",
+      "sha256": "86ecc2a1ef66cfbd6a7ba7ba8c95558dddf2c35db177d8be474de0f1f94c707e",
+      "build_ids": [
+        "a4c903bbba6ecf01de2787d0b1112a884ad006e6"
+      ],
+      "installed_byte_match": true
+    },
+    {
+      "path": "/usr/libexec/gz/physics7/COMMON_TEST_detachable_joint",
+      "sha256": "8ccdec41e23f439643ec88fd90dc95054cbce7157b51b8391dcf336e2d4b1ba9",
+      "build_ids": [
+        "cbff2d7a27f4acce7daa6647229139c774243e1a"
+      ],
+      "installed_byte_match": true
+    },
+    {
+      "path": "/usr/libexec/gz/physics7/COMMON_TEST_world_features",
+      "sha256": "5f4c24f9d8214e705bce1febd7bd6463f25d168c0d1ea040726e7bba5e659c9d",
+      "build_ids": [
+        "537e77168118a007bd4ac0d4eb57124be360335b"
+      ],
+      "installed_byte_match": true
+    },
+    {
+      "path": "/usr/libexec/gz/physics7/COMMON_TEST_free_joint_features",
+      "sha256": "9872aa73671e0da8391e9dd394f035976a150176143dd1fe3fc4a99809478580",
+      "build_ids": [
+        "17e068ee60bf7d8ab8ff496af8277da6686e0026"
+      ],
+      "installed_byte_match": true
+    },
+    {
+      "path": "/usr/libexec/gz/physics7/COMMON_TEST_kinematic_features",
+      "sha256": "12528ed98af25c799f3946b4af50a4b4c0cba897353356e540bb38de649e5503",
+      "build_ids": [
+        "da22f80537a37484b3f169701387aa32906d37e3"
+      ],
+      "installed_byte_match": true
+    },
+    {
+      "path": "/usr/libexec/gz/physics7/COMMON_TEST_model_features",
+      "sha256": "e45de87e41f718cf8a26403cf6b39c66e68ea7727685aff0125ed7616cf47d3a",
+      "build_ids": [
+        "50bbe3bf4357ba100428ee0a75347d1388e8a68b"
+      ],
+      "installed_byte_match": true
+    },
+    {
+      "path": "/usr/libexec/gz/physics7/COMMON_TEST_added_mass",
+      "sha256": "a3a088fa8c99149f28aac8c90f8092e1373f315ffa0954b27851e1d51d62c342",
+      "build_ids": [
+        "9f4e3e0476e95e3807d1767cdd15d63da60cc698"
+      ],
+      "installed_byte_match": true
+    },
+    {
+      "path": "/usr/libexec/gz/physics7/COMMON_TEST_basic_test",
+      "sha256": "9b50f5b22d81243e7686bcc6c09e41e8445daa08e1ab1a0215a4b4f5903792bf",
+      "build_ids": [
+        "d05965f6b2e5c94054868864e7eb9125c3cbbea8"
+      ],
+      "installed_byte_match": true
+    },
+    {
+      "path": "/usr/libexec/gz/physics7/COMMON_TEST_simulation_features",
+      "sha256": "45e63b466b055456757eaf402c1727582c25f30f3ed72283bf9e929b2cc944ca",
+      "build_ids": [
+        "abeb5de693e5f9e49f0e04ec2cef0c753439e13f"
+      ],
+      "installed_byte_match": true
+    },
+    {
+      "path": "/usr/libexec/gz/physics7/COMMON_TEST_joint_transmitted_wrench_features",
+      "sha256": "f920fdd49ba0e3e033ff37ae041165c801919510ca9729ad3988d89300e138e4",
+      "build_ids": [
+        "20e27cbad84dcb9d81c70b12c336a426365b943e"
+      ],
+      "installed_byte_match": true
+    },
+    {
+      "path": "/usr/libexec/gz/physics7/COMMON_TEST_addexternalforcetorque",
+      "sha256": "1e81c4c232949c559c742e3b41e0bbbd37a516efd98bc45f0be933c7a1dfda6e",
+      "build_ids": [
+        "7e17959b4b7a836b1bfd8ad2d5806edc59c8f66b"
+      ],
+      "installed_byte_match": true
+    },
+    {
+      "path": "/usr/libexec/gz/physics7/COMMON_TEST_construct_empty_world",
+      "sha256": "c77584b307e9579340935f7ec73743d8947e5a83f1155a0211fe4f3a1c14043a",
+      "build_ids": [
+        "c388df1f1ed65a15a493d9fdfa6770aa7a53eb4e"
+      ],
+      "installed_byte_match": true
+    },
+    {
+      "path": "/usr/libexec/gz/physics7/COMMON_TEST_collisions",
+      "sha256": "d887fa4ff872b167f91129e5fcedfbf997076bde789abf5b07932bbfa530d5e4",
+      "build_ids": [
+        "9c945fe0c13101fc637452fbd364f626a1136b22"
+      ],
+      "installed_byte_match": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "sha256": "1ee9350aa09d5a5eb43a5075c9c61d2cdcb85113d2ff1e0f32136847edf1688e",
+      "build_ids": [
+        "c53e1a304ceb0f0dac85ff0e4872d0ffc50a28ac"
+      ],
+      "installed_byte_match": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "sha256": "1ee9350aa09d5a5eb43a5075c9c61d2cdcb85113d2ff1e0f32136847edf1688e",
+      "build_ids": [
+        "c53e1a304ceb0f0dac85ff0e4872d0ffc50a28ac"
+      ],
+      "installed_byte_match": true
+    }
+  ],
+  "preservation": [
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/SimulationRunner.cc",
+      "expected": "81f0c67cc18dbbd4e7e047d987b3ea0999851935467f8a7d74279e33a04f5fe9",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/SystemManager.cc",
+      "expected": "2cfc3bfdc84cbd715a613e6b2d2c0a42ffb9fc5040c2eeb425820f69450bfd1a",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/systems/physics/Physics.cc",
+      "expected": "5d5c404151f8ae4f7825c43c571dc151c79b9a587c69db35996d7cabbc4e76e1",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/systems/physics/Physics.hh",
+      "expected": "34acf8be55a25eabc29b52e892af0e520b1ee59cc7d49ab0398d9ac5f1dd58d1",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/systems/physics/CMakeLists.txt",
+      "expected": "f11899941e6ff3ccdaaa37139e59849d9d4eeab07201c5e0c1111d062be25ef5",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/CMakeLists.txt",
+      "expected": "32de4e4874f5d6edd2c6dfc6313577c53f229f3d3368d644b9c4bb6cdafcf4d5",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/World.hh",
+      "expected": "d052c92e9d35214fe5f33fd1e82b9c6d4e1f64773b48d51e4ce9f98e9f324030",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/CustomFeatures.cc",
+      "expected": "23183e2cd977c507ee3fa7c454032f8cdcc53304168d2b7677a286ac336a6541",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/WorldFeatures.cc",
+      "expected": "89c89db7dfbf671ec80750bb5e38b8027dbfa3e08014a48b38caeff7d5521d71",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/EntityManagementFeatures.cc",
+      "expected": "db63fd480ae913992cfcf69677fdb478f3d6f403add08c5a1bd841aab2f589bf",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/GzCollisionDetector.cc",
+      "expected": "bcb648ae849eba9f8d7b64fc6348c29c252a7f40b7cd018eea166a0c6ac68909",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/GzCollisionDetector.hh",
+      "expected": "ab36eb9dfa7603bfbd26a677797850568621c31091bdb6e978276105dea4c545",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/SimulationFeatures.cc",
+      "expected": "fe2fc764071cac7353a4315b2b3bb2d696620a501e5471bc30623cd4cd720262",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/SDFFeatures.cc",
+      "expected": "ef9b59f646ad99020ffc53de0c73984c63c743f5e1fb1ecb6f55fba66915d39e",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/plugin.cc",
+      "expected": "6c92bd307de85ef2782b6c953bddf07cafbd5a1efabbcf50f2c899435476d1e5",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/CMakeLists.txt",
+      "expected": "1c40854080221c6c8b974236f8a50d9124e30e15a93d1665a100c631a084fc78",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/simulation/World.cpp",
+      "expected": "a135de51fb0f5a3db33a2a2af8235cd724695728a8fd9727a20e5b9f74918c06",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/constraint/ConstraintSolver.cpp",
+      "expected": "679e625f1ceaa09d870195234c9116baad7a876bd17422dd799e1f382aa61667",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/bullet/BulletCollisionDetector.cpp",
+      "expected": "69b9cd30f1ff5ef4c47ee9e5cb632dc9799546f4bf3783230ac881bc6215c9bf",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/ode/OdeCollisionDetector.cpp",
+      "expected": "b1c1eb748a255424ce3774b0def266ad73b6694b48a561765e40ebc2b7b489dd",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/SdfEntityCreator.cc",
+      "expected": "fbb39c0527bb33d511dc7816e859f5c616d2d4d4f5064607d34ea7e6b4e672b3",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-minimal-physics-v1/fixtures/minimal.sdf",
+      "expected": "d00ecdde42ee775dc04421e4e46d767811005cde88ae5100d10b2f088940be8e",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-minimal-physics-v1/src/server.cc",
+      "expected": "63a77b5c476be1380aac79f0d5d6b648f620691f3900a23b6a26d1f920a38899",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/physics-upstream.tar.gz",
+      "expected": "0d95b1dd3ea8c6f558535efe5fab6ecf5af947902a4367982e6fabd586752266",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/physics-release-commits.json",
+      "expected": "9af210245664bce408091083932ef0f0c4b308982f017107675a30736a7fbefd",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/physics-pool.html",
+      "expected": "dd6e15ffd4fc4bbbc1ddfdbbc01de55c45be0abd63e4b6002cc0c1c00b721991",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/dart.orig.tar.xz",
+      "expected": "b900820b71463476463b9daeb31e81c74ebf59bd95139b7f833f5f6bb9b8058e",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/sim-dbg.deb",
+      "expected": "4884d33c8036df02b275149797181316b962edd52b6864a924f436a69cb660cb",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/sim.dsc",
+      "expected": "84ab65ae652fc95536e499c6a46e2f7c59bb986bb973b802ad4fee1f19f52ac0",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/physics-release-7.8.tar.gz",
+      "expected": "5319a1049cfe9b9a616db7c8ba4c51a9f701577f157b2388ed823bd1d677d751",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/sim-pool.html",
+      "expected": "72190a6a8f9d53516307db6e58c3dbf1f253e44876152bc2e9754d76402507bd",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/sim.orig.tar.bz2",
+      "expected": "f457478cc8b319be148aa1e7a3bc14042c333c8881c1f92ea6d498344fea891d",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/Sources.gz",
+      "expected": "ea7af8c0ea2826ac7ed37d9e332b2420e906af7d5869763b93482109e244c36c",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/dart_6.13.2+ds1-1~osrf2~noble.dsc",
+      "expected": "15e661dc0b2ac663ae9466bf34347aef87e94b667d62a267f482f5294160b6b3",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/dart_6.13.2+ds1-1~osrf2~noble.debian.tar.xz",
+      "expected": "6e9049fcf7c5ddf507dcebd51ccc4e39059376f0e802f7d60398251474295092",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/physics-release-main.tar.gz",
+      "expected": "4e43a5df19c50f56920c1668b9d74389321f8081fb103e2ae273ab106ddc75ba",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/dart-pool.html",
+      "expected": "28c64c79db25226b934027e469667d34a074acefd3121ca6f2183b2cc2a3c26c",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/sim.debian.tar.xz",
+      "expected": "fd14fe0cf6caeeadbae7c408b0a4b295137e175c70c304b56f615d15670bd806",
+      "match": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8.so.8.15.0",
+      "expected": "6120bd5d25a28ced3238f91b8a432e364958cd07706afe00911743072bfe4651",
+      "match": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-physics-system.so.8.15.0",
+      "expected": "5d8b8d068628ee7af0774f5d9e0ef65e23d4e9f9cab23c1aac318faaa51f9575",
+      "match": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-gz.so.8.15.0",
+      "expected": "9a1b8b361548428dfdfab51c530a15d0b3199be2cd567079a8ef1b4e218ee094",
+      "match": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "expected": "1ee9350aa09d5a5eb43a5075c9c61d2cdcb85113d2ff1e0f32136847edf1688e",
+      "match": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-physics7.so.7.8.0",
+      "expected": "6b1dc93504ed958ef8c006d967e5e12eea24ebfe778af4ec25007bdba7ca290e",
+      "match": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "expected": "f74f4ec9820aee785ef94fb7bedafa7e4c832f209675a8ca1d35019c72b48e06",
+      "match": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+      "expected": "897709e0c988e9e562c662292ed5bc860bce70ee2c64499501f54a6b5ca02201",
+      "match": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.13.2",
+      "expected": "2940e0bd6b056f186d3596e051a26ec25f1c27add88d870cdfe673785dad4b44",
+      "match": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+      "expected": "b890ed6936ea7cf486303fc5101ee5ff68356fc89596273ebaef83671aa4cb16",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-technical-blocker-audit-v1/reports/technical_findings.md",
+      "expected": "165ccffbe642f7d4eff189668ac21c4a6c27765dd636839244d55cd1d2e40675",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-technical-blocker-audit-v1/reports/api_path_evidence.json",
+      "expected": "3a1fe345669aea6009b8a24506f88481d02e6eed1b4867d5e06d50930a9dd601",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-targeted-evidence-v1/reports/source_acquisition.json",
+      "expected": "cbcd8e0a11d62f4a57a37b2f75339fe4dc002d29ee0f0cb459d7fca79c44dac1",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-targeted-evidence-v1/reports/debug_symbol_search.json",
+      "expected": "0b9ea2397584cb4f8497f46d9f1c324832b4d780e978aa671b2f456146e0f031",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-targeted-evidence-v1/reports/official_binary_matches.json",
+      "expected": "a7351cce71a6fc017f1016798770f085688fd1b7aa665cee693a305019c79d25",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-targeted-evidence-v1/reports/ubuntu_debug_candidates.json",
+      "expected": "7f29b441e6545f2e4676033cb9cfa83b45367b78d925f4ccc6a0c2af28bc89bc",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/reports/original_debug_buildinfo_probe.json",
+      "expected": "7c39b32d75c8ece8790518ac1291c419733941b3e474db4d7ee51e4f40fb198c",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/reports/debug_coverage.json",
+      "expected": "aa0e77279d58adf0275146db84967f61b129b3cc490015bb612651bbcda8c7dd",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-minimal-physics-v1/reports/approval_plan.md",
+      "expected": "a039acf88b5a43701179c24c5878faee8f06ec7920084cecf8675ab9758e48d6",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-minimal-physics-v1/reports/runtime_contract.json",
+      "expected": "a39f9a564c58cc766e95469ce7ca68de58d9df6ad33378cd31a9fd871777cefa",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-minimal-physics-v1/scripts/launch.py",
+      "expected": "1954fc5feab69726091209417014e0d6436ea9ce3f92342dd9afe3afbbeda54c",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-subject-notification-v1/work/runtime_collection_attempt.json",
+      "expected": "0d9353700a45132723fa69d2bb4e78ab16d4caad3438a9960ddf04ec89b73672",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-subject-notification-v1/work/runtime_attempt.json",
+      "expected": "517d86c5409e441f78c2285686f626d2e6699333493d5ece34fef85057bd705b",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-body-shape-lifetime-v1/work/runtime_collection_attempt.json",
+      "expected": "a5de2f77e014671dfe6076badfd7cbe5953dcc87ffdc3f97677332c226248164",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-body-shape-lifetime-v1/work/runtime_attempt.json",
+      "expected": "d7b15811bbfd606de70023656de2a41907d74e70f3a2ac2dd699175b878dc426",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-skeleton-lifetime-v2/work/runtime_collection_attempt.json",
+      "expected": "7142a0ae88713bebc2f6587e0f8b3853e9052c5f915ff0d3a0917c88378c13d2",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-skeleton-lifetime-v2/work/runtime_attempt.json",
+      "expected": "65e8d85725b2f9f79f7f1ac1b1ff9d173a9dc74279a4f39d0bf8aada4117055b",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-skeleton-lifetime-v1/work/runtime_collection_attempt.json",
+      "expected": "7142a0ae88713bebc2f6587e0f8b3853e9052c5f915ff0d3a0917c88378c13d2",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-skeleton-lifetime-v1/work/runtime_attempt.json",
+      "expected": "ad999e562c1d88f13f8c8f9ed9b7e033896ac67ea983d6f969ab122e309a624d",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-launch-preparation-v1/work/reject_attempt.json",
+      "expected": "641ef970da76891d1e5b39a829bc0178351b4a0ebb4e9dec2b4212ebd0296292",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-launch-preparation-v1/work/timeout_attempt.json",
+      "expected": "8489a398aada7174ea17136503791cf745be9331157b2e0866a1ff24656e51f0",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-launch-preparation-v1/work/runtime_collection_attempt.json",
+      "expected": "ff578a2c97c5637ac10253b32ad4e0cbe2fd98922e5b90b59ab83d2e1249ec73",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-launch-preparation-v1/work/accept_attempt.json",
+      "expected": "21f104669cb1aa932cfee60c863ca494cfd0c2bea3faf628426c359b1581b755",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-launch-preparation-v1/work/runtime_attempt.json",
+      "expected": "b47ad0a545e46e9107bcd09da930b8ff67e4d244372026455aa4c464dcf9db1a",
+      "match": true
+    }
+  ],
+  "main": {
+    "head_match": true,
+    "status_match": true
+  }
+}
