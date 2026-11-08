@@ -1,0 +1,82 @@
+[
+  {
+    "step": "probe.configure",
+    "returncode": 0,
+    "pid": 10,
+    "host": "jiwon-System-Product-Name",
+    "start_identity": "32265500",
+    "seconds": 1.92,
+    "log": "validation/gazebo-joint-export-fix-v1/logs/probe.configure.log",
+    "log_sha256": "afba98d7171a181b586cb1b3801f17885e7361e72351efc575a41043924a8e07"
+  },
+  {
+    "step": "probe.selection",
+    "returncode": 0,
+    "pid": 8,
+    "host": "jiwon-System-Product-Name",
+    "start_identity": "32266754",
+    "seconds": 1.22,
+    "log": "validation/gazebo-joint-export-fix-v1/logs/probe.selection.log",
+    "log_sha256": "2702719e4f662fd15e78b8d9f1f551a361bf7b1e30edfd0ca2854becd43c35b8"
+  },
+  {
+    "step": "probe.build",
+    "returncode": 0,
+    "pid": 10,
+    "host": "jiwon-System-Product-Name",
+    "start_identity": "32266878",
+    "seconds": 1.13,
+    "log": "validation/gazebo-joint-export-fix-v1/logs/probe.build.log",
+    "log_sha256": "c5823346bb57c65ae22e71251e8523c9c492c78701ba21b1b3a848d40bb37cbc"
+  },
+  {
+    "step": "probe.elf",
+    "returncode": 0,
+    "pid": 29,
+    "host": "jiwon-System-Product-Name",
+    "start_identity": "32266994",
+    "seconds": 0.71,
+    "log": "validation/gazebo-joint-export-fix-v1/logs/probe.elf.log",
+    "log_sha256": "49d911df9b59e532e99230d983184935462c6c6df1688f3b5292ed86de572a8e"
+  },
+  {
+    "step": "probe.stage.0",
+    "returncode": 0,
+    "pid": 39,
+    "host": "jiwon-System-Product-Name",
+    "start_identity": "32267068",
+    "seconds": 0.01,
+    "log": "validation/gazebo-joint-export-fix-v1/logs/probe.stage.0.log",
+    "log_sha256": "88f3d3d91235aa931e66eec0e108f9fb5395bf9464e1379d1fbc12a031aa0ee1"
+  },
+  {
+    "step": "probe.receipt",
+    "returncode": 0,
+    "pid": 41,
+    "host": "jiwon-System-Product-Name",
+    "start_identity": "32267071",
+    "seconds": 0.02,
+    "log": "validation/gazebo-joint-export-fix-v1/logs/probe.receipt.log",
+    "log_sha256": "1922dfb285b6870fc13bae5fcbf101995889aecda90d6ea43fb70a0a6cc3fe2f"
+  },
+  {
+    "step": "dart.configure",
+    "returncode": 0,
+    "pid": 43,
+    "host": "jiwon-System-Product-Name",
+    "start_identity": "32267076",
+    "seconds": 6.29,
+    "log": "validation/gazebo-joint-export-fix-v1/logs/dart.configure.log",
+    "log_sha256": "3e995633f2b53e09cda0f66e6cad2281bb9a079eea7ae0b5a38d2981b9c1b808"
+  },
+  {
+    "step": "dart.selection",
+    "returncode": 1,
+    "pid": 7,
+    "host": "jiwon-System-Product-Name",
+    "start_identity": "32269306",
+    "seconds": 234.72,
+    "log": "validation/gazebo-joint-export-fix-v1/logs/dart.selection.log",
+    "log_sha256": "186199e5e94105a56abbaa6dbfc7282f19422263d14b89793766244d33202fcb"
+  }
+]

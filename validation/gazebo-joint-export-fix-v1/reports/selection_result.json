@@ -1,0 +1,11 @@
+{
+  "component": "dart",
+  "status": "BLOCKED",
+  "checked_external_files": 159,
+  "errors": [
+    "unevaluated target expression /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-export-fix-v1/work/config-01/build/dart/joint-targets/1dd1fe776e57ab24d29a24258ca5fba8/tinyxml2__tinyxml2/INTERFACE_COMPILE_DEFINITIONS.txt",
+    "unlocked file: /usr/lib/x86_64-linux-gnu/libGLESv2.so.2.1.0",
+    "unlocked file: /usr/lib/x86_64-linux-gnu/libflann_cpp.so.1.9.2",
+    "unlocked file: /usr/sbin/libgvc6-config-update"
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "patch": "validation/gazebo-joint-export-fix-v1/reports/components.patch",
+    "status": "PASS_EXACT_ROUNDTRIP",
+    "sha256": "c2c6e5a2fc18082ddad6f68bdf44436858ffb13ebabf9f56053d392daa3e8a43",
+    "output_sha256": "0cffd24ab99778d3118216281d756f23a77b51b920997df5ed8b728a8dda0f52"
+  },
+  {
+    "patch": "validation/gazebo-joint-export-fix-v1/reports/install-selected.patch",
+    "status": "PASS_EXACT_ROUNDTRIP",
+    "sha256": "8b047bdf63e27ae6a5a729613f5bfe324f7640cb93b47c46c7651229debe8395",
+    "output_sha256": "6b3fa97ca4a80f95b00dc7af89c6fb4b43c12372d368fa1ed2921dc664023f3d"
+  }
+]

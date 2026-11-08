@@ -1,0 +1,12 @@
+--- a/cmake/Components.cmake
++++ b/cmake/Components.cmake
+@@ -71,0 +72,7 @@
++  # Keep one export-file registration; route only selected DART exports to
++  # the isolated metadata component. Export membership remains unchanged.
++  set(_aero_export_component Unspecified)
++  set(_aero_selected_components dart external-odelcpsolver collision-ode collision-bullet utils utils-urdf)
++  if(package_name STREQUAL "dart" AND component IN_LIST _aero_selected_components)
++    set(_aero_export_component aero-joint-cmake)
++  endif()
+@@ -74,0 +82 @@
++    COMPONENT "${_aero_export_component}"

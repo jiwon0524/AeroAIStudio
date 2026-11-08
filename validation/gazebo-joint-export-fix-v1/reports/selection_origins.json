@@ -1,0 +1,41 @@
+{
+  "origins": [
+    {
+      "input": "/usr/lib/x86_64-linux-gnu/libGLESv2.so",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libGLESv2.so.2.1.0",
+      "origin": "validation/gazebo-joint-export-fix-v1/work/config-01/build/dart/joint-targets/7fd32cf7fc1f0e324b2a3062cf2d241d/OpenGL__GLES3/IMPORTED_LOCATION.txt",
+      "sha256": "4d410c7e883b6e4bab42fafae7ebad6ae5702883bfce07a5e6ffdf4c3fec433b"
+    },
+    {
+      "input": "/usr/lib/x86_64-linux-gnu/libGLESv2.so",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libGLESv2.so.2.1.0",
+      "origin": "validation/gazebo-joint-export-fix-v1/work/config-01/build/dart/joint-targets/7fd32cf7fc1f0e324b2a3062cf2d241d/OpenGL__GLES2/IMPORTED_LOCATION.txt",
+      "sha256": "4d410c7e883b6e4bab42fafae7ebad6ae5702883bfce07a5e6ffdf4c3fec433b"
+    },
+    {
+      "input": "/usr/bin/dot",
+      "realpath": "/usr/sbin/libgvc6-config-update",
+      "origin": "validation/gazebo-joint-export-fix-v1/work/config-01/build/dart/joint-targets/e0fd038a01a27667c46e36b2e9500479/Doxygen__dot/IMPORTED_LOCATION.txt",
+      "sha256": "da690d0c28520a98e311cdb3577c22953b5ccfbd9f9e4219a0d031a1f15961d6"
+    },
+    {
+      "input": "/usr/lib/x86_64-linux-gnu/libGLESv2.so",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libGLESv2.so.2.1.0",
+      "origin": "validation/gazebo-joint-export-fix-v1/work/config-01/build/dart/joint-targets/529f18f8da7bf79eb1a18e594b1c1eeb/OpenGL__GLES3/IMPORTED_LOCATION.txt",
+      "sha256": "4d410c7e883b6e4bab42fafae7ebad6ae5702883bfce07a5e6ffdf4c3fec433b"
+    },
+    {
+      "input": "/usr/lib/x86_64-linux-gnu/libGLESv2.so",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libGLESv2.so.2.1.0",
+      "origin": "validation/gazebo-joint-export-fix-v1/work/config-01/build/dart/joint-targets/529f18f8da7bf79eb1a18e594b1c1eeb/OpenGL__GLES2/IMPORTED_LOCATION.txt",
+      "sha256": "4d410c7e883b6e4bab42fafae7ebad6ae5702883bfce07a5e6ffdf4c3fec433b"
+    },
+    {
+      "input": "/usr/lib/x86_64-linux-gnu/libflann_cpp.so",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libflann_cpp.so.1.9.2",
+      "origin": "validation/gazebo-joint-export-fix-v1/work/config-01/build/dart/joint-targets/e3385b1f283c767a9f89b05c50f61f84/flann/INTERFACE_LINK_LIBRARIES.txt",
+      "sha256": "809653da4f6fae2becc81a3df583e11c87ac4ff72080e0e06e52c2602899900e"
+    }
+  ],
+  "gvc_execute_process_rows": []
+}

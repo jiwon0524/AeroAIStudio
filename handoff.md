@@ -1,3 +1,48 @@
+# DART duplicate export repair — current checkpoint
+
+2026-11-08 UTC. Starting HEAD2d5c4f3, clean experiment/dart-internal-trace. Explicit user scope: narrow export repair, isolated configure/generate/compile/link/component stage/static checks, stop on first downstream mismatch. Required instructions/contracts read; context-handoff used.
+
+**EXPORT_DUPLICATION_FIXED / DART_CONFIGURE_GENERATE_PASS / DART_SELECTION_BLOCKED / joint build INCOMPLETE / NOT_RUNTIME_VERIFIED. Stage B BLOCKED; risk acceptance UNDECIDED.**
+
+Current report: validation/gazebo-joint-export-fix-v1/reports/build_result.md. Retain sole upstream Components.cmake install(EXPORT), assign aero-joint-cmake only to selected6 sets, remove redundant DART install(EXPORT) from install-selected. Target export membership/install(TARGETS ... EXPORT ...) unchanged. components.patch/install-selected.patch and before/after SHA in inputs.json. Original rules records in original_export_rules.json. Each selected set has membership1, file-registration1, generated target1; no namespace; full expected transitive references in export_validation.json. Source-only change beyond observer path relocation is Components.cmake;3977 copied source files compared. Scope fix, allowlist, byte receipt and BUILD_WITH_INSTALL_RPATH policy retained.
+
+New phase/work/config-01 source/build/prefix separate; old deps realpath and pinned selected_files unchanged. Probe configure/selection96/compile/link/ELF/stage/receipt PASS. Build=prefix SHA c741f5460c64d7fb9fc426e3acaaffeaffae367b516893a5fe96cf1d836f3fa8, Build ID45aee3a9f02c252bc661e4312484428606f1f0c8. Six external ELF hashes match prior closure; RUNPATH exactly new prefix/lib + approved old deps lib, no RPATH/empty/build paths.11 generated probe/helper/object ELFs in artifacts.json; previous ELF hashes preserved.
+
+DART configure/generate exit0, then dart.selection exit1 after159 external checks. selection_result.json: unresolved tinyxml2 Debug/BOOL generator expressions plus unlocked realpaths libGLESv2.so.2.1.0, libflann_cpp.so.1.9.2, /usr/sbin/libgvc6-config-update (Doxygen::dot /usr/bin/dot symlink). Origins/hashes in selection_origins.json. This is configure-discovered metadata, not proof of selected linkage/runtime. No trace execute_process invocation of dot/doxygen/gvc updater. No guard skipped, lock broadened or failing step retried. DART compile/link/stage/receipt and physics/Sim/harness NOT_STARTED. Prefix consumer package resolution NOT_VERIFIED; generated export metadata only statically checked. Next minimum: separately review selected-vs-optional target observation and exact generator-expression handling against existing lock; do not hide unexpected paths or approve them automatically.
+
+Launcher path setup errors were latched before command launch. Optional exception-hook import re-emitted3 old analysis JSON files byte-identically (tracked hashes match; timestamps not preserved); no original failure log/build/stage/receipt replay or overwrite. New runner path corrected. Read-only initial export inventory root-directory assumption corrected to recursive defining-directory search. Details in report. All other original source/evidence/main/marker contents preserved; no existing process termination/restart.
+
+Changes: handoff, checked narrow patches/static inspection scripts/lightweight reports. All command processes observed exited; host/PID/start/log/hash in steps.json. Snapshot scope below; external-CWD/remote/container/other namespaces UNKNOWN. Both traces try_run0; no target loading/execution/CTest/step/services/marker/sudo/install/system changes. Local source/build/deps/ELFs/raw logs/trace/runner/generalized setup remain ignored, not transferred by Git; /tmp not durable. Automatic experiment-only checkpoint publication required; main/force/merge prohibited. Snapshot pre-publication; reconcile commit parent/file list.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-08T08:46:54.367619+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "2d5c4f35a426eb75f53bc5a18295e2927a957394",
+    "branch": "experiment/dart-internal-trace",
+    "status": []
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-export-fix-v1/reports/build_result.md",
+      "sha256": "15bca301e9ed58899e9c5181eff4fe5622929f11110fff643f6793766d4ce2a6"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+---
+Previous checkpoint follows:
+
 # DART imported-target scope repair — current checkpoint
 
 2026-11-08 UTC. Starting HEAD53bce23, clean experiment/dart-internal-trace. Current user explicitly authorized DART configure scope repair and fixed-order isolated build continuation, stopping on first downstream mismatch. Required instructions/reports read; context-handoff used.

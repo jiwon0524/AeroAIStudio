@@ -1,0 +1,22 @@
+{
+  "source_count": 3977,
+  "semantic_source_changes": [
+    {
+      "path": "validation/gazebo-joint-export-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "before_sha256": "6ddda1cf29adc165713ee646b89b9d60d4c6777ab3b03306a2ee84abe7490afd",
+      "after_sha256": "0cffd24ab99778d3118216281d756f23a77b51b920997df5ed8b728a8dda0f52"
+    }
+  ],
+  "observer_paths_relocated": true,
+  "previous_ELF_hashes_unchanged": true,
+  "trace_audit": {
+    "probe": {
+      "sha256": "bc56092fa5bf5de191a1b588d41a2031b60df1dcca75cae06c682429d7ab0f41",
+      "try_run_count": 0
+    },
+    "dart": {
+      "sha256": "bc6c03d75e0300846b8aae881abb85b6b35c209b97de07a49dd084858560746c",
+      "try_run_count": 0
+    }
+  }
+}

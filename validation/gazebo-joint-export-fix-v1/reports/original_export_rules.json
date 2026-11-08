@@ -1,0 +1,266 @@
+{
+  "dart": [
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-scope-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "line": 72,
+      "args": [
+        "EXPORT",
+        "dart_component_dart",
+        "FILE",
+        "dart_dartTargets.cmake",
+        "DESTINATION",
+        "share/dart/cmake"
+      ]
+    },
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-scope-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "line": 168,
+      "args": [
+        "TARGETS",
+        "dart",
+        "EXPORT",
+        "dart_component_dart",
+        "ARCHIVE",
+        "DESTINATION",
+        "lib",
+        "LIBRARY",
+        "DESTINATION",
+        "lib"
+      ]
+    },
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-scope-fix-v1/inputs/install-selected.cmake",
+      "line": 13,
+      "args": [
+        "EXPORT",
+        "dart_component_dart",
+        "FILE",
+        "dart_dartTargets.cmake",
+        "DESTINATION",
+        "share/dart/cmake",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ]
+    }
+  ],
+  "external-odelcpsolver": [
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-scope-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "line": 72,
+      "args": [
+        "EXPORT",
+        "dart_component_external-odelcpsolver",
+        "FILE",
+        "dart_external-odelcpsolverTargets.cmake",
+        "DESTINATION",
+        "share/dart/cmake"
+      ]
+    },
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-scope-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "line": 168,
+      "args": [
+        "TARGETS",
+        "dart-external-odelcpsolver",
+        "EXPORT",
+        "dart_component_external-odelcpsolver",
+        "ARCHIVE",
+        "DESTINATION",
+        "lib",
+        "LIBRARY",
+        "DESTINATION",
+        "lib"
+      ]
+    },
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-scope-fix-v1/inputs/install-selected.cmake",
+      "line": 13,
+      "args": [
+        "EXPORT",
+        "dart_component_external-odelcpsolver",
+        "FILE",
+        "dart_external-odelcpsolverTargets.cmake",
+        "DESTINATION",
+        "share/dart/cmake",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ]
+    }
+  ],
+  "collision-ode": [
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-scope-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "line": 72,
+      "args": [
+        "EXPORT",
+        "dart_component_collision-ode",
+        "FILE",
+        "dart_collision-odeTargets.cmake",
+        "DESTINATION",
+        "share/dart/cmake"
+      ]
+    },
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-scope-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "line": 168,
+      "args": [
+        "TARGETS",
+        "dart-collision-ode",
+        "EXPORT",
+        "dart_component_collision-ode",
+        "ARCHIVE",
+        "DESTINATION",
+        "lib",
+        "LIBRARY",
+        "DESTINATION",
+        "lib"
+      ]
+    },
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-scope-fix-v1/inputs/install-selected.cmake",
+      "line": 13,
+      "args": [
+        "EXPORT",
+        "dart_component_collision-ode",
+        "FILE",
+        "dart_collision-odeTargets.cmake",
+        "DESTINATION",
+        "share/dart/cmake",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ]
+    }
+  ],
+  "collision-bullet": [
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-scope-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "line": 72,
+      "args": [
+        "EXPORT",
+        "dart_component_collision-bullet",
+        "FILE",
+        "dart_collision-bulletTargets.cmake",
+        "DESTINATION",
+        "share/dart/cmake"
+      ]
+    },
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-scope-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "line": 168,
+      "args": [
+        "TARGETS",
+        "dart-collision-bullet",
+        "EXPORT",
+        "dart_component_collision-bullet",
+        "ARCHIVE",
+        "DESTINATION",
+        "lib",
+        "LIBRARY",
+        "DESTINATION",
+        "lib"
+      ]
+    },
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-scope-fix-v1/inputs/install-selected.cmake",
+      "line": 13,
+      "args": [
+        "EXPORT",
+        "dart_component_collision-bullet",
+        "FILE",
+        "dart_collision-bulletTargets.cmake",
+        "DESTINATION",
+        "share/dart/cmake",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ]
+    }
+  ],
+  "utils": [
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-scope-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "line": 72,
+      "args": [
+        "EXPORT",
+        "dart_component_utils",
+        "FILE",
+        "dart_utilsTargets.cmake",
+        "DESTINATION",
+        "share/dart/cmake"
+      ]
+    },
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-scope-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "line": 168,
+      "args": [
+        "TARGETS",
+        "dart-utils",
+        "EXPORT",
+        "dart_component_utils",
+        "ARCHIVE",
+        "DESTINATION",
+        "lib",
+        "LIBRARY",
+        "DESTINATION",
+        "lib"
+      ]
+    },
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-scope-fix-v1/inputs/install-selected.cmake",
+      "line": 13,
+      "args": [
+        "EXPORT",
+        "dart_component_utils",
+        "FILE",
+        "dart_utilsTargets.cmake",
+        "DESTINATION",
+        "share/dart/cmake",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ]
+    }
+  ],
+  "utils-urdf": [
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-scope-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "line": 72,
+      "args": [
+        "EXPORT",
+        "dart_component_utils-urdf",
+        "FILE",
+        "dart_utils-urdfTargets.cmake",
+        "DESTINATION",
+        "share/dart/cmake"
+      ]
+    },
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-scope-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "line": 168,
+      "args": [
+        "TARGETS",
+        "dart-utils-urdf",
+        "EXPORT",
+        "dart_component_utils-urdf",
+        "ARCHIVE",
+        "DESTINATION",
+        "lib",
+        "LIBRARY",
+        "DESTINATION",
+        "lib"
+      ]
+    },
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-scope-fix-v1/inputs/install-selected.cmake",
+      "line": 13,
+      "args": [
+        "EXPORT",
+        "dart_component_utils-urdf",
+        "FILE",
+        "dart_utils-urdfTargets.cmake",
+        "DESTINATION",
+        "share/dart/cmake",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ]
+    }
+  ]
+}

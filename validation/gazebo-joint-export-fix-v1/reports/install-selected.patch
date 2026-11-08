@@ -1,0 +1,6 @@
+--- a/inputs/install-selected.cmake
++++ b/inputs/install-selected.cmake
+@@ -13,2 +13 @@
+-    install(EXPORT dart_component_${_c} FILE dart_${_c}Targets.cmake
+-      DESTINATION share/dart/cmake COMPONENT aero-joint-cmake)
++    # Components.cmake owns the single export-file registration.
