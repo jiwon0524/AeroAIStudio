@@ -1,3 +1,46 @@
+# Probe repair continuation — current checkpoint
+
+2026-11-08 UTC. Starting HEAD e234234, clean experiment/dart-internal-trace. Current explicit request authorized isolated probe repair and fixed-order joint build continuation through static gates only. context-handoff used; required instructions/reports read.
+
+**PROBE_FIXED / DART_CONFIGURE_BLOCKED / NOT_RUNTIME_VERIFIED. Stage B BLOCKED; risk acceptance UNDECIDED.**
+
+Current report: validation/gazebo-joint-build-fix-v1/reports/build_result.md; result/artifacts/dependency_comparison/original_comparison/steps JSON in same reports directory. New build and prefix under that phase/work/config-01. Original failed probe preserved. CMAKE_BUILD_WITH_INSTALL_RPATH ON and INSTALL_RPATH_USE_LINK_PATH OFF preserve SHA contract without install rewrite. Probe configure/selection/compile/link/static closure/stage/receipt PASS; build=prefix SHA3459f37da9645ae24b59376a930796974300352b24ea434e4d7e13c571ab24cd. No RPATH, RUNPATH exactly new prefix/lib + original approved deps lib, no empty/build entries. Six external dependencies match prior allowlist hashes. First new audit false-negative due canonical deps symlink comparison corrected; original failure log and recheck both retained.
+
+Continued to DART configure, exit1: export-targets.cmake:10 cannot see directory-scoped imported target OpenGL::OpenGL and others. Configure incomplete; selection gate not passed. DART compilation/staging, physics/Sim/harness NOT_STARTED. Next minimum: review scoped imported-target snapshot collector against failed trace; do not skip snapshots/widen dependencies. No automatic retry of failed DART config performed.
+
+Original source copies3977 files byte equal, original failed ELF hashes preserved. Main and original inputs/evidence/markers untouched. No target loading/execution/step/services/marker consumption/sudo/package/system change. Probe/DART traces try_run count0. Observed processes exited, no task from this work remains running; other namespaces/remote/external CWD UNKNOWN. PID/start/log identities in steps.json. Local uncompiled inputs/runner, source/build/deps/binaries/raw logs remain ignored and are not transferred by Git; /tmp is not durable.
+
+Changed: this handoff and explicitly selected new lightweight reports/tested static audit and receipt scripts. Automatic checkpoint publishing required on approved experiment branch only; main/force push/merge prohibited. Snapshot is pre-publication; reconcile publishing commit parent/file list. No account switch or process termination.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-08T08:26:17.095966+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "e234234edecae3da5e071d0224a878fc069b668e",
+    "branch": "experiment/dart-internal-trace",
+    "status": []
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-build-fix-v1/reports/build_result.md",
+      "sha256": "9f0924ae814db1e3f6a66da146eee3c64f7bc7fbff050e5dff35a510f04e82a8"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+---
+Previous checkpoint follows:
+
 # Joint instrumentation build v1 — current checkpoint
 
 **BLOCKED_AFTER_PROBE_STAGE / joint build INCOMPLETE / NOT_EXECUTION_READY / NOT_RUNTIME_VERIFIED. Stage B BLOCKED. Risk acceptance UNDECIDED.**

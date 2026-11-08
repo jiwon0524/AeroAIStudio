@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "external_files": {
+    "/usr/lib/x86_64-linux-gnu/libc.so.6": {
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf",
+      "build_id": [
+        "a4a7992a8e66555c8141ab2a08a8465ff6e0ea65"
+      ],
+      "needed": [
+        {
+          "soname": "ld-linux-x86-64.so.2",
+          "path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+        }
+      ]
+    },
+    "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2": {
+      "sha256": "c20a2dc8917c755f02b94049356320fe1f62ac7d9f8994731f807d9df39302da",
+      "build_id": [
+        "0d77dbd4379bf0b5af3e05be7fb6af1e4cea7c96"
+      ],
+      "needed": []
+    },
+    "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1": {
+      "sha256": "d93224d2b0dab4247598be683adca02f5cf00586f99c187579cd7e92058fb7cb",
+      "build_id": [
+        "58736497cba1173fec6ad05c75e996dacefd1def"
+      ],
+      "needed": [
+        {
+          "soname": "libc.so.6",
+          "path": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+        },
+        {
+          "soname": "ld-linux-x86-64.so.2",
+          "path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+        }
+      ]
+    },
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33": {
+      "sha256": "1fd75fe70354a416d75aef22bcae68c47bd25d20e2d0568c30b1a9838cf62f11",
+      "build_id": [
+        "753c6c8608b61d4e67be8f0c890e03e0aa046b8b"
+      ],
+      "needed": [
+        {
+          "soname": "libm.so.6",
+          "path": "/usr/lib/x86_64-linux-gnu/libm.so.6"
+        },
+        {
+          "soname": "libc.so.6",
+          "path": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+        },
+        {
+          "soname": "ld-linux-x86-64.so.2",
+          "path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+        },
+        {
+          "soname": "libgcc_s.so.1",
+          "path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1"
+        }
+      ]
+    },
+    "/usr/lib/x86_64-linux-gnu/libm.so.6": {
+      "sha256": "fce00b6f25f459cf4ae0b7fae4257909a1a8a86f9149e7c029a5d617baf1ccd0",
+      "build_id": [
+        "d53fcbff9f855463606b25cfbe2a2e10856ea3a7"
+      ],
+      "needed": [
+        {
+          "soname": "libc.so.6",
+          "path": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+        },
+        {
+          "soname": "ld-linux-x86-64.so.2",
+          "path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+        }
+      ]
+    },
+    "/usr/lib/x86_64-linux-gnu/libcrypto.so.3": {
+      "sha256": "6866ed711dab8927e1bf82bf1cd30e828bdfc34f3cc1e83b1c9eb01ce6c37d9a",
+      "build_id": [
+        "2eb7babe130d27bd183d57702b02626012169094"
+      ],
+      "needed": [
+        {
+          "soname": "libc.so.6",
+          "path": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+        }
+      ]
+    }
+  },
+  "scope": "static paths/hashes, not loader mapping"
+}

@@ -1,0 +1,43 @@
+{
+  "status": "PROBE_FIXED_DART_CONFIGURE_BLOCKED",
+  "stage_b": "BLOCKED",
+  "risk_acceptance": "UNDECIDED",
+  "runtime": "NOT_RUNTIME_VERIFIED",
+  "source_copy_files_equal": 3977,
+  "original_failed_probe_preserved": true,
+  "trace_audit": {
+    "probe": {
+      "try_run_count": 0,
+      "sha256": "49d6c48f576ca1ccd802a350833ede2a1582c5e1a96486520189874221600583"
+    },
+    "dart": {
+      "try_run_count": 0,
+      "sha256": "d718b4bca955d2a781c1bda984be105e535c9755a47cdebd88343f1048cbbea7"
+    }
+  },
+  "dart_missing_target_errors": [
+    "Bullet",
+    "GLUT::Xi",
+    "GLUT::Xmu",
+    "ODE::ODE",
+    "OpenGL::EGL",
+    "OpenGL::GL",
+    "OpenGL::GLES2",
+    "OpenGL::GLES3",
+    "OpenGL::GLU",
+    "OpenGL::GLX",
+    "OpenGL::OpenGL",
+    "flann",
+    "lz4",
+    "tinyxml2::tinyxml2",
+    "urdfdom"
+  ],
+  "receipt": {
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-build-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0": {
+      "sha256": "3459f37da9645ae24b59376a930796974300352b24ea434e4d7e13c571ab24cd",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-build-fix-v1/work/config-01/build/probe/libaero-joint-probe.so.1.0",
+      "component": "probe"
+    }
+  },
+  "sha256": "3459f37da9645ae24b59376a930796974300352b24ea434e4d7e13c571ab24cd"
+}

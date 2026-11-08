@@ -1,0 +1,42 @@
+{
+  "validation/gazebo-joint-build-fix-v1/work/config-01/build/probe/libaero-joint-probe.so.1.0": {
+    "sha256": "3459f37da9645ae24b59376a930796974300352b24ea434e4d7e13c571ab24cd",
+    "size": 361432,
+    "build_id": [
+      "f302c2c1ba1ce10cdfb26d542f6b985425e46983"
+    ],
+    "soname": [
+      "libaero-joint-probe.so.1"
+    ],
+    "needed": [
+      "libcrypto.so.3",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "runpath": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-build-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+    ],
+    "rpath": []
+  },
+  "validation/gazebo-joint-build-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0": {
+    "sha256": "3459f37da9645ae24b59376a930796974300352b24ea434e4d7e13c571ab24cd",
+    "size": 361432,
+    "build_id": [
+      "f302c2c1ba1ce10cdfb26d542f6b985425e46983"
+    ],
+    "soname": [
+      "libaero-joint-probe.so.1"
+    ],
+    "needed": [
+      "libcrypto.so.3",
+      "libstdc++.so.6",
+      "libgcc_s.so.1",
+      "libc.so.6"
+    ],
+    "runpath": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-build-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+    ],
+    "rpath": []
+  }
+}
