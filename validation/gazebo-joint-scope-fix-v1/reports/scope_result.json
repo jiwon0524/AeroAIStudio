@@ -1,0 +1,727 @@
+{
+  "cause": "directory-scoped imported targets queried from ancestor execution scope",
+  "failed_names": [
+    "Bullet",
+    "GLUT::Xi",
+    "GLUT::Xmu",
+    "ODE::ODE",
+    "OpenGL::EGL",
+    "OpenGL::GL",
+    "OpenGL::GLES2",
+    "OpenGL::GLES3",
+    "OpenGL::GLU",
+    "OpenGL::GLX",
+    "OpenGL::OpenGL",
+    "flann",
+    "lz4",
+    "tinyxml2::tinyxml2",
+    "urdfdom"
+  ],
+  "definitions": [
+    {
+      "target": "OpenGL::OpenGL",
+      "file": "/usr/share/cmake-3.28/Modules/FindOpenGL.cmake",
+      "line": 556,
+      "args": [
+        "OpenGL::OpenGL",
+        "UNKNOWN",
+        "IMPORTED"
+      ],
+      "definition_sha256": "f32f66521d0ef5ecae61aff7400cde08229d775e2eec0e0f8634250516e8fa87",
+      "lock_match": true
+    },
+    {
+      "target": "OpenGL::GLX",
+      "file": "/usr/share/cmake-3.28/Modules/FindOpenGL.cmake",
+      "line": 573,
+      "args": [
+        "OpenGL::GLX",
+        "UNKNOWN",
+        "IMPORTED"
+      ],
+      "definition_sha256": "f32f66521d0ef5ecae61aff7400cde08229d775e2eec0e0f8634250516e8fa87",
+      "lock_match": true
+    },
+    {
+      "target": "OpenGL::GLES2",
+      "file": "/usr/share/cmake-3.28/Modules/FindOpenGL.cmake",
+      "line": 596,
+      "args": [
+        "OpenGL::GLES2",
+        "UNKNOWN",
+        "IMPORTED"
+      ],
+      "definition_sha256": "f32f66521d0ef5ecae61aff7400cde08229d775e2eec0e0f8634250516e8fa87",
+      "lock_match": true
+    },
+    {
+      "target": "OpenGL::GLES3",
+      "file": "/usr/share/cmake-3.28/Modules/FindOpenGL.cmake",
+      "line": 630,
+      "args": [
+        "OpenGL::GLES3",
+        "UNKNOWN",
+        "IMPORTED"
+      ],
+      "definition_sha256": "f32f66521d0ef5ecae61aff7400cde08229d775e2eec0e0f8634250516e8fa87",
+      "lock_match": true
+    },
+    {
+      "target": "OpenGL::GL",
+      "file": "/usr/share/cmake-3.28/Modules/FindOpenGL.cmake",
+      "line": 670,
+      "args": [
+        "OpenGL::GL",
+        "INTERFACE",
+        "IMPORTED"
+      ],
+      "definition_sha256": "f32f66521d0ef5ecae61aff7400cde08229d775e2eec0e0f8634250516e8fa87",
+      "lock_match": true
+    },
+    {
+      "target": "OpenGL::EGL",
+      "file": "/usr/share/cmake-3.28/Modules/FindOpenGL.cmake",
+      "line": 685,
+      "args": [
+        "OpenGL::EGL",
+        "UNKNOWN",
+        "IMPORTED"
+      ],
+      "definition_sha256": "f32f66521d0ef5ecae61aff7400cde08229d775e2eec0e0f8634250516e8fa87",
+      "lock_match": true
+    },
+    {
+      "target": "OpenGL::GLU",
+      "file": "/usr/share/cmake-3.28/Modules/FindOpenGL.cmake",
+      "line": 702,
+      "args": [
+        "OpenGL::GLU",
+        "UNKNOWN",
+        "IMPORTED"
+      ],
+      "definition_sha256": "f32f66521d0ef5ecae61aff7400cde08229d775e2eec0e0f8634250516e8fa87",
+      "lock_match": true
+    },
+    {
+      "target": "ODE::ODE",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-build-fix-v1/work/config-01/src/dart/cmake/DARTFindODE.cmake",
+      "line": 16,
+      "args": [
+        "ODE::ODE",
+        "INTERFACE",
+        "IMPORTED"
+      ],
+      "definition_sha256": "cac57f0d4518589f920a3f69faa043e9ce1563f6391d7ee56aee2e100cc37a2b",
+      "lock_match": "preserved source file"
+    },
+    {
+      "target": "Bullet",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-build-fix-v1/work/config-01/src/dart/cmake/DARTFindBullet.cmake",
+      "line": 15,
+      "args": [
+        "Bullet",
+        "INTERFACE",
+        "IMPORTED"
+      ],
+      "definition_sha256": "4bd6e24d186584b76c2e2f4559e9d57122e5630c165d6e9431e57cb063247d77",
+      "lock_match": "preserved source file"
+    },
+    {
+      "target": "flann",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-build-fix-v1/work/config-01/src/dart/cmake/DARTFindflann.cmake",
+      "line": 18,
+      "args": [
+        "flann",
+        "INTERFACE",
+        "IMPORTED"
+      ],
+      "definition_sha256": "8741e162d7e73ce5b31347e76871e57a7560af13935c7f086d7dc8d79ac2c2b9",
+      "lock_match": "preserved source file"
+    },
+    {
+      "target": "lz4",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-build-fix-v1/work/config-01/src/dart/cmake/Findlz4.cmake",
+      "line": 46,
+      "args": [
+        "lz4",
+        "INTERFACE",
+        "IMPORTED"
+      ],
+      "definition_sha256": "086323d19dd6a4f30affca0ce9371284de794c16ae66b086794474b037bbcdbe",
+      "lock_match": "preserved source file"
+    },
+    {
+      "target": "tinyxml2::tinyxml2",
+      "file": "/usr/lib/x86_64-linux-gnu/cmake/tinyxml2/tinyxml2-shared-targets.cmake",
+      "line": 69,
+      "args": [
+        "tinyxml2::tinyxml2",
+        "SHARED",
+        "IMPORTED"
+      ],
+      "definition_sha256": "4483cc19b218bc32c5f4e9ce9459582a77dc2ad3a93b51ff7164810376262253",
+      "lock_match": true
+    },
+    {
+      "target": "urdfdom",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-build-fix-v1/work/config-01/src/dart/cmake/DARTFindurdfdom.cmake",
+      "line": 24,
+      "args": [
+        "urdfdom",
+        "INTERFACE",
+        "IMPORTED"
+      ],
+      "definition_sha256": "bf701a4a1aaedcbf3c3e5367f7a2e6df6384e092bb27a0640c8c182fd7d50c22",
+      "lock_match": "preserved source file"
+    },
+    {
+      "target": "OpenGL::OpenGL",
+      "file": "/usr/share/cmake-3.28/Modules/FindOpenGL.cmake",
+      "line": 556,
+      "args": [
+        "OpenGL::OpenGL",
+        "UNKNOWN",
+        "IMPORTED"
+      ],
+      "definition_sha256": "f32f66521d0ef5ecae61aff7400cde08229d775e2eec0e0f8634250516e8fa87",
+      "lock_match": true
+    },
+    {
+      "target": "OpenGL::GLX",
+      "file": "/usr/share/cmake-3.28/Modules/FindOpenGL.cmake",
+      "line": 573,
+      "args": [
+        "OpenGL::GLX",
+        "UNKNOWN",
+        "IMPORTED"
+      ],
+      "definition_sha256": "f32f66521d0ef5ecae61aff7400cde08229d775e2eec0e0f8634250516e8fa87",
+      "lock_match": true
+    },
+    {
+      "target": "OpenGL::GLES2",
+      "file": "/usr/share/cmake-3.28/Modules/FindOpenGL.cmake",
+      "line": 596,
+      "args": [
+        "OpenGL::GLES2",
+        "UNKNOWN",
+        "IMPORTED"
+      ],
+      "definition_sha256": "f32f66521d0ef5ecae61aff7400cde08229d775e2eec0e0f8634250516e8fa87",
+      "lock_match": true
+    },
+    {
+      "target": "OpenGL::GLES3",
+      "file": "/usr/share/cmake-3.28/Modules/FindOpenGL.cmake",
+      "line": 630,
+      "args": [
+        "OpenGL::GLES3",
+        "UNKNOWN",
+        "IMPORTED"
+      ],
+      "definition_sha256": "f32f66521d0ef5ecae61aff7400cde08229d775e2eec0e0f8634250516e8fa87",
+      "lock_match": true
+    },
+    {
+      "target": "OpenGL::GL",
+      "file": "/usr/share/cmake-3.28/Modules/FindOpenGL.cmake",
+      "line": 670,
+      "args": [
+        "OpenGL::GL",
+        "INTERFACE",
+        "IMPORTED"
+      ],
+      "definition_sha256": "f32f66521d0ef5ecae61aff7400cde08229d775e2eec0e0f8634250516e8fa87",
+      "lock_match": true
+    },
+    {
+      "target": "OpenGL::EGL",
+      "file": "/usr/share/cmake-3.28/Modules/FindOpenGL.cmake",
+      "line": 685,
+      "args": [
+        "OpenGL::EGL",
+        "UNKNOWN",
+        "IMPORTED"
+      ],
+      "definition_sha256": "f32f66521d0ef5ecae61aff7400cde08229d775e2eec0e0f8634250516e8fa87",
+      "lock_match": true
+    },
+    {
+      "target": "OpenGL::GLU",
+      "file": "/usr/share/cmake-3.28/Modules/FindOpenGL.cmake",
+      "line": 702,
+      "args": [
+        "OpenGL::GLU",
+        "UNKNOWN",
+        "IMPORTED"
+      ],
+      "definition_sha256": "f32f66521d0ef5ecae61aff7400cde08229d775e2eec0e0f8634250516e8fa87",
+      "lock_match": true
+    },
+    {
+      "target": "GLUT::Xi",
+      "file": "/usr/share/cmake-3.28/Modules/FindGLUT.cmake",
+      "line": 129,
+      "args": [
+        "GLUT::Xi",
+        "UNKNOWN",
+        "IMPORTED"
+      ],
+      "definition_sha256": "59f6a0583ed931dba1c0f6ea3c52d9df8e551abe7901fca362b83a51b4e55750",
+      "lock_match": true
+    },
+    {
+      "target": "GLUT::Xmu",
+      "file": "/usr/share/cmake-3.28/Modules/FindGLUT.cmake",
+      "line": 135,
+      "args": [
+        "GLUT::Xmu",
+        "UNKNOWN",
+        "IMPORTED"
+      ],
+      "definition_sha256": "59f6a0583ed931dba1c0f6ea3c52d9df8e551abe7901fca362b83a51b4e55750",
+      "lock_match": true
+    }
+  ],
+  "recovered_targets": {
+    "Bullet": [
+      {
+        "path": "validation/gazebo-joint-scope-fix-v1/work/config-01/build/dart/joint-targets/a9cf561e7acaad79a184e89a31de6845/Bullet",
+        "properties": {
+          "INTERFACE_INCLUDE_DIRECTORIES": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/include/bullet",
+          "INTERFACE_LINK_LIBRARIES": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libBulletDynamics.so.3.24;/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libBulletCollision.so.3.24;/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24;/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libBulletSoftBody.so.3.24",
+          "INTERFACE_COMPILE_DEFINITIONS": "",
+          "INTERFACE_COMPILE_OPTIONS": "",
+          "LINK_LIBRARIES": "",
+          "IMPORTED_LOCATION_RELEASE": "",
+          "IMPORTED_LOCATION_NOCONFIG": "",
+          "COMPILE_DEFINITIONS": "",
+          "IMPORTED_LOCATION": "",
+          "INCLUDE_DIRECTORIES": "",
+          "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+          "COMPILE_OPTIONS": ""
+        }
+      }
+    ],
+    "GLUT::Xi": [
+      {
+        "path": "validation/gazebo-joint-scope-fix-v1/work/config-01/build/dart/joint-targets/e2c6d81d2ea9f57f8c1238cff7cb76b3/GLUT__Xi",
+        "properties": {
+          "INTERFACE_INCLUDE_DIRECTORIES": "",
+          "INTERFACE_LINK_LIBRARIES": "",
+          "INTERFACE_COMPILE_DEFINITIONS": "",
+          "INTERFACE_COMPILE_OPTIONS": "",
+          "LINK_LIBRARIES": "",
+          "IMPORTED_LOCATION_RELEASE": "",
+          "IMPORTED_LOCATION_NOCONFIG": "",
+          "COMPILE_DEFINITIONS": "",
+          "IMPORTED_LOCATION": "/usr/lib/x86_64-linux-gnu/libXi.so",
+          "INCLUDE_DIRECTORIES": "",
+          "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+          "COMPILE_OPTIONS": ""
+        }
+      }
+    ],
+    "GLUT::Xmu": [
+      {
+        "path": "validation/gazebo-joint-scope-fix-v1/work/config-01/build/dart/joint-targets/e2c6d81d2ea9f57f8c1238cff7cb76b3/GLUT__Xmu",
+        "properties": {
+          "INTERFACE_INCLUDE_DIRECTORIES": "",
+          "INTERFACE_LINK_LIBRARIES": "",
+          "INTERFACE_COMPILE_DEFINITIONS": "",
+          "INTERFACE_COMPILE_OPTIONS": "",
+          "LINK_LIBRARIES": "",
+          "IMPORTED_LOCATION_RELEASE": "",
+          "IMPORTED_LOCATION_NOCONFIG": "",
+          "COMPILE_DEFINITIONS": "",
+          "IMPORTED_LOCATION": "/usr/lib/x86_64-linux-gnu/libXmu.so",
+          "INCLUDE_DIRECTORIES": "",
+          "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+          "COMPILE_OPTIONS": ""
+        }
+      }
+    ],
+    "ODE::ODE": [
+      {
+        "path": "validation/gazebo-joint-scope-fix-v1/work/config-01/build/dart/joint-targets/206cadbe28e98eac9e6734ca9d178a6d/ODE__ODE",
+        "properties": {
+          "INTERFACE_INCLUDE_DIRECTORIES": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/include",
+          "INTERFACE_LINK_LIBRARIES": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libode.so.8",
+          "INTERFACE_COMPILE_DEFINITIONS": "",
+          "INTERFACE_COMPILE_OPTIONS": "",
+          "LINK_LIBRARIES": "",
+          "IMPORTED_LOCATION_RELEASE": "",
+          "IMPORTED_LOCATION_NOCONFIG": "",
+          "COMPILE_DEFINITIONS": "",
+          "IMPORTED_LOCATION": "",
+          "INCLUDE_DIRECTORIES": "",
+          "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+          "COMPILE_OPTIONS": ""
+        }
+      }
+    ],
+    "OpenGL::EGL": [
+      {
+        "path": "validation/gazebo-joint-scope-fix-v1/work/config-01/build/dart/joint-targets/00ea8349566a31361ff0ffa2183db2ff/OpenGL__EGL",
+        "properties": {
+          "INTERFACE_INCLUDE_DIRECTORIES": "/usr/include",
+          "INTERFACE_LINK_LIBRARIES": "OpenGL::OpenGL",
+          "INTERFACE_COMPILE_DEFINITIONS": "",
+          "INTERFACE_COMPILE_OPTIONS": "",
+          "LINK_LIBRARIES": "",
+          "IMPORTED_LOCATION_RELEASE": "",
+          "IMPORTED_LOCATION_NOCONFIG": "",
+          "COMPILE_DEFINITIONS": "",
+          "IMPORTED_LOCATION": "/usr/lib/x86_64-linux-gnu/libEGL.so",
+          "INCLUDE_DIRECTORIES": "",
+          "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+          "COMPILE_OPTIONS": ""
+        }
+      },
+      {
+        "path": "validation/gazebo-joint-scope-fix-v1/work/config-01/build/dart/joint-targets/e2c6d81d2ea9f57f8c1238cff7cb76b3/OpenGL__EGL",
+        "properties": {
+          "INTERFACE_INCLUDE_DIRECTORIES": "/usr/include",
+          "INTERFACE_LINK_LIBRARIES": "OpenGL::OpenGL",
+          "INTERFACE_COMPILE_DEFINITIONS": "",
+          "INTERFACE_COMPILE_OPTIONS": "",
+          "LINK_LIBRARIES": "",
+          "IMPORTED_LOCATION_RELEASE": "",
+          "IMPORTED_LOCATION_NOCONFIG": "",
+          "COMPILE_DEFINITIONS": "",
+          "IMPORTED_LOCATION": "/usr/lib/x86_64-linux-gnu/libEGL.so",
+          "INCLUDE_DIRECTORIES": "",
+          "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+          "COMPILE_OPTIONS": ""
+        }
+      }
+    ],
+    "OpenGL::GL": [
+      {
+        "path": "validation/gazebo-joint-scope-fix-v1/work/config-01/build/dart/joint-targets/00ea8349566a31361ff0ffa2183db2ff/OpenGL__GL",
+        "properties": {
+          "INTERFACE_INCLUDE_DIRECTORIES": "/usr/include",
+          "INTERFACE_LINK_LIBRARIES": "OpenGL::OpenGL;OpenGL::GLX",
+          "INTERFACE_COMPILE_DEFINITIONS": "",
+          "INTERFACE_COMPILE_OPTIONS": "",
+          "LINK_LIBRARIES": "",
+          "IMPORTED_LOCATION_RELEASE": "",
+          "IMPORTED_LOCATION_NOCONFIG": "",
+          "COMPILE_DEFINITIONS": "",
+          "IMPORTED_LOCATION": "",
+          "INCLUDE_DIRECTORIES": "",
+          "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+          "COMPILE_OPTIONS": ""
+        }
+      },
+      {
+        "path": "validation/gazebo-joint-scope-fix-v1/work/config-01/build/dart/joint-targets/e2c6d81d2ea9f57f8c1238cff7cb76b3/OpenGL__GL",
+        "properties": {
+          "INTERFACE_INCLUDE_DIRECTORIES": "/usr/include",
+          "INTERFACE_LINK_LIBRARIES": "OpenGL::OpenGL;OpenGL::GLX",
+          "INTERFACE_COMPILE_DEFINITIONS": "",
+          "INTERFACE_COMPILE_OPTIONS": "",
+          "LINK_LIBRARIES": "",
+          "IMPORTED_LOCATION_RELEASE": "",
+          "IMPORTED_LOCATION_NOCONFIG": "",
+          "COMPILE_DEFINITIONS": "",
+          "IMPORTED_LOCATION": "",
+          "INCLUDE_DIRECTORIES": "",
+          "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+          "COMPILE_OPTIONS": ""
+        }
+      }
+    ],
+    "OpenGL::GLES2": [
+      {
+        "path": "validation/gazebo-joint-scope-fix-v1/work/config-01/build/dart/joint-targets/00ea8349566a31361ff0ffa2183db2ff/OpenGL__GLES2",
+        "properties": {
+          "INTERFACE_INCLUDE_DIRECTORIES": "/usr/include",
+          "INTERFACE_LINK_LIBRARIES": "",
+          "INTERFACE_COMPILE_DEFINITIONS": "",
+          "INTERFACE_COMPILE_OPTIONS": "",
+          "LINK_LIBRARIES": "",
+          "IMPORTED_LOCATION_RELEASE": "",
+          "IMPORTED_LOCATION_NOCONFIG": "",
+          "COMPILE_DEFINITIONS": "",
+          "IMPORTED_LOCATION": "/usr/lib/x86_64-linux-gnu/libGLESv2.so",
+          "INCLUDE_DIRECTORIES": "",
+          "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+          "COMPILE_OPTIONS": ""
+        }
+      },
+      {
+        "path": "validation/gazebo-joint-scope-fix-v1/work/config-01/build/dart/joint-targets/e2c6d81d2ea9f57f8c1238cff7cb76b3/OpenGL__GLES2",
+        "properties": {
+          "INTERFACE_INCLUDE_DIRECTORIES": "/usr/include",
+          "INTERFACE_LINK_LIBRARIES": "",
+          "INTERFACE_COMPILE_DEFINITIONS": "",
+          "INTERFACE_COMPILE_OPTIONS": "",
+          "LINK_LIBRARIES": "",
+          "IMPORTED_LOCATION_RELEASE": "",
+          "IMPORTED_LOCATION_NOCONFIG": "",
+          "COMPILE_DEFINITIONS": "",
+          "IMPORTED_LOCATION": "/usr/lib/x86_64-linux-gnu/libGLESv2.so",
+          "INCLUDE_DIRECTORIES": "",
+          "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+          "COMPILE_OPTIONS": ""
+        }
+      }
+    ],
+    "OpenGL::GLES3": [
+      {
+        "path": "validation/gazebo-joint-scope-fix-v1/work/config-01/build/dart/joint-targets/00ea8349566a31361ff0ffa2183db2ff/OpenGL__GLES3",
+        "properties": {
+          "INTERFACE_INCLUDE_DIRECTORIES": "/usr/include",
+          "INTERFACE_LINK_LIBRARIES": "",
+          "INTERFACE_COMPILE_DEFINITIONS": "",
+          "INTERFACE_COMPILE_OPTIONS": "",
+          "LINK_LIBRARIES": "",
+          "IMPORTED_LOCATION_RELEASE": "",
+          "IMPORTED_LOCATION_NOCONFIG": "",
+          "COMPILE_DEFINITIONS": "",
+          "IMPORTED_LOCATION": "/usr/lib/x86_64-linux-gnu/libGLESv2.so",
+          "INCLUDE_DIRECTORIES": "",
+          "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+          "COMPILE_OPTIONS": ""
+        }
+      },
+      {
+        "path": "validation/gazebo-joint-scope-fix-v1/work/config-01/build/dart/joint-targets/e2c6d81d2ea9f57f8c1238cff7cb76b3/OpenGL__GLES3",
+        "properties": {
+          "INTERFACE_INCLUDE_DIRECTORIES": "/usr/include",
+          "INTERFACE_LINK_LIBRARIES": "",
+          "INTERFACE_COMPILE_DEFINITIONS": "",
+          "INTERFACE_COMPILE_OPTIONS": "",
+          "LINK_LIBRARIES": "",
+          "IMPORTED_LOCATION_RELEASE": "",
+          "IMPORTED_LOCATION_NOCONFIG": "",
+          "COMPILE_DEFINITIONS": "",
+          "IMPORTED_LOCATION": "/usr/lib/x86_64-linux-gnu/libGLESv2.so",
+          "INCLUDE_DIRECTORIES": "",
+          "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+          "COMPILE_OPTIONS": ""
+        }
+      }
+    ],
+    "OpenGL::GLU": [
+      {
+        "path": "validation/gazebo-joint-scope-fix-v1/work/config-01/build/dart/joint-targets/00ea8349566a31361ff0ffa2183db2ff/OpenGL__GLU",
+        "properties": {
+          "INTERFACE_INCLUDE_DIRECTORIES": "",
+          "INTERFACE_LINK_LIBRARIES": "OpenGL::GL",
+          "INTERFACE_COMPILE_DEFINITIONS": "",
+          "INTERFACE_COMPILE_OPTIONS": "",
+          "LINK_LIBRARIES": "",
+          "IMPORTED_LOCATION_RELEASE": "",
+          "IMPORTED_LOCATION_NOCONFIG": "",
+          "COMPILE_DEFINITIONS": "",
+          "IMPORTED_LOCATION": "/usr/lib/x86_64-linux-gnu/libGLU.so",
+          "INCLUDE_DIRECTORIES": "",
+          "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+          "COMPILE_OPTIONS": ""
+        }
+      },
+      {
+        "path": "validation/gazebo-joint-scope-fix-v1/work/config-01/build/dart/joint-targets/e2c6d81d2ea9f57f8c1238cff7cb76b3/OpenGL__GLU",
+        "properties": {
+          "INTERFACE_INCLUDE_DIRECTORIES": "",
+          "INTERFACE_LINK_LIBRARIES": "OpenGL::GL",
+          "INTERFACE_COMPILE_DEFINITIONS": "",
+          "INTERFACE_COMPILE_OPTIONS": "",
+          "LINK_LIBRARIES": "",
+          "IMPORTED_LOCATION_RELEASE": "",
+          "IMPORTED_LOCATION_NOCONFIG": "",
+          "COMPILE_DEFINITIONS": "",
+          "IMPORTED_LOCATION": "/usr/lib/x86_64-linux-gnu/libGLU.so",
+          "INCLUDE_DIRECTORIES": "",
+          "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+          "COMPILE_OPTIONS": ""
+        }
+      }
+    ],
+    "OpenGL::GLX": [
+      {
+        "path": "validation/gazebo-joint-scope-fix-v1/work/config-01/build/dart/joint-targets/00ea8349566a31361ff0ffa2183db2ff/OpenGL__GLX",
+        "properties": {
+          "INTERFACE_INCLUDE_DIRECTORIES": "/usr/include",
+          "INTERFACE_LINK_LIBRARIES": "OpenGL::OpenGL",
+          "INTERFACE_COMPILE_DEFINITIONS": "",
+          "INTERFACE_COMPILE_OPTIONS": "",
+          "LINK_LIBRARIES": "",
+          "IMPORTED_LOCATION_RELEASE": "",
+          "IMPORTED_LOCATION_NOCONFIG": "",
+          "COMPILE_DEFINITIONS": "",
+          "IMPORTED_LOCATION": "/usr/lib/x86_64-linux-gnu/libGLX.so",
+          "INCLUDE_DIRECTORIES": "",
+          "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+          "COMPILE_OPTIONS": ""
+        }
+      },
+      {
+        "path": "validation/gazebo-joint-scope-fix-v1/work/config-01/build/dart/joint-targets/e2c6d81d2ea9f57f8c1238cff7cb76b3/OpenGL__GLX",
+        "properties": {
+          "INTERFACE_INCLUDE_DIRECTORIES": "/usr/include",
+          "INTERFACE_LINK_LIBRARIES": "OpenGL::OpenGL",
+          "INTERFACE_COMPILE_DEFINITIONS": "",
+          "INTERFACE_COMPILE_OPTIONS": "",
+          "LINK_LIBRARIES": "",
+          "IMPORTED_LOCATION_RELEASE": "",
+          "IMPORTED_LOCATION_NOCONFIG": "",
+          "COMPILE_DEFINITIONS": "",
+          "IMPORTED_LOCATION": "/usr/lib/x86_64-linux-gnu/libGLX.so",
+          "INCLUDE_DIRECTORIES": "",
+          "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+          "COMPILE_OPTIONS": ""
+        }
+      }
+    ],
+    "OpenGL::OpenGL": [
+      {
+        "path": "validation/gazebo-joint-scope-fix-v1/work/config-01/build/dart/joint-targets/00ea8349566a31361ff0ffa2183db2ff/OpenGL__OpenGL",
+        "properties": {
+          "INTERFACE_INCLUDE_DIRECTORIES": "/usr/include",
+          "INTERFACE_LINK_LIBRARIES": "",
+          "INTERFACE_COMPILE_DEFINITIONS": "",
+          "INTERFACE_COMPILE_OPTIONS": "",
+          "LINK_LIBRARIES": "",
+          "IMPORTED_LOCATION_RELEASE": "",
+          "IMPORTED_LOCATION_NOCONFIG": "",
+          "COMPILE_DEFINITIONS": "",
+          "IMPORTED_LOCATION": "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+          "INCLUDE_DIRECTORIES": "",
+          "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+          "COMPILE_OPTIONS": ""
+        }
+      },
+      {
+        "path": "validation/gazebo-joint-scope-fix-v1/work/config-01/build/dart/joint-targets/e2c6d81d2ea9f57f8c1238cff7cb76b3/OpenGL__OpenGL",
+        "properties": {
+          "INTERFACE_INCLUDE_DIRECTORIES": "/usr/include",
+          "INTERFACE_LINK_LIBRARIES": "",
+          "INTERFACE_COMPILE_DEFINITIONS": "",
+          "INTERFACE_COMPILE_OPTIONS": "",
+          "LINK_LIBRARIES": "",
+          "IMPORTED_LOCATION_RELEASE": "",
+          "IMPORTED_LOCATION_NOCONFIG": "",
+          "COMPILE_DEFINITIONS": "",
+          "IMPORTED_LOCATION": "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+          "INCLUDE_DIRECTORIES": "",
+          "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+          "COMPILE_OPTIONS": ""
+        }
+      }
+    ],
+    "flann": [
+      {
+        "path": "validation/gazebo-joint-scope-fix-v1/work/config-01/build/dart/joint-targets/b161da84424310ad55226b7d239080a7/flann",
+        "properties": {
+          "INTERFACE_INCLUDE_DIRECTORIES": "/usr/include",
+          "INTERFACE_LINK_LIBRARIES": "/usr/lib/x86_64-linux-gnu/libflann_cpp.so",
+          "INTERFACE_COMPILE_DEFINITIONS": "",
+          "INTERFACE_COMPILE_OPTIONS": "",
+          "LINK_LIBRARIES": "",
+          "IMPORTED_LOCATION_RELEASE": "",
+          "IMPORTED_LOCATION_NOCONFIG": "",
+          "COMPILE_DEFINITIONS": "",
+          "IMPORTED_LOCATION": "",
+          "INCLUDE_DIRECTORIES": "",
+          "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+          "COMPILE_OPTIONS": ""
+        }
+      }
+    ],
+    "lz4": [
+      {
+        "path": "validation/gazebo-joint-scope-fix-v1/work/config-01/build/dart/joint-targets/b161da84424310ad55226b7d239080a7/lz4",
+        "properties": {
+          "INTERFACE_INCLUDE_DIRECTORIES": "/usr/include",
+          "INTERFACE_LINK_LIBRARIES": "/usr/lib/x86_64-linux-gnu/liblz4.so",
+          "INTERFACE_COMPILE_DEFINITIONS": "",
+          "INTERFACE_COMPILE_OPTIONS": "",
+          "LINK_LIBRARIES": "",
+          "IMPORTED_LOCATION_RELEASE": "",
+          "IMPORTED_LOCATION_NOCONFIG": "",
+          "COMPILE_DEFINITIONS": "",
+          "IMPORTED_LOCATION": "",
+          "INCLUDE_DIRECTORIES": "",
+          "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+          "COMPILE_OPTIONS": ""
+        }
+      }
+    ],
+    "tinyxml2::tinyxml2": [
+      {
+        "path": "validation/gazebo-joint-scope-fix-v1/work/config-01/build/dart/joint-targets/516cf2f4bbd3e7e7e516a85568f5868c/tinyxml2__tinyxml2",
+        "properties": {
+          "INTERFACE_INCLUDE_DIRECTORIES": "/usr/include",
+          "INTERFACE_LINK_LIBRARIES": "",
+          "INTERFACE_COMPILE_DEFINITIONS": "$<$<CONFIG:Debug>:TINYXML2_DEBUG>;$<$<BOOL:yes>:TINYXML2_IMPORT>;_FILE_OFFSET_BITS=64",
+          "INTERFACE_COMPILE_OPTIONS": "",
+          "LINK_LIBRARIES": "",
+          "IMPORTED_LOCATION_RELEASE": "",
+          "IMPORTED_LOCATION_NOCONFIG": "",
+          "COMPILE_DEFINITIONS": "",
+          "IMPORTED_LOCATION": "",
+          "INCLUDE_DIRECTORIES": "",
+          "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+          "COMPILE_OPTIONS": ""
+        }
+      }
+    ],
+    "urdfdom": [
+      {
+        "path": "validation/gazebo-joint-scope-fix-v1/work/config-01/build/dart/joint-targets/6c3e58d3777b1a42d1c290d021c972fc/urdfdom",
+        "properties": {
+          "INTERFACE_INCLUDE_DIRECTORIES": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/urdfdom/cmake/../../../../include/urdfdom;/usr/include",
+          "INTERFACE_LINK_LIBRARIES": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so;/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so;/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liburdfdom_model.so;/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liburdfdom_world.so",
+          "INTERFACE_COMPILE_DEFINITIONS": "",
+          "INTERFACE_COMPILE_OPTIONS": "",
+          "LINK_LIBRARIES": "",
+          "IMPORTED_LOCATION_RELEASE": "",
+          "IMPORTED_LOCATION_NOCONFIG": "",
+          "COMPILE_DEFINITIONS": "",
+          "IMPORTED_LOCATION": "",
+          "INCLUDE_DIRECTORIES": "",
+          "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+          "COMPILE_OPTIONS": ""
+        }
+      }
+    ]
+  },
+  "processed_directory_count": 84,
+  "scope_snapshot_count": 84,
+  "coverage": "PASS",
+  "observer_insertions": 267,
+  "source_files_verified": 3977,
+  "source_files_with_observer_include": 266,
+  "duplicate_exports": [
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-scope-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "line": 72,
+      "args": [
+        "EXPORT",
+        "dart_component_external-odelcpsolver",
+        "FILE",
+        "dart_external-odelcpsolverTargets.cmake",
+        "DESTINATION",
+        "share/dart/cmake"
+      ]
+    },
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-scope-fix-v1/inputs/install-selected.cmake",
+      "line": 13,
+      "args": [
+        "EXPORT",
+        "dart_component_external-odelcpsolver",
+        "FILE",
+        "dart_external-odelcpsolverTargets.cmake",
+        "DESTINATION",
+        "share/dart/cmake",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ]
+    }
+  ],
+  "trace_try_run_count": 0
+}

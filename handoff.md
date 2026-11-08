@@ -1,3 +1,46 @@
+# DART imported-target scope repair — current checkpoint
+
+2026-11-08 UTC. Starting HEAD53bce23, clean experiment/dart-internal-trace. Current user explicitly authorized DART configure scope repair and fixed-order isolated build continuation, stopping on first downstream mismatch. Required instructions/reports read; context-handoff used.
+
+**IMPORTED_TARGET_SCOPE_FIXED / DART_GENERATE_BLOCKED / joint build INCOMPLETE / NOT_RUNTIME_VERIFIED. Stage B BLOCKED; risk acceptance UNDECIDED.**
+
+Current report: validation/gazebo-joint-scope-fix-v1/reports/build_result.md. scope_result.json maps all15 originally failed target names to exact selected definition files/lines/hashes and recovered properties. Original add_library declarations preceded failed root-scope queries; root function recursion did not switch directory scope. Directory-local DEFER observation now queries strictly without skipping/promoting targets.267 one-line observer includes in new source/input CMakeLists only;84 processed DART scopes all inventoried.3977 source files compared; non-CMakeLists bytes unchanged. All original sources/failures/artifacts preserved.
+
+New source/build/prefix at that phase/work/config-01, old deps realpath and package/header/library allowlist unchanged; BUILD_WITH_INSTALL_RPATH ON, INSTALL_RPATH_USE_LINK_PATH OFF and strict receipt equality retained. New probe configure/selection96/compile/link/static closure/stage/receipt PASS. Build=prefix SHA6154c4568d53882feea1899bed3f46b6faf21cb760264e1c45b73920e7f31aea, Build ID f0abbe763e05f61f2abc577cf1598d8db003a3ec; six external ELF hashes match prior closure; RUNPATH exactly new prefix/lib + old approved deps lib, no RPATH/empty/build entries. artifacts.json inventories11 generated ELF/helper/object files and accepted receipt; helper execution not performed.
+
+DART reaches Configuring done but generate exits1: first error requires dart-external-odelcpsolver exported multiple times. Actual source cmake/Components.cmake:72 and inputs/install-selected.cmake:13 register identical export/file/destination twice (different component selection). Full log/trace and producer records preserved; scope lookup error resolved. No downstream fix/retry after this first new failure. DART complete configure/generate NOT_PASS, actual selection gate NOT_RUN; DART compile/link/stage and physics/Sim/harness NOT_STARTED. Next minimum: separately review single export registration/component assignment, preserving no-unbuilt-target staging and all existing gates. Do not skip exports/guards or broaden dependencies.
+
+Changed: this handoff, new tested observer/inspection files and explicit lightweight reports. Raw source/trace/log/build/deps/ELFs plus generalized runner/preparation remain ignored/local; Git does not transfer them; /tmp not durable. Main remains46134c6 with prior dirty list; no original main/input/evidence/marker writes. Both configure traces try_run0; no subject loading/execution/CTest/physics/services/marker/sudo/install/system change. Observed steps exited; host/PID/start/log/hash in steps.json; project-CWD snapshot below, external-CWD/remote/container UNKNOWN. No existing task terminated/restarted. Snapshot is pre-publication; reconcile publish commit parent/file list; automatic experiment-only commit/push required, main/force/merge prohibited.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-08T08:36:20.669761+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "53bce23dc3f3ef7b830779777d19a759423e8399",
+    "branch": "experiment/dart-internal-trace",
+    "status": []
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-scope-fix-v1/reports/build_result.md",
+      "sha256": "9cac65e3ed21e1aef749e2ea82a21bb918233745c106a40e3e0b944f7adf33fa"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+---
+Previous checkpoint follows:
+
 # Probe repair continuation — current checkpoint
 
 2026-11-08 UTC. Starting HEAD e234234, clean experiment/dart-internal-trace. Current explicit request authorized isolated probe repair and fixed-order joint build continuation through static gates only. context-handoff used; required instructions/reports read.

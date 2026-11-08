@@ -1,0 +1,72 @@
+[
+  {
+    "step": "probe.configure",
+    "returncode": 0,
+    "pid": 7,
+    "host": "jiwon-System-Product-Name",
+    "start_identity": "32226390",
+    "seconds": 1.97,
+    "log": "validation/gazebo-joint-scope-fix-v1/logs/probe.configure.log",
+    "log_sha256": "e7266002600b066f99acff35a046e235e81023b3526f4ee7d1ad0e5c84613b4c"
+  },
+  {
+    "step": "probe.selection",
+    "returncode": 0,
+    "pid": 8,
+    "host": "jiwon-System-Product-Name",
+    "start_identity": "32227141",
+    "seconds": 1.2,
+    "log": "validation/gazebo-joint-scope-fix-v1/logs/probe.selection.log",
+    "log_sha256": "2702719e4f662fd15e78b8d9f1f551a361bf7b1e30edfd0ca2854becd43c35b8"
+  },
+  {
+    "step": "probe.build",
+    "returncode": 0,
+    "pid": 10,
+    "host": "jiwon-System-Product-Name",
+    "start_identity": "32227265",
+    "seconds": 1.13,
+    "log": "validation/gazebo-joint-scope-fix-v1/logs/probe.build.log",
+    "log_sha256": "3001d7a2f2b7942005575396b93f52fe63d3c92aa01eecd9053c81b44cfdd968"
+  },
+  {
+    "step": "probe.elf",
+    "returncode": 0,
+    "pid": 29,
+    "host": "jiwon-System-Product-Name",
+    "start_identity": "32227381",
+    "seconds": 0.71,
+    "log": "validation/gazebo-joint-scope-fix-v1/logs/probe.elf.log",
+    "log_sha256": "b9756b22341dc58dfa8994bea7c3a1af2ecb6ecccfa60c7763f6138437def376"
+  },
+  {
+    "step": "probe.stage.0",
+    "returncode": 0,
+    "pid": 39,
+    "host": "jiwon-System-Product-Name",
+    "start_identity": "32227456",
+    "seconds": 0.01,
+    "log": "validation/gazebo-joint-scope-fix-v1/logs/probe.stage.0.log",
+    "log_sha256": "2641070f14323222c0318270248e710883dfe514b6f44319112575f5351dbe08"
+  },
+  {
+    "step": "probe.receipt",
+    "returncode": 0,
+    "pid": 41,
+    "host": "jiwon-System-Product-Name",
+    "start_identity": "32227461",
+    "seconds": 0.02,
+    "log": "validation/gazebo-joint-scope-fix-v1/logs/probe.receipt.log",
+    "log_sha256": "1922dfb285b6870fc13bae5fcbf101995889aecda90d6ea43fb70a0a6cc3fe2f"
+  },
+  {
+    "step": "dart.configure",
+    "returncode": 1,
+    "pid": 43,
+    "host": "jiwon-System-Product-Name",
+    "start_identity": "32227465",
+    "seconds": 6.18,
+    "log": "validation/gazebo-joint-scope-fix-v1/logs/dart.configure.log",
+    "log_sha256": "d21cc4f57708213366dd42df46c56065cfb150b9f05c183754e45430380d731c"
+  }
+]
