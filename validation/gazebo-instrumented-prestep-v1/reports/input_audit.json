@@ -1,0 +1,589 @@
+{
+  "checks": [
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/SimulationRunner.cc",
+      "role": "source_or_fixture",
+      "expected": "81f0c67cc18dbbd4e7e047d987b3ea0999851935467f8a7d74279e33a04f5fe9",
+      "actual": "81f0c67cc18dbbd4e7e047d987b3ea0999851935467f8a7d74279e33a04f5fe9",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/SystemManager.cc",
+      "role": "source_or_fixture",
+      "expected": "2cfc3bfdc84cbd715a613e6b2d2c0a42ffb9fc5040c2eeb425820f69450bfd1a",
+      "actual": "2cfc3bfdc84cbd715a613e6b2d2c0a42ffb9fc5040c2eeb425820f69450bfd1a",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/systems/physics/Physics.cc",
+      "role": "source_or_fixture",
+      "expected": "5d5c404151f8ae4f7825c43c571dc151c79b9a587c69db35996d7cabbc4e76e1",
+      "actual": "5d5c404151f8ae4f7825c43c571dc151c79b9a587c69db35996d7cabbc4e76e1",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/systems/physics/Physics.hh",
+      "role": "source_or_fixture",
+      "expected": "34acf8be55a25eabc29b52e892af0e520b1ee59cc7d49ab0398d9ac5f1dd58d1",
+      "actual": "34acf8be55a25eabc29b52e892af0e520b1ee59cc7d49ab0398d9ac5f1dd58d1",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/systems/physics/CMakeLists.txt",
+      "role": "source_or_fixture",
+      "expected": "f11899941e6ff3ccdaaa37139e59849d9d4eeab07201c5e0c1111d062be25ef5",
+      "actual": "f11899941e6ff3ccdaaa37139e59849d9d4eeab07201c5e0c1111d062be25ef5",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/CMakeLists.txt",
+      "role": "source_or_fixture",
+      "expected": "32de4e4874f5d6edd2c6dfc6313577c53f229f3d3368d644b9c4bb6cdafcf4d5",
+      "actual": "32de4e4874f5d6edd2c6dfc6313577c53f229f3d3368d644b9c4bb6cdafcf4d5",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/World.hh",
+      "role": "source_or_fixture",
+      "expected": "d052c92e9d35214fe5f33fd1e82b9c6d4e1f64773b48d51e4ce9f98e9f324030",
+      "actual": "d052c92e9d35214fe5f33fd1e82b9c6d4e1f64773b48d51e4ce9f98e9f324030",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/CustomFeatures.cc",
+      "role": "source_or_fixture",
+      "expected": "23183e2cd977c507ee3fa7c454032f8cdcc53304168d2b7677a286ac336a6541",
+      "actual": "23183e2cd977c507ee3fa7c454032f8cdcc53304168d2b7677a286ac336a6541",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/WorldFeatures.cc",
+      "role": "source_or_fixture",
+      "expected": "89c89db7dfbf671ec80750bb5e38b8027dbfa3e08014a48b38caeff7d5521d71",
+      "actual": "89c89db7dfbf671ec80750bb5e38b8027dbfa3e08014a48b38caeff7d5521d71",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/EntityManagementFeatures.cc",
+      "role": "source_or_fixture",
+      "expected": "db63fd480ae913992cfcf69677fdb478f3d6f403add08c5a1bd841aab2f589bf",
+      "actual": "db63fd480ae913992cfcf69677fdb478f3d6f403add08c5a1bd841aab2f589bf",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/GzCollisionDetector.cc",
+      "role": "source_or_fixture",
+      "expected": "bcb648ae849eba9f8d7b64fc6348c29c252a7f40b7cd018eea166a0c6ac68909",
+      "actual": "bcb648ae849eba9f8d7b64fc6348c29c252a7f40b7cd018eea166a0c6ac68909",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/GzCollisionDetector.hh",
+      "role": "source_or_fixture",
+      "expected": "ab36eb9dfa7603bfbd26a677797850568621c31091bdb6e978276105dea4c545",
+      "actual": "ab36eb9dfa7603bfbd26a677797850568621c31091bdb6e978276105dea4c545",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/SimulationFeatures.cc",
+      "role": "source_or_fixture",
+      "expected": "fe2fc764071cac7353a4315b2b3bb2d696620a501e5471bc30623cd4cd720262",
+      "actual": "fe2fc764071cac7353a4315b2b3bb2d696620a501e5471bc30623cd4cd720262",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/SDFFeatures.cc",
+      "role": "source_or_fixture",
+      "expected": "ef9b59f646ad99020ffc53de0c73984c63c743f5e1fb1ecb6f55fba66915d39e",
+      "actual": "ef9b59f646ad99020ffc53de0c73984c63c743f5e1fb1ecb6f55fba66915d39e",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/src/plugin.cc",
+      "role": "source_or_fixture",
+      "expected": "6c92bd307de85ef2782b6c953bddf07cafbd5a1efabbcf50f2c899435476d1e5",
+      "actual": "6c92bd307de85ef2782b6c953bddf07cafbd5a1efabbcf50f2c899435476d1e5",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/physics-upstream/gz-physics-gz-physics7_7.8.0/dartsim/CMakeLists.txt",
+      "role": "source_or_fixture",
+      "expected": "1c40854080221c6c8b974236f8a50d9124e30e15a93d1665a100c631a084fc78",
+      "actual": "1c40854080221c6c8b974236f8a50d9124e30e15a93d1665a100c631a084fc78",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/simulation/World.cpp",
+      "role": "source_or_fixture",
+      "expected": "a135de51fb0f5a3db33a2a2af8235cd724695728a8fd9727a20e5b9f74918c06",
+      "actual": "a135de51fb0f5a3db33a2a2af8235cd724695728a8fd9727a20e5b9f74918c06",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/constraint/ConstraintSolver.cpp",
+      "role": "source_or_fixture",
+      "expected": "679e625f1ceaa09d870195234c9116baad7a876bd17422dd799e1f382aa61667",
+      "actual": "679e625f1ceaa09d870195234c9116baad7a876bd17422dd799e1f382aa61667",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/bullet/BulletCollisionDetector.cpp",
+      "role": "source_or_fixture",
+      "expected": "69b9cd30f1ff5ef4c47ee9e5cb632dc9799546f4bf3783230ac881bc6215c9bf",
+      "actual": "69b9cd30f1ff5ef4c47ee9e5cb632dc9799546f4bf3783230ac881bc6215c9bf",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/dart/dart-6.13.2/dart/collision/ode/OdeCollisionDetector.cpp",
+      "role": "source_or_fixture",
+      "expected": "b1c1eb748a255424ce3774b0def266ad73b6694b48a561765e40ebc2b7b489dd",
+      "actual": "b1c1eb748a255424ce3774b0def266ad73b6694b48a561765e40ebc2b7b489dd",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/extracted/sim/gz-sim-8.15.0/src/SdfEntityCreator.cc",
+      "role": "source_or_fixture",
+      "expected": "fbb39c0527bb33d511dc7816e859f5c616d2d4d4f5064607d34ea7e6b4e672b3",
+      "actual": "fbb39c0527bb33d511dc7816e859f5c616d2d4d4f5064607d34ea7e6b4e672b3",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-minimal-physics-v1/fixtures/minimal.sdf",
+      "role": "source_or_fixture",
+      "expected": "d00ecdde42ee775dc04421e4e46d767811005cde88ae5100d10b2f088940be8e",
+      "actual": "d00ecdde42ee775dc04421e4e46d767811005cde88ae5100d10b2f088940be8e",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-minimal-physics-v1/src/server.cc",
+      "role": "source_or_fixture",
+      "expected": "63a77b5c476be1380aac79f0d5d6b648f620691f3900a23b6a26d1f920a38899",
+      "actual": "63a77b5c476be1380aac79f0d5d6b648f620691f3900a23b6a26d1f920a38899",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/physics-upstream.tar.gz",
+      "role": "download",
+      "expected": "0d95b1dd3ea8c6f558535efe5fab6ecf5af947902a4367982e6fabd586752266",
+      "actual": "0d95b1dd3ea8c6f558535efe5fab6ecf5af947902a4367982e6fabd586752266",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/physics-release-commits.json",
+      "role": "download",
+      "expected": "9af210245664bce408091083932ef0f0c4b308982f017107675a30736a7fbefd",
+      "actual": "9af210245664bce408091083932ef0f0c4b308982f017107675a30736a7fbefd",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/physics-pool.html",
+      "role": "download",
+      "expected": "dd6e15ffd4fc4bbbc1ddfdbbc01de55c45be0abd63e4b6002cc0c1c00b721991",
+      "actual": "dd6e15ffd4fc4bbbc1ddfdbbc01de55c45be0abd63e4b6002cc0c1c00b721991",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/dart.orig.tar.xz",
+      "role": "download",
+      "expected": "b900820b71463476463b9daeb31e81c74ebf59bd95139b7f833f5f6bb9b8058e",
+      "actual": "b900820b71463476463b9daeb31e81c74ebf59bd95139b7f833f5f6bb9b8058e",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/sim-dbg.deb",
+      "role": "download",
+      "expected": "4884d33c8036df02b275149797181316b962edd52b6864a924f436a69cb660cb",
+      "actual": "4884d33c8036df02b275149797181316b962edd52b6864a924f436a69cb660cb",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/sim.dsc",
+      "role": "download",
+      "expected": "84ab65ae652fc95536e499c6a46e2f7c59bb986bb973b802ad4fee1f19f52ac0",
+      "actual": "84ab65ae652fc95536e499c6a46e2f7c59bb986bb973b802ad4fee1f19f52ac0",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/physics-release-7.8.tar.gz",
+      "role": "download",
+      "expected": "5319a1049cfe9b9a616db7c8ba4c51a9f701577f157b2388ed823bd1d677d751",
+      "actual": "5319a1049cfe9b9a616db7c8ba4c51a9f701577f157b2388ed823bd1d677d751",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/sim-pool.html",
+      "role": "download",
+      "expected": "72190a6a8f9d53516307db6e58c3dbf1f253e44876152bc2e9754d76402507bd",
+      "actual": "72190a6a8f9d53516307db6e58c3dbf1f253e44876152bc2e9754d76402507bd",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/sim.orig.tar.bz2",
+      "role": "download",
+      "expected": "f457478cc8b319be148aa1e7a3bc14042c333c8881c1f92ea6d498344fea891d",
+      "actual": "f457478cc8b319be148aa1e7a3bc14042c333c8881c1f92ea6d498344fea891d",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/Sources.gz",
+      "role": "download",
+      "expected": "ea7af8c0ea2826ac7ed37d9e332b2420e906af7d5869763b93482109e244c36c",
+      "actual": "ea7af8c0ea2826ac7ed37d9e332b2420e906af7d5869763b93482109e244c36c",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/dart_6.13.2+ds1-1~osrf2~noble.dsc",
+      "role": "download",
+      "expected": "15e661dc0b2ac663ae9466bf34347aef87e94b667d62a267f482f5294160b6b3",
+      "actual": "15e661dc0b2ac663ae9466bf34347aef87e94b667d62a267f482f5294160b6b3",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/dart_6.13.2+ds1-1~osrf2~noble.debian.tar.xz",
+      "role": "download",
+      "expected": "6e9049fcf7c5ddf507dcebd51ccc4e39059376f0e802f7d60398251474295092",
+      "actual": "6e9049fcf7c5ddf507dcebd51ccc4e39059376f0e802f7d60398251474295092",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/physics-release-main.tar.gz",
+      "role": "download",
+      "expected": "4e43a5df19c50f56920c1668b9d74389321f8081fb103e2ae273ab106ddc75ba",
+      "actual": "4e43a5df19c50f56920c1668b9d74389321f8081fb103e2ae273ab106ddc75ba",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/dart-pool.html",
+      "role": "download",
+      "expected": "28c64c79db25226b934027e469667d34a074acefd3121ca6f2183b2cc2a3c26c",
+      "actual": "28c64c79db25226b934027e469667d34a074acefd3121ca6f2183b2cc2a3c26c",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-source-materials-v1/work/downloads/sim.debian.tar.xz",
+      "role": "download",
+      "expected": "fd14fe0cf6caeeadbae7c408b0a4b295137e175c70c304b56f615d15670bd806",
+      "actual": "fd14fe0cf6caeeadbae7c408b0a4b295137e175c70c304b56f615d15670bd806",
+      "match": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8.so.8.15.0",
+      "role": "sim_core",
+      "expected": "6120bd5d25a28ced3238f91b8a432e364958cd07706afe00911743072bfe4651",
+      "actual": "6120bd5d25a28ced3238f91b8a432e364958cd07706afe00911743072bfe4651",
+      "match": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-physics-system.so.8.15.0",
+      "role": "sim_physics_system",
+      "expected": "5d8b8d068628ee7af0774f5d9e0ef65e23d4e9f9cab23c1aac318faaa51f9575",
+      "actual": "5d8b8d068628ee7af0774f5d9e0ef65e23d4e9f9cab23c1aac318faaa51f9575",
+      "match": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-gz.so.8.15.0",
+      "role": "sim_cli_library",
+      "expected": "9a1b8b361548428dfdfab51c530a15d0b3199be2cd567079a8ef1b4e218ee094",
+      "actual": "9a1b8b361548428dfdfab51c530a15d0b3199be2cd567079a8ef1b4e218ee094",
+      "match": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "role": "physics_dart_plugin",
+      "expected": "1ee9350aa09d5a5eb43a5075c9c61d2cdcb85113d2ff1e0f32136847edf1688e",
+      "actual": "1ee9350aa09d5a5eb43a5075c9c61d2cdcb85113d2ff1e0f32136847edf1688e",
+      "match": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-physics7.so.7.8.0",
+      "role": "physics_feature_core",
+      "expected": "6b1dc93504ed958ef8c006d967e5e12eea24ebfe778af4ec25007bdba7ca290e",
+      "actual": "6b1dc93504ed958ef8c006d967e5e12eea24ebfe778af4ec25007bdba7ca290e",
+      "match": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "role": "dart_core",
+      "expected": "f74f4ec9820aee785ef94fb7bedafa7e4c832f209675a8ca1d35019c72b48e06",
+      "actual": "f74f4ec9820aee785ef94fb7bedafa7e4c832f209675a8ca1d35019c72b48e06",
+      "match": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+      "role": "dart_bullet",
+      "expected": "897709e0c988e9e562c662292ed5bc860bce70ee2c64499501f54a6b5ca02201",
+      "actual": "897709e0c988e9e562c662292ed5bc860bce70ee2c64499501f54a6b5ca02201",
+      "match": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.13.2",
+      "role": "dart_ode",
+      "expected": "2940e0bd6b056f186d3596e051a26ec25f1c27add88d870cdfe673785dad4b44",
+      "actual": "2940e0bd6b056f186d3596e051a26ec25f1c27add88d870cdfe673785dad4b44",
+      "match": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+      "role": "dart_external",
+      "expected": "b890ed6936ea7cf486303fc5101ee5ff68356fc89596273ebaef83671aa4cb16",
+      "actual": "b890ed6936ea7cf486303fc5101ee5ff68356fc89596273ebaef83671aa4cb16",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-technical-blocker-audit-v1/reports/technical_findings.md",
+      "role": "existing_evidence_or_marker",
+      "expected": "165ccffbe642f7d4eff189668ac21c4a6c27765dd636839244d55cd1d2e40675",
+      "actual": "165ccffbe642f7d4eff189668ac21c4a6c27765dd636839244d55cd1d2e40675",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-technical-blocker-audit-v1/reports/api_path_evidence.json",
+      "role": "existing_evidence_or_marker",
+      "expected": "3a1fe345669aea6009b8a24506f88481d02e6eed1b4867d5e06d50930a9dd601",
+      "actual": "3a1fe345669aea6009b8a24506f88481d02e6eed1b4867d5e06d50930a9dd601",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-targeted-evidence-v1/reports/source_acquisition.json",
+      "role": "existing_evidence_or_marker",
+      "expected": "cbcd8e0a11d62f4a57a37b2f75339fe4dc002d29ee0f0cb459d7fca79c44dac1",
+      "actual": "cbcd8e0a11d62f4a57a37b2f75339fe4dc002d29ee0f0cb459d7fca79c44dac1",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-targeted-evidence-v1/reports/debug_symbol_search.json",
+      "role": "existing_evidence_or_marker",
+      "expected": "0b9ea2397584cb4f8497f46d9f1c324832b4d780e978aa671b2f456146e0f031",
+      "actual": "0b9ea2397584cb4f8497f46d9f1c324832b4d780e978aa671b2f456146e0f031",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-targeted-evidence-v1/reports/official_binary_matches.json",
+      "role": "existing_evidence_or_marker",
+      "expected": "a7351cce71a6fc017f1016798770f085688fd1b7aa665cee693a305019c79d25",
+      "actual": "a7351cce71a6fc017f1016798770f085688fd1b7aa665cee693a305019c79d25",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-targeted-evidence-v1/reports/ubuntu_debug_candidates.json",
+      "role": "existing_evidence_or_marker",
+      "expected": "7f29b441e6545f2e4676033cb9cfa83b45367b78d925f4ccc6a0c2af28bc89bc",
+      "actual": "7f29b441e6545f2e4676033cb9cfa83b45367b78d925f4ccc6a0c2af28bc89bc",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/reports/original_debug_buildinfo_probe.json",
+      "role": "existing_evidence_or_marker",
+      "expected": "7c39b32d75c8ece8790518ac1291c419733941b3e474db4d7ee51e4f40fb198c",
+      "actual": "7c39b32d75c8ece8790518ac1291c419733941b3e474db4d7ee51e4f40fb198c",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-capability-abi-v2/reports/debug_coverage.json",
+      "role": "existing_evidence_or_marker",
+      "expected": "aa0e77279d58adf0275146db84967f61b129b3cc490015bb612651bbcda8c7dd",
+      "actual": "aa0e77279d58adf0275146db84967f61b129b3cc490015bb612651bbcda8c7dd",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-minimal-physics-v1/reports/approval_plan.md",
+      "role": "existing_evidence_or_marker",
+      "expected": "a039acf88b5a43701179c24c5878faee8f06ec7920084cecf8675ab9758e48d6",
+      "actual": "a039acf88b5a43701179c24c5878faee8f06ec7920084cecf8675ab9758e48d6",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-minimal-physics-v1/reports/runtime_contract.json",
+      "role": "existing_evidence_or_marker",
+      "expected": "a39f9a564c58cc766e95469ce7ca68de58d9df6ad33378cd31a9fd871777cefa",
+      "actual": "a39f9a564c58cc766e95469ce7ca68de58d9df6ad33378cd31a9fd871777cefa",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-minimal-physics-v1/scripts/launch.py",
+      "role": "existing_evidence_or_marker",
+      "expected": "1954fc5feab69726091209417014e0d6436ea9ce3f92342dd9afe3afbbeda54c",
+      "actual": "1954fc5feab69726091209417014e0d6436ea9ce3f92342dd9afe3afbbeda54c",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-subject-notification-v1/work/runtime_collection_attempt.json",
+      "role": "existing_evidence_or_marker",
+      "expected": "0d9353700a45132723fa69d2bb4e78ab16d4caad3438a9960ddf04ec89b73672",
+      "actual": "0d9353700a45132723fa69d2bb4e78ab16d4caad3438a9960ddf04ec89b73672",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-subject-notification-v1/work/runtime_attempt.json",
+      "role": "existing_evidence_or_marker",
+      "expected": "517d86c5409e441f78c2285686f626d2e6699333493d5ece34fef85057bd705b",
+      "actual": "517d86c5409e441f78c2285686f626d2e6699333493d5ece34fef85057bd705b",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-body-shape-lifetime-v1/work/runtime_collection_attempt.json",
+      "role": "existing_evidence_or_marker",
+      "expected": "a5de2f77e014671dfe6076badfd7cbe5953dcc87ffdc3f97677332c226248164",
+      "actual": "a5de2f77e014671dfe6076badfd7cbe5953dcc87ffdc3f97677332c226248164",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-body-shape-lifetime-v1/work/runtime_attempt.json",
+      "role": "existing_evidence_or_marker",
+      "expected": "d7b15811bbfd606de70023656de2a41907d74e70f3a2ac2dd699175b878dc426",
+      "actual": "d7b15811bbfd606de70023656de2a41907d74e70f3a2ac2dd699175b878dc426",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-skeleton-lifetime-v2/work/runtime_collection_attempt.json",
+      "role": "existing_evidence_or_marker",
+      "expected": "7142a0ae88713bebc2f6587e0f8b3853e9052c5f915ff0d3a0917c88378c13d2",
+      "actual": "7142a0ae88713bebc2f6587e0f8b3853e9052c5f915ff0d3a0917c88378c13d2",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-skeleton-lifetime-v2/work/runtime_attempt.json",
+      "role": "existing_evidence_or_marker",
+      "expected": "65e8d85725b2f9f79f7f1ac1b1ff9d173a9dc74279a4f39d0bf8aada4117055b",
+      "actual": "65e8d85725b2f9f79f7f1ac1b1ff9d173a9dc74279a4f39d0bf8aada4117055b",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-skeleton-lifetime-v1/work/runtime_collection_attempt.json",
+      "role": "existing_evidence_or_marker",
+      "expected": "7142a0ae88713bebc2f6587e0f8b3853e9052c5f915ff0d3a0917c88378c13d2",
+      "actual": "7142a0ae88713bebc2f6587e0f8b3853e9052c5f915ff0d3a0917c88378c13d2",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-skeleton-lifetime-v1/work/runtime_attempt.json",
+      "role": "existing_evidence_or_marker",
+      "expected": "ad999e562c1d88f13f8c8f9ed9b7e033896ac67ea983d6f969ab122e309a624d",
+      "actual": "ad999e562c1d88f13f8c8f9ed9b7e033896ac67ea983d6f969ab122e309a624d",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-launch-preparation-v1/work/reject_attempt.json",
+      "role": "existing_evidence_or_marker",
+      "expected": "641ef970da76891d1e5b39a829bc0178351b4a0ebb4e9dec2b4212ebd0296292",
+      "actual": "641ef970da76891d1e5b39a829bc0178351b4a0ebb4e9dec2b4212ebd0296292",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-launch-preparation-v1/work/timeout_attempt.json",
+      "role": "existing_evidence_or_marker",
+      "expected": "8489a398aada7174ea17136503791cf745be9331157b2e0866a1ff24656e51f0",
+      "actual": "8489a398aada7174ea17136503791cf745be9331157b2e0866a1ff24656e51f0",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-launch-preparation-v1/work/runtime_collection_attempt.json",
+      "role": "existing_evidence_or_marker",
+      "expected": "ff578a2c97c5637ac10253b32ad4e0cbe2fd98922e5b90b59ab83d2e1249ec73",
+      "actual": "ff578a2c97c5637ac10253b32ad4e0cbe2fd98922e5b90b59ab83d2e1249ec73",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-launch-preparation-v1/work/accept_attempt.json",
+      "role": "existing_evidence_or_marker",
+      "expected": "21f104669cb1aa932cfee60c863ca494cfd0c2bea3faf628426c359b1581b755",
+      "actual": "21f104669cb1aa932cfee60c863ca494cfd0c2bea3faf628426c359b1581b755",
+      "match": true
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/dart-probe-a-launch-preparation-v1/work/runtime_attempt.json",
+      "role": "existing_evidence_or_marker",
+      "expected": "b47ad0a545e46e9107bcd09da930b8ff67e4d244372026455aa4c464dcf9db1a",
+      "actual": "b47ad0a545e46e9107bcd09da930b8ff67e4d244372026455aa4c464dcf9db1a",
+      "match": true
+    }
+  ],
+  "installed_elf_build_ids": [
+    {
+      "role": "sim_core",
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8.so.8.15.0",
+      "build_ids": [
+        "4785a0f397c1a9fea8eea659d89ccb559d82360f"
+      ],
+      "expected_build_id": "4785a0f397c1a9fea8eea659d89ccb559d82360f",
+      "match": true
+    },
+    {
+      "role": "sim_physics_system",
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-physics-system.so.8.15.0",
+      "build_ids": [
+        "d84fdca46ee5b0a981496fde744460e1b1d9deaa"
+      ],
+      "expected_build_id": "d84fdca46ee5b0a981496fde744460e1b1d9deaa",
+      "match": true
+    },
+    {
+      "role": "sim_cli_library",
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-sim8-gz.so.8.15.0",
+      "build_ids": [
+        "3796557281a8e660befdccee64f5368d5175fc1a"
+      ],
+      "expected_build_id": "3796557281a8e660befdccee64f5368d5175fc1a",
+      "match": true
+    },
+    {
+      "role": "physics_dart_plugin",
+      "path": "/usr/lib/x86_64-linux-gnu/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "build_ids": [
+        "c53e1a304ceb0f0dac85ff0e4872d0ffc50a28ac"
+      ],
+      "expected_build_id": "c53e1a304ceb0f0dac85ff0e4872d0ffc50a28ac",
+      "match": true
+    },
+    {
+      "role": "physics_feature_core",
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-physics7.so.7.8.0",
+      "build_ids": [
+        "4e60105d86d50ee9e394f6c461411e3cba5eeec1"
+      ],
+      "expected_build_id": "4e60105d86d50ee9e394f6c461411e3cba5eeec1",
+      "match": true
+    },
+    {
+      "role": "dart_core",
+      "path": "/usr/lib/x86_64-linux-gnu/libdart.so.6.13.2",
+      "build_ids": [
+        "071aa565b343db80e31aae393aadaed33c7adb46"
+      ],
+      "expected_build_id": "071aa565b343db80e31aae393aadaed33c7adb46",
+      "match": true
+    },
+    {
+      "role": "dart_bullet",
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-collision-bullet.so.6.13.2",
+      "build_ids": [
+        "8bda73145d9c6cc97d6faff5895c2ce1aa091f6f"
+      ],
+      "expected_build_id": "8bda73145d9c6cc97d6faff5895c2ce1aa091f6f",
+      "match": true
+    },
+    {
+      "role": "dart_ode",
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.13.2",
+      "build_ids": [
+        "2cbacdc0e4014e0ee69c4deeacd2d088d564599e"
+      ],
+      "expected_build_id": "2cbacdc0e4014e0ee69c4deeacd2d088d564599e",
+      "match": true
+    },
+    {
+      "role": "dart_external",
+      "path": "/usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.13.2",
+      "build_ids": [
+        "abba8be3e710b1a505116d4bada0803f8bd49398"
+      ],
+      "expected_build_id": "abba8be3e710b1a505116d4bada0803f8bd49398",
+      "match": true
+    }
+  ],
+  "main_head_matches": true,
+  "main_status_matches": true,
+  "scope": "selected prior manifests only; not whole tree; no target loading",
+  "build": "BLOCKED_BEFORE_CONFIGURE",
+  "target_execution": "NOT_PERFORMED"
+}

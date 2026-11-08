@@ -1,3 +1,45 @@
+# Pre-step instrumentation build gate — current checkpoint
+
+**BLOCKED_BEFORE_CONFIGURE / NOT_EXECUTION_READY / NOT_RUNTIME_VERIFIED / Stage B BLOCKED**.
+2026-11-08 UTC. User requested isolated instrumentation build preparation with a mandatory ABI/provenance gate before building unsupported combinations. Actual starting HEAD 60da9366a5711f1be64e20f27d844b21a6c2a24d matched, experiment branch clean. Required instructions/material_review read; context-handoff used. Current request supersedes previous source-only restriction for preparation, but does not permit target execution/loading.
+
+New evidence: `validation/gazebo-instrumented-prestep-v1/reports/build_gate.md`, `input_audit.json`; reproducible byte/readelf audit: `validation/gazebo-instrumented-prestep-v1/scripts/audit_inputs.py`. Direct result:71 hashes/9 installed ELF Build IDs match prior manifests, main HEAD/status unchanged. No source patch/configure/compile/link/target tests performed. GO/no-Step/init-once are design requirements, not PASS results.
+
+Blocker: source-defined RetrieveWorld virtual feature cannot yet be certified against installed gz-physics plugin without exact distribution payload/debug or equivalent ABI evidence. DART native World/solver/detector and provider instrumentation also lack matching debug/buildinfo/closure evidence. Minimum candidate Sim core+Physics rebuild with installed plugin/DART reuse rejected; expanded plugin/adapter rebuild also not justified. Exact boundary table and typed provider method-entry observation requirements are in build_gate.md. No execution-ready combination/command/approval issued. Service/marker preconditions remain rejecting; no target load/run, Step, service or marker generation/consumption. Risk acceptance undecided.
+
+Changed files: only this handoff and the three new audit/report files. Existing code/evidence/markers/install/main preserved. Source/archive inputs remain ignored/local under prior paths; Git publication does not transport them and /tmp is not durable. No build artifact exists. No same-user project-CWD job observed by snapshot; external CWD/remote/container UNKNOWN. No existing job stopped/restarted.
+
+Next minimum: resolve exact gz-physics feature ABI/source provenance and DART ABI/provider evidence or separately define a coherent source-built closure; then implement/test without target execution. Do not automatically broaden dependencies, accept risk, start services or create markers. All runtime work requires separate explicit approval. Stop after this report/publication. Publication snapshot is pre-commit; verify actual commit/remote separately.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-08T00:25:09.808128+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "60da9366a5711f1be64e20f27d844b21a6c2a24d",
+    "branch": "experiment/dart-internal-trace",
+    "status": []
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-instrumented-prestep-v1/reports/build_gate.md",
+      "sha256": "f9480536494872b3d2e5e75079f5b62d27ec308e15e7ee32079909b35c591c3a"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+---
+Previous checkpoint follows:
+
 # Gazebo source materials acquisition — current checkpoint
 
 **PARTIAL provenance / source design prepared / NOT_EXECUTION_READY / Stage B BLOCKED**. Started at9fba01825e6acdcd9fc9ef67aa72cfd44f3c8aac, experiment/dart-internal-trace clean. User authorized downloads/extraction/static comparison/design only. No source modification, patch application, configure/build, target load/run, Step, service/marker, sudo/install/system/main change. No risk acceptance. context-handoff used.
