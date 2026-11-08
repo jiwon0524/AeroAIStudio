@@ -1,0 +1,80 @@
+[
+  {
+    "script": "/usr/bin/gz-msgs10_generate.py",
+    "options": {
+      "--protoc-exec": "/usr/bin/protoc",
+      "--gz-generator-bin": "/usr//bin/gz-msgs10_protoc_plugin",
+      "--proto-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto",
+      "--input-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto/gz/sim/private_msgs/peer_control.proto",
+      "--dependency-proto-descs": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/share/gz/protos/gz-msgs10.gz_desc"
+      ],
+      "--generate-cpp": true,
+      "--output-cpp-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/gz_msgs_gen",
+      "--generate-python": true,
+      "--output-python-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/gz_msgs_gen/python/"
+    }
+  },
+  {
+    "script": "/usr/bin/gz-msgs10_generate.py",
+    "options": {
+      "--protoc-exec": "/usr/bin/protoc",
+      "--gz-generator-bin": "/usr//bin/gz-msgs10_protoc_plugin",
+      "--proto-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto",
+      "--input-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto/gz/sim/private_msgs/peer_info.proto",
+      "--dependency-proto-descs": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/share/gz/protos/gz-msgs10.gz_desc"
+      ],
+      "--generate-cpp": true,
+      "--output-cpp-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/gz_msgs_gen",
+      "--generate-python": true,
+      "--output-python-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/gz_msgs_gen/python/"
+    }
+  },
+  {
+    "script": "/usr/bin/gz-msgs10_generate.py",
+    "options": {
+      "--protoc-exec": "/usr/bin/protoc",
+      "--gz-generator-bin": "/usr//bin/gz-msgs10_protoc_plugin",
+      "--proto-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto",
+      "--input-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto/gz/sim/private_msgs/performer_affinity.proto",
+      "--dependency-proto-descs": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/share/gz/protos/gz-msgs10.gz_desc"
+      ],
+      "--generate-cpp": true,
+      "--output-cpp-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/gz_msgs_gen",
+      "--generate-python": true,
+      "--output-python-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/gz_msgs_gen/python/"
+    }
+  },
+  {
+    "script": "/usr/bin/gz-msgs10_generate.py",
+    "options": {
+      "--protoc-exec": "/usr/bin/protoc",
+      "--gz-generator-bin": "/usr//bin/gz-msgs10_protoc_plugin",
+      "--proto-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto",
+      "--input-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto/gz/sim/private_msgs/simulation_step.proto",
+      "--dependency-proto-descs": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/share/gz/protos/gz-msgs10.gz_desc"
+      ],
+      "--generate-cpp": true,
+      "--output-cpp-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/gz_msgs_gen",
+      "--generate-python": true,
+      "--output-python-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/gz_msgs_gen/python/"
+    }
+  },
+  {
+    "script": "/usr/bin/gz-msgs10_generate_factory.py",
+    "options": {
+      "--output-cpp-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/gz_msgs_gen",
+      "--proto-package": "gz.sim.private_msgs",
+      "--proto-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto",
+      "--protos": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto/gz/sim/private_msgs/peer_control.proto",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto/gz/sim/private_msgs/peer_info.proto",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto/gz/sim/private_msgs/performer_affinity.proto",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto/gz/sim/private_msgs/simulation_step.proto"
+      ]
+    }
+  }
+]

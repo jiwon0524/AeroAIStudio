@@ -1,0 +1,191 @@
+{
+  "status": "PASS",
+  "starting_staged_files": [
+    {
+      "path": "handoff.md",
+      "sha256": "3ade7def199ac897b23a4ceaf596d4520f701ce2a53057cad32c8f43e913c30d",
+      "bytes": 173809
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/inputs/stage-physics-interface-headers.cmake",
+      "sha256": "d545b9b09cfc202d2c5653b0700efcb3e7d5403ee4d4ee9eb19aec858c49e124",
+      "bytes": 7481
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/artifacts.json",
+      "sha256": "9a09e60ea05fad6c89efff187f807f2f5c541c337374290782ae08b9552d6bae",
+      "bytes": 73022
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/build_result.md",
+      "sha256": "6ba0a1b7643fa0c21f286d023df189cdc3a51e32211ef48ea33ff89568abc894",
+      "bytes": 12883
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_attempt_approved.json",
+      "sha256": "436085611f4322915d6ada353bb3bf5b486ab444dcd0b916825faa1a45fb27fc",
+      "bytes": 288
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_attempt_final.json",
+      "sha256": "10955f36feb4fb133b3b914035ab710006df161d667011befaf4e2b321625de0",
+      "bytes": 282
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_attempt_first.json",
+      "sha256": "5b398639a609a84a350b17645d84251fc1470c802ff6d81c09f0815ed1d6b12f",
+      "bytes": 278
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_execution.first.json",
+      "sha256": "04ab553d06f7baec1e8cfdc082100436b0492f8fbe175eff6306f514d57bde0b",
+      "bytes": 10684
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_execution.json",
+      "sha256": "befff2220a231998e26b5b8746186064d5652efa31005c1cbab6e931b79a1abb",
+      "bytes": 10678
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_origin.json",
+      "sha256": "f392300cdf0da56ee80de32cbc45a326c670dc5beb33e33594cb13080c7a8e3e",
+      "bytes": 5362
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_preflight.first.json",
+      "sha256": "3d208c0e60a1e256522fcaa2f930acd0ccf020486612f12ca30abf8e18bb1a46",
+      "bytes": 8034
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_preflight.json",
+      "sha256": "90535299d90ab4ede755f249235f320aa36fe4e6248887be869b4abbea09892d",
+      "bytes": 8034
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_reproducibility.json",
+      "sha256": "e805468e0ec6ca3e8e2f9da476872ed24150f070d6dde9dcf8bb17735afaccc5",
+      "bytes": 221
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/commands_final.json",
+      "sha256": "3cd47ef0bca1f05932a781ebcf4ec9056009d0146ee2e775bf17ef430870f7a4",
+      "bytes": 17499
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/compile_blocker.json",
+      "sha256": "890ad95bd004ccd328e7d9fe8b91f88b389ec1e4820b0cf753ba91b1a7322199",
+      "bytes": 6706
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/elf_summary.md",
+      "sha256": "38d304b1a1aac71bb48bc285bd62aaf59cf67f4eb34a9c1f676adcfac9316a78",
+      "bytes": 494
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/generated_command_inputs.json",
+      "sha256": "503b7c7c57d5b8ca533d7039a21e856c9701d364c96726aa460da0ddf0f767f1",
+      "bytes": 5304
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/input_additions.json",
+      "sha256": "2993d10e767ca278aa9d31973597682ae2b03b6e59ef029099d3d9b9daecc8b2",
+      "bytes": 814
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/interface_header_additions.json",
+      "sha256": "52a8abfa2294735962ef6e305077b0069560d07e27a6d02d3296afa8d329a871",
+      "bytes": 5620
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/negative_tests.json",
+      "sha256": "ee548fca1b7451bf173a50201f197c201ea47da3f73aa20f9b3cb1d36b5eee0c",
+      "bytes": 371
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/patch_validation.json",
+      "sha256": "01fcba9276f2e7168fc0842493088dd6a29d6b6e7bed54da9102db05f3235eeb",
+      "bytes": 122
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/preservation_current.json",
+      "sha256": "ca9e987fe3440c216410c5c867836c832b8c220723a1c98950510c6a1d6de3ca",
+      "bytes": 1175
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/reuse_metadata_relocation.json",
+      "sha256": "bc1ff2c1e07fcfb140e0824c601a47da312a9f99cab6bb2c79bc23c1b2acbbfe",
+      "bytes": 1443
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/sim_descriptor_property.patch",
+      "sha256": "614d946b6afd7d2ae9f957bd5dd4d149df85269dc1a711748b80aa7a85219c82",
+      "bytes": 278
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/sim_selected_closure.json",
+      "sha256": "efa8412e011c4bdaadb484cee477bf0b70c2a7459047dc6d21958ecc0ee4941d",
+      "bytes": 59695
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/source_preservation.json",
+      "sha256": "577a026b4d2fb5329a0b5b0c71e451b526811b33ec73fa8caae515d500a65803",
+      "bytes": 178
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/steps.json",
+      "sha256": "e11ffb50a9929a94a69002e9ec61189496e9fbd31b5b141cdc795dc84379b8b9",
+      "bytes": 666
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/steps_final.json",
+      "sha256": "7f95a2135ba88c6e237dee37447674bc191163ca48434ec408b529e1f63ef641",
+      "bytes": 1008
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/steps_retry.json",
+      "sha256": "bc84b5d4b8e051b852382535e9e6698b59e36104b495c363f083d3ed08784ebd",
+      "bytes": 1008
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/scripts/check_selected_sim.py",
+      "sha256": "8a94a6e7257dbfb7b8bc7a1b95390b08e9f15ac0da343368c8bf1183a5e3e499",
+      "bytes": 6658
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/scripts/check_selection_broad.py",
+      "sha256": "faa4a647e0711adfefa40903d4e8e7ab33b060f9895849ef91d0b4e9f3b23c66",
+      "bytes": 3822
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/scripts/codegen_inputs.py",
+      "sha256": "435079cec7352edfcbb86030c741acc4cc1b2af36e09cf9e087f76aa1921bb33",
+      "bytes": 3116
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/scripts/finalize_evidence_current.py",
+      "sha256": "8ef98dd6559111d8c0012012be38a7faf33696e565c4cce223ea18ea85e46d3c",
+      "bytes": 5601
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/scripts/record_compile_blocker.py",
+      "sha256": "4887ad53413e7270ac5ba2b16775947980cb478abc229d15f76fdcdcc2bba45a",
+      "bytes": 3021
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/scripts/run_codegen_final.py",
+      "sha256": "222e2b60d2a37c300abc1fa5c704faf5e3c9a72903acfe4d1c2b055fee8010ac",
+      "bytes": 4784
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/scripts/test_codegen_guard.py",
+      "sha256": "43c88903d22b25fa64035911d9bab752e8a41e63e5d60a1b90d3b339c266811c",
+      "bytes": 1267
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/scripts/verify_codegen_origin.py",
+      "sha256": "057924be8b0b1c9c6ac8800e9e8477fa55b2ca91b0625f784362f94643e949f5",
+      "bytes": 3903
+    }
+  ],
+  "scope": "all 37 staged entries equal original working bytes before current handoff update; all belong to interrupted codegen checkpoint"
+}

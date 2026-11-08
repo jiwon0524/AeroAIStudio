@@ -1,0 +1,99 @@
+{
+  "status": "PASS_PACKAGE_AND_INPUT_SCOPE",
+  "descriptor_source": "/usr/share/gz/protos/gz-msgs10.gz_desc",
+  "descriptor_sha256": "c7e1d435538f1a009d034a1e237d3a9a41233aaf9846e41e02525163b1cc5861",
+  "descriptor_file_count": 212,
+  "recursive_imports": {
+    "gz/msgs/header.proto": {
+      "kind": "embedded descriptor",
+      "imports": [
+        "gz/msgs/time.proto"
+      ]
+    },
+    "gz/msgs/time.proto": {
+      "kind": "embedded descriptor",
+      "imports": []
+    },
+    "gz/sim/private_msgs/performer_affinity.proto": {
+      "kind": "selected source proto",
+      "sha256": "83fceb5341e935bd15e098a1474a286888459e04fdefe915985a5e87d7b1d395"
+    },
+    "gz/msgs/entity.proto": {
+      "kind": "embedded descriptor",
+      "imports": [
+        "gz/msgs/header.proto"
+      ]
+    },
+    "gz/msgs/world_stats.proto": {
+      "kind": "embedded descriptor",
+      "imports": [
+        "gz/msgs/log_playback_stats.proto",
+        "gz/msgs/time.proto",
+        "gz/msgs/header.proto"
+      ]
+    },
+    "gz/msgs/log_playback_stats.proto": {
+      "kind": "embedded descriptor",
+      "imports": [
+        "gz/msgs/time.proto",
+        "gz/msgs/header.proto"
+      ]
+    }
+  },
+  "private_proto_files": {
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/src/proto/gz/sim/private_msgs/performer_affinity.proto": "83fceb5341e935bd15e098a1474a286888459e04fdefe915985a5e87d7b1d395",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/src/proto/gz/sim/private_msgs/simulation_step.proto": "efe88b408fa3f081d8aef918799bb7ecc7ec0ad5bb56f32def917b2a1d479c4f",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/src/proto/gz/sim/private_msgs/peer_info.proto": "246e07a7664804e9c16ffbd0e7ac841644fdcae8531994fbfdd0c14037e84040",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/sim-02/src/proto/gz/sim/private_msgs/peer_control.proto": "9235a8e0d4b239f80580ea0ae1bcb031faa616910decd0f9e77fd82866902702"
+  },
+  "correspondence": [
+    {
+      "path": "/usr/share/gz/protos/gz-msgs10.gz_desc",
+      "sha256": "c7e1d435538f1a009d034a1e237d3a9a41233aaf9846e41e02525163b1cc5861",
+      "package": "libgz-msgs10:amd64\t10.4.0-1~noble\tamd64\tgz-msgs10\t10.4.0-1~noble",
+      "matches_installed_package_md5_record": true,
+      "existing_lock": false
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-msgs10.so.10.4.0",
+      "sha256": "67453b919fe6d52eac90138e630c8979408b7f8816cf43213fe182a90f9ad9de",
+      "package": "libgz-msgs10:amd64\t10.4.0-1~noble\tamd64\tgz-msgs10\t10.4.0-1~noble",
+      "matches_installed_package_md5_record": true,
+      "existing_lock": true
+    },
+    {
+      "path": "/usr/include/gz/msgs10/gz/msgs/config.hh",
+      "sha256": "b932c781c4b17b03643eb91aabbbae4d945d5e2e4e390a87bc3590d42285ce39",
+      "package": "libgz-msgs10-dev:amd64\t10.4.0-1~noble\tamd64\tgz-msgs10\t10.4.0-1~noble",
+      "matches_installed_package_md5_record": true,
+      "existing_lock": true
+    },
+    {
+      "path": "/usr/bin/gz-msgs10_generate.py",
+      "sha256": "4c9ba6050b50c1e79660b6c5d2ca4448076ad3bcf08f734a5869794bcc27d38f",
+      "package": "libgz-msgs10-dev:amd64\t10.4.0-1~noble\tamd64\tgz-msgs10\t10.4.0-1~noble",
+      "matches_installed_package_md5_record": true,
+      "existing_lock": true
+    },
+    {
+      "path": "/usr/bin/gz-msgs10_generate_factory.py",
+      "sha256": "bf88e651afff23c6e6afd8bd3e7962d895e4852cdb04ed288f7788d387c28f22",
+      "package": "libgz-msgs10-dev:amd64\t10.4.0-1~noble\tamd64\tgz-msgs10\t10.4.0-1~noble",
+      "matches_installed_package_md5_record": true,
+      "existing_lock": true
+    },
+    {
+      "path": "/usr/bin/gz-msgs10_protoc_plugin",
+      "sha256": "81fb47d5e772f989d49efaa7b1fc53196c1e4b645bf7adb7a1134edac4c244c4",
+      "package": "libgz-msgs10-dev:amd64\t10.4.0-1~noble\tamd64\tgz-msgs10\t10.4.0-1~noble",
+      "matches_installed_package_md5_record": true,
+      "existing_lock": true
+    }
+  ],
+  "repo_metadata": "libgz-msgs10:\n  Installed: 10.4.0-1~noble\n  Candidate: 10.4.0-1~noble\n  Version table:\n *** 10.4.0-1~noble 500\n        500 http://packages.osrfoundation.org/gazebo/ubuntu-stable noble/main amd64 Packages\n        100 /var/lib/dpkg/status\nlibgz-msgs10-dev:\n  Installed: 10.4.0-1~noble\n  Candidate: 10.4.0-1~noble\n  Version table:\n *** 10.4.0-1~noble 500\n        500 http://packages.osrfoundation.org/gazebo/ubuntu-stable noble/main amd64 Packages\n        100 /var/lib/dpkg/status\n",
+  "provenance_limit": "repository candidates and installed package ownership/control hashes verified; historical installation transaction/archive not reauthenticated",
+  "additional_codegen_inputs": "four private source proto files; one embedded-dependency descriptor; four generated pb_index files subsequently read by factory; templates embedded in locked scripts/plugin",
+  "scripts_imports": "argparse/os/pathlib/subprocess/sys only; standard interpreter runtime, no third-party Python module dependency",
+  "protobuf_toolchain": "libprotobuf-dev:amd64\t3.21.12-8.2ubuntu0.4\tamd64\tprotobuf\t3.21.12-8.2ubuntu0.4\nprotobuf-compiler\t3.21.12-8.2ubuntu0.4\tamd64\tprotobuf\t3.21.12-8.2ubuntu0.4\n",
+  "protoc_version": "libprotoc 3.21.12"
+}

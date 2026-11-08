@@ -1,0 +1,7 @@
+--- a/src/systems/physics/Physics.cc
++++ b/src/systems/physics/Physics.cc
+@@ -798 +798,3 @@
+-          CollisionPairMaxContactsFeatureList
++          CollisionPairMaxContactsFeatureList,
++          // Optional native-world access for the isolated joint observer.
++          physics::FeatureList<physics::dartsim::RetrieveWorld>

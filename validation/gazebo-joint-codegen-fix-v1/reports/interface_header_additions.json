@@ -1,0 +1,79 @@
+[
+  {
+    "component": "mesh",
+    "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/physics/mesh/include/gz/physics/mesh/MeshShape.hh",
+    "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/include/gz/physics7/gz/physics/mesh/MeshShape.hh",
+    "sha256": "2a70e799141d69b5dca5a5587a11177f89576d6a99a9b0ba6c7b2c9baa509a6a",
+    "prior_physics_actual_dependency_occurrences": 2
+  },
+  {
+    "component": "mesh",
+    "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/physics/mesh/include/gz/physics/mesh/detail/MeshShape.hh",
+    "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/include/gz/physics7/gz/physics/mesh/detail/MeshShape.hh",
+    "sha256": "88d0595e25e4427b6f7e05a280b5f046d994572e6f43a293c8920ff313a19048",
+    "prior_physics_actual_dependency_occurrences": 2
+  },
+  {
+    "component": "heightmap",
+    "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/physics/heightmap/include/gz/physics/heightmap/HeightmapShape.hh",
+    "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/include/gz/physics7/gz/physics/heightmap/HeightmapShape.hh",
+    "sha256": "a90a781ac30cf886ddefdef8e50263099d1c2883a910c12137bb5329b730ec0b",
+    "prior_physics_actual_dependency_occurrences": 2
+  },
+  {
+    "component": "heightmap",
+    "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/physics/heightmap/include/gz/physics/heightmap/detail/HeightmapShape.hh",
+    "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/include/gz/physics7/gz/physics/heightmap/detail/HeightmapShape.hh",
+    "sha256": "20f6ce9f1a2ac02ce4a1491d9ec9580906c75483fad18fcd95b16c93a73b3d86",
+    "prior_physics_actual_dependency_occurrences": 2
+  },
+  {
+    "component": "sdf",
+    "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/physics/sdf/include/gz/physics/sdf/ConstructCollision.hh",
+    "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/include/gz/physics7/gz/physics/sdf/ConstructCollision.hh",
+    "sha256": "8cfb4af58a52e8fad2116bb8080e2188259e23a02bc68717b3ba532e19ea1e18",
+    "prior_physics_actual_dependency_occurrences": 2
+  },
+  {
+    "component": "sdf",
+    "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/physics/sdf/include/gz/physics/sdf/ConstructJoint.hh",
+    "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/include/gz/physics7/gz/physics/sdf/ConstructJoint.hh",
+    "sha256": "e09125672b0051dc6df551e3824b68b9529c3adfc8b08dcfad12d54005e8c0c6",
+    "prior_physics_actual_dependency_occurrences": 2
+  },
+  {
+    "component": "sdf",
+    "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/physics/sdf/include/gz/physics/sdf/ConstructLink.hh",
+    "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/include/gz/physics7/gz/physics/sdf/ConstructLink.hh",
+    "sha256": "0d5f054b0a59fbc8872809dee26fbb17d21445d549a7135b10bdd33854085081",
+    "prior_physics_actual_dependency_occurrences": 2
+  },
+  {
+    "component": "sdf",
+    "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/physics/sdf/include/gz/physics/sdf/ConstructModel.hh",
+    "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/include/gz/physics7/gz/physics/sdf/ConstructModel.hh",
+    "sha256": "e56ee5767545e4a28fea9211507c3f8b7df00373f7484c9060bb45fe12719ecf",
+    "prior_physics_actual_dependency_occurrences": 2
+  },
+  {
+    "component": "sdf",
+    "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/physics/sdf/include/gz/physics/sdf/ConstructNestedModel.hh",
+    "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/include/gz/physics7/gz/physics/sdf/ConstructNestedModel.hh",
+    "sha256": "7ecec087b6743490b374890a6bf6b66edf002ffc07ec7b01205de9b11a05889e",
+    "prior_physics_actual_dependency_occurrences": 2
+  },
+  {
+    "component": "sdf",
+    "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/physics/sdf/include/gz/physics/sdf/ConstructVisual.hh",
+    "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/include/gz/physics7/gz/physics/sdf/ConstructVisual.hh",
+    "sha256": "cbf21fd737f9aaf4b8a575c887f33e928220b07e4b85352e43c079d6e10de553",
+    "prior_physics_actual_dependency_occurrences": 2
+  },
+  {
+    "component": "sdf",
+    "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/physics/sdf/include/gz/physics/sdf/ConstructWorld.hh",
+    "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/include/gz/physics7/gz/physics/sdf/ConstructWorld.hh",
+    "sha256": "0d30aacd13078b20c5c02248e336e5cff2a55a52093516011fd8e5dff4032823",
+    "prior_physics_actual_dependency_occurrences": 2
+  }
+]

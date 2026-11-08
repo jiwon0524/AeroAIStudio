@@ -1,0 +1,17 @@
+{
+  "base_lock": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/selected_files.json",
+  "base_sha256": "b7dcb3958abfc52901df7878b418f56e806702373543d0ba6b00a5b971d3ced7",
+  "added": [
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/share/gz/protos/gz-msgs10.gz_desc",
+      "sha256": "c7e1d435538f1a009d034a1e237d3a9a41233aaf9846e41e02525163b1cc5861",
+      "size": 83796,
+      "package": "libgz-msgs10:amd64",
+      "version": "10.4.0-1~noble",
+      "source": "/usr/share/gz/protos/gz-msgs10.gz_desc",
+      "scope": "user-authorized single codegen descriptor"
+    }
+  ],
+  "new_lock_sha256": "62f54e32da0e34293b5173b7aebf423445b57143ece77d0c7c83ec80fd808c1d",
+  "no_directory_permission_added": true
+}

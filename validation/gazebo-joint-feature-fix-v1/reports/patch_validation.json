@@ -1,0 +1,5 @@
+{
+  "status": "PASS_EXACT_REPLAY",
+  "apply_option": "--unidiff-zero",
+  "sha256": "283a90a812456cf9cb5c5f4b0341251e4b690ef786b78aeebaccbd490a2d7a60"
+}

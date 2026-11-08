@@ -1,0 +1,470 @@
+{
+  "status": "PASS",
+  "build_prefix_pairs": [
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0",
+      "sha256": "9dca4718eda1f970ba0d28e6d2f3233d081b781c2c44438e19b27a87448f43e8",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/probe/libaero-joint-probe.so.1.0",
+      "component": "probe",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13.2",
+      "sha256": "29c63da664722f13f27317de27a49fe8422cf4160044f898951f31fb1ee28c27",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-collision-ode.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13.2"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2",
+      "sha256": "42ff81108e013b45ed1b11a1433cea0ea18964d2280d09c61d05d0fbe49b4af4",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-utils.so.6.13.2",
+      "sha256": "77c411fdb057d0b820e650763034c13d0345f89b7eea58b5230e75004c5389fe",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-utils.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-utils.so.6.13.2"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13.2",
+      "sha256": "5d48de3d22e998bdb81b26982dbc0845769aa9e1f179c81ee759ce6d54361fad",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-collision-bullet.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13.2"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13.2",
+      "sha256": "18f2ce0216b00fe03d086e3ac2bfc7b7036c6355c8e57633ef075aefd7330b9a",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13.2"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-utils-urdf.so.6.13.2",
+      "sha256": "7f25cede2ed1e7e6d5dd614b7f6ac6bae9dc18756d120abd94dc8b9f3ba7e0c1",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-utils-urdf.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-utils-urdf.so.6.13.2"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7.8.0",
+      "sha256": "06bdf00cda17153e57e1b00194fc90264bde9d466ab9fc521407ee9152f4194b",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/lib/libgz-physics7.so.7.8.0",
+      "component": "physics",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7.8.0"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "sha256": "c652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/lib/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "component": "physics",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libgz-physics7-dartsim-plugin.so.7.8.0"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "sha256": "c652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/lib/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "component": "physics",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-sim8-physics-system.so.8.15.0",
+      "sha256": "dfe093dc43a949bc554de3f52223aae3f437759a6378cd5aa22cca5d21423a11",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/lib/libgz-sim8-physics-system.so.8.15.0",
+      "component": "sim"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-sim8.so.8.15.0",
+      "sha256": "25b168676e55c1bfb847a92b0648802f916af96bd1730a9344e196632dea9128",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/lib/libgz-sim8.so.8.15.0",
+      "component": "sim"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/gz-sim-8/plugins/libgz-sim8-physics-system.so.8.15.0",
+      "sha256": "dfe093dc43a949bc554de3f52223aae3f437759a6378cd5aa22cca5d21423a11",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/lib/libgz-sim8-physics-system.so.8.15.0",
+      "component": "sim"
+    }
+  ],
+  "sim_artifacts": {
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/lib/libgz-sim8.so.8.15.0": {
+      "sha256": "25b168676e55c1bfb847a92b0648802f916af96bd1730a9344e196632dea9128",
+      "build_id": [
+        "2ef698d5755bce23d06410751edb6827b4be233f"
+      ],
+      "soname": [
+        "libgz-sim8.so.8"
+      ],
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libgz-fuel_tools9.so.9",
+        "libsdformat14.so.14",
+        "libprotobuf.so.32",
+        "libgz-plugin2-loader.so.2",
+        "libgz-plugin2.so.2",
+        "libgz-common5-events.so.5",
+        "libgz-common5-graphics.so.5",
+        "libgz-common5.so.5",
+        "libgz-transport13-parameters.so.13",
+        "libgz-transport13.so.13",
+        "libgz-msgs10.so.10",
+        "libtinyxml2.so.10",
+        "libgz-math7.so.7",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ],
+      "rpath": []
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/lib/libgz-sim8-physics-system.so.8.15.0": {
+      "sha256": "dfe093dc43a949bc554de3f52223aae3f437759a6378cd5aa22cca5d21423a11",
+      "build_id": [
+        "ee1262241b3849de49d3fdfc2c544f00b7b3aeaf"
+      ],
+      "soname": [
+        "libgz-sim8-physics-system.so.8"
+      ],
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libgz-sim8.so.8",
+        "libdart.so.6.13",
+        "libgz-plugin2-loader.so.2",
+        "libgz-physics7.so.7",
+        "libgz-plugin2.so.2",
+        "libgz-common5-events.so.5",
+        "libgz-msgs10.so.10",
+        "libsdformat14.so.14",
+        "libprotobuf.so.32",
+        "libgz-common5-geospatial.so.5",
+        "libgz-common5-graphics.so.5",
+        "libgz-common5.so.5",
+        "libgz-math7.so.7",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ],
+      "rpath": []
+    }
+  },
+  "physics_system_link_inputs": [
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libBulletCollision.so.3.24",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libBulletCollision.so.3.24",
+      "sha256": "a356d9ef207a31737b91a39c4c75a43b05a49cde51891cfa13b4b1c71c223f0a"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libBulletDynamics.so.3.24",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libBulletDynamics.so.3.24",
+      "sha256": "2178422adcc56ccf3d5c02b27e610eaf8df862cee950c5640af115d849adaca0"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libBulletSoftBody.so.3.24",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libBulletSoftBody.so.3.24",
+      "sha256": "128f4a25c8fd5412155983b55974c43fba8028542fe3ff3b2645bbd44a5b686b"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+      "sha256": "31c7e0d2d17efc3924613bf561a645a4258f2d8df54167c162c490ed7fe84fea"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+      "sha256": "aa285639c8e4fa83f5987357fdc882e6df614949e40a7e85676b640ffb25f4f1"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "sha256": "3436bd79e03ed39efce6f7abfd64ed35429d5574bd76337b90edb1fb85506afb"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+      "sha256": "ec8bfd6cce31e7fd3dced8d5489109f6bca3d066c8ac3035b032940a8eb9ef50"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+      "sha256": "efd1dcfc111d271e13173f02153c0a950bbce9ccd53d1319990a5e6ff56c8dca"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libode.so.8",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libode.so.8.0.2",
+      "sha256": "c511d66333708785c1a22f6cd572c4c84495a535566c9c80eb37d8e0f67bc469"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liburdfdom_model.so",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liburdfdom_model.so.4.0",
+      "sha256": "ac27f211accb66a3f461d8d0b09b9ff123e306e68a0bac0f7c502203d7cbb34e"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so.4.0",
+      "sha256": "60331a0b5073104db917a5ffc18fbcc4ffcde5ac4080ee9ea44c0144437a1091"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so.4.0",
+      "sha256": "5a1c3ba30be3fc68775f75ea427edae6ae8802800369f232b9d70762c5f547f8"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liburdfdom_world.so",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liburdfdom_world.so.4.0",
+      "sha256": "f92371d8e97aa0544f3d5ae340d9f4433e1f3c0ab67a46762b0328b26734169a"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0",
+      "sha256": "9dca4718eda1f970ba0d28e6d2f3233d081b781c2c44438e19b27a87448f43e8"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13.2",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13.2",
+      "sha256": "5d48de3d22e998bdb81b26982dbc0845769aa9e1f179c81ee759ce6d54361fad"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13.2",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13.2",
+      "sha256": "29c63da664722f13f27317de27a49fe8422cf4160044f898951f31fb1ee28c27"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13.2",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13.2",
+      "sha256": "18f2ce0216b00fe03d086e3ac2bfc7b7036c6355c8e57633ef075aefd7330b9a"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-utils-urdf.so.6.13.2",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-utils-urdf.so.6.13.2",
+      "sha256": "7f25cede2ed1e7e6d5dd614b7f6ac6bae9dc18756d120abd94dc8b9f3ba7e0c1"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-utils.so.6.13.2",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-utils.so.6.13.2",
+      "sha256": "77c411fdb057d0b820e650763034c13d0345f89b7eea58b5230e75004c5389fe"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2",
+      "sha256": "42ff81108e013b45ed1b11a1433cea0ea18964d2280d09c61d05d0fbe49b4af4"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7.8.0",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7.8.0",
+      "sha256": "06bdf00cda17153e57e1b00194fc90264bde9d466ab9fc521407ee9152f4194b"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0",
+      "sha256": "9dca4718eda1f970ba0d28e6d2f3233d081b781c2c44438e19b27a87448f43e8"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0",
+      "sha256": "9dca4718eda1f970ba0d28e6d2f3233d081b781c2c44438e19b27a87448f43e8"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13",
+      "sha256": "f3a46b3517fdcd82d70b9a2c01ba707499860e2eab328bb98445d8afce59ca37"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13",
+      "sha256": "75b66a3edcbc7f3013b4180b76919b49c22ce652372eba45ead8aac9121625e0"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.13",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.13",
+      "sha256": "8b3062321c31ddb2c0d96f2c7a7761e086fc4ef2d0d52dbf1119a03d0079ec64"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libQt5Qml.so.5.15.13",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libQt5Qml.so.5.15.13",
+      "sha256": "e57364d9d0d366824064539a49f4cb3d8fdd284a15db9e3d164ca1ac9a1f64f3"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libQt5QmlModels.so.5.15.13",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libQt5QmlModels.so.5.15.13",
+      "sha256": "68bebbb6db95909aa2262aa2fa6cfd23547565faaa5bb72c49cfe027ac9caf0b"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libQt5Quick.so.5.15.13",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libQt5Quick.so.5.15.13",
+      "sha256": "a2d2e45f415baa2c9a251844dd45f67d1d10cf6f15c6270dd49c0d348a431260"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libQt5QuickControls2.so.5.15.13",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libQt5QuickControls2.so.5.15.13",
+      "sha256": "3cb892116a07ae92c1f8d440242debad1b30772c097c0736b1907b08582a8f3d"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13",
+      "sha256": "8e03815f581781fc8b0ef931335493f8f2fcb48ee855f0be2258bbfbd06e62ee"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "sha256": "f5524225032201d129cac2adf305af9c7ffcf612d8662f3c87a2d891d5cd3d18"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libavcodec.so",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libavcodec.so.60.31.102",
+      "sha256": "8231c9aecba7d02c132de0e16195ccb3e8002a235a5f364b3635df09e7f513e0"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libavdevice.so",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libavdevice.so.60.3.100",
+      "sha256": "d4df19849bf3805bf76d0563366e7cbcb28bc2674a3bfa3e2465e8994f53fc6d"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libavformat.so",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libavformat.so.60.16.100",
+      "sha256": "5f0970c52b7723037a7f6357cc1931879513449f742240fff7c37ceb7175ac9f"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libavutil.so",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libavutil.so.58.29.100",
+      "sha256": "11b0836441b899e1b2183fc10eda5a5f637c03547fdfe5b97774e2cbd5aeb72c"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libfmt.so.9.1.0",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libfmt.so.9.1.0",
+      "sha256": "da008b908b32e428eaa1c09e36d6894c8f88362e254b503c7c2c6112b4ec9ed0"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-common5-av.so.5.9.0",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libgz-common5-av.so.5.9.0",
+      "sha256": "2e9d77ffa933617e3580f4ae93de0889a8dce7ae963825b9b58fa31fbf1ea4ed"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-common5-events.so.5.9.0",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libgz-common5-events.so.5.9.0",
+      "sha256": "bfa44a790ea2bddea001e9a06ddf7ad756f832b490c7097416de97fcde270c44"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-common5-geospatial.so.5.9.0",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libgz-common5-geospatial.so.5.9.0",
+      "sha256": "1f99f8bc6ed205c1e42b5ba61bc0e7c956b45b241651559595574fdc15fc7294"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-common5-graphics.so.5.9.0",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libgz-common5-graphics.so.5.9.0",
+      "sha256": "72193d8b13a1d8a40e156cd8e3c8a3dcac53dcf906b4cb7dd1d981638bb2e6ad"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-common5-io.so.5.9.0",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libgz-common5-io.so.5.9.0",
+      "sha256": "aca5111b10ff043b7a7ac1f91c6dc94ce7b8a7a037c6dc648746da631f2e0aca"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-common5-profiler.so.5.9.0",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libgz-common5-profiler.so.5.9.0",
+      "sha256": "20cde4ccdb0da6e55ce66bacdaec703dddbe7e06259b21dbecfef3fe17b03d1e"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-common5-testing.so.5.9.0",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libgz-common5-testing.so.5.9.0",
+      "sha256": "6c3bf7c989ea2d49187b1573e703eee89c9a7fcd4d6b8d188e6380308b7a4f0f"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5.9.0",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5.9.0",
+      "sha256": "a33151ff7af529afc854ebf376ca684af4e9c0cfdf5f8876eac65e9b00724641"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-fuel_tools9.so.9.1.1",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libgz-fuel_tools9.so.9.1.1",
+      "sha256": "c7b7aa6f229dcc8dd114b5c96c1c76a730d11c5292e085eec2c3abdf01f1761d"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-gui8.so.8.4.0",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libgz-gui8.so.8.4.0",
+      "sha256": "b8b64be527675c1dbc27e796b7bb6a751aa513606b3a1821d6c6b2e2b108bea9"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7.7.0",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7.7.0",
+      "sha256": "93a88d86b8f36bdcce95e42683f3779a58576c1faa05789ee599a88c432b2c57"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-msgs10.so.10.4.0",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libgz-msgs10.so.10.4.0",
+      "sha256": "67453b919fe6d52eac90138e630c8979408b7f8816cf43213fe182a90f9ad9de"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-plugin2-loader.so.2.0.4",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libgz-plugin2-loader.so.2.0.4",
+      "sha256": "e258801a1f651c1a753d748f157313da4401d7e3c2fbc4686abecf0c99c098aa"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-plugin2.so.2.0.4",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libgz-plugin2.so.2.0.4",
+      "sha256": "f83116edeb96f61ec750f228304aa2f93c9ab95127214c95acba145cda369e38"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-rendering8.so.8.2.3",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libgz-rendering8.so.8.2.3",
+      "sha256": "a416c2f5abf4b735e79c40a75b7b420b4b8e966708497176cd5eac61fb8611be"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-transport13-parameters.so.13.6.0",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libgz-transport13-parameters.so.13.6.0",
+      "sha256": "496fe1147f698aef5fa415f14c8b8094606312d279f0ef8a6fb1b2cdf20cb52e"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-transport13.so.13.6.0",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libgz-transport13.so.13.6.0",
+      "sha256": "430d38c0e43bffd59287ba413aec0562f0ca5235e99c7d6c366559ef00e752b7"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libgz-utils2.so.2.2.1",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libgz-utils2.so.2.2.1",
+      "sha256": "72291b5be52e477638d9161e58080d2fe54706037716a9501883a0c3015ce52c"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libprotobuf.so",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libprotobuf.so.32.0.12",
+      "sha256": "53a2a625a30418d6ea84438b04c9196214dec51a30476596ee9be45ccadb0404"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libsdformat14.so.14.9.0",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libsdformat14.so.14.9.0",
+      "sha256": "c30ada44484ec14e8c595a857f446713196db0a8a16c6b42c3dc785658f4463e"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libswscale.so",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libswscale.so.7.5.100",
+      "sha256": "a2122c6342e9457a9b7faab2d3f7018f3634fdac4d0b25b8ea974eae0277d78c"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so.10.0.0",
+      "sha256": "f9e01d87fb78af744a426af8c992e94abf8cd3810a256e117bcc94cd84d2be6d"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so.10.0.0",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so.10.0.0",
+      "sha256": "f9e01d87fb78af744a426af8c992e94abf8cd3810a256e117bcc94cd84d2be6d"
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libuuid.so",
+      "realpath": "/usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0",
+      "sha256": "78d7f4d6f27b7dffc1c84dfe2f83e84aefa6f6ceeffc6ac4bc41f9fbc61cb84e"
+    }
+  ],
+  "scope": "static link inputs/ELF closure and byte identity; no actual runtime mapping"
+}

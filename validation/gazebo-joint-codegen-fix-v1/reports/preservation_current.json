@@ -1,0 +1,29 @@
+{
+  "reused_prefix_regular_files": 533,
+  "old_files_unchanged": true,
+  "new_copy_metadata_exception": [
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/cmake/gz-physics7-dartsim/gz-physics7-dartsim-targets.cmake"
+  ],
+  "input_lock_additions": [
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/share/gz/protos/gz-msgs10.gz_desc"
+  ],
+  "base_lock_unchanged": true,
+  "header_guard_sha256": {
+    "source": "7446e7d3d4e6f542cf4a7b67c2997f7bd4f322593eb0054c6fe79f0e07f3489b",
+    "current": "7446e7d3d4e6f542cf4a7b67c2997f7bd4f322593eb0054c6fe79f0e07f3489b"
+  },
+  "traces": {
+    "sim": {
+      "sha256": "e14862d800cd8a3da74e693f2e96d17ad9400f32328f81f3a9cd1a3fe7c3cf5f",
+      "architecture_compile_error_protocol_calls": 1
+    },
+    "sim-02": {
+      "sha256": "39ce4e9dff4c52803f10b7167d6fd3d432e36c0e76650fca293de6446ba4ccb0",
+      "architecture_compile_error_protocol_calls": 1
+    },
+    "sim-03": {
+      "sha256": "8a6b0bc35e144f406942260053638320f0a95377859251f915c6f48575ab5dcc",
+      "architecture_compile_error_protocol_calls": 1
+    }
+  }
+}

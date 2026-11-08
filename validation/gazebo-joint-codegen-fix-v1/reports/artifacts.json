@@ -1,0 +1,1986 @@
+{
+  "ELFs": [
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/lib/libgz-sim8.so.8.15.0",
+      "role": "partial Sim core; not accepted/staged because Physics system failed",
+      "sha256": "190db56139cb0e8e87f88251511c05591904822886c07d21105887a7f0a9fd21",
+      "size": 74450512,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "9dce997ed98d3c6be61a4bb5009a6393dfd24096"
+      ],
+      "soname": [
+        "libgz-sim8.so.8"
+      ],
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libgz-fuel_tools9.so.9",
+        "libsdformat14.so.14",
+        "libprotobuf.so.32",
+        "libgz-plugin2-loader.so.2",
+        "libgz-plugin2.so.2",
+        "libgz-common5-events.so.5",
+        "libgz-common5-graphics.so.5",
+        "libgz-common5.so.5",
+        "libgz-transport13-parameters.so.13",
+        "libgz-transport13.so.13",
+        "libgz-msgs10.so.10",
+        "libtinyxml2.so.10",
+        "libgz-math7.so.7",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/View.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "5a52a47814230c518c67ccd12443aa87ed33a07fc6b86a97555d141f66879b7a",
+      "size": 1424968,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/EntityComponentManager.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "ecff31a6eae53e1ed451ecd61fbe86467a58ced8095c26519206ea469839a6bc",
+      "size": 11319504,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/ServerConfig.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "e49530443a643c75938f9eb9f35c67c8a0f82299dfadd32bc07a61967b173946",
+      "size": 4192088,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/MeshInertiaCalculator.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "0754de80ad2ae167cc0bbceb12482f2c6d77121d7894e349653eb518398064ad",
+      "size": 2405360,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/Link.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "6bae2aa1e3e6ff19011d6e09d2845692e986735f2282f91686305a86883a2d07",
+      "size": 11108968,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/EntityComponentManagerDiff.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "2fbbd98ddfe2153bd08c8525fd0406294d3140bb30357242f528ad1ecec9e938",
+      "size": 68896,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/SimulationRunner.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "499c76d4e201e72f14cc3b23cacb5fee88ed5b02ded6bdf00377ef8069891436",
+      "size": 16020008,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/ComponentFactory.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "44fe12ac360be7038c71ea34d5a9ec4e5347183ecde5b5b5750d7a6e7d291eb5",
+      "size": 323496,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/InstallationDirectories.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "959f91750f0eac4a1511d170dad8bb304652a64a0488b58f0491df41bfafd1f7",
+      "size": 167496,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/Sensor.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "0f9318f75dd54d9200568411408e077484ff0f67345da057b275e2b3c9505c8b",
+      "size": 3603584,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/Barrier.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "6a3514717079b90bf32e5fbe1d1c0fff3f448f2e95d3cf43f2ea529abe606d77",
+      "size": 96776,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/Primitives.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "47797e1e3d60cf8bb4d49933b8c68ae5b6d7a4dd24aa8bd23326113e567f0b9e",
+      "size": 303824,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/ServerPrivate.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "b19ca0fb1ffdfdf701290c7705eb0dd300f8ce720d6bd2669c05a5e32c691ff3",
+      "size": 6875808,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/SdfEntityCreator.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "032b03fe35ab2a823a6ec6a38ba16bcc27f76493c02e1db0636271f975fc9740",
+      "size": 23703776,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/Light.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "6b5b11ff3fcc779d97876ec37dd148893ac4a8c2d0db1aff0dc5583ba02ab4ba",
+      "size": 4223280,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/gz-sim8_get_install_prefix_impl.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "770332e6b949d197ba54b4ded14b82671a2d0197b84185a5286b06ebbec4e9c0",
+      "size": 93192,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/Conversions.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "ad325bd5d8881129ec69ff2aa7ef013f5d3edf88c6a6774f1ba3fdeb4be8f00b",
+      "size": 6380968,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/BaseView.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "0c2c6e7ea782aea86ef2c0af70d0fb030329b0e434f82ca963dcbe16211ef5d1",
+      "size": 313184,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/World.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "eb438bbcef369bd2e57e77831c03c3fcbe12b0d6b70b49081dd44ca288bdc443",
+      "size": 7026304,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/SdfGenerator.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "cd69119eaee3bf82eb5626157b6b3045d4cc7db50c5b23bb7512c379ce6a1355",
+      "size": 14252200,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/Actor.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "146b758a9d6347af7ab74870d2e50de4fea352b6aeb5f31c24e835e84c5b7d21",
+      "size": 4533632,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/Util.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "008677c1e3b1356fdb862124356f74305fd1b269e31358bf02278d1f92c4f628",
+      "size": 11102912,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/Joint.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "41ca47ffd9002fd73ff6356b8e9158fdfcc4f00df616025448646f581929a276",
+      "size": 8449736,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/Model.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "df9f54086f2fe4504fc2c2d5fb9a9dc1beba6c34096ba305322154b388c1a1e9",
+      "size": 7564528,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/SystemManager.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "f4ac122ba85e646d9ae405ddb7a58150866becdea015dc0cf66e1ed26425d7b1",
+      "size": 8331920,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/SystemLoader.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "ac9a39613fbb09422448ad2a7fd6f4d07532410a78f44fadb13714b228072595",
+      "size": 1668248,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/Server.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "cdf55ad02cd5f695d7d81091b587d44f79737b06594f49404c51fc3c26a2d2de",
+      "size": 3937424,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/LevelManager.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "5069973b16a824dc187d460bdec9f6b993a1be8ffcfbcb0497b9ec59a4f3aa27",
+      "size": 14071240,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/TestFixture.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "b3871ded0f934eb25cb8d617e9b3be4e6d6b20f570fb625870d36e984a01c351",
+      "size": 1509672,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/network/NetworkManager.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "f98f91df1059ad5fd866d754e4f5b763b1412fe32c1138f57fc92d315cddfc4e",
+      "size": 2514592,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/network/NetworkManagerSecondary.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "c1ee13465473625ee059280dd058548b08d54beb4273b52f53c090c162002a2c",
+      "size": 4566208,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/network/NetworkConfig.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "1bbb8fca90ee3b733186b82e9e9e0fc855fadeb8087424d3b10fe16a51aae336",
+      "size": 179736,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/network/PeerTracker.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "7c77c5e41fcb278bfa18a70103c2dfe3eac0f210444abfe62314d6a6969561ad",
+      "size": 3694112,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/network/PeerInfo.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "84d977555a519a049a1fbbc2203077ff178d0d807834d5b72aebec0e833e3e3d",
+      "size": 267528,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/network/NetworkManagerPrimary.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "c70966382ac52938cb95a1744ed21fc5da87375d9a052769c9ed0d773821a753",
+      "size": 7169072,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/comms/MsgManager.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "268383597c1b21fda3a3dcf3ff8a7bdfbdf8b470619d92b74a57f2ec2b946c6e",
+      "size": 1486976,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/comms/Broker.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "9bfa46427317453ebd7ced0e659766293e91100fbe20ffa6dbf1de8b834b738b",
+      "size": 5155520,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/comms/ICommsModel.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "7233e8ba25c6949f9f32520232999bdf6ced8c95f4cbae56f7ccf9f23f8dc0bd",
+      "size": 2111784,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/__/gz_msgs_gen/gz/sim/private_msgs/simulation_step.pb.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "34a5529c3a71f9441e94e247b9630515aab6416c937a723736ec537b6beed22a",
+      "size": 974544,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/__/gz_msgs_gen/gz/sim/private_msgs/peer_control.pb.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "70d4f4b12f0023a62d862ac4b87c52433f4aab1102057b6ff72bab4e4593dc0c",
+      "size": 861152,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/__/gz_msgs_gen/gz/sim/private_msgs/peer_info.pb.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "3fac676b63ad96e9dcdcbede1744d8f537f6e57b1b24a24e5b450e6d2b0270d9",
+      "size": 995328,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/__/gz_msgs_gen/gz/sim/private_msgs/register.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "1f7941c2cdaf47763def808927b2a3f36a6909262973f244303e1736c8b6c144",
+      "size": 601128,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/__/gz_msgs_gen/gz/sim/private_msgs/performer_affinity.pb.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "61315ed78add73a720b3bd9d5e5411ea9cfd6371e00351b6cf47ab55a4dcc20a",
+      "size": 1054144,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/rendering/MaterialParser/MaterialParser.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "76c332205adb9dbf10521575ad850e3834805be3330976b2259fffd8243c98be",
+      "size": 355272,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/src/CMakeFiles/gz-sim8.dir/rendering/MaterialParser/ConfigLoader.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "32e728c4adff1ef91b9e9789e4193c32829f6c8d55902d2da1ee389bad0bb0ec",
+      "size": 845784,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/CMakeFiles/3.28.3/CMakeDetermineCompilerABI_CXX.bin",
+      "role": "build/helper/object inventory",
+      "sha256": "8f896b484239a5108487e3b3689196181d335fe5d1e855009907d27bd80d9633",
+      "size": 15992,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "f45fa53bac9066f6d01cf215dc04c99793a90921"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/CMakeFiles/3.28.3/CMakeDetermineCompilerABI_C.bin",
+      "role": "build/helper/object inventory",
+      "sha256": "cebec04049fe3dfe86f80a3e40b6b581db0470d05e326fdf151378c5d57b566a",
+      "size": 15968,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "3d6b66ecf842139fa6073e4fcc7c41be33d18f6c"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/CMakeFiles/3.28.3/CompilerIdC/a.out",
+      "role": "build/helper/object inventory",
+      "sha256": "88aa2744b35746a2f6464f0d7f31c3991c8fdb255d08727ecfbf676478e051b8",
+      "size": 16088,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "2f3eadba19e189dada72e67783f117d80cfcc4e4"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/CMakeFiles/3.28.3/CompilerIdCXX/a.out",
+      "role": "build/helper/object inventory",
+      "sha256": "a3d366f5f634a9cc0d9340115704a2d978e930f75ce0aceac02d7177849a8a1a",
+      "size": 16096,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "32b99493f7577afb3d188cacc03c1900c12a363c"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/lib/libgz-sim8.so.8.15.0",
+      "role": "partial Sim core; not accepted/staged because Physics system failed",
+      "sha256": "25b168676e55c1bfb847a92b0648802f916af96bd1730a9344e196632dea9128",
+      "size": 74450512,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "2ef698d5755bce23d06410751edb6827b4be233f"
+      ],
+      "soname": [
+        "libgz-sim8.so.8"
+      ],
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libgz-fuel_tools9.so.9",
+        "libsdformat14.so.14",
+        "libprotobuf.so.32",
+        "libgz-plugin2-loader.so.2",
+        "libgz-plugin2.so.2",
+        "libgz-common5-events.so.5",
+        "libgz-common5-graphics.so.5",
+        "libgz-common5.so.5",
+        "libgz-transport13-parameters.so.13",
+        "libgz-transport13.so.13",
+        "libgz-msgs10.so.10",
+        "libtinyxml2.so.10",
+        "libgz-math7.so.7",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/View.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "e6b61364296e60fdd6c4fc43c936c5494415ec30ae3f82669bcd4cc082d9eedc",
+      "size": 1424968,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/EntityComponentManager.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "2ce505a44341f715b9f976e372615023e844c9adb2355b4b4e934bde52fbd30b",
+      "size": 11319504,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/ServerConfig.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "b0fa65a44583273ed7bf8b6ba5414e803c3bfa898879b8beb0c93df0e1b83f64",
+      "size": 4192088,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/MeshInertiaCalculator.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "9e948eea6954cdf71684b72b70860c606ec4c96b0354e07a7cbeb674f8993f0f",
+      "size": 2405360,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/Link.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "630cab81b7d1661b52f380a4f903ed13d206872ed3fe3f27942060bab506f587",
+      "size": 11108968,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/EntityComponentManagerDiff.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "ee0607b36ce52f76f7026a304f1b992bef9921c32df3771435fcd38ae9819f7d",
+      "size": 68896,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/SimulationRunner.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "f7ae1aed2c96f90fd8a9a4d386923f943c3c01b52e15a552d09395f179203525",
+      "size": 16020008,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/ComponentFactory.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "69209cd7d562dbcbecb85c32c53cb29e122df1b823b06f2bdbfccaa279a3445e",
+      "size": 323496,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/InstallationDirectories.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "1ff430555b348b0ced2b40e9874910376b8805c9a20e22f157d9d1f1961568af",
+      "size": 167496,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/Sensor.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "7bd57038782503f28966b2252a3539a0925af3a337deb1f4e20a3e139a620ce6",
+      "size": 3603584,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/Barrier.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "90539f2708e8135e93877c58e9d8341f369e027536302e22ffeeb609f0860a20",
+      "size": 96776,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/Primitives.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "6532f8419a1e97c98baa5bc12bcc8589f27f8c07f61944631657936aee18abab",
+      "size": 303824,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/ServerPrivate.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "0f7b70b4d523d7ba01d8d2d59ab8ee8b0b96a3cd59fd6180f29575de15bbca15",
+      "size": 6875808,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/SdfEntityCreator.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "79797c0c25dadc955d75e1da225f618a09372600e0dbba497a461079653c1564",
+      "size": 23703776,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/Light.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "d02bd0948178b03055f4a59fb82a27a8ba2ca6a6290d089511d007b4427576bc",
+      "size": 4223280,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/gz-sim8_get_install_prefix_impl.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "3b3abfc5e8e6e917885e2e2184033c344f8011c9a7df31053faa3614b1a9c61b",
+      "size": 93192,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/Conversions.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "a33bcac635ca7a4c523b549e5d690c87a3953dbf31bd1047f5980a5593cbc8eb",
+      "size": 6380968,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/BaseView.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "f0d19537f79e495724edf75e1eb52ceb4f3db468bb151e2702142192b9d2ddef",
+      "size": 313184,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/World.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "1d034854d5e9264631697432500351249058af2468f767eb3b9af610e3d0b6c4",
+      "size": 7026304,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/SdfGenerator.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "937f526359636c9b57dbf83c050da75a1b7d9ce7353bd4b53c0ac353ef310e6e",
+      "size": 14252200,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/Actor.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "45dbb17f58b9f2b9048019b84aba615e47ed6696f55d32c61d121e7bae213b7b",
+      "size": 4533632,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/Util.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "cea4eda3eb16b169235e77dc1a556d5d8deca666f19fc34e1f17b58446f9958e",
+      "size": 11102912,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/Joint.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "17de23563f602004ef2600eda4d21f0b84da1391780219ddd5bfea88229ebab2",
+      "size": 8449736,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/Model.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "87f02393180bcdf81a4f321214c3d9f843286acf478ac804506a29822ac9e338",
+      "size": 7564528,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/SystemManager.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "c23a9944398ddf898e15aefd7f3955f991aa4678ba2e7b2543295c93b8541204",
+      "size": 8331920,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/SystemLoader.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "ccbab6e81ac2c1a222ea315ee0dc93a592ffd006478e13b4edced1ba7867832b",
+      "size": 1668248,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/Server.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "3dfc6696feccdd953e578d893cea0a331d174ba27a525b242fcee3f0d04b3314",
+      "size": 3937424,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/LevelManager.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "56abd6698955851f0dce331385a005a7ec585d1d77fa6c9d7ee05e3cce64df78",
+      "size": 14071240,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/TestFixture.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "e1b1974a7aca30e5b5343d4f3a7bf244e9f50f568c1b86a0780852a93c1eaaf3",
+      "size": 1509672,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/network/NetworkManager.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "32209ae153a78f8dacef271d2b8347e651946bd397dd3a5dd3d25e6923bab165",
+      "size": 2514592,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/network/NetworkManagerSecondary.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "f021c870bf57a435d346280c68a1f5a5ad1af2dbc7e3026f74eff1d29e499a7d",
+      "size": 4566208,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/network/NetworkConfig.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "b97533870681cc35e8f8aee2cb575aed256cc7a6126246d36f42bcbd933c655d",
+      "size": 179736,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/network/PeerTracker.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "df075b7acc6e753be06aecca6524e99a2330c88bbc9784277dd7d53ffd63dc2c",
+      "size": 3694112,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/network/PeerInfo.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "81492379e3d5de5a9b64d1a57355d13b85d2e4215a1efb679bf5d844b74319f7",
+      "size": 267528,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/network/NetworkManagerPrimary.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "7fd884d8f0947a91a69be513d77ef22c14ebdcebe107da35e773aa36c17db00a",
+      "size": 7169072,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/comms/MsgManager.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "f9e0fa5b94c42cb30d18d2b5cf69a125dc5b8bb54470553bb34701c6f3bc0d89",
+      "size": 1486976,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/comms/Broker.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "bdb10071eaa8a510e861746624582dc8b758a2a3a519a3aa68bc42bce23e8ca4",
+      "size": 5155520,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/comms/ICommsModel.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "8d4afcd292798fb4c30b1073af1de979bb413d4ba0326162105496239218481a",
+      "size": 2111784,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/__/gz_msgs_gen/gz/sim/private_msgs/simulation_step.pb.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "7cb4cd99c777b1cdeae00448a2bc5b93f503c431e209034ea822bce015885119",
+      "size": 974544,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/__/gz_msgs_gen/gz/sim/private_msgs/peer_control.pb.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "d246561c17757e9f01139e093eca02ae585926b8c5a6964693375676f4f201a1",
+      "size": 861152,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/__/gz_msgs_gen/gz/sim/private_msgs/peer_info.pb.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "9035582e2957dffac77dec458833e87bdf760947f7aae4fb345b3fc8f6486db6",
+      "size": 995328,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/__/gz_msgs_gen/gz/sim/private_msgs/register.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "52e112d6c83f586f7a5091281d76f2c4db7de7e2c3b1115720e1970cd48232d4",
+      "size": 601128,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/__/gz_msgs_gen/gz/sim/private_msgs/performer_affinity.pb.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "f17e95e0332338dfa7467a222ce22f514cb54fbc5133661a451dee66d62d6f45",
+      "size": 1054144,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/rendering/MaterialParser/MaterialParser.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "6f067e6ef22254ded052ece5f422cc76e2c1c3ca25a5d2f180f49a956ba36bc5",
+      "size": 355272,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/src/CMakeFiles/gz-sim8.dir/rendering/MaterialParser/ConfigLoader.cc.o",
+      "role": "build/helper/object inventory",
+      "sha256": "75626a46957a8dc8531aa94f009f1aa866fa502c637ff5a10ab291d9796fe989",
+      "size": 845784,
+      "type": [
+        "REL (Relocatable file)"
+      ],
+      "build_id": [],
+      "soname": [],
+      "needed": [],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/CMakeFiles/3.28.3/CMakeDetermineCompilerABI_CXX.bin",
+      "role": "build/helper/object inventory",
+      "sha256": "8f896b484239a5108487e3b3689196181d335fe5d1e855009907d27bd80d9633",
+      "size": 15992,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "f45fa53bac9066f6d01cf215dc04c99793a90921"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/CMakeFiles/3.28.3/CMakeDetermineCompilerABI_C.bin",
+      "role": "build/helper/object inventory",
+      "sha256": "cebec04049fe3dfe86f80a3e40b6b581db0470d05e326fdf151378c5d57b566a",
+      "size": 15968,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "3d6b66ecf842139fa6073e4fcc7c41be33d18f6c"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/CMakeFiles/3.28.3/CompilerIdC/a.out",
+      "role": "build/helper/object inventory",
+      "sha256": "88aa2744b35746a2f6464f0d7f31c3991c8fdb255d08727ecfbf676478e051b8",
+      "size": 16088,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "2f3eadba19e189dada72e67783f117d80cfcc4e4"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/CMakeFiles/3.28.3/CompilerIdCXX/a.out",
+      "role": "build/helper/object inventory",
+      "sha256": "a3d366f5f634a9cc0d9340115704a2d978e930f75ce0aceac02d7177849a8a1a",
+      "size": 16096,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "32b99493f7577afb3d188cacc03c1900c12a363c"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim/CMakeFiles/3.28.3/CMakeDetermineCompilerABI_CXX.bin",
+      "role": "build/helper/object inventory",
+      "sha256": "8f896b484239a5108487e3b3689196181d335fe5d1e855009907d27bd80d9633",
+      "size": 15992,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "f45fa53bac9066f6d01cf215dc04c99793a90921"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim/CMakeFiles/3.28.3/CMakeDetermineCompilerABI_C.bin",
+      "role": "build/helper/object inventory",
+      "sha256": "cebec04049fe3dfe86f80a3e40b6b581db0470d05e326fdf151378c5d57b566a",
+      "size": 15968,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "3d6b66ecf842139fa6073e4fcc7c41be33d18f6c"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim/CMakeFiles/3.28.3/CompilerIdC/a.out",
+      "role": "build/helper/object inventory",
+      "sha256": "88aa2744b35746a2f6464f0d7f31c3991c8fdb255d08727ecfbf676478e051b8",
+      "size": 16088,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "2f3eadba19e189dada72e67783f117d80cfcc4e4"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim/CMakeFiles/3.28.3/CompilerIdCXX/a.out",
+      "role": "build/helper/object inventory",
+      "sha256": "a3d366f5f634a9cc0d9340115704a2d978e930f75ce0aceac02d7177849a8a1a",
+      "size": 16096,
+      "type": [
+        "DYN (Position-Independent Executable file)"
+      ],
+      "build_id": [
+        "32b99493f7577afb3d188cacc03c1900c12a363c"
+      ],
+      "soname": [],
+      "needed": [
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": []
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13.2",
+      "role": "build/helper/object inventory",
+      "sha256": "29c63da664722f13f27317de27a49fe8422cf4160044f898951f31fb1ee28c27",
+      "size": 31037912,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "5032164402c90698b251e36f7ffd1d6676ac3203"
+      ],
+      "soname": [
+        "libdart-collision-ode.so.6.13"
+      ],
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libdart.so.6.13",
+        "libode.so.8",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13.2",
+      "role": "build/helper/object inventory",
+      "sha256": "5d48de3d22e998bdb81b26982dbc0845769aa9e1f179c81ee759ce6d54361fad",
+      "size": 18102136,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "87a64358383d1344454d0bc952108f53220e1f9f"
+      ],
+      "soname": [
+        "libdart-collision-bullet.so.6.13"
+      ],
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libdart.so.6.13",
+        "libBulletCollision.so.3.24",
+        "libLinearMath.so.3.24",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7.8.0",
+      "role": "build/helper/object inventory",
+      "sha256": "06bdf00cda17153e57e1b00194fc90264bde9d466ab9fc521407ee9152f4194b",
+      "size": 2640456,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "3f0ab788985f00cc3965990abd36d327e6773c26"
+      ],
+      "soname": [
+        "libgz-physics7.so.7"
+      ],
+      "needed": [
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2",
+      "role": "build/helper/object inventory",
+      "sha256": "42ff81108e013b45ed1b11a1433cea0ea18964d2280d09c61d05d0fbe49b4af4",
+      "size": 543979760,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "73389f08b463d16f3dc99cf86175ac3269fca169"
+      ],
+      "soname": [
+        "libdart.so.6.13"
+      ],
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libdart-external-odelcpsolver.so.6.13",
+        "libfcl.so.0.7",
+        "liboctomap.so.1.9",
+        "liboctomath.so.1.9",
+        "libassimp.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-utils-urdf.so.6.13.2",
+      "role": "build/helper/object inventory",
+      "sha256": "7f25cede2ed1e7e6d5dd614b7f6ac6bae9dc18756d120abd94dc8b9f3ba7e0c1",
+      "size": 12506280,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "47c744b3c9a89d23ad77956e785ab7af8e88ae39"
+      ],
+      "soname": [
+        "libdart-utils-urdf.so.6.13"
+      ],
+      "needed": [
+        "libdart-utils.so.6.13",
+        "libdart.so.6.13",
+        "libtinyxml2.so.10",
+        "liburdfdom_model.so.4.0",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-utils.so.6.13.2",
+      "role": "build/helper/object inventory",
+      "sha256": "77c411fdb057d0b820e650763034c13d0345f89b7eea58b5230e75004c5389fe",
+      "size": 134229712,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "2f54745f7bd03265d07eb91f222700d5445f8f66"
+      ],
+      "soname": [
+        "libdart-utils.so.6.13"
+      ],
+      "needed": [
+        "libdart.so.6.13",
+        "libtinyxml2.so.10",
+        "libassimp.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0",
+      "role": "build/helper/object inventory",
+      "sha256": "9dca4718eda1f970ba0d28e6d2f3233d081b781c2c44438e19b27a87448f43e8",
+      "size": 361432,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "e4d63405c531714379c1444ead4aeed25390a876"
+      ],
+      "soname": [
+        "libaero-joint-probe.so.1"
+      ],
+      "needed": [
+        "libcrypto.so.3",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13.2",
+      "role": "build/helper/object inventory",
+      "sha256": "18f2ce0216b00fe03d086e3ac2bfc7b7036c6355c8e57633ef075aefd7330b9a",
+      "size": 267112,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "d2f1cba8846f829c928989a93888775ce5b3b6d7"
+      ],
+      "soname": [
+        "libdart-external-odelcpsolver.so.6.13"
+      ],
+      "needed": [
+        "libstdc++.so.6",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "role": "build/helper/object inventory",
+      "sha256": "c652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c",
+      "size": 99090256,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "dfaac182e5227709a5743c64698f9e798053eb80"
+      ],
+      "soname": [
+        "libgz-physics7-dartsim-plugin.so.7"
+      ],
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libdart-collision-bullet.so.6.13",
+        "libLinearMath.so.3.24",
+        "libdart-collision-ode.so.6.13",
+        "libdart.so.6.13",
+        "libsdformat14.so.14",
+        "libgz-physics7.so.7",
+        "libgz-common5-graphics.so.5",
+        "libassimp.so.5",
+        "libgz-math7.so.7",
+        "libgz-common5.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "role": "build/helper/object inventory",
+      "sha256": "c652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c",
+      "size": 99090256,
+      "type": [
+        "DYN (Shared object file)"
+      ],
+      "build_id": [
+        "dfaac182e5227709a5743c64698f9e798053eb80"
+      ],
+      "soname": [
+        "libgz-physics7-dartsim-plugin.so.7"
+      ],
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libdart-collision-bullet.so.6.13",
+        "libLinearMath.so.3.24",
+        "libdart-collision-ode.so.6.13",
+        "libdart.so.6.13",
+        "libsdformat14.so.14",
+        "libgz-physics7.so.7",
+        "libgz-common5-graphics.so.5",
+        "libassimp.so.5",
+        "libgz-math7.so.7",
+        "libgz-common5.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "rpath": [],
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ]
+    }
+  ],
+  "reused_build_prefix_identity": [
+    {
+      "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0",
+      "source_build": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/probe/libaero-joint-probe.so.1.0",
+      "sha256": "9dca4718eda1f970ba0d28e6d2f3233d081b781c2c44438e19b27a87448f43e8",
+      "status": "PASS_REUSED_BYTE_IDENTITY"
+    },
+    {
+      "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13.2",
+      "source_build": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-collision-ode.so.6.13.2",
+      "sha256": "29c63da664722f13f27317de27a49fe8422cf4160044f898951f31fb1ee28c27",
+      "status": "PASS_REUSED_BYTE_IDENTITY"
+    },
+    {
+      "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2",
+      "source_build": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart.so.6.13.2",
+      "sha256": "42ff81108e013b45ed1b11a1433cea0ea18964d2280d09c61d05d0fbe49b4af4",
+      "status": "PASS_REUSED_BYTE_IDENTITY"
+    },
+    {
+      "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-utils.so.6.13.2",
+      "source_build": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-utils.so.6.13.2",
+      "sha256": "77c411fdb057d0b820e650763034c13d0345f89b7eea58b5230e75004c5389fe",
+      "status": "PASS_REUSED_BYTE_IDENTITY"
+    },
+    {
+      "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13.2",
+      "source_build": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-collision-bullet.so.6.13.2",
+      "sha256": "5d48de3d22e998bdb81b26982dbc0845769aa9e1f179c81ee759ce6d54361fad",
+      "status": "PASS_REUSED_BYTE_IDENTITY"
+    },
+    {
+      "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13.2",
+      "source_build": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2",
+      "sha256": "18f2ce0216b00fe03d086e3ac2bfc7b7036c6355c8e57633ef075aefd7330b9a",
+      "status": "PASS_REUSED_BYTE_IDENTITY"
+    },
+    {
+      "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-utils-urdf.so.6.13.2",
+      "source_build": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-utils-urdf.so.6.13.2",
+      "sha256": "7f25cede2ed1e7e6d5dd614b7f6ac6bae9dc18756d120abd94dc8b9f3ba7e0c1",
+      "status": "PASS_REUSED_BYTE_IDENTITY"
+    },
+    {
+      "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7.8.0",
+      "source_build": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/lib/libgz-physics7.so.7.8.0",
+      "sha256": "06bdf00cda17153e57e1b00194fc90264bde9d466ab9fc521407ee9152f4194b",
+      "status": "PASS_REUSED_BYTE_IDENTITY"
+    },
+    {
+      "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "source_build": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/lib/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "sha256": "c652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c",
+      "status": "PASS_REUSED_BYTE_IDENTITY"
+    },
+    {
+      "prefix": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "source_build": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/lib/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "sha256": "c652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c",
+      "status": "PASS_REUSED_BYTE_IDENTITY"
+    }
+  ],
+  "new_Sim_build_prefix_identity": "NOT_APPLICABLE_NOT_STAGED_GROUP_BUILD_FAILED",
+  "receipt": {
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0": {
+      "sha256": "9dca4718eda1f970ba0d28e6d2f3233d081b781c2c44438e19b27a87448f43e8",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/probe/libaero-joint-probe.so.1.0",
+      "component": "probe",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0"
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13.2": {
+      "sha256": "29c63da664722f13f27317de27a49fe8422cf4160044f898951f31fb1ee28c27",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-collision-ode.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13.2"
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2": {
+      "sha256": "42ff81108e013b45ed1b11a1433cea0ea18964d2280d09c61d05d0fbe49b4af4",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2"
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-utils.so.6.13.2": {
+      "sha256": "77c411fdb057d0b820e650763034c13d0345f89b7eea58b5230e75004c5389fe",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-utils.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-utils.so.6.13.2"
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13.2": {
+      "sha256": "5d48de3d22e998bdb81b26982dbc0845769aa9e1f179c81ee759ce6d54361fad",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-collision-bullet.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13.2"
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13.2": {
+      "sha256": "18f2ce0216b00fe03d086e3ac2bfc7b7036c6355c8e57633ef075aefd7330b9a",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13.2"
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-utils-urdf.so.6.13.2": {
+      "sha256": "7f25cede2ed1e7e6d5dd614b7f6ac6bae9dc18756d120abd94dc8b9f3ba7e0c1",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-utils-urdf.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-utils-urdf.so.6.13.2"
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7.8.0": {
+      "sha256": "06bdf00cda17153e57e1b00194fc90264bde9d466ab9fc521407ee9152f4194b",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/lib/libgz-physics7.so.7.8.0",
+      "component": "physics",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7.8.0"
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-physics7-dartsim-plugin.so.7.8.0": {
+      "sha256": "c652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/lib/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "component": "physics",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libgz-physics7-dartsim-plugin.so.7.8.0"
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0": {
+      "sha256": "c652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/lib/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "component": "physics",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0"
+    }
+  }
+}

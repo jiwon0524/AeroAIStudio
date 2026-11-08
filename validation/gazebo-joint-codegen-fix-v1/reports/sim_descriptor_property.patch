@@ -1,0 +1,5 @@
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -94,0 +95,2 @@
++# Exact verified descriptor staged with this build; installed target otherwise unchanged.
++set_property(TARGET gz-msgs10::gz-msgs10 PROPERTY GZ_MSGS_DESC_FILE "${AERO_JOINT_PREFIX}/share/gz/protos/gz-msgs10.gz_desc")

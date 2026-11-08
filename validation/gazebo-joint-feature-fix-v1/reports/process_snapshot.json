@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-08T13:36:57.496288+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "b82792eb0b269f355cebcecfbcaa6fdb4988feef",
+    "branch": "experiment/dart-internal-trace",
+    "status": [
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/inputs/stage-physics-interface-headers.cmake"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/artifacts.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/build_result.md"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_attempt_approved.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_attempt_final.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_attempt_first.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_execution.first.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_execution.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_origin.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_preflight.first.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_preflight.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_reproducibility.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/commands_final.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/compile_blocker.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/elf_summary.md"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/generated_command_inputs.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/input_additions.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/interface_header_additions.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/negative_tests.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/patch_validation.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/preservation_current.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/reuse_metadata_relocation.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/sim_descriptor_property.patch"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/sim_selected_closure.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/source_preservation.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/steps.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/steps_final.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/steps_retry.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/scripts/check_selected_sim.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/scripts/check_selection_broad.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/scripts/codegen_inputs.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/scripts/finalize_evidence_current.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/scripts/record_compile_blocker.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/scripts/run_codegen_final.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/scripts/test_codegen_guard.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/scripts/verify_codegen_origin.py"
+      },
+      {
+        "status": "??",
+        "path": "libgz-physics-dartsim-plugin.so"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-feature-fix-v1/reports/build_result.md",
+      "sha256": "c95c80ddb85e4d43db3c3e7387349928cf6fc93bdec51e715e6da18c6ff0698c"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}

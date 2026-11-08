@@ -1,0 +1,16 @@
+{
+  "status": "PASS_COMPILE_AND_STATIC",
+  "request": "physics::FeatureList<physics::dartsim::RetrieveWorld>",
+  "change": "exact optional feature-list membership only in isolated instrumented WorldEntityMap",
+  "policy": "EntityFeatureMap3d -> FeaturePolicy3d; CustomFeatures Implements3d<CustomFeatureList>; GZ_PHYSICS_ADD_PLUGIN(Plugin, FeaturePolicy3d, DartsimFeatures)",
+  "provider": "DartsimFeatures contains CustomFeatureList containing RetrieveWorld; CustomFeatures implements GetDartsimWorld returning worlds.at(identity); compiled provider symbols recorded in reuse.json",
+  "same_provider_headers": true,
+  "entity_map_static_assert_unchanged": true,
+  "runtime_missing_proxy_rejection_unchanged": true,
+  "JointValidate_identity_and_zero_time_checks_unchanged": true,
+  "compiler_gate_unchanged": true,
+  "source_before_sha256": "75b0ddc377e695fafbb35d8aab8e5f9a3bd6163ac7379cc5c0e588ab1029b994",
+  "source_after_sha256": "93417cadbc014648ee6ec8d8c9033c7240d76166627d83e885a04954d5caac9d",
+  "original_source_backup": "work/Physics.cc.before",
+  "NOT_RUNTIME_VERIFIED": true
+}

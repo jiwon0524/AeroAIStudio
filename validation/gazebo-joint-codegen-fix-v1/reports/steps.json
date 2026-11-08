@@ -1,0 +1,22 @@
+[
+  {
+    "step": "sim.configure",
+    "returncode": 0,
+    "host": "jiwon-System-Product-Name",
+    "pid": 10,
+    "start_identity": "32757353",
+    "seconds": 19.59,
+    "log": "validation/gazebo-joint-codegen-fix-v1/logs/sim.configure.log",
+    "log_sha256": "b192cca87e85d9bee4edae8c5623d1bb8ef472d9569c177933a93a88df1d3333"
+  },
+  {
+    "step": "sim.selection",
+    "returncode": 1,
+    "host": "jiwon-System-Product-Name",
+    "pid": 6,
+    "start_identity": "32765561",
+    "seconds": 11.94,
+    "log": "validation/gazebo-joint-codegen-fix-v1/logs/sim.selection.log",
+    "log_sha256": "940b01a9d002c235599a82a204bd6940061a0e30f77bab05906bd54253744239"
+  }
+]

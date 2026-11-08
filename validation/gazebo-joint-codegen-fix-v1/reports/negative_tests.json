@@ -1,0 +1,17 @@
+[
+  {
+    "case": "original_descriptor_path_rejected",
+    "status": "PASS_REJECTED",
+    "reason": ""
+  },
+  {
+    "case": "extra_descriptor_rejected",
+    "status": "PASS_REJECTED",
+    "reason": ""
+  },
+  {
+    "case": "changed_tool_hash_rejected",
+    "status": "PASS_REJECTED",
+    "reason": "unapproved/changed codegen input /usr/bin/gz-msgs10_protoc_plugin"
+  }
+]

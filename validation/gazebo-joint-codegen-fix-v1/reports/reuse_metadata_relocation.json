@@ -1,0 +1,14 @@
+{
+  "status": "PASS_HEADER_EQUIVALENCE_BEFORE_RELOCATION",
+  "header_files_compared": 444,
+  "scope": "new copied metadata only; exact include directory reference, no ELF/RPATH/macro changes",
+  "changes": [
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/cmake/gz-physics7-dartsim/gz-physics7-dartsim-targets.cmake",
+      "backup": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/metadata-before-relocation/lib/cmake/gz-physics7-dartsim/gz-physics7-dartsim-targets.cmake",
+      "before_sha256": "13f61db1601d3d43ab7e0035a9e174803229a81b2bbca60949141b38aa7fd021",
+      "after_sha256": "0a7df7933d74f5d4acab244838e7269e5994dcdd8b11fc3fdf890b0a5c251f60",
+      "patch": "--- \n+++ \n@@ -62 +62 @@\n-  INTERFACE_INCLUDE_DIRECTORIES \"/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/include\"\n+  INTERFACE_INCLUDE_DIRECTORIES \"/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/include\"\n@@ -64 +64 @@\n-  INTERFACE_SYSTEM_INCLUDE_DIRECTORIES \"/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/include\"\n+  INTERFACE_SYSTEM_INCLUDE_DIRECTORIES \"/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/include\"\n"
+    }
+  ]
+}

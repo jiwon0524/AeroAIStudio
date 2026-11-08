@@ -1,3 +1,251 @@
+# RetrieveWorld feature repair — current checkpoint
+
+2026-11-08 UTC. User scope: resume interrupted joint build in experiment worktree; build/static checks only, stop at first mismatch. context-handoff used. Starting HEAD and actual GitHub experiment ref b82792eb0b269f355cebcecfbcaa6fdb4988feef; 37 prior staged checkpoint files, no prior commit/push. Root dangling symlink origin confirmed and preserved untracked.
+
+**PHYSICS_FEATURE_CONTRACT_FIXED / SIM_BUILD_STATIC_STAGE_RECEIPT_PASS / HARNESS_SELECTION_BLOCKED / joint build INCOMPLETE / NOT_RUNTIME_VERIFIED. Stage B BLOCKED; risk acceptance UNDECIDED.**
+
+Current report: validation/gazebo-joint-feature-fix-v1/reports/build_result.md; contract.json, actual_headers.json, elf_and_receipt.json, reuse.json, steps.json and optional_retrieve_world.patch in that reports directory. Historical codegen build_result remains unchanged.
+
+Minimal change: only add exact optional FeatureList<dartsim::RetrieveWorld> to isolated instrumented Sim WorldEntityMap. EntityFeatureMap3d and provider Implements3d/plugin registration agree on FeaturePolicy3d; actual consumer World.hh equals compiled provider source. Provider symbols confirmed statically. Existing static_assert, typed casts, missing-feature/null-world/identity checks and prestep GO refusal unchanged. Original isolated Physics.cc saved in new phase work/Physics.cc.before; patch exact replay PASS. Production/main untouched.
+
+Preflight PASS10 prior build/prefix ELF pairs,22 generated files and core hash. Physics.cc.o first compile PASS34.83s through unchanged gate; selected two-target link PASS0.55s. Actual46 objects/1614 dependencies, zero /usr/local, external hashes checked. Sim ELF closure PASS; narrow3 stages and receipt PASS. Final13 unique ELF receipt pairs match build bytes. Core SHA25b168676e55c1bfb847a92b0648802f916af96bd1730a9344e196632dea9128; Physics system SHAdfe093dc43a949bc554de3f52223aae3f437759a6378cd5aa22cca5d21423a11. Core prefix/lib and Physics prefix/lib + lib/gz-sim-8/plugins match. Both have only expected prefix/deps RUNPATH, no RPATH/empty/build search path. Actual link uses source-built core, current-prefix DART6+physics core and hash-bound predecessor probes; dartsim plugin is a separate provider, never loaded.
+
+Harness configure PASS4.96s; exact prior harness.selection command FAIL exit2 because codegen phase scripts/check_selection_harness.py is absent. First new unmet gate; stopped without bypass or harness build. Log validation/gazebo-joint-feature-fix-v1/logs/harness.selection.log SHA647775910db46e31ff39991d49e17ee3357f3f07f01c96f387729c993b490445. Next minimum: review and implement missing rejecting harness selection checker, validate actual configure inputs/target/header/library closure with unchanged locks, then resume at selection using fresh logs. Do not rebuild successful stages automatically or retry the failure-latched runner blindly.
+
+Previous staged evidence preserved (staged_preservation.json), old codegen logs/reports retained, successful Sim entries added to current local receipt. Main read-only final observation in main_observation.json; marker files untouched/unconsumed. No subject loading/execution/steps/services/sudo/packages/system changes. Root symlink to libgz-physics7-dartsim-plugin.so remains dangling, excluded. All launched processes exited; steps.json host/PID/start/output identity. Snapshot visibility is limited to project CWD; external-CWD/remote/container jobs UNKNOWN. No existing process terminated/restarted.
+
+Publish verified lightweight patch/scripts/reports, existing staged codegen checkpoint and this handoff on experiment branch only. Raw logs/source backup/builds/prefix/large locks are local/ignored; /tmp is not durable and Git does not transfer them. Snapshot is pre-publication; reconcile subsequent commit parent/file list and local publication receipt rather than expecting unchanged HEAD.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-08T13:36:57.496288+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "b82792eb0b269f355cebcecfbcaa6fdb4988feef",
+    "branch": "experiment/dart-internal-trace",
+    "status": [
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/inputs/stage-physics-interface-headers.cmake"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/artifacts.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/build_result.md"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_attempt_approved.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_attempt_final.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_attempt_first.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_execution.first.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_execution.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_origin.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_preflight.first.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_preflight.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/codegen_reproducibility.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/commands_final.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/compile_blocker.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/elf_summary.md"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/generated_command_inputs.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/input_additions.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/interface_header_additions.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/negative_tests.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/patch_validation.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/preservation_current.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/reuse_metadata_relocation.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/sim_descriptor_property.patch"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/sim_selected_closure.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/source_preservation.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/steps.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/steps_final.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/reports/steps_retry.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/scripts/check_selected_sim.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/scripts/check_selection_broad.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/scripts/codegen_inputs.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/scripts/finalize_evidence_current.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/scripts/record_compile_blocker.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/scripts/run_codegen_final.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/scripts/test_codegen_guard.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-codegen-fix-v1/scripts/verify_codegen_origin.py"
+      },
+      {
+        "status": "??",
+        "path": "libgz-physics-dartsim-plugin.so"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-feature-fix-v1/reports/build_result.md",
+      "sha256": "c95c80ddb85e4d43db3c3e7387349928cf6fc93bdec51e715e6da18c6ff0698c"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+---
+Previous checkpoint follows:
+
+# Sim codegen input repair — current checkpoint
+
+2026-11-08 UTC. Starting HEADb82792e, experiment/dart-internal-trace, tracked clean; old untracked root libgz-physics-dartsim-plugin.so preserved. User authorizes exact descriptor/data pinning after correspondence checks, build-tool codegen execution, isolated compile/link/stage/static continuation; no subject load/run/steps/services/markers/sudo/install/system change. Required instructions/contracts read; context-handoff used.
+
+**SIM_CODEGEN_INPUT_FIXED_AND_EXECUTED / SIM_CORE_LINKED_PARTIAL / PHYSICS_SYSTEM_FEATURE_CONTRACT_BLOCKED / joint build INCOMPLETE / NOT_RUNTIME_VERIFIED. Stage B BLOCKED; risk acceptance UNDECIDED.**
+
+Report validation/gazebo-joint-codegen-fix-v1/reports/build_result.md. Descriptor83796 bytes SHAc7e1d435538f1a009d034a1e237d3a9a41233aaf9846e41e02525163b1cc5861 is libgz-msgs10/source gz-msgs10 10.4.0-1~noble amd64, same package family/version as selected headers/library/tools; package control md5/old SHA locks match, OSRF noble/main apt candidate metadata recorded (historical install transaction not reauthenticated).212 embedded descriptors close external imports for4 source protos. Scripts use stdlib only; factory reads4 generated pb_index files; protoc/plugin native ELF closure is pinned standard protobuf/runtime, no subject libraries.
+
+One data file copied to new phase/work/config-01/prefix/share/gz/protos/gz-msgs10.gz_desc; derivative SDK lock adds exactly that path/hash, no /usr/share/gz directory permission or original-path generation fallback. Sim CMake GZ_MSGS_DESC_FILE property points there. Input delta/origin and exact generator argv pinned in reports. Validator permits only2 fixed scripts/options/protoc/plugin/source4/descriptor1/build outputs.3 negative tests reject original descriptor path, extra descriptor, wrong tool hash. GCC print-file-name resolves pinned stdc++fs.a. No SDK tools/packages updated.
+
+DART/probe/physics not rebuilt.10 reused prefix/build ELF pairs rechecked byte-identical; original RUNPATH/path binding retained. One copied physics export's old include reference relocated to equivalent new prefix after444 header byte comparisons, only metadata-copy change, not original/RPATH/header guard. Failed build/sim selector log retained; fresh build/sim-02 selector PASS. Codegen strace first blocked by sandbox ptrace before launch; after environment approval dedicated5-action Ninja generation PASS22 outputs, descriptor read4 times only at new prefix, no extra external proto/descriptor or target library open/exec. Raw first failure and approved traces preserved.
+
+First Sim group build in sim-02 linked core then failed missing MeshShape.hh.11 public mesh/heightmap/sdf headers were omitted by original Unspecified staging rules. Exact same successful physics source headers SHA-guarded into new prefix, no host substitute/new target. New build/sim-03 preserves failed core/log. Configure/selection PASS; repeated traced codegen PASS22 identical content hashes across2 output dirs. Current full compile gets45 core objects and links core, then Physics.cc.o fails genuine type contract: Physics.cc:1118 EntityCast<physics::FeatureList<dartsim::RetrieveWorld>> is absent from WorldEntityMap OptionalFeatureLists; EntityFeatureMap.hh:103 static_assert rejects. No C++ source, assertion, cast/feature behavior or solver code changed. Reconstructed preprocessing confirms10 fixed headers now parse and no /usr/local; successful actual45-object dependency metadata has no local headers. compile_blocker.json/source_preservation record evidence.
+
+Latest partial libgz-sim8.so.8.15.0 SHA25b168676e55c1bfb847a92b0648802f916af96bd1730a9344e196632dea9128, Build ID2ef698d5755bce23d06410751edb6827b4be233f, SONAME libgz-sim8.so.8. Earlier partial core preserved. artifacts/elf_summary inventory114 ELF/helper/object entries and10 reused identity pairs. Core RPATH absent; RUNPATH new prefix/lib+fixed deps, no empty/build path. Whole Sim build FAIL85.22s, Physics DSO not linked; Sim audit/stage/receipt/harness NOT_STARTED. No manual partial receipt/stage. Next minimum: separately review correct optional RetrieveWorld feature-list registration against native provider/identity/no-step contract, retain static_assert, then fresh validated source/build. Data/codegen repair is complete; no target execution authorized.
+
+Current raw descriptor/header copies, source/build/ELFs/generated outputs/native traces/dep logs and derivative large lock remain local/ignored; Git does not transfer them, /tmp not durable, predecessor prefixes still required. Only verified guard/staging/recording scripts, lightweight delta/reports/handoff publish. Original main/dirty work, old source/input/evidence/ELF/receipt/markers and root dangling link preserved. All task processes observed exited, host/PID/start/log hashes in step/codegen records; none terminated/restarted. Configure GzCheckSSE intentional compile-error architecture protocol never runs target; deny emulator unchanged. Project-CWD snapshot below; external-CWD/remote/container/other namespaces UNKNOWN. Automatic experiment-only checkpoint, no main/merge/force. Snapshot pre-publication: reconcile commit parent/file list/remote receipt.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-08T10:26:01.315045+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "b82792eb0b269f355cebcecfbcaa6fdb4988feef",
+    "branch": "experiment/dart-internal-trace",
+    "status": [
+      {
+        "status": "??",
+        "path": "libgz-physics-dartsim-plugin.so"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/reports/build_result.md",
+      "sha256": "6ba0a1b7643fa0c21f286d023df189cdc3a51e32211ef48ea33ff89568abc894"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+---
+Previous checkpoint follows:
+
 # gz-physics configure repair / joint build continuation — current checkpoint
 
 2026-11-08 UTC. Starting HEADc699442, experiment/dart-internal-trace, tracked clean; prior untracked root libgz-physics-dartsim-plugin.so preserved. Explicit user scope: generated DART header + physics export repair, reuse valid DART artifacts, isolated build/static continuation until out-of-contract input or target execution requirement. Required instructions/contracts/readouts read; context-handoff used.

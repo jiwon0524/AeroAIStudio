@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "descriptor_open_count": 4,
+  "source_proto_reads": [
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto/gz/sim/private_msgs/peer_control.proto",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto/gz/sim/private_msgs/peer_info.proto",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto/gz/sim/private_msgs/performer_affinity.proto",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto/gz/sim/private_msgs/simulation_step.proto"
+  ],
+  "factory_index_reads": [
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/gz_msgs_gen/gz_sim_private_msgs_peer_control.pb_index",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/gz_msgs_gen/gz_sim_private_msgs_peer_info.pb_index",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/gz_msgs_gen/gz_sim_private_msgs_performer_affinity.pb_index",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/gz_msgs_gen/gz_sim_private_msgs_simulation_step.pb_index"
+  ],
+  "exec_trace": [
+    "288697 execve(\"/usr/bin/ninja\", [\"/usr/bin/ninja\", \"-C\", \"/tmp/AeroAIStudio-dart-internal-\"..., \"-v\", \"-j\", \"1\", \"gz_msgs_gen/gz/sim/private_msgs/\"...], 0x7fff2f790d90 /* 55 vars */) = 0",
+    "288698 execve(\"/bin/sh\", [\"/bin/sh\", \"-c\", \"cd /tmp/AeroAIStudio-dart-intern\"...], 0x7ffc88d8e268 /* 55 vars */) = 0",
+    "288699 execve(\"/usr/bin/python3\", [\"/usr/bin/python3\", \"/usr//bin/gz-msgs10_generate.py\", \"--protoc-exec\", \"/usr/bin/protoc\", \"--gz-generator-bin\", \"/usr//bin/gz-msgs10_protoc_plugi\"..., \"--proto-path\", \"/tmp/AeroAIStudio-dart-internal-\"..., \"--input-path\", \"/tmp/AeroAIStudio-dart-internal-\"..., \"--dependency-proto-descs\", \"/tmp/AeroAIStudio-dart-internal-\"..., \"--generate-cpp\", \"--output-cpp-path\", \"/tmp/AeroAIStudio-dart-internal-\"..., \"--generate-python\", \"--output-python-path\", \"/tmp/AeroAIStudio-dart-internal-\"...], 0x5847a569c358 /* 55 vars */) = 0",
+    "288700 execve(\"/usr/bin/protoc\", [\"/usr/bin/protoc\", \"--proto_path=/tmp/AeroAIStudio-d\"..., \"--descriptor_set_in=/tmp/AeroAIS\"..., \"--plugin=protoc-gen-gzmsgs=/usr/\"..., \"--cpp_out=/tmp/AeroAIStudio-dart\"..., \"--gzmsgs_out=/tmp/AeroAIStudio-d\"..., \"--python_out=/tmp/AeroAIStudio-d\"..., \"/tmp/AeroAIStudio-dart-internal-\"...], 0x7ffd975ee140 /* 55 vars */) = 0",
+    "288701 execve(\"/usr//bin/gz-msgs10_protoc_plugin\", [\"/usr//bin/gz-msgs10_protoc_plugi\"...], 0x7ffd08e1d370 /* 55 vars */) = 0",
+    "288702 execve(\"/bin/sh\", [\"/bin/sh\", \"-c\", \"cd /tmp/AeroAIStudio-dart-intern\"...], 0x7ffc88d8e268 /* 55 vars */) = 0",
+    "288703 execve(\"/usr/bin/python3\", [\"/usr/bin/python3\", \"/usr//bin/gz-msgs10_generate.py\", \"--protoc-exec\", \"/usr/bin/protoc\", \"--gz-generator-bin\", \"/usr//bin/gz-msgs10_protoc_plugi\"..., \"--proto-path\", \"/tmp/AeroAIStudio-dart-internal-\"..., \"--input-path\", \"/tmp/AeroAIStudio-dart-internal-\"..., \"--dependency-proto-descs\", \"/tmp/AeroAIStudio-dart-internal-\"..., \"--generate-cpp\", \"--output-cpp-path\", \"/tmp/AeroAIStudio-dart-internal-\"..., \"--generate-python\", \"--output-python-path\", \"/tmp/AeroAIStudio-dart-internal-\"...], 0x6482f5f2a348 /* 55 vars */) = 0",
+    "288704 execve(\"/usr/bin/protoc\", [\"/usr/bin/protoc\", \"--proto_path=/tmp/AeroAIStudio-d\"..., \"--descriptor_set_in=/tmp/AeroAIS\"..., \"--plugin=protoc-gen-gzmsgs=/usr/\"..., \"--cpp_out=/tmp/AeroAIStudio-dart\"..., \"--gzmsgs_out=/tmp/AeroAIStudio-d\"..., \"--python_out=/tmp/AeroAIStudio-d\"..., \"/tmp/AeroAIStudio-dart-internal-\"...], 0x7ffcd85dd1d0 /* 55 vars */) = 0",
+    "288705 execve(\"/usr//bin/gz-msgs10_protoc_plugin\", [\"/usr//bin/gz-msgs10_protoc_plugi\"...], 0x7ffd3db9be80 /* 55 vars */) = 0",
+    "288706 execve(\"/bin/sh\", [\"/bin/sh\", \"-c\", \"cd /tmp/AeroAIStudio-dart-intern\"...], 0x7ffc88d8e268 /* 55 vars */) = 0",
+    "288707 execve(\"/usr/bin/python3\", [\"/usr/bin/python3\", \"/usr//bin/gz-msgs10_generate.py\", \"--protoc-exec\", \"/usr/bin/protoc\", \"--gz-generator-bin\", \"/usr//bin/gz-msgs10_protoc_plugi\"..., \"--proto-path\", \"/tmp/AeroAIStudio-dart-internal-\"..., \"--input-path\", \"/tmp/AeroAIStudio-dart-internal-\"..., \"--dependency-proto-descs\", \"/tmp/AeroAIStudio-dart-internal-\"..., \"--generate-cpp\", \"--output-cpp-path\", \"/tmp/AeroAIStudio-dart-internal-\"..., \"--generate-python\", \"--output-python-path\", \"/tmp/AeroAIStudio-dart-internal-\"...], 0x560fb959f358 /* 55 vars */) = 0",
+    "288708 execve(\"/usr/bin/protoc\", [\"/usr/bin/protoc\", \"--proto_path=/tmp/AeroAIStudio-d\"..., \"--descriptor_set_in=/tmp/AeroAIS\"..., \"--plugin=protoc-gen-gzmsgs=/usr/\"..., \"--cpp_out=/tmp/AeroAIStudio-dart\"..., \"--gzmsgs_out=/tmp/AeroAIStudio-d\"..., \"--python_out=/tmp/AeroAIStudio-d\"..., \"/tmp/AeroAIStudio-dart-internal-\"...], 0x7ffcef2fc6a0 /* 55 vars */) = 0",
+    "288709 execve(\"/usr//bin/gz-msgs10_protoc_plugin\", [\"/usr//bin/gz-msgs10_protoc_plugi\"...], 0x7ffdda574730 /* 55 vars */) = 0",
+    "288710 execve(\"/bin/sh\", [\"/bin/sh\", \"-c\", \"cd /tmp/AeroAIStudio-dart-intern\"...], 0x7ffc88d8e268 /* 55 vars */) = 0",
+    "288711 execve(\"/usr/bin/python3\", [\"/usr/bin/python3\", \"/usr//bin/gz-msgs10_generate.py\", \"--protoc-exec\", \"/usr/bin/protoc\", \"--gz-generator-bin\", \"/usr//bin/gz-msgs10_protoc_plugi\"..., \"--proto-path\", \"/tmp/AeroAIStudio-dart-internal-\"..., \"--input-path\", \"/tmp/AeroAIStudio-dart-internal-\"..., \"--dependency-proto-descs\", \"/tmp/AeroAIStudio-dart-internal-\"..., \"--generate-cpp\", \"--output-cpp-path\", \"/tmp/AeroAIStudio-dart-internal-\"..., \"--generate-python\", \"--output-python-path\", \"/tmp/AeroAIStudio-dart-internal-\"...], 0x5ca4e8f70358 /* 55 vars */) = 0",
+    "288712 execve(\"/usr/bin/protoc\", [\"/usr/bin/protoc\", \"--proto_path=/tmp/AeroAIStudio-d\"..., \"--descriptor_set_in=/tmp/AeroAIS\"..., \"--plugin=protoc-gen-gzmsgs=/usr/\"..., \"--cpp_out=/tmp/AeroAIStudio-dart\"..., \"--gzmsgs_out=/tmp/AeroAIStudio-d\"..., \"--python_out=/tmp/AeroAIStudio-d\"..., \"/tmp/AeroAIStudio-dart-internal-\"...], 0x7ffe32158560 /* 55 vars */) = 0",
+    "288713 execve(\"/usr//bin/gz-msgs10_protoc_plugin\", [\"/usr//bin/gz-msgs10_protoc_plugi\"...], 0x7ffe85145c90 /* 55 vars */) = 0",
+    "288714 execve(\"/bin/sh\", [\"/bin/sh\", \"-c\", \"cd /tmp/AeroAIStudio-dart-intern\"...], 0x7ffc88d8e268 /* 55 vars */) = 0",
+    "288715 execve(\"/usr/bin/python3\", [\"/usr/bin/python3\", \"/usr//bin/gz-msgs10_generate_fac\"..., \"--output-cpp-path\", \"/tmp/AeroAIStudio-dart-internal-\"..., \"--proto-package\", \"gz.sim.private_msgs\", \"--proto-path\", \"/tmp/AeroAIStudio-dart-internal-\"..., \"--protos\", \"/tmp/AeroAIStudio-dart-internal-\"..., \"/tmp/AeroAIStudio-dart-internal-\"..., \"/tmp/AeroAIStudio-dart-internal-\"..., \"/tmp/AeroAIStudio-dart-internal-\"...], 0x55c6adcaf398 /* 55 vars */) = 0"
+  ],
+  "output_hashes": {
+    "gz_msgs_gen/gz_sim_private_msgs_peer_info.pb_index": "b3bbacc49e6d6ba66352bf95fba7388d55d75de5f691b5b2d96a7560d42d5850",
+    "gz_msgs_gen/gz_sim_private_msgs_performer_affinity.pb_index": "9d66958bb3806539191d80f8f321b21aa169d9cef6afbf3cb2b94ace8f1acb67",
+    "gz_msgs_gen/gz_sim_private_msgs_simulation_step.pb_index": "97a21d915def8fd18b2fbc6cac3c6071066be04281eff59f4afc3b098ecb79e3",
+    "gz_msgs_gen/gz_sim_private_msgs_peer_control.pb_index": "677fd7e3fbb13d57898152e757b04a20a6f34d2c131a0108e963db4f3d97c18d",
+    "gz_msgs_gen/gz/sim/private_msgs/performer_affinity.pb.cc": "caac0fad980022688810fd4a2cdcff401d3ff65cd67add48bb9e6bd856762c5d",
+    "gz_msgs_gen/gz/sim/private_msgs/simulation_step.pb.cc": "610f4c03fc4a1ec3dc5f7352de70a1a8a64cfec71f60cf60806bd0633fc42e7c",
+    "gz_msgs_gen/gz/sim/private_msgs/peer_control.pb.cc": "a6e112e74e6e9e056ee2e2190d2a0773a1748cf5303b33cf3be694c28ed798a0",
+    "gz_msgs_gen/gz/sim/private_msgs/peer_info.pb.cc": "5c6222d57b79b833cb422be3e3a03270bd9ec9db1624679f53b7d67d41b6a07f",
+    "gz_msgs_gen/gz/sim/private_msgs/peer_info.pb.h": "17878db75b27cb62da18b2c4d29263c46d0e0bc11afed82bc5519af2a1a6ba9a",
+    "gz_msgs_gen/gz/sim/private_msgs/register.cc": "b511da952f0d11cad3f3049caa0fec91f21276984aa3b26cab15af20df1edaca",
+    "gz_msgs_gen/gz/sim/private_msgs/peer_control.pb.h": "4469698efd236b1af900a962651597068b798e7712809a8ec755ab45b05e29f5",
+    "gz_msgs_gen/gz/sim/private_msgs/performer_affinity.pb.h": "a4ff31692c1333b095886d7122f3ba14844feae4e4c7114a2a201f4a531927e4",
+    "gz_msgs_gen/gz/sim/private_msgs/simulation_step.pb.h": "75a82fc3c49010775bc47da1ec7cfa62f532234b8108bef0b7021704d72121aa",
+    "gz_msgs_gen/gz/sim/private_msgs/MessageTypes.hh": "c0432ceb6972ec205871d4cf858333a71531852f3b942e7398ec8c0cc7344f9f",
+    "gz_msgs_gen/gz/sim/private_msgs/details/peer_info.pb.h": "524b02f22440ce937e4f2602ccf7e5f948f7436b0e10bb3b59bafd26140ff107",
+    "gz_msgs_gen/gz/sim/private_msgs/details/peer_control.pb.h": "d352623d3847f44565dfd890df72cbb228d26dabef146f487ba709e570675573",
+    "gz_msgs_gen/gz/sim/private_msgs/details/performer_affinity.pb.h": "3d0c36d6c6aaf399c088a09c9174952f27c95c03bb57190a442a49b7da89a12d",
+    "gz_msgs_gen/gz/sim/private_msgs/details/simulation_step.pb.h": "0f46fcb453f4ce48d9c61acce5c4e691a768a38662075e037cb87d00638cf318",
+    "gz_msgs_gen/python/gz/sim/private_msgs/peer_control_pb2.py": "7c32ec90b6f3ebb6abc46a37d4229a115c9fcc65337a8164155dbec16198f4da",
+    "gz_msgs_gen/python/gz/sim/private_msgs/peer_info_pb2.py": "e3e992d305da84cdf6b3b79713bc5a79234fcb0c5c65eda432f7257401344db4",
+    "gz_msgs_gen/python/gz/sim/private_msgs/performer_affinity_pb2.py": "fc1d75458112bd409a5ee2d430942a83410741fe542b34ae5b550cfe29bbed58",
+    "gz_msgs_gen/python/gz/sim/private_msgs/simulation_step_pb2.py": "dc1da8c3a0fc50d1fc866e70bdd01901f87199937c1c53d6a50c79f3ef49fa64"
+  },
+  "trace_sha256": "2a2d528b1aecd06e0629ec7842369cf64ed5bc2f84b06c9991b31aebfaeac645",
+  "execution": {
+    "returncode": 0,
+    "host": "jiwon-System-Product-Name",
+    "pid": 288694,
+    "start_identity": "32791971",
+    "seconds": 0.32,
+    "log": "validation/gazebo-joint-codegen-fix-v1/logs/codegen.approved.log",
+    "trace": "validation/gazebo-joint-codegen-fix-v1/logs/codegen.approved.strace"
+  },
+  "scope": "only five selected codegen actions; no subject build/execution/load"
+}

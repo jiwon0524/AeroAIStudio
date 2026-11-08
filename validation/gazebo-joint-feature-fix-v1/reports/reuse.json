@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "receipt_pairs": [
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0",
+      "sha256": "9dca4718eda1f970ba0d28e6d2f3233d081b781c2c44438e19b27a87448f43e8",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/probe/libaero-joint-probe.so.1.0",
+      "component": "probe",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13.2",
+      "sha256": "29c63da664722f13f27317de27a49fe8422cf4160044f898951f31fb1ee28c27",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-collision-ode.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13.2"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2",
+      "sha256": "42ff81108e013b45ed1b11a1433cea0ea18964d2280d09c61d05d0fbe49b4af4",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-utils.so.6.13.2",
+      "sha256": "77c411fdb057d0b820e650763034c13d0345f89b7eea58b5230e75004c5389fe",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-utils.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-utils.so.6.13.2"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13.2",
+      "sha256": "5d48de3d22e998bdb81b26982dbc0845769aa9e1f179c81ee759ce6d54361fad",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-collision-bullet.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13.2"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13.2",
+      "sha256": "18f2ce0216b00fe03d086e3ac2bfc7b7036c6355c8e57633ef075aefd7330b9a",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13.2"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart-utils-urdf.so.6.13.2",
+      "sha256": "7f25cede2ed1e7e6d5dd614b7f6ac6bae9dc18756d120abd94dc8b9f3ba7e0c1",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/lib/libdart-utils-urdf.so.6.13.2",
+      "component": "dart",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-utils-urdf.so.6.13.2"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7.8.0",
+      "sha256": "06bdf00cda17153e57e1b00194fc90264bde9d466ab9fc521407ee9152f4194b",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/lib/libgz-physics7.so.7.8.0",
+      "component": "physics",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7.8.0"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "sha256": "c652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/lib/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "component": "physics",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libgz-physics7-dartsim-plugin.so.7.8.0"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "sha256": "c652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/build/physics/lib/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "component": "physics",
+      "reused_from": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0"
+    }
+  ],
+  "generated_outputs_checked": 22,
+  "core": {
+    "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-03/lib/libgz-sim8.so.8.15.0",
+    "sha256": "25b168676e55c1bfb847a92b0648802f916af96bd1730a9344e196632dea9128"
+  },
+  "source_before": "75b0ddc377e695fafbb35d8aab8e5f9a3bd6163ac7379cc5c0e588ab1029b994",
+  "source_after": "93417cadbc014648ee6ec8d8c9033c7240d76166627d83e885a04954d5caac9d",
+  "provider_symbols": [
+    "00000000001e2720 T gz::physics::dartsim::CustomFeatures::GetDartsimWorld(gz::physics::Identity const&)",
+    "00000000001e2820 T virtual thunk to gz::physics::dartsim::CustomFeatures::GetDartsimWorld(gz::physics::Identity const&)"
+  ],
+  "root_link": {
+    "target": "libgz-physics7-dartsim-plugin.so",
+    "target_exists": false
+  },
+  "staged_before": "M\thandoff.md\nA\tvalidation/gazebo-joint-codegen-fix-v1/inputs/stage-physics-interface-headers.cmake\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/artifacts.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/build_result.md\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/codegen_attempt_approved.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/codegen_attempt_final.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/codegen_attempt_first.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/codegen_execution.first.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/codegen_execution.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/codegen_origin.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/codegen_preflight.first.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/codegen_preflight.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/codegen_reproducibility.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/commands_final.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/compile_blocker.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/elf_summary.md\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/generated_command_inputs.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/input_additions.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/interface_header_additions.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/negative_tests.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/patch_validation.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/preservation_current.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/reuse_metadata_relocation.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/sim_descriptor_property.patch\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/sim_selected_closure.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/source_preservation.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/steps.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/steps_final.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/reports/steps_retry.json\nA\tvalidation/gazebo-joint-codegen-fix-v1/scripts/check_selected_sim.py\nA\tvalidation/gazebo-joint-codegen-fix-v1/scripts/check_selection_broad.py\nA\tvalidation/gazebo-joint-codegen-fix-v1/scripts/codegen_inputs.py\nA\tvalidation/gazebo-joint-codegen-fix-v1/scripts/finalize_evidence_current.py\nA\tvalidation/gazebo-joint-codegen-fix-v1/scripts/record_compile_blocker.py\nA\tvalidation/gazebo-joint-codegen-fix-v1/scripts/run_codegen_final.py\nA\tvalidation/gazebo-joint-codegen-fix-v1/scripts/test_codegen_guard.py\nA\tvalidation/gazebo-joint-codegen-fix-v1/scripts/verify_codegen_origin.py\n"
+}

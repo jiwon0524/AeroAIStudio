@@ -1,0 +1,164 @@
+{
+  "commands": [
+    {
+      "script": "/usr/bin/gz-msgs10_generate.py",
+      "options": {
+        "--protoc-exec": "/usr/bin/protoc",
+        "--gz-generator-bin": "/usr//bin/gz-msgs10_protoc_plugin",
+        "--proto-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto",
+        "--input-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto/gz/sim/private_msgs/peer_control.proto",
+        "--dependency-proto-descs": [
+          "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/share/gz/protos/gz-msgs10.gz_desc"
+        ],
+        "--generate-cpp": true,
+        "--output-cpp-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/gz_msgs_gen",
+        "--generate-python": true,
+        "--output-python-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/gz_msgs_gen/python/"
+      }
+    },
+    {
+      "script": "/usr/bin/gz-msgs10_generate.py",
+      "options": {
+        "--protoc-exec": "/usr/bin/protoc",
+        "--gz-generator-bin": "/usr//bin/gz-msgs10_protoc_plugin",
+        "--proto-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto",
+        "--input-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto/gz/sim/private_msgs/peer_info.proto",
+        "--dependency-proto-descs": [
+          "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/share/gz/protos/gz-msgs10.gz_desc"
+        ],
+        "--generate-cpp": true,
+        "--output-cpp-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/gz_msgs_gen",
+        "--generate-python": true,
+        "--output-python-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/gz_msgs_gen/python/"
+      }
+    },
+    {
+      "script": "/usr/bin/gz-msgs10_generate.py",
+      "options": {
+        "--protoc-exec": "/usr/bin/protoc",
+        "--gz-generator-bin": "/usr//bin/gz-msgs10_protoc_plugin",
+        "--proto-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto",
+        "--input-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto/gz/sim/private_msgs/performer_affinity.proto",
+        "--dependency-proto-descs": [
+          "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/share/gz/protos/gz-msgs10.gz_desc"
+        ],
+        "--generate-cpp": true,
+        "--output-cpp-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/gz_msgs_gen",
+        "--generate-python": true,
+        "--output-python-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/gz_msgs_gen/python/"
+      }
+    },
+    {
+      "script": "/usr/bin/gz-msgs10_generate.py",
+      "options": {
+        "--protoc-exec": "/usr/bin/protoc",
+        "--gz-generator-bin": "/usr//bin/gz-msgs10_protoc_plugin",
+        "--proto-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto",
+        "--input-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto/gz/sim/private_msgs/simulation_step.proto",
+        "--dependency-proto-descs": [
+          "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/share/gz/protos/gz-msgs10.gz_desc"
+        ],
+        "--generate-cpp": true,
+        "--output-cpp-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/gz_msgs_gen",
+        "--generate-python": true,
+        "--output-python-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/gz_msgs_gen/python/"
+      }
+    },
+    {
+      "script": "/usr/bin/gz-msgs10_generate_factory.py",
+      "options": {
+        "--output-cpp-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/build/sim-02/gz_msgs_gen",
+        "--proto-package": "gz.sim.private_msgs",
+        "--proto-path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto",
+        "--protos": [
+          "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto/gz/sim/private_msgs/peer_control.proto",
+          "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto/gz/sim/private_msgs/peer_info.proto",
+          "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto/gz/sim/private_msgs/performer_affinity.proto",
+          "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/proto/gz/sim/private_msgs/simulation_step.proto"
+        ]
+      }
+    }
+  ],
+  "native_tool_closure": {
+    "/usr/bin/gz-msgs10_protoc_plugin": {
+      "sha256": "81fb47d5e772f989d49efaa7b1fc53196c1e4b645bf7adb7a1134edac4c244c4",
+      "needed": [
+        "libprotoc.so.32",
+        "libprotobuf.so.32",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    "/usr/lib/x86_64-linux-gnu/libc.so.6": {
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf",
+      "needed": [
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2": {
+      "sha256": "c20a2dc8917c755f02b94049356320fe1f62ac7d9f8994731f807d9df39302da",
+      "needed": []
+    },
+    "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1": {
+      "sha256": "d93224d2b0dab4247598be683adca02f5cf00586f99c187579cd7e92058fb7cb",
+      "needed": [
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33": {
+      "sha256": "1fd75fe70354a416d75aef22bcae68c47bd25d20e2d0568c30b1a9838cf62f11",
+      "needed": [
+        "libm.so.6",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2",
+        "libgcc_s.so.1"
+      ]
+    },
+    "/usr/lib/x86_64-linux-gnu/libm.so.6": {
+      "sha256": "fce00b6f25f459cf4ae0b7fae4257909a1a8a86f9149e7c029a5d617baf1ccd0",
+      "needed": [
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    "/usr/lib/x86_64-linux-gnu/libprotobuf.so.32.0.12": {
+      "sha256": "53a2a625a30418d6ea84438b04c9196214dec51a30476596ee9be45ccadb0404",
+      "needed": [
+        "libz.so.1",
+        "libstdc++.so.6",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2",
+        "libgcc_s.so.1"
+      ]
+    },
+    "/usr/lib/x86_64-linux-gnu/libz.so.1.3": {
+      "sha256": "f61677c7bdb7c2aa2a243ea781bfd16afcb361cede7b4ef76127a9d8eb9a5242",
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    "/usr/lib/x86_64-linux-gnu/libprotoc.so.32.0.12": {
+      "sha256": "f84eb2f81787f8efb51c3818260374a866a4cda8337191b33c37844de9af126d",
+      "needed": [
+        "libprotobuf.so.32",
+        "libstdc++.so.6",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2",
+        "libgcc_s.so.1"
+      ]
+    },
+    "/usr/bin/protoc": {
+      "sha256": "95bb3996d5b48f94929ee510cfddb57fb543ae4d8d335909972cfb32347203fc",
+      "needed": [
+        "libprotoc.so.32",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    }
+  },
+  "commands_sha256": "e23ec59cf5acdff42cb2f32ad42313d54b66090750905e4e01238de9b741207f",
+  "target": "gz_msgs_gen/gz/sim/private_msgs/register.cc"
+}

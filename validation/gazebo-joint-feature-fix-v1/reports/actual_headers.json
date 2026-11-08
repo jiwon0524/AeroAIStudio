@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "object_records": 46,
+  "unique_dependencies": 1614,
+  "local_headers": [],
+  "RetrieveWorld_header": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/src/physics/dartsim/src/World.hh",
+  "provider_header": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/physics/dartsim/src/World.hh",
+  "header_sha256": "d052c92e9d35214fe5f33fd1e82b9c6d4e1f64773b48d51e4ce9f98e9f324030",
+  "dep_metadata_sha256": "ae3ce20a57120c909dfc7e6072e561a3f1caef87c1483c57322cb815a7967d12"
+}

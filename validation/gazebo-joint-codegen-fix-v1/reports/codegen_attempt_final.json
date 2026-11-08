@@ -1,0 +1,9 @@
+{
+  "returncode": 0,
+  "host": "jiwon-System-Product-Name",
+  "pid": 290086,
+  "start_identity": "32834829",
+  "seconds": 0.33,
+  "log": "validation/gazebo-joint-codegen-fix-v1/logs/codegen.final.log",
+  "trace": "validation/gazebo-joint-codegen-fix-v1/logs/codegen.final.strace"
+}

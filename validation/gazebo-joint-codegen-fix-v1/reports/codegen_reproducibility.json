@@ -1,0 +1,9 @@
+{
+  "status": "PASS_IDENTICAL_GENERATED_CONTENT",
+  "file_count": 22,
+  "independent_output_directories": [
+    "build/sim-02",
+    "build/sim-03"
+  ],
+  "scope": "same pinned generator/descriptor/private proto inputs"
+}
