@@ -1,0 +1,302 @@
+{
+  "dart": {
+    "registration": {
+      "args": [
+        "EXPORT",
+        "dart_component_dart",
+        "FILE",
+        "dart_dartTargets.cmake",
+        "DESTINATION",
+        "share/dart/cmake",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ],
+      "cmd": "install",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "frame": 2,
+      "global_frame": 3,
+      "line": 79,
+      "line_end": 83,
+      "time": 1794127968.384036
+    },
+    "membership": {
+      "args": [
+        "TARGETS",
+        "dart",
+        "EXPORT",
+        "dart_component_dart",
+        "ARCHIVE",
+        "DESTINATION",
+        "lib",
+        "LIBRARY",
+        "DESTINATION",
+        "lib"
+      ],
+      "cmd": "install",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "frame": 2,
+      "global_frame": 3,
+      "line": 176,
+      "line_end": 180,
+      "time": 1794127969.83276
+    },
+    "target": "dart",
+    "namespace": "",
+    "export_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/build/dart/dart/CMakeFiles/Export/3ef022ac0f82ce73c84f7bec4890d28e/dart_dartTargets.cmake",
+    "export_sha256": "d5240b81cbc1f3c788539ef47e9b2f36881d44c343f1a159829796d875a08c79",
+    "component": "set(\"dart_dart_DEPENDENCIES\" external-odelcpsolver)\nset(\"dart_dart_LIBRARIES\" dart)\n\nset_property(DIRECTORY PROPERTY \"DART_dart_FOUND\" TRUE)\nforeach(external_dep assimp;Eigen3;ccd;fcl;fmt;octomap;spdlog)\n  include(${CMAKE_CURRENT_LIST_DIR}/DARTFind${external_dep}.cmake)\n\n  string(TOUPPER ${external_dep} EXTERNAL_DEP_UPPER)\n  if(NOT ${external_dep}_FOUND AND NOT ${EXTERNAL_DEP_UPPER}_FOUND)\n    set_property(DIRECTORY PROPERTY DART_dart_FOUND FALSE)\n    if(NOT DART_FIND_QUIETLY)\n      message(WARNING\n        \"Cannot retrieve dart-dart because the dependency \"\n        \"${external_dep} could not be found. This usually indicates a broken \"\n        \"installation.\")\n    endif()\n  endif()\n\nendforeach()\n",
+    "transitive_properties": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so;dl;dart-external-odelcpsolver;Eigen3::Eigen;ccd;fcl;assimp;fmt::fmt-header-only;spdlog::spdlog_header_only;octomap"
+    ]
+  },
+  "external-odelcpsolver": {
+    "registration": {
+      "args": [
+        "EXPORT",
+        "dart_component_external-odelcpsolver",
+        "FILE",
+        "dart_external-odelcpsolverTargets.cmake",
+        "DESTINATION",
+        "share/dart/cmake",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ],
+      "cmd": "install",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "frame": 2,
+      "global_frame": 5,
+      "line": 79,
+      "line_end": 83,
+      "time": 1794127968.382301
+    },
+    "membership": {
+      "args": [
+        "TARGETS",
+        "dart-external-odelcpsolver",
+        "EXPORT",
+        "dart_component_external-odelcpsolver",
+        "ARCHIVE",
+        "DESTINATION",
+        "lib",
+        "LIBRARY",
+        "DESTINATION",
+        "lib"
+      ],
+      "cmd": "install",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "frame": 2,
+      "global_frame": 5,
+      "line": 176,
+      "line_end": 180,
+      "time": 1794127968.382471
+    },
+    "target": "dart-external-odelcpsolver",
+    "namespace": "",
+    "export_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/build/dart/dart/external/odelcpsolver/CMakeFiles/Export/3ef022ac0f82ce73c84f7bec4890d28e/dart_external-odelcpsolverTargets.cmake",
+    "export_sha256": "05cbcedcc6f5bb963b3007f05ad3feba3123cb9f881236b1eccdd7d5b1792f2a",
+    "component": "set(\"dart_external-odelcpsolver_DEPENDENCIES\" )\nset(\"dart_external-odelcpsolver_LIBRARIES\" dart-external-odelcpsolver)\n\nset_property(DIRECTORY PROPERTY \"DART_external-odelcpsolver_FOUND\" TRUE)\nforeach(external_dep )\n  include(${CMAKE_CURRENT_LIST_DIR}/DARTFind${external_dep}.cmake)\n\n  string(TOUPPER ${external_dep} EXTERNAL_DEP_UPPER)\n  if(NOT ${external_dep}_FOUND AND NOT ${EXTERNAL_DEP_UPPER}_FOUND)\n    set_property(DIRECTORY PROPERTY DART_external-odelcpsolver_FOUND FALSE)\n    if(NOT DART_FIND_QUIETLY)\n      message(WARNING\n        \"Cannot retrieve dart-external-odelcpsolver because the dependency \"\n        \"${external_dep} could not be found. This usually indicates a broken \"\n        \"installation.\")\n    endif()\n  endif()\n\nendforeach()\n",
+    "transitive_properties": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so"
+    ]
+  },
+  "collision-ode": {
+    "registration": {
+      "args": [
+        "EXPORT",
+        "dart_component_collision-ode",
+        "FILE",
+        "dart_collision-odeTargets.cmake",
+        "DESTINATION",
+        "share/dart/cmake",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ],
+      "cmd": "install",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "frame": 2,
+      "global_frame": 5,
+      "line": 79,
+      "line_end": 83,
+      "time": 1794127968.568595
+    },
+    "membership": {
+      "args": [
+        "TARGETS",
+        "dart-collision-ode",
+        "EXPORT",
+        "dart_component_collision-ode",
+        "ARCHIVE",
+        "DESTINATION",
+        "lib",
+        "LIBRARY",
+        "DESTINATION",
+        "lib"
+      ],
+      "cmd": "install",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "frame": 2,
+      "global_frame": 5,
+      "line": 176,
+      "line_end": 180,
+      "time": 1794127968.569466
+    },
+    "target": "dart-collision-ode",
+    "namespace": "",
+    "export_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/build/dart/dart/collision/ode/CMakeFiles/Export/3ef022ac0f82ce73c84f7bec4890d28e/dart_collision-odeTargets.cmake",
+    "export_sha256": "4dd810e1274ced283dec6dd1df0d8f2dab24d351b2b340c41ef7cbf0a371a045",
+    "component": "set(\"dart_collision-ode_DEPENDENCIES\" dart)\nset(\"dart_collision-ode_LIBRARIES\" dart-collision-ode)\n\nset_property(DIRECTORY PROPERTY \"DART_collision-ode_FOUND\" TRUE)\nforeach(external_dep ODE)\n  include(${CMAKE_CURRENT_LIST_DIR}/DARTFind${external_dep}.cmake)\n\n  string(TOUPPER ${external_dep} EXTERNAL_DEP_UPPER)\n  if(NOT ${external_dep}_FOUND AND NOT ${EXTERNAL_DEP_UPPER}_FOUND)\n    set_property(DIRECTORY PROPERTY DART_collision-ode_FOUND FALSE)\n    if(NOT DART_FIND_QUIETLY)\n      message(WARNING\n        \"Cannot retrieve dart-collision-ode because the dependency \"\n        \"${external_dep} could not be found. This usually indicates a broken \"\n        \"installation.\")\n    endif()\n  endif()\n\nendforeach()\n",
+    "transitive_properties": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so;dart;ODE::ODE"
+    ]
+  },
+  "collision-bullet": {
+    "registration": {
+      "args": [
+        "EXPORT",
+        "dart_component_collision-bullet",
+        "FILE",
+        "dart_collision-bulletTargets.cmake",
+        "DESTINATION",
+        "share/dart/cmake",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ],
+      "cmd": "install",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "frame": 2,
+      "global_frame": 5,
+      "line": 79,
+      "line_end": 83,
+      "time": 1794127969.564101
+    },
+    "membership": {
+      "args": [
+        "TARGETS",
+        "dart-collision-bullet",
+        "EXPORT",
+        "dart_component_collision-bullet",
+        "ARCHIVE",
+        "DESTINATION",
+        "lib",
+        "LIBRARY",
+        "DESTINATION",
+        "lib"
+      ],
+      "cmd": "install",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "frame": 2,
+      "global_frame": 5,
+      "line": 176,
+      "line_end": 180,
+      "time": 1794127969.564435
+    },
+    "target": "dart-collision-bullet",
+    "namespace": "",
+    "export_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/build/dart/dart/collision/bullet/CMakeFiles/Export/3ef022ac0f82ce73c84f7bec4890d28e/dart_collision-bulletTargets.cmake",
+    "export_sha256": "ea9de71d0a687c389b1a0e7f8d274e4dc46fd418b2fca57d93c10bd7b9d5f9af",
+    "component": "set(\"dart_collision-bullet_DEPENDENCIES\" dart)\nset(\"dart_collision-bullet_LIBRARIES\" dart-collision-bullet)\n\nset_property(DIRECTORY PROPERTY \"DART_collision-bullet_FOUND\" TRUE)\nforeach(external_dep Bullet)\n  include(${CMAKE_CURRENT_LIST_DIR}/DARTFind${external_dep}.cmake)\n\n  string(TOUPPER ${external_dep} EXTERNAL_DEP_UPPER)\n  if(NOT ${external_dep}_FOUND AND NOT ${EXTERNAL_DEP_UPPER}_FOUND)\n    set_property(DIRECTORY PROPERTY DART_collision-bullet_FOUND FALSE)\n    if(NOT DART_FIND_QUIETLY)\n      message(WARNING\n        \"Cannot retrieve dart-collision-bullet because the dependency \"\n        \"${external_dep} could not be found. This usually indicates a broken \"\n        \"installation.\")\n    endif()\n  endif()\n\nendforeach()\n",
+    "transitive_properties": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so;dart;Bullet"
+    ]
+  },
+  "utils": {
+    "registration": {
+      "args": [
+        "EXPORT",
+        "dart_component_utils",
+        "FILE",
+        "dart_utilsTargets.cmake",
+        "DESTINATION",
+        "share/dart/cmake",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ],
+      "cmd": "install",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "frame": 2,
+      "global_frame": 4,
+      "line": 79,
+      "line_end": 83,
+      "time": 1794127969.763959
+    },
+    "membership": {
+      "args": [
+        "TARGETS",
+        "dart-utils",
+        "EXPORT",
+        "dart_component_utils",
+        "ARCHIVE",
+        "DESTINATION",
+        "lib",
+        "LIBRARY",
+        "DESTINATION",
+        "lib"
+      ],
+      "cmd": "install",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "frame": 2,
+      "global_frame": 4,
+      "line": 176,
+      "line_end": 180,
+      "time": 1794127969.764138
+    },
+    "target": "dart-utils",
+    "namespace": "",
+    "export_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/build/dart/dart/utils/CMakeFiles/Export/3ef022ac0f82ce73c84f7bec4890d28e/dart_utilsTargets.cmake",
+    "export_sha256": "edc8e28929e6d32f27660ee20293076d65adbcf5945d0957964fd43e6accbe1e",
+    "component": "set(\"dart_utils_DEPENDENCIES\" dart)\nset(\"dart_utils_LIBRARIES\" dart-utils)\n\nset_property(DIRECTORY PROPERTY \"DART_utils_FOUND\" TRUE)\nforeach(external_dep tinyxml2)\n  include(${CMAKE_CURRENT_LIST_DIR}/DARTFind${external_dep}.cmake)\n\n  string(TOUPPER ${external_dep} EXTERNAL_DEP_UPPER)\n  if(NOT ${external_dep}_FOUND AND NOT ${EXTERNAL_DEP_UPPER}_FOUND)\n    set_property(DIRECTORY PROPERTY DART_utils_FOUND FALSE)\n    if(NOT DART_FIND_QUIETLY)\n      message(WARNING\n        \"Cannot retrieve dart-utils because the dependency \"\n        \"${external_dep} could not be found. This usually indicates a broken \"\n        \"installation.\")\n    endif()\n  endif()\n\nendforeach()\n",
+    "transitive_properties": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so;dart;tinyxml2::tinyxml2"
+    ]
+  },
+  "utils-urdf": {
+    "registration": {
+      "args": [
+        "EXPORT",
+        "dart_component_utils-urdf",
+        "FILE",
+        "dart_utils-urdfTargets.cmake",
+        "DESTINATION",
+        "share/dart/cmake",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ],
+      "cmd": "install",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "frame": 2,
+      "global_frame": 5,
+      "line": 79,
+      "line_end": 83,
+      "time": 1794127969.772394
+    },
+    "membership": {
+      "args": [
+        "TARGETS",
+        "dart-utils-urdf",
+        "EXPORT",
+        "dart_component_utils-urdf",
+        "ARCHIVE",
+        "DESTINATION",
+        "lib",
+        "LIBRARY",
+        "DESTINATION",
+        "lib"
+      ],
+      "cmd": "install",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/src/dart/cmake/Components.cmake",
+      "frame": 2,
+      "global_frame": 5,
+      "line": 176,
+      "line_end": 180,
+      "time": 1794127969.772562
+    },
+    "target": "dart-utils-urdf",
+    "namespace": "",
+    "export_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/build/dart/dart/utils/urdf/CMakeFiles/Export/3ef022ac0f82ce73c84f7bec4890d28e/dart_utils-urdfTargets.cmake",
+    "export_sha256": "6941247228ee7bd9afc32d59a14864cf02825ce933468c42a6b8c8cd5ee4b85e",
+    "component": "set(\"dart_utils-urdf_DEPENDENCIES\" utils)\nset(\"dart_utils-urdf_LIBRARIES\" dart-utils-urdf)\n\nset_property(DIRECTORY PROPERTY \"DART_utils-urdf_FOUND\" TRUE)\nforeach(external_dep urdfdom)\n  include(${CMAKE_CURRENT_LIST_DIR}/DARTFind${external_dep}.cmake)\n\n  string(TOUPPER ${external_dep} EXTERNAL_DEP_UPPER)\n  if(NOT ${external_dep}_FOUND AND NOT ${EXTERNAL_DEP_UPPER}_FOUND)\n    set_property(DIRECTORY PROPERTY DART_utils-urdf_FOUND FALSE)\n    if(NOT DART_FIND_QUIETLY)\n      message(WARNING\n        \"Cannot retrieve dart-utils-urdf because the dependency \"\n        \"${external_dep} could not be found. This usually indicates a broken \"\n        \"installation.\")\n    endif()\n  endif()\n\nendforeach()\n",
+    "transitive_properties": [
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so;dart-utils;urdfdom"
+    ]
+  }
+}

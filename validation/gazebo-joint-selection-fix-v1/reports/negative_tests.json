@@ -1,0 +1,17 @@
+[
+  {
+    "case": "unlocked_selected_library",
+    "status": "PASS_REJECTED",
+    "errors": [
+      "previously unpinned optional dependency selected",
+      "unlocked file: /usr/lib/x86_64-linux-gnu/libGLESv2.so.2.1.0"
+    ]
+  },
+  {
+    "case": "unresolved_tinyxml2_configuration",
+    "status": "PASS_REJECTED",
+    "errors": [
+      "tinyxml2 effective definition mismatch dart-utils"
+    ]
+  }
+]

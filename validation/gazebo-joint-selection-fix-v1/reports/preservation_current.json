@@ -1,0 +1,17 @@
+{
+  "source_files_equal_after_observer_path_relocation": 3977,
+  "prior_elf_hashes_unchanged": true,
+  "trace": {
+    "probe": {
+      "sha256": "65258602f086b66363393e557aacfbd8714a50e5ee73e6c39a8b93eb6288c8e1",
+      "try_run_count": 0
+    },
+    "dart": {
+      "sha256": "2f941d13c960efd3a53a5aa0d383ffc51d2fe5ae33504a539860e5b6a2376965",
+      "try_run_count": 0
+    }
+  },
+  "broad_policy_sha256": "faa4a647e0711adfefa40903d4e8e7ab33b060f9895849ef91d0b4e9f3b23c66",
+  "previous_policy_sha256": "faa4a647e0711adfefa40903d4e8e7ab33b060f9895849ef91d0b4e9f3b23c66",
+  "checker_sha256": "d647e10fed0605f770b28b8cf869a801a3e900eb3b6c54e4326f987363f76552"
+}

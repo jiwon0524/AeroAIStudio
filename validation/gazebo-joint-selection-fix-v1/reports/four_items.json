@@ -1,0 +1,84 @@
+{
+  "libGLESv2": {
+    "alias": "/usr/lib/x86_64-linux-gnu/libGLESv2.so",
+    "realpath": "/usr/lib/x86_64-linux-gnu/libGLESv2.so.2.1.0",
+    "sha256": "4d410c7e883b6e4bab42fafae7ebad6ae5702883bfce07a5e6ffdf4c3fec433b",
+    "package": "libgles2:amd64\t1.7.0-1build1\tlibglvnd\t1.7.0-1build1",
+    "origin": "OpenGL::GLES2/OpenGL::GLES3 metadata",
+    "selected_build_closure": false,
+    "selected_commands_contain_alias": false,
+    "linking_generated_targets": [],
+    "execute_process_rows": [],
+    "decision": "NOT_SELECTED_METADATA_ONLY; no allowlist addition"
+  },
+  "libflann_cpp": {
+    "alias": "/usr/lib/x86_64-linux-gnu/libflann_cpp.so",
+    "realpath": "/usr/lib/x86_64-linux-gnu/libflann_cpp.so.1.9.2",
+    "sha256": "809653da4f6fae2becc81a3df583e11c87ac4ff72080e0e06e52c2602899900e",
+    "package": "libflann1.9:amd64\t1.9.2+dfsg-2build1\tflann\t1.9.2+dfsg-2build1",
+    "origin": "flann metadata; unselected dart-planning link",
+    "selected_build_closure": false,
+    "selected_commands_contain_alias": false,
+    "linking_generated_targets": [
+      "dart-planning",
+      "test_NearestNeighbor"
+    ],
+    "execute_process_rows": [],
+    "decision": "NOT_SELECTED_METADATA_ONLY; no allowlist addition"
+  },
+  "libgvc6-config-update": {
+    "alias": "/usr/bin/dot",
+    "realpath": "/usr/sbin/libgvc6-config-update",
+    "sha256": "da690d0c28520a98e311cdb3577c22953b5ccfbd9f9e4219a0d031a1f15961d6",
+    "package": "libgvc6\t2.42.2-9ubuntu0.1\tgraphviz\t2.42.2-9ubuntu0.1",
+    "origin": "Doxygen::dot imported executable metadata",
+    "selected_build_closure": false,
+    "selected_commands_contain_alias": false,
+    "linking_generated_targets": [],
+    "execute_process_rows": [],
+    "decision": "NOT_SELECTED_METADATA_ONLY; no allowlist addition"
+  },
+  "tinyxml2": {
+    "declaration": "/usr/lib/x86_64-linux-gnu/cmake/tinyxml2/tinyxml2-shared-targets.cmake",
+    "declaration_line": 72,
+    "definition_sha256": "4483cc19b218bc32c5f4e9ce9459582a77dc2ad3a93b51ff7164810376262253",
+    "target": "tinyxml2::tinyxml2",
+    "raw": "$<$<CONFIG:Debug>:TINYXML2_DEBUG>;$<$<BOOL:yes>:TINYXML2_IMPORT>;_FILE_OFFSET_BITS=64",
+    "configuration": "RelWithDebInfo",
+    "effective_definitions": {
+      "dart-utils": [
+        "TINYXML2_IMPORT",
+        "_FILE_OFFSET_BITS=64"
+      ],
+      "dart-utils-urdf": [
+        "TINYXML2_IMPORT",
+        "_FILE_OFFSET_BITS=64"
+      ]
+    },
+    "generated_link_paths": [
+      {
+        "path": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so.10.0.0",
+        "realpath": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so.10.0.0",
+        "sha256": "f9e01d87fb78af744a426af8c992e94abf8cd3810a256e117bcc94cd84d2be6d"
+      }
+    ],
+    "raw_imported_properties": {
+      "target": "tinyxml2::tinyxml2",
+      "INTERFACE_INCLUDE_DIRECTORIES": "/usr/include",
+      "INTERFACE_LINK_LIBRARIES": "",
+      "INTERFACE_COMPILE_DEFINITIONS": "$<$<CONFIG:Debug>:TINYXML2_DEBUG>;$<$<BOOL:yes>:TINYXML2_IMPORT>;_FILE_OFFSET_BITS=64",
+      "INTERFACE_COMPILE_OPTIONS": "",
+      "LINK_LIBRARIES": "",
+      "IMPORTED_LOCATION_RELEASE": "",
+      "IMPORTED_LOCATION_NOCONFIG": "",
+      "COMPILE_DEFINITIONS": "",
+      "IMPORTED_LOCATION": "",
+      "INCLUDE_DIRECTORIES": "",
+      "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+      "COMPILE_OPTIONS": ""
+    },
+    "decision": "SELECTED; CMake-generated definitions/path validated; actual utils compilation not reached",
+    "ninja_utils_compile_commands_checked": 36,
+    "ninja_effective_definitions_match": true
+  }
+}

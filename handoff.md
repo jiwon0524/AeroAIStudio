@@ -1,3 +1,48 @@
+# DART selected dependency gate repair — current checkpoint
+
+2026-11-08 UTC. Starting HEAD487d85e, clean experiment/dart-internal-trace. Explicit current user scope: resolve4 dependency selection items using generated/static evidence, isolated build continuation only until first mismatch. Required instructions/contracts read; context-handoff used.
+
+**FOUR_SELECTION_ITEMS_RESOLVED / DART_SELECTION_PASS / DART_COMPILE_HEADER_BLOCKED / joint build INCOMPLETE / NOT_RUNTIME_VERIFIED. Stage B BLOCKED; risk acceptance UNDECIDED.**
+
+Report: validation/gazebo-joint-selection-fix-v1/reports/build_result.md. four_items.json pins each item's declaration/path/hash/package and generated use. tinyxml2::tinyxml2 selected through utils→utils-urdf, RelWithDebInfo emits TINYXML2_IMPORT + _FILE_OFFSET_BITS=64, no TINYXML2_DEBUG; generated library libtinyxml2.so.10.0.0 matches lock. GLES2/3 imported metadata is unused in selected closure; flann belongs unselected dart-planning/test_NearestNeighbor; Doxygen::dot is metadata /usr/bin/dot→libgvc6-config-update, with no matching execute_process or selected build command. No dependency allowlist addition or contract expansion.
+
+New source/build/prefix at phase/work/config-01; deps/selected_files unchanged.3977 source files unchanged after observer-path relocation. Existing6 targets, empty export namespace, single export registration, local imported-target scope fix, BUILD_WITH_INSTALL_RPATH ON/INSTALL_RPATH_USE_LINK_PATH OFF and strict receipt retained. DART-only checker now uses CMake File API generated6-target build closure + effective includes/defines/link fragments and Ninja -t commands metadata, while retaining all executed configure-file hashes and original pin/stack rejection policy. Raw optional metadata retained separately. Non-DART original checker and actual compiler header launcher unchanged. Both negative metadata tests reject injected selected unpinned library / wrong tinyxml2 definitions. Checked code/evidence in scripts and reports; generalized runner/setup remain local.
+
+Fresh probe complete PASS, build=prefix SHA18ea74899c6234c3ee00a8384bff10447dacc5538189b2480f94ec039ae2f5fb, Build ID9da7b9320d2066f23ed2e241f1cb0f1f81b50ae0. Six external ELF hashes match prior closure, exact new prefix/lib+old approved deps RUNPATH, no RPATH/empty/build entries. DART configure/generate/export checks PASS; corrected selection PASS162 external files, errors0. dart_selected_closure.json/export_validation.json and metadata query outputs preserve evidence.
+
+First actual compile fails at CAllocator.cpp.o, concurrently Aspect.cpp.o: unchanged compiler depfile guard rejects /usr/local/include/spdlog/spdlog.h, SHA268a03933a066694f5e6b9dbdd30691d351f01197e08eaae581d75ac05bd8da3. Implicit compiler header lookup reached an unpinned header despite explicit generated include paths passing. Ninja stopped; no retry/guard relaxation/header or flag changes. DART link/ELF/stage/receipt and physics/Sim/harness NOT_STARTED. Artifacts include13 ELF/helper/object files;2 DART objects are rejected/unverified, not accepted library outputs. Next minimum: separately review implicit spdlog include search against pinned headers in fresh isolated build; do not approve /usr/local or overwrite failure. No downstream package consumer check.
+
+Prior ELF/source/evidence contents preserved; original main/dirty work/markers untouched. No subject load/execution/CTest/try_run/step/services/marker/sudo/install/system changes. Both configure traces try_run0. All task commands observed exited, host/PID/start/log/hash in steps.json; no existing process terminated/restarted. Snapshot scope below, external-CWD/remote/container/other namespaces UNKNOWN. Local source/build/deps/ELFs/raw logs/trace/command text are ignored and not transferred by Git; /tmp not durable. Publish only reviewed checker/test/recording scripts and lightweight reports; main/force/merge prohibited. Snapshot pre-publication: reconcile commit parent/file list and remote receipt.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-08T08:56:48.811751+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "487d85e0af1e3f612ff29ca5df40f47716f7c9da",
+    "branch": "experiment/dart-internal-trace",
+    "status": []
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-selection-fix-v1/reports/build_result.md",
+      "sha256": "3d5cd99c4efe22309f8b650a65c6675cf6c5a84cd924528bba3220dff509b7e1"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+---
+Previous checkpoint follows:
+
 # DART duplicate export repair — current checkpoint
 
 2026-11-08 UTC. Starting HEAD2d5c4f3, clean experiment/dart-internal-trace. Explicit user scope: narrow export repair, isolated configure/generate/compile/link/component stage/static checks, stop on first downstream mismatch. Required instructions/contracts read; context-handoff used.
