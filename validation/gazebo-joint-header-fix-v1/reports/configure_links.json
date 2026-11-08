@@ -1,0 +1,24 @@
+{
+  "path": "/tmp/AeroAIStudio-dart-internal-trace/libgz-physics-dartsim-plugin.so",
+  "target": "libgz-physics7-dartsim-plugin.so",
+  "target_exists": false,
+  "generated_by": [
+    {
+      "args": [
+        "COMMAND",
+        "/usr/bin/cmake",
+        "-E",
+        "create_symlink",
+        "libgz-physics7-dartsim-plugin.so",
+        "libgz-physics-dartsim-plugin.so"
+      ],
+      "cmd": "EXECUTE_PROCESS",
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/src/physics/dartsim/CMakeLists.txt",
+      "frame": 1,
+      "global_frame": 3,
+      "line": 73,
+      "time": 1794129360.246289
+    }
+  ],
+  "publication": "preserved untracked; not staged, moved or removed"
+}

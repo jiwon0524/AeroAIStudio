@@ -1,0 +1,5 @@
+{
+  "status": "PASS_EXACT_REPLAY",
+  "toolchain_sha256": "19d2c42b6d647aaaed99bfddacaba2cc32d6abb4463e6376058dea3a1ea7c52d",
+  "patch_sha256": "523bb4c4408aabf555d198478ba0dae46eb1a1fb61dfd5dbf0f47a0cfb7531fb"
+}

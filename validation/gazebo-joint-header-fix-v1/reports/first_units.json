@@ -1,0 +1,395 @@
+{
+  "status": "PASS",
+  "units": [
+    {
+      "unit": "CAllocator",
+      "returncode": 0,
+      "host": "jiwon-System-Product-Name",
+      "pid": 7,
+      "start_identity": "32412795",
+      "seconds": 5.45,
+      "log": "validation/gazebo-joint-header-fix-v1/logs/first.CAllocator.log",
+      "log_sha256": "096cf2d7609bd81aef8a88ceb4db76690c19e290b9101592fea61976a2bc4542",
+      "dependency_count": 392,
+      "local_headers": [],
+      "logging_headers": [
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/spdlog.h",
+          "realpath": "/usr/include/spdlog/spdlog.h",
+          "sha256": "89e27519fb7235632b9e84da958c95dcc179bfdaacb7651e64b36cd1700e3119"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/common.h",
+          "realpath": "/usr/include/spdlog/common.h",
+          "sha256": "57285cc9a6825a2a3b123dbcd5580524d26a51c37d45fb759269b0012ed2198a"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/tweakme.h",
+          "realpath": "/usr/include/spdlog/tweakme.h",
+          "sha256": "c22fecf59b7044743fcc75502ba5cde3ff06714b27336fd0021a169f48c1490c"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/null_mutex.h",
+          "realpath": "/usr/include/spdlog/details/null_mutex.h",
+          "sha256": "02edd271e232b7a69c0e37aab61246fcb4b31c1d43f1a20b5c2572ba7b730956"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/fmt/fmt.h",
+          "realpath": "/usr/include/spdlog/fmt/fmt.h",
+          "sha256": "14e1f70c4de0b3216faec371f8165f2dd1926f8ed84df693e31d515ef76e9efa"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/fmt/core.h",
+          "realpath": "/usr/include/fmt/core.h",
+          "sha256": "9499dc187c78f4f88c55f878afd375662912439b0cff69c8299a6054350432f7"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/fmt/format.h",
+          "realpath": "/usr/include/fmt/format.h",
+          "sha256": "bf68a9fb87c98e49258cccf6ca3d6e7c9cc1ee358e642cc535ee80579623b724"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/fmt/format-inl.h",
+          "realpath": "/usr/include/fmt/format-inl.h",
+          "sha256": "ba707e9533a864c47261edaac1d32ede71dee91eb793fc05ab0eab0f4210dfc4"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/common-inl.h",
+          "realpath": "/usr/include/spdlog/common-inl.h",
+          "sha256": "4364e0a6297275f57f53e2cce8485b8265d5b9169af6858d2684e354a9047a3f"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/registry.h",
+          "realpath": "/usr/include/spdlog/details/registry.h",
+          "sha256": "3ec9a11a47adc46c79b15676fb975ace534282032f152b678e36f513d67c0597"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/periodic_worker.h",
+          "realpath": "/usr/include/spdlog/details/periodic_worker.h",
+          "sha256": "2c46cc105d3b426fffa3fd5e4f14337d695e96f33c824c6cc47c3859e197d9d0"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/periodic_worker-inl.h",
+          "realpath": "/usr/include/spdlog/details/periodic_worker-inl.h",
+          "sha256": "6051a2a06de524b0e0319bb06cfe0bdc559627e874d48fc14846a452bfe4f4a2"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/registry-inl.h",
+          "realpath": "/usr/include/spdlog/details/registry-inl.h",
+          "sha256": "b23a3e939b4e7790bcd7eb1763cd864133dd11776bd6019aa3462ab68bd98c8f"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/logger.h",
+          "realpath": "/usr/include/spdlog/logger.h",
+          "sha256": "592c2fd8da983f92f1b7742db5204c3996f09dbf74797cff014afcb2be02b204"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/log_msg.h",
+          "realpath": "/usr/include/spdlog/details/log_msg.h",
+          "sha256": "eda416f5e6d69541f0087c0d3dc3a2b19e06bb6378e044d3d106e0ae2289dcc4"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/log_msg-inl.h",
+          "realpath": "/usr/include/spdlog/details/log_msg-inl.h",
+          "sha256": "cc56ddea61fbf6d4ba6ef06aa649bd28875e3c7e632afa9f332d04b2ee59e147"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/os.h",
+          "realpath": "/usr/include/spdlog/details/os.h",
+          "sha256": "792ff825790d746be51d0bca58d02dca8e8522c0c2de18eb52d462540ef7d880"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/os-inl.h",
+          "realpath": "/usr/include/spdlog/details/os-inl.h",
+          "sha256": "ee0aa46b385650144d4e41a5db471679f09aceef8a5a9e907fd1c82b08410556"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/backtracer.h",
+          "realpath": "/usr/include/spdlog/details/backtracer.h",
+          "sha256": "873974241bc91bdd1c120d8a9b72ef7b82fa8cf3b8f5e19013585b684f581a5c"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/log_msg_buffer.h",
+          "realpath": "/usr/include/spdlog/details/log_msg_buffer.h",
+          "sha256": "ee20038a4d8870893276e6dcacf72801511881a6cab65a58febc9f2d79f038f8"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/log_msg_buffer-inl.h",
+          "realpath": "/usr/include/spdlog/details/log_msg_buffer-inl.h",
+          "sha256": "9814ad90de51a780ac4ed8b37b899cecf68842b967d8b7255036785be0635b9b"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/circular_q.h",
+          "realpath": "/usr/include/spdlog/details/circular_q.h",
+          "sha256": "2ee52f1fc702d53ba978eea7394df0cfe9d0e1cfdb2da256ce919b14543d3d91"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/backtracer-inl.h",
+          "realpath": "/usr/include/spdlog/details/backtracer-inl.h",
+          "sha256": "0bfe40514594f525dd01e2839783e72de2bc2a9a274152dc862e637dc9bd9a9f"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/logger-inl.h",
+          "realpath": "/usr/include/spdlog/logger-inl.h",
+          "sha256": "c2d6d56455cfbd9a642f5628085f327f3f54cef6261ab9328fa336e78b902d45"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/sinks/sink.h",
+          "realpath": "/usr/include/spdlog/sinks/sink.h",
+          "sha256": "612eca39db380b957538cd2dc9eec82037aad45b24a0022f8e1773434afc6882"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/formatter.h",
+          "realpath": "/usr/include/spdlog/formatter.h",
+          "sha256": "48524fd1570012c2199c23a5cbd952d514e80ae76ec7075fee6a78cebb9f928e"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/sinks/sink-inl.h",
+          "realpath": "/usr/include/spdlog/sinks/sink-inl.h",
+          "sha256": "8f1eb365f5aa47ada219d562133e66971a7e7ca4221782f85c116c345beb6d25"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/pattern_formatter.h",
+          "realpath": "/usr/include/spdlog/pattern_formatter.h",
+          "sha256": "af95c5feabab55bddd34e2124d800e4c7c66a42ec93a13efcc3c0520f35376d1"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/pattern_formatter-inl.h",
+          "realpath": "/usr/include/spdlog/pattern_formatter-inl.h",
+          "sha256": "91edf77e45a1c2ba2fc46096487fe4980fb8bfe42ba80168bb4215d203583073"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/fmt_helper.h",
+          "realpath": "/usr/include/spdlog/details/fmt_helper.h",
+          "sha256": "76a0c9c1f8c3ce2b8d43f0e26cbc0e604ef8838d8b7757271d15b37782a434c8"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/sinks/ansicolor_sink.h",
+          "realpath": "/usr/include/spdlog/sinks/ansicolor_sink.h",
+          "sha256": "db1599443032f920270ce031c9309a8b0ff09db6cfaafc79e669b07832c9ac74"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/console_globals.h",
+          "realpath": "/usr/include/spdlog/details/console_globals.h",
+          "sha256": "eced1eda8e8abe003fb70b29be5df42e7b706b60d5292c1f3e842f3c888a5d66"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/sinks/ansicolor_sink-inl.h",
+          "realpath": "/usr/include/spdlog/sinks/ansicolor_sink-inl.h",
+          "sha256": "6085accf0bf3d45362cd9c234cfe5df8c3ecb62d3184d4d9cf53b0192fc41f2c"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/version.h",
+          "realpath": "/usr/include/spdlog/version.h",
+          "sha256": "11ea5b570c7e7a0a1f213c50bf6df96342acbe67346469ad1b1197f3d19c98a4"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/synchronous_factory.h",
+          "realpath": "/usr/include/spdlog/details/synchronous_factory.h",
+          "sha256": "d2f742ffd54151670a8044922f4a0c501d125642906359b4f94d3a73f54e38b1"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/spdlog-inl.h",
+          "realpath": "/usr/include/spdlog/spdlog-inl.h",
+          "sha256": "3b7fd84717d87e25819c3e86765bcb91f754746d2b0082c0bdd6a4c6551896f3"
+        }
+      ],
+      "object_sha256": "0a381b0d3a2872f8799aab2457e452f9e3e80a121d62c172f6da5344e0e4bc34"
+    },
+    {
+      "unit": "Aspect",
+      "returncode": 0,
+      "host": "jiwon-System-Product-Name",
+      "pid": 15,
+      "start_identity": "32413342",
+      "seconds": 5.66,
+      "log": "validation/gazebo-joint-header-fix-v1/logs/first.Aspect.log",
+      "log_sha256": "a253238df320bcfb31cb52f9b242c3bae8426373c487c9bb47a80823287fcf11",
+      "dependency_count": 538,
+      "local_headers": [],
+      "logging_headers": [
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/spdlog.h",
+          "realpath": "/usr/include/spdlog/spdlog.h",
+          "sha256": "89e27519fb7235632b9e84da958c95dcc179bfdaacb7651e64b36cd1700e3119"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/common.h",
+          "realpath": "/usr/include/spdlog/common.h",
+          "sha256": "57285cc9a6825a2a3b123dbcd5580524d26a51c37d45fb759269b0012ed2198a"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/tweakme.h",
+          "realpath": "/usr/include/spdlog/tweakme.h",
+          "sha256": "c22fecf59b7044743fcc75502ba5cde3ff06714b27336fd0021a169f48c1490c"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/null_mutex.h",
+          "realpath": "/usr/include/spdlog/details/null_mutex.h",
+          "sha256": "02edd271e232b7a69c0e37aab61246fcb4b31c1d43f1a20b5c2572ba7b730956"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/fmt/fmt.h",
+          "realpath": "/usr/include/spdlog/fmt/fmt.h",
+          "sha256": "14e1f70c4de0b3216faec371f8165f2dd1926f8ed84df693e31d515ef76e9efa"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/fmt/core.h",
+          "realpath": "/usr/include/fmt/core.h",
+          "sha256": "9499dc187c78f4f88c55f878afd375662912439b0cff69c8299a6054350432f7"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/fmt/format.h",
+          "realpath": "/usr/include/fmt/format.h",
+          "sha256": "bf68a9fb87c98e49258cccf6ca3d6e7c9cc1ee358e642cc535ee80579623b724"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/fmt/format-inl.h",
+          "realpath": "/usr/include/fmt/format-inl.h",
+          "sha256": "ba707e9533a864c47261edaac1d32ede71dee91eb793fc05ab0eab0f4210dfc4"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/common-inl.h",
+          "realpath": "/usr/include/spdlog/common-inl.h",
+          "sha256": "4364e0a6297275f57f53e2cce8485b8265d5b9169af6858d2684e354a9047a3f"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/registry.h",
+          "realpath": "/usr/include/spdlog/details/registry.h",
+          "sha256": "3ec9a11a47adc46c79b15676fb975ace534282032f152b678e36f513d67c0597"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/periodic_worker.h",
+          "realpath": "/usr/include/spdlog/details/periodic_worker.h",
+          "sha256": "2c46cc105d3b426fffa3fd5e4f14337d695e96f33c824c6cc47c3859e197d9d0"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/periodic_worker-inl.h",
+          "realpath": "/usr/include/spdlog/details/periodic_worker-inl.h",
+          "sha256": "6051a2a06de524b0e0319bb06cfe0bdc559627e874d48fc14846a452bfe4f4a2"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/registry-inl.h",
+          "realpath": "/usr/include/spdlog/details/registry-inl.h",
+          "sha256": "b23a3e939b4e7790bcd7eb1763cd864133dd11776bd6019aa3462ab68bd98c8f"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/logger.h",
+          "realpath": "/usr/include/spdlog/logger.h",
+          "sha256": "592c2fd8da983f92f1b7742db5204c3996f09dbf74797cff014afcb2be02b204"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/log_msg.h",
+          "realpath": "/usr/include/spdlog/details/log_msg.h",
+          "sha256": "eda416f5e6d69541f0087c0d3dc3a2b19e06bb6378e044d3d106e0ae2289dcc4"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/log_msg-inl.h",
+          "realpath": "/usr/include/spdlog/details/log_msg-inl.h",
+          "sha256": "cc56ddea61fbf6d4ba6ef06aa649bd28875e3c7e632afa9f332d04b2ee59e147"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/os.h",
+          "realpath": "/usr/include/spdlog/details/os.h",
+          "sha256": "792ff825790d746be51d0bca58d02dca8e8522c0c2de18eb52d462540ef7d880"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/os-inl.h",
+          "realpath": "/usr/include/spdlog/details/os-inl.h",
+          "sha256": "ee0aa46b385650144d4e41a5db471679f09aceef8a5a9e907fd1c82b08410556"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/backtracer.h",
+          "realpath": "/usr/include/spdlog/details/backtracer.h",
+          "sha256": "873974241bc91bdd1c120d8a9b72ef7b82fa8cf3b8f5e19013585b684f581a5c"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/log_msg_buffer.h",
+          "realpath": "/usr/include/spdlog/details/log_msg_buffer.h",
+          "sha256": "ee20038a4d8870893276e6dcacf72801511881a6cab65a58febc9f2d79f038f8"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/log_msg_buffer-inl.h",
+          "realpath": "/usr/include/spdlog/details/log_msg_buffer-inl.h",
+          "sha256": "9814ad90de51a780ac4ed8b37b899cecf68842b967d8b7255036785be0635b9b"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/circular_q.h",
+          "realpath": "/usr/include/spdlog/details/circular_q.h",
+          "sha256": "2ee52f1fc702d53ba978eea7394df0cfe9d0e1cfdb2da256ce919b14543d3d91"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/backtracer-inl.h",
+          "realpath": "/usr/include/spdlog/details/backtracer-inl.h",
+          "sha256": "0bfe40514594f525dd01e2839783e72de2bc2a9a274152dc862e637dc9bd9a9f"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/logger-inl.h",
+          "realpath": "/usr/include/spdlog/logger-inl.h",
+          "sha256": "c2d6d56455cfbd9a642f5628085f327f3f54cef6261ab9328fa336e78b902d45"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/sinks/sink.h",
+          "realpath": "/usr/include/spdlog/sinks/sink.h",
+          "sha256": "612eca39db380b957538cd2dc9eec82037aad45b24a0022f8e1773434afc6882"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/formatter.h",
+          "realpath": "/usr/include/spdlog/formatter.h",
+          "sha256": "48524fd1570012c2199c23a5cbd952d514e80ae76ec7075fee6a78cebb9f928e"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/sinks/sink-inl.h",
+          "realpath": "/usr/include/spdlog/sinks/sink-inl.h",
+          "sha256": "8f1eb365f5aa47ada219d562133e66971a7e7ca4221782f85c116c345beb6d25"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/pattern_formatter.h",
+          "realpath": "/usr/include/spdlog/pattern_formatter.h",
+          "sha256": "af95c5feabab55bddd34e2124d800e4c7c66a42ec93a13efcc3c0520f35376d1"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/pattern_formatter-inl.h",
+          "realpath": "/usr/include/spdlog/pattern_formatter-inl.h",
+          "sha256": "91edf77e45a1c2ba2fc46096487fe4980fb8bfe42ba80168bb4215d203583073"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/fmt_helper.h",
+          "realpath": "/usr/include/spdlog/details/fmt_helper.h",
+          "sha256": "76a0c9c1f8c3ce2b8d43f0e26cbc0e604ef8838d8b7757271d15b37782a434c8"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/sinks/ansicolor_sink.h",
+          "realpath": "/usr/include/spdlog/sinks/ansicolor_sink.h",
+          "sha256": "db1599443032f920270ce031c9309a8b0ff09db6cfaafc79e669b07832c9ac74"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/console_globals.h",
+          "realpath": "/usr/include/spdlog/details/console_globals.h",
+          "sha256": "eced1eda8e8abe003fb70b29be5df42e7b706b60d5292c1f3e842f3c888a5d66"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/sinks/ansicolor_sink-inl.h",
+          "realpath": "/usr/include/spdlog/sinks/ansicolor_sink-inl.h",
+          "sha256": "6085accf0bf3d45362cd9c234cfe5df8c3ecb62d3184d4d9cf53b0192fc41f2c"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/version.h",
+          "realpath": "/usr/include/spdlog/version.h",
+          "sha256": "11ea5b570c7e7a0a1f213c50bf6df96342acbe67346469ad1b1197f3d19c98a4"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/details/synchronous_factory.h",
+          "realpath": "/usr/include/spdlog/details/synchronous_factory.h",
+          "sha256": "d2f742ffd54151670a8044922f4a0c501d125642906359b4f94d3a73f54e38b1"
+        },
+        {
+          "dependency": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include/spdlog/spdlog-inl.h",
+          "realpath": "/usr/include/spdlog/spdlog-inl.h",
+          "sha256": "3b7fd84717d87e25819c3e86765bcb91f754746d2b0082c0bdd6a4c6551896f3"
+        }
+      ],
+      "object_sha256": "ec823a743db463797a8878453ee178ffa50fc28efc4a45ea4ecdf4ce879396e8"
+    }
+  ]
+}

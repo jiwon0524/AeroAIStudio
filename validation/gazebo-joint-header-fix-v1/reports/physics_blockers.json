@@ -1,0 +1,211 @@
+{
+  "status": "PHYSICS_CONFIGURE_GENERATE_BLOCKED",
+  "first_contract_mismatch": "DART_HAS_CONTACT_SURFACE_HEADER false although staged ContactSurface.hpp exists; compilation fails because staged dart/config.hpp is absent",
+  "check_source": "dartsim/CMakeLists.txt:51",
+  "source_contact_exists": true,
+  "prefix_contact_exists": true,
+  "generated_config": {
+    "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/config.hpp",
+    "sha256": "3e79ca3e9c6fbf904948d7a26ca2b08d71c621a6c7f4f51adb8d5d84548f49de",
+    "prefix_exists": false,
+    "install_rule": "src/dart/dart/CMakeLists.txt:98 install(FILES ... DESTINATION include/dart), no COMPONENT -> Unspecified"
+  },
+  "selected_dart": {
+    "DART_DIR": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/share/dart/cmake",
+    "DART_INCLUDE_DIRS": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/include",
+    "DART_LIBRARIES": "dart-collision-bullet;dart-collision-ode;dart-utils;dart-utils-urdf;dart"
+  },
+  "duplicate_export_records": [
+    {
+      "file": "/usr/share/cmake/gz-cmake3/cmake3/GzPackaging.cmake",
+      "line": 373,
+      "args": [
+        "EXPORT",
+        "gz-physics7",
+        "DESTINATION",
+        "lib/cmake/gz-physics7",
+        "FILE",
+        "gz-physics7-targets.cmake",
+        "NAMESPACE",
+        "gz-physics7::"
+      ]
+    },
+    {
+      "file": "/usr/share/cmake/gz-cmake3/cmake3/GzPackaging.cmake",
+      "line": 373,
+      "args": [
+        "EXPORT",
+        "gz-physics7-sdf",
+        "DESTINATION",
+        "lib/cmake/gz-physics7-sdf",
+        "FILE",
+        "gz-physics7-sdf-targets.cmake",
+        "NAMESPACE",
+        "gz-physics7::"
+      ]
+    },
+    {
+      "file": "/usr/share/cmake/gz-cmake3/cmake3/GzPackaging.cmake",
+      "line": 373,
+      "args": [
+        "EXPORT",
+        "gz-physics7-heightmap",
+        "DESTINATION",
+        "lib/cmake/gz-physics7-heightmap",
+        "FILE",
+        "gz-physics7-heightmap-targets.cmake",
+        "NAMESPACE",
+        "gz-physics7::"
+      ]
+    },
+    {
+      "file": "/usr/share/cmake/gz-cmake3/cmake3/GzPackaging.cmake",
+      "line": 373,
+      "args": [
+        "EXPORT",
+        "gz-physics7-mesh",
+        "DESTINATION",
+        "lib/cmake/gz-physics7-mesh",
+        "FILE",
+        "gz-physics7-mesh-targets.cmake",
+        "NAMESPACE",
+        "gz-physics7::"
+      ]
+    },
+    {
+      "file": "/usr/share/cmake/gz-cmake3/cmake3/GzPackaging.cmake",
+      "line": 373,
+      "args": [
+        "EXPORT",
+        "gz-physics7-dartsim",
+        "DESTINATION",
+        "lib/cmake/gz-physics7-dartsim",
+        "FILE",
+        "gz-physics7-dartsim-targets.cmake",
+        "NAMESPACE",
+        "gz-physics7::"
+      ]
+    },
+    {
+      "file": "/usr/share/cmake/gz-cmake3/cmake3/GzPackaging.cmake",
+      "line": 373,
+      "args": [
+        "EXPORT",
+        "gz-physics7-dartsim-plugin",
+        "DESTINATION",
+        "lib/cmake/gz-physics7-dartsim-plugin",
+        "FILE",
+        "gz-physics7-dartsim-plugin-targets.cmake",
+        "NAMESPACE",
+        "gz-physics7::"
+      ]
+    },
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/install-selected.cmake",
+      "line": 41,
+      "args": [
+        "EXPORT",
+        "gz-physics7",
+        "FILE",
+        "gz-physics7-targets.cmake",
+        "NAMESPACE",
+        "gz-physics7::",
+        "DESTINATION",
+        "lib/cmake/gz-physics7",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ]
+    },
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/install-selected.cmake",
+      "line": 41,
+      "args": [
+        "EXPORT",
+        "gz-physics7-sdf",
+        "FILE",
+        "gz-physics7-sdf-targets.cmake",
+        "NAMESPACE",
+        "gz-physics7::",
+        "DESTINATION",
+        "lib/cmake/gz-physics7-sdf",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ]
+    },
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/install-selected.cmake",
+      "line": 41,
+      "args": [
+        "EXPORT",
+        "gz-physics7-mesh",
+        "FILE",
+        "gz-physics7-mesh-targets.cmake",
+        "NAMESPACE",
+        "gz-physics7::",
+        "DESTINATION",
+        "lib/cmake/gz-physics7-mesh",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ]
+    },
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/install-selected.cmake",
+      "line": 41,
+      "args": [
+        "EXPORT",
+        "gz-physics7-heightmap",
+        "FILE",
+        "gz-physics7-heightmap-targets.cmake",
+        "NAMESPACE",
+        "gz-physics7::",
+        "DESTINATION",
+        "lib/cmake/gz-physics7-heightmap",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ]
+    },
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/install-selected.cmake",
+      "line": 41,
+      "args": [
+        "EXPORT",
+        "gz-physics7-dartsim",
+        "FILE",
+        "gz-physics7-dartsim-targets.cmake",
+        "NAMESPACE",
+        "gz-physics7::",
+        "DESTINATION",
+        "lib/cmake/gz-physics7-dartsim",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ]
+    },
+    {
+      "file": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/install-selected.cmake",
+      "line": 41,
+      "args": [
+        "EXPORT",
+        "gz-physics7-dartsim-plugin",
+        "FILE",
+        "gz-physics7-dartsim-plugin-targets.cmake",
+        "NAMESPACE",
+        "gz-physics7::",
+        "DESTINATION",
+        "lib/cmake/gz-physics7-dartsim-plugin",
+        "COMPONENT",
+        "aero-joint-cmake"
+      ]
+    }
+  ],
+  "other_configure_diagnostic": "Manually-specified BUILD_EXAMPLES unused; unreviewed downstream configuration remains blocked",
+  "architecture_probe": {
+    "try_run_command_count": 1,
+    "provider": "/usr/share/cmake/gz-cmake3/cmake3/GzCheckSSE.cmake:133",
+    "classification": "architecture extracted from intentionally failing compile diagnostics",
+    "build_exit_code": 1,
+    "compiler_diagnostic": "#error cmake_ARCH x86_64",
+    "run_result_exit_code": "absent; compile failed before link/run",
+    "evidence": "build/physics/CMakeFiles/CMakeConfigureLog.yaml:959-996",
+    "no_target_execution_inferred_from": "compile failure, no linked probe, empty runResult; command/trace evidence, not syscall trace"
+  }
+}

@@ -1,0 +1,284 @@
+[
+  {
+    "unit": "CAllocator.cpp",
+    "original_compile_command": "/usr/bin/x86_64-linux-gnu-g++-13 -DAERO_JOINT_PREFIX=\\\"/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/prefix\\\" -DDART_ACTIVE_LOG_LEVEL=2 -DDART_HAVE_spdlog=1 -DFMT_HEADER_ONLY=1 -DFMT_SHARED -DSPDLOG_FMT_EXTERNAL -Ddart_EXPORTS -I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/src/dart -I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/build/dart -I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/inputs -isystem /usr/include/eigen3 -isystem /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/include -fuse-ld=bfd -fno-lto -frtti -fexceptions -D_GLIBCXX_USE_CXX11_ABI=1 -DEIGEN_MAX_ALIGN_BYTES=16 -DEIGEN_MAX_STATIC_ALIGN_BYTES=16 -O3 -DNDEBUG -g -fno-omit-frame-pointer -fno-inline-functions -fno-inline-functions-called-once -fno-optimize-sibling-calls -std=c++17 -fPIC -Wno-array-bounds -Wno-dangling-pointer -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-uninitialized -Wall -Wextra -fPIC -Werror -Wno-overloaded-virtual -Wno-alloc-size-larger-than -o dart/CMakeFiles/dart.dir/common/CAllocator.cpp.o -c /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/src/dart/dart/common/CAllocator.cpp",
+    "original_directory": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/build/dart",
+    "dependency_reconstruction": "compiler -M only; outputs redirected to new phase; original flags/environment retained",
+    "dependency_sha256": "36de744edd48678ec673687cf9cb39a839662d5e590a62dc6f5d207749f139ee",
+    "local_headers": [
+      {
+        "path": "/usr/local/include/spdlog/common-inl.h",
+        "sha256": "40efd79aa9daadae79f797eab7efca209d46bb52605583c72daa1e1e7926df02"
+      },
+      {
+        "path": "/usr/local/include/spdlog/common.h",
+        "sha256": "c202516b93de13defa254a0fb994762ac3b265549a884990145c900648ffe63a"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/backtracer-inl.h",
+        "sha256": "995e7c9f4d51c6452b97436ceed784353d863935b7a77472a203b238638041f1"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/backtracer.h",
+        "sha256": "2e57a28770e254eb950fd3ae168a2da77fb5701cb9f42dc9ff39ca2325c90351"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/circular_q.h",
+        "sha256": "a974cc357ea402e9f8c245298b493d4eee65cde5e97bc7e5f9863b8c35a4b1eb"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/console_globals.h",
+        "sha256": "eced1eda8e8abe003fb70b29be5df42e7b706b60d5292c1f3e842f3c888a5d66"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/fmt_helper.h",
+        "sha256": "6b3f8633a5dbd90ee2a6f393caa3c1f0b4b9717ec021ab3c58807901bd8765ea"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/log_msg-inl.h",
+        "sha256": "cc56ddea61fbf6d4ba6ef06aa649bd28875e3c7e632afa9f332d04b2ee59e147"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/log_msg.h",
+        "sha256": "eda416f5e6d69541f0087c0d3dc3a2b19e06bb6378e044d3d106e0ae2289dcc4"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/log_msg_buffer-inl.h",
+        "sha256": "9814ad90de51a780ac4ed8b37b899cecf68842b967d8b7255036785be0635b9b"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/log_msg_buffer.h",
+        "sha256": "ee20038a4d8870893276e6dcacf72801511881a6cab65a58febc9f2d79f038f8"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/null_mutex.h",
+        "sha256": "934a63cdb046f5fad4783de2689cc1b6f3b7f55f99d03ab81133a694a5a7652b"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/os-inl.h",
+        "sha256": "503aab178c5db9b17fbf210bf5fb6dbdf3ff77f9fed0694592f70d2f67d2550c"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/os.h",
+        "sha256": "c7775682e27b5b530f48e5ac6adec71530af7caf65191dc653a1fb9efd855b90"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/periodic_worker-inl.h",
+        "sha256": "a29d38c326b7c789b8021eacbf3ef4c77edf36611d0bbf4e70739a10e56551b9"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/periodic_worker.h",
+        "sha256": "cd7ffccc2a90916fade3f732ee330987994be7b1b6f2300e4f8b5a2c31e83aa3"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/registry-inl.h",
+        "sha256": "bf99e4021031daa078dcf71fd506e8ef883366bd11dae7de6f9a2bf198b1a6ed"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/registry.h",
+        "sha256": "fd2b465c11c3ddbd660ef3b522f5dccb5ccb05f1cefeb38b49f1a4f57fab5499"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/synchronous_factory.h",
+        "sha256": "d2f742ffd54151670a8044922f4a0c501d125642906359b4f94d3a73f54e38b1"
+      },
+      {
+        "path": "/usr/local/include/spdlog/fmt/fmt.h",
+        "sha256": "97570376cdae403c0703df81724a70f71bc3d0d66adfcf59224e3b7b4df18cdf"
+      },
+      {
+        "path": "/usr/local/include/spdlog/formatter.h",
+        "sha256": "48524fd1570012c2199c23a5cbd952d514e80ae76ec7075fee6a78cebb9f928e"
+      },
+      {
+        "path": "/usr/local/include/spdlog/logger-inl.h",
+        "sha256": "49d2618ab96202f59d4d604e1cd7bf3a89d825e5b8a65b7af32aa1384acdce5f"
+      },
+      {
+        "path": "/usr/local/include/spdlog/logger.h",
+        "sha256": "63d75c597287a2be05ae63df48016d9cd0b39ccc9812d0a3bfda439aeb64b428"
+      },
+      {
+        "path": "/usr/local/include/spdlog/pattern_formatter-inl.h",
+        "sha256": "c26a3a26346d0b7c13af857e884f8343847410855ac650e62af86d8960084267"
+      },
+      {
+        "path": "/usr/local/include/spdlog/pattern_formatter.h",
+        "sha256": "c754f876b38ac57863da106da8491acb981d2cbc4cbd231dd8bdfb2078af0a60"
+      },
+      {
+        "path": "/usr/local/include/spdlog/sinks/ansicolor_sink-inl.h",
+        "sha256": "3e571e03b9b89869664f890ba6699450346db1b3a021fdbf5c31ad029cdd5713"
+      },
+      {
+        "path": "/usr/local/include/spdlog/sinks/ansicolor_sink.h",
+        "sha256": "db1599443032f920270ce031c9309a8b0ff09db6cfaafc79e669b07832c9ac74"
+      },
+      {
+        "path": "/usr/local/include/spdlog/sinks/sink-inl.h",
+        "sha256": "8f1eb365f5aa47ada219d562133e66971a7e7ca4221782f85c116c345beb6d25"
+      },
+      {
+        "path": "/usr/local/include/spdlog/sinks/sink.h",
+        "sha256": "612eca39db380b957538cd2dc9eec82037aad45b24a0022f8e1773434afc6882"
+      },
+      {
+        "path": "/usr/local/include/spdlog/spdlog-inl.h",
+        "sha256": "d4c694f5b709815c2c45e494c2a240bcb65b98ea0afe7850bf255e3465cba227"
+      },
+      {
+        "path": "/usr/local/include/spdlog/spdlog.h",
+        "sha256": "268a03933a066694f5e6b9dbdd30691d351f01197e08eaae581d75ac05bd8da3"
+      },
+      {
+        "path": "/usr/local/include/spdlog/tweakme.h",
+        "sha256": "848ffd5ba139218aabbca39a25bb405e913c16a9cad1d419c77ee6809427851b"
+      },
+      {
+        "path": "/usr/local/include/spdlog/version.h",
+        "sha256": "f58a2bc231fc1c4437fd35b17b8160910bc14d599e21a74ae52ee5f027ac0aae"
+      }
+    ]
+  },
+  {
+    "unit": "Aspect.cpp",
+    "original_compile_command": "/usr/bin/x86_64-linux-gnu-g++-13 -DAERO_JOINT_PREFIX=\\\"/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/prefix\\\" -DDART_ACTIVE_LOG_LEVEL=2 -DDART_HAVE_spdlog=1 -DFMT_HEADER_ONLY=1 -DFMT_SHARED -DSPDLOG_FMT_EXTERNAL -Ddart_EXPORTS -I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/src/dart -I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/build/dart -I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/inputs -isystem /usr/include/eigen3 -isystem /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/include -fuse-ld=bfd -fno-lto -frtti -fexceptions -D_GLIBCXX_USE_CXX11_ABI=1 -DEIGEN_MAX_ALIGN_BYTES=16 -DEIGEN_MAX_STATIC_ALIGN_BYTES=16 -O3 -DNDEBUG -g -fno-omit-frame-pointer -fno-inline-functions -fno-inline-functions-called-once -fno-optimize-sibling-calls -std=c++17 -fPIC -Wno-array-bounds -Wno-dangling-pointer -Wno-maybe-uninitialized -Wno-stringop-overflow -Wno-uninitialized -Wall -Wextra -fPIC -Werror -Wno-overloaded-virtual -Wno-alloc-size-larger-than -o dart/CMakeFiles/dart.dir/common/Aspect.cpp.o -c /tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/src/dart/dart/common/Aspect.cpp",
+    "original_directory": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-selection-fix-v1/work/config-01/build/dart",
+    "dependency_reconstruction": "compiler -M only; outputs redirected to new phase; original flags/environment retained",
+    "dependency_sha256": "9f85b38ca077d7c19a49bcd9918a6406686b7332fd88a3bdf2a898c99213b973",
+    "local_headers": [
+      {
+        "path": "/usr/local/include/spdlog/common-inl.h",
+        "sha256": "40efd79aa9daadae79f797eab7efca209d46bb52605583c72daa1e1e7926df02"
+      },
+      {
+        "path": "/usr/local/include/spdlog/common.h",
+        "sha256": "c202516b93de13defa254a0fb994762ac3b265549a884990145c900648ffe63a"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/backtracer-inl.h",
+        "sha256": "995e7c9f4d51c6452b97436ceed784353d863935b7a77472a203b238638041f1"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/backtracer.h",
+        "sha256": "2e57a28770e254eb950fd3ae168a2da77fb5701cb9f42dc9ff39ca2325c90351"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/circular_q.h",
+        "sha256": "a974cc357ea402e9f8c245298b493d4eee65cde5e97bc7e5f9863b8c35a4b1eb"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/console_globals.h",
+        "sha256": "eced1eda8e8abe003fb70b29be5df42e7b706b60d5292c1f3e842f3c888a5d66"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/fmt_helper.h",
+        "sha256": "6b3f8633a5dbd90ee2a6f393caa3c1f0b4b9717ec021ab3c58807901bd8765ea"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/log_msg-inl.h",
+        "sha256": "cc56ddea61fbf6d4ba6ef06aa649bd28875e3c7e632afa9f332d04b2ee59e147"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/log_msg.h",
+        "sha256": "eda416f5e6d69541f0087c0d3dc3a2b19e06bb6378e044d3d106e0ae2289dcc4"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/log_msg_buffer-inl.h",
+        "sha256": "9814ad90de51a780ac4ed8b37b899cecf68842b967d8b7255036785be0635b9b"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/log_msg_buffer.h",
+        "sha256": "ee20038a4d8870893276e6dcacf72801511881a6cab65a58febc9f2d79f038f8"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/null_mutex.h",
+        "sha256": "934a63cdb046f5fad4783de2689cc1b6f3b7f55f99d03ab81133a694a5a7652b"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/os-inl.h",
+        "sha256": "503aab178c5db9b17fbf210bf5fb6dbdf3ff77f9fed0694592f70d2f67d2550c"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/os.h",
+        "sha256": "c7775682e27b5b530f48e5ac6adec71530af7caf65191dc653a1fb9efd855b90"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/periodic_worker-inl.h",
+        "sha256": "a29d38c326b7c789b8021eacbf3ef4c77edf36611d0bbf4e70739a10e56551b9"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/periodic_worker.h",
+        "sha256": "cd7ffccc2a90916fade3f732ee330987994be7b1b6f2300e4f8b5a2c31e83aa3"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/registry-inl.h",
+        "sha256": "bf99e4021031daa078dcf71fd506e8ef883366bd11dae7de6f9a2bf198b1a6ed"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/registry.h",
+        "sha256": "fd2b465c11c3ddbd660ef3b522f5dccb5ccb05f1cefeb38b49f1a4f57fab5499"
+      },
+      {
+        "path": "/usr/local/include/spdlog/details/synchronous_factory.h",
+        "sha256": "d2f742ffd54151670a8044922f4a0c501d125642906359b4f94d3a73f54e38b1"
+      },
+      {
+        "path": "/usr/local/include/spdlog/fmt/fmt.h",
+        "sha256": "97570376cdae403c0703df81724a70f71bc3d0d66adfcf59224e3b7b4df18cdf"
+      },
+      {
+        "path": "/usr/local/include/spdlog/formatter.h",
+        "sha256": "48524fd1570012c2199c23a5cbd952d514e80ae76ec7075fee6a78cebb9f928e"
+      },
+      {
+        "path": "/usr/local/include/spdlog/logger-inl.h",
+        "sha256": "49d2618ab96202f59d4d604e1cd7bf3a89d825e5b8a65b7af32aa1384acdce5f"
+      },
+      {
+        "path": "/usr/local/include/spdlog/logger.h",
+        "sha256": "63d75c597287a2be05ae63df48016d9cd0b39ccc9812d0a3bfda439aeb64b428"
+      },
+      {
+        "path": "/usr/local/include/spdlog/pattern_formatter-inl.h",
+        "sha256": "c26a3a26346d0b7c13af857e884f8343847410855ac650e62af86d8960084267"
+      },
+      {
+        "path": "/usr/local/include/spdlog/pattern_formatter.h",
+        "sha256": "c754f876b38ac57863da106da8491acb981d2cbc4cbd231dd8bdfb2078af0a60"
+      },
+      {
+        "path": "/usr/local/include/spdlog/sinks/ansicolor_sink-inl.h",
+        "sha256": "3e571e03b9b89869664f890ba6699450346db1b3a021fdbf5c31ad029cdd5713"
+      },
+      {
+        "path": "/usr/local/include/spdlog/sinks/ansicolor_sink.h",
+        "sha256": "db1599443032f920270ce031c9309a8b0ff09db6cfaafc79e669b07832c9ac74"
+      },
+      {
+        "path": "/usr/local/include/spdlog/sinks/sink-inl.h",
+        "sha256": "8f1eb365f5aa47ada219d562133e66971a7e7ca4221782f85c116c345beb6d25"
+      },
+      {
+        "path": "/usr/local/include/spdlog/sinks/sink.h",
+        "sha256": "612eca39db380b957538cd2dc9eec82037aad45b24a0022f8e1773434afc6882"
+      },
+      {
+        "path": "/usr/local/include/spdlog/spdlog-inl.h",
+        "sha256": "d4c694f5b709815c2c45e494c2a240bcb65b98ea0afe7850bf255e3465cba227"
+      },
+      {
+        "path": "/usr/local/include/spdlog/spdlog.h",
+        "sha256": "268a03933a066694f5e6b9dbdd30691d351f01197e08eaae581d75ac05bd8da3"
+      },
+      {
+        "path": "/usr/local/include/spdlog/tweakme.h",
+        "sha256": "848ffd5ba139218aabbca39a25bb405e913c16a9cad1d419c77ee6809427851b"
+      },
+      {
+        "path": "/usr/local/include/spdlog/version.h",
+        "sha256": "f58a2bc231fc1c4437fd35b17b8160910bc14d599e21a74ae52ee5f027ac0aae"
+      }
+    ]
+  }
+]
