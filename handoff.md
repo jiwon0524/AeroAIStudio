@@ -1,3 +1,47 @@
+# Joint instrumentation build v1 — current checkpoint
+
+**BLOCKED_AFTER_PROBE_STAGE / joint build INCOMPLETE / NOT_EXECUTION_READY / NOT_RUNTIME_VERIFIED. Stage B BLOCKED. Risk acceptance UNDECIDED.**
+2026-11-08 UTC. Direct starting HEADe272b2a8a6de5b517e888ad1b03c6991992efb36/experiment/dart-internal-trace clean; required instructions/build_gate/build_commands read and context-handoff used. User authorized isolated source application/configure/compile/link/static checks, with stop on first failure. Actual target loading/execution/CTest/try_run/physics/services/markers/sudo/install/system/main changes remain prohibited. No target execution/loading performed.
+
+Current report: validation/gazebo-joint-build-v1/reports/build_result.md; progress.md/result.json. Input verification PASS:47087 unique hashes,26 prepared inputs,3 archives,12 patches,18 package archives,toolchain/dependency lists and fresh layout. Exact prepared argv/environment used (command file SHA in steps.json). New config-01/src/{dart,physics,sim} only extracted/patched, all expected post-source digests MATCH. Original archive/source/previous inputs preserved. This now supersedes the older static READY_FOR_BUILD checkpoint as the actual attempted-build status.
+
+Probe configure, selected96 external files,2 source compiles/shared link,7-node static ELF closure and local-prefix stage command PASS. First failure: probe.receipt(index6) exit1 at stage_receipt.py:20, staged bytes differ. Stage CMake RPATH_CHANGE removes the final RUNPATH colon. Exact byte comparison:361424-byte files,only offset6339 in .dynstr changes58(':')->0. Same SONAME/NEEDED/Build ID f8d0e5ccb7cc9ef6dff3a2e3bef7a3c4ad81f4c7, different SHA. Build a18c2eef8fe7014dd51670ff5bf647bb786955827ec69cf2a000f5b1d443b34a; prefix ccd88699b6b08d3f54a9b3c0886fb5b0086a74aefe915162c933c34279c87dc1. Both artifacts retained. No staged.json receipt accepted. Build RUNPATH has a trailing empty element; the prepared auditor omitted empty elements, so its PASS is not runtime search-policy approval.
+
+Stopped without altering input/guard/argv or retrying. DART/physics/Sim/harness configure/build NOT_STARTED. No runtime world/materialized execution plan; execution approval proposal NOT_ISSUED.330 actual header dependency files match allowlist,actual target/cache paths recorded in actual_selection/header_dependencies. Artifacts and full NEEDED/SONAME/RUNPATH/hash/ID records in artifacts.json,probe_link_closure,prefix_link_inspection,staging_difference. Prefix dependency inspection does not bypass failed provenance. Compiler ID/ABI4 ELFs and2 objects inventoried separately,not executed. CMake trace try_run count0,verbose build has compile2/link1/symlink1; command_execution_audit is not a syscall trace.
+
+Changed: this handoff and new build-phase reports/validated recording/static-inspection scripts. No prepared input changed; selected original sources and main HEAD/status match before. New source copies/build/prefix/logs retained. Large logs/raw artifacts/binaries/dependency/source caches remain local/ignored,not transferred by Git; /tmp is not durable. Exact log hashes/paths in log_index/steps. Script/JSON/diff checks PASS; no CTest/native behavior test. The recorded command processes exited with their return codes; no existing process stopped/restarted. Snapshot sees no same-user project-CWD jobs; other CWD/remote/container/namespace state UNKNOWN.
+
+Next minimum only in a separately authorized fix/review task: reconcile CMake's intentional RUNPATH transformation with staging provenance (or define byte-identical build/install inputs),and explicitly handle empty RUNPATH elements. Do not silently relax the receipt,create a manual receipt,rerun steps or broaden dependencies. config-01 source/build/prefix are now nonempty,source helper/preflight cannot be blindly replayed. New runner steps.json latches this failure. DART onward remains unfinished. Any later build result belongs only to the coherent instrumented configuration; ABI/zero-step/GO/mappings/100x1ms/Clock/Capture/cleanup still require separate evidence and execution permission. Current task ends after failure report/publication. Snapshot pre-publication; reconcile commit parent/file list/remote on resume.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-08T07:24:33.341773+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "e272b2a8a6de5b517e888ad1b03c6991992efb36",
+    "branch": "experiment/dart-internal-trace",
+    "status": []
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-build-v1/reports/build_result.md",
+      "sha256": "2ae8e1f42fcd11c4a318bfd8cbe4d58e1c6d25951f9e203c3eeed7ddfa57e350"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+---
+Previous checkpoint follows:
+
 # Joint build final input closure — current checkpoint
 
 **READY_FOR_BUILD (static inputs only); NOT_EXECUTION_READY / NOT_RUNTIME_VERIFIED. Stage B BLOCKED. Risk acceptance UNDECIDED.**

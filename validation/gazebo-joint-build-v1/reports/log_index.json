@@ -1,0 +1,98 @@
+[
+  {
+    "path": "validation/gazebo-joint-build-v1/logs/source.log",
+    "sha256": "5feda00219db3f505968872b91cb98f53642580a2c1182decb1980389b6d2d12",
+    "bytes": 65,
+    "publication": "LOCAL_RAW_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-build-v1/logs/probe.build.log",
+    "sha256": "37515c55752fbb922036a4ca03f7d5d6988827d009561fa5fb50ac0a9d2a00a3",
+    "bytes": 2137,
+    "publication": "LOCAL_RAW_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-build-v1/logs/probe.stage.0.log",
+    "sha256": "0369c2a13c0b17d68ac01359bf79e91191e3cd81741b8ea97279f60994aa4a18",
+    "bytes": 848,
+    "publication": "LOCAL_RAW_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-build-v1/logs/probe.elf.log",
+    "sha256": "1e86d1393fdcb061641e3c198ecba2c4e6e46da6e9fb04a31f6d619c8fffb2df",
+    "bytes": 3682,
+    "publication": "LOCAL_RAW_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-build-v1/logs/probe.receipt.log",
+    "sha256": "80c495e474554db583ba0db138a53c6c1627036ca0bfd34007f3eea96c479c4c",
+    "bytes": 534,
+    "publication": "LOCAL_RAW_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-build-v1/logs/probe.build.readelf.txt",
+    "sha256": "14d5f16d7cbd89163039e57358ffc945a06d8003be1532e57a4d1393d352386c",
+    "bytes": 3245,
+    "publication": "LOCAL_RAW_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-build-v1/logs/probe.prefix.readelf.txt",
+    "sha256": "3853f651b343aa6339fee0dbd0c05f313227df4512863af1b86eeef1c618abff",
+    "bytes": 3244,
+    "publication": "LOCAL_RAW_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-build-v1/logs/probe.header_deps.txt",
+    "sha256": "8c5be3a5abbebc161710df222da55c8ee6cff75c0e393311eb218f885b4b3dd5",
+    "bytes": 23972,
+    "publication": "LOCAL_RAW_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-build-v1/logs/probe.selection.log",
+    "sha256": "2702719e4f662fd15e78b8d9f1f551a361bf7b1e30edfd0ca2854becd43c35b8",
+    "bytes": 112,
+    "publication": "LOCAL_RAW_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-build-v1/logs/probe.configure.log",
+    "sha256": "d5cfaab66d7e007c7c31efd4258c613ac81c6216ed6907822b18f05844eccdb4",
+    "bytes": 1171,
+    "publication": "LOCAL_RAW_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/work/config-01/logs/probe.trace.jsonl",
+    "sha256": "42a06cffb2041878e09ebf9e81081995f4824e91b220b9a909771c4ddd80b55b",
+    "bytes": 3093456,
+    "publication": "LOCAL_RAW_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/work/config-01/build/probe/CMakeCache.txt",
+    "sha256": "8123704442fd14c97f7a17e5fa7be3f19b9e30ec62f142f513a6c435b4559ba5",
+    "bytes": 21690,
+    "publication": "LOCAL_RAW_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/work/config-01/build/probe/compile_commands.json",
+    "sha256": "95e044c93923fb515ff6fef2280ef501fec528892b1d1f412cb28cd6495cc179",
+    "bytes": 1352,
+    "publication": "LOCAL_RAW_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/work/config-01/build/probe/cmake_install.cmake",
+    "sha256": "ab60df12af64beb62da54e7b94feff0887b35e16ed786f7865f6f7d48f02edf7",
+    "bytes": 4058,
+    "publication": "LOCAL_RAW_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/work/config-01/build/probe/build.ninja",
+    "sha256": "5df97433db49b85497fc9c194f4cecd4f9c0987f584078d68b15866b1925fd99",
+    "bytes": 22366,
+    "publication": "LOCAL_RAW_ONLY"
+  },
+  {
+    "path": "validation/gazebo-joint-closure-v1/work/config-01/build/probe/.ninja_deps",
+    "sha256": "5786346beb87694ede22490ae32e0c564c42e5ef7edf616d8db57b28608e462e",
+    "bytes": 18508,
+    "publication": "LOCAL_RAW_ONLY"
+  }
+]

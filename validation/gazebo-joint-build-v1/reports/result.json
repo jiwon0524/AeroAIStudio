@@ -1,0 +1,43 @@
+{
+  "status": "BLOCKED_AFTER_PROBE_STAGE",
+  "completed": [
+    "fixed_input_verification",
+    "source_copy_and_patch",
+    "probe_configure",
+    "probe_selection",
+    "probe_compile_link",
+    "probe_static_ELF_check",
+    "probe_prefix_stage_command"
+  ],
+  "first_failure": {
+    "step": "probe.receipt",
+    "command_index": 6,
+    "prepared_commands_sha256": "7a106ce38bc5b3aef4c4bbf05a0c8790e89dc614da9ddf4788bef5556fa08ba2",
+    "host": "jiwon-System-Product-Name",
+    "pid": 6,
+    "start_identity": "31745888",
+    "returncode": 1,
+    "elapsed_seconds": 0.061,
+    "log": "validation/gazebo-joint-build-v1/logs/probe.receipt.log",
+    "log_sha256": "80c495e474554db583ba0db138a53c6c1627036ca0bfd34007f3eea96c479c4c",
+    "status": "STOPPED_AT_FIRST_FAILURE"
+  },
+  "not_started": [
+    "DART",
+    "gz-physics",
+    "Sim",
+    "harness"
+  ],
+  "artifact_manifest": "artifacts.json",
+  "dependency_manifest": "probe_link_closure.json",
+  "execution_approval_proposal": "NOT_ISSUED",
+  "stage_b": "BLOCKED",
+  "risk_acceptance": "UNDECIDED",
+  "runtime": "NOT_RUNTIME_VERIFIED",
+  "tests": {
+    "report_JSON": "PASS",
+    "script_AST": "PASS",
+    "first_failure_latched": "PASS",
+    "exact_one_byte_staging_difference": "CONFIRMED"
+  }
+}

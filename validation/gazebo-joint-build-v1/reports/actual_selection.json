@@ -1,0 +1,107 @@
+{
+  "cache": {
+    "CMAKE_BUILD_RPATH": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/config-01/prefix/lib;/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu",
+    "CMAKE_BUILD_TYPE": "RelWithDebInfo",
+    "CMAKE_CXX_COMPILER_AR": "/usr/bin/x86_64-linux-gnu-gcc-ar-13",
+    "CMAKE_CXX_COMPILER_LAUNCHER": "/usr/bin/python3;/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/inputs/compile_gate.py",
+    "CMAKE_CXX_COMPILER_RANLIB": "/usr/bin/x86_64-linux-gnu-gcc-ranlib-13",
+    "CMAKE_CXX_FLAGS": "-fuse-ld=bfd -fno-lto -frtti -fexceptions -D_GLIBCXX_USE_CXX11_ABI=1 -DEIGEN_MAX_ALIGN_BYTES=16 -DEIGEN_MAX_STATIC_ALIGN_BYTES=16",
+    "CMAKE_CXX_FLAGS_DEBUG": "-g",
+    "CMAKE_CXX_FLAGS_MINSIZEREL": "-Os -DNDEBUG",
+    "CMAKE_CXX_FLAGS_RELEASE": "-O3 -DNDEBUG",
+    "CMAKE_CXX_FLAGS_RELWITHDEBINFO": "-O2 -g -DNDEBUG",
+    "CMAKE_C_COMPILER_AR": "/usr/bin/x86_64-linux-gnu-gcc-ar-13",
+    "CMAKE_C_COMPILER_LAUNCHER": "/usr/bin/python3;/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/inputs/compile_gate.py",
+    "CMAKE_C_COMPILER_RANLIB": "/usr/bin/x86_64-linux-gnu-gcc-ranlib-13",
+    "CMAKE_INSTALL_PREFIX": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/config-01/prefix",
+    "CMAKE_INSTALL_RPATH": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/config-01/prefix/lib;/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu",
+    "CMAKE_MAKE_PROGRAM": "/usr/bin/ninja",
+    "OPENSSL_CRYPTO_LIBRARY": "/usr/lib/x86_64-linux-gnu/libcrypto.so",
+    "OPENSSL_INCLUDE_DIR": "/usr/include",
+    "OPENSSL_SSL_LIBRARY": "/usr/lib/x86_64-linux-gnu/libssl.so",
+    "CMAKE_CXX_COMPILER_AR-ADVANCED": "1",
+    "CMAKE_CXX_COMPILER_RANLIB-ADVANCED": "1",
+    "CMAKE_CXX_FLAGS-ADVANCED": "1",
+    "CMAKE_CXX_FLAGS_DEBUG-ADVANCED": "1",
+    "CMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED": "1",
+    "CMAKE_CXX_FLAGS_RELEASE-ADVANCED": "1",
+    "CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED": "1",
+    "CMAKE_C_COMPILER_AR-ADVANCED": "1",
+    "CMAKE_C_COMPILER_RANLIB-ADVANCED": "1",
+    "OPENSSL_CRYPTO_LIBRARY-ADVANCED": "1",
+    "OPENSSL_INCLUDE_DIR-ADVANCED": "1",
+    "OPENSSL_SSL_LIBRARY-ADVANCED": "1"
+  },
+  "targets": [
+    {
+      "target": "aero-joint-probe",
+      "properties": {
+        "INTERFACE_INCLUDE_DIRECTORIES": "",
+        "INTERFACE_LINK_LIBRARIES": "",
+        "INTERFACE_COMPILE_DEFINITIONS": "",
+        "INTERFACE_COMPILE_OPTIONS": "",
+        "LINK_LIBRARIES": "OpenSSL::Crypto;dl",
+        "IMPORTED_LOCATION_RELEASE": "",
+        "IMPORTED_LOCATION_NOCONFIG": "",
+        "COMPILE_DEFINITIONS": "",
+        "IMPORTED_LOCATION": "",
+        "INCLUDE_DIRECTORIES": "",
+        "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+        "COMPILE_OPTIONS": ""
+      }
+    },
+    {
+      "target": "OpenSSL::SSL",
+      "properties": {
+        "INTERFACE_INCLUDE_DIRECTORIES": "/usr/include",
+        "INTERFACE_LINK_LIBRARIES": "OpenSSL::Crypto",
+        "INTERFACE_COMPILE_DEFINITIONS": "",
+        "INTERFACE_COMPILE_OPTIONS": "",
+        "LINK_LIBRARIES": "",
+        "IMPORTED_LOCATION_RELEASE": "",
+        "IMPORTED_LOCATION_NOCONFIG": "",
+        "COMPILE_DEFINITIONS": "",
+        "IMPORTED_LOCATION": "/usr/lib/x86_64-linux-gnu/libssl.so",
+        "INCLUDE_DIRECTORIES": "",
+        "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+        "COMPILE_OPTIONS": ""
+      }
+    },
+    {
+      "target": "OpenSSL::Crypto",
+      "properties": {
+        "INTERFACE_INCLUDE_DIRECTORIES": "/usr/include",
+        "INTERFACE_LINK_LIBRARIES": "",
+        "INTERFACE_COMPILE_DEFINITIONS": "",
+        "INTERFACE_COMPILE_OPTIONS": "",
+        "LINK_LIBRARIES": "",
+        "IMPORTED_LOCATION_RELEASE": "",
+        "IMPORTED_LOCATION_NOCONFIG": "",
+        "COMPILE_DEFINITIONS": "",
+        "IMPORTED_LOCATION": "/usr/lib/x86_64-linux-gnu/libcrypto.so",
+        "INCLUDE_DIRECTORIES": "",
+        "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+        "COMPILE_OPTIONS": ""
+      }
+    },
+    {
+      "target": "OpenSSL::applink",
+      "properties": {
+        "INTERFACE_INCLUDE_DIRECTORIES": "",
+        "INTERFACE_LINK_LIBRARIES": "",
+        "INTERFACE_COMPILE_DEFINITIONS": "",
+        "INTERFACE_COMPILE_OPTIONS": "",
+        "LINK_LIBRARIES": "",
+        "IMPORTED_LOCATION_RELEASE": "",
+        "IMPORTED_LOCATION_NOCONFIG": "",
+        "COMPILE_DEFINITIONS": "",
+        "IMPORTED_LOCATION": "",
+        "INCLUDE_DIRECTORIES": "",
+        "IMPORTED_LOCATION_RELWITHDEBINFO": "",
+        "COMPILE_OPTIONS": ""
+      }
+    }
+  ],
+  "selection_check": "probe.selection.log",
+  "command_and_link_line": "probe.build.log"
+}

@@ -1,0 +1,23 @@
+{
+  "prepared_inputs_unchanged": 26,
+  "original_source_inputs_unchanged": true,
+  "main_HEAD_status_unchanged": true,
+  "new_source_post_patch_digests": [
+    {
+      "component": "dart",
+      "path": "validation/gazebo-joint-closure-v1/work/config-01/src/dart",
+      "expected_modified_file_digests": "MATCH"
+    },
+    {
+      "component": "physics",
+      "path": "validation/gazebo-joint-closure-v1/work/config-01/src/physics",
+      "expected_modified_file_digests": "MATCH"
+    },
+    {
+      "component": "sim",
+      "path": "validation/gazebo-joint-closure-v1/work/config-01/src/sim",
+      "expected_modified_file_digests": "MATCH"
+    }
+  ],
+  "scope": "selected file hashes and main metadata; no claim of full ignored-tree integrity"
+}

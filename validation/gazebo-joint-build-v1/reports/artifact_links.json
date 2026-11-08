@@ -1,0 +1,38 @@
+{
+  "links": [
+    {
+      "path": "validation/gazebo-joint-closure-v1/work/config-01/build/probe/libaero-joint-probe.so",
+      "link": "libaero-joint-probe.so.1",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/config-01/build/probe/libaero-joint-probe.so.1.0"
+    },
+    {
+      "path": "validation/gazebo-joint-closure-v1/work/config-01/build/probe/libaero-joint-probe.so.1",
+      "link": "libaero-joint-probe.so.1.0",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/config-01/build/probe/libaero-joint-probe.so.1.0"
+    },
+    {
+      "path": "validation/gazebo-joint-closure-v1/work/config-01/build/probe/libaero-joint-probe.so.1.0",
+      "link": null,
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/config-01/build/probe/libaero-joint-probe.so.1.0"
+    },
+    {
+      "path": "validation/gazebo-joint-closure-v1/work/config-01/prefix/lib/libaero-joint-probe.so",
+      "link": "libaero-joint-probe.so.1",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0"
+    },
+    {
+      "path": "validation/gazebo-joint-closure-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1",
+      "link": "libaero-joint-probe.so.1.0",
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0"
+    },
+    {
+      "path": "validation/gazebo-joint-closure-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0",
+      "link": null,
+      "realpath": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0"
+    }
+  ],
+  "staged_receipt_exists": false,
+  "harness": "NOT_BUILT",
+  "DART_physics_Sim_plugins": "NOT_BUILT",
+  "runtime_world": "NOT_MATERIALIZED"
+}

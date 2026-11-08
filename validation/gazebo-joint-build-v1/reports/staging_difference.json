@@ -1,0 +1,26 @@
+{
+  "equal_size": true,
+  "build_bytes": 361424,
+  "prefix_bytes": 361424,
+  "different_byte_count": 1,
+  "changed_sections": [
+    {
+      "name": ".dynstr",
+      "offset": 3008,
+      "size": 3333
+    }
+  ],
+  "changed_bytes": [
+    {
+      "offset": 6339,
+      "build": 58,
+      "prefix": 0
+    }
+  ],
+  "remaining_changes_omitted": 0,
+  "same_build_id": true,
+  "same_soname": true,
+  "same_needed": true,
+  "stage_script": "validation/gazebo-joint-closure-v1/work/config-01/build/probe/cmake_install.cmake",
+  "cause": "Compare CMake RPATH_CHANGE and exact byte offsets; no receipt bypass or retry performed"
+}

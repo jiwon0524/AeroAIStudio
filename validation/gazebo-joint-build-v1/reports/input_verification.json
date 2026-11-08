@@ -1,0 +1,19 @@
+{
+  "head": "e272b2a8a6de5b517e888ad1b03c6991992efb36",
+  "branch": "experiment/dart-internal-trace",
+  "status": "PASS",
+  "counts": {
+    "input_files.json": 26,
+    "reuse_files.json": 6,
+    "local_inventory_index.json": 4,
+    "source_archives": 3,
+    "patches": 12,
+    "18_package_archives": 18,
+    "toolchain_files": 40806,
+    "toolchain_ELF_closure": 71,
+    "selected_dependency_files": 35038
+  },
+  "unique_hashed_files": 47087,
+  "issues": [],
+  "method": "SHA-256/file mode/Git/empty layout checks only; no compiler/loader/target execution"
+}

@@ -1,0 +1,194 @@
+{
+  "cmake_try_run_calls": 0,
+  "execute_process_programs": [
+    {
+      "program": "/usr/bin/uname",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake",
+      "line": 73
+    },
+    {
+      "program": "/usr/bin/uname",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake",
+      "line": 79
+    },
+    {
+      "program": "/usr/bin/x86_64-linux-gnu-gcc-13",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake",
+      "line": 736
+    },
+    {
+      "program": "/usr/bin/x86_64-linux-gnu-gcc-13",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake",
+      "line": 157
+    },
+    {
+      "program": "/usr/bin/x86_64-linux-gnu-g++-13",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake",
+      "line": 736
+    },
+    {
+      "program": "/usr/bin/x86_64-linux-gnu-g++-13",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake",
+      "line": 157
+    },
+    {
+      "program": "/usr/bin/x86_64-linux-gnu-ld.bfd",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/Platform/Linux.cmake",
+      "line": 26
+    },
+    {
+      "program": "/usr/bin/ninja",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/Compiler/GNU.cmake",
+      "line": 63
+    },
+    {
+      "program": "/usr/bin/x86_64-linux-gnu-gcc-13",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/Compiler/GNU.cmake",
+      "line": 77
+    },
+    {
+      "program": "/usr/bin/x86_64-linux-gnu-ld.bfd",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/Platform/Linux.cmake",
+      "line": 26
+    },
+    {
+      "program": "/usr/bin/ninja",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/Compiler/GNU.cmake",
+      "line": 63
+    },
+    {
+      "program": "/usr/bin/x86_64-linux-gnu-gcc-13",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/Compiler/GNU.cmake",
+      "line": 77
+    },
+    {
+      "program": "/usr/bin/ninja",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/Compiler/GNU.cmake",
+      "line": 63
+    },
+    {
+      "program": "/usr/bin/x86_64-linux-gnu-g++-13",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/Compiler/GNU.cmake",
+      "line": 77
+    },
+    {
+      "program": "/usr/bin/x86_64-linux-gnu-ld.bfd",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/Platform/Linux.cmake",
+      "line": 26
+    },
+    {
+      "program": "/usr/bin/ninja",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/Compiler/GNU.cmake",
+      "line": 63
+    },
+    {
+      "program": "/usr/bin/x86_64-linux-gnu-g++-13",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/Compiler/GNU.cmake",
+      "line": 77
+    },
+    {
+      "program": "/usr/bin/pkg-config",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/FindPkgConfig.cmake",
+      "line": 73
+    },
+    {
+      "program": "/usr/bin/pkg-config",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/FindPkgConfig.cmake",
+      "line": 600
+    },
+    {
+      "program": "/usr/bin/pkg-config",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/FindPkgConfig.cmake",
+      "line": 130
+    },
+    {
+      "program": "/usr/bin/pkg-config",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/FindPkgConfig.cmake",
+      "line": 130
+    },
+    {
+      "program": "/usr/bin/pkg-config",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/FindPkgConfig.cmake",
+      "line": 130
+    },
+    {
+      "program": "/usr/bin/pkg-config",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/FindPkgConfig.cmake",
+      "line": 130
+    },
+    {
+      "program": "/usr/bin/pkg-config",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/FindPkgConfig.cmake",
+      "line": 130
+    },
+    {
+      "program": "/usr/bin/pkg-config",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/FindPkgConfig.cmake",
+      "line": 130
+    },
+    {
+      "program": "/usr/bin/pkg-config",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/FindPkgConfig.cmake",
+      "line": 130
+    },
+    {
+      "program": "/usr/bin/pkg-config",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/FindPkgConfig.cmake",
+      "line": 130
+    },
+    {
+      "program": "/usr/bin/pkg-config",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/FindPkgConfig.cmake",
+      "line": 130
+    },
+    {
+      "program": "/usr/bin/pkg-config",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/FindPkgConfig.cmake",
+      "line": 130
+    },
+    {
+      "program": "/usr/bin/pkg-config",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/FindPkgConfig.cmake",
+      "line": 130
+    },
+    {
+      "program": "/usr/bin/pkg-config",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/FindPkgConfig.cmake",
+      "line": 130
+    },
+    {
+      "program": "/usr/bin/pkg-config",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/FindPkgConfig.cmake",
+      "line": 130
+    },
+    {
+      "program": "/usr/bin/pkg-config",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/FindPkgConfig.cmake",
+      "line": 130
+    },
+    {
+      "program": "/usr/bin/pkg-config",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/FindPkgConfig.cmake",
+      "line": 130
+    },
+    {
+      "program": "/usr/bin/pkg-config",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/FindPkgConfig.cmake",
+      "line": 130
+    },
+    {
+      "program": "/usr/bin/pkg-config",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/FindPkgConfig.cmake",
+      "line": 130
+    },
+    {
+      "program": "/usr/bin/pkg-config",
+      "cmake_file": "/usr/share/cmake-3.28/Modules/FindPkgConfig.cmake",
+      "line": 130
+    }
+  ],
+  "build_actions": "two compiler invocations, shared link, cmake_symlink_library from verbose log",
+  "target_executed_or_loaded": false,
+  "CTest_run": false,
+  "limitations": "reviewed command/trace evidence, not a retained syscall trace"
+}
