@@ -1,0 +1,161 @@
+{
+  "status": "SOURCE_REVIEW_BLOCKED_NOT_RUNTIME_OBSERVATION",
+  "files": [
+    {
+      "path": "validation/gazebo-joint-resource-gate-v1/work/source/parser.cc",
+      "sha256": "30530c889310e598cbd32d47b8ba32a058aa6989c4bd622840a2d6703c9adc45",
+      "url": "https://raw.githubusercontent.com/gazebosim/sdformat/sdformat14_14.9.0/src/parser.cc",
+      "reviewed_lines": [
+        159,
+        428,
+        453,
+        484,
+        726,
+        1087,
+        1548
+      ],
+      "provenance": "official version-tag source; not a binary reproducibility receipt"
+    },
+    {
+      "path": "validation/gazebo-joint-resource-gate-v1/work/source/Root.cc",
+      "sha256": "642d08f025108d2886ff7c2cdb19a29ec2b9ea9f3494b468abe0642af6fe7905",
+      "url": "https://raw.githubusercontent.com/gazebosim/sdformat/sdformat14_14.9.0/src/Root.cc",
+      "reviewed_lines": [
+        40,
+        231
+      ],
+      "provenance": "official version-tag source; not a binary reproducibility receipt"
+    },
+    {
+      "path": "validation/gazebo-joint-resource-gate-v1/work/source/SDF.cc",
+      "sha256": "79296cce5152e34255e16196b769d1f928a9ec4703a7eb4a8a998f339c3c578c",
+      "url": "https://raw.githubusercontent.com/gazebosim/sdformat/sdformat14_14.9.0/src/SDF.cc",
+      "reviewed_lines": [
+        102,
+        143,
+        155,
+        163,
+        174,
+        178,
+        194,
+        543,
+        556
+      ],
+      "provenance": "official version-tag source; not a binary reproducibility receipt"
+    },
+    {
+      "path": "validation/gazebo-joint-resource-gate-v1/work/source/Converter.cc",
+      "sha256": "320a68c10d79c1c761f7eae0e3baf6b87c5d59f01f8fd52718135020039d212b",
+      "url": "https://raw.githubusercontent.com/gazebosim/sdformat/sdformat14_14.9.0/src/Converter.cc",
+      "reviewed_lines": [
+        81,
+        126,
+        149,
+        161
+      ],
+      "provenance": "official version-tag source; not a binary reproducibility receipt"
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/Server.cc",
+      "sha256": "4e6becef76d0a12e50b2f24f4cbfa527f4e1e1b7ac94e64ff633d99567acac4d",
+      "reviewed_lines": [
+        65,
+        73,
+        81,
+        87
+      ],
+      "provenance": "preserved joint-build source; no edits"
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/ServerConfig.cc",
+      "sha256": "56c777ad2feb892561c1adc53a7d96fcf46e18a0142738354d7e6f949c398c2f",
+      "reviewed_lines": [
+        337,
+        899,
+        917,
+        945,
+        964
+      ],
+      "provenance": "preserved joint-build source; no edits"
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/ServerPrivate.cc",
+      "sha256": "a0145b22463c820593205f27f08d3413bf322d48eec0710d4154a47598b16c1b",
+      "reviewed_lines": [
+        560,
+        589,
+        603,
+        610
+      ],
+      "provenance": "preserved joint-build source; no edits"
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/SystemLoader.cc",
+      "sha256": "6c3defc166528add76950b9ba8e1e49794e9d5cfdd646f686eed0777cd76ef78",
+      "reviewed_lines": [
+        45,
+        64,
+        86,
+        98,
+        141
+      ],
+      "provenance": "preserved joint-build source; no edits"
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/SimulationRunner.cc",
+      "sha256": "e68a654f583b74123d9a7f57b61b585dabbb38496de319423dcf38d3ffef13cc",
+      "reviewed_lines": [
+        775,
+        788,
+        793,
+        1052,
+        1068,
+        1077,
+        1813
+      ],
+      "provenance": "preserved joint-build source; no edits"
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/SystemManager.cc",
+      "sha256": "7c66d5038758168f9ba100adf2102a1efd88d8d5b7f18f1b60895480a49df428",
+      "reviewed_lines": [
+        65,
+        433,
+        466
+      ],
+      "provenance": "preserved joint-build source; no edits"
+    },
+    {
+      "path": "validation/gazebo-joint-codegen-fix-v1/work/config-01/src/sim/src/systems/physics/Physics.cc",
+      "sha256": "93417cadbc014648ee6ec8d8c9033c7240d76166627d83e885a04954d5caac9d",
+      "reviewed_lines": [
+        960,
+        977,
+        994,
+        1118,
+        1149
+      ],
+      "provenance": "preserved joint-build source; no edits"
+    },
+    {
+      "path": "/usr/include/gz/sdformat14/sdf/config.hh",
+      "sha256": "9bde2af807c483441fab3add2b1625103a26aed4de8995cc43f7508d63f4745a",
+      "provenance": "selected installed public SDK; read only"
+    },
+    {
+      "path": "/usr/include/gz/sdformat14/sdf/parser.hh",
+      "sha256": "560ce0d3d1b48483771ad1538f53ff5f5486843fb98089d18a33d6c17ff3babc",
+      "provenance": "selected installed public SDK; read only"
+    },
+    {
+      "path": "/usr/include/gz/sdformat14/sdf/ParserConfig.hh",
+      "sha256": "08f34ac700c1ad59366d9a45b4aab98f58d86bc2b7c466782170ada978d9cbe7",
+      "provenance": "selected installed public SDK; read only"
+    },
+    {
+      "path": "/usr/include/gz/sdformat14/sdf/SDFImpl.hh",
+      "sha256": "fceff7ded8097a9a8fc763d2cc38168755c4a6454390a28d71be54983f11b242",
+      "provenance": "selected installed public SDK; read only"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "status": "BLOCKED",
+  "exit_code": 78,
+  "blockers": [
+    "NATIVE_SCHEMA_CLOSURE_RESULT_ABSENT: Root cache init and recursive initXml include results are not propagated/attested",
+    "NATIVE_CONFIG_RESULT_ABSENT: empty valid config is indistinguishable from failed LoadFile/parse at the existing public plugin-list API",
+    "NATIVE_SELECTION_BINDING_ABSENT: actual parsed world bytes and SystemLoader final choice must be bound to the RO manifest",
+    "POST_GO_LOAD_PATH_UNSEALED: Step calls ProcessPendingEntitySystems; reject late requests before SystemManager::LoadPlugin, not after loading"
+  ],
+  "manager_queried": false,
+  "service_started": false,
+  "marker_created": false,
+  "go_sent": false,
+  "stage_b": "BLOCKED",
+  "risk_acceptance": "UNDECIDED",
+  "actual_runtime": "UNVERIFIED"
+}

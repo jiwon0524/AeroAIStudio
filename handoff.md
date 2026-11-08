@@ -1,3 +1,96 @@
+# Dynamic resource outcome gate — current checkpoint
+
+Start HEAD `425822a0d527391b888e432ecd2d3b4dda33a315`, experiment/dart-internal-trace. context-handoff used; current instructions, resolution_result and complete harmless_summary reconciled. Initial tracked/staged clean, original untracked dangling link unchanged. Current scope: static source/resource verification and synthetic tests only. Harmless one-shot is already consumed; no service, native target, Gazebo/DART load, step, actual marker/output or system change was performed.
+
+**DYNAMIC_RESOURCE_BLOCKER_REMAINS / MOCK_RESOURCE_GATE_PREPARED / ACTUAL_RUNTIME_UNVERIFIED. Stage B BLOCKED; risk acceptance UNDECIDED. No actual execution approval.**
+
+Primary report: validation/gazebo-joint-resource-gate-v1/reports/resource_result.md. Supporting source_review.json, resource_contract.json, reuse.json, tests.json and actual_preflight.json. New scripts/resource_gate.py is a mock-only outcome ledger/ACK adapter, not wired to the old collector: native resource outcome producers are absent. scripts/preflight.py is a refusal-only CLI, exit78, no execution switch or manager/service/marker/GO operations. Existing sealed actual supervisor also remains blocked before these operations; the mock tests assert this with side-effect sentinels.
+
+New source finding: reviewed official sdformat14.9.0 initializes schema from embedded specs before disk fallback, and conversion also uses embedded recipes. 129 disk files/135 include edges prove candidate closure, not actual selection. The reviewed Root cache constructor discards init result, recursive schema initXml discards include initFile bool/local errors; SetFindCallback cannot observe successful normal lookup. Reviewed tag sources match the selected SDK version but are not a reproducible receipt for the installed ELF. World parsing and config public APIs do not supply the required explicit native outcomes. Normal config is conditional: loadPluginInfo is called if no world system loaded, and an empty list does not distinguish valid empty XML from read/parse failure. Harness uses embedded SDF, not the mounted review world; reconstructed string matches world bytes exactly.
+
+Exact remaining native work: error-carrying schema initialization/include/conversion closure bound to actual provider/version/content; exact input-string hash and explicit Root parsing/graph results before ready/GO; checked config policy and no default-plugin fallback; final SystemLoader choice/load/interface result bound to RO device/inode/hash. Also seal late loading before any loader call: SimulationRunner::Step1077 calls SystemManager::ProcessPendingEntitySystems433 -> LoadPlugin466 after GO; pre-GO queue checks alone do not forbid later requests. Audit/seal queue/level/recreation and remaining DART/ODE/auxiliary resource paths. See report for exact sites and resolution conditions. No unsupported claim of complete runtime access coverage or a speculative native build was made.
+
+Fresh read-only verification PASS: original main HEAD/status/dirty files and old inputs/failure evidence; old170 ELFs;13 unchanged build/prefix receipts;575 RO mounts/428 backing identities;129 schema1.11 files/135 include edges; original1.10 mounts; embedded/rendered world byte identity. ACK harness SHA23f5cfb408c12eff76e560101888f5c8437acf5b584b677f82235383c4c5c88b and Build IDfcb6eae9c2dc758795e8784b2ac36fdd4734e99d unchanged; old harness SHAbd7ce6480b15debab915a69cd9e9a429b92c066063cd31882666617c0a0b3d5a unchanged. Actual output/one-shot paths remain absent. No C++/ELF changes or rebuild/deploy in this phase. New Python AST checks and22 synthetic resource/ACK/pre-service refusal cases PASS; no native outcome was fabricated as runtime evidence.
+
+Historical one harmless run remains PASS_ISOLATION_PATH_ONLY and CONSUMED; do not rerun it, even if another device lacks ignored markers. Original unit/InvocationID/PID-start, GO/ACK/EOF/cleanup summaries and consumed markers are preserved under resolution-v1. ACK race protocol and100x1ms/freefall rules unchanged. Risk decisions for Bullet lifetime/destructors, allocator and C-exception cleanup remain UNDECIDED; no comparison/D-trace exemption. Future evidence applies only to this joint instrumented configuration.
+
+Next minimum: implement and source/binary-bind the exact missing native outcomes and deny late resolution before loading, in separate build paths with static/mock validation. This is not permission to execute any service or target or to consume markers. All work launched in this phase completed; project-CWD snapshot shows no continuing task. External-CWD/remote/container work visibility UNKNOWN. Existing main/dirty/evidence/artifacts/dangling link/markers remain intact. Publish only verified own Python, lightweight reports and this handoff on experiment; no main/merge/force push. Snapshot below is pre-publication and must be reconciled with the checkpoint commit and local publication receipt. /tmp binaries, downloaded upstream sources, raw logs and consumed markers remain ignored/local, not durable or transferred by Git.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-08T15:27:35.890202+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "425822a0d527391b888e432ecd2d3b4dda33a315",
+    "branch": "experiment/dart-internal-trace",
+    "status": [
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-resource-gate-v1/reports/actual_preflight.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-resource-gate-v1/reports/resource_contract.json"
+      },
+      {
+        "status": "AM",
+        "path": "validation/gazebo-joint-resource-gate-v1/reports/resource_result.md"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-resource-gate-v1/reports/reuse.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-resource-gate-v1/reports/source_review.json"
+      },
+      {
+        "status": "AM",
+        "path": "validation/gazebo-joint-resource-gate-v1/reports/tests.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-resource-gate-v1/scripts/preflight.py"
+      },
+      {
+        "status": "AM",
+        "path": "validation/gazebo-joint-resource-gate-v1/scripts/resource_gate.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-joint-resource-gate-v1/scripts/verify_inputs.py"
+      },
+      {
+        "status": "AM",
+        "path": "validation/gazebo-joint-resource-gate-v1/tests/test_resources.py"
+      },
+      {
+        "status": "??",
+        "path": "libgz-physics-dartsim-plugin.so"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-resource-gate-v1/reports/resource_result.md",
+      "sha256": "787ee71c3e3db9244f7fbfd9d00c5c8341c2180bb1862c7a9f1df99365579e25"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+---
+
+Previous checkpoint retained verbatim below. Its permissions and pending work do not override current scope.
+
 # Gazebo isolation resolution — current checkpoint
 
 Observed 2026-11-08T15:05:43.870949+00:00. Starting HEAD9825dc6fd8479fe880c668bf6a6ee1e3490e1961, experiment/dart-internal-trace; no tracked/staged changes, root dangling symlink preserved. context-handoff used; required AGENTS/rules/handoff/implementation_result/ordered argv and preceding review read. Current user permitted static source/resource/ACK work plus exactly ONE harmless systemd→bwrap→FD-shim service, explicitly no real DART/Gazebo/harness/steps.

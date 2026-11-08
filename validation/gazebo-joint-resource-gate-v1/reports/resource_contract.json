@@ -1,0 +1,278 @@
+{
+  "status": "INCOMPLETE_NATIVE_RESOURCE_CONTRACT_NO_LAUNCH",
+  "base_plan_sha256": "3f808d5df8f270a9a8f0a7a28e9bde5964e1f06d7696fd16d83428e7f97dc5e1",
+  "native_producer": "ABSENT",
+  "world": {
+    "source": "embedded fixture_sdf plus exact canonical argv substitution",
+    "rendered_reference": {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-harness-fix-v1/work/prefix/share/aero/world.sdf",
+      "sha256": "534b09dddb318e5db1f9ccb2267fb7c7744c552d8bc4034008d547514c37ba69",
+      "template_sha256": "c596f0c9344540a7ea47002451977b2a46ac5b20a75324b5672016f6aa8e7765",
+      "embedded_template_identical": true,
+      "use": "review artifact; harness constructs the same world from embedded template and plugin argv"
+    },
+    "actual_disk_world_read": false,
+    "required_observation": "hash of exact string passed to parser; explicit parse/graph errors; no external include or URI"
+  },
+  "schema": {
+    "provider_candidates": {
+      "/usr/lib/x86_64-linux-gnu/libsdformat14.so.14.9.0": {
+        "sha256": "c30ada44484ec14e8c595a857f446713196db0a8a16c6b42c3dc785658f4463e",
+        "build_id": "10490efd977eff09da69377615e1a7ab2b0e58b9",
+        "device": 66309,
+        "inode": 8183090,
+        "size": 2658248,
+        "mtime_ns": 1769746761000000000,
+        "ctime_ns": 1790082926654522897,
+        "real_path": "/usr/lib/x86_64-linux-gnu/libsdformat14.so.14.9.0",
+        "needed": [
+          {
+            "soname": "libgz-math7.so.7",
+            "path": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7.7.0"
+          },
+          {
+            "soname": "libgz-utils2.so.2",
+            "path": "/usr/lib/x86_64-linux-gnu/libgz-utils2.so.2.2.1"
+          },
+          {
+            "soname": "libtinyxml2.so.10",
+            "path": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so.10.0.0"
+          },
+          {
+            "soname": "libstdc++.so.6",
+            "path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33"
+          },
+          {
+            "soname": "libm.so.6",
+            "path": "/usr/lib/x86_64-linux-gnu/libm.so.6"
+          },
+          {
+            "soname": "libgcc_s.so.1",
+            "path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1"
+          },
+          {
+            "soname": "libc.so.6",
+            "path": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+          }
+        ],
+        "soname": [
+          "libsdformat14.so.14"
+        ],
+        "runpath": [],
+        "rpath": []
+      }
+    },
+    "disk_candidates": 129,
+    "disk_include_edges": 135,
+    "actual_selected_schema": "UNOBSERVED",
+    "required_observation": "embedded version/name/content closure plus error-carrying recursive init; only a reviewed explicit fallback may select a disk FD identity"
+  },
+  "config": {
+    "mount": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-resolution-v1/inputs/server.config",
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-resolution-v1/inputs/server.config",
+      "sha256": "b19a55e4d7e5a83ba29476b4b13c1e601525ecf5ae102b88ce90a7c65997cc09",
+      "device": 66309,
+      "inode": 4601234,
+      "kind": "server_config"
+    },
+    "normally_loaded": false,
+    "condition": "SimulationRunner loads defaults only if no world system; successful path must have exactly one explicit Physics system",
+    "required_observation": "validate required config independently if retained; reject default plugin loading before LoadPlugin"
+  },
+  "plugins": {
+    "physics_system": {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/gz-sim-8/plugins/libgz-sim8-physics-system.so.8.15.0",
+      "identity": {
+        "sha256": "dfe093dc43a949bc554de3f52223aae3f437759a6378cd5aa22cca5d21423a11",
+        "build_id": "ee1262241b3849de49d3fdfc2c544f00b7b3aeaf",
+        "device": 66309,
+        "inode": 4597094,
+        "size": 46007616,
+        "mtime_ns": 1794144812000000000,
+        "ctime_ns": 1794144853078422298,
+        "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/gz-sim-8/plugins/libgz-sim8-physics-system.so.8.15.0",
+        "needed": [
+          {
+            "soname": "libaero-joint-probe.so.1",
+            "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0"
+          },
+          {
+            "soname": "libgz-sim8.so.8",
+            "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-sim8.so.8.15.0"
+          },
+          {
+            "soname": "libdart.so.6.13",
+            "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2"
+          },
+          {
+            "soname": "libgz-plugin2-loader.so.2",
+            "path": "/usr/lib/x86_64-linux-gnu/libgz-plugin2-loader.so.2.0.4"
+          },
+          {
+            "soname": "libgz-physics7.so.7",
+            "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7.8.0"
+          },
+          {
+            "soname": "libgz-plugin2.so.2",
+            "path": "/usr/lib/x86_64-linux-gnu/libgz-plugin2.so.2.0.4"
+          },
+          {
+            "soname": "libgz-common5-events.so.5",
+            "path": "/usr/lib/x86_64-linux-gnu/libgz-common5-events.so.5.9.0"
+          },
+          {
+            "soname": "libgz-msgs10.so.10",
+            "path": "/usr/lib/x86_64-linux-gnu/libgz-msgs10.so.10.4.0"
+          },
+          {
+            "soname": "libsdformat14.so.14",
+            "path": "/usr/lib/x86_64-linux-gnu/libsdformat14.so.14.9.0"
+          },
+          {
+            "soname": "libprotobuf.so.32",
+            "path": "/usr/lib/x86_64-linux-gnu/libprotobuf.so.32.0.12"
+          },
+          {
+            "soname": "libgz-common5-geospatial.so.5",
+            "path": "/usr/lib/x86_64-linux-gnu/libgz-common5-geospatial.so.5.9.0"
+          },
+          {
+            "soname": "libgz-common5-graphics.so.5",
+            "path": "/usr/lib/x86_64-linux-gnu/libgz-common5-graphics.so.5.9.0"
+          },
+          {
+            "soname": "libgz-common5.so.5",
+            "path": "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5.9.0"
+          },
+          {
+            "soname": "libgz-math7.so.7",
+            "path": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7.7.0"
+          },
+          {
+            "soname": "libstdc++.so.6",
+            "path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33"
+          },
+          {
+            "soname": "libm.so.6",
+            "path": "/usr/lib/x86_64-linux-gnu/libm.so.6"
+          },
+          {
+            "soname": "libgcc_s.so.1",
+            "path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1"
+          },
+          {
+            "soname": "libc.so.6",
+            "path": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+          }
+        ],
+        "soname": [
+          "libgz-sim8-physics-system.so.8"
+        ],
+        "runpath": [
+          "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+        ],
+        "rpath": [],
+        "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/gz-sim-8/plugins/libgz-sim8-physics-system.so.8.15.0",
+        "kind": "ELF_canonical"
+      }
+    },
+    "dartsim": {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "identity": {
+        "sha256": "c652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c",
+        "build_id": "dfaac182e5227709a5743c64698f9e798053eb80",
+        "device": 66309,
+        "inode": 4481392,
+        "size": 99090256,
+        "mtime_ns": 1794130846000000000,
+        "ctime_ns": 1794132095948215183,
+        "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+        "needed": [
+          {
+            "soname": "libaero-joint-probe.so.1",
+            "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0"
+          },
+          {
+            "soname": "libdart-collision-bullet.so.6.13",
+            "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13.2"
+          },
+          {
+            "soname": "libLinearMath.so.3.24",
+            "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24"
+          },
+          {
+            "soname": "libdart-collision-ode.so.6.13",
+            "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13.2"
+          },
+          {
+            "soname": "libdart.so.6.13",
+            "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2"
+          },
+          {
+            "soname": "libsdformat14.so.14",
+            "path": "/usr/lib/x86_64-linux-gnu/libsdformat14.so.14.9.0"
+          },
+          {
+            "soname": "libgz-physics7.so.7",
+            "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7.8.0"
+          },
+          {
+            "soname": "libgz-common5-graphics.so.5",
+            "path": "/usr/lib/x86_64-linux-gnu/libgz-common5-graphics.so.5.9.0"
+          },
+          {
+            "soname": "libassimp.so.5",
+            "path": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0"
+          },
+          {
+            "soname": "libgz-math7.so.7",
+            "path": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7.7.0"
+          },
+          {
+            "soname": "libgz-common5.so.5",
+            "path": "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5.9.0"
+          },
+          {
+            "soname": "libstdc++.so.6",
+            "path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33"
+          },
+          {
+            "soname": "libm.so.6",
+            "path": "/usr/lib/x86_64-linux-gnu/libm.so.6"
+          },
+          {
+            "soname": "libgcc_s.so.1",
+            "path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1"
+          },
+          {
+            "soname": "libc.so.6",
+            "path": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+          }
+        ],
+        "soname": [
+          "libgz-physics7-dartsim-plugin.so.7"
+        ],
+        "runpath": [
+          "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+        ],
+        "rpath": [],
+        "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+        "kind": "ELF_canonical"
+      }
+    }
+  },
+  "post_GO": {
+    "unsealed_site": "SimulationRunner::Step -> SystemManager::ProcessPendingEntitySystems -> LoadPlugin",
+    "required_action": "native revoke/fail before any late LoadLib or resource resolution; report denial and reject run"
+  },
+  "pre_GO": [
+    "required final resource outcomes, exact path/hash/device/inode or embedded provider/name/content identity",
+    "two existing native snapshots; PID/start; stable mappings; namespaces; cgroup and limits",
+    "existing native DART world/ODE detector/provider and zero iteration/time/frame/native time checks"
+  ],
+  "termination": "unchanged final_wait/EXIT_ACK/live mapping/100 samples/EOF/exit0/cleanup/integrity",
+  "runtime_evidence": "ABSENT",
+  "stage_b": "BLOCKED",
+  "risk_acceptance": "UNDECIDED"
+}

@@ -1,0 +1,116 @@
+{
+  "status": "PASS_STATIC_MOCK_ONLY",
+  "cases": [
+    {
+      "case": "approved_choices_ACK_EOF_exit",
+      "status": "PASS_SYNTHETIC_ONLY"
+    },
+    {
+      "case": "duplicate_GO",
+      "status": "PASS_REJECTED",
+      "reason": "missing resource preamble or duplicate GO"
+    },
+    {
+      "case": "duplicate_ACK",
+      "status": "PASS_REJECTED",
+      "reason": "missing final barrier/duplicate ACK"
+    },
+    {
+      "case": "101st_sample",
+      "status": "PASS_REJECTED",
+      "reason": "unexpected fixture sample"
+    },
+    {
+      "case": "failure_cannot_finalize_success",
+      "status": "PASS_REJECTED",
+      "reason": "GO missing or failed resource session"
+    },
+    {
+      "case": "required_include_missing",
+      "status": "PASS_REJECTED",
+      "reason": "unobserved required include/closure"
+    },
+    {
+      "case": "parsing_failure",
+      "status": "PASS_REJECTED",
+      "reason": "parse/load errors"
+    },
+    {
+      "case": "same_basename_other_file",
+      "status": "PASS_REJECTED",
+      "reason": "unapproved final selection"
+    },
+    {
+      "case": "hash_mismatch",
+      "status": "PASS_REJECTED",
+      "reason": "unapproved final selection"
+    },
+    {
+      "case": "same_hash_other_inode",
+      "status": "PASS_REJECTED",
+      "reason": "unapproved final selection"
+    },
+    {
+      "case": "plugin_fallback",
+      "status": "PASS_REJECTED",
+      "reason": "load failure or fallback"
+    },
+    {
+      "case": "load_failure",
+      "status": "PASS_REJECTED",
+      "reason": "load failure or fallback"
+    },
+    {
+      "case": "observation_missing",
+      "status": "PASS_REJECTED",
+      "reason": "missing required resource observations"
+    },
+    {
+      "case": "missing_evidence_GO",
+      "status": "PASS_REJECTED",
+      "reason": "missing resource preamble or duplicate GO"
+    },
+    {
+      "case": "late_resource_result",
+      "status": "PASS_REJECTED",
+      "reason": "late resource outcome"
+    },
+    {
+      "case": "latched_resource_failure_GO",
+      "status": "PASS_REJECTED",
+      "reason": "missing resource preamble or duplicate GO"
+    },
+    {
+      "case": "EOF_missing",
+      "status": "PASS_REJECTED",
+      "reason": "ACK/EOF/exit evidence missing"
+    },
+    {
+      "case": "exit_failed",
+      "status": "PASS_REJECTED",
+      "reason": "GO missing or failed resource session"
+    },
+    {
+      "case": "ACK_missing",
+      "status": "PASS_REJECTED",
+      "reason": "ACK/EOF/exit evidence missing"
+    },
+    {
+      "case": "final_mapping_mismatch",
+      "status": "PASS_REJECTED",
+      "reason": "final mapping/PID/start mismatch"
+    },
+    {
+      "case": "existing_actual_launcher_pre_service_refusal",
+      "status": "PASS_REJECTED",
+      "reason": "actual launcher BLOCKED before marker/service: DYNAMIC_RESOURCE_CLOSURE_UNVERIFIED: sdformat/Fuel runtime accesses and silent fallback are not fully attested"
+    },
+    {
+      "case": "actual_preflight_exit78",
+      "status": "PASS_PRE_SERVICE_REFUSAL"
+    }
+  ],
+  "native_resource_producer": "ABSENT",
+  "subject_execution": false,
+  "new_service_starts": 0
+}
