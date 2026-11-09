@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "architecture": "x86_64_native_only",
+  "decision": "default_deny",
+  "contract_sha256": "789737d947f8c0ebd1466300792667fc9c838adba5834168e5c82bc6e4846aae",
+  "input_mounts": 594,
+  "input_policy": "OLD_PINNED_RO_INPUTS_PRESERVED; pathname reopen broker NOT_IMPLEMENTED",
+  "fd_policy": {
+    "read": [
+      0,
+      3
+    ],
+    "write": [
+      1,
+      2,
+      4
+    ],
+    "required": "prior fd_bridge + exact handoff evidence; not integrated"
+  },
+  "allow_scalar": [
+    "exit",
+    "exit_group",
+    "rt_sigreturn",
+    "brk",
+    "munmap",
+    "getpid",
+    "gettid",
+    "clock_gettime"
+  ],
+  "allow_memory": {
+    "mmap": "anonymous private only, fd=-1, offset=0, no PROT_EXEC",
+    "mprotect": "no PROT_EXEC"
+  },
+  "deny": [
+    "all other calls",
+    "all opens/stat/access probes",
+    "socket/connect/bind/send/recv",
+    "clone/clone3/fork/vfork",
+    "exec after initial trusted exec",
+    "ioctl/io_uring/ptrace/process_vm",
+    "file-backed mmap and executable mprotect"
+  ],
+  "journal": "supervisor-owned O_WRONLY|O_APPEND regular mode0600 file; synchronous write+fdatasync before request skip; channel sharing exclusion pending",
+  "lifecycle": "candidate exec-event stop before target loader instructions through terminal wait and ECHILD; EXIT_ACK does not stop monitoring",
+  "blocked": [
+    "pinned input reopening / read-only FD injection",
+    "normal loader file/executable mappings",
+    "safe thread creation / all-task tracking",
+    "pre-exec launch adapter and options attestation",
+    "supervisor journal isolation and authenticated transport",
+    "native journal to AuditGate binding/sequence translation",
+    "fd identity and namespace attestation integration",
+    "semantic cached dlopen calls without syscall not covered",
+    "runtime kernel/ptrace/overhead compatibility"
+  ],
+  "deployed": false,
+  "stage_b": "BLOCKED",
+  "risk_acceptance": "UNDECIDED",
+  "runtime": "UNVERIFIED"
+}

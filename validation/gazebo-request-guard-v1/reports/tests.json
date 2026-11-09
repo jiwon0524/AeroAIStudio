@@ -1,0 +1,353 @@
+{
+  "status": "PASS_STATIC_MOCK_ONLY",
+  "count": 84,
+  "checks": [
+    {
+      "case": "normal_independent_audit_plus_existing_session",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "empty_log_GO_refused",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "empty_log_exit0_cannot_pass",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "start_missing_pre_loader",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "start_failure_GO_latched_pre_loader",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "start_missing_fd_attested",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "start_failure_GO_latched_fd_attested",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "start_missing_policy_applied",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "start_failure_GO_latched_policy_applied",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "start_missing_journal_private",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "start_failure_GO_latched_journal_private",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "start_missing_lifetime_tracking",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "start_failure_GO_latched_lifetime_tracking",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "target_forged_audit_packet_not_authenticated",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "integer_is_not_application_boolean",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "binding_run",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "binding_policy",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "binding_supervisor",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "binding_pid",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "binding_start",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "sequence_0",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "sequence_2",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "sequence_True",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "sequence_'1'",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "duplicate_start",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "init_denial_latches",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "init_denial_GO_refused",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "init_audit_kept_collecting_through_death",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "init_exit0_EOF_cleanup_cannot_forgive",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "running_denial_latches",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "running_audit_kept_collecting_through_death",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "running_exit0_EOF_cleanup_cannot_forgive",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "post_ACK_denial_latches",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "post_ACK_audit_kept_collecting_through_death",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "post_ACK_exit0_EOF_cleanup_cannot_forgive",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "before_start_premature_audit_EOF",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "init_premature_audit_EOF",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "post_ACK_premature_audit_EOF",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "lost",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "overflow",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "disconnect",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "initialization_failed",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "unknown",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "final_counter_{'denied': 0, 'lost': 1, 'pending': 0}",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "final_counter_{'denied': 0, 'lost': 0, 'pending': 1}",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "final_counter_{'denied': 1, 'lost': 0, 'pending': 0}",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "completion_before_death",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "child_lifetime_{'live_tasks': 1, 'wait_echild': True}",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "child_lifetime_{'live_tasks': 0, 'wait_echild': False}",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "start_journal_write_sync_overflow",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "start_failure_GO_or_final_refused",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "denial_journal_write_sync_overflow",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "denial_failure_GO_or_final_refused",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "complete_journal_write_sync_overflow",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "complete_failure_GO_or_final_refused",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_channel_close_final_refused",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "post_completion_denial_not_ignored",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "old_cleanup_failure_retained",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "old_full_sealed_contract_valid",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "refusal_before_manager_service_marker_GO",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "default_deny_SYS_open",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "default_deny_SYS_openat",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "default_deny_SYS_socket",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "default_deny_SYS_connect",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "default_deny_SYS_clone",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "default_deny_SYS_clone3",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "default_deny_SYS_fork",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "default_deny_SYS_execve",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "default_deny_SYS_ioctl",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "default_deny_SYS_io_uring_enter",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "default_deny_SYS_ptrace",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "record_before_skip_before_resume",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "wait_actual_death_not_exit_event",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "fail_closed_arch_syscall_info_and_no_detach",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "native_main_unconditional_78",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "existing_GO_100_live_mapping_ACK_EOF_cleanup_with_independent_audit",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "actual_protocol_destructor_denial_after_EXIT_ACK",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "old_stdout_EOF_failure_retained",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "old_stderr_EOF_failure_retained",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "old_cleanup_failure_retained",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "old_integrity_failure_retained",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "old_mapping_final_failure_retained",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "original_protocol_source_unchanged",
+      "status": "PASS_MOCK_STATIC"
+    },
+    {
+      "case": "original_main_and_1442_inputs_symlink_preserved",
+      "status": "PASS_MOCK_STATIC"
+    }
+  ],
+  "subject_execution": false,
+  "prior_results_reused_not_rerun": {
+    "boundary": 90,
+    "execution_contract": 31
+  },
+  "reused_reports": {
+    "validation/gazebo-joint-boundary-v1/reports/tests.json": "193518c1e9166a4b178a82743bf68b119e8c8bded153703c1504e1809fd11f2b",
+    "validation/gazebo-joint-boundary-v1/reports/final_report.md": "cc13c0bda04f4a0a307c7a0a1d2616a984790f3b8ca24a8af3c8e28862c8eb16"
+  },
+  "preserved_files": 1442,
+  "runtime": "UNVERIFIED"
+}

@@ -1,3 +1,66 @@
+# Request-time guard implementation — current checkpoint
+
+Start HEAD47097ee5cfb61203190e5267c0503fa2f22e539c, experiment/dart-internal-trace. Read context-handoff/AGENTS/DEVELOPMENT_RULES/latest handoff/boundary report/sealed contract. Reconciled prior prepublication parent5f37e63 and15-file commit,4 evidence hashes. Original tracked/index clean; existing dangling plugin symlink preserved.
+
+**PARTIAL / BLOCKED_NORMAL_INPUT_THREAD_AND_TRUSTED_AUDIT_INTEGRATION. Stage B BLOCKED; risk acceptance UNDECIDED; actual runtime UNVERIFIED.** No actual native/bridge/guard/harness/harmless/Gazebo/DART run or loading, physical step, service, marker creation/consumption, sudo/install/system/main changes. New and existing entrypoints remain exit78 before manager/service/marker. No candidate deployment or contract reseal.
+
+Primary validation/gazebo-request-guard-v1/reports/final_report.md; phase progress.md. One C supervisor candidate compiled/linked only, libc dependency. Candidate expects initial target exec-event stop; ptrace syscall entry default-deny, external synchronous journal before skipping request, denied syscall returns EPERM, target exit0 never forgives denial. EXEC_STOP/EXIT_STOP/actual wait/ECHILD/COMPLETE records; no stop on EXIT_ACK. Native main unconditionally78; no monitor is invoked. build_receipt.json includes compiler/source/header/ELF hashes and metadata, compiler PID/start. All compiler commands completed.
+
+Candidate is restrictive and cannot initialize the existing dynamic workload: file open/file-backed exec mappings and clone are denied. Safe normal pinned-input broker, threads/all-descendant tracking, trusted preexec creation/options/FD+namespace attestation, journal noninheritance/isolation, authenticated transport/native journal-to-AuditGate translator and full collector lifecycle are NOT_IMPLEMENTED. Numeric journal receipts and Python authenticated=True are not authentication or complete deployed mediation. Cached dlopen without syscalls also remains outside semantic coverage. Existing isolation/FD bridge/ODE candidate/manifest projections remain untouched and undeployed. Do not enable candidate or interpret mocks as access denial proof.
+
+AuditGate offline wrapper adds mandatory independent start/binding/sequence/persistence/death/complete/EOF evidence around old NativeSession. Denial latches failure while independent audit may continue to final receipt/EOF. Missing initialization, loss/overflow/early disconnect/pending/final collection evidence fails. Underlying GO/100 samples/live mapping/EXIT_ACK/EOF/exit/cleanup unchanged. New84 static/mock checks PASS, including original sealed source loader and packet factories with full synthetic protocol normal/shutdown denial/old cleanup rejection. Previous boundary90 and contract31 are reused report hashes, not rerun or added. Full old input contract revalidated;1442 original tracked/main-dirty file hashes, main HEAD/status and dangling symlink identity preserved. tests.json is before intended handoff change.
+
+Changed files belong only to this phase inputs/guard.c, scripts/{audit_gate,launcher,build}.py, tests/check_guard.py, progress.md, reports/{policy,build_receipt,tests,artifacts,final_report}.json/md and this handoff. work/raw artifacts excluded. Existing phases unchanged. Local reports/publication.json will record actual push/remote match; current snapshot is PREPUBLICATION. Reconcile subsequent commit parent/file list without recursive receipt commits.
+
+Next minimum: implement and review pinned input/FD injection + executable mapping and thread policy, then trusted preexec/audit transport/collector integration in a new separate sealed contract. Runtime-only kernel/ptrace/namespace/journal isolation/real init+shutdown denial/overhead/final task death and physics checks require separate explicit approval. Scope ends with this partial implementation checkpoint; no runtime release/risk acceptance implied.
+
+Known commands completed. Snapshot process observations below; external-CWD/remote/container UNKNOWN. No processes stopped/restarted or accounts changed. /tmp candidate ELF, raw logs/baseline and existing ignored/untracked evidence/markers do not transfer with Git and are not durable. Common skill unchanged; original main handoff/code/evidence preserved.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-09T15:03:08.785257+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "47097ee5cfb61203190e5267c0503fa2f22e539c",
+    "branch": "experiment/dart-internal-trace",
+    "status": [
+      {
+        "status": "??",
+        "path": "libgz-physics-dartsim-plugin.so"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-request-guard-v1/reports/final_report.md",
+      "sha256": "1721ece9cd69cefaa419880d9a3f5fb1ba588eca74012d14d835bc1caadd4877"
+    },
+    {
+      "path": "validation/gazebo-request-guard-v1/reports/tests.json",
+      "sha256": "d8db66fccacc27c6d5615b748957f50dcf8ca06c487754be617f7bc0298b7b69"
+    },
+    {
+      "path": "validation/gazebo-request-guard-v1/reports/build_receipt.json",
+      "sha256": "eeb47bf5f672e4faf74a19b9d0ab6826ff4578ab1d2d1bb8c3db426b275e559f"
+    },
+    {
+      "path": "validation/gazebo-request-guard-v1/reports/artifacts.json",
+      "sha256": "47ca70083853ba2fa940b8048843d35a1919c66ed69b73362e7b853e3f08e908"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+# Prior checkpoints — historical, superseded by current block
+
 # Isolation and denial-recording boundary — current checkpoint
 
 Start HEAD5f37e63b81bff8efe22786f6446126fe1fcfb5b1 matches requested checkpoint; branch experiment/dart-internal-trace. Read context-handoff/AGENTS/DEVELOPMENT_RULES/handoff/prior final report/sealed contract. Initial tracked/index clean, preserved dangling plugin symlink. Prior prepublication snapshot reconciled by parent2ee5c8a and15-file commit; its current evidence hashes match, prior ODE candidate hash valid.
