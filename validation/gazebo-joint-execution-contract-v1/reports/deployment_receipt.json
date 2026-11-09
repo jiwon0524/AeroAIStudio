@@ -1,0 +1,151 @@
+{
+  "status": "PASS_STATIC_DEPLOYMENT_CONTRACT_NO_EXECUTION",
+  "new_ELFs": {
+    "harness": {
+      "build_id": "9c71d107e465126965e6332b34de6267fc0a7b99",
+      "device": 66309,
+      "inode": 4617002,
+      "mode": "ro-file-fd",
+      "needed": [
+        "libgz-sim8.so.8",
+        "libtinyxml2.so.10",
+        "libsdformat14.so.14",
+        "libaero-resource.so",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/work/aero-joint-harness",
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/work/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ],
+      "sha256": "49ce9b133593742a206651e36348c0f13813080a46d68d45bbf7fbfb3bfbb482",
+      "soname": [],
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/work/aero-joint-harness"
+    },
+    "physics": {
+      "build_id": "e9652f959ed4f17fe0bd80ac600b6b5c16c048d4",
+      "device": 66309,
+      "inode": 4616987,
+      "mode": "ro-file-fd",
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libaero-resource.so",
+        "libgz-sim8.so.8",
+        "libdart.so.6.13",
+        "libgz-plugin2-loader.so.2",
+        "libgz-physics7.so.7",
+        "libgz-plugin2.so.2",
+        "libgz-common5-events.so.5",
+        "libgz-msgs10.so.10",
+        "libsdformat14.so.14",
+        "libprotobuf.so.32",
+        "libgz-common5-geospatial.so.5",
+        "libgz-common5-graphics.so.5",
+        "libgz-common5.so.5",
+        "libgz-math7.so.7",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/work/prefix/lib/libgz-sim8-physics-system.so.8.15.0",
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/work/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ],
+      "sha256": "833c7fb0b1b43c31c1d655259986f48e5ac78d882bb6204c7a0ccc12f1d68163",
+      "soname": [
+        "libgz-sim8-physics-system.so.8"
+      ],
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/work/prefix/lib/libgz-sim8-physics-system.so.8.15.0"
+    },
+    "sim": {
+      "build_id": "5a3a707f4c5d1fa15f2fa821256929fb034361c8",
+      "device": 66309,
+      "inode": 4616985,
+      "mode": "ro-file-fd",
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libaero-resource.so",
+        "libgz-fuel_tools9.so.9",
+        "libsdformat14.so.14",
+        "libprotobuf.so.32",
+        "libgz-plugin2-loader.so.2",
+        "libgz-plugin2.so.2",
+        "libgz-common5-events.so.5",
+        "libgz-common5-graphics.so.5",
+        "libgz-common5.so.5",
+        "libgz-transport13-parameters.so.13",
+        "libgz-transport13.so.13",
+        "libgz-msgs10.so.10",
+        "libtinyxml2.so.10",
+        "libgz-math7.so.7",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "real_path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/work/prefix/lib/libgz-sim8.so.8.15.0",
+      "runpath": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/work/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu"
+      ],
+      "sha256": "aff30b58cff49ed97e1aae4a792fd7cac525df915b4d1e1b49bf3e2e96bf1099",
+      "soname": [
+        "libgz-sim8.so.8"
+      ],
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/work/prefix/lib/libgz-sim8.so.8.15.0"
+    }
+  },
+  "reused_native_ELFs": {
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/aero-joint-harness-native": "a351fec9f269eff2ba6210aed32bcb0be184581e134587d5c03f6c34abb4e11e",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/gz-sim-8/plugins/libgz-sim8-physics-system.so.8.15.0": "e9925d1a3581aece79f59056eafec4b5adeed62ccc80f747d2e32b4def1cb955",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libaero-resource.so": "cf54f4adbf809da95c05f5e849d0a5064112bd40ad75ab37eb11a833c5942381",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libgz-sim8-physics-system.so.8.15.0": "e9925d1a3581aece79f59056eafec4b5adeed62ccc80f747d2e32b4def1cb955",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libgz-sim8.so.8.15.0": "37cb569ecb539a0f6186ca8e8b688e5078feeded9a63900395bcb7011e354b77",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libsdformat14.so.14.9.0": "36208350a391ba10ce92fff93eca2457475b6ea04a7434ced79ae1268462e136"
+  },
+  "patch_sha256": "f7765eb516f7780ac3a5257286688076e2501c460ea2b97b893a2dd5c043875f",
+  "source_changes": {
+    "src/SimulationRunner.cc": "67911256154781a0b3af7b22e6d123d72345f8bfff3280dbc66ecf5133983114",
+    "src/systems/physics/Physics.cc": "ee879da550ec3063ff3658736fb1e183b273481b71fdc23f03308caeae6ab55d"
+  },
+  "new_inputs": {
+    "inputs/manifest.sha256": "216a80a27cc0957cf41203f19d82579430ef0c78e84fbe987bdf322c268125c0",
+    "inputs/native_resource.hh": "e5fdfb55931fff8e5cfddfb7b8a8b8b5f9b9b06735deb68aa5651891b96e03ff",
+    "inputs/fixture.hh": "4f6e9fec8b67b40db1fe8604cd8d59c54cae3933a68573439fd8369755536cca",
+    "inputs/harness_native.cc": "51391c3947393cf70b402ba74a706c5f7f66dd222a02882d182910145e3bcf9c",
+    "inputs/exit_ack.h": "6383ed5ae13869b0a74afd2901db5d58c4aaebee53a68d69e1f3252aa1d672da",
+    "inputs/joint-elf.sha256": "09826ff92fa351087d310769f1aa92948f323928b2a2cc251d2831c35073400f",
+    "inputs/ready_order.patch": "f7765eb516f7780ac3a5257286688076e2501c460ea2b97b893a2dd5c043875f",
+    "inputs/plugin_expectations.hh": "a552e4c4d431715d8e72eca21f26d522284ed7560c7dac784914bb5dab81d668"
+  },
+  "headers": 1482,
+  "headers_sha256": "fbfae01bdda0beba5722c6691ea5c681403ce5402b19482c775f59350cb9811f",
+  "object_reuse_sha256": "a2d74880ec4daf3d1e33a88436aab92d3b509f9165eb2c0bba302f889078fbb9",
+  "manifest_sha256": "789737d947f8c0ebd1466300792667fc9c838adba5834168e5c82bc6e4846aae",
+  "canonical_manifest_sha256": "789737d947f8c0ebd1466300792667fc9c838adba5834168e5c82bc6e4846aae",
+  "mounts": 594,
+  "FD_sources": 429,
+  "ELF_aliases": 337,
+  "required_mappings": 10,
+  "code_files": 21,
+  "runtime_deployed": false,
+  "original_prefix_modified": false,
+  "actual_plan_modified": false,
+  "actual_runtime": "UNVERIFIED",
+  "stage_b": "BLOCKED",
+  "risk_acceptance": "UNDECIDED",
+  "historical_tests": {
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-resource-gate-v1/reports/tests.json": {
+      "sha256": "9acd88ff77076caf69e9deb0d368b7972a7a7c09c150a3ad9434298b3bf615c3",
+      "case_count": 22,
+      "rerun": false
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/reports/tests.json": {
+      "sha256": "351794e6fbd715c50fbf0fb8def38e4afe05c2d6210052da557d5fdab65a77ae",
+      "case_count": 19,
+      "rerun": false
+    }
+  }
+}

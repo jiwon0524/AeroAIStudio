@@ -1,0 +1,2 @@
+aero_resource::Expect("physics","/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/gz-sim-8/plugins/libgz-sim8-physics-system.so.8.15.0",66309,4616987,"833c7fb0b1b43c31c1d655259986f48e5ac78d882bb6204c7a0ccc12f1d68163");
+aero_resource::Expect("dartsim","/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",66309,4481392,"c652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c");

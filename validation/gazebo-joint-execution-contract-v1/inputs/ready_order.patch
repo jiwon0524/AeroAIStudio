@@ -1,0 +1,10 @@
+--- src/systems/physics/Physics.cc
++++ src/systems/physics/Physics.cc
+@@ -1151 +1150,0 @@
+-  aero_joint::State("ready_state",_info,this->jointBody,_ecm,this->jointWorld->getSimFrames(),this->jointWorld->getTime(),this->jointInitCount);
+--- src/SimulationRunner.cc
++++ src/SimulationRunner.cc
+@@ -793,0 +794,3 @@
++    if (!bootstrap->JointValidate(this->currentInfo)) return false;
++    bootstrap->JointState("ready_state",this->currentInfo,this->entityCompMgr);
++    if (!bootstrap->JointValidate(this->currentInfo)) return false;

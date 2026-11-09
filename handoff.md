@@ -1,3 +1,62 @@
+# Execution input contract — current checkpoint
+
+Reconciled start HEAD `8526df49971fd0e353ee603c04264c54ae95e708`, experiment/dart-internal-trace. Read AGENTS, DEVELOPMENT_RULES, handoff, native_result and old isolation/resource/ACK contracts with context-handoff. Initial tracked/index clean; original dangling root plugin symlink preserved. Current user scope implementation/necessary build/static/mock only; no target/Gazebo/DART/harmless run, step, service, marker use, sudo/install/system/main changes.
+
+**Input contract RESOLVED_STATIC; resource-call closure BLOCKED. Stage B BLOCKED; risk acceptance UNDECIDED; actual runtime UNVERIFIED.** No one-shot runtime release or approval-ready execution command is submitted. New external launcher remains refusal-only exit78 before manager/service/marker.
+
+Resume verification (2026-11-09T13:58:59Z): HEAD and both current evidence hashes match the unfinished checkpoint. Fresh static/mock rerun:31 PASS; no native/service execution. Snapshot observes no project-CWD tasks; external/remote visibility UNKNOWN. Generic verify returns INVALID because this historical document contains multiple machine blocks; current block was compared directly with a fresh snapshot. Only checkpoint publication remained unfinished; resume completes that publication, without starting the next resource-closure phase.
+
+Primary: `validation/gazebo-joint-execution-contract-v1/reports/contract_result.md`; phase progress.md. One manifest.json plus inputs/manifest.sha256 seals594 individual RO mounts/429 backing FDs/337 ELF aliases/10 required mapping identities/21 code inputs, ordered bwrap argv, SONAME edges, namespace provider paths, allowlist/native expectations and unchanged limits. Manifest SHA789737d947f8c0ebd1466300792667fc9c838adba5834168e5c82bc6e4846aae. FD checks use hash/device/inode and authenticated source imports bypass pyc/cached app modules. Attestor does not resolve child paths through host realpath; active ODE SONAME alias is explicit. Stage layout helper opens only checked RO FDs and never execs. Collector factory retains the old Gate/AckSession/EXIT_ACK/EOF policy, not an enabled lifecycle execution loop.
+
+Found/corrected a prior producer-order defect: JointInit emitted ready before resource complete; the prior19 hand-built mocks did not cover that source order. In a separate Sim source copy, early emission is removed and two separate JointValidate/JointState pairs run after complete and before GO. Only2 Sim translation units plus harness compiled;3 new ELFs. DART/gz-physics/sdformat/native observer/ABI interfaces reused. Original45 Sim and1 Physics object relinks reproduce pinned predecessor ELF bytes exactly;1,482 new compile dependencies/headers checked. Original phase sources/ELFs/reports/markers were not modified; first-pass candidate artifacts retained separately.
+
+Verification:31 static/mock cases PASS, including stale attestor/source/cache, provider path/inode, missing mount/SONAME/required mapping, allowlist/argv/FD changes, early-ready regression, synthetic actual-protocol GO/100/final mapping/ACK/EOF/exit/cleanup, auxiliary fallback and post-GO failure. No native injection was executed. Earlier22/19 results reused by hashes, not rerun. Fresh preservation checks cover old170 ELFs/13 receipt pairs/575 mounts/428 backings/129 files135 includes/main/dirty/failure evidence/old ACK-world and all6 prior native ELF files. Prior harmless remains historical consumed PASS_ISOLATION_PATH_ONLY, never rerun.
+
+`source_paths.json` traces15 paths with237 actual built source/object bindings. Fixed box assets and nominal IKFast path exclusions are bounded findings, not whole-program proofs.7 rows retain external ODE initialization/box/collision/cleanup, forward-step callbacks, default FCL/support initialization, crypto provider/configuration and transport/logging/teardown gaps. Exact source/hash/line sites and resolution conditions are in the report. Reused external DSOs have no new global pre-access guard; missing file imports or empty namespaces cannot prove resource absence. Mock fallback rejection is policy evidence, not an installed DART syscall guard.
+
+Next minimum: matching source-to-binary closure or precise pre-access guard/affected-component and ABI-consumer review for these external paths. Actual mounts/providers/resource/physics/lifetime/cleanup remain runtime-only; Bullet/destructor/allocator/C-exception risk decisions remain separate and UNDECIDED. Do not solve this by executing anything or consuming markers.
+
+All launched commands completed; snapshot shows project-CWD task visibility. Past compiler PID/start identities not captured are UNKNOWN; external-CWD/remote/container jobs UNKNOWN. No process was stopped/restarted. Proposed new manifest output/one-shot names were checked absent, not created/reserved. Host-local ignored /tmp sources/builds/objects/ELFs/proof binaries/raw logs and historical markers are not durable or transferred by Git; moving devices invalidates inode contracts. Common context-handoff skill unchanged.
+
+Publish verified own phase code/config/patch/tests/required manifest/light receipts and handoff on experiment only. This snapshot is pre-publication; the next checkpoint commit is reconciled by its parent/file list. Local reports/publication.json records push/remote match and is not recursively committed. Original main, existing dirty/untracked evidence and dangling symlink remain preserved.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-09T08:06:26.151211+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "8526df49971fd0e353ee603c04264c54ae95e708",
+    "branch": "experiment/dart-internal-trace",
+    "status": [
+      {
+        "status": "??",
+        "path": "libgz-physics-dartsim-plugin.so"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-execution-contract-v1/reports/contract_result.md",
+      "sha256": "ed714076077463784e55c354b93f1b364c5a0ecf665d1bd0834c34c80b894af5"
+    },
+    {
+      "path": "validation/gazebo-joint-execution-contract-v1/reports/manifest.json",
+      "sha256": "789737d947f8c0ebd1466300792667fc9c838adba5834168e5c82bc6e4846aae"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+# Prior checkpoints — historical context, superseded by the current block
+
 # Native resource observation — current checkpoint
 
 Start/reconciled HEAD `97845a5ec75d5f79064a5c324f493b3af48c78a4`, branch `experiment/dart-internal-trace`. Read this worktree's AGENTS, DEVELOPMENT_RULES, handoff and resource_result first with context-handoff. Only pre-existing untracked change was the preserved dangling root plugin symlink. Current user scope: implementation/compile/link/static/mock only. No harmless rerun, target/Gazebo/DART load, step, service, marker use, sudo, installation or system/main change.

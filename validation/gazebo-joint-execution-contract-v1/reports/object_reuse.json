@@ -1,0 +1,73 @@
+{
+  "status": "PASS_BYTE_IDENTICAL_RELINK_NO_EXECUTION",
+  "records": [
+    {
+      "target": "gz-sim8",
+      "returncode": 0,
+      "original": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/lib/libgz-sim8.so.8.15.0",
+      "proof": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/work/relink-proof/libgz-sim8.so.8.15.0",
+      "original_sha256": "37cb569ecb539a0f6186ca8e8b688e5078feeded9a63900395bcb7011e354b77",
+      "proof_sha256": "37cb569ecb539a0f6186ca8e8b688e5078feeded9a63900395bcb7011e354b77",
+      "objects": {
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/Actor.cc.o": "b74a43966b80fd5dee3ec7d433a0375cd851293500023f7e52a50931cc5356aa",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/Barrier.cc.o": "eaeea1720febffed7a1456e8f428242a4f6963c7dcd990479c316b6f34eca6a3",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/BaseView.cc.o": "39a612aa6064c0967dc789679d9bce6a0ce73bcd930627619bbb78ccb56245ab",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/Conversions.cc.o": "1bb17632822e0b8fdc0300eb89e43bd30a75f149ec59995fa260381abe8b08dc",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/ComponentFactory.cc.o": "a16fc5643ddc28b89400ef341e77dcead047e653f4ff2b5575c69efda8dbcfc2",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/EntityComponentManager.cc.o": "787ca143e9247ae3de9463860098bf027dd96c0a592cab00963cc50e6f596b9d",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/EntityComponentManagerDiff.cc.o": "2f5a23c348b18e7199d020fd4b8b166f046b30be109a671141d448740908399a",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/InstallationDirectories.cc.o": "20fb8ec134adca2cb45244ffe5f778a3149c3a801704c2085388a515aee9cec6",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/Joint.cc.o": "89015d90745ec9b2f22284d7f477ed9c368a6653534beccc6b431858c8ba62de",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/LevelManager.cc.o": "710752df048e44a9f7eca0d03e110ffa82efc7866edfc70e5a7b4eb88dc5f83a",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/Light.cc.o": "8537f9c85863701942f0bbf9f5c2db083c081652c3fd06e012aebba8ed2024df",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/Link.cc.o": "2a2e00ba9f9397845fae3f7c4cc73470f8f3716313c48c900fdd2775b318d724",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/MeshInertiaCalculator.cc.o": "248ab0ae9391ef9a5767d2a95b26c12180e4e9b8861bbae10ca35114a341de4f",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/Model.cc.o": "9140868c9a45d1caf421d2362214dfb74bb1a7dd95e828f0f517da363ed4e5de",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/Primitives.cc.o": "dcea80d3854cd8fd2d709a10e9489f89bf4fdc0538c8ea391a0d48128588867e",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/SdfEntityCreator.cc.o": "5b4aa7a38b263a106e0009f477514ea0bece5bd201201ecbdbc2c72536c14a2c",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/SdfGenerator.cc.o": "b83ca0c803530b5580cac640c4ce4673d2c7c2aa25df36e91deabd5c6751ada4",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/Sensor.cc.o": "db01c77281e7d3451ef4401a8e4ecde58ee548c465b12550d742a94e7c4f690e",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/Server.cc.o": "8048a23affdf9da0d33eab733c673e31e489526dd5294a37c76c9b419788ac66",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/ServerConfig.cc.o": "85b0b47cc7ca92cb0d29dba6e35d42da22e94458eec45c62747552731b709bfa",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/ServerPrivate.cc.o": "10171bc94193d973b13113d1fcb67df6fdc32d31ed1c682d734212ae6c83ae86",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/SimulationRunner.cc.o": "3a74fdb20b5a11ffcc1db74ffd7a958eae894803cdca33e0c77c54d3406bb742",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/SystemLoader.cc.o": "1be1e2e01ed83dae5472e7b36add297601c8b15b7ef6638431538178205f328f",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/SystemManager.cc.o": "ee975b665889d267848ee7017e11076836cda976d76d795ebeb431ad5701196a",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/TestFixture.cc.o": "3e9c8b980a3904f66b0098e4731575d591ccd7cbd0527b946855578730c91c42",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/Util.cc.o": "d23ee2b42a7626ee391370e5b161b1d2516ccab1de0d9ce91bc47e37e22e2cef",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/View.cc.o": "f917b20c8a84e1b45bb91b0dc4c7493e913b51af1d32184e34db96af4279144f",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/World.cc.o": "83d0e60ae704869b2670aea7572ab6996af759b9f4437dec517be043c6eb0316",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/network/NetworkConfig.cc.o": "732cb24db4a9dade11a13f335583e38718ee103a34c99c80567bf2ddaae0c033",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/network/NetworkManager.cc.o": "203dfe8779e6e3e82cff610e4516bbb3ccb31f9ac7aca6f0b954f66b192d0fb7",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/network/NetworkManagerPrimary.cc.o": "35e598172af0413f2b5c65ddd8f6b8d743e646e40a7984e813a738e4d0997b32",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/network/NetworkManagerSecondary.cc.o": "7d1460323030fa1abcd4fb5a2bcc96d384452a8d3c43cb0cd20c82942e0558f8",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/network/PeerInfo.cc.o": "357161532b563d217df99b4e5fe716f6f8309ac13c7b98dc7aad906f2fb67c2d",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/network/PeerTracker.cc.o": "54ae150dcce701ea59dc7b5639a7af4454592a080b0d966ff874989a9cf505be",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/comms/Broker.cc.o": "a876c2e0e5d35bcc073108b282222d4216b2da69661d89c0cb9be3bc95368f47",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/comms/ICommsModel.cc.o": "33c31e887667fe073c841bebe70f14e20506e405cf1f476e5be17d75d12151f7",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/comms/MsgManager.cc.o": "b9e280d005b7eb6fed263b52ddad5a4a490050ee017f54b675a31e4063d55026",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/__/gz_msgs_gen/gz/sim/private_msgs/peer_control.pb.cc.o": "f78853a0916381dc579bf6897c840d3aeb517b496e70805ba4889451592e05a5",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/__/gz_msgs_gen/gz/sim/private_msgs/peer_info.pb.cc.o": "e02092dad1d9f84d4e54d40b4ddc209ed22fd2a1b655b57186e1e18739158960",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/__/gz_msgs_gen/gz/sim/private_msgs/performer_affinity.pb.cc.o": "2e38bc5d376fb20565e9be4db90cf79b1b52aa24f1d44c84534b4fb037efcd46",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/__/gz_msgs_gen/gz/sim/private_msgs/simulation_step.pb.cc.o": "6647053ec5bca0e3860c8ef79facab28ea01fffa9524f7bfb6fe9136e644a080",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/__/gz_msgs_gen/gz/sim/private_msgs/register.cc.o": "2730a1236ba267c3cd4c2c4253ac3786dc4f4b3435428b1b6847a92818583239",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/rendering/MaterialParser/MaterialParser.cc.o": "a6271c295af1dc7c18edd88907c302beaeb61fa4d20d16e20570b42cb9db8ebc",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/rendering/MaterialParser/ConfigLoader.cc.o": "f1a0c0c5f2f6ec198b10647b5a68ed3bd4fa0988bbab2648deb454f395149181",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/CMakeFiles/gz-sim8.dir/gz-sim8_get_install_prefix_impl.cc.o": "b6105cf01a6c723bcf2dabb1048d6e00cc94093fc9e8d68acec7a15aa825ba6d"
+      },
+      "expected_sha256": "37cb569ecb539a0f6186ca8e8b688e5078feeded9a63900395bcb7011e354b77"
+    },
+    {
+      "target": "gz-sim8-physics-system",
+      "returncode": 0,
+      "original": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/lib/libgz-sim8-physics-system.so.8.15.0",
+      "proof": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/work/relink-proof/libgz-sim8-physics-system.so.8.15.0",
+      "original_sha256": "e9925d1a3581aece79f59056eafec4b5adeed62ccc80f747d2e32b4def1cb955",
+      "proof_sha256": "e9925d1a3581aece79f59056eafec4b5adeed62ccc80f747d2e32b4def1cb955",
+      "objects": {
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/build/sim/src/systems/physics/CMakeFiles/gz-sim8-physics-system.dir/Physics.cc.o": "bef0b3386eede7b39de9b719023b63c48945398c3a2ab79fcf52808a6ed10ffa"
+      },
+      "expected_sha256": "e9925d1a3581aece79f59056eafec4b5adeed62ccc80f747d2e32b4def1cb955"
+    }
+  ]
+}
