@@ -1,0 +1,64 @@
+{
+  "status": "STATIC_SOURCE_BINDING",
+  "archive": {
+    "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/sdformat.tar.gz",
+    "sha256": "997ade0296bf16a89dd39ff1fbf8fda25103abcbc0fc3facdd65c411939d7aca",
+    "device": 66309,
+    "inode": 4597025,
+    "size": 1304126
+  },
+  "url": "https://codeload.github.com/gazebosim/sdformat/tar.gz/refs/tags/sdformat14_14.9.0",
+  "patch_sha256": "77f6a06621eeea1d28bbd4440caa8a3e78c4caa655d6670a692e35e27ab5da3d",
+  "files": [
+    {
+      "path": "sim/CMakeLists.txt",
+      "before": "2fdf44ddc4243b0050a17829665bddf50882af11fe6633279b1d05276191523c",
+      "after": "3012ba63d1445231980183b5cc73f79d8359aad98e937475975f4bee30e9ad5b"
+    },
+    {
+      "path": "sim/src/ServerPrivate.cc",
+      "before": "a0145b22463c820593205f27f08d3413bf322d48eec0710d4154a47598b16c1b",
+      "after": "55acb721e3e12f8fc4dac9c286a1967d8941c5f89646b9164516d1cc6850a524"
+    },
+    {
+      "path": "sim/src/SimulationRunner.cc",
+      "before": "e68a654f583b74123d9a7f57b61b585dabbb38496de319423dcf38d3ffef13cc",
+      "after": "f558917b1471b09226255563de618a184cac92bbb60546c22206f5d6b93dc949"
+    },
+    {
+      "path": "sim/src/SystemLoader.cc",
+      "before": "6c3defc166528add76950b9ba8e1e49794e9d5cfdd646f686eed0777cd76ef78",
+      "after": "51cd3ef0f68030eab899004dfcb294193fbf042e8f4804f2d8177c0b9d27e264"
+    },
+    {
+      "path": "sim/src/SystemManager.cc",
+      "before": "7c66d5038758168f9ba100adf2102a1efd88d8d5b7f18f1b60895480a49df428",
+      "after": "44f95f49339737db12d74fe8db4b58924813f3b8d5e38955bc32aa9548cf4c7f"
+    },
+    {
+      "path": "sim/src/systems/physics/Physics.cc",
+      "before": "93417cadbc014648ee6ec8d8c9033c7240d76166627d83e885a04954d5caac9d",
+      "after": "d4eb15ebdd89ba775f3bf558721a6c20658d91c840c1b8793840a11c8a6a518a"
+    },
+    {
+      "path": "sdformat/CMakeLists.txt",
+      "before": "05883313c1d0f810e067f0c753882d7ac1abee92b28dd6e86b5983d8ebb5241d",
+      "after": "c53a6068b971d4e5264842cc82c097db5a4bee89afc67739216119f3864c7b6a"
+    },
+    {
+      "path": "sdformat/src/parser.cc",
+      "before": "30530c889310e598cbd32d47b8ba32a058aa6989c4bd622840a2d6703c9adc45",
+      "after": "24a93e7c3bd3813bc7e43572d8d984f3036f4e1647a8fb15690f937f8e0dab92"
+    },
+    {
+      "path": "sdformat/src/Root.cc",
+      "before": "642d08f025108d2886ff7c2cdb19a29ec2b9ea9f3494b468abe0642af6fe7905",
+      "after": "a6ffd4f827562eaaaabf34f2e5990a042701f2460e258e6f3105dbb5a38aaed8"
+    },
+    {
+      "path": "sdformat/src/Converter.cc",
+      "before": "320a68c10d79c1c761f7eae0e3baf6b87c5d59f01f8fd52718135020039d212b",
+      "after": "cf272981435bb50a1b380918a13bb2072d1bdcfdc52574d2b1a2d4704426bef4"
+    }
+  ]
+}

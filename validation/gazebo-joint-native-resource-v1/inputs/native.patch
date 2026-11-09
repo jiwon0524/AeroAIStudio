@@ -1,0 +1,165 @@
+--- sim/CMakeLists.txt
++++ sim/CMakeLists.txt
+@@ -256 +256 @@
+-link_libraries("${AERO_JOINT_PREFIX}/lib/libaero-joint-probe.so")
++link_libraries("/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so" "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libaero-resource.so")
+--- sim/src/ServerPrivate.cc
++++ sim/src/ServerPrivate.cc
+@@ -17,0 +18 @@
++#include "native_resource.hh"
+@@ -621,0 +623 @@
++      aero_resource::World(_config.SdfString());
+@@ -623,0 +626 @@
++      aero_resource::Outcome("world_parse", errors.empty(), errors.size());
+@@ -624,0 +628 @@
++      aero_resource::Outcome("world_graph", errors.empty(), errors.size());
+@@ -679,0 +684 @@
++      aero_resource::Outcome("world_parse", errors.empty(), errors.size());
+@@ -680,0 +686 @@
++      aero_resource::Outcome("world_graph", errors.empty(), errors.size());
+--- sim/src/SimulationRunner.cc
++++ sim/src/SimulationRunner.cc
+@@ -21,0 +22 @@
++#include "native_resource.hh"
+@@ -790,0 +792,2 @@
++    aero_resource::NoMoreLoads();
++    aero_resource::Ready();
+@@ -1810,0 +1814 @@
++    aero_resource::Fail("default system fallback denied");
+--- sim/src/SystemLoader.cc
++++ sim/src/SystemLoader.cc
+@@ -17,0 +18 @@
++#include "native_resource.hh"
+@@ -66,0 +68,3 @@
++    aero_resource::CheckLoadRequest();
++    if (_sdfPlugin.Name() != "gz::sim::systems::Physics")
++      aero_resource::Fail("unexpected system class");
+@@ -97,0 +102 @@
++    aero_resource::BeforeLoad("physics", _sdfPlugin.Filename(), pathToLib, _sdfPlugin.Name());
+@@ -236,0 +242 @@
++  aero_resource::CheckLoadRequest();
+--- sim/src/SystemManager.cc
++++ sim/src/SystemManager.cc
+@@ -32,0 +33 @@
++#include "native_resource.hh"
+@@ -67,0 +69 @@
++  aero_resource::CheckLoadRequest();
+@@ -73,0 +76,5 @@
++  if (system) {
++    auto *typed = system.value()->QueryInterface<System>();
++    aero_resource::Provider("physics", typed);
++  }
++  aero_resource::Loaded("physics", bool(system));
+@@ -435,0 +443 @@
++  if (!this->systemsToAdd.empty()) aero_resource::CheckLoadRequest();
+--- sim/src/systems/physics/Physics.cc
++++ sim/src/systems/physics/Physics.cc
+@@ -27,0 +28 @@
++#include "native_resource.hh"
+@@ -959,0 +961 @@
++  aero_resource::CheckLoadRequest();
+@@ -986,0 +989 @@
++  aero_resource::BeforeLoad("dartsim", pluginLib, pathToLib, "gz::physics::dartsim::Plugin");
+@@ -989,0 +993 @@
++    aero_resource::Fail("dartsim LoadLib failed");
+@@ -998,0 +1003 @@
++    aero_resource::Fail("dartsim ForwardStep interface absent");
+@@ -1003,0 +1009 @@
++  if (classNames.size() != 1 || *classNames.begin() != "gz::physics::dartsim::Plugin") aero_resource::Fail("ambiguous engine class");
+@@ -1010,0 +1017 @@
++      aero_resource::Fail("dartsim instantiation failed");
+@@ -1021,0 +1029,3 @@
++      auto *typed = plugin->QueryInterface<physics::ForwardStep::Implementation<physics::FeaturePolicy3d>>();
++      aero_resource::Provider("dartsim", typed);
++      aero_resource::Loaded("dartsim", true);
+@@ -1042,0 +1053 @@
++    aero_resource::Fail("dartsim required features absent");
+--- sdformat/CMakeLists.txt
++++ sdformat/CMakeLists.txt
+@@ -143,0 +144,2 @@
++  include_directories("/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/inputs")
++  link_libraries("/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libaero-resource.so")
+--- sdformat/src/parser.cc
++++ sdformat/src/parser.cc
+@@ -37,0 +38 @@
++#include "native_resource.hh"
+@@ -173 +174,3 @@
+-  return initDoc(_errors, _sdf, &xmlDoc, _config);
++  const bool ok = initDoc(_errors, _sdf, &xmlDoc, _config);
++  aero_resource::Outcome("schema_init", ok, _errors.size());
++  return ok;
+@@ -430 +433 @@
+-  std::string xmldata = SDF::EmbeddedSpec("root.sdf", false);
++  std::string xmldata = aero_resource::Schema("root.sdf");
+@@ -432,2 +435,5 @@
+-  xmlDoc.Parse(xmldata.c_str());
+-  return initDoc(_errors, _sdf, &xmlDoc, _config);
++  if (xmlDoc.Parse(xmldata.c_str()) != tinyxml2::XML_SUCCESS)
++    aero_resource::Fail("required schema XML parse failed");
++  const bool ok = initDoc(_errors, _sdf, &xmlDoc, _config);
++  aero_resource::Outcome("schema_init", ok, _errors.size());
++  return ok;
+@@ -456 +462 @@
+-  std::string xmldata = SDF::EmbeddedSpec(_filename, true);
++  std::string xmldata = aero_resource::Schema(_filename);
+@@ -460,2 +466,5 @@
+-    xmlDoc.Parse(xmldata.c_str());
+-    return initDoc(_errors, _sdf, &xmlDoc, _config);
++    if (xmlDoc.Parse(xmldata.c_str()) != tinyxml2::XML_SUCCESS)
++    aero_resource::Fail("required schema XML parse failed");
++    const bool ok = initDoc(_errors, _sdf, &xmlDoc, _config);
++  aero_resource::Outcome("schema_init", ok, _errors.size());
++  return ok;
+@@ -487 +496 @@
+-  std::string xmldata = SDF::EmbeddedSpec(_filename, true);
++  std::string xmldata = aero_resource::Schema(_filename);
+@@ -491,2 +500,5 @@
+-    xmlDoc.Parse(xmldata.c_str());
+-    return initDoc(_errors, _sdf, &xmlDoc, _config);
++    if (xmlDoc.Parse(xmldata.c_str()) != tinyxml2::XML_SUCCESS)
++    aero_resource::Fail("required schema XML parse failed");
++    const bool ok = initDoc(_errors, _sdf, &xmlDoc, _config);
++  aero_resource::Outcome("schema_init", ok, _errors.size());
++  return ok;
+@@ -520 +532,3 @@
+-  return initDoc(_errors, _sdf, &xmlDoc, _config);
++  const bool ok = initDoc(_errors, _sdf, &xmlDoc, _config);
++  aero_resource::Outcome("schema_init", ok, _errors.size());
++  return ok;
+@@ -713 +727,2 @@
+-      initXml(_errors, element, child, _config);
++      if (!initXml(_errors, element, child, _config))
++        aero_resource::Fail("recursive schema element failed");
+@@ -726 +741,2 @@
+-    initFile(filename, _config, element);
++    const bool ok = initFile(filename, _config, element, _errors);
++    aero_resource::Outcome("schema_include", ok, _errors.size());
+@@ -1087 +1103,2 @@
+-      Converter::Convert(_errors, _xmlDoc, SDF::Version(), _config);
++      if (!Converter::Convert(_errors, _xmlDoc, SDF::Version(), _config))
++      aero_resource::Fail("conversion failed");
+@@ -1176 +1193,2 @@
+-      Converter::Convert(_errors, _xmlDoc, SDF::Version(), _config);
++      if (!Converter::Convert(_errors, _xmlDoc, SDF::Version(), _config))
++      aero_resource::Fail("conversion failed");
+--- sdformat/src/Root.cc
++++ sdformat/src/Root.cc
+@@ -26,0 +27 @@
++#include "native_resource.hh"
+@@ -44 +45,3 @@
+-    init(this->sdfParsed);
++    sdf::Errors errors;
++    const bool ok = init(errors, this->sdfParsed, ParserConfig::GlobalConfig());
++    aero_resource::Outcome("schema_root", ok, errors.size());
+--- sdformat/src/Converter.cc
++++ sdformat/src/Converter.cc
+@@ -30,0 +31 @@
++#include "native_resource.hh"
+@@ -136,0 +138 @@
++    std::string observedConversion;
+@@ -142 +144,2 @@
+-        convertXml = data.c_str();
++        observedConversion = aero_resource::Conversion(pathname.substr(pathname.find_last_of('/')+1));
++        convertXml = observedConversion.c_str();
+@@ -162,0 +166 @@
++    aero_resource::Outcome("conversion", !xmlDoc.Error(), _errors.size());

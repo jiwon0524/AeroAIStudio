@@ -1,0 +1,83 @@
+{
+  "status": "PASS_STATIC_MOCK_ONLY",
+  "cases": [
+    {
+      "case": "native_preamble_ack_eof",
+      "status": "PASS_MOCK_ONLY"
+    },
+    {
+      "case": "missing_schema",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "nested_include_parse",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "same_name_other_file",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "plugin_fallback",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "world_bytes",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "provider_mismatch",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "boolean_fd_identity",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_observation_schema/nested.sdf",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_observation_schema_include",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_observation_world_parse",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_observation_physics_provider",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_observation_dartsim_loaded",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_observation_complete",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "late_load_after_GO",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "early_ready",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "native_source_order_and_latch",
+      "status": "PASS_STATIC_ONLY"
+    },
+    {
+      "case": "pre_service_exit78",
+      "status": "PASS"
+    },
+    {
+      "case": "native_supervisor_pre_manager_marker_service_refusal",
+      "status": "PASS"
+    }
+  ],
+  "native_execution": false,
+  "harmless_execution": false
+}

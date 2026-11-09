@@ -1,0 +1,1944 @@
+{
+  "status": "PASS_STATIC_REQUIRED_EDGE_CLOSURE",
+  "errors": [],
+  "ELFs": {
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "sha256": "c652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c",
+      "needed": {
+        "libaero-joint-probe.so.1": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1",
+        "libdart-collision-bullet.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13",
+        "libLinearMath.so.3.24": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+        "libdart-collision-ode.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13",
+        "libdart.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart.so.6.13",
+        "libsdformat14.so.14": "/usr/lib/x86_64-linux-gnu/libsdformat14.so.14",
+        "libgz-physics7.so.7": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7",
+        "libgz-common5-graphics.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5-graphics.so.5",
+        "libassimp.so.5": "/usr/lib/x86_64-linux-gnu/libassimp.so.5",
+        "libgz-math7.so.7": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7",
+        "libgz-common5.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libc.so.6": {
+      "source": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf",
+      "needed": {
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2": {
+      "source": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "sha256": "c20a2dc8917c755f02b94049356320fe1f62ac7d9f8994731f807d9df39302da",
+      "needed": {}
+    },
+    "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "sha256": "d93224d2b0dab4247598be683adca02f5cf00586f99c187579cd7e92058fb7cb",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libm.so.6": {
+      "source": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "sha256": "fce00b6f25f459cf4ae0b7fae4257909a1a8a86f9149e7c029a5d617baf1ccd0",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6": {
+      "source": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "sha256": "1fd75fe70354a416d75aef22bcae68c47bd25d20e2d0568c30b1a9838cf62f11",
+      "needed": {
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5.9.0",
+      "sha256": "a33151ff7af529afc854ebf376ca684af4e9c0cfdf5f8876eac65e9b00724641",
+      "needed": {
+        "libuuid.so.1": "/usr/lib/x86_64-linux-gnu/libuuid.so.1",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libuuid.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0",
+      "sha256": "78d7f4d6f27b7dffc1c84dfe2f83e84aefa6f6ceeffc6ac4bc41f9fbc61cb84e",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7.7.0",
+      "sha256": "93a88d86b8f36bdcce95e42683f3779a58576c1faa05789ee599a88c432b2c57",
+      "needed": {
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libassimp.so.5": {
+      "source": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "sha256": "f5524225032201d129cac2adf305af9c7ffcf612d8662f3c87a2d891d5cd3d18",
+      "needed": {
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libdraco.so.8": "/usr/lib/x86_64-linux-gnu/libdraco.so.8",
+        "libminizip.so.1": "/usr/lib/x86_64-linux-gnu/libminizip.so.1",
+        "libpugixml.so.1": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libpugixml.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+      "sha256": "b5493d9c8c6e36e3b72e38564b7e287ad925ab717577ded997465f9ac9da1c9e",
+      "needed": {
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libminizip.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0",
+      "sha256": "7397458805900a67287673a7d469d1ff207525ae7694ed885e8603d0164828bf",
+      "needed": {
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libz.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/libz.so.1.3",
+      "sha256": "f61677c7bdb7c2aa2a243ea781bfd16afcb361cede7b4ef76127a9d8eb9a5242",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libdraco.so.8": {
+      "source": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+      "sha256": "b368d354f2778606b2553037fc8a3212719ee76a82711c60f7c72de49818e781",
+      "needed": {
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libgz-common5-graphics.so.5": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-common5-graphics.so.5.9.0",
+      "sha256": "72193d8b13a1d8a40e156cd8e3c8a3dcac53dcf906b4cb7dd1d981638bb2e6ad",
+      "needed": {
+        "libgz-common5.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5",
+        "libgz-math7.so.7": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7",
+        "libassimp.so.5": "/usr/lib/x86_64-linux-gnu/libassimp.so.5",
+        "libgts-0.7.so.5": "/usr/lib/x86_64-linux-gnu/libgts-0.7.so.5",
+        "libfreeimage.so.3": "/usr/lib/x86_64-linux-gnu/libfreeimage.so.3",
+        "libtinyxml2.so.10": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so.10",
+        "libglib-2.0.so.0": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0": {
+      "source": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0",
+      "sha256": "96ef9163aee942bdc09e6f4a1acd2fd6b178c03af824c569741440d63ac9f4f4",
+      "needed": {
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libpcre2-8.so.0": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0": {
+      "source": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2",
+      "sha256": "6075a70c30fd7216b9214ae50f2def0ce835092b034088ed9bd64c6a376c740f",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libtinyxml2.so.10": {
+      "source": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so.10.0.0",
+      "sha256": "f9e01d87fb78af744a426af8c992e94abf8cd3810a256e117bcc94cd84d2be6d",
+      "needed": {
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libfreeimage.so.3": {
+      "source": "/usr/lib/x86_64-linux-gnu/libfreeimage-3.18.0.so",
+      "sha256": "57cb18a12b14339e880eca150c51f1c9a4963cbc78366afa6e9b9fc8c2a5db19",
+      "needed": {
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libjxrglue.so.0": "/usr/lib/x86_64-linux-gnu/libjxrglue.so.0",
+        "libjpeg.so.8": "/usr/lib/x86_64-linux-gnu/libjpeg.so.8",
+        "libopenjp2.so.7": "/usr/lib/x86_64-linux-gnu/libopenjp2.so.7",
+        "libpng16.so.16": "/usr/lib/x86_64-linux-gnu/libpng16.so.16",
+        "libraw.so.23": "/usr/lib/x86_64-linux-gnu/libraw.so.23",
+        "libtiff.so.6": "/usr/lib/x86_64-linux-gnu/libtiff.so.6",
+        "libwebpmux.so.3": "/usr/lib/x86_64-linux-gnu/libwebpmux.so.3",
+        "libOpenEXR-3_1.so.30": "/usr/lib/x86_64-linux-gnu/libOpenEXR-3_1.so.30",
+        "libIex-3_1.so.30": "/usr/lib/x86_64-linux-gnu/libIex-3_1.so.30",
+        "libImath-3_1.so.29": "/usr/lib/x86_64-linux-gnu/libImath-3_1.so.29",
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libImath-3_1.so.29": {
+      "source": "/usr/lib/x86_64-linux-gnu/libImath-3_1.so.29.8.0",
+      "sha256": "d343c8617ccff84240697edf248741bf66b3ada65bf4381b875fda41f78589a7",
+      "needed": {
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libIex-3_1.so.30": {
+      "source": "/usr/lib/x86_64-linux-gnu/libIex-3_1.so.30.5.1",
+      "sha256": "014412d72ded8f22eabd0d9b88123fe0ea9481fda2ebd70eb07dd1806955708e",
+      "needed": {
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libOpenEXR-3_1.so.30": {
+      "source": "/usr/lib/x86_64-linux-gnu/libOpenEXR-3_1.so.30.5.1",
+      "sha256": "62e629b86c93493f30df963949f7aaf3b074483674da9211a3611fb31cb2b716",
+      "needed": {
+        "libImath-3_1.so.29": "/usr/lib/x86_64-linux-gnu/libImath-3_1.so.29",
+        "libIlmThread-3_1.so.30": "/usr/lib/x86_64-linux-gnu/libIlmThread-3_1.so.30",
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libIex-3_1.so.30": "/usr/lib/x86_64-linux-gnu/libIex-3_1.so.30",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libIlmThread-3_1.so.30": {
+      "source": "/usr/lib/x86_64-linux-gnu/libIlmThread-3_1.so.30.5.1",
+      "sha256": "f668b545c35d25f091eacada106441c117c5e0e79959e7d340c28b43cefe972e",
+      "needed": {
+        "libIex-3_1.so.30": "/usr/lib/x86_64-linux-gnu/libIex-3_1.so.30",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libwebpmux.so.3": {
+      "source": "/usr/lib/x86_64-linux-gnu/libwebpmux.so.3.0.13",
+      "sha256": "97e04dbba80ea27d0258584452efda0fa41bfa598bbca52eb4e120fcb6300962",
+      "needed": {
+        "libwebp.so.7": "/usr/lib/x86_64-linux-gnu/libwebp.so.7",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libwebp.so.7": {
+      "source": "/usr/lib/x86_64-linux-gnu/libwebp.so.7.1.8",
+      "sha256": "9664db51ec65209078abbb8bc7b699888a43ecc2f3c74ce8dd4e497175aa5bf0",
+      "needed": {
+        "libsharpyuv.so.0": "/usr/lib/x86_64-linux-gnu/libsharpyuv.so.0",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libsharpyuv.so.0": {
+      "source": "/usr/lib/x86_64-linux-gnu/libsharpyuv.so.0.0.1",
+      "sha256": "b2e62799e5dbd783a0671d53be99f7c6489567a5332a1e8f471e6bb250f294dc",
+      "needed": {
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libtiff.so.6": {
+      "source": "/usr/lib/x86_64-linux-gnu/libtiff.so.6.0.1",
+      "sha256": "aad9b47982a23560b6f6657adcd70a1141d0971bd4f2eb5b3753745f3e8feee4",
+      "needed": {
+        "libwebp.so.7": "/usr/lib/x86_64-linux-gnu/libwebp.so.7",
+        "libzstd.so.1": "/usr/lib/x86_64-linux-gnu/libzstd.so.1",
+        "liblzma.so.5": "/usr/lib/x86_64-linux-gnu/liblzma.so.5",
+        "libLerc.so.4": "/usr/lib/x86_64-linux-gnu/libLerc.so.4",
+        "libjbig.so.0": "/usr/lib/x86_64-linux-gnu/libjbig.so.0",
+        "libjpeg.so.8": "/usr/lib/x86_64-linux-gnu/libjpeg.so.8",
+        "libdeflate.so.0": "/usr/lib/x86_64-linux-gnu/libdeflate.so.0",
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libdeflate.so.0": {
+      "source": "/usr/lib/x86_64-linux-gnu/libdeflate.so.0",
+      "sha256": "608c8d7e4345a9ff4b57aa853ce0c355cf2e1d5ec11b8bee86fb4760bba8a15f",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libjpeg.so.8": {
+      "source": "/usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2",
+      "sha256": "ac09f2cd6f8a3b8e3cb123999ce275f9bcbe31c6cf9e20212c8f297772591d15",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libjbig.so.0": {
+      "source": "/usr/lib/x86_64-linux-gnu/libjbig.so.0",
+      "sha256": "6fea8a26ef5e0d2a36d296d7d0ec0c1f0894bf796b5824317bea88c090833a62",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libLerc.so.4": {
+      "source": "/usr/lib/x86_64-linux-gnu/libLerc.so.4",
+      "sha256": "a0ee52df526738293bdd232ddaefbb0d1d9c2da775a82fc6730e7cd394da560c",
+      "needed": {
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/liblzma.so.5": {
+      "source": "/usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5",
+      "sha256": "26b37d25f7ca2a2d348de8ecabacda12e921cd933b21fa069a179760db77219d",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libzstd.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5",
+      "sha256": "0a2128bc10841fb29e76d08d945864dfb0b6a66da5df6df5d8299197439e54bb",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libraw.so.23": {
+      "source": "/usr/lib/x86_64-linux-gnu/libraw.so.23.0.0",
+      "sha256": "f401b831a5af5726a0ba52457415936c5729532d7deaf82d11cf67fde2a6ba04",
+      "needed": {
+        "libjpeg.so.8": "/usr/lib/x86_64-linux-gnu/libjpeg.so.8",
+        "liblcms2.so.2": "/usr/lib/x86_64-linux-gnu/liblcms2.so.2",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libgomp.so.1": "/usr/lib/x86_64-linux-gnu/libgomp.so.1"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libgomp.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0",
+      "sha256": "135f3c8f006d2fe5e68e51281c7974cb991a03de3bfb3593d68d174dfcf854d1",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/liblcms2.so.2": {
+      "source": "/usr/lib/x86_64-linux-gnu/liblcms2.so.2.0.14",
+      "sha256": "65d948920458341176f78e3797320ffb7c052ab5bd75036c3db75dd88839b007",
+      "needed": {
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libpng16.so.16": {
+      "source": "/usr/lib/x86_64-linux-gnu/libpng16.so.16.43.0",
+      "sha256": "89c0c6569a8c00480d451401ad4c0a74942e62dc57f229a970592fdc5adb29e8",
+      "needed": {
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libopenjp2.so.7": {
+      "source": "/usr/lib/x86_64-linux-gnu/libopenjp2.so.2.5.0",
+      "sha256": "19906c0334e8db2137912f83cceed5a03d954a9c12d9781901a9a27f92ce1c4d",
+      "needed": {
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libjxrglue.so.0": {
+      "source": "/usr/lib/x86_64-linux-gnu/libjxrglue.so.1.2",
+      "sha256": "787e9f9f4e57a115938c0cae1b75b8f23e9a0e29e609479a0c43493429a09a21",
+      "needed": {
+        "libjpegxr.so.0": "/usr/lib/x86_64-linux-gnu/libjpegxr.so.0",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libjpegxr.so.0": {
+      "source": "/usr/lib/x86_64-linux-gnu/libjpegxr.so.1.2",
+      "sha256": "219db28d7db7fbfddef44a6a1a90e0d4eb16079c10ad7ae9ed7f7a5f53f6d7ad",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libgts-0.7.so.5": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgts-0.7.so.5.0.1",
+      "sha256": "9f95e1a546df3a046f6b581f5767d7e3fb74e3c7f0432bc0bd43067cf0ba444d",
+      "needed": {
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libglib-2.0.so.0": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7.8.0",
+      "sha256": "06bdf00cda17153e57e1b00194fc90264bde9d466ab9fc521407ee9152f4194b",
+      "needed": {
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libsdformat14.so.14": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libsdformat14.so.14.9.0",
+      "sha256": "36208350a391ba10ce92fff93eca2457475b6ea04a7434ced79ae1268462e136",
+      "needed": {
+        "libaero-resource.so": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libaero-resource.so",
+        "libgz-math7.so.7": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7",
+        "libgz-utils2.so.2": "/usr/lib/x86_64-linux-gnu/libgz-utils2.so.2",
+        "libtinyxml2.so.10": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so.10",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libgz-utils2.so.2": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-utils2.so.2.2.1",
+      "sha256": "72291b5be52e477638d9161e58080d2fe54706037716a9501883a0c3015ce52c",
+      "needed": {
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libaero-resource.so": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libaero-resource.so",
+      "sha256": "cf54f4adbf809da95c05f5e849d0a5064112bd40ad75ab37eb11a833c5942381",
+      "needed": {
+        "libcrypto.so.3": "/usr/lib/x86_64-linux-gnu/libcrypto.so.3",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libcrypto.so.3": {
+      "source": "/usr/lib/x86_64-linux-gnu/libcrypto.so.3",
+      "sha256": "6866ed711dab8927e1bf82bf1cd30e828bdfc34f3cc1e83b1c9eb01ce6c37d9a",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart.so.6.13": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2",
+      "sha256": "42ff81108e013b45ed1b11a1433cea0ea18964d2280d09c61d05d0fbe49b4af4",
+      "needed": {
+        "libaero-joint-probe.so.1": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1",
+        "libdart-external-odelcpsolver.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13",
+        "libfcl.so.0.7": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libfcl.so.0.7",
+        "liboctomap.so.1.9": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9",
+        "liboctomath.so.1.9": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9",
+        "libassimp.so.5": "/usr/lib/x86_64-linux-gnu/libassimp.so.5",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+      "sha256": "efd1dcfc111d271e13173f02153c0a950bbce9ccd53d1319990a5e6ff56c8dca",
+      "needed": {
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+      "sha256": "ec8bfd6cce31e7fd3dced8d5489109f6bca3d066c8ac3035b032940a8eb9ef50",
+      "needed": {
+        "liboctomath.so.1.9": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libfcl.so.0.7": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "sha256": "3436bd79e03ed39efce6f7abfd64ed35429d5574bd76337b90edb1fb85506afb",
+      "needed": {
+        "libccd.so.2": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libccd.so.2",
+        "liboctomap.so.1.9": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9",
+        "liboctomath.so.1.9": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libccd.so.2": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+      "sha256": "aa285639c8e4fa83f5987357fdc882e6df614949e40a7e85676b640ffb25f4f1",
+      "needed": {
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13.2",
+      "sha256": "18f2ce0216b00fe03d086e3ac2bfc7b7036c6355c8e57633ef075aefd7330b9a",
+      "needed": {
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0",
+      "sha256": "9dca4718eda1f970ba0d28e6d2f3233d081b781c2c44438e19b27a87448f43e8",
+      "needed": {
+        "libcrypto.so.3": "/usr/lib/x86_64-linux-gnu/libcrypto.so.3",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13.2",
+      "sha256": "29c63da664722f13f27317de27a49fe8422cf4160044f898951f31fb1ee28c27",
+      "needed": {
+        "libaero-joint-probe.so.1": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1",
+        "libdart.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart.so.6.13",
+        "libode.so.8": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libode.so.8",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libode.so.8": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libode.so.8.0.2",
+      "sha256": "c511d66333708785c1a22f6cd572c4c84495a535566c9c80eb37d8e0f67bc469",
+      "needed": {
+        "libccd.so.2": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libccd.so.2",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart.so.6.13": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2",
+      "sha256": "42ff81108e013b45ed1b11a1433cea0ea18964d2280d09c61d05d0fbe49b4af4",
+      "needed": {
+        "libaero-joint-probe.so.1": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1",
+        "libdart-external-odelcpsolver.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13",
+        "libfcl.so.0.7": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libfcl.so.0.7",
+        "liboctomap.so.1.9": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9",
+        "liboctomath.so.1.9": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9",
+        "libassimp.so.5": "/usr/lib/x86_64-linux-gnu/libassimp.so.5",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+      "sha256": "31c7e0d2d17efc3924613bf561a645a4258f2d8df54167c162c490ed7fe84fea",
+      "needed": {
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13.2",
+      "sha256": "5d48de3d22e998bdb81b26982dbc0845769aa9e1f179c81ee759ce6d54361fad",
+      "needed": {
+        "libaero-joint-probe.so.1": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1",
+        "libdart.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart.so.6.13",
+        "libBulletCollision.so.3.24": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libBulletCollision.so.3.24",
+        "libLinearMath.so.3.24": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libBulletCollision.so.3.24": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libBulletCollision.so.3.24",
+      "sha256": "a356d9ef207a31737b91a39c4c75a43b05a49cde51891cfa13b4b1c71c223f0a",
+      "needed": {
+        "libLinearMath.so.3.24": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0",
+      "sha256": "9dca4718eda1f970ba0d28e6d2f3233d081b781c2c44438e19b27a87448f43e8",
+      "needed": {
+        "libcrypto.so.3": "/usr/lib/x86_64-linux-gnu/libcrypto.so.3",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/gz-sim-8/plugins/libgz-sim8-physics-system.so.8.15.0": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/gz-sim-8/plugins/libgz-sim8-physics-system.so.8.15.0",
+      "sha256": "e9925d1a3581aece79f59056eafec4b5adeed62ccc80f747d2e32b4def1cb955",
+      "needed": {
+        "libaero-joint-probe.so.1": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1",
+        "libaero-resource.so": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libaero-resource.so",
+        "libgz-sim8.so.8": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libgz-sim8.so.8",
+        "libdart.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart.so.6.13",
+        "libgz-plugin2-loader.so.2": "/usr/lib/x86_64-linux-gnu/libgz-plugin2-loader.so.2",
+        "libgz-physics7.so.7": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7",
+        "libgz-plugin2.so.2": "/usr/lib/x86_64-linux-gnu/libgz-plugin2.so.2",
+        "libgz-common5-events.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5-events.so.5",
+        "libgz-msgs10.so.10": "/usr/lib/x86_64-linux-gnu/libgz-msgs10.so.10",
+        "libsdformat14.so.14": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libsdformat14.so.14",
+        "libprotobuf.so.32": "/usr/lib/x86_64-linux-gnu/libprotobuf.so.32",
+        "libgz-common5-geospatial.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5-geospatial.so.5",
+        "libgz-common5-graphics.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5-graphics.so.5",
+        "libgz-common5.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5",
+        "libgz-math7.so.7": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libgz-common5-geospatial.so.5": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-common5-geospatial.so.5.9.0",
+      "sha256": "1f99f8bc6ed205c1e42b5ba61bc0e7c956b45b241651559595574fdc15fc7294",
+      "needed": {
+        "libgz-common5-graphics.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5-graphics.so.5",
+        "libgz-math7.so.7": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7",
+        "libgdal.so.34": "/usr/lib/x86_64-linux-gnu/libgdal.so.34",
+        "libgz-common5.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libgdal.so.34": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgdal.so.34.3.8.4",
+      "sha256": "ea0cc2d10ca69e428cc4d70ea9c1e7e2f5af2108bc2339e7ed653f6508655ebb",
+      "needed": {
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libcurl.so.4": "/usr/lib/x86_64-linux-gnu/libcurl.so.4",
+        "libodbc.so.2": "/usr/lib/x86_64-linux-gnu/libodbc.so.2",
+        "libodbcinst.so.2": "/usr/lib/x86_64-linux-gnu/libodbcinst.so.2",
+        "libxml2.so.2": "/usr/lib/x86_64-linux-gnu/libxml2.so.2",
+        "libcrypto.so.3": "/usr/lib/x86_64-linux-gnu/libcrypto.so.3",
+        "liblzma.so.5": "/usr/lib/x86_64-linux-gnu/liblzma.so.5",
+        "libdeflate.so.0": "/usr/lib/x86_64-linux-gnu/libdeflate.so.0",
+        "liblz4.so.1": "/usr/lib/x86_64-linux-gnu/liblz4.so.1",
+        "libblosc.so.1": "/usr/lib/x86_64-linux-gnu/libblosc.so.1",
+        "libarmadillo.so.12": "/usr/lib/libarmadillo.so.12",
+        "libqhull_r.so.8.0": "/usr/lib/x86_64-linux-gnu/libqhull_r.so.8.0",
+        "libxerces-c-3.2.so": "/usr/lib/x86_64-linux-gnu/libxerces-c-3.2.so",
+        "libjpeg.so.8": "/usr/lib/x86_64-linux-gnu/libjpeg.so.8",
+        "libtiff.so.6": "/usr/lib/x86_64-linux-gnu/libtiff.so.6",
+        "libgeotiff.so.5": "/usr/lib/x86_64-linux-gnu/libgeotiff.so.5",
+        "libheif.so.1": "/usr/lib/x86_64-linux-gnu/libheif.so.1",
+        "libpng16.so.16": "/usr/lib/x86_64-linux-gnu/libpng16.so.16",
+        "libzstd.so.1": "/usr/lib/x86_64-linux-gnu/libzstd.so.1",
+        "libaec.so.0": "/usr/lib/x86_64-linux-gnu/libaec.so.0",
+        "libpoppler.so.134": "/usr/lib/x86_64-linux-gnu/libpoppler.so.134",
+        "libgif.so.7": "/usr/lib/x86_64-linux-gnu/libgif.so.7",
+        "libnetcdf.so.19": "/usr/lib/x86_64-linux-gnu/libnetcdf.so.19",
+        "libcfitsio.so.10": "/usr/lib/x86_64-linux-gnu/libcfitsio.so.10",
+        "libhdf5_serial.so.103": "/usr/lib/x86_64-linux-gnu/libhdf5_serial.so.103",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libwebp.so.7": "/usr/lib/x86_64-linux-gnu/libwebp.so.7",
+        "libsqlite3.so.0": "/usr/lib/x86_64-linux-gnu/libsqlite3.so.0",
+        "libpq.so.5": "/usr/lib/x86_64-linux-gnu/libpq.so.5",
+        "libopenjp2.so.7": "/usr/lib/x86_64-linux-gnu/libopenjp2.so.7",
+        "libkmlbase.so.1": "/usr/lib/x86_64-linux-gnu/libkmlbase.so.1",
+        "libkmldom.so.1": "/usr/lib/x86_64-linux-gnu/libkmldom.so.1",
+        "libkmlengine.so.1": "/usr/lib/x86_64-linux-gnu/libkmlengine.so.1",
+        "libfyba.so.0": "/usr/lib/x86_64-linux-gnu/libfyba.so.0",
+        "libpcre2-8.so.0": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0",
+        "libspatialite.so.8": "/usr/lib/x86_64-linux-gnu/libspatialite.so.8",
+        "libmysqlclient.so.21": "/usr/lib/x86_64-linux-gnu/libmysqlclient.so.21",
+        "libfreexl.so.1": "/usr/lib/x86_64-linux-gnu/libfreexl.so.1",
+        "libogdi.so.4.1": "/usr/lib/x86_64-linux-gnu/libogdi.so.4.1",
+        "libexpat.so.1": "/usr/lib/x86_64-linux-gnu/libexpat.so.1",
+        "libgeos_c.so.1": "/usr/lib/x86_64-linux-gnu/libgeos_c.so.1",
+        "libproj.so.25": "/usr/lib/x86_64-linux-gnu/libproj.so.25",
+        "libjson-c.so.5": "/usr/lib/x86_64-linux-gnu/libjson-c.so.5",
+        "libdfalt.so.0": "/usr/lib/x86_64-linux-gnu/libdfalt.so.0",
+        "libmfhdfalt.so.0": "/usr/lib/x86_64-linux-gnu/libmfhdfalt.so.0",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libmfhdfalt.so.0": {
+      "source": "/usr/lib/x86_64-linux-gnu/libmfhdfalt.so.0.0.0",
+      "sha256": "371550bb1c25199507845bedfa17e78ee8179a0c5bf98b52bdb3675698a9bf26",
+      "needed": {
+        "libtirpc.so.3": "/usr/lib/x86_64-linux-gnu/libtirpc.so.3",
+        "libdfalt.so.0": "/usr/lib/x86_64-linux-gnu/libdfalt.so.0",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libdfalt.so.0": {
+      "source": "/usr/lib/x86_64-linux-gnu/libdfalt.so.0.0.0",
+      "sha256": "4e9985faccc884622d051a33d8d49dbd9edf03ddf75dd7b4fa1969d0dd528852",
+      "needed": {
+        "libjpeg.so.8": "/usr/lib/x86_64-linux-gnu/libjpeg.so.8",
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libtirpc.so.3": {
+      "source": "/usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0",
+      "sha256": "bc8768306c9212184e906329fc70fa9e69b680711596f7663c6e51ba32c91194",
+      "needed": {
+        "libgssapi_krb5.so.2": "/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2",
+      "sha256": "c7aa00cf51646f7c32f196d329a562bc873ff32906c9caf6554ca489dd657507",
+      "needed": {
+        "libkrb5.so.3": "/usr/lib/x86_64-linux-gnu/libkrb5.so.3",
+        "libk5crypto.so.3": "/usr/lib/x86_64-linux-gnu/libk5crypto.so.3",
+        "libcom_err.so.2": "/usr/lib/x86_64-linux-gnu/libcom_err.so.2",
+        "libkrb5support.so.0": "/usr/lib/x86_64-linux-gnu/libkrb5support.so.0",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libkrb5support.so.0": {
+      "source": "/usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1",
+      "sha256": "936bae947a838bd47676a419dfcfb036d0163249215b58ec706ec7d46b7497aa",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libcom_err.so.2": {
+      "source": "/usr/lib/x86_64-linux-gnu/libcom_err.so.2.1",
+      "sha256": "022943b3b11c860b049bce41342f1c2594941b7b401d95dfdf235521099fee08",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libk5crypto.so.3": {
+      "source": "/usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1",
+      "sha256": "b37407fb2930939bf78b47267019cd201a8af1f4b6a3852249c849cf3a985798",
+      "needed": {
+        "libkrb5support.so.0": "/usr/lib/x86_64-linux-gnu/libkrb5support.so.0",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libkrb5.so.3": {
+      "source": "/usr/lib/x86_64-linux-gnu/libkrb5.so.3.3",
+      "sha256": "fad617a72b5839d30143e7db03281279089def6f18788cbb0b7f86385301bf04",
+      "needed": {
+        "libk5crypto.so.3": "/usr/lib/x86_64-linux-gnu/libk5crypto.so.3",
+        "libcom_err.so.2": "/usr/lib/x86_64-linux-gnu/libcom_err.so.2",
+        "libkrb5support.so.0": "/usr/lib/x86_64-linux-gnu/libkrb5support.so.0",
+        "libkeyutils.so.1": "/usr/lib/x86_64-linux-gnu/libkeyutils.so.1",
+        "libresolv.so.2": "/usr/lib/x86_64-linux-gnu/libresolv.so.2",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libresolv.so.2": {
+      "source": "/usr/lib/x86_64-linux-gnu/libresolv.so.2",
+      "sha256": "1d730ea434da5a5595bc6a961d7a9ace83e03703205df9644044b3dca79c362f",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libkeyutils.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10",
+      "sha256": "f48214417757f18793ed6e180cc14ee1d6f04252a518fc7270e8ca1d0b4260fe",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libjson-c.so.5": {
+      "source": "/usr/lib/x86_64-linux-gnu/libjson-c.so.5.3.0",
+      "sha256": "5cb4dfc866c13becb4d447440c4efbbd4114a469e348209f6f86d9741c12661f",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libproj.so.25": {
+      "source": "/usr/lib/x86_64-linux-gnu/libproj.so.25.9.4.0",
+      "sha256": "7ef5e3f3876ad24b07c5c23ea904a48b012bb0bb0c2b3306acb6136b3589b73b",
+      "needed": {
+        "libsqlite3.so.0": "/usr/lib/x86_64-linux-gnu/libsqlite3.so.0",
+        "libtiff.so.6": "/usr/lib/x86_64-linux-gnu/libtiff.so.6",
+        "libcurl-gnutls.so.4": "/usr/lib/x86_64-linux-gnu/libcurl-gnutls.so.4",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libcurl-gnutls.so.4": {
+      "source": "/usr/lib/x86_64-linux-gnu/libcurl-gnutls.so.4.8.0",
+      "sha256": "83f783be410435ef15c7f0d30de9f0d11f2fc64b9ca0567fb956ab29842214c8",
+      "needed": {
+        "libnghttp2.so.14": "/usr/lib/x86_64-linux-gnu/libnghttp2.so.14",
+        "libidn2.so.0": "/usr/lib/x86_64-linux-gnu/libidn2.so.0",
+        "librtmp.so.1": "/usr/lib/x86_64-linux-gnu/librtmp.so.1",
+        "libssh.so.4": "/usr/lib/x86_64-linux-gnu/libssh.so.4",
+        "libpsl.so.5": "/usr/lib/x86_64-linux-gnu/libpsl.so.5",
+        "libnettle.so.8": "/usr/lib/x86_64-linux-gnu/libnettle.so.8",
+        "libgnutls.so.30": "/usr/lib/x86_64-linux-gnu/libgnutls.so.30",
+        "libgssapi_krb5.so.2": "/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2",
+        "libldap.so.2": "/usr/lib/x86_64-linux-gnu/libldap.so.2",
+        "liblber.so.2": "/usr/lib/x86_64-linux-gnu/liblber.so.2",
+        "libzstd.so.1": "/usr/lib/x86_64-linux-gnu/libzstd.so.1",
+        "libbrotlidec.so.1": "/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1",
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.1.0",
+      "sha256": "d5060475e7259904af3600d01e809710305b296441815bcaa540119a66530a70",
+      "needed": {
+        "libbrotlicommon.so.1": "/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.1.0",
+      "sha256": "f8cd338ec62f719333abd5cba29a6e0bdb4597dfdffed000ffb868b47e02f2e9",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/liblber.so.2": {
+      "source": "/usr/lib/x86_64-linux-gnu/liblber.so.2.0.200",
+      "sha256": "ddf14275b1fb70ba06510094071adcc1462e675f15ae6cdcadbf40c1dabe5a03",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libldap.so.2": {
+      "source": "/usr/lib/x86_64-linux-gnu/libldap.so.2.0.200",
+      "sha256": "a9829b999c95452eb0a34cc7b5349427b76dbf3e5d5c8672a5ca69e454c1b151",
+      "needed": {
+        "liblber.so.2": "/usr/lib/x86_64-linux-gnu/liblber.so.2",
+        "libsasl2.so.2": "/usr/lib/x86_64-linux-gnu/libsasl2.so.2",
+        "libgnutls.so.30": "/usr/lib/x86_64-linux-gnu/libgnutls.so.30",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libgnutls.so.30": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgnutls.so.30.37.1",
+      "sha256": "ddbae2995750875c07bc218d12a062d73f8250678f54dedda7e9be5068781c98",
+      "needed": {
+        "libp11-kit.so.0": "/usr/lib/x86_64-linux-gnu/libp11-kit.so.0",
+        "libidn2.so.0": "/usr/lib/x86_64-linux-gnu/libidn2.so.0",
+        "libunistring.so.5": "/usr/lib/x86_64-linux-gnu/libunistring.so.5",
+        "libtasn1.so.6": "/usr/lib/x86_64-linux-gnu/libtasn1.so.6",
+        "libnettle.so.8": "/usr/lib/x86_64-linux-gnu/libnettle.so.8",
+        "libhogweed.so.6": "/usr/lib/x86_64-linux-gnu/libhogweed.so.6",
+        "libgmp.so.10": "/usr/lib/x86_64-linux-gnu/libgmp.so.10",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libgmp.so.10": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgmp.so.10.5.0",
+      "sha256": "0ccdfb6d6f5c039465f6d002cf7e4c072d48ac6a2cffc8dd6c748dec31592804",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libhogweed.so.6": {
+      "source": "/usr/lib/x86_64-linux-gnu/libhogweed.so.6.8",
+      "sha256": "c3c606139d4f7776efa4dbd4a6b62e30c916b07a0cafd8c3ef173d6f093607e3",
+      "needed": {
+        "libnettle.so.8": "/usr/lib/x86_64-linux-gnu/libnettle.so.8",
+        "libgmp.so.10": "/usr/lib/x86_64-linux-gnu/libgmp.so.10",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libnettle.so.8": {
+      "source": "/usr/lib/x86_64-linux-gnu/libnettle.so.8.8",
+      "sha256": "a245ed916229583d6fe0b07657b3ed945bc148c28cc08b5266295f620d2b91cc",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libtasn1.so.6": {
+      "source": "/usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.3",
+      "sha256": "59994414d0cdec4f678ef91eaaafc44b26b00bca507e4cc7978caaf79f584173",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libunistring.so.5": {
+      "source": "/usr/lib/x86_64-linux-gnu/libunistring.so.5.0.0",
+      "sha256": "7bcf825cd449892db5105ad2aed91dcf94a27b796426600c765720c584c54dd1",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libidn2.so.0": {
+      "source": "/usr/lib/x86_64-linux-gnu/libidn2.so.0.4.0",
+      "sha256": "6e632fd9a3125db60bbc623719bbc17b0470330321c5b1c57f1ff7190e5551ad",
+      "needed": {
+        "libunistring.so.5": "/usr/lib/x86_64-linux-gnu/libunistring.so.5",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libp11-kit.so.0": {
+      "source": "/usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.1",
+      "sha256": "a59efd4792d3343dedea1d26a28f5597abfe3369082deb504c4802a31b014897",
+      "needed": {
+        "libffi.so.8": "/usr/lib/x86_64-linux-gnu/libffi.so.8",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libffi.so.8": {
+      "source": "/usr/lib/x86_64-linux-gnu/libffi.so.8.1.4",
+      "sha256": "00f593fe192f2851b8ce23b25cec2488d769beb5a8f63e8c9e563071e1075153",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libsasl2.so.2": {
+      "source": "/usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25",
+      "sha256": "a0f410ad093236856eee59c4ff2838dc04d932ea0993400f23ed77d67d85af34",
+      "needed": {
+        "libcrypto.so.3": "/usr/lib/x86_64-linux-gnu/libcrypto.so.3",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libpsl.so.5": {
+      "source": "/usr/lib/x86_64-linux-gnu/libpsl.so.5.3.4",
+      "sha256": "ae6c5a9aecc249fc66e03c16ec6c4385d09d7e12e0ea7694bb831ab4fee8133c",
+      "needed": {
+        "libunistring.so.5": "/usr/lib/x86_64-linux-gnu/libunistring.so.5",
+        "libidn2.so.0": "/usr/lib/x86_64-linux-gnu/libidn2.so.0",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libssh.so.4": {
+      "source": "/usr/lib/x86_64-linux-gnu/libssh.so.4.9.6",
+      "sha256": "b82bd54edb908605b8142be1a6d242df65501af0e9bb7581cc36ebf4d8a5ecfd",
+      "needed": {
+        "libcrypto.so.3": "/usr/lib/x86_64-linux-gnu/libcrypto.so.3",
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libgssapi_krb5.so.2": "/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/librtmp.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/librtmp.so.1",
+      "sha256": "15a2a75e8c437b9c99971b5ee10278ab110beef1a56d1d9e5d6759ea140e98ac",
+      "needed": {
+        "libgnutls.so.30": "/usr/lib/x86_64-linux-gnu/libgnutls.so.30",
+        "libhogweed.so.6": "/usr/lib/x86_64-linux-gnu/libhogweed.so.6",
+        "libnettle.so.8": "/usr/lib/x86_64-linux-gnu/libnettle.so.8",
+        "libgmp.so.10": "/usr/lib/x86_64-linux-gnu/libgmp.so.10",
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libnghttp2.so.14": {
+      "source": "/usr/lib/x86_64-linux-gnu/libnghttp2.so.14.26.0",
+      "sha256": "46764ab5b6ca7e353a322054f0bee45d9158a27f3e6a82a2fa4447f2ba9ba268",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libsqlite3.so.0": {
+      "source": "/usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6",
+      "sha256": "85265a9d4afca6f4b325ceb078b669c754fb881abed4cafe91ccebe9d625d975",
+      "needed": {
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libgeos_c.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgeos_c.so.1.18.1",
+      "sha256": "fa0f458f3bc0ac66b51b5eb8532092948723c3c74c7eb8ea491811188f69b929",
+      "needed": {
+        "libgeos.so.3.12.1": "/usr/lib/x86_64-linux-gnu/libgeos.so.3.12.1",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libgeos.so.3.12.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgeos.so.3.12.1",
+      "sha256": "976ebb2b21926919404a87bed43de38a285686822ffc6a54f9e494a52cd41cf8",
+      "needed": {
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libexpat.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/libexpat.so.1.9.1",
+      "sha256": "286682ecbc5e59a638963b1a4e6351e65eb32fcf4bdcb9cb7569b6a61fe06a8d",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libogdi.so.4.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/libogdi.so.4.1",
+      "sha256": "ad8a3c4b0f0b1ed4eda98967a1ad41524cdaa96b1d354acc9c6de3a57e355db0",
+      "needed": {
+        "libtirpc.so.3": "/usr/lib/x86_64-linux-gnu/libtirpc.so.3",
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libexpat.so.1": "/usr/lib/x86_64-linux-gnu/libexpat.so.1",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libfreexl.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/libfreexl.so.1.2.0",
+      "sha256": "f2039b4590601171c023835f7ca382d6bfd57ab20dc52606881ef64924082999",
+      "needed": {
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libexpat.so.1": "/usr/lib/x86_64-linux-gnu/libexpat.so.1",
+        "libminizip.so.1": "/usr/lib/x86_64-linux-gnu/libminizip.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libmysqlclient.so.21": {
+      "source": "/usr/lib/x86_64-linux-gnu/libmysqlclient.so.21.2.46",
+      "sha256": "4707393164b8a29b11a35a87ad213612a936df43360c491555b1a0e528967080",
+      "needed": {
+        "libssl.so.3": "/usr/lib/x86_64-linux-gnu/libssl.so.3",
+        "libcrypto.so.3": "/usr/lib/x86_64-linux-gnu/libcrypto.so.3",
+        "libresolv.so.2": "/usr/lib/x86_64-linux-gnu/libresolv.so.2",
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libzstd.so.1": "/usr/lib/x86_64-linux-gnu/libzstd.so.1",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libssl.so.3": {
+      "source": "/usr/lib/x86_64-linux-gnu/libssl.so.3",
+      "sha256": "a40e7b67489bbd257e432c700ff8f6a1ad796425b5eccecdc2930127fdd86624",
+      "needed": {
+        "libcrypto.so.3": "/usr/lib/x86_64-linux-gnu/libcrypto.so.3",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libspatialite.so.8": {
+      "source": "/usr/lib/x86_64-linux-gnu/libspatialite.so.8.1.0",
+      "sha256": "9b93f21d1cf0853d6080f65224c523e5a661429669be2ba07bfc24d9176f744c",
+      "needed": {
+        "libxml2.so.2": "/usr/lib/x86_64-linux-gnu/libxml2.so.2",
+        "libsqlite3.so.0": "/usr/lib/x86_64-linux-gnu/libsqlite3.so.0",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libminizip.so.1": "/usr/lib/x86_64-linux-gnu/libminizip.so.1",
+        "librttopo.so.1": "/usr/lib/x86_64-linux-gnu/librttopo.so.1",
+        "libfreexl.so.1": "/usr/lib/x86_64-linux-gnu/libfreexl.so.1",
+        "libproj.so.25": "/usr/lib/x86_64-linux-gnu/libproj.so.25",
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libgeos_c.so.1": "/usr/lib/x86_64-linux-gnu/libgeos_c.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/librttopo.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/librttopo.so.1.1.0",
+      "sha256": "c9cb7d8a874c19931a1c588e9df797e2373439af8802a77fad5f1faf32455ff3",
+      "needed": {
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgeos_c.so.1": "/usr/lib/x86_64-linux-gnu/libgeos_c.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libxml2.so.2": {
+      "source": "/usr/lib/x86_64-linux-gnu/libxml2.so.2.9.14",
+      "sha256": "209e941be9eb2eb9ab36caaa0b81d1c6b36c8f5d7268c24f19e81039137e6485",
+      "needed": {
+        "libicuuc.so.74": "/usr/lib/x86_64-linux-gnu/libicuuc.so.74",
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "liblzma.so.5": "/usr/lib/x86_64-linux-gnu/liblzma.so.5",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libicuuc.so.74": {
+      "source": "/usr/lib/x86_64-linux-gnu/libicuuc.so.74.2",
+      "sha256": "7560aadde38e5f4237a47a1ddd5891f9b36768a77a60faae30beee003ac01901",
+      "needed": {
+        "libicudata.so.74": "/usr/lib/x86_64-linux-gnu/libicudata.so.74",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libicudata.so.74": {
+      "source": "/usr/lib/x86_64-linux-gnu/libicudata.so.74.2",
+      "sha256": "ddbb3718b8bd9cbd780e5ab08b4503c30a6c4fa0706ebe5d074ed6b596c1714e",
+      "needed": {}
+    },
+    "/usr/lib/x86_64-linux-gnu/libfyba.so.0": {
+      "source": "/usr/lib/x86_64-linux-gnu/libfyba.so.0.0.0",
+      "sha256": "be2cb05680106469a426cf0f79fff01b45f758c8b0b63f5647a9e2b643c18a31",
+      "needed": {
+        "libfyut.so.0": "/usr/lib/x86_64-linux-gnu/libfyut.so.0",
+        "libfygm.so.0": "/usr/lib/x86_64-linux-gnu/libfygm.so.0",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libfygm.so.0": {
+      "source": "/usr/lib/x86_64-linux-gnu/libfygm.so.0.0.0",
+      "sha256": "28795708b855867c02af33750679bfd47982bb59864e047d7c7ed99862d4dad7",
+      "needed": {
+        "libfyut.so.0": "/usr/lib/x86_64-linux-gnu/libfyut.so.0",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libfyut.so.0": {
+      "source": "/usr/lib/x86_64-linux-gnu/libfyut.so.0.0.0",
+      "sha256": "5fafe49dcad53e6e901cd9692a2393ecdf3022c8e10621baa3fd928813137985",
+      "needed": {
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libkmlengine.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/libkmlengine.so.1.3.0",
+      "sha256": "d9bb9fd5000ed511f32036fbc31fa74f043d0f91fe11d0798b4adf5289879205",
+      "needed": {
+        "libkmldom.so.1": "/usr/lib/x86_64-linux-gnu/libkmldom.so.1",
+        "libkmlbase.so.1": "/usr/lib/x86_64-linux-gnu/libkmlbase.so.1",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libkmlbase.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/libkmlbase.so.1.3.0",
+      "sha256": "70268ad82655c5701e022638d5c965b5165e4b7e6d9eb615f8a1dc302ca99b87",
+      "needed": {
+        "libexpat.so.1": "/usr/lib/x86_64-linux-gnu/libexpat.so.1",
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libminizip.so.1": "/usr/lib/x86_64-linux-gnu/libminizip.so.1",
+        "liburiparser.so.1": "/usr/lib/x86_64-linux-gnu/liburiparser.so.1",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/liburiparser.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/liburiparser.so.1.0.30",
+      "sha256": "15b1a15f9bea5cf3d46e5a20d4dca9c196333c43937d2404a389efdafd98f28c",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libkmldom.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/libkmldom.so.1.3.0",
+      "sha256": "171cfe06e16ddfed640fc8ac494c35f56ae4af11eef3b51df43872a233524c1b",
+      "needed": {
+        "libkmlbase.so.1": "/usr/lib/x86_64-linux-gnu/libkmlbase.so.1",
+        "libexpat.so.1": "/usr/lib/x86_64-linux-gnu/libexpat.so.1",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libpq.so.5": {
+      "source": "/usr/lib/x86_64-linux-gnu/libpq.so.5.16",
+      "sha256": "b4ba0da9e51354cf40a599e787f0942c98fc268cf29b51806c62770d8f2a2a71",
+      "needed": {
+        "libssl.so.3": "/usr/lib/x86_64-linux-gnu/libssl.so.3",
+        "libcrypto.so.3": "/usr/lib/x86_64-linux-gnu/libcrypto.so.3",
+        "libgssapi_krb5.so.2": "/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2",
+        "libldap.so.2": "/usr/lib/x86_64-linux-gnu/libldap.so.2",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libhdf5_serial.so.103": {
+      "source": "/usr/lib/x86_64-linux-gnu/libhdf5_serial.so.103.4.0",
+      "sha256": "aa9c9c402261b73469d0b79fe0d585537bdea8d4b5dab872fab613640277db0e",
+      "needed": {
+        "libcrypto.so.3": "/usr/lib/x86_64-linux-gnu/libcrypto.so.3",
+        "libcurl.so.4": "/usr/lib/x86_64-linux-gnu/libcurl.so.4",
+        "libsz.so.2": "/usr/lib/x86_64-linux-gnu/libsz.so.2",
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libsz.so.2": {
+      "source": "/usr/lib/x86_64-linux-gnu/libsz.so.2.0.1",
+      "sha256": "e73fa40252e84d38d64f9b3268ae6679530a777a55d6478d6b24de176d845c4b",
+      "needed": {
+        "libaec.so.0": "/usr/lib/x86_64-linux-gnu/libaec.so.0",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libaec.so.0": {
+      "source": "/usr/lib/x86_64-linux-gnu/libaec.so.0.1.2",
+      "sha256": "4fd52145f7a3f0648b3f5a9527bc3143f96e47768bb68acd62bd12399871ddcc",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libcurl.so.4": {
+      "source": "/usr/lib/x86_64-linux-gnu/libcurl.so.4.8.0",
+      "sha256": "3e51df20a6b52879ee83a207115a9bc6891092741ce2f5ec791606e6caf859fa",
+      "needed": {
+        "libnghttp2.so.14": "/usr/lib/x86_64-linux-gnu/libnghttp2.so.14",
+        "libidn2.so.0": "/usr/lib/x86_64-linux-gnu/libidn2.so.0",
+        "librtmp.so.1": "/usr/lib/x86_64-linux-gnu/librtmp.so.1",
+        "libssh.so.4": "/usr/lib/x86_64-linux-gnu/libssh.so.4",
+        "libpsl.so.5": "/usr/lib/x86_64-linux-gnu/libpsl.so.5",
+        "libssl.so.3": "/usr/lib/x86_64-linux-gnu/libssl.so.3",
+        "libcrypto.so.3": "/usr/lib/x86_64-linux-gnu/libcrypto.so.3",
+        "libgssapi_krb5.so.2": "/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2",
+        "libldap.so.2": "/usr/lib/x86_64-linux-gnu/libldap.so.2",
+        "liblber.so.2": "/usr/lib/x86_64-linux-gnu/liblber.so.2",
+        "libzstd.so.1": "/usr/lib/x86_64-linux-gnu/libzstd.so.1",
+        "libbrotlidec.so.1": "/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1",
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libcfitsio.so.10": {
+      "source": "/usr/lib/x86_64-linux-gnu/libcfitsio.so.10.4.3.1",
+      "sha256": "cb7a3f500672733e2a445b9e7495bf4dbbe98741adfdc5e7bf6d84e4a6f6ac32",
+      "needed": {
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libcurl-gnutls.so.4": "/usr/lib/x86_64-linux-gnu/libcurl-gnutls.so.4",
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libbz2.so.1.0": "/usr/lib/x86_64-linux-gnu/libbz2.so.1.0",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libbz2.so.1.0": {
+      "source": "/usr/lib/x86_64-linux-gnu/libbz2.so.1.0.4",
+      "sha256": "cc08c9f50a8009ffd6391e0116a100369b11ca9238fa52392c019e6645b122a1",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libnetcdf.so.19": {
+      "source": "/usr/lib/x86_64-linux-gnu/libnetcdf.so.19",
+      "sha256": "04fc972259131718fd96f0ea876654fe0a410a4af1635349dc8ec1590764f0f5",
+      "needed": {
+        "libhdf5_serial_hl.so.100": "/usr/lib/x86_64-linux-gnu/libhdf5_serial_hl.so.100",
+        "libhdf5_serial.so.103": "/usr/lib/x86_64-linux-gnu/libhdf5_serial.so.103",
+        "libcurl-gnutls.so.4": "/usr/lib/x86_64-linux-gnu/libcurl-gnutls.so.4",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libxml2.so.2": "/usr/lib/x86_64-linux-gnu/libxml2.so.2",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libhdf5_serial_hl.so.100": {
+      "source": "/usr/lib/x86_64-linux-gnu/libhdf5_serial_hl.so.100.1.7",
+      "sha256": "f7612eea5f3df4d0fb7b7d8d0840b79ee25958e00da8d4934fe869ae36431a2b",
+      "needed": {
+        "libhdf5_serial.so.103": "/usr/lib/x86_64-linux-gnu/libhdf5_serial.so.103",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libgif.so.7": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgif.so.7.2.0",
+      "sha256": "70ac81372d0ddbdf03dbdd7a9f994df625928cedf794b7c0a06c9eac27a4edc3",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libpoppler.so.134": {
+      "source": "/usr/lib/x86_64-linux-gnu/libpoppler.so.134.0.0",
+      "sha256": "0f2d017b1b9bb0ed1545185cc8c35237f34cdf48342af3c6b9a711ffbed8ce0b",
+      "needed": {
+        "libfreetype.so.6": "/usr/lib/x86_64-linux-gnu/libfreetype.so.6",
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libfontconfig.so.1": "/usr/lib/x86_64-linux-gnu/libfontconfig.so.1",
+        "libjpeg.so.8": "/usr/lib/x86_64-linux-gnu/libjpeg.so.8",
+        "libcurl-gnutls.so.4": "/usr/lib/x86_64-linux-gnu/libcurl-gnutls.so.4",
+        "libopenjp2.so.7": "/usr/lib/x86_64-linux-gnu/libopenjp2.so.7",
+        "liblcms2.so.2": "/usr/lib/x86_64-linux-gnu/liblcms2.so.2",
+        "libpng16.so.16": "/usr/lib/x86_64-linux-gnu/libpng16.so.16",
+        "libtiff.so.6": "/usr/lib/x86_64-linux-gnu/libtiff.so.6",
+        "libnss3.so": "/usr/lib/x86_64-linux-gnu/libnss3.so",
+        "libsmime3.so": "/usr/lib/x86_64-linux-gnu/libsmime3.so",
+        "libplc4.so": "/usr/lib/x86_64-linux-gnu/libplc4.so",
+        "libnspr4.so": "/usr/lib/x86_64-linux-gnu/libnspr4.so",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libnspr4.so": {
+      "source": "/usr/lib/x86_64-linux-gnu/libnspr4.so",
+      "sha256": "c32583a53640c144757419b977a76976ee3dbda7b905a0af1046ace3c570ae98",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libplc4.so": {
+      "source": "/usr/lib/x86_64-linux-gnu/libplc4.so",
+      "sha256": "f68520b4a9ba6190c67ce96511192f9af31dd96d91f18fd64cca48ffe08f7deb",
+      "needed": {
+        "libnspr4.so": "/usr/lib/x86_64-linux-gnu/libnspr4.so",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libsmime3.so": {
+      "source": "/usr/lib/x86_64-linux-gnu/libsmime3.so",
+      "sha256": "2c9e89b4004d027ceab26e71fbced1d82f7b2129f54d90495e86c888c6c0d777",
+      "needed": {
+        "libnss3.so": "/usr/lib/x86_64-linux-gnu/libnss3.so",
+        "libnssutil3.so": "/usr/lib/x86_64-linux-gnu/libnssutil3.so",
+        "libplc4.so": "/usr/lib/x86_64-linux-gnu/libplc4.so",
+        "libplds4.so": "/usr/lib/x86_64-linux-gnu/libplds4.so",
+        "libnspr4.so": "/usr/lib/x86_64-linux-gnu/libnspr4.so",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libplds4.so": {
+      "source": "/usr/lib/x86_64-linux-gnu/libplds4.so",
+      "sha256": "403f3c1ec489de93d04b5a386d2e659af6da0a41e09ffb90a280b6d68eeb1617",
+      "needed": {
+        "libnspr4.so": "/usr/lib/x86_64-linux-gnu/libnspr4.so",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libnssutil3.so": {
+      "source": "/usr/lib/x86_64-linux-gnu/libnssutil3.so",
+      "sha256": "8be78576227541c877d6ab17b49efe9ed7635b75039ea9810c8ccd030380f6e3",
+      "needed": {
+        "libplc4.so": "/usr/lib/x86_64-linux-gnu/libplc4.so",
+        "libplds4.so": "/usr/lib/x86_64-linux-gnu/libplds4.so",
+        "libnspr4.so": "/usr/lib/x86_64-linux-gnu/libnspr4.so",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libnss3.so": {
+      "source": "/usr/lib/x86_64-linux-gnu/libnss3.so",
+      "sha256": "e02cd7ae23536d20588e6f0a3e1cfa93e7591cbca2408a090a147769dd3e3f7d",
+      "needed": {
+        "libnssutil3.so": "/usr/lib/x86_64-linux-gnu/libnssutil3.so",
+        "libplc4.so": "/usr/lib/x86_64-linux-gnu/libplc4.so",
+        "libplds4.so": "/usr/lib/x86_64-linux-gnu/libplds4.so",
+        "libnspr4.so": "/usr/lib/x86_64-linux-gnu/libnspr4.so",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libfontconfig.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.1",
+      "sha256": "a94b4059b27766f563894c8f7e61762b6f6b2e25c59ef36b730164d4b75c6c98",
+      "needed": {
+        "libfreetype.so.6": "/usr/lib/x86_64-linux-gnu/libfreetype.so.6",
+        "libexpat.so.1": "/usr/lib/x86_64-linux-gnu/libexpat.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libfreetype.so.6": {
+      "source": "/usr/lib/x86_64-linux-gnu/libfreetype.so.6.20.1",
+      "sha256": "992dac80abe3a3854f3eb2668da4207c029664ceca5f122ddb46e2a8169e9499",
+      "needed": {
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libbz2.so.1.0": "/usr/lib/x86_64-linux-gnu/libbz2.so.1.0",
+        "libpng16.so.16": "/usr/lib/x86_64-linux-gnu/libpng16.so.16",
+        "libbrotlidec.so.1": "/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libheif.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/libheif.so.1.17.6",
+      "sha256": "52a1f6dc6df853f411df20574819b4f7b773c827f34c990b963154176c04e620",
+      "needed": {
+        "libsharpyuv.so.0": "/usr/lib/x86_64-linux-gnu/libsharpyuv.so.0",
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libgeotiff.so.5": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgeotiff.so.5.2.1",
+      "sha256": "252b2afa931e7d730b745a3952d833e03f61aeb786aa1d8f8b852b761fba445f",
+      "needed": {
+        "libtiff.so.6": "/usr/lib/x86_64-linux-gnu/libtiff.so.6",
+        "libproj.so.25": "/usr/lib/x86_64-linux-gnu/libproj.so.25",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libxerces-c-3.2.so": {
+      "source": "/usr/lib/x86_64-linux-gnu/libxerces-c-3.2.so",
+      "sha256": "67e0bd6a575a4b758c00e18beb076612af3690a1f399976657a0c399f9a0490e",
+      "needed": {
+        "libcurl-gnutls.so.4": "/usr/lib/x86_64-linux-gnu/libcurl-gnutls.so.4",
+        "libicuuc.so.74": "/usr/lib/x86_64-linux-gnu/libicuuc.so.74",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libqhull_r.so.8.0": {
+      "source": "/usr/lib/x86_64-linux-gnu/libqhull_r.so.8.0.2",
+      "sha256": "e4423b6ed8ab57f00e2695be19590898ad452bc2945afdb76f12f4f9a7fe6bd8",
+      "needed": {
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/libarmadillo.so.12": {
+      "source": "/usr/lib/libarmadillo.so.12.6.7",
+      "sha256": "ccd53833f1b8f2a2f4dc319110b4573845d227ce15c0157449fc8012addd5127",
+      "needed": {
+        "libblas.so.3": "/usr/lib/x86_64-linux-gnu/libblas.so.3",
+        "liblapack.so.3": "/usr/lib/x86_64-linux-gnu/liblapack.so.3",
+        "libarpack.so.2": "/usr/lib/x86_64-linux-gnu/libarpack.so.2",
+        "libsuperlu.so.6": "/usr/lib/x86_64-linux-gnu/libsuperlu.so.6",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libsuperlu.so.6": {
+      "source": "/usr/lib/x86_64-linux-gnu/libsuperlu.so.6.0.1",
+      "sha256": "18e66baee8422b4f0174b16f7df77b24846b77ee04b1b946ab17928c24f06d70",
+      "needed": {
+        "libblas.so.3": "/usr/lib/x86_64-linux-gnu/libblas.so.3",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libblas.so.3": {
+      "source": "/usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0",
+      "sha256": "e748efcae5753fe4a652877fccdb5895ac6f7605668a2db878b19c914e78e3a8",
+      "needed": {
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libarpack.so.2": {
+      "source": "/usr/lib/x86_64-linux-gnu/libarpack.so.2.1.0",
+      "sha256": "98ac6135ac6cabe79f79dec26c675f9c41a0bd09e1b27da917140e36ece8414c",
+      "needed": {
+        "liblapack.so.3": "/usr/lib/x86_64-linux-gnu/liblapack.so.3",
+        "libblas.so.3": "/usr/lib/x86_64-linux-gnu/libblas.so.3",
+        "libgfortran.so.5": "/usr/lib/x86_64-linux-gnu/libgfortran.so.5",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libgfortran.so.5": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgfortran.so.5.0.0",
+      "sha256": "342618ccfebe840446e4ef2b7893f4161b2084845e570f42d68a70bfde58a58d",
+      "needed": {
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/liblapack.so.3": {
+      "source": "/usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0",
+      "sha256": "851bb1fc5833ede9ed704b4417a251a899976d5e0915de40452615187a65278f",
+      "needed": {
+        "libblas.so.3": "/usr/lib/x86_64-linux-gnu/libblas.so.3",
+        "libgfortran.so.5": "/usr/lib/x86_64-linux-gnu/libgfortran.so.5",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libblosc.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/libblosc.so.1.21.5",
+      "sha256": "34331c189bd5fe8154f9803c0f74ef953762f00a8f28903400b999ce4b022123",
+      "needed": {
+        "liblz4.so.1": "/usr/lib/x86_64-linux-gnu/liblz4.so.1",
+        "libsnappy.so.1": "/usr/lib/x86_64-linux-gnu/libsnappy.so.1",
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libzstd.so.1": "/usr/lib/x86_64-linux-gnu/libzstd.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libsnappy.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/libsnappy.so.1.1.10",
+      "sha256": "955acc8eec21bea1fe890ebf75e73d1c94438264d55e042c10ad1a7a57c2e065",
+      "needed": {
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/liblz4.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4",
+      "sha256": "40bffd0a098387368b16b992abd5f7cf43c0fa2f05cabe5a6d483719554adfda",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libodbcinst.so.2": {
+      "source": "/usr/lib/x86_64-linux-gnu/libodbcinst.so.2.0.0",
+      "sha256": "63324384f43fa395e3bc6ec197dd4b7c554ff848919106d84aa5fc82b65865ca",
+      "needed": {
+        "libltdl.so.7": "/usr/lib/x86_64-linux-gnu/libltdl.so.7",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libltdl.so.7": {
+      "source": "/usr/lib/x86_64-linux-gnu/libltdl.so.7.3.2",
+      "sha256": "f059d7bfdc300ea3de7241bf0d21b2b5c9a5eac47cf8b8b28d3accafed90fe6e",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libodbc.so.2": {
+      "source": "/usr/lib/x86_64-linux-gnu/libodbc.so.2.0.0",
+      "sha256": "e3053cde233bfbd3d1f00a656f34a1cca18f55f1ffce9bb949ed494570779f61",
+      "needed": {
+        "libltdl.so.7": "/usr/lib/x86_64-linux-gnu/libltdl.so.7",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libprotobuf.so.32": {
+      "source": "/usr/lib/x86_64-linux-gnu/libprotobuf.so.32.0.12",
+      "sha256": "53a2a625a30418d6ea84438b04c9196214dec51a30476596ee9be45ccadb0404",
+      "needed": {
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libsdformat14.so.14": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libsdformat14.so.14.9.0",
+      "sha256": "36208350a391ba10ce92fff93eca2457475b6ea04a7434ced79ae1268462e136",
+      "needed": {
+        "libaero-resource.so": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libaero-resource.so",
+        "libgz-math7.so.7": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7",
+        "libgz-utils2.so.2": "/usr/lib/x86_64-linux-gnu/libgz-utils2.so.2",
+        "libtinyxml2.so.10": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so.10",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libgz-msgs10.so.10": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-msgs10.so.10.4.0",
+      "sha256": "67453b919fe6d52eac90138e630c8979408b7f8816cf43213fe182a90f9ad9de",
+      "needed": {
+        "libprotobuf.so.32": "/usr/lib/x86_64-linux-gnu/libprotobuf.so.32",
+        "libgz-utils2.so.2": "/usr/lib/x86_64-linux-gnu/libgz-utils2.so.2",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libgz-common5-events.so.5": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-common5-events.so.5.9.0",
+      "sha256": "bfa44a790ea2bddea001e9a06ddf7ad756f832b490c7097416de97fcde270c44",
+      "needed": {
+        "libgz-common5.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libgz-plugin2.so.2": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-plugin2.so.2.0.4",
+      "sha256": "f83116edeb96f61ec750f228304aa2f93c9ab95127214c95acba145cda369e38",
+      "needed": {
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7.8.0",
+      "sha256": "06bdf00cda17153e57e1b00194fc90264bde9d466ab9fc521407ee9152f4194b",
+      "needed": {
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libgz-plugin2-loader.so.2": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-plugin2-loader.so.2.0.4",
+      "sha256": "e258801a1f651c1a753d748f157313da4401d7e3c2fbc4686abecf0c99c098aa",
+      "needed": {
+        "libgz-plugin2.so.2": "/usr/lib/x86_64-linux-gnu/libgz-plugin2.so.2",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart.so.6.13": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2",
+      "sha256": "42ff81108e013b45ed1b11a1433cea0ea18964d2280d09c61d05d0fbe49b4af4",
+      "needed": {
+        "libaero-joint-probe.so.1": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1",
+        "libdart-external-odelcpsolver.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13",
+        "libfcl.so.0.7": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libfcl.so.0.7",
+        "liboctomap.so.1.9": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9",
+        "liboctomath.so.1.9": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9",
+        "libassimp.so.5": "/usr/lib/x86_64-linux-gnu/libassimp.so.5",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libgz-sim8.so.8": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libgz-sim8.so.8.15.0",
+      "sha256": "37cb569ecb539a0f6186ca8e8b688e5078feeded9a63900395bcb7011e354b77",
+      "needed": {
+        "libaero-joint-probe.so.1": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1",
+        "libaero-resource.so": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libaero-resource.so",
+        "libgz-fuel_tools9.so.9": "/usr/lib/x86_64-linux-gnu/libgz-fuel_tools9.so.9",
+        "libsdformat14.so.14": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libsdformat14.so.14",
+        "libprotobuf.so.32": "/usr/lib/x86_64-linux-gnu/libprotobuf.so.32",
+        "libgz-plugin2-loader.so.2": "/usr/lib/x86_64-linux-gnu/libgz-plugin2-loader.so.2",
+        "libgz-plugin2.so.2": "/usr/lib/x86_64-linux-gnu/libgz-plugin2.so.2",
+        "libgz-common5-events.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5-events.so.5",
+        "libgz-common5-graphics.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5-graphics.so.5",
+        "libgz-common5.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5",
+        "libgz-transport13-parameters.so.13": "/usr/lib/x86_64-linux-gnu/libgz-transport13-parameters.so.13",
+        "libgz-transport13.so.13": "/usr/lib/x86_64-linux-gnu/libgz-transport13.so.13",
+        "libgz-msgs10.so.10": "/usr/lib/x86_64-linux-gnu/libgz-msgs10.so.10",
+        "libtinyxml2.so.10": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so.10",
+        "libgz-math7.so.7": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libgz-transport13.so.13": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-transport13.so.13.6.0",
+      "sha256": "430d38c0e43bffd59287ba413aec0562f0ca5235e99c7d6c366559ef00e752b7",
+      "needed": {
+        "libgz-msgs10.so.10": "/usr/lib/x86_64-linux-gnu/libgz-msgs10.so.10",
+        "libzmq.so.5": "/usr/lib/x86_64-linux-gnu/libzmq.so.5",
+        "libuuid.so.1": "/usr/lib/x86_64-linux-gnu/libuuid.so.1",
+        "libprotobuf.so.32": "/usr/lib/x86_64-linux-gnu/libprotobuf.so.32",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libzmq.so.5": {
+      "source": "/usr/lib/x86_64-linux-gnu/libzmq.so.5.2.5",
+      "sha256": "c56acd8baaec3d869f7e23a194870302acef6d86384f1f0fe946fb81c7015a42",
+      "needed": {
+        "libbsd.so.0": "/usr/lib/x86_64-linux-gnu/libbsd.so.0",
+        "libsodium.so.23": "/usr/lib/x86_64-linux-gnu/libsodium.so.23",
+        "libpgm-5.3.so.0": "/usr/lib/x86_64-linux-gnu/libpgm-5.3.so.0",
+        "libnorm.so.1": "/usr/lib/x86_64-linux-gnu/libnorm.so.1",
+        "libgssapi_krb5.so.2": "/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libnorm.so.1": {
+      "source": "/usr/lib/x86_64-linux-gnu/libnorm.so.1",
+      "sha256": "2543db995aa530bda8d145126b25c08d54cfe3348993e11eb75c30d6b43f5e72",
+      "needed": {
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libpgm-5.3.so.0": {
+      "source": "/usr/lib/x86_64-linux-gnu/libpgm-5.3.so.0.0.128",
+      "sha256": "46e1d5126ff73b9ba0c340b2cf0245d77620f85524c6fc967d533be6d19bdada",
+      "needed": {
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libsodium.so.23": {
+      "source": "/usr/lib/x86_64-linux-gnu/libsodium.so.23.3.0",
+      "sha256": "fe00408090ea084504d7cb0130af56a22554fe299034b864551b65a64ca8a7b5",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libbsd.so.0": {
+      "source": "/usr/lib/x86_64-linux-gnu/libbsd.so.0.12.1",
+      "sha256": "e86cd4f0019f42c2ba5e60602e0edc8694d2948377d98c3654d0f6bddb5254bb",
+      "needed": {
+        "libmd.so.0": "/usr/lib/x86_64-linux-gnu/libmd.so.0",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libmd.so.0": {
+      "source": "/usr/lib/x86_64-linux-gnu/libmd.so.0.1.0",
+      "sha256": "423e18586b6ea740f4465afd64f7a9a4cb7264ed979c8e7256f9085af5345fef",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libgz-transport13-parameters.so.13": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-transport13-parameters.so.13.6.0",
+      "sha256": "496fe1147f698aef5fa415f14c8b8094606312d279f0ef8a6fb1b2cdf20cb52e",
+      "needed": {
+        "libgz-transport13.so.13": "/usr/lib/x86_64-linux-gnu/libgz-transport13.so.13",
+        "libgz-msgs10.so.10": "/usr/lib/x86_64-linux-gnu/libgz-msgs10.so.10",
+        "libprotobuf.so.32": "/usr/lib/x86_64-linux-gnu/libprotobuf.so.32",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libgz-fuel_tools9.so.9": {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-fuel_tools9.so.9.1.1",
+      "sha256": "c7b7aa6f229dcc8dd114b5c96c1c76a730d11c5292e085eec2c3abdf01f1761d",
+      "needed": {
+        "libgz-common5.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5",
+        "libgz-msgs10.so.10": "/usr/lib/x86_64-linux-gnu/libgz-msgs10.so.10",
+        "libjsoncpp.so.25": "/usr/lib/x86_64-linux-gnu/libjsoncpp.so.25",
+        "libtinyxml2.so.10": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so.10",
+        "libyaml-0.so.2": "/usr/lib/x86_64-linux-gnu/libyaml-0.so.2",
+        "libzip.so.4": "/usr/lib/x86_64-linux-gnu/libzip.so.4",
+        "libgz-math7.so.7": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7",
+        "libprotobuf.so.32": "/usr/lib/x86_64-linux-gnu/libprotobuf.so.32",
+        "libcurl.so.4": "/usr/lib/x86_64-linux-gnu/libcurl.so.4",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libzip.so.4": {
+      "source": "/usr/lib/x86_64-linux-gnu/libzip.so.4.0",
+      "sha256": "686612e6af220e2de954795ac7184695ebe3660541b13fa793cf5dc6ed352b5b",
+      "needed": {
+        "libbz2.so.1.0": "/usr/lib/x86_64-linux-gnu/libbz2.so.1.0",
+        "libcrypto.so.3": "/usr/lib/x86_64-linux-gnu/libcrypto.so.3",
+        "libz.so.1": "/usr/lib/x86_64-linux-gnu/libz.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libyaml-0.so.2": {
+      "source": "/usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.9",
+      "sha256": "a518a0ec7ee915fbeabe80551b8c9573b34e37b9402cc3e3eeab0fe346ba6ef0",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/usr/lib/x86_64-linux-gnu/libjsoncpp.so.25": {
+      "source": "/usr/lib/x86_64-linux-gnu/libjsoncpp.so.1.9.5",
+      "sha256": "72527df2ef55a4af661f691e8be0eeece16a8e9bfc9a2a21971d41738e84b67b",
+      "needed": {
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0",
+      "sha256": "9dca4718eda1f970ba0d28e6d2f3233d081b781c2c44438e19b27a87448f43e8",
+      "needed": {
+        "libcrypto.so.3": "/usr/lib/x86_64-linux-gnu/libcrypto.so.3",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-resolution-v1/work/aero-joint-harness-ack": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/aero-joint-harness-native",
+      "sha256": "a351fec9f269eff2ba6210aed32bcb0be184581e134587d5c03f6c34abb4e11e",
+      "needed": {
+        "libgz-sim8.so.8": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libgz-sim8.so.8",
+        "libtinyxml2.so.10": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so.10",
+        "libsdformat14.so.14": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libsdformat14.so.14",
+        "libaero-resource.so": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libaero-resource.so",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-isolation-v1/work/fd_bridge": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-isolation-v1/work/fd_bridge",
+      "sha256": "3c313ff9ff42624aaeb44bb3823749786d137cb9c3177d25783ee24db25a7236",
+      "needed": {
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libsdformat14.so.14.9.0": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libsdformat14.so.14.9.0",
+      "sha256": "36208350a391ba10ce92fff93eca2457475b6ea04a7434ced79ae1268462e136",
+      "needed": {
+        "libaero-resource.so": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libaero-resource.so",
+        "libgz-math7.so.7": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7",
+        "libgz-utils2.so.2": "/usr/lib/x86_64-linux-gnu/libgz-utils2.so.2",
+        "libtinyxml2.so.10": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so.10",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libgz-sim8.so.8.15.0": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libgz-sim8.so.8.15.0",
+      "sha256": "37cb569ecb539a0f6186ca8e8b688e5078feeded9a63900395bcb7011e354b77",
+      "needed": {
+        "libaero-joint-probe.so.1": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1",
+        "libaero-resource.so": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libaero-resource.so",
+        "libgz-fuel_tools9.so.9": "/usr/lib/x86_64-linux-gnu/libgz-fuel_tools9.so.9",
+        "libsdformat14.so.14": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libsdformat14.so.14",
+        "libprotobuf.so.32": "/usr/lib/x86_64-linux-gnu/libprotobuf.so.32",
+        "libgz-plugin2-loader.so.2": "/usr/lib/x86_64-linux-gnu/libgz-plugin2-loader.so.2",
+        "libgz-plugin2.so.2": "/usr/lib/x86_64-linux-gnu/libgz-plugin2.so.2",
+        "libgz-common5-events.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5-events.so.5",
+        "libgz-common5-graphics.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5-graphics.so.5",
+        "libgz-common5.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5",
+        "libgz-transport13-parameters.so.13": "/usr/lib/x86_64-linux-gnu/libgz-transport13-parameters.so.13",
+        "libgz-transport13.so.13": "/usr/lib/x86_64-linux-gnu/libgz-transport13.so.13",
+        "libgz-msgs10.so.10": "/usr/lib/x86_64-linux-gnu/libgz-msgs10.so.10",
+        "libtinyxml2.so.10": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so.10",
+        "libgz-math7.so.7": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "ld-linux-x86-64.so.2": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libgz-sim8-physics-system.so.8.15.0": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libgz-sim8-physics-system.so.8.15.0",
+      "sha256": "e9925d1a3581aece79f59056eafec4b5adeed62ccc80f747d2e32b4def1cb955",
+      "needed": {
+        "libaero-joint-probe.so.1": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1",
+        "libaero-resource.so": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libaero-resource.so",
+        "libgz-sim8.so.8": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libgz-sim8.so.8",
+        "libdart.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart.so.6.13",
+        "libgz-plugin2-loader.so.2": "/usr/lib/x86_64-linux-gnu/libgz-plugin2-loader.so.2",
+        "libgz-physics7.so.7": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7",
+        "libgz-plugin2.so.2": "/usr/lib/x86_64-linux-gnu/libgz-plugin2.so.2",
+        "libgz-common5-events.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5-events.so.5",
+        "libgz-msgs10.so.10": "/usr/lib/x86_64-linux-gnu/libgz-msgs10.so.10",
+        "libsdformat14.so.14": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libsdformat14.so.14",
+        "libprotobuf.so.32": "/usr/lib/x86_64-linux-gnu/libprotobuf.so.32",
+        "libgz-common5-geospatial.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5-geospatial.so.5",
+        "libgz-common5-graphics.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5-graphics.so.5",
+        "libgz-common5.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5",
+        "libgz-math7.so.7": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/gz-sim-8/plugins/libgz-sim8-physics-system.so.8.15.0": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/gz-sim-8/plugins/libgz-sim8-physics-system.so.8.15.0",
+      "sha256": "e9925d1a3581aece79f59056eafec4b5adeed62ccc80f747d2e32b4def1cb955",
+      "needed": {
+        "libaero-joint-probe.so.1": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1",
+        "libaero-resource.so": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libaero-resource.so",
+        "libgz-sim8.so.8": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libgz-sim8.so.8",
+        "libdart.so.6.13": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart.so.6.13",
+        "libgz-plugin2-loader.so.2": "/usr/lib/x86_64-linux-gnu/libgz-plugin2-loader.so.2",
+        "libgz-physics7.so.7": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7",
+        "libgz-plugin2.so.2": "/usr/lib/x86_64-linux-gnu/libgz-plugin2.so.2",
+        "libgz-common5-events.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5-events.so.5",
+        "libgz-msgs10.so.10": "/usr/lib/x86_64-linux-gnu/libgz-msgs10.so.10",
+        "libsdformat14.so.14": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libsdformat14.so.14",
+        "libprotobuf.so.32": "/usr/lib/x86_64-linux-gnu/libprotobuf.so.32",
+        "libgz-common5-geospatial.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5-geospatial.so.5",
+        "libgz-common5-graphics.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5-graphics.so.5",
+        "libgz-common5.so.5": "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5",
+        "libgz-math7.so.7": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libm.so.6": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    },
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/aero-joint-harness-native": {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/aero-joint-harness-native",
+      "sha256": "a351fec9f269eff2ba6210aed32bcb0be184581e134587d5c03f6c34abb4e11e",
+      "needed": {
+        "libgz-sim8.so.8": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libgz-sim8.so.8",
+        "libtinyxml2.so.10": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so.10",
+        "libsdformat14.so.14": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libsdformat14.so.14",
+        "libaero-resource.so": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libaero-resource.so",
+        "libstdc++.so.6": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+        "libgcc_s.so.1": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "libc.so.6": "/usr/lib/x86_64-linux-gnu/libc.so.6"
+      }
+    }
+  },
+  "header_count": 1821,
+  "header_manifest_sha256": "df111c8729d1a0dceffebfab124049c782ea8ece5d615fcc750c13e902fa2ff4",
+  "reviewed_source_reuse": {
+    "parser.cc": "30530c889310e598cbd32d47b8ba32a058aa6989c4bd622840a2d6703c9adc45",
+    "Root.cc": "642d08f025108d2886ff7c2cdb19a29ec2b9ea9f3494b468abe0642af6fe7905",
+    "SDF.cc": "79296cce5152e34255e16196b769d1f928a9ec4703a7eb4a8a998f339c3c578c",
+    "Converter.cc": "320a68c10d79c1c761f7eae0e3baf6b87c5d59f01f8fd52718135020039d212b"
+  },
+  "compiler_sha256": "1353e9bdd29a7295c7226bf6c63abccce056d8cac31f112e5cdbecc3f28c2769",
+  "toolchain_sha256": "cf2d4229dea503e7aa4405cd4c02a93027ff14cc77184a7b0940ba133f1a5338",
+  "native_symbol_binding": true,
+  "execution": false
+}

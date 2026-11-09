@@ -1,0 +1,6 @@
+include("${CMAKE_CURRENT_LIST_DIR}/snapshot-current.cmake")
+get_property(_scheduled DIRECTORY PROPERTY AERO_SNAPSHOT_SCHEDULED)
+if(NOT _scheduled)
+  set_property(DIRECTORY PROPERTY AERO_SNAPSHOT_SCHEDULED TRUE)
+  cmake_language(DEFER CALL aero_export_current)
+endif()

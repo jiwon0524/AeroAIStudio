@@ -1,0 +1,49 @@
+[
+  {
+    "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-build-fix-v1/work/config-01/src/dart/dart/common/SharedLibrary.cpp",
+    "sha256": "d82a6e384b74545e3da981d297d498f4fe804ca78d65f18b6a15c0b8e9f6bf77",
+    "sites": {
+      "#define DYNLIB_LOAD(a) dlopen": [
+        41
+      ],
+      "DYNLIB_LOAD(canonicalPath": [
+        84
+      ]
+    },
+    "guard": "NONE_IN_REUSED_ELF",
+    "fixed_world_reachability": "UNKNOWN"
+  },
+  {
+    "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-build-fix-v1/work/config-01/src/dart/dart/common/detail/SharedLibraryManager.cpp",
+    "sha256": "67a91610c4d2769f1a6fe7c9ef9d303d2dcd9328782313a64ba7bc7033c9a71b",
+    "sites": {
+      "std::ifstream(path)": [
+        56
+      ]
+    },
+    "guard": "NONE_IN_REUSED_ELF",
+    "fixed_world_reachability": "UNKNOWN"
+  },
+  {
+    "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-build-fix-v1/work/config-01/src/dart/dart/common/LocalResource.cpp",
+    "sha256": "b4b0788a5a4ee8e4865de8b6a6572369e068c4d1ffe3ce9f66fdfb138be5ba80",
+    "sites": {
+      "std::fopen": [
+        46
+      ]
+    },
+    "guard": "NONE_IN_REUSED_ELF",
+    "fixed_world_reachability": "UNKNOWN"
+  },
+  {
+    "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-build-fix-v1/work/config-01/src/dart/dart/common/LocalResourceRetriever.cpp",
+    "sha256": "50fc2343e8dadd8b5fdeb27e1cb4e8c893ae0b7b3d096c348671e69208ca2d0a",
+    "sites": {
+      "std::ifstream(path": [
+        80
+      ]
+    },
+    "guard": "NONE_IN_REUSED_ELF",
+    "fixed_world_reachability": "UNKNOWN"
+  }
+]

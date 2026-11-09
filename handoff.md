@@ -1,3 +1,58 @@
+# Native resource observation — current checkpoint
+
+Start/reconciled HEAD `97845a5ec75d5f79064a5c324f493b3af48c78a4`, branch `experiment/dart-internal-trace`. Read this worktree's AGENTS, DEVELOPMENT_RULES, handoff and resource_result first with context-handoff. Only pre-existing untracked change was the preserved dangling root plugin symlink. Current user scope: implementation/compile/link/static/mock only. No harmless rerun, target/Gazebo/DART load, step, service, marker use, sudo, installation or system/main change.
+
+**IMPLEMENTED_COMPILED_STATIC_MOCK_ONLY; TECHNICAL_READINESS BLOCKED; Stage B BLOCKED; risk acceptance UNDECIDED; actual runtime UNVERIFIED.** No execution approval review or one-shot execution command is submitted.
+
+Primary report: `validation/gazebo-joint-native-resource-v1/reports/native_result.md`; current progress: same phase `progress.md`. `source_receipt.json`, `build_receipt.json`, `deployment_receipt.json`, `static_audit.json`, `native_contract.json`, `unsealed_paths.json`, `tests.json` and `reuse.json` hold evidence. Ten vendor source patches and a shared observer were compiled in separate source/build/prefix paths; source and new ELF hashes are pinned. New harness/Physics identity expectations and 21 proposed RO alias mappings are candidates only, never applied to host old files.
+
+Actual schema initialization/recursive includes/conversion now use pinned FD bytes with device/inode/hash validation and a native failure latch; upper bool/error loss cannot permit ready. Actual world string and parse/graph/config outcomes are checked. Physics/dartsim final selection and interface provider are checked. The shared resource seal rejects Sim late loads before lookup/open/LoadLib; the new collector wraps the unchanged ACK session with a native ledger. Native readiness requires resource closure before ready_state/GO. Existing 100×1ms, live PID/start/maps, GO/EXIT_ACK/EOF and Clock/Capture criteria remain unchanged.
+
+Fresh verification: old170 ELFs,13 receipt pairs,575 mounts/428 backing identities,129 files/135 include edges, original main/dirty evidence, original ACK harness/world and historical harmless summary preserved. Existing22 synthetic tests PASS and19 new static/mock cases PASS. Native failure injection was not executed. Source-derived root closure is64 unique files/1001 reads/1000 includes; duplicate packets are summarized while each read is validated. Final native/changed translation units compiled and linked; static required-edge graph covers178 ELF paths. No native binary was run.
+
+Remaining: (1) reconcile/seal the entire new actual mount/provider/allowlist/attestor chain; old actual plan and seals remain unchanged and refuse. (2) prove bounded absence or guard inherited DART/ODE/auxiliary lazy resource paths. Exact unguarded DART SharedLibraryManager, SharedLibrary and LocalResource sites/hashes are in unsealed_paths.json; fixed-world reachability UNKNOWN. Sim seal does not guard those DSOs. Any added DART build boundary needs exact component/consumer-ABI reasoning first. Both launchers retain exit78 before manager/service/marker. Runtime-only outcomes and lifetime/allocator/C-exception risk decisions remain unverified/undecided.
+
+All commands launched here completed; snapshot shows no visible project-CWD tasks. Historical compiler host/PID/start identities were not captured and remain UNKNOWN; no tasks were killed/restarted. External-CWD/remote/container jobs remain UNKNOWN. Next minimum is those two unresolved whole-chain reviews; do not resolve them by an execution, harmless retry, marker consumption or automatically expanded DART build.
+
+Publish only verified own phase sources/configs/tests/light reports and this handoff to experiment; no main/merge/force push. The snapshot is pre-publication; reconcile a following checkpoint commit by parent/file list. Local publication receipt will be in this phase reports/publication.json, intentionally not recursively committed. Ignored /tmp source/build/ELFs/logs/full candidate_mounts.json, old ignored artifacts/markers and original uncommitted main files are host-local and do not transfer with Git; /tmp is not durable. Common context-handoff skill was read, not modified.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-09T07:09:45.116005+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "97845a5ec75d5f79064a5c324f493b3af48c78a4",
+    "branch": "experiment/dart-internal-trace",
+    "status": [
+      {
+        "status": "??",
+        "path": "libgz-physics-dartsim-plugin.so"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-native-resource-v1/reports/native_result.md",
+      "sha256": "8901b58bc830cdb3044147a130788f9ee17165f13048c1c9e6d306d4d082e559"
+    },
+    {
+      "path": "validation/gazebo-joint-native-resource-v1/reports/deployment_receipt.json",
+      "sha256": "ee88353fcba226bbda90840ee36db9b315f7a9a234c167ecddaf978f3d4f6fd7"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+# Prior checkpoints — historical context, superseded by the current block
+
 # Dynamic resource outcome gate — current checkpoint
 
 Start HEAD `425822a0d527391b888e432ecd2d3b4dda33a315`, experiment/dart-internal-trace. context-handoff used; current instructions, resolution_result and complete harmless_summary reconciled. Initial tracked/staged clean, original untracked dangling link unchanged. Current scope: static source/resource verification and synthetic tests only. Harmless one-shot is already consumed; no service, native target, Gazebo/DART load, step, actual marker/output or system change was performed.

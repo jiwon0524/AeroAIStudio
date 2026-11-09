@@ -1,0 +1,754 @@
+{
+  "status": "UNSEALED_NATIVE_CANDIDATE_NO_LAUNCH",
+  "expected": {
+    "conversion/1_10.convert": [
+      "16006ac89f550697a80418eb7a58cd8cd2c9cb90e0c757541cd18a7dbf773ee5",
+      66309,
+      9990272
+    ],
+    "schema/actor.sdf": [
+      "2b49df5e51630ffe3dfd2abe06545aef03eab241d8f0a7af48a98cf755f890f5",
+      66309,
+      9990273
+    ],
+    "schema/actor.xsd": [
+      "ed6bcc92af6a321c752c90014199095dd5a0992dd8eb61bb59ac8edaf60d690a",
+      66309,
+      9990274
+    ],
+    "schema/air_pressure.sdf": [
+      "484def66978ec340d603052d752c2ef7b0df0d0820a0cb7ef3ed6a0dba115d54",
+      66309,
+      9990275
+    ],
+    "schema/air_pressure.xsd": [
+      "8b2470ac7eb4e7e310a2decdb791648323384e85f3eaf38c0df9fe41ced4c9d7",
+      66309,
+      9990276
+    ],
+    "schema/air_speed.sdf": [
+      "34d1bab235b44e116eb5728ea1970e294234d45c3b34c3ce4cb661f952e4e522",
+      66309,
+      9990277
+    ],
+    "schema/air_speed.xsd": [
+      "c4b61fad9eb0d4f3ea2355cb91a25e848947f5a46073cfcb8aa51e40110fb4e1",
+      66309,
+      9990278
+    ],
+    "schema/altimeter.sdf": [
+      "e0abef5b777fd1c841aad0eaa1a6e104b051e6f5b6c1670d73b7aaf756f57284",
+      66309,
+      9990279
+    ],
+    "schema/altimeter.xsd": [
+      "2f544005804a834e2a46bc83e0f5aadfec8190e1aa76e82468e25d22a39c7dcb",
+      66309,
+      9990280
+    ],
+    "schema/atmosphere.sdf": [
+      "3a38338f38758d5949f271a0c36c3cae7d8e9d0b3618d287d17015ff49646af3",
+      66309,
+      9990281
+    ],
+    "schema/atmosphere.xsd": [
+      "6d113cffcc129f5ebe7f2ae177f75565ddae104110964d24925a97139dd01dfc",
+      66309,
+      9990282
+    ],
+    "schema/audio_sink.sdf": [
+      "74ac32d5a89b884c9284fadf048ea1bb4d5fe26e8332cc19012481dec5f5389f",
+      66309,
+      9990283
+    ],
+    "schema/audio_sink.xsd": [
+      "236678e904bf4e1fe39d744f82327c19758d334c2bd01027f84d1f8268de4139",
+      66309,
+      9990284
+    ],
+    "schema/audio_source.sdf": [
+      "566f08639f0150a081cd8ec479d4555c98e3468899934f89338e489e324ca37f",
+      66309,
+      9990285
+    ],
+    "schema/audio_source.xsd": [
+      "cc67dda09670ae0a3debe35c5ce79571648c1e1afb0b757281ecad2dfbffcce2",
+      66309,
+      9990286
+    ],
+    "schema/battery.sdf": [
+      "e21ffcc282b4c4d91335ab114b5a458ffcc11e683d16b224c9528bd4cd34803b",
+      66309,
+      9990287
+    ],
+    "schema/battery.xsd": [
+      "183c3296c27eeb0eb73e169eb3c2c5730a34bfda3ad883e857737f264b0ab01d",
+      66309,
+      9990288
+    ],
+    "schema/box_shape.sdf": [
+      "6d3c86a67156f9303453b3c633c951447e8e3b4e89b4016bdd5be317a89ad658",
+      66309,
+      9990289
+    ],
+    "schema/box_shape.xsd": [
+      "12c0ec9bca0ffdf3f90fcadec0fb7c1d4f2ac7bd731324ac226f9b9bec4c3854",
+      66309,
+      9990290
+    ],
+    "schema/camera.sdf": [
+      "fd120ebeaa38dc5d51ed858967fdb2db3d982363af6c03987d0aacc9d835744d",
+      66309,
+      9990291
+    ],
+    "schema/camera.xsd": [
+      "14380d57147d0d551b30f14fddc40027f301d7896da9a3893bca2044e80aac9e",
+      66309,
+      9990292
+    ],
+    "schema/capsule_shape.sdf": [
+      "222ea3a312c4c4000afaea92d447dcf5cf79e45b7372ab4876f533022478d8a8",
+      66309,
+      9990293
+    ],
+    "schema/capsule_shape.xsd": [
+      "fb856cb6af81155416e764f49c301153158dce6914008e2b466290bceda554b4",
+      66309,
+      9990294
+    ],
+    "schema/collision.sdf": [
+      "ebfbd64dabf5f2b686815afa7c677458dc93ed9bc7a8aee68a6acbfabdcbd0e2",
+      66309,
+      9990295
+    ],
+    "schema/collision.xsd": [
+      "7703e81150f91d8f6ea25feaf6a442818f3e3cf27743425f7c359279f8f74a26",
+      66309,
+      9990296
+    ],
+    "schema/cone_shape.sdf": [
+      "f5d37e62993a9f477c4a6240960336b6ce1f1e054360758f6a28e69f77cb2dcb",
+      66309,
+      9990297
+    ],
+    "schema/cone_shape.xsd": [
+      "fdfaf45f5db8b0537c4db7dc7c1f1cde1edd15ae53a2fa40afed8fcf8d1d6be9",
+      66309,
+      9990298
+    ],
+    "schema/contact.sdf": [
+      "8c2367ead394aaf5289d96fb71ae4d46159d30b1de91ef6ad0196b698801ab79",
+      66309,
+      9990299
+    ],
+    "schema/contact.xsd": [
+      "427dbdc31999badf5931f4ac5f8e132e768e74434e1c181bba611e6cd04f31b8",
+      66309,
+      9990300
+    ],
+    "schema/cylinder_shape.sdf": [
+      "f3e861b55b2387f98e78411921732c16c9aeaecf3f12569b15b044ef70e4fad1",
+      66309,
+      9990301
+    ],
+    "schema/cylinder_shape.xsd": [
+      "4fa276a471597a0792880cfeb2919b86848abd5ee8c104af52e595b243e52e46",
+      66309,
+      9990302
+    ],
+    "schema/ellipsoid_shape.sdf": [
+      "438333a3498f40e6f1cbd2292d07337d5a31928bc0fe986e0db1bef4317a2156",
+      66309,
+      9990303
+    ],
+    "schema/ellipsoid_shape.xsd": [
+      "441c4427ad128ee17afeff49305e06967802e7cc2a40e1aae3f6051e2efe08f0",
+      66309,
+      9990304
+    ],
+    "schema/forcetorque.sdf": [
+      "b572dd15195e8e595a490e3d10dcac82fb6f67a656b0dfc69f92a9d8057b46e4",
+      66309,
+      9990305
+    ],
+    "schema/forcetorque.xsd": [
+      "bd6df163b8b339f6593bda70a449db461438a8614e1410810b15a8ffb366d336",
+      66309,
+      9990306
+    ],
+    "schema/frame.sdf": [
+      "087ae6c8e1b244ace200890b653b5fe9c3d6223e687b6bf460225a9d13ff2cb2",
+      66309,
+      9990307
+    ],
+    "schema/frame.xsd": [
+      "520e4176fa25c2fa0654fb25f4f150040d21902a042f7980c477e201454fe7de",
+      66309,
+      9990308
+    ],
+    "schema/geometry.sdf": [
+      "c2712d040008258a28a799bfc767c8238452564fa31eabf25de6a9fd8159f5f4",
+      66309,
+      9990309
+    ],
+    "schema/geometry.xsd": [
+      "4c02cb8c13be7ba7508f7a7d01f93117e6cde93146b4f884c847b3f96fa7b413",
+      66309,
+      9990310
+    ],
+    "schema/gps.sdf": [
+      "5e8086dc5746f247f2bfe69c1de58aebe2e127994252a8f4957214a5e394ec1c",
+      66309,
+      9990311
+    ],
+    "schema/gps.xsd": [
+      "5f1b8ef4bbe76349783b103ad9cb7a83e8db32fc8e9593ba248d7a9641aa23ac",
+      66309,
+      9990312
+    ],
+    "schema/gripper.sdf": [
+      "b7ed7404e06178796231f9621a0d7f1f176972cd078476e3a3ff5f3fe97c5182",
+      66309,
+      9990313
+    ],
+    "schema/gripper.xsd": [
+      "7f3f2c4a6137fa484ea44aee00810a3dbac9ee59d12f533edb343f4e6a553652",
+      66309,
+      9990314
+    ],
+    "schema/gui.sdf": [
+      "7f0c3e9a4ee19bc1cdf603be67a0afa3471f824f4525b7ccb40d9143e3c9eff5",
+      66309,
+      9990315
+    ],
+    "schema/gui.xsd": [
+      "e20e385d37f02efe0aba442f9516107505f7bc94ae3b52ebf8958cf9070f3484",
+      66309,
+      9990316
+    ],
+    "schema/heightmap_shape.sdf": [
+      "9b56b5b652e2d9b1c59db53e74c653b339c44f79001349cb872ecc1858f8769f",
+      66309,
+      9990317
+    ],
+    "schema/heightmap_shape.xsd": [
+      "445cfde79dc0b7a69e9c54316043aefa1b181999ca5d1f836579583d9984e5dd",
+      66309,
+      9990318
+    ],
+    "schema/image_shape.sdf": [
+      "6ebe026f284e79c50e9315e3a4e40b8232128ed618d7cea076d5cdbef7d26bdb",
+      66309,
+      9990319
+    ],
+    "schema/image_shape.xsd": [
+      "0beafafbffc065760198a8f163753d07de2085e3618ae1d1ecdc1d6e76fe3229",
+      66309,
+      9990320
+    ],
+    "schema/imu.sdf": [
+      "f0f63beaf5672f211a73448101049cac839d4a05b64dfafa6fe0b2b87bb09056",
+      66309,
+      9990321
+    ],
+    "schema/imu.xsd": [
+      "dc5c3d6861eaf4068f8abd64abb858e25f9fc09d01a36b37baed6797803dc824",
+      66309,
+      9990322
+    ],
+    "schema/inertial.sdf": [
+      "7c2897d526f666b97fcf9bc8e2637b77114817c733eda828ecfc57cd852fc0a3",
+      66309,
+      9990323
+    ],
+    "schema/inertial.xsd": [
+      "0073ec13b82a8c2bd28c7ead8c11f9bf51bdba2bed923039fda35856e3124621",
+      66309,
+      9990324
+    ],
+    "schema/joint.sdf": [
+      "4a79d5104cdee19dec79e21ea4f51077f40c153a460b50bb29ae4a30dd82bbe5",
+      66309,
+      9990325
+    ],
+    "schema/joint.xsd": [
+      "535ae20d650e9764572515097619a1e5e05d01b061faf1323f12b32d995ac4d4",
+      66309,
+      9990326
+    ],
+    "schema/lidar.sdf": [
+      "588a509a428a03349570ef548be2c1247005a4678b4e6ac10984078748a7d34c",
+      66309,
+      9990327
+    ],
+    "schema/lidar.xsd": [
+      "4d8a901c74e2321c128014678b183e63013a18d62a61e438d67281afe4bad574",
+      66309,
+      9990328
+    ],
+    "schema/light.sdf": [
+      "f8debdc545a1d2bbc3224fdf07355b4a106ae0cce767be8719d4c4e2ee2c6326",
+      66309,
+      9990329
+    ],
+    "schema/light.xsd": [
+      "e695773d580a7dab4188b1f5769ecf2eef431aebf63a6d895a2d9f5fcd07254e",
+      66309,
+      9990330
+    ],
+    "schema/light_state.sdf": [
+      "454472f22975c288f8c6bf6b2e5083334d04e8e257217bc43704b4c6fc9f43d6",
+      66309,
+      9990331
+    ],
+    "schema/light_state.xsd": [
+      "766533611ae7563f1e5810c146ef6df93036e1eb38285b2090cbdc4de7652eb3",
+      66309,
+      9990332
+    ],
+    "schema/link.sdf": [
+      "ef18d231429f2be719bd6644a173e4d0202f9af7fe17c2ab4c66e20128ac7999",
+      66309,
+      9990333
+    ],
+    "schema/link.xsd": [
+      "7374316971e5067826908c5031cf7ca77d2315fc3e21cee4c3e739ffd9581767",
+      66309,
+      9990334
+    ],
+    "schema/link_state.sdf": [
+      "3b99a8678f523a2ed19bee9b1504058cb82f287e98abb993877883ce68735eb0",
+      66309,
+      9990335
+    ],
+    "schema/link_state.xsd": [
+      "aecf0e9ace9907abfd7f11a8e5d84ee2748dcb0f0dc545d46373cb74044043ac",
+      66309,
+      9990336
+    ],
+    "schema/logical_camera.sdf": [
+      "07edea17fb5311c88770fd625f555de3030d5aa10926a5355eb1a065e8f9faff",
+      66309,
+      9990337
+    ],
+    "schema/logical_camera.xsd": [
+      "4aea34963d2b61a88b2f2eeb74e67e85ebfd16c48a7064599cfaa9127bd264f2",
+      66309,
+      9990338
+    ],
+    "schema/magnetometer.sdf": [
+      "960284bc6d9b6d33c72e6ec303b92ccff411f1c1002509009490be36a3f44d7e",
+      66309,
+      9990339
+    ],
+    "schema/magnetometer.xsd": [
+      "249be93668f2c86b4fde2fc11cce61c73a6997a1247bfe855cd67722b9ad1a5f",
+      66309,
+      9990340
+    ],
+    "schema/material.sdf": [
+      "700a02ff2a60044aa3fb0613392b775a7008275a69ce7773c31a433d72b35acb",
+      66309,
+      9990341
+    ],
+    "schema/material.xsd": [
+      "ad9c49769bef5b16cbbefdff337c446bff37d958a5eb5f0cfbf519c0e10238c1",
+      66309,
+      9990342
+    ],
+    "schema/mesh_shape.sdf": [
+      "5ce57445c65f2a178d2dafe3aeddc22e566f84e16c82f79a0ab5b55f59ae5348",
+      66309,
+      9990343
+    ],
+    "schema/mesh_shape.xsd": [
+      "20f6576402506c7f3e3eb669d306408a22b44ce466c20377c3cdb898c5bce352",
+      66309,
+      9990344
+    ],
+    "schema/mimic.sdf": [
+      "ebdf9837adf1154ab726742d655badab3258002c25ae769fc581b5f1d7be7702",
+      66309,
+      9990345
+    ],
+    "schema/mimic.xsd": [
+      "56e52d3196307bc036edc6a50fd135aa0451463af29d31de78c03c698bb1d0bd",
+      66309,
+      9990346
+    ],
+    "schema/model.sdf": [
+      "e2573ad2636f7da48a25d9e30f8838681a01a5791e8ed311d226aba43ad4de45",
+      66309,
+      9990347
+    ],
+    "schema/model.xsd": [
+      "f1e2ba78e76770f34b91e83791d36d9ec67583856f352b20c0e02f3e8d73f1a9",
+      66309,
+      9990348
+    ],
+    "schema/model_state.sdf": [
+      "7e52d3c627f5b6ae36803278c2d7c240ac7c566c10ea38441316609af3faa411",
+      66309,
+      9990349
+    ],
+    "schema/model_state.xsd": [
+      "43f05bb8ffec08650d6ea918886645244e581ea5d55b83cb648e00824703209d",
+      66309,
+      9990350
+    ],
+    "schema/navsat.sdf": [
+      "ab1bab05724df28f72338ac72850a239d7d4daa59e2876eff1c7b0594d7be53e",
+      66309,
+      9990351
+    ],
+    "schema/navsat.xsd": [
+      "6b23eabc74b3eb1b96ca81fef6d230c0aeb555d43f96c9eef5d62ec6203b8531",
+      66309,
+      9990352
+    ],
+    "schema/noise.sdf": [
+      "0be9a5a383d8227918461536a89f32f598f6009aef1403f13caa1221e8999a27",
+      66309,
+      9990353
+    ],
+    "schema/noise.xsd": [
+      "0f64fd72e2716138e2a30d578312be344e4f462a2b7a54153a7982229cf4e573",
+      66309,
+      9990354
+    ],
+    "schema/particle_emitter.sdf": [
+      "8d8b3a32bd3f0abace096f26c3b027a23525ece6f2db8daa14d217bafea470dd",
+      66309,
+      9990355
+    ],
+    "schema/particle_emitter.xsd": [
+      "f24d88b7b7e6b02e1fa385dda762dbc434320a2bd3d57f72b365c163fed41ddd",
+      66309,
+      9990356
+    ],
+    "schema/physics.sdf": [
+      "b752cf693f78c150fab2bc2105a4a6831b7a4e23a2d22b2d305fa52997b7b99b",
+      66309,
+      9990357
+    ],
+    "schema/physics.xsd": [
+      "ef22c417778b12ae9ea5024d2aaf2483647fb33955e7be479b5418f46e02449d",
+      66309,
+      9990358
+    ],
+    "schema/plane_shape.sdf": [
+      "9a58f838765a831bd363dab8c33dd5dfdb8abf43e5487b5d4c79bed2ab0b363e",
+      66309,
+      9990359
+    ],
+    "schema/plane_shape.xsd": [
+      "bc7ae335f7932ac57b122ec5ac871bf8cd17a7ae926f6e234f218d6df0015a16",
+      66309,
+      9990360
+    ],
+    "schema/plugin.sdf": [
+      "03836445fc40d5ac01f8ddcd2e340dcae1c7e945898dcc4835da028a4f62e596",
+      66309,
+      9990361
+    ],
+    "schema/plugin.xsd": [
+      "e165f23b1bcce1597c11345db181b72df2960cd95ee69be65f4c3980ac3b4ab5",
+      66309,
+      9990362
+    ],
+    "schema/polyline_shape.sdf": [
+      "32f0294fd57fcc6c2f67007cfd85cee4c8a75da9b3bdf9767c2074954987806f",
+      66309,
+      9990363
+    ],
+    "schema/polyline_shape.xsd": [
+      "6fd0e88d966c6a1968e030b247391c0c45da36bb0eaf44740828664362d70310",
+      66309,
+      9990364
+    ],
+    "schema/population.sdf": [
+      "035bfbe6c8fad4cedd92d2f9b83b69d5cdb1dcea7a45da9fea709f08108928d6",
+      66309,
+      9990365
+    ],
+    "schema/population.xsd": [
+      "4e6d3c52506d23894c98c9582c290bc12a63f6114665b86b8cfc30163f9f064c",
+      66309,
+      9990366
+    ],
+    "schema/pose.sdf": [
+      "e1547ea92de92a50f66f743c1a4e2312edf85115cfb5cb8c99b47b118832974e",
+      66309,
+      9990367
+    ],
+    "schema/pose.xsd": [
+      "d106e7bbcc23c7272d31c2049ddb82e90cfa077b2f1b949808076ad9fcf0ba56",
+      66309,
+      9990368
+    ],
+    "schema/projector.sdf": [
+      "e27ee1e5e7507ac3e8a0bcad1eadf04d768e660cfffaa6b5060c8b6dbf858429",
+      66309,
+      9990369
+    ],
+    "schema/projector.xsd": [
+      "9d33ec8cd2f30a5d1d2e52923e868fd202610c35fb34b138543db5bfb99b6974",
+      66309,
+      9990370
+    ],
+    "schema/ray.sdf": [
+      "49dac890a662e04940210b98f9efc676fdb09349f8f6bfde4f234b8f6ce95d54",
+      66309,
+      9990371
+    ],
+    "schema/ray.xsd": [
+      "ebedf14c07579d63feb04fb746c87e50be9841c31b02bdc71f795ab17dfe801f",
+      66309,
+      9990372
+    ],
+    "schema/rfid.sdf": [
+      "e845a814925a40788619d6bd8476aa33a0840e4f1ccefa5f3eea4dfa6d6edc01",
+      66309,
+      9990373
+    ],
+    "schema/rfid.xsd": [
+      "1a9df5a6a6e579d66db35c60594b8e34a6de5610056375bca8e4ce59aa4bf4ea",
+      66309,
+      9990374
+    ],
+    "schema/rfidtag.sdf": [
+      "6bc54602073f730685494a27d7d341530ed6c70183135f1cbc0c85f2533b8488",
+      66309,
+      9990375
+    ],
+    "schema/rfidtag.xsd": [
+      "7ffc5894ea82e50ccfb92b98b8773abd20082daae710969de14ee6573c5cc4a4",
+      66309,
+      9990376
+    ],
+    "schema/road.sdf": [
+      "adb87923112f55206a15758f381687a14e909b873e1ba3a35adf6265391fc3b3",
+      66309,
+      9990377
+    ],
+    "schema/road.xsd": [
+      "a721785d421160f3dec572a660057641e33485dd0b93ddf0ef193af9494e7e41",
+      66309,
+      9990378
+    ],
+    "schema/root.sdf": [
+      "9b4dc514df81317d5e8c57be0a203e40f6e0c29e54529d3dd341f58f13b0eb53",
+      66309,
+      9990379
+    ],
+    "schema/root.xsd": [
+      "5b0a0be74bdad8cab895c6eda24b20d68c62be568adb2ec344d0642686bea02e",
+      66309,
+      9990380
+    ],
+    "schema/scene.sdf": [
+      "9bbc4cf205e119038844952744d998df3c29c6efb23ed98b9d624abfac139ca1",
+      66309,
+      9990381
+    ],
+    "schema/scene.xsd": [
+      "66736753f99e81c9dd4244834865dbcaba4a7b3859017193089c8e29693d6866",
+      66309,
+      9990382
+    ],
+    "schema/sensor.sdf": [
+      "677e16e83be66fc495e91728bf1f8169b662edf7b776e5b46846d4612fae15e0",
+      66309,
+      9990383
+    ],
+    "schema/sensor.xsd": [
+      "009d3403bdf6a6eb22e4977b59f5d1765bea4f9dc75fa1b8768e77bec233c666",
+      66309,
+      9990384
+    ],
+    "schema/sonar.sdf": [
+      "18f0d1228189c05102db9925d0a81cfd345dc4ee7bbf10741655e1c17f24da20",
+      66309,
+      9990385
+    ],
+    "schema/sonar.xsd": [
+      "52b186fadc50f219444a1fe23e273396f5c231f60c9de519303d7c55f077d6cd",
+      66309,
+      9990386
+    ],
+    "schema/sphere_shape.sdf": [
+      "5b28aa613d2a2a29c0ecf79c71c00ed4c587a888ca0df6cdc97da04740fd9aec",
+      66309,
+      9990387
+    ],
+    "schema/sphere_shape.xsd": [
+      "3296f767dfdeff3be9ce35e849c64cf88a40239be52c636e4ee46914e903b82f",
+      66309,
+      9990388
+    ],
+    "schema/spherical_coordinates.sdf": [
+      "5cf0a846ad4fda70687b00541a295b013f8a9667cb4611adc12e09ae5c5ec9d1",
+      66309,
+      9990389
+    ],
+    "schema/spherical_coordinates.xsd": [
+      "fdab1a86e34fefa29d3e5007dc741cf84c9a65dc18b90d3177c17bd0941ebe01",
+      66309,
+      9990390
+    ],
+    "schema/state.sdf": [
+      "98a107383c7a2e0e4be51b8cd4b8be44bb587b16c9b6adddb015014448a9ea5b",
+      66309,
+      9990391
+    ],
+    "schema/state.xsd": [
+      "21c4d0cdf861e061002d484222ef4150b6b2ce35dc62d9bf7b2ba19faa7d9886",
+      66309,
+      9990392
+    ],
+    "schema/surface.sdf": [
+      "3f6b0a92ca0cd455b455b966ef888541ecffb424b81de7171e8cde52f7c2e68d",
+      66309,
+      9990393
+    ],
+    "schema/surface.xsd": [
+      "ce042e967a74220deae4cf4002bd09c61da83af3fbba53e359d235887d10e5b1",
+      66309,
+      9990394
+    ],
+    "schema/transceiver.sdf": [
+      "124e387c0c2a2789bc201e60696216a94090652f3ecb36e807d1195a612f3f1b",
+      66309,
+      9990395
+    ],
+    "schema/transceiver.xsd": [
+      "7880d0a6b73fd28f8b1112f21bca37dd503db54a892a80c88f2822180d139320",
+      66309,
+      9990396
+    ],
+    "schema/visual.sdf": [
+      "e93cc29ec101955f463981232dde8048ca7373b2fb85d298d936ec7c55c7d4c4",
+      66309,
+      9990397
+    ],
+    "schema/visual.xsd": [
+      "028f6e365f9e66bbf86aaaad4640d3c0d60977d377bbde3334964ddf9e846453",
+      66309,
+      9990398
+    ],
+    "schema/world.sdf": [
+      "a385d474deda36eb40fd72fe9173ec2e40f451860ac4497e12f99cc57c759c78",
+      66309,
+      9990399
+    ],
+    "schema/world.xsd": [
+      "62bca972bcbe520da10392a2e2de17e3b835299863c875ae4499bd6b5391b3e7",
+      66309,
+      9990400
+    ],
+    "server_config": [
+      "b19a55e4d7e5a83ba29476b4b13c1e601525ecf5ae102b88ce90a7c65997cc09",
+      66309,
+      4601234
+    ],
+    "physics": [
+      "e9925d1a3581aece79f59056eafec4b5adeed62ccc80f747d2e32b4def1cb955",
+      66309,
+      4614711
+    ],
+    "physics_provider": [
+      "e9925d1a3581aece79f59056eafec4b5adeed62ccc80f747d2e32b4def1cb955",
+      66309,
+      4614711
+    ],
+    "dartsim": [
+      "c652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c",
+      66309,
+      4481392
+    ],
+    "dartsim_provider": [
+      "c652c1af1ccf37d0dcc0b185849045a41f074262ad8a6a7c6f38e75ddecc370c",
+      66309,
+      4481392
+    ],
+    "world_bytes": [
+      "534b09dddb318e5db1f9ccb2267fb7c7744c552d8bc4034008d547514c37ba69",
+      0,
+      0
+    ]
+  },
+  "schema_closure": [
+    "schema/actor.sdf",
+    "schema/air_pressure.sdf",
+    "schema/air_speed.sdf",
+    "schema/altimeter.sdf",
+    "schema/atmosphere.sdf",
+    "schema/audio_sink.sdf",
+    "schema/audio_source.sdf",
+    "schema/battery.sdf",
+    "schema/box_shape.sdf",
+    "schema/camera.sdf",
+    "schema/capsule_shape.sdf",
+    "schema/collision.sdf",
+    "schema/cone_shape.sdf",
+    "schema/contact.sdf",
+    "schema/cylinder_shape.sdf",
+    "schema/ellipsoid_shape.sdf",
+    "schema/forcetorque.sdf",
+    "schema/frame.sdf",
+    "schema/geometry.sdf",
+    "schema/gps.sdf",
+    "schema/gripper.sdf",
+    "schema/gui.sdf",
+    "schema/heightmap_shape.sdf",
+    "schema/image_shape.sdf",
+    "schema/imu.sdf",
+    "schema/inertial.sdf",
+    "schema/joint.sdf",
+    "schema/lidar.sdf",
+    "schema/light.sdf",
+    "schema/light_state.sdf",
+    "schema/link.sdf",
+    "schema/link_state.sdf",
+    "schema/logical_camera.sdf",
+    "schema/magnetometer.sdf",
+    "schema/material.sdf",
+    "schema/mesh_shape.sdf",
+    "schema/mimic.sdf",
+    "schema/model.sdf",
+    "schema/model_state.sdf",
+    "schema/navsat.sdf",
+    "schema/noise.sdf",
+    "schema/particle_emitter.sdf",
+    "schema/physics.sdf",
+    "schema/plane_shape.sdf",
+    "schema/plugin.sdf",
+    "schema/polyline_shape.sdf",
+    "schema/population.sdf",
+    "schema/pose.sdf",
+    "schema/projector.sdf",
+    "schema/ray.sdf",
+    "schema/rfid.sdf",
+    "schema/rfidtag.sdf",
+    "schema/road.sdf",
+    "schema/root.sdf",
+    "schema/scene.sdf",
+    "schema/sensor.sdf",
+    "schema/sonar.sdf",
+    "schema/sphere_shape.sdf",
+    "schema/spherical_coordinates.sdf",
+    "schema/state.sdf",
+    "schema/surface.sdf",
+    "schema/transceiver.sdf",
+    "schema/visual.sdf",
+    "schema/world.sdf"
+  ],
+  "schema_root_unique": 64,
+  "schema_root_recursive_reads": 1001,
+  "schema_root_includes": 1000,
+  "unchanged_inventory": [
+    129,
+    135
+  ],
+  "runtime_verified": false
+}
