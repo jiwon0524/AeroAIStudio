@@ -1,0 +1,160 @@
+{
+  "status": "PASS_STATIC_MOCK_ONLY",
+  "reused_cases": 56,
+  "new_cases": 34,
+  "checks": [
+    {
+      "case": "distinct_directional_PIPE_entry_accepted",
+      "status": "PASS"
+    },
+    {
+      "case": "input_0_type_49152",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "input_0_type_32768",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "input_0_type_8192",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "input_0_bidirectional",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "input_0_O_PATH",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "input_1_type_49152",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "input_1_type_32768",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "input_1_type_8192",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "input_1_bidirectional",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "input_1_O_PATH",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "input_2_type_49152",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "input_2_type_32768",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "input_2_type_8192",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "input_2_bidirectional",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "input_2_O_PATH",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "aliased_channels_01",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "aliased_channels_02",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "aliased_channels_12",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_stderr",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "GO_pipe_wrong_direction",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "exact_0_to_4_target_handoff",
+      "status": "PASS"
+    },
+    {
+      "case": "ambient_handoff_49152",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "ambient_handoff_32768",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "stdin_not_null_device",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "GO_handoff_identity_mismatch",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "observation_handoff_mode_mismatch",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "candidate_entry_close_range_rlimit_fail_before_exec",
+      "status": "PASS_STATIC_ONLY"
+    },
+    {
+      "case": "absence_of_denial_packet_is_not_complete_access_evidence",
+      "status": "PASS_COUNTEREXAMPLE_MOCK_ONLY"
+    },
+    {
+      "case": "dynamic_init_observed_denial",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "dynamic_init_GO_denied",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "post_EXIT_ACK_observed_denial",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "shutdown_denial_exit0_EOF_cleanup_still_FAIL",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "unclosed_boundary_refuses_before_manager_service_marker",
+      "status": "PASS_REFUSAL"
+    }
+  ],
+  "prior_evidence_preserved": {
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-external-review-v1/reports/tests.json": "7e4cd7fa7d92a24414b1dc3a2930478c2d971323c74e272e5ab24b404f400b74",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-external-review-v1/reports/reused_tests.json": "ad02e5c924b2ac4ae0bc3ecbd23edc5f5534edf5624fa4798cccade545cb2fe9",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-external-review-v1/reports/final_report.md": "78eeb1af4548c82ef7295321e75d309af458ee80c7ca97046609f077e66423ef",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-external-review-v1/reports/build_receipt.json": "a66f5a2e35efc2a6eb8c1c59ba0bff45773d85ca4975549123e45708180ce6a7",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-external-review-v1/reports/candidate_deployment.json": "b6b83473c75bed6856c1f86c0e3fba596c49e7b06dd9410b1adabe78873f3989"
+  },
+  "sealed_inputs_revalidated": true,
+  "main_preserved": true,
+  "limitations": [
+    "Candidate C checks compiled but not executed",
+    "FD model is offline evidence validation, not a live attestor",
+    "No general syscall mediation/attempt log; silent denied request remains a technical blocker"
+  ],
+  "subject_execution": false,
+  "service_starts": 0,
+  "marker_consumption": 0
+}

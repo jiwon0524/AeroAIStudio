@@ -1,3 +1,66 @@
+# Isolation and denial-recording boundary — current checkpoint
+
+Start HEAD5f37e63b81bff8efe22786f6446126fe1fcfb5b1 matches requested checkpoint; branch experiment/dart-internal-trace. Read context-handoff/AGENTS/DEVELOPMENT_RULES/handoff/prior final report/sealed contract. Initial tracked/index clean, preserved dangling plugin symlink. Prior prepublication snapshot reconciled by parent2ee5c8a and15-file commit; its current evidence hashes match, prior ODE candidate hash valid.
+
+**BLOCKED_MISSING_COMPLETE_DENIAL_AND_ATTEMPT_RECORDING. Stage B BLOCKED; risk UNDECIDED; runtime UNVERIFIED.** No DART/Gazebo/bridge/harness/harmless run, step, service, marker consumption, sudo/install/system/main change. Scope source/static/Python mocks and one bridge compile/link only. No actual-run review submitted; old launcher remains exit78 before manager/service/marker.
+
+Primary validation/gazebo-joint-boundary-v1/reports/final_report.md; phase progress.md. boundary.json indexes5 controls/6 external lifetime categories with code lines/hashes. Existing namespaces/individual RO mounts restrict host visibility before subject exec and are intended to persist through loader init, threads and destructors. They do not provide complete forbidden-request denial or an authenticated attempt journal. Approved file reopen, scratch/proc/dev surfaces, local sockets and direct foreign late dlopen are not blanket forbidden. Absence of explicit sealed seccomp/SystemCallFilter is an evidence gap, not a claim about unknown inherited host protections. Final mapping before EXIT_ACK does not cover every destructor/later mapping. Current collector is a session factory, not a released native lifecycle loop.
+
+Confirmed FD gap: original bridge only checks stdin/stdout FIFO and closes>=5; stderr type/mode, channel directions/aliases unvalidated before dup2(2,1). Existing supervisor uses PIPEs, but caller configuration is not a bridge invariant. Separate inputs/fd_bridge.c candidate checks all3 entry endpoints (FIFO/direction/not O_PATH/distinct dev-inode), readonly null device1:3, successful close_range and unchanged rlimits before exec. One bridge compiled/linked/static inspected, libc-only dependency; build_receipt.json includes source/ELF/compiler/header hashes, Build ID/dynamic/interpreter metadata. No bridge or native target was run. fd_policy.py is an offline FD evidence checker, not a wired live attestor or ongoing syscall filter. Compiler process PID/start not captured: UNKNOWN; compiler completed normally.
+
+90 static/mock cases PASS:56 prior source cases reused with report/temp output redirected,34 new FD/denial/refusal cases. Original reports/inputs untouched. Observed initialization and post-ACK violation packets fail the latch even with exit0/EOF/cleanup. Silent foreign denial counterexample yields normal collector PASS with the same visible trace, proving why boundary completion cannot be claimed. No real denied syscall was attempted. Full old sealed inputs revalidated; main HEAD/status/dirty/untracked file hashes and symlink identity preserved.
+
+Conditional deployment NOT MET. Prior ODE candidate valid and retained, new bridge candidate ignored work/fd_bridge retained; neither deployed. No new prefix/actual runtime outputs/one-shot/markers created. Original manifest SHA789737d947f8c0ebd1466300792667fc9c838adba5834168e5c82bc6e4846aae and mounts/SONAME/allowlist/provider/attestor unchanged. Partial-candidate mixture refusal retained. No new whole execution contract/reseal while resource boundary remains unresolved.
+
+Next minimum: bind explicit permitted resources and enforce forbidden file/network/loader requests before access from initial loader entry through all-thread final process death, plus trustworthy denial recording/final audit completion that cannot be silently lost or forgiven by exit0. Or supply matching external source/binary/build/callback closure for the missing paths. FD/namespace snapshots, stderr string checks, missing mount/ENOENT and maps polling alone do not suffice. Only after that condition deploy reviewed ODE/bridge changes to a separate prefix and reseal full projections; then prepare one-shot review. Risk acceptance for lifetime/destructor/allocator/C-exception and actual execution approval remain user decisions, not implied here.
+
+All launched commands completed at checkpoint; CWD-based process observation below, external-CWD/remote/container UNKNOWN. No process stopped/restarted/account switch. /tmp candidate source/ELF/object/header/raw logs and original ignored/untracked evidence/markers do not transfer with Git and are not durable. Common skill unchanged. Publish only own phase source/scripts/tests/patch/light reports and this handoff to experiment. Snapshot is prepublication; reconcile subsequent parent/file scope. Local reports/publication.json holds actual push/remote verification without recursive commit.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-09T14:22:49.237642+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "5f37e63b81bff8efe22786f6446126fe1fcfb5b1",
+    "branch": "experiment/dart-internal-trace",
+    "status": [
+      {
+        "status": "??",
+        "path": "libgz-physics-dartsim-plugin.so"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-boundary-v1/reports/final_report.md",
+      "sha256": "cc13c0bda04f4a0a307c7a0a1d2616a984790f3b8ca24a8af3c8e28862c8eb16"
+    },
+    {
+      "path": "validation/gazebo-joint-boundary-v1/reports/tests.json",
+      "sha256": "193518c1e9166a4b178a82743bf68b119e8c8bded153703c1504e1809fd11f2b"
+    },
+    {
+      "path": "validation/gazebo-joint-boundary-v1/reports/build_receipt.json",
+      "sha256": "ce52b88d88fe34c284a69e267439c85821f10b8557246db01d279461feb542b7"
+    },
+    {
+      "path": "validation/gazebo-joint-boundary-v1/reports/boundary.json",
+      "sha256": "0410299eac3c1ed1b779ee2a94acd96b844b5f5ac8dc26ee436271dce617c8ac"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+# Prior checkpoints — historical, superseded by current block
+
 # External resource review — current checkpoint
 
 Start HEAD 2ee5c8a744ff903c349f55d349872d9ea8221e2e matched requested checkpoint; experiment/dart-internal-trace. Read context-handoff, AGENTS, DEVELOPMENT_RULES, handoff, contract report and sealed inputs. Initial tracked/index clean; preserved existing dangling plugin symlink.

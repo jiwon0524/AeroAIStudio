@@ -1,0 +1,135 @@
+{
+  "status": "PASS_STATIC_MOCK_ONLY",
+  "cases": [
+    {
+      "case": "stale_attestor",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "mixed_checker_file",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_mount",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "changed_allowlist",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "ordered_bwrap_argv",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_soname_edge",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "wrong_soname_alias",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "required_mapping_missing",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "stale_native_Physics_identity",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "old_ELF_mixture",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "same_name_other_inode_projection",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "manifest_seal",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "same_name_other_inode_FD",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "changed_allowlist_FD_bytes",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "existing_dangling_marker",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "FD_alias_collision",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "pre_manager_marker_service_exit78",
+      "status": "PASS_REFUSAL"
+    },
+    {
+      "case": "checked_RO_FD_mount_layout_and_close_without_exec",
+      "status": "PASS_READ_ONLY"
+    },
+    {
+      "case": "mapped_provider_other_inode",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "selected_provider_wrong_path",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "namespace_ODE_SONAME_provider_without_host_realpath",
+      "status": "PASS_MOCK_ONLY"
+    },
+    {
+      "case": "wrong_active_provider_namespace_alias",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "actual_protocol_synthetic_GO_100_final_mapping_ACK_EOF_exit_cleanup",
+      "status": "PASS_MOCK_ONLY"
+    },
+    {
+      "case": "early_native_ready_regression",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "GO_after_late_load_attempt",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "failed_attempt_cannot_finalize",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "auxiliary_resource_fallback",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "post_GO_auxiliary_request",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "two_independent_ready_snapshots_after_native_completion",
+      "status": "PASS_STATIC_ONLY"
+    },
+    {
+      "case": "stale_cached_attestor_module",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "authenticated_source_only_import_no_pyc",
+      "status": "PASS_PYTHON_SOURCE_ONLY"
+    }
+  ],
+  "subject_execution": false,
+  "harmless_execution": false,
+  "manager_queries": 0,
+  "service_starts": 0,
+  "marker_consumption": 0,
+  "source_guard_for_unknown_DART_paths": false
+}

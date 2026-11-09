@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-09T14:22:49.237642+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "5f37e63b81bff8efe22786f6446126fe1fcfb5b1",
+    "branch": "experiment/dart-internal-trace",
+    "status": [
+      {
+        "status": "??",
+        "path": "libgz-physics-dartsim-plugin.so"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-boundary-v1/reports/final_report.md",
+      "sha256": "cc13c0bda04f4a0a307c7a0a1d2616a984790f3b8ca24a8af3c8e28862c8eb16"
+    },
+    {
+      "path": "validation/gazebo-joint-boundary-v1/reports/tests.json",
+      "sha256": "193518c1e9166a4b178a82743bf68b119e8c8bded153703c1504e1809fd11f2b"
+    },
+    {
+      "path": "validation/gazebo-joint-boundary-v1/reports/build_receipt.json",
+      "sha256": "ce52b88d88fe34c284a69e267439c85821f10b8557246db01d279461feb542b7"
+    },
+    {
+      "path": "validation/gazebo-joint-boundary-v1/reports/boundary.json",
+      "sha256": "0410299eac3c1ed1b779ee2a94acd96b844b5f5ac8dc26ee436271dce617c8ac"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}

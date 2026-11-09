@@ -1,0 +1,224 @@
+{
+  "status": "BLOCKED_MISSING_COMPLETE_DENIAL_AND_ATTEMPT_RECORDING",
+  "prior_manifest_sha256": "789737d947f8c0ebd1466300792667fc9c838adba5834168e5c82bc6e4846aae",
+  "controls": [
+    {
+      "control": "filesystem visibility",
+      "denial": "Fresh root tmpfs; individual pinned RO inputs; root remounted RO; no host-root directory bind. Namespace intended before bridge/harness exec, persists for child threads/destructors.",
+      "not_denied": "Approved files may be reopened; reads/stat/access probes allowed; /scratch and /run writable; proc/dev/shm surfaces remain. Missing host paths normally fail lookup, not a recorded violation.",
+      "recording": "No complete filesystem attempt channel.",
+      "runtime": "Actual namespace/mounts/FD leakage, proc/device reachability and errors must be measured."
+    },
+    {
+      "control": "network namespace",
+      "denial": "--unshare-all intends separate network namespace before exec; no intentional host socket passed.",
+      "not_denied": "socket/connect/bind/listen/send/recv are not syscall-filtered. Local sockets/loopback/abstract UNIX within sandbox remain possible; externally created inherited socket retains capability regardless of namespace.",
+      "recording": "No complete socket attempt channel.",
+      "runtime": "Namespace and interface/readback, inherited descriptor identities, network failure behavior."
+    },
+    {
+      "control": "dynamic loading",
+      "denial": "Fresh filesystem omits unapproved host DSOs/config; clearenv removes ambient loader vars. Reviewed Sim seal denies its own late LoadLib entrypoints.",
+      "not_denied": "Direct foreign dlopen/dlmopen of mounted ELF or procfd alias is not globally intercepted; loader/global constructors run before main and destructors after ACK. Mapping snapshots are point observations, not before-access hooks.",
+      "recording": "Native fatal/unknown packets latch failure only if produced. Successful or failed silent foreign requests are not reported.",
+      "runtime": "Provider/mapping/lifetime and all-thread loader mediation evidence."
+    },
+    {
+      "control": "inherited descriptors",
+      "denial": "Existing bridge closes >=5 before harness exec and checks stdin/stdout FIFO. Candidate additionally validates stderr, all directions, distinct channels and null device.",
+      "not_denied": "Old bridge accepts socket/file as stderr and duplicates it to stdout. Normal supervisor configures PIPEs, but this is not a boundary invariant. No closed-world FD audit during native lifetime.",
+      "recording": "Candidate exits78 for bad entry FDs; current actual manifest selects old bridge. Candidate remains undeployed.",
+      "runtime": "Actual 0..4 type/mode/identity at handoff, absence of unintended FDs and no later socket creation."
+    },
+    {
+      "control": "post ACK verdict",
+      "denial": "GO/100/final-live-mapping/EXIT_ACK policy unchanged; collection must drain both streams until exit and perform owned cleanup.",
+      "not_denied": "ACK itself does not prevent destructor syscalls; exit0 plus EOF cannot reveal an unreported denied request. No authenticated external denial log/EOF/provenance is wired.",
+      "recording": "NativeSession failure latch rejects observed fatal/unexpected request even when exit0 and cleanup succeed; current collector is session factory only, no released full native execution loop.",
+      "runtime": "Drain order/late evidence plus trusted mediation coverage from loader init through all threads and final process death."
+    }
+  ],
+  "external_paths": [
+    {
+      "path": "ODE/libccd init, primitive, collision, cleanup",
+      "status": "TECHNICAL_BLOCKER",
+      "finding": "Host path visibility restricted, internal attempts not globally mediated/audited."
+    },
+    {
+      "path": "FCL/global allocators/DSO init and cleanup",
+      "status": "TECHNICAL_BLOCKER",
+      "finding": "Same namespace boundary; constructor reachability separately bounded; no global access-attempt record."
+    },
+    {
+      "path": "crypto/provider/config and cleanup",
+      "status": "TECHNICAL_BLOCKER",
+      "finding": "Host configuration/modules absent unless mounted; silent failure/default-provider fallback is not a violation event."
+    },
+    {
+      "path": "transport/ZeroMQ/background and shutdown",
+      "status": "TECHNICAL_BLOCKER",
+      "finding": "Network namespace contains external reach; creation/local sockets and inherited-socket exception remain outside blanket denial."
+    },
+    {
+      "path": "console/log streams/destructors",
+      "status": "TECHNICAL_BLOCKER",
+      "finding": "RO inputs prevent writes through those mounts; writable scratch and approved pipe writes remain possible. No general unexpected-log-path rejection."
+    },
+    {
+      "path": "all callbacks after EXIT_ACK",
+      "status": "TECHNICAL_BLOCKER",
+      "finding": "Namespace restrictions intended to persist; final mapping snapshot precedes destruction; attempt audit still absent."
+    }
+  ],
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-execution-contract-v1/scripts/contract.py",
+      "sha256": "30963b17be73562bf5f99333ee25d6fb238b27f88017e35a7852461a4730d02e",
+      "sites": {
+        "--unshare-all": [
+          48
+        ],
+        "--ro-bind-fd": [
+          51
+        ],
+        "--tmpfs": [
+          48,
+          52
+        ],
+        "--proc": [
+          48
+        ],
+        "--clearenv": [
+          52
+        ],
+        "technical resource blocker": [
+          133
+        ]
+      }
+    },
+    {
+      "path": "validation/gazebo-joint-isolation-v1/inputs/fd_bridge.c",
+      "sha256": "df874a140ba6b7aaeab86034fd7fb5482049868663cc75250b1858c40fc07fa3",
+      "sites": {
+        "S_ISFIFO(in.st_mode)": [
+          14
+        ],
+        "dup2(2,1)": [
+          20
+        ],
+        "close_range(5": [
+          22
+        ],
+        "execv(exe": [
+          30
+        ]
+      }
+    },
+    {
+      "path": "validation/gazebo-joint-execution-contract-v1/scripts/attestor.py",
+      "sha256": "e7f9b168e48e25ace80896e1a6d12482e0b7e7ad33a1e716c6b33b071eb6f936",
+      "sites": {
+        "for kind in": [
+          39
+        ],
+        "for fd,expected in": [
+          46
+        ],
+        "self.isolation();": [
+          75
+        ],
+        "self.last_mapping=result": [
+          36
+        ]
+      }
+    },
+    {
+      "path": "validation/gazebo-joint-execution-contract-v1/scripts/native_gate.py",
+      "sha256": "460bd6ac35c7b4e271ca1b3e61e72d6facb639c55cfd3724fb03d472720dac97",
+      "sites": {
+        "self.failed = True": [
+          18,
+          49,
+          58,
+          66,
+          74
+        ],
+        "late native access/load/fatal": [
+          28
+        ],
+        "native final precondition": [
+          70
+        ]
+      }
+    },
+    {
+      "path": "validation/gazebo-joint-execution-contract-v1/scripts/protocol.py",
+      "sha256": "0d654702a2ec5be5baee6e67ca7e3f2a96a2576030a7f527fb27d03ef89ad937",
+      "sites": {
+        "self.observe()": [
+          14
+        ],
+        "EXIT_ACK": [
+          15
+        ],
+        "stdout_eof and stderr_eof and rc==0": [
+          16
+        ]
+      }
+    },
+    {
+      "path": "validation/gazebo-joint-resolution-v1/scripts/supervisor.py",
+      "sha256": "1ddb50cf6dc857aee7bc773885cd83fd33fdde9018bb743f08c245777ec8d421",
+      "sites": {
+        "stderr=subprocess.PIPE": [
+          40
+        ],
+        "while selector.get_map() or p.poll() is None:": [
+          44
+        ],
+        "session.finalize": [
+          129
+        ],
+        "verdict.get('error')": [
+          128
+        ]
+      }
+    },
+    {
+      "path": "validation/gazebo-joint-boundary-v1/inputs/fd_bridge.c",
+      "sha256": "57bf22d9f9c5048510062c682e943abc67b213ca9b10f093e74b85955be16a36",
+      "sites": {
+        "endpoint(2,O_WRONLY,&err)": [
+          23
+        ],
+        "same_pipe(&out,&err)": [
+          24
+        ],
+        "close_range(5": [
+          36
+        ],
+        "execv(exe": [
+          44
+        ]
+      }
+    }
+  ],
+  "reused_evidence": {
+    "validation/gazebo-joint-external-review-v1/reports/final_report.md": "78eeb1af4548c82ef7295321e75d309af458ee80c7ca97046609f077e66423ef",
+    "validation/gazebo-joint-external-review-v1/reports/tests.json": "7e4cd7fa7d92a24414b1dc3a2930478c2d971323c74e272e5ab24b404f400b74",
+    "validation/gazebo-joint-external-review-v1/reports/build_receipt.json": "a66f5a2e35efc2a6eb8c1c59ba0bff45773d85ca4975549123e45708180ce6a7",
+    "validation/gazebo-joint-external-review-v1/reports/candidate_deployment.json": "b6b83473c75bed6856c1f86c0e3fba596c49e7b06dd9410b1adabe78873f3989"
+  },
+  "valid_prior_ode_candidate": {
+    "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-external-review-v1/work/prefix/lib/libdart-collision-ode.so.6.13.2",
+    "sha256": "954f00f80f02a8d0e5952b018d6812464696daeb106fb54e9fd3ab0d25d9c8ba",
+    "device": 66309,
+    "inode": 4617086,
+    "readelf": "\nDynamic section at offset 0x8a890 contains 33 entries:\n  Tag        Type                         Name/Value\n 0x0000000000000001 (NEEDED)             Shared library: [libaero-joint-probe.so.1]\n 0x0000000000000001 (NEEDED)             Shared library: [libdart.so.6.13]\n 0x0000000000000001 (NEEDED)             Shared library: [libode.so.8]\n 0x0000000000000001 (NEEDED)             Shared library: [libaero-resource.so]\n 0x0000000000000001 (NEEDED)             Shared library: [libstdc++.so.6]\n 0x0000000000000001 (NEEDED)             Shared library: [libm.so.6]\n 0x0000000000000001 (NEEDED)             Shared library: [libgcc_s.so.1]\n 0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]\n 0x000000000000000e (SONAME)             Library soname: [libdart-collision-ode.so.6.13]\n 0x000000000000001d (RUNPATH)            Library runpath: [/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib]\n 0x000000000000000c (INIT)               0x27000\n 0x000000000000000d (FINI)               0x72b54\n 0x0000000000000019 (INIT_ARRAY)         0x888c8\n 0x000000000000001b (INIT_ARRAYSZ)       16 (bytes)\n 0x000000000000001a (FINI_ARRAY)         0x888d8\n 0x000000000000001c (FINI_ARRAYSZ)       8 (bytes)\n 0x000000006ffffef5 (GNU_HASH)           0x2f0\n 0x0000000000000005 (STRTAB)             0x8578\n 0x0000000000000006 (SYMTAB)             0x1dc8\n 0x000000000000000a (STRSZ)              78060 (bytes)\n 0x000000000000000b (SYMENT)             24 (bytes)\n 0x0000000000000003 (PLTGOT)             0x8bfe8\n 0x0000000000000002 (PLTRELSZ)           6624 (bytes)\n 0x0000000000000014 (PLTREL)             RELA\n 0x0000000000000017 (JMPREL)             0x24a10\n 0x0000000000000007 (RELA)               0x1c088\n 0x0000000000000008 (RELASZ)             35208 (bytes)\n 0x0000000000000009 (RELAENT)            24 (bytes)\n 0x000000006ffffffe (VERNEED)            0x1bf08\n 0x000000006fffffff (VERNEEDNUM)         4\n 0x000000006ffffff0 (VERSYM)             0x1b664\n 0x000000006ffffff9 (RELACOUNT)          525\n 0x0000000000000000 (NULL)               0x0\n\nDisplaying notes found in: .note.gnu.property\n  Owner                Data size \tDescription\n  GNU                  0x00000010\tNT_GNU_PROPERTY_TYPE_0\n      Properties: x86 feature: IBT, SHSTK\n\nDisplaying notes found in: .note.gnu.build-id\n  Owner                Data size \tDescription\n  GNU                  0x00000014\tNT_GNU_BUILD_ID (unique build ID bitstring)\n    Build ID: 33fa7b7f635768605752ba4d1cd2c0606b8ab5df\n"
+  },
+  "deployment": "CONDITION_NOT_MET_NO_DEPLOYMENT_NO_RESEAL",
+  "stage_b": "BLOCKED",
+  "risk_acceptance": "UNDECIDED",
+  "actual_runtime": "UNVERIFIED",
+  "subject_execution": false
+}
