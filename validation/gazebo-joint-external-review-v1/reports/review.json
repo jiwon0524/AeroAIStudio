@@ -1,0 +1,792 @@
+{
+  "status": "BLOCKED_EXTERNAL_RESOURCE_CLOSURE",
+  "rows": [
+    {
+      "name": "ODE init/collision/exit",
+      "phase": "init/100 steps/exit",
+      "classification": "미확인",
+      "reachability": "Nominal ODE constructor is selected. Collision callback invocation depends on broadphase pairs; mapping alone proves neither callback execution nor resource access.",
+      "evidence": [
+        {
+          "path": "validation/gazebo-joint-header-fix-v1/work/config-01/src/dart/dart/collision/ode/OdeCollisionDetector.cpp",
+          "sha256": "54cf4259b551b0fa305aa8619fda56908d3d167049e858d24b9a7b366d34dd33",
+          "lines": {
+            "dInitODE2(0)": [
+              226
+            ],
+            "dWorldCreate()": [
+              232
+            ],
+            "dSpaceCollide(": [
+              88,
+              168
+            ],
+            "dCollide(": [
+              291
+            ],
+            "dWorldDestroy(mWorldId)": [
+              120
+            ],
+            "dCloseODE();": [
+              123
+            ]
+          }
+        },
+        {
+          "path": "validation/gazebo-joint-header-fix-v1/work/config-01/src/dart/dart/collision/ode/OdeCollisionGroup.cpp",
+          "sha256": "85825dada34760e3d5fd2b43e80fa091867b631830a9285d365644fa7a11aa5d",
+          "lines": {
+            "dSpaceDestroy(mSpaceId)": [
+              65
+            ]
+          }
+        }
+      ],
+      "remaining": "Exact libode internal implementation/TLS/callback closure missing. No installed pre-access guard. Also review libccd and allocator/error callbacks; no-open imports are insufficient."
+    },
+    {
+      "name": "default FCL constructor",
+      "phase": "init/exit",
+      "classification": "미확인",
+      "reachability": "DART FCL wrapper constructor is reached before ODE replacement. Its reviewed body creates a DART collision-object manager; that does NOT prove external fcl geometry/collision constructors execute.",
+      "evidence": [
+        {
+          "path": "validation/gazebo-joint-header-fix-v1/work/config-01/src/dart/dart/constraint/ConstraintSolver.cpp",
+          "sha256": "679e625f1ceaa09d870195234c9116baad7a876bd17422dd799e1f382aa61667",
+          "lines": {
+            "mCollisionDetector(collision::FCLCollisionDetector::create())": [
+              65,
+              85
+            ]
+          }
+        },
+        {
+          "path": "validation/gazebo-joint-header-fix-v1/work/config-01/src/dart/dart/collision/fcl/FCLCollisionDetector.cpp",
+          "sha256": "5760e6887cb24037ad1b365f3540138c2b9160ec1793aedf01e629aa47c9a5a9",
+          "lines": {
+            "FCLCollisionDetector::FCLCollisionDetector()": [
+              841
+            ],
+            "new ManagerForSharableCollisionObjects(this)": [
+              846
+            ],
+            "new fcl::CollisionObject": [
+              865
+            ]
+          }
+        }
+      ],
+      "remaining": "Global ELF constructors/destructors, allocator and shared dependencies remain unclosed. External FCL collision calls are conditional, not established merely by default wrapper creation."
+    },
+    {
+      "name": "crypto digest/provider/config",
+      "phase": "init/provider checks/exit",
+      "classification": "미확인",
+      "reachability": "VerifyAnchor explicitly invokes EVP digest; native hashing invokes SHA256. Provider/config/dynamic-module access inside libcrypto is possible but not observed or source-bound here.",
+      "evidence": [
+        {
+          "path": "validation/gazebo-joint-header-fix-v1/inputs/verify_anchor.cc",
+          "sha256": "e1ef3269991593677f4bb20204005a438562f35b1a81310cc66b560d0d6768f6",
+          "lines": {
+            "EVP_DigestInit_ex": [
+              54
+            ],
+            "EVP_sha256()": [
+              54
+            ],
+            "EVP_MD_CTX_free": [
+              65
+            ]
+          }
+        },
+        {
+          "path": "validation/gazebo-joint-native-resource-v1/inputs/native_resource.cc",
+          "sha256": "5795f9de6395935505b489ed475e990fb4dfa226201430524955aeeae0164f47",
+          "lines": {
+            "SHA256((const unsigned char*)": [
+              26
+            ]
+          }
+        }
+      ],
+      "remaining": "Matching libcrypto initialization/provider/configuration/cleanup closure or exact pre-access guard needed. Clearing env or omitting openssl.cnf mounts does not detect silent fallback."
+    },
+    {
+      "name": "transport support",
+      "phase": "init/concurrent/100 steps/exit",
+      "classification": "미확인",
+      "reachability": "Valid fixed world creates ParametersRegistry and transport Node, Advertise services and clock/stats publishers. No peer is needed to enter these APIs; socket/config behavior inside transport/ZeroMQ remains unknown.",
+      "evidence": [
+        {
+          "path": "validation/gazebo-joint-execution-contract-v1/work/src/sim/src/SimulationRunner.cc",
+          "sha256": "67911256154781a0b3af7b22e6d123d72345f8bfff3280dbc66ecf5133983114",
+          "lines": {
+            "ParametersRegistry>": [
+              166
+            ],
+            "std::make_unique<transport::Node>(opts)": [
+              269
+            ],
+            "this->clockPub =": [
+              886
+            ],
+            "this->statsPub =": [
+              851
+            ]
+          }
+        },
+        {
+          "path": "validation/gazebo-joint-execution-contract-v1/work/src/sim/src/ServerPrivate.cc",
+          "sha256": "55acb721e3e12f8fc4dac9c286a1967d8941c5f89646b9164516d1cc6850a524",
+          "lines": {
+            "this->node.Advertise(worldsService": [
+              321
+            ]
+          }
+        }
+      ],
+      "remaining": "Before-access socket/connect/bind/discovery/config/thread shutdown interception absent. Network namespace limits reach, not attempted access or verdict latching."
+    },
+    {
+      "name": "record/playback logging plugin",
+      "phase": "init",
+      "classification": "도달 불가",
+      "reachability": "For fixed harness only: default ServerConfig has record=false and playback empty; harness changes neither. LoadLoggingPlugins builds empty list.",
+      "evidence": [
+        {
+          "path": "validation/gazebo-joint-execution-contract-v1/work/src/sim/src/ServerConfig.cc",
+          "sha256": "56c777ad2feb892561c1adc53a7d96fcf46e18a0142738354d7e6f949c398c2f",
+          "lines": {
+            "useLogRecord{false}": [
+              230
+            ],
+            "logPlaybackPath = \"\"": [
+              239
+            ]
+          }
+        },
+        {
+          "path": "validation/gazebo-joint-execution-contract-v1/work/src/sim/src/SimulationRunner.cc",
+          "sha256": "67911256154781a0b3af7b22e6d123d72345f8bfff3280dbc66ecf5133983114",
+          "lines": {
+            "if (!_config.LogPlaybackPath().empty())": [
+              1233
+            ],
+            "else if (_config.UseLogRecord())": [
+              1238
+            ]
+          }
+        },
+        {
+          "path": "validation/gazebo-joint-execution-contract-v1/inputs/harness_native.cc",
+          "sha256": "51391c3947393cf70b402ba74a706c5f7f66dd222a02882d182910145e3bcf9c",
+          "lines": {
+            "gz::sim::ServerConfig config;": [
+              43
+            ]
+          }
+        }
+      ],
+      "remaining": "Bounded exclusion only. gz-common console/log streams and transport support remain separate unresolved paths; logging plugin disabled does not disable all logging."
+    },
+    {
+      "name": "console/support logging",
+      "phase": "init/concurrent/exit",
+      "classification": "미확인",
+      "reachability": "Diagnostic stream operations exist; ServerControl stop-thread message is conditional on request, not established as called.",
+      "evidence": [
+        {
+          "path": "validation/gazebo-joint-execution-contract-v1/work/src/sim/src/ServerPrivate.cc",
+          "sha256": "55acb721e3e12f8fc4dac9c286a1967d8941c5f89646b9164516d1cc6850a524",
+          "lines": {
+            "gzlog << \"Stopping Gazebo\"": [
+              427
+            ],
+            "if (_req.stop())": [
+              422
+            ]
+          }
+        }
+      ],
+      "remaining": "Exact gz-common console stream initialization/file sink and destructor behavior unavailable in bound build sources. Fixed stdout/stderr alone is not a whole logging proof."
+    },
+    {
+      "name": "sealed Sim plugin request",
+      "phase": "before ready/after GO/exit if called",
+      "classification": "접근 전에 차단",
+      "reachability": "Reviewed Sim entrypoints call CheckLoadRequest before lookup/open/LoadLib. Failure latch and fatal packet remain active after seal; this does not guard foreign DSO direct calls.",
+      "evidence": [
+        {
+          "path": "validation/gazebo-joint-execution-contract-v1/work/src/sim/src/SystemLoader.cc",
+          "sha256": "51cd3ef0f68030eab899004dfcb294193fbf042e8f4804f2d8177c0b9d27e264",
+          "lines": {
+            "aero_resource::CheckLoadRequest();": [
+              68,
+              242
+            ],
+            "FindSharedLibrary(filename)": [
+              90
+            ],
+            "aero_resource::BeforeLoad": [
+              102
+            ]
+          }
+        },
+        {
+          "path": "validation/gazebo-joint-native-resource-v1/inputs/native_resource.cc",
+          "sha256": "5795f9de6395935505b489ed475e990fb4dfa226201430524955aeeae0164f47",
+          "lines": {
+            "if(failed||sealed) Fail": [
+              88,
+              106
+            ],
+            "failed=true;": [
+              34,
+              36,
+              59
+            ],
+            "sealed=true;": [
+              107
+            ]
+          }
+        }
+      ],
+      "remaining": "Only reviewed Sim entrypoints. Exceptions across destructors/DSOs remain runtime and risk questions; external uninstrumented attempts emit no guaranteed packet."
+    },
+    {
+      "name": "required schema/config/plugin reads",
+      "phase": "init",
+      "classification": "고정된 입력·출력만 허용",
+      "reachability": "Native required identity/hash/parse outcomes and sealed read list are reused; missing input/fallback causes failure before complete/ready/GO.",
+      "evidence": [
+        {
+          "path": "validation/gazebo-joint-native-resource-v1/inputs/native_resource.cc",
+          "sha256": "5795f9de6395935505b489ed475e990fb4dfa226201430524955aeeae0164f47",
+          "lines": {
+            "O_RDONLY|O_CLOEXEC|O_NOFOLLOW": [
+              40
+            ],
+            "required FD bytes mismatch": [
+              49
+            ],
+            "unapproved schema/conversion name": [
+              55
+            ],
+            "missing native pre-GO outcome": [
+              111
+            ]
+          }
+        }
+      ],
+      "remaining": "Actual fd/mount/provider behavior remains runtime-only. This allowlist does not mediate all external file opens."
+    },
+    {
+      "name": "teardown after EXIT_ACK",
+      "phase": "exit",
+      "classification": "미확인",
+      "reachability": "Harness exit barrier precedes local Server destruction and later DSO/global destruction. ACK is not evidence that teardown is complete.",
+      "evidence": [
+        {
+          "path": "validation/gazebo-joint-execution-contract-v1/inputs/harness_native.cc",
+          "sha256": "51391c3947393cf70b402ba74a706c5f7f66dd222a02882d182910145e3bcf9c",
+          "lines": {
+            "gz::sim::Server server(config);": [
+              48
+            ],
+            "if(!aero_exit_barrier()) return 70;": [
+              55
+            ]
+          }
+        },
+        {
+          "path": "validation/gazebo-joint-header-fix-v1/work/config-01/src/dart/dart/collision/ode/OdeCollisionDetector.cpp",
+          "sha256": "54cf4259b551b0fa305aa8619fda56908d3d167049e858d24b9a7b366d34dd33",
+          "lines": {
+            "dCloseODE();": [
+              123
+            ]
+          }
+        }
+      ],
+      "remaining": "ODE/FCL/crypto/transport/plugin destructor resource attempts need pre-access coverage until process exit, all threads included. EOF/exit/cleanup success cannot forgive a latched violation."
+    }
+  ],
+  "providers": [
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "sha256": "3436bd79e03ed39efce6f7abfd64ed35429d5574bd76337b90edb1fb85506afb",
+      "mount_aliases": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libfcl.so.0.7",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0"
+      ],
+      "candidate_imports": [],
+      "interpretation": "Import candidates only; not called-path evidence, not exhaustive syscall coverage."
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libode.so.8.0.2",
+      "sha256": "c511d66333708785c1a22f6cd572c4c84495a535566c9c80eb37d8e0f67bc469",
+      "mount_aliases": [
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libode.so.8",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libode.so.8.0.2"
+      ],
+      "candidate_imports": [
+        "U fwrite@GLIBC_2.2.5"
+      ],
+      "interpretation": "Import candidates only; not called-path evidence, not exhaustive syscall coverage."
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libcrypto.so.3",
+      "sha256": "6866ed711dab8927e1bf82bf1cd30e828bdfc34f3cc1e83b1c9eb01ce6c37d9a",
+      "mount_aliases": [
+        "/usr/lib/x86_64-linux-gnu/libcrypto.so.3"
+      ],
+      "candidate_imports": [
+        "U bind@GLIBC_2.2.5",
+        "U connect@GLIBC_2.2.5",
+        "U dlopen@GLIBC_2.34",
+        "U fdopen@GLIBC_2.2.5",
+        "U fopen@GLIBC_2.2.5",
+        "U fopen64@GLIBC_2.2.5",
+        "U fwrite@GLIBC_2.2.5",
+        "U getenv@GLIBC_2.2.5",
+        "U open@GLIBC_2.2.5",
+        "U opendir@GLIBC_2.2.5",
+        "U openlog@GLIBC_2.2.5",
+        "U secure_getenv@GLIBC_2.17",
+        "U socket@GLIBC_2.2.5",
+        "U syscall@GLIBC_2.2.5"
+      ],
+      "interpretation": "Import candidates only; not called-path evidence, not exhaustive syscall coverage."
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5.9.0",
+      "sha256": "a33151ff7af529afc854ebf376ca684af4e9c0cfdf5f8876eac65e9b00724641",
+      "mount_aliases": [
+        "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5",
+        "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5.9.0"
+      ],
+      "candidate_imports": [
+        "U _ZNKSt12__basic_fileIcE7is_openEv@GLIBCXX_3.4",
+        "U _ZNSt13basic_filebufIcSt11char_traitsIcEE4openEPKcSt13_Ios_Openmode@GLIBCXX_3.4",
+        "U _ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE7seekoffElSt12_Ios_SeekdirSt13_Ios_Openmode@GLIBCXX_3.4.21",
+        "U _ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE7seekposESt4fposI11__mbstate_tESt13_Ios_Openmode@GLIBCXX_3.4.21",
+        "U dlopen@GLIBC_2.34",
+        "U getenv@GLIBC_2.2.5"
+      ],
+      "interpretation": "Import candidates only; not called-path evidence, not exhaustive syscall coverage."
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-transport13.so.13.6.0",
+      "sha256": "430d38c0e43bffd59287ba413aec0562f0ca5235e99c7d6c366559ef00e752b7",
+      "mount_aliases": [
+        "/usr/lib/x86_64-linux-gnu/libgz-transport13.so.13",
+        "/usr/lib/x86_64-linux-gnu/libgz-transport13.so.13.6.0"
+      ],
+      "candidate_imports": [
+        "U bind@GLIBC_2.2.5",
+        "U getenv@GLIBC_2.2.5",
+        "U socket@GLIBC_2.2.5",
+        "U zmq_bind",
+        "U zmq_connect",
+        "U zmq_socket"
+      ],
+      "interpretation": "Import candidates only; not called-path evidence, not exhaustive syscall coverage."
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libzmq.so.5.2.5",
+      "sha256": "c56acd8baaec3d869f7e23a194870302acef6d86384f1f0fe946fb81c7015a42",
+      "mount_aliases": [
+        "/usr/lib/x86_64-linux-gnu/libzmq.so.5",
+        "/usr/lib/x86_64-linux-gnu/libzmq.so.5.2.5"
+      ],
+      "candidate_imports": [
+        "U NormStreamOpen",
+        "U bind@GLIBC_2.2.5",
+        "U connect@GLIBC_2.2.5",
+        "U crypto_box_open",
+        "U crypto_box_open_afternm",
+        "U crypto_box_open_easy_afternm",
+        "U crypto_secretbox_open",
+        "U getenv@GLIBC_2.2.5",
+        "U pgm_bind3",
+        "U pgm_connect",
+        "U pgm_socket",
+        "U socket@GLIBC_2.2.5"
+      ],
+      "interpretation": "Import candidates only; not called-path evidence, not exhaustive syscall coverage."
+    }
+  ],
+  "reused_bounded_paths": [
+    {
+      "path": "fixed_world_assets",
+      "lifetime": "init",
+      "classification": "UNREACHABLE_FOR_FIXED_CALL_CHAIN",
+      "bounded_finding": "UNREACHABLE_FOR_FIXED_INPUT",
+      "chain": "world bytes -> ConstructSdfWorld -> ConstructSdfCollision -> ConstructShape -> ConstructBox",
+      "evidence": [
+        {
+          "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/inputs/fixture.hh",
+          "sha256": "4f6e9fec8b67b40db1fe8604cd8d59c54cae3933a68573439fd8369755536cca",
+          "sites": {
+            "<geometry><box>": [
+              15
+            ]
+          }
+        },
+        {
+          "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/src/physics/dartsim/src/SDFFeatures.cc",
+          "sha256": "ef9b59f646ad99020ffc53de0c73984c63c743f5e1fb1ecb6f55fba66915d39e",
+          "sites": {
+            "SDFFeatures::ConstructSdfWorld": [
+              489
+            ],
+            "if (_geometry.BoxShape())": [
+              342
+            ],
+            "return ConstructBox": [
+              343
+            ],
+            "else if (_geometry.MeshShape())": [
+              389
+            ]
+          }
+        }
+      ],
+      "reason": "Pinned world has only a box; no URI/include/mesh/heightmap, visual, terrain or texture asset. Nominal fixed-input branch does not enter MeshShape/Assimp. This is not a proof about arbitrary future entity messages."
+    },
+    {
+      "path": "engine_load",
+      "lifetime": "init + after GO",
+      "classification": "FIXED_BEFORE_GO_DENY_AFTER_GO",
+      "bounded_finding": "FIXED_INPUT_OR_DENY_BEFORE_ACCESS",
+      "chain": "Physics Configure -> CheckLoadRequest -> canonical -> BeforeLoad -> LoadLib -> interface/feature/provider",
+      "evidence": [
+        {
+          "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/work/src/sim/src/systems/physics/Physics.cc",
+          "sha256": "ee879da550ec3063ff3658736fb1e183b273481b71fdc23f03308caeae6ab55d",
+          "sites": {
+            "aero_resource::CheckLoadRequest();": [
+              961
+            ],
+            "std::filesystem::canonical(pluginLib)": [
+              973
+            ],
+            "aero_resource::BeforeLoad(\"dartsim\"": [
+              989
+            ],
+            "pluginLoader.LoadLib": [
+              990
+            ],
+            "aero_resource::Provider(\"dartsim\"": [
+              1030
+            ]
+          }
+        }
+      ],
+      "reason": "Exactly the pinned path/class/interface, no plugin fallback. Seal rejects any subsequent invocation before target path lookup."
+    },
+    {
+      "path": "ikfast_shared_library",
+      "lifetime": "init/100 steps/exit nominal path",
+      "classification": "UNREACHABLE_FOR_FIXED_CALL_CHAIN",
+      "bounded_finding": "UNREACHABLE_FOR_FIXED_CALL_CHAIN",
+      "chain": "SharedLibraryIkFast::SharedLibraryIkFast -> SharedLibrary::create -> SharedLibraryManager::load -> ifstream/canonical -> dlopen",
+      "evidence": [
+        {
+          "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/src/dart/dart/dynamics/SharedLibraryIkFast.cpp",
+          "sha256": "58fe4d11af5cb30dcfe1e805fbda7b6a7ab8c49b6a2d8209888b9dd60d5dd5bf",
+          "sites": {
+            "common::SharedLibrary::create(mFilePath)": [
+              92
+            ]
+          }
+        },
+        {
+          "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/src/dart/dart/common/detail/SharedLibraryManager.cpp",
+          "sha256": "67a91610c4d2769f1a6fe7c9ef9d303d2dcd9328782313a64ba7bc7033c9a71b",
+          "sites": {
+            "std::ifstream(path)": [
+              56
+            ],
+            "filesystem::canonical": [
+              65
+            ]
+          }
+        },
+        {
+          "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/src/dart/dart/common/SharedLibrary.cpp",
+          "sha256": "d82a6e384b74545e3da981d297d498f4fe804ca78d65f18b6a15c0b8e9f6bf77",
+          "sites": {
+            "DYNLIB_LOAD(canonicalPath.c_str())": [
+              84
+            ]
+          }
+        }
+      ],
+      "reason": "The sole selected-source caller of SharedLibrary::create outside its overload is IKFast. This free body fixture never constructs or invokes IKFast; nominal forward dynamics and teardown use no IK solver. Indirect arbitrary-object reachability is not certified; no global DART loader guard was added."
+    },
+    {
+      "path": "local_resource_retriever",
+      "lifetime": "asset loading branch",
+      "classification": "UNREACHABLE_FOR_FIXED_CALL_CHAIN",
+      "bounded_finding": "UNREACHABLE_FOR_FIXED_INPUT",
+      "chain": "MeshShape::loadMesh -> AssimpInputResourceRetrieverAdaptor -> retrieve/exists -> LocalResource::fopen",
+      "evidence": [
+        {
+          "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/src/dart/dart/dynamics/MeshShape.cpp",
+          "sha256": "fea2bc423d25181b4527b92345f9cb9a8ff14f3de0a2d0bec206ccbb8beb0a00",
+          "sites": {
+            "MeshShape::loadMesh": [
+              578,
+              607,
+              635,
+              643,
+              650
+            ],
+            "AssimpInputResourceRetrieverAdaptor": [
+              591
+            ],
+            "std::make_shared<common::LocalResourceRetriever>": [
+              652
+            ]
+          }
+        },
+        {
+          "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/src/dart/dart/common/LocalResourceRetriever.cpp",
+          "sha256": "50fc2343e8dadd8b5fdeb27e1cb4e8c893ae0b7b3d096c348671e69208ca2d0a",
+          "sites": {
+            "std::make_shared<LocalResource>": [
+              60
+            ],
+            "std::ifstream(path": [
+              80
+            ]
+          }
+        },
+        {
+          "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/src/dart/dart/common/LocalResource.cpp",
+          "sha256": "b4b0788a5a4ee8e4865de8b6a6572369e068c4d1ffe3ce9f66fdfb138be5ba80",
+          "sites": {
+            "std::fopen(_path.c_str(), \"rb\")": [
+              46
+            ]
+          }
+        }
+      ],
+      "reason": "Box branch has no asset read. The functions remain present and unguarded in reused DART; cannot claim global before-access denial or coverage of new entities/callbacks."
+    },
+    {
+      "path": "dantzig_ode_lcp",
+      "lifetime": "100 steps conditional constraint solve",
+      "classification": "FIXED_INPUT_ONLY",
+      "bounded_finding": "KNOWN_SOURCE_NO_RESOURCE_CALL_IN_REVIEWED_FUNCTION",
+      "chain": "BoxedLcpConstraintSolver -> DantzigBoxedLcpSolver::solve -> external::ode::dSolveLCP",
+      "evidence": [
+        {
+          "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/src/dart/dart/constraint/DantzigBoxedLcpSolver.cpp",
+          "sha256": "a0a0b26066c22b6497285160342ccea2cee18d0df271423ed115197fdd6869e2",
+          "sites": {
+            "return external::ode::dSolveLCP(": [
+              65
+            ]
+          }
+        },
+        {
+          "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/src/dart/dart/external/odelcpsolver/lcp.cpp",
+          "sha256": "4b069ee338dd76744bb6cf961708b6af2acea8c00fec94934581d201fb9e4bd9",
+          "sites": {
+            "dSolveLCP (": [
+              784,
+              1244
+            ]
+          }
+        }
+      ],
+      "reason": "This vendored DART LCP solver is distinct from libode collision provider. Single airborne box has no expected contact, but callback/constraint reachability is not waived from the contract."
+    }
+  ],
+  "prior_manifest_sha256": "789737d947f8c0ebd1466300792667fc9c838adba5834168e5c82bc6e4846aae",
+  "verified_built_bindings": 237,
+  "unchanged_elf_receipt": {
+    "changed_components": [],
+    "changed_elfs": [],
+    "contract_resealed": false,
+    "reason": "Original sealed deployment remains unchanged and refused. Separate ODE init-return candidate does not close internal resource access."
+  },
+  "separate_candidate": {
+    "status": "COMPILED_LINKED_STATIC_ONLY_NOT_DEPLOYED",
+    "source_sha256": "54cf4259b551b0fa305aa8619fda56908d3d167049e858d24b9a7b366d34dd33",
+    "candidate_source_sha256": "32c0b8e73035ec068eb2734ed0cc08d3318420cce5921ed3e92e526092c0988c",
+    "elf": {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-external-review-v1/work/prefix/lib/libdart-collision-ode.so.6.13.2",
+      "sha256": "954f00f80f02a8d0e5952b018d6812464696daeb106fb54e9fd3ab0d25d9c8ba",
+      "device": 66309,
+      "inode": 4617086,
+      "readelf": "\nDynamic section at offset 0x8a890 contains 33 entries:\n  Tag        Type                         Name/Value\n 0x0000000000000001 (NEEDED)             Shared library: [libaero-joint-probe.so.1]\n 0x0000000000000001 (NEEDED)             Shared library: [libdart.so.6.13]\n 0x0000000000000001 (NEEDED)             Shared library: [libode.so.8]\n 0x0000000000000001 (NEEDED)             Shared library: [libaero-resource.so]\n 0x0000000000000001 (NEEDED)             Shared library: [libstdc++.so.6]\n 0x0000000000000001 (NEEDED)             Shared library: [libm.so.6]\n 0x0000000000000001 (NEEDED)             Shared library: [libgcc_s.so.1]\n 0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]\n 0x000000000000000e (SONAME)             Library soname: [libdart-collision-ode.so.6.13]\n 0x000000000000001d (RUNPATH)            Library runpath: [/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib]\n 0x000000000000000c (INIT)               0x27000\n 0x000000000000000d (FINI)               0x72b54\n 0x0000000000000019 (INIT_ARRAY)         0x888c8\n 0x000000000000001b (INIT_ARRAYSZ)       16 (bytes)\n 0x000000000000001a (FINI_ARRAY)         0x888d8\n 0x000000000000001c (FINI_ARRAYSZ)       8 (bytes)\n 0x000000006ffffef5 (GNU_HASH)           0x2f0\n 0x0000000000000005 (STRTAB)             0x8578\n 0x0000000000000006 (SYMTAB)             0x1dc8\n 0x000000000000000a (STRSZ)              78060 (bytes)\n 0x000000000000000b (SYMENT)             24 (bytes)\n 0x0000000000000003 (PLTGOT)             0x8bfe8\n 0x0000000000000002 (PLTRELSZ)           6624 (bytes)\n 0x0000000000000014 (PLTREL)             RELA\n 0x0000000000000017 (JMPREL)             0x24a10\n 0x0000000000000007 (RELA)               0x1c088\n 0x0000000000000008 (RELASZ)             35208 (bytes)\n 0x0000000000000009 (RELAENT)            24 (bytes)\n 0x000000006ffffffe (VERNEED)            0x1bf08\n 0x000000006fffffff (VERNEEDNUM)         4\n 0x000000006ffffff0 (VERSYM)             0x1b664\n 0x000000006ffffff9 (RELACOUNT)          525\n 0x0000000000000000 (NULL)               0x0\n\nDisplaying notes found in: .note.gnu.property\n  Owner                Data size \tDescription\n  GNU                  0x00000010\tNT_GNU_PROPERTY_TYPE_0\n      Properties: x86 feature: IBT, SHSTK\n\nDisplaying notes found in: .note.gnu.build-id\n  Owner                Data size \tDescription\n  GNU                  0x00000014\tNT_GNU_BUILD_ID (unique build ID bitstring)\n    Build ID: 33fa7b7f635768605752ba4d1cd2c0606b8ab5df\n"
+    },
+    "reused_objects": [
+      {
+        "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/collision/ode/CMakeFiles/dart-collision-ode.dir/OdeCollisionGroup.cpp.o",
+        "sha256": "49382bc4d50fda68f281358eca5c752efd0270d9f906ac178955af73e5b7a61c"
+      },
+      {
+        "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/collision/ode/CMakeFiles/dart-collision-ode.dir/OdeCollisionObject.cpp.o",
+        "sha256": "0a2504716bed1f1da860513e4e033dd0a5e62945d5e3e37d99e7f05b7fda0546"
+      },
+      {
+        "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/collision/ode/CMakeFiles/dart-collision-ode.dir/OdeTypes.cpp.o",
+        "sha256": "261acc8d389177f8cc12a2f830c6764ba987af2a8186b2fb2f0ee77617611400"
+      },
+      {
+        "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeBox.cpp.o",
+        "sha256": "f3c8c307dd8a776ec4be97035a982182ae7e9e0a758730eed2875d0e475eebab"
+      },
+      {
+        "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeCapsule.cpp.o",
+        "sha256": "8cb7618ff211f56160d8cf235ff79d1351dcb2f59291d84431632b47ede5cc58"
+      },
+      {
+        "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeCylinder.cpp.o",
+        "sha256": "60bd706fe7f7aed599c63ade019c43c5b48b5a7ba2dc8d6cc9d5223f4e39a4ee"
+      },
+      {
+        "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeGeom.cpp.o",
+        "sha256": "477307ac4414593678604e84304ee220c63d2d486d87e2e69d4d074addb79b6f"
+      },
+      {
+        "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeMesh.cpp.o",
+        "sha256": "ab855aaf8d4b6f1a8e3534fa199ce70ca92f19cbb93dbbbf41dbc38ad7218af9"
+      },
+      {
+        "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdePlane.cpp.o",
+        "sha256": "4109d0e10343b28d81ee58d509fb15b56c0ddaeccd60383b7eaf425a566f973d"
+      },
+      {
+        "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeSphere.cpp.o",
+        "sha256": "86e2ea50d0a9a7c991af0b50e99859a48c60fe9cf5309ff87d68260df8bf9614"
+      }
+    ],
+    "native_observer": {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libaero-resource.so",
+      "sha256": "cf54f4adbf809da95c05f5e849d0a5064112bd40ad75ab37eb11a833c5942381"
+    },
+    "commands": [
+      [
+        "/usr/bin/x86_64-linux-gnu-g++-13",
+        "-DAERO_JOINT_PREFIX=\"/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix\"",
+        "-DDART_ACTIVE_LOG_LEVEL=2",
+        "-DDART_HAVE_spdlog=1",
+        "-DFMT_HEADER_ONLY=1",
+        "-DFMT_SHARED",
+        "-DSPDLOG_FMT_EXTERNAL",
+        "-Ddart_collision_ode_EXPORTS",
+        "-I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs",
+        "-I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/src/dart",
+        "-I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart",
+        "-isystem",
+        "/usr/include/eigen3",
+        "-isystem",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/include",
+        "-fuse-ld=bfd",
+        "-fno-lto",
+        "-frtti",
+        "-fexceptions",
+        "-D_GLIBCXX_USE_CXX11_ABI=1",
+        "-DEIGEN_MAX_ALIGN_BYTES=16",
+        "-DEIGEN_MAX_STATIC_ALIGN_BYTES=16",
+        "-I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include",
+        "-O3",
+        "-DNDEBUG",
+        "-g",
+        "-fno-omit-frame-pointer",
+        "-fno-inline-functions",
+        "-fno-inline-functions-called-once",
+        "-fno-optimize-sibling-calls",
+        "-std=c++17",
+        "-fPIC",
+        "-Wno-array-bounds",
+        "-Wno-dangling-pointer",
+        "-Wno-maybe-uninitialized",
+        "-Wno-stringop-overflow",
+        "-Wno-uninitialized",
+        "-Wall",
+        "-Wextra",
+        "-fPIC",
+        "-Werror",
+        "-Wno-overloaded-virtual",
+        "-Wno-alloc-size-larger-than",
+        "-o",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-external-review-v1/work/OdeCollisionDetector.o",
+        "-c",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-external-review-v1/work/OdeCollisionDetector.cpp",
+        "-I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/inputs",
+        "-MD",
+        "-MF",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-external-review-v1/work/OdeCollisionDetector.d"
+      ],
+      [
+        "/usr/bin/x86_64-linux-gnu-g++-13",
+        "-fPIC",
+        "-fuse-ld=bfd",
+        "-fno-lto",
+        "-frtti",
+        "-fexceptions",
+        "-D_GLIBCXX_USE_CXX11_ABI=1",
+        "-DEIGEN_MAX_ALIGN_BYTES=16",
+        "-DEIGEN_MAX_STATIC_ALIGN_BYTES=16",
+        "-I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include",
+        "-O3",
+        "-DNDEBUG",
+        "-g",
+        "-fno-omit-frame-pointer",
+        "-fno-inline-functions",
+        "-fno-inline-functions-called-once",
+        "-fno-optimize-sibling-calls",
+        "-Wl,--no-undefined",
+        "-shared",
+        "-Wl,-soname,libdart-collision-ode.so.6.13",
+        "-o",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-external-review-v1/work/prefix/lib/libdart-collision-ode.so.6.13.2",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-external-review-v1/work/OdeCollisionDetector.o",
+        "dart/collision/ode/CMakeFiles/dart-collision-ode.dir/OdeCollisionGroup.cpp.o",
+        "dart/collision/ode/CMakeFiles/dart-collision-ode.dir/OdeCollisionObject.cpp.o",
+        "dart/collision/ode/CMakeFiles/dart-collision-ode.dir/OdeTypes.cpp.o",
+        "dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeBox.cpp.o",
+        "dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeCapsule.cpp.o",
+        "dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeCylinder.cpp.o",
+        "dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeGeom.cpp.o",
+        "dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeMesh.cpp.o",
+        "dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdePlane.cpp.o",
+        "dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeSphere.cpp.o",
+        "-Wl,-rpath,/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so",
+        "lib/libdart.so.6.13.2",
+        "-ldl",
+        "dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+        "-lm",
+        "/usr/lib/x86_64-linux-gnu/libassimp.so",
+        "/usr/lib/x86_64-linux-gnu/libfmt.so.9.1.0",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libode.so.8",
+        "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libaero-resource.so",
+        "-Wl,-rpath,/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib"
+      ]
+    ],
+    "export_names_unchanged": true,
+    "new_imports": [
+      "_ZN13aero_resource4FailEPKc"
+    ],
+    "abi_scope": "No headers, layout, virtual interfaces, solver or success-path numerical operations changed. New dependency on existing native failure ledger; consumer rebuild unnecessary for type ABI. Runtime exception/cleanup remains unverified.",
+    "manifest_status": "Original sealed manifest intentionally unchanged: candidate not authorized by it. Candidate deployment/projection reseal remains pending while external closure is blocked.",
+    "stage_b": "BLOCKED",
+    "runtime": "UNVERIFIED"
+  },
+  "stage_b": "BLOCKED",
+  "risk_acceptance": "UNDECIDED",
+  "runtime": "UNVERIFIED",
+  "subject_execution": false
+}

@@ -1,0 +1,119 @@
+{
+  "status": "PASS_STATIC_MOCK_ONLY",
+  "reused_cases": 31,
+  "new_negative_cases": 25,
+  "checks": [
+    {
+      "case": "shutdown_native_fatal",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "shutdown_native_fatal_cannot_pass_with_ACK_EOF_exit_cleanup",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "shutdown_file_fallback",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "shutdown_file_fallback_cannot_pass_with_ACK_EOF_exit_cleanup",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "shutdown_network_request",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "shutdown_network_request_cannot_pass_with_ACK_EOF_exit_cleanup",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "shutdown_dynamic_load",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "shutdown_dynamic_load_cannot_pass_with_ACK_EOF_exit_cleanup",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_server_config_before_ready",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_server_config_GO_denied",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_server_config_parse_before_ready",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_server_config_parse_GO_denied",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_physics_provider_before_ready",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_physics_provider_GO_denied",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_dartsim_provider_before_ready",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_dartsim_provider_GO_denied",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_world_graph_before_ready",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_world_graph_GO_denied",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "ODE_init_fatal_before_ready",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "ODE_init_GO_denied",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "ODE_thread_data_fatal_before_ready",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "ODE_thread_data_GO_denied",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "ODE_world_fatal_before_ready",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "ODE_world_GO_denied",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "candidate_partial_mount_replacement_rejected",
+      "status": "PASS_REJECTED"
+    }
+  ],
+  "original_reports_unchanged": {
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/tests/test_contract.py": "94422b90046127c00bfe72e0939e3e87b4a58cb83ec9f49dc4f61d5047420da7",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/reports/tests.json": "ad02e5c924b2ac4ae0bc3ecbd23edc5f5534edf5624fa4798cccade545cb2fe9",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/reports/manifest.json": "789737d947f8c0ebd1466300792667fc9c838adba5834168e5c82bc6e4846aae",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/inputs/manifest.sha256": "216a80a27cc0957cf41203f19d82579430ef0c78e84fbe987bdf322c268125c0",
+    "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/reports/contract_result.md": "ed714076077463784e55c354b93f1b364c5a0ecf665d1bd0834c34c80b894af5"
+  },
+  "main_preserved": true,
+  "dangling_symlink_preserved": true,
+  "sealed_inputs_revalidated": true,
+  "subject_execution": false,
+  "coverage_limit": "Injected packets test collector policy only, not external native before-access interception."
+}

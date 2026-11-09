@@ -1,0 +1,172 @@
+{
+  "status": "COMPILED_LINKED_STATIC_ONLY_NOT_DEPLOYED",
+  "source_sha256": "54cf4259b551b0fa305aa8619fda56908d3d167049e858d24b9a7b366d34dd33",
+  "candidate_source_sha256": "32c0b8e73035ec068eb2734ed0cc08d3318420cce5921ed3e92e526092c0988c",
+  "elf": {
+    "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-external-review-v1/work/prefix/lib/libdart-collision-ode.so.6.13.2",
+    "sha256": "954f00f80f02a8d0e5952b018d6812464696daeb106fb54e9fd3ab0d25d9c8ba",
+    "device": 66309,
+    "inode": 4617086,
+    "readelf": "\nDynamic section at offset 0x8a890 contains 33 entries:\n  Tag        Type                         Name/Value\n 0x0000000000000001 (NEEDED)             Shared library: [libaero-joint-probe.so.1]\n 0x0000000000000001 (NEEDED)             Shared library: [libdart.so.6.13]\n 0x0000000000000001 (NEEDED)             Shared library: [libode.so.8]\n 0x0000000000000001 (NEEDED)             Shared library: [libaero-resource.so]\n 0x0000000000000001 (NEEDED)             Shared library: [libstdc++.so.6]\n 0x0000000000000001 (NEEDED)             Shared library: [libm.so.6]\n 0x0000000000000001 (NEEDED)             Shared library: [libgcc_s.so.1]\n 0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]\n 0x000000000000000e (SONAME)             Library soname: [libdart-collision-ode.so.6.13]\n 0x000000000000001d (RUNPATH)            Library runpath: [/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib]\n 0x000000000000000c (INIT)               0x27000\n 0x000000000000000d (FINI)               0x72b54\n 0x0000000000000019 (INIT_ARRAY)         0x888c8\n 0x000000000000001b (INIT_ARRAYSZ)       16 (bytes)\n 0x000000000000001a (FINI_ARRAY)         0x888d8\n 0x000000000000001c (FINI_ARRAYSZ)       8 (bytes)\n 0x000000006ffffef5 (GNU_HASH)           0x2f0\n 0x0000000000000005 (STRTAB)             0x8578\n 0x0000000000000006 (SYMTAB)             0x1dc8\n 0x000000000000000a (STRSZ)              78060 (bytes)\n 0x000000000000000b (SYMENT)             24 (bytes)\n 0x0000000000000003 (PLTGOT)             0x8bfe8\n 0x0000000000000002 (PLTRELSZ)           6624 (bytes)\n 0x0000000000000014 (PLTREL)             RELA\n 0x0000000000000017 (JMPREL)             0x24a10\n 0x0000000000000007 (RELA)               0x1c088\n 0x0000000000000008 (RELASZ)             35208 (bytes)\n 0x0000000000000009 (RELAENT)            24 (bytes)\n 0x000000006ffffffe (VERNEED)            0x1bf08\n 0x000000006fffffff (VERNEEDNUM)         4\n 0x000000006ffffff0 (VERSYM)             0x1b664\n 0x000000006ffffff9 (RELACOUNT)          525\n 0x0000000000000000 (NULL)               0x0\n\nDisplaying notes found in: .note.gnu.property\n  Owner                Data size \tDescription\n  GNU                  0x00000010\tNT_GNU_PROPERTY_TYPE_0\n      Properties: x86 feature: IBT, SHSTK\n\nDisplaying notes found in: .note.gnu.build-id\n  Owner                Data size \tDescription\n  GNU                  0x00000014\tNT_GNU_BUILD_ID (unique build ID bitstring)\n    Build ID: 33fa7b7f635768605752ba4d1cd2c0606b8ab5df\n"
+  },
+  "reused_objects": [
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/collision/ode/CMakeFiles/dart-collision-ode.dir/OdeCollisionGroup.cpp.o",
+      "sha256": "49382bc4d50fda68f281358eca5c752efd0270d9f906ac178955af73e5b7a61c"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/collision/ode/CMakeFiles/dart-collision-ode.dir/OdeCollisionObject.cpp.o",
+      "sha256": "0a2504716bed1f1da860513e4e033dd0a5e62945d5e3e37d99e7f05b7fda0546"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/collision/ode/CMakeFiles/dart-collision-ode.dir/OdeTypes.cpp.o",
+      "sha256": "261acc8d389177f8cc12a2f830c6764ba987af2a8186b2fb2f0ee77617611400"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeBox.cpp.o",
+      "sha256": "f3c8c307dd8a776ec4be97035a982182ae7e9e0a758730eed2875d0e475eebab"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeCapsule.cpp.o",
+      "sha256": "8cb7618ff211f56160d8cf235ff79d1351dcb2f59291d84431632b47ede5cc58"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeCylinder.cpp.o",
+      "sha256": "60bd706fe7f7aed599c63ade019c43c5b48b5a7ba2dc8d6cc9d5223f4e39a4ee"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeGeom.cpp.o",
+      "sha256": "477307ac4414593678604e84304ee220c63d2d486d87e2e69d4d074addb79b6f"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeMesh.cpp.o",
+      "sha256": "ab855aaf8d4b6f1a8e3534fa199ce70ca92f19cbb93dbbbf41dbc38ad7218af9"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdePlane.cpp.o",
+      "sha256": "4109d0e10343b28d81ee58d509fb15b56c0ddaeccd60383b7eaf425a566f973d"
+    },
+    {
+      "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart/dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeSphere.cpp.o",
+      "sha256": "86e2ea50d0a9a7c991af0b50e99859a48c60fe9cf5309ff87d68260df8bf9614"
+    }
+  ],
+  "native_observer": {
+    "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libaero-resource.so",
+    "sha256": "cf54f4adbf809da95c05f5e849d0a5064112bd40ad75ab37eb11a833c5942381"
+  },
+  "commands": [
+    [
+      "/usr/bin/x86_64-linux-gnu-g++-13",
+      "-DAERO_JOINT_PREFIX=\"/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix\"",
+      "-DDART_ACTIVE_LOG_LEVEL=2",
+      "-DDART_HAVE_spdlog=1",
+      "-DFMT_HEADER_ONLY=1",
+      "-DFMT_SHARED",
+      "-DSPDLOG_FMT_EXTERNAL",
+      "-Ddart_collision_ode_EXPORTS",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/src/dart",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/build/dart",
+      "-isystem",
+      "/usr/include/eigen3",
+      "-isystem",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/include",
+      "-fuse-ld=bfd",
+      "-fno-lto",
+      "-frtti",
+      "-fexceptions",
+      "-D_GLIBCXX_USE_CXX11_ABI=1",
+      "-DEIGEN_MAX_ALIGN_BYTES=16",
+      "-DEIGEN_MAX_STATIC_ALIGN_BYTES=16",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include",
+      "-O3",
+      "-DNDEBUG",
+      "-g",
+      "-fno-omit-frame-pointer",
+      "-fno-inline-functions",
+      "-fno-inline-functions-called-once",
+      "-fno-optimize-sibling-calls",
+      "-std=c++17",
+      "-fPIC",
+      "-Wno-array-bounds",
+      "-Wno-dangling-pointer",
+      "-Wno-maybe-uninitialized",
+      "-Wno-stringop-overflow",
+      "-Wno-uninitialized",
+      "-Wall",
+      "-Wextra",
+      "-fPIC",
+      "-Werror",
+      "-Wno-overloaded-virtual",
+      "-Wno-alloc-size-larger-than",
+      "-o",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-external-review-v1/work/OdeCollisionDetector.o",
+      "-c",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-external-review-v1/work/OdeCollisionDetector.cpp",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/inputs",
+      "-MD",
+      "-MF",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-external-review-v1/work/OdeCollisionDetector.d"
+    ],
+    [
+      "/usr/bin/x86_64-linux-gnu-g++-13",
+      "-fPIC",
+      "-fuse-ld=bfd",
+      "-fno-lto",
+      "-frtti",
+      "-fexceptions",
+      "-D_GLIBCXX_USE_CXX11_ABI=1",
+      "-DEIGEN_MAX_ALIGN_BYTES=16",
+      "-DEIGEN_MAX_STATIC_ALIGN_BYTES=16",
+      "-I/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/inputs/pinned-include",
+      "-O3",
+      "-DNDEBUG",
+      "-g",
+      "-fno-omit-frame-pointer",
+      "-fno-inline-functions",
+      "-fno-inline-functions-called-once",
+      "-fno-optimize-sibling-calls",
+      "-Wl,--no-undefined",
+      "-shared",
+      "-Wl,-soname,libdart-collision-ode.so.6.13",
+      "-o",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-external-review-v1/work/prefix/lib/libdart-collision-ode.so.6.13.2",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-external-review-v1/work/OdeCollisionDetector.o",
+      "dart/collision/ode/CMakeFiles/dart-collision-ode.dir/OdeCollisionGroup.cpp.o",
+      "dart/collision/ode/CMakeFiles/dart-collision-ode.dir/OdeCollisionObject.cpp.o",
+      "dart/collision/ode/CMakeFiles/dart-collision-ode.dir/OdeTypes.cpp.o",
+      "dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeBox.cpp.o",
+      "dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeCapsule.cpp.o",
+      "dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeCylinder.cpp.o",
+      "dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeGeom.cpp.o",
+      "dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeMesh.cpp.o",
+      "dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdePlane.cpp.o",
+      "dart/collision/ode/CMakeFiles/dart-collision-ode.dir/detail/OdeSphere.cpp.o",
+      "-Wl,-rpath,/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so",
+      "lib/libdart.so.6.13.2",
+      "-ldl",
+      "dart/external/odelcpsolver/libdart-external-odelcpsolver.so.6.13.2",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+      "-lm",
+      "/usr/lib/x86_64-linux-gnu/libassimp.so",
+      "/usr/lib/x86_64-linux-gnu/libfmt.so.9.1.0",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libode.so.8",
+      "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libaero-resource.so",
+      "-Wl,-rpath,/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib"
+    ]
+  ],
+  "export_names_unchanged": true,
+  "new_imports": [
+    "_ZN13aero_resource4FailEPKc"
+  ],
+  "abi_scope": "No headers, layout, virtual interfaces, solver or success-path numerical operations changed. New dependency on existing native failure ledger; consumer rebuild unnecessary for type ABI. Runtime exception/cleanup remains unverified.",
+  "manifest_status": "Original sealed manifest intentionally unchanged: candidate not authorized by it. Candidate deployment/projection reseal remains pending while external closure is blocked.",
+  "stage_b": "BLOCKED",
+  "runtime": "UNVERIFIED"
+}

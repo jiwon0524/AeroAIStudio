@@ -1,3 +1,64 @@
+# External resource review — current checkpoint
+
+Start HEAD 2ee5c8a744ff903c349f55d349872d9ea8221e2e matched requested checkpoint; experiment/dart-internal-trace. Read context-handoff, AGENTS, DEVELOPMENT_RULES, handoff, contract report and sealed inputs. Initial tracked/index clean; preserved existing dangling plugin symlink.
+
+**PARTIALLY_RESOLVED / EXTERNAL_RESOURCE_CLOSURE_BLOCKED. Stage B BLOCKED; risk acceptance UNDECIDED; runtime UNVERIFIED.** Only source review, one-TU compile/link and static/mock work authorized/performed. No Gazebo/DART/native/harness/harmless run, step, service, marker consumption, sudo/install/system/main modifications. No runtime release/approval-ready command submitted; original launcher remains exit78 before manager/service/marker.
+
+Primary: validation/gazebo-joint-external-review-v1/reports/final_report.md; phase progress.md. review.json indexes 9 refined paths plus 5 reused bounded paths, exact source lines/hashes, 6 provider ELF/import/mount inventories. Verified 237 existing built source/object bindings and source-path evidence; full old contract validates. Mapping/needed/import presence is not actual call observation. Narrowed FCL claim: default DART FCL wrapper is constructed, but its manager-only constructor does not establish external FCL collision/geometry calls. Record/playback plugin is nominally excluded by fixed default config; console/transport remains unresolved.
+
+Discovered -DNDEBUG ODE constructor initialization asserts vanish; per-thread allocation result ignored. Separate candidate changes only OdeCollisionDetector TU: checks dInitODE2, dAllocateODEDataForThread, dWorldCreate and routes failure to existing native ledger Fail. One TU compiled / one DSO linked, 10 original objects reused, export names unchanged; no header/layout/virtual interface/solver changes. New dependency existing libaero-resource (one new undefined Fail symbol). Compiled object has three failure callsites. Native failure injection not run; exception/cleanup behavior remains runtime-only.
+
+Candidate ELF/source/object/logs remain ignored work/. build_receipt.json and ode_init_guard.patch describe it. candidate_deployment.json plus canonical seal describe 2 proposed alias replacements. Candidate NOT_DEPLOYED; old manifest SHA789737d947f8c0ebd1466300792667fc9c838adba5834168e5c82bc6e4846aae, providers, allowlist, native expectations and old ELF inputs remain unchanged/refused. Full candidate contract integration/reseal remains pending until external closure is solved. No claim of executable preparation completion.
+
+Tests: 31 original static/mock cases reused with report/temp writes redirected to new phase +25 new negative cases PASS. Missing pre-ready config/provider/graph, init fatal/GO denial, post-EXIT_ACK file/network/dynamic-load/fatal and cannot-pass-despite-EOF/exit/cleanup, partial candidate mount refusal checked. Packets are synthetic; not native syscall interception evidence. Original tests/source/report/manifest/seal preserved. Existing ready->GO->100x1ms->final-live-mapping->EXIT_ACK->EOF/exit/owned-cleanup and Clock/Capture criteria/limits unchanged. main HEAD/status/dirty/untracked regular-file hashes and dangling symlink inode/target preserved; full sealed inputs revalidated.
+
+Unresolved: external libode/libccd init/primitive/collision/teardown callbacks, libcrypto provider/config/cleanup, transport/ZeroMQ discovery/sockets/config/thread lifetime, console logging and external destructor/global-unload closure. Exact known entry sites and missing internal implementation/binary proof are in review.json/report. No global pre-access guard exists. No-open imports, missing mounts, network namespace and harmless historical result cannot waive these. Next minimum is matching implementation/build closure or precise all-thread pre-access denial covering initialization through destruction; only then integrate candidate full contract and prepare one-shot review. Bullet lifetime/destructor/allocator/C-exception risk acceptance remains a separate user decision.
+
+All commands launched in this phase completed at checkpoint. Snapshot host/PID/start observations below; external-CWD/remote/container visibility UNKNOWN. No process terminated/restarted or account changed. /tmp source/build/object/ELF/raw logs and original ignored/untracked evidence/markers are host-local and not transferred by Git. Common skill unchanged.
+
+Publish only own reviewed phase scripts/tests/patch/light receipts/report and this handoff on approved experiment branch. This is prepublication snapshot; reconcile following commit parent/file list. Local reports/publication.json records eventual push/remote check without recursive commit.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-09T14:12:33.595853+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "2ee5c8a744ff903c349f55d349872d9ea8221e2e",
+    "branch": "experiment/dart-internal-trace",
+    "status": [
+      {
+        "status": "??",
+        "path": "libgz-physics-dartsim-plugin.so"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-external-review-v1/reports/final_report.md",
+      "sha256": "78eeb1af4548c82ef7295321e75d309af458ee80c7ca97046609f077e66423ef"
+    },
+    {
+      "path": "validation/gazebo-joint-external-review-v1/reports/tests.json",
+      "sha256": "7e4cd7fa7d92a24414b1dc3a2930478c2d971323c74e272e5ab24b404f400b74"
+    },
+    {
+      "path": "validation/gazebo-joint-external-review-v1/reports/build_receipt.json",
+      "sha256": "a66f5a2e35efc2a6eb8c1c59ba0bff45773d85ca4975549123e45708180ce6a7"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+# Prior checkpoints — historical, superseded by current block
+
 # Execution input contract — current checkpoint
 
 Reconciled start HEAD `8526df49971fd0e353ee603c04264c54ae95e708`, experiment/dart-internal-trace. Read AGENTS, DEVELOPMENT_RULES, handoff, native_result and old isolation/resource/ACK contracts with context-handoff. Initial tracked/index clean; original dangling root plugin symlink preserved. Current user scope implementation/necessary build/static/mock only; no target/Gazebo/DART/harmless run, step, service, marker use, sudo/install/system/main changes.

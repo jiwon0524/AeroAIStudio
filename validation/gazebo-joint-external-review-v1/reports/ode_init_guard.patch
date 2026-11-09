@@ -1,0 +1,26 @@
+--- a/OdeCollisionDetector.cpp
++++ b/OdeCollisionDetector.cpp
+@@ -0,0 +1 @@
++#include "native_resource.hh"
+@@ -226,6 +227,8 @@
+-  const auto initialized = dInitODE2(0);
+-  assert(initialized);
+-  DART_UNUSED(initialized);
+-
+-  dAllocateODEDataForThread(dAllocateMaskAll);
+-
++  // Fail the native resource ledger before ready/GO, including NDEBUG builds.
++  if (!dInitODE2(0))
++    aero_resource::Fail("ODE initialization failed");
++  if (!dAllocateODEDataForThread(dAllocateMaskAll))
++  {
++    dCloseODE();
++    aero_resource::Fail("ODE per-thread initialization failed");
++  }
+@@ -233 +236,5 @@
+-  assert(mWorldId);
++  if (!mWorldId)
++  {
++    dCloseODE();
++    aero_resource::Fail("ODE world initialization failed");
++  }

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-09T14:12:33.595853+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "2ee5c8a744ff903c349f55d349872d9ea8221e2e",
+    "branch": "experiment/dart-internal-trace",
+    "status": [
+      {
+        "status": "??",
+        "path": "libgz-physics-dartsim-plugin.so"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-joint-external-review-v1/reports/final_report.md",
+      "sha256": "78eeb1af4548c82ef7295321e75d309af458ee80c7ca97046609f077e66423ef"
+    },
+    {
+      "path": "validation/gazebo-joint-external-review-v1/reports/tests.json",
+      "sha256": "7e4cd7fa7d92a24414b1dc3a2930478c2d971323c74e272e5ab24b404f400b74"
+    },
+    {
+      "path": "validation/gazebo-joint-external-review-v1/reports/build_receipt.json",
+      "sha256": "a66f5a2e35efc2a6eb8c1c59ba0bff45773d85ca4975549123e45708180ce6a7"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
