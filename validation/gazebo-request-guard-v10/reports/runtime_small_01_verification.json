@@ -1,0 +1,83 @@
+{
+  "observed_utc": "2026-11-10T11:27:44.579465+00:00",
+  "host": "jiwon-System-Product-Name",
+  "approved_head": "05721b885aeb4b3dba2dfad17d695b162c9bf797",
+  "execution_count": 1,
+  "command_exit": 78,
+  "status": "FAIL",
+  "contract_sha256": "63f630e5e0aee7c19c09b693a8cc9c6d45e54f77b8d022820eb0b6b85c5a7395",
+  "contract_files_checked": 116,
+  "contract_files_changed": [],
+  "baseline_files_checked": 1617,
+  "baseline_changed_excluding_handoff": [],
+  "baseline_symlink": [
+    66309,
+    3454251,
+    "libgz-physics7-dartsim-plugin.so"
+  ],
+  "current_symlink": "libgz-physics7-dartsim-plugin.so",
+  "cgroups": {
+    "/user.slice/user-1000.slice/user@1000.service/app.slice/aero-guard-v10-owner-small-01.service": false,
+    "/user.slice/user-1000.slice/user@1000.service/app.slice/aero-guard-v10-target-small-01.service": false
+  },
+  "residual_cgroup_processes": [],
+  "process_scan_permission_unknown": 0,
+  "raw_evidence": {
+    "validation/gazebo-request-guard-v10/work/runtime-small-01/collector-audit.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "validation/gazebo-request-guard-v10/work/runtime-small-01/collector-result.json": {
+      "bytes": 188,
+      "sha256": "d74a14aba5d903216497d7de41c8edcfecbb1f821d2446fc8984700f273eb95e"
+    },
+    "validation/gazebo-request-guard-v10/work/runtime-small-01/host-result.json": {
+      "bytes": 736,
+      "sha256": "8e9c259bf1869949b834281a24525e24db062147310e811b5460cf99dea67830"
+    },
+    "validation/gazebo-request-guard-v10/work/runtime-small-01/host.stderr": {
+      "bytes": 278,
+      "sha256": "d1725d580d43252a938f5e964e55789af1a6de207e87bc006c6af3d11742ad43"
+    },
+    "validation/gazebo-request-guard-v10/work/runtime-small-01/host.stdout": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "validation/gazebo-request-guard-v10/work/runtime-small-01/native-audit.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "validation/gazebo-request-guard-v10/work/runtime-small-01/owner-journal.raw": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "validation/gazebo-request-guard-v10/work/runtime-small-01/stderr.raw": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "validation/gazebo-request-guard-v10/work/runtime-small-01/stdout.raw": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "validation/gazebo-request-guard-v10/work/runtime-small-01/target-unit.json": {
+      "bytes": 225,
+      "sha256": "ad77884338b61189394c8cfc56728f3ac247d063717db1ba525476f05a27fbc8"
+    }
+  },
+  "marker": {
+    "path": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-request-guard-v10/work/harmless-small-01.once",
+    "sha256": "f05001671235d214f871cdb2547fb3e18d68f90f09fc278c65ed93e6d951b319"
+  },
+  "unit_readback": "both LoadState=not-found MainPID=0 ControlGroup=empty",
+  "owner_handoff": "FAIL: owner handoff disconnect",
+  "sealed_ro_fd_delivery": "NOT_ESTABLISHED",
+  "thread_descendant_trace": "NOT_ESTABLISHED",
+  "independent_audit_continuity": "NOT_ESTABLISHED: both audit logs empty",
+  "native_parent_wait_returncode": 78,
+  "target_cleanup": true,
+  "host_cleanup": true,
+  "root_cause": "UNRESOLVED; host reason unit ownership not proven is separate from collector reason; no retry or repair",
+  "stage_b": "BLOCKED",
+  "risk_acceptance": "UNDECIDED",
+  "gazebo_runtime": "UNVERIFIED"
+}

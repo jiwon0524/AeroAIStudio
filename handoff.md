@@ -1,3 +1,29 @@
+# Aero AI Studio — v10 small-01 runtime checkpoint
+
+Observed 2026-11-10T11:27:44.579465+00:00 on jiwon-System-Product-Name.
+Current user authorization: exact small harmless contract execution once, now consumed.
+Executed once at approved HEAD 05721b885aeb4b3dba2dfad17d695b162c9bf797; exit78 / FAIL.
+Owner handoff disconnect; no sealed FD delivery, task trace or continuous audit established.
+No retry, repair, rebuild or limit increase. Stop here. Root cause UNRESOLVED.
+
+Current report: validation/gazebo-request-guard-v10/reports/runtime_small_01_report.md.
+Verification: validation/gazebo-request-guard-v10/reports/runtime_small_01_verification.json.
+Raw evidence: validation/gazebo-request-guard-v10/work/runtime-small-01/.
+Consumed marker: validation/gazebo-request-guard-v10/work/harmless-small-01.once (preserved).
+Both owned units not-found/MainPID0; both recorded cgroups absent; zero matching residual processes.
+Same-user project-CWD snapshot tasks empty; unrelated external/remote jobs UNKNOWN. No old process stopped.
+All116 contract hashes and1617 baseline files (excluding handoff) unchanged; original plugin symlink preserved.
+Changed by this stage: this handoff and two new lightweight runtime reports; only those are publication candidates.
+Stage B BLOCKED / risk acceptance UNDECIDED / Gazebo runtime UNVERIFIED; actual launcher exit78 unchanged.
+Main, existing evidence, sources, limits and original dirty files preserved. No Gazebo/DART/harness/physics,
+large-object/full468 preparation, sudo/install/system changes. No further runtime authorization remains.
+Local /tmp ignored raw evidence/marker/binaries are not durable or automatically transferred by Git.
+Next minimum action: wait for separately scoped investigation/repair authorization; never reuse small-01.
+Publication follows AGENTS/DEVELOPMENT_RULES on experiment branch only. This checkpoint records precommit HEAD;
+publication completion requires actual push and remote match, recorded separately in local runtime publication receipt.
+
+## Previous checkpoint (historical preparation; superseded runtime state above)
+
 # Aero AI Studio — v10 harmless-only driver checkpoint
 
 ## Scope and current state
