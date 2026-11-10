@@ -1,0 +1,2626 @@
+{
+  "status": "PASS_STATIC_PYTHON_MOCK_ONLY",
+  "new_checks": 654,
+  "prior_checks_reused": 555,
+  "checks": [
+    {
+      "case": "prior555_reused",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "five_once_plus_one_buffer_pair",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "298_not_counted_twice",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "cold_cache_validation_extra_included",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "resource_proposal_exact_unapplied",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "source_verity_not_established",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "inherited_owner_FSIZE_NOFILE_not_target_limits",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "303_live_verifier_calls_synthetic",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "468_contract_path_projection_mock_only",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "original_contract_not_execution_authorized",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/input/joint-elf.sha256",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/input/server.config",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libBulletCollision.so.3.24",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libccd.so.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libfcl.so.0.7",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libode.so.8",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libode.so.8.0.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/gz-sim-8/plugins/libgz-sim8-physics-system.so.8",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/gz-sim-8/plugins/libgz-sim8-physics-system.so.8.15.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/work/prefix/lib/libgz-sim8-physics-system.so",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/work/prefix/lib/libgz-sim8-physics-system.so.8",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/work/prefix/lib/libgz-sim8-physics-system.so.8.15.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/gz-sim-8/plugins/libgz-sim8-physics-system.so",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/gz-sim-8/plugins/libgz-sim8-physics-system.so.8",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/gz-sim-8/plugins/libgz-sim8-physics-system.so.8.15.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libgz-sim8-physics-system.so",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libgz-sim8-physics-system.so.8",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libgz-sim8-physics-system.so.8.15.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart.so.6.13",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7.8.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-sim8.so.8",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-sim8.so.8.15.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/work/prefix/lib/libgz-sim8.so",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/work/prefix/lib/libgz-sim8.so.8",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/work/prefix/lib/libgz-sim8.so.8.15.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libgz-sim8.so",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libgz-sim8.so.8",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libgz-sim8.so.8.15.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/work/aero-joint-harness",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart.so.6.13",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-isolation-v1/work/fd_bridge",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libaero-resource.so",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libsdformat14.so",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libsdformat14.so.14",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libsdformat14.so.14.9.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libsdformat14.so.14",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libsdformat14.so.14.9.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart.so.6.13",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7.8.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/libarmadillo.so.12",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/libarmadillo.so.12.6.7",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/blas/libblas.so.3",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libblas.so.3",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/liblapack.so.3",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libIex-3_1.so.30",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libIex-3_1.so.30.5.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libIlmThread-3_1.so.30",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libIlmThread-3_1.so.30.5.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libImath-3_1.so.29",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libImath-3_1.so.29.8.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libLerc.so.4",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libOpenEXR-3_1.so.30",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libOpenEXR-3_1.so.30.5.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libaec.so.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libaec.so.0.1.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libarpack.so.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libarpack.so.2.1.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libassimp.so.5",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libblosc.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libblosc.so.1.21.5",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.1.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.1.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libbsd.so.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libbsd.so.0.12.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libbz2.so.1.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libbz2.so.1.0.4",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libcfitsio.so.10",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libcfitsio.so.10.4.3.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libcom_err.so.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libcom_err.so.2.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libcrypto.so.3",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libcurl-gnutls.so.4",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libcurl-gnutls.so.4.8.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libcurl.so.4",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libcurl.so.4.8.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libdeflate.so.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libdfalt.so.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libdfalt.so.0.0.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libdraco.so.8",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libexpat.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libexpat.so.1.9.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libffi.so.8",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libffi.so.8.1.4",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libfreeimage-3.18.0.so",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libfreeimage.so.3",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libfreetype.so.6",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libfreetype.so.6.20.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libfreexl.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libfreexl.so.1.2.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libfyba.so.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libfyba.so.0.0.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libfygm.so.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libfygm.so.0.0.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libfyut.so.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libfyut.so.0.0.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgdal.so.34",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgdal.so.34.3.8.4",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgeos.so.3.12.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgeos_c.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgeos_c.so.1.18.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgeotiff.so.5",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgeotiff.so.5.2.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgfortran.so.5",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgfortran.so.5.0.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgif.so.7",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgif.so.7.2.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgmp.so.10",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgmp.so.10.5.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgnutls.so.30",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgnutls.so.30.37.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgomp.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgts-0.7.so.5",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgts-0.7.so.5.0.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-common5-events.so.5",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-common5-events.so.5.9.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-common5-geospatial.so.5",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-common5-geospatial.so.5.9.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-common5-graphics.so.5",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-common5-graphics.so.5.9.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-common5.so.5",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-common5.so.5.9.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-fuel_tools9.so.9",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-fuel_tools9.so.9.1.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-math7.so.7",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-math7.so.7.7.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-msgs10.so.10",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-msgs10.so.10.4.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-plugin2-loader.so.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-plugin2-loader.so.2.0.4",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-plugin2.so.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-plugin2.so.2.0.4",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-transport13-parameters.so.13",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-transport13-parameters.so.13.6.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-transport13.so.13",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-transport13.so.13.6.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-utils2.so.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libgz-utils2.so.2.2.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libhdf5_serial.so.103",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libhdf5_serial.so.103.4.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libhdf5_serial_hl.so.100",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libhdf5_serial_hl.so.100.1.7",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libheif.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libheif.so.1.17.6",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libhogweed.so.6",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libhogweed.so.6.8",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libicudata.so.74",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libicudata.so.74.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libicuuc.so.74",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libicuuc.so.74.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libidn2.so.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libidn2.so.0.4.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libjbig.so.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libjpeg.so.8",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libjpegxr.so.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libjpegxr.so.1.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libjson-c.so.5",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libjson-c.so.5.3.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libjsoncpp.so.1.9.5",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libjsoncpp.so.25",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libjxrglue.so.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libjxrglue.so.1.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libk5crypto.so.3",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libkeyutils.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libkmlbase.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libkmlbase.so.1.3.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libkmldom.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libkmldom.so.1.3.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libkmlengine.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libkmlengine.so.1.3.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libkrb5.so.3",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libkrb5.so.3.3",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libkrb5support.so.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/liblber.so.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/liblber.so.2.0.200",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/liblcms2.so.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/liblcms2.so.2.0.14",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libldap.so.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libldap.so.2.0.200",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libltdl.so.7",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libltdl.so.7.3.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/liblz4.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/liblzma.so.5",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libmd.so.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libmd.so.0.1.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libmfhdfalt.so.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libmfhdfalt.so.0.0.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libminizip.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libmysqlclient.so.21",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libmysqlclient.so.21.2.46",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libnetcdf.so.19",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libnettle.so.8",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libnettle.so.8.8",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libnghttp2.so.14",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libnghttp2.so.14.26.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libnorm.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libnspr4.so",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libnss3.so",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libnssutil3.so",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libodbc.so.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libodbc.so.2.0.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libodbcinst.so.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libodbcinst.so.2.0.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libogdi.so.4.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libopenjp2.so.2.5.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libopenjp2.so.7",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libp11-kit.so.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libpgm-5.3.so.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libpgm-5.3.so.0.0.128",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libplc4.so",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libplds4.so",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libpng16.so.16",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libpng16.so.16.43.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libpoppler.so.134",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libpoppler.so.134.0.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libpq.so.5",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libpq.so.5.16",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libproj.so.25",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libproj.so.25.9.4.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libprotobuf.so.32",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libprotobuf.so.32.0.12",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libpsl.so.5",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libpsl.so.5.3.4",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libpugixml.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libqhull_r.so.8.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libqhull_r.so.8.0.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libraw.so.23",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libraw.so.23.0.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libresolv.so.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/librtmp.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/librttopo.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/librttopo.so.1.1.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libsasl2.so.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libsharpyuv.so.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libsharpyuv.so.0.0.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libsmime3.so",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libsnappy.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libsnappy.so.1.1.10",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libsodium.so.23",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libsodium.so.23.3.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libspatialite.so.8",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libspatialite.so.8.1.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libsqlite3.so.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libssh.so.4",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libssh.so.4.9.6",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libssl.so.3",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libsuperlu.so.6",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libsuperlu.so.6.0.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libsz.so.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libsz.so.2.0.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libtasn1.so.6",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.3",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libtiff.so.6",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libtiff.so.6.0.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libtinyxml2.so.10",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libtinyxml2.so.10.0.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libtirpc.so.3",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libunistring.so.5",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libunistring.so.5.0.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/liburiparser.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/liburiparser.so.1.0.30",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libuuid.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libwebp.so.7",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libwebp.so.7.1.8",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libwebpmux.so.3",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libwebpmux.so.3.0.13",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libxerces-c-3.2.so",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libxml2.so.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libxml2.so.2.9.14",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libyaml-0.so.2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.9",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libz.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libz.so.1.3",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libzip.so.4",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libzip.so.4.0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libzmq.so.5",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libzmq.so.5.2.5",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libzstd.so.1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/1_10.convert",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/actor.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/actor.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/air_pressure.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/air_pressure.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/air_speed.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/air_speed.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/altimeter.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/altimeter.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/atmosphere.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/atmosphere.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/audio_sink.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/audio_sink.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/audio_source.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/audio_source.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/battery.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/battery.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/box_shape.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/box_shape.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/camera.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/camera.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/capsule_shape.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/capsule_shape.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/collision.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/collision.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/cone_shape.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/cone_shape.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/contact.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/contact.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/cylinder_shape.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/cylinder_shape.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/ellipsoid_shape.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/ellipsoid_shape.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/forcetorque.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/forcetorque.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/frame.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/frame.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/geometry.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/geometry.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/gps.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/gps.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/gripper.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/gripper.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/gui.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/gui.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/heightmap_shape.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/heightmap_shape.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/image_shape.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/image_shape.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/imu.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/imu.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/inertial.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/inertial.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/joint.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/joint.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/lidar.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/lidar.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/light.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/light.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/light_state.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/light_state.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/link.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/link.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/link_state.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/link_state.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/logical_camera.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/logical_camera.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/magnetometer.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/magnetometer.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/material.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/material.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/mesh_shape.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/mesh_shape.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/mimic.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/mimic.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/model.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/model.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/model_state.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/model_state.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/navsat.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/navsat.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/noise.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/noise.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/particle_emitter.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/particle_emitter.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/physics.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/physics.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/plane_shape.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/plane_shape.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/plugin.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/plugin.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/polyline_shape.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/polyline_shape.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/population.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/population.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/pose.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/pose.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/projector.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/projector.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/ray.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/ray.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/rfid.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/rfid.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/rfidtag.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/rfidtag.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/road.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/road.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/root.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/root.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/scene.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/scene.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/sensor.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/sensor.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/sonar.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/sonar.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/sphere_shape.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/sphere_shape.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/spherical_coordinates.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/spherical_coordinates.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/state.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/state.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/surface.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/surface.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/transceiver.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/transceiver.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/visual.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/visual.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/world.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sameFD_alias_hash_projection:/usr/share/sdformat14/1.11/world.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:conversion/1_10.convert",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:dartsim",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:dartsim_provider",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:physics",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:physics_provider",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/actor.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/actor.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/air_pressure.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/air_pressure.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/air_speed.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/air_speed.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/altimeter.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/altimeter.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/atmosphere.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/atmosphere.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/audio_sink.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/audio_sink.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/audio_source.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/audio_source.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/battery.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/battery.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/box_shape.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/box_shape.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/camera.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/camera.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/capsule_shape.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/capsule_shape.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/collision.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/collision.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/cone_shape.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/cone_shape.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/contact.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/contact.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/cylinder_shape.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/cylinder_shape.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/ellipsoid_shape.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/ellipsoid_shape.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/forcetorque.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/forcetorque.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/frame.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/frame.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/geometry.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/geometry.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/gps.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/gps.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/gripper.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/gripper.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/gui.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/gui.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/heightmap_shape.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/heightmap_shape.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/image_shape.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/image_shape.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/imu.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/imu.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/inertial.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/inertial.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/joint.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/joint.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/lidar.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/lidar.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/light.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/light.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/light_state.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/light_state.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/link.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/link.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/link_state.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/link_state.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/logical_camera.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/logical_camera.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/magnetometer.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/magnetometer.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/material.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/material.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/mesh_shape.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/mesh_shape.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/mimic.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/mimic.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/model.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/model.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/model_state.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/model_state.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/navsat.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/navsat.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/noise.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/noise.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/particle_emitter.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/particle_emitter.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/physics.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/physics.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/plane_shape.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/plane_shape.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/plugin.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/plugin.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/polyline_shape.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/polyline_shape.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/population.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/population.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/pose.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/pose.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/projector.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/projector.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/ray.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/ray.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/rfid.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/rfid.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/rfidtag.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/rfidtag.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/road.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/road.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/root.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/root.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/scene.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/scene.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/sensor.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/sensor.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/sonar.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/sonar.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/sphere_shape.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/sphere_shape.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/spherical_coordinates.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/spherical_coordinates.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/state.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/state.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/surface.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/surface.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/transceiver.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/transceiver.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/visual.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/visual.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/world.sdf",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:schema/world.xsd",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_expected_projection:server_config",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "world_bytes_no_inode_rewrite",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "projection_missing",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "projection_extra",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "projection_fd_shared",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "projection_old_source_inode",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "projection_wrong_hash",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "projection_writable_exec_intent",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "projection_missing_seals",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "projection_merged_DART_by_hash",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "projection_verifier_false",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "projection_verifier_error",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "owner_outside_target_cleanup_domain",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "placement_owner_cgroup_/target",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "placement_owner_cgroup_/target/child",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "placement_collector_cgroup_/target",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "placement_owner_charge_domain_/elsewhere",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "placement_target_memory_max_536870913",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "placement_target_fsize_543979760",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "placement_target_start_",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "controller_original_GO_ACK_finalize",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "spurious_readiness_EAGAIN",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "spurious_readiness_EINTR",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "new_active_loop_success_releases_before_V",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "active_loop_deadline_rejects",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "deadline_failure_releases_audit_FDs_and_no_V",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "direct_step_read_fault_latched",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "mixed_window_rejected",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "shared_protocol_audit_FD_rejected",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "selector_fault_latched",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "selector_fault_closed_owned_audit_FDs",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "descriptor_release_failure_before_V",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "release_failure_no_V",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "receive_reuses_authenticated_reader",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "receive_constructor_error_closes_reader",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "receive_error_owned_FDs_released",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "all_previous_tracked_files_preserved_except_handoff",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "dangling_symlink_preserved",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "original_main_HEAD_dirty_status_preserved",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "prior_local1767_evidence_preserved",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "unchanged_native_ELF_hash_reused",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "changed_Python_sources_compile_no_execution",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "preflight78_without_service_marker_or_approval",
+      "status": "PASS_STATIC_MOCK"
+    }
+  ],
+  "native_execution": false,
+  "services_started": false,
+  "limits_changed": false
+}

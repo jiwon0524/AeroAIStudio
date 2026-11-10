@@ -1,0 +1,82 @@
+{
+  "status": "BLOCKED_NONEXEC_PREPARATION_INCOMPLETE",
+  "exit_code": 78,
+  "required_paths": 468,
+  "compiled_paths": 452,
+  "resource_settings_applied": false,
+  "decisions": [
+    {
+      "item": "catalog per-object byte ceiling (all prepare/verify checks)",
+      "current": 67108864,
+      "proposed": 543979760,
+      "scope": "preparer/native catalog"
+    },
+    {
+      "item": "catalog_prepare admission ceiling",
+      "current": 536870912,
+      "proposed": 2159132672,
+      "scope": "preparer/native catalog"
+    },
+    {
+      "item": "owner MemoryMax / memory.max",
+      "current": "UNDEFINED_NO_OWNER_UNIT; target536870912 unchanged; see read-only cgroup observations",
+      "proposed": 5368709120,
+      "scope": "NEW dedicated preparer+native owner+Python collector cgroup outside target cleanup domain"
+    }
+  ],
+  "owner_contract": {
+    "target_limits_unchanged": true,
+    "owner_and_collector_outside_target_cleanup": true,
+    "creation_charge_requires_owner_cgroup_attestation": true,
+    "sequence": [
+      "dedicated owner+collector resource domain attested before any copy",
+      "full303 final sealed FD hash/identity/mode check and required468 alias projection",
+      "copy FD-backed mount installation and same-object canonical revalidation",
+      "trusted child created held, moved by authorized manager into target-only limited cgroup before release",
+      "listener/exec/collector handoff, GO/last live mapping/EXIT_ACK/EOF and target cleanup",
+      "collector V after target-only cleanup; owner retained objects released afterwards"
+    ],
+    "manager_placement_adapter": "NOT_IMPLEMENTED; no manager query/service operation performed"
+  },
+  "ready_static": [
+    "prior16-alias/5-object reconciliation+555 checks authenticated and reused",
+    "resource ledger and exact3-setting unapplied decision",
+    "full468 mount+native/ELF identity projection validator synthetic tests",
+    "owner/collector exclusion from target cleanup-domain validator",
+    "controller read readiness faults, mixed window/FD rejection, selector failure latch and owned audit release"
+  ],
+  "pending_implementation": [
+    {
+      "item": "runtime native identity consumer/bootstrap plus compiled native/plugin expectations",
+      "depends_on": "run-scoped immutable copy identity ABI; existing original-inode implementation intentionally unchanged"
+    },
+    {
+      "item": "install full copy FD mounts and native full-policy catalog",
+      "depends_on": "approved resource settings and retained303 FD ownership; no synthetic receipt can activate"
+    },
+    {
+      "item": "manager owner/target placement adapter and readback",
+      "depends_on": "explicit dedicated owner resource-domain decision; no change of target resource limits"
+    },
+    {
+      "item": "file mapping/executable mprotect/metadata/negative lookup support",
+      "depends_on": "final immutable FD+mount identity interface and race-safe multi-task FD authorization; current behavior denies"
+    }
+  ],
+  "runtime_only": [
+    "kernel seals/exec mapping and canonical FD mount behavior",
+    "SCM credentials/pidfd namespace/listener handoff and one-shot exec on actual kernel",
+    "normal pthread/clone3 ABI/CET and real policy inheritance",
+    "actual multi-task request ordering, exit callbacks/ECHILD and channel disconnection",
+    "preparation and target/owner/collector resource peak and charge placement",
+    "actual target unit cleanup and owner V sequence"
+  ],
+  "full_nonexec_ready": false,
+  "runtime_approval_ready": false,
+  "harmless_command_proposed": false,
+  "stage_b": "BLOCKED",
+  "risk_acceptance": "UNDECIDED",
+  "runtime": "UNVERIFIED",
+  "service_started": false,
+  "marker_consumed": false
+}

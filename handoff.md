@@ -1,108 +1,113 @@
-# Gazebo request guard v6 — current checkpoint
+# Request guard v7 — current checkpoint
 
-Current worktree `/tmp/AeroAIStudio-dart-internal-trace`, branch `experiment/dart-internal-trace`.
-Observed starting HEAD0b9c8457ee1cf3e533d5a430e1fa2cddc2e53baf equals last shared commit; no later work found.
-Read installed context-handoff, root/worktree AGENTS, DEVELOPMENT_RULES, previous handoff, v5 final,
-sealed execution contract and pinned v3 receipts. Initial tracked/index clean; dangling plugin link preserved.
-Previous v5 prepublication snapshot4382824 reconciled with actual0b9c845 scope/parent.
+Worktree `/tmp/AeroAIStudio-dart-internal-trace`, branch `experiment/dart-internal-trace`.
+Observed latest HEAD at start:a19fb1c076e57f91ce5df491ce257c54e3e20d01; no later work found.
+Prior handoff prepublication0b9c845 reconciled with actual a19fb1c parent/file scope.
+Read installed context-handoff, AGENTS, DEVELOPMENT_RULES, handoff, v6 final/integration contract,
+sealed original execution contract. Initial tracked/index clean; existing dangling plugin link preserved.
 
 **PARTIAL / NOT DEPLOYABLE / NONEXEC_PREPARATION_INCOMPLETE.**
-**Stage B BLOCKED / risk acceptance UNDECIDED / actual runtime UNVERIFIED.**
+**Stage B BLOCKED / risk acceptance UNDECIDED / runtime UNVERIFIED.**
 
-## Current scope and restrictions
+## Scope and restrictions
 
-User authorized implementation, changed-component compile/link, static and Python mocks only.
-No actual DART/Gazebo loading, harness/harmless/native ELF run, service, physical step, marker creation/
-consumption, sudo/install/system changes. Original main, dirty/untracked files, prior evidence/artifacts/
-markers and dangling symlink preserved. Actual sealed launcher and candidate main still78 before services/
-markers. No old contract reseal or limits/Clock/Capture criteria changes. No automatic next DART phase.
-Publish only verified lightweight files on experiment; never main/merge/force push. Environment approvals
-remain separate. Common skill outside project untouched.
+User scope: resource decision, safe within-limit implementation if proven, independent static/mock
+preparation. No actual Gazebo/DART loading, harness/harmless/native ELF run, services, marker consumption,
+resource limit changes, sudo/install/system settings. Actual original launcher/candidate main still78
+before service/marker creation. Preserve main/dirty files, old evidence/artifacts/markers/dangling link.
+No contract reseal, target limit or Clock/Capture criteria change. No automatic next DART/runtime phase.
+Verified lightweight files auto-publish only on experiment, never main/force/merge; execution approvals
+remain separate. Common skill untouched.
 
-## Completed facts and evidence
+## Facts and completed work
 
-Consolidated report: `validation/gazebo-request-guard-v6/reports/final_report.md`.
-Current progress: `validation/gazebo-request-guard-v6/progress.md`.
+Consolidated report: `validation/gazebo-request-guard-v7/reports/final_report.md`.
+Current progress: `validation/gazebo-request-guard-v7/progress.md`.
 
-- Read-only sealed contract validation and bidirectional path reconciliation:468 required paths/303
-  original dev/inode objects versus452 historical prepared-required paths/298 objects;16 missing,0 extra.
-  No duplicates or version mismatch. Missing16 are approved aliases of5 mandatory oversized objects,
-  not16 new unapproved inputs. Required roots/SONAME chains/native roles, hashes/dev/inode/source,
-  alias grouping and original mount FD/argv evidence for every required path: reports/reconciliation.json.
-  Historical prepared receipts do not establish retained FDs. New mount/native/collector copy-identity
-  expectations remain incompatible with old original-inode contract until separately completed.
-- All5 DENY_LIMIT_CHANGE_DEFERRED. Sizes99090256,74462608,543979760(x3). Streaming already bounded64KiB;
-  cannot remove retained memfd bytes or64MiB cap. No live reusable sealed FD evidence. Per-object cap and
-  preparer FSIZE lower bounds are file bytes; max543979760. Per-DART known output+buffers544112640 exceeds
-  MemoryMax536870912. Full303 dense output+buffers2159132672 plus unknown overhead. Exact preparation peak
-  and service RSS/cgroup peak UNKNOWN; PT_LOAD sums separately recorded, not treated as measured RSS.
-  Target limits unchanged; owner charging/NOFILE and cleanup domain still unresolved.
-- Added callable trusted collector handoff/poll loop using existing receive_audit/LiveReader/NativeJournal/
-  JournalAdapter/AuditGate and original NativeSession/ACK/Lines. Preserves GO,100 samples, live mapping
-  immediately before EXIT_ACK, actual task death/ECHILD/COMPLETE/audit EOF, stdout/stderr EOF, exit/cleanup/
-  integrity final verdict before V. Root death or ACK does not end descendant/callback collection.
-  Failure is permanent while physical stream draining continues until deadline. Handles buffered pipe
-  bytes after audit death through existing NativeSession (does not claim live task). Old gate unchanged.
-- Changed native supervisor loop services notifications after task stops and monitors collector disconnect/
-  unexpected early V in addition to audit disconnect. Existing listener handoff/ACK/one-shot exec/task
-  tracking reused. Controller and native APIs compiled/mocked; no deployment/activation/OS proof claimed.
-  BLOCKED candidate integration specification: reports/integration_contract.json (not execution approval).
-- One changed native launch TU compiled in v6/work and linked with4 parent objects whose hashes and all
-  dependencies were verified against v5 build receipt. Werror/PIE/RELRO/NOW/stack protector; static ELF only.
-  Compiler host/PID/start and inputs/object/ELF hashes: reports/build_receipt.json. No ELF executed/loaded.
--555 new static/Python mock checks PASS: reports/tests.json. Full original Python NativeSession/ACK used;
-  no old573 results rerun/summed. Alias/FD/hash/source/seal/mode, missing required paths, credentials and
-  handoff truncation/count, concurrent descendants, root-first death, denial/disconnect/loss/overflow/
-  persistence/terminal gaps, original protocol and injected active poll loop covered. Actual C/kernel
-  behavior remains unverified. Additional wrong_exec fixture initially failed because XOR left executable
-  bits; corrected fixture clear/set bits and reran full checks. Description: work/test-fixture-failure.txt.
-- Prior1767-file evidence baseline and starting tracked files matched except intentional handoff update;
-  original main HEAD/dirty status and dangling link preserved. Checks in tests/check.py; local starting
-  snapshot work/baseline.json. Syntax/refusal source review passed. Artifact hashes: reports/artifacts.json.
+- Authenticated v6 artifacts and reused16 missing paths/5 required objects plus555 static/Python mock
+  results; did not rerun or sum555. Full source contract remains unchanged. Actual catalog452, required468.
+- Read-only same-FD original identity/hash and fsverity before/after on all5: no fsverity proof. No
+  safe alternate storage proven within unchanged64MiB per-object/512MiB admission. Streaming not redone.
+  Sparse logical size/cap, disk outside writers, compressed/stripped-byte differences, expired old sealed
+  receipts all block alternatives. No live seal/mount/exec preparation performed.
+- Decision ledger in reports/resource_decision.json:5 exact bytes1805492144,5 dense pages1805500416;
+ 5 sequential output+one buffer pair1805631488. Existing298 pages353501184. Full303 pages2159001600;
+  output+buffers2159132672 (prior minimum confirmed). Source cache including all429 inputs and validator
+  code/evidence/host_tools2171359232; cold preparation model4330491904. Explicit reserve268435456 gives
+ 4598927360; proposed5GiB leaves769781760 more. All calculation/model, NOT measured peaks.
+  Runtime owner retained pages2159001600, with one request hash buffer2159067136; residual full source
+  cache model4330426368. Private target/collector/kernel costs and charge placement UNKNOWN. Target
+  MemoryMax536870912/Swap0/AS2147483648 unchanged; backing shared pages not multiplied per alias.
+- UNAPPLIED USER DECISION minimal3 settings: catalog per-object ceiling67108864 ->543979760;
+  catalog_prepare admission ceiling536870912 ->2159132672; NEW dedicated preparer/native-owner/Python
+  collector domain MemoryMax5368709120 outside target cleanup domain. Existing target stays512MiB.
+  This is not a measured sufficient peak guarantee and not runtime/risk acceptance. Observed inherited
+  owner FSIZE/AS unlimited and NOFILE1048576 mean no increase required for these on current host;
+  future constrained owner must separately meet FSIZE>=543979760 and NOFILE floor316+ambient.
+- New pure layout.py validates full303 final sealed FD pins and projects all468 approved paths to
+  RO FD mounts/native expected/ELF identities; rejects missing/extra/hash/source/seal/exec/FD/alias and
+  cross-origin identical-DART dedup. Full468 exercised only with SYNTHETIC pins. Does not install mounts
+  or replace compiled original-inode native code. placement validator rejects owner/collector inside
+  target cleanup domain and wrong target limits/charge provenance. Candidate sequence: reports/preparation.json.
+- New controller wrapper reuses v6 native audit+original NativeSession/ACK. EAGAIN/EINTR readiness retry;
+  direct read/selector faults latch failure; mixed window/shared stream FDs reject; audit FD/pidfd release
+  failure occurs before V; run paths attempt owned reader release. Existing GO/100samples/live mapping/
+  EXIT_ACK/EOF/actual exit/cleanup/integrity unchanged. No activated release.
+-654 NEW static/Python mock checks PASS in reports/tests.json; prior555 reused separately. Includes
+  per-path/native-role projection, placement, original full protocol, successful injected active poll
+  loop, release failure, timeout and transport failures. No native C/ABI changes, so no new native build;
+  old v6 ELF hash checked, new Python sources compiled for syntax. No ELF execution/loading.
+- Initial ledger failed on absolute vs repository-relative artifact key; normalized key. Initial new
+  suite failed because injected AST helper lacked modules binding; corrected and full suite passed.
+  Descriptions preserved in work/resource-first-failure.txt and work/test-first-failure.txt.
+- Original tracked files (handoff intended update excepted), main HEAD/dirty status, prior1767 local
+  evidence baseline and dangling link dev/inode/text preserved. Artifact hashes: reports/artifacts.json.
 
-## Changed files, publication and local artifacts
+## Current files/publication/portability
 
-Only new v6 inputs/launch.{c,h}, scripts/{reconcile,controller,build}.py, tests/check.py,
-progress.md, reports/{reconciliation,build_receipt,integration_contract,tests,artifacts}.json,
-reports/final_report.md, plus this handoff. No other tracked source/evidence changed.
-Verify these exact files before automatic checkpoint publication. Snapshot below is PREPUBLICATION;
-commit itself changes HEAD. Reconcile its parent/file scope; local reports/publication.json will record
-actual push and remote equality without recursive commit. Never report push success without that check.
+Only this handoff plus NEW v7 scripts/{resources,layout,controller,preflight}.py, tests/check.py,
+progress.md, reports/{resource_decision,preparation,tests,artifacts}.json and final_report.md.
+No v6 or original contract/source/evidence edits. No binary/cache/local work logs staged.
+Snapshot below is PREPUBLICATION. Compare next commit parent/file list; local reports/publication.json
+will record actual push+remote equality without recursive commit. Do not claim publication absent match.
 
-work/ ELF/objects/logs/baseline and pycache are ignored/local, not transferred by Git. Parent ignored
-object/dependency files are needed to repeat incremental relink; on another machine the prior phase
-would need its authorized compiler-only build first. /tmp is not durable. Original main dirty/untracked
-work and other ignored evidence do not automatically transfer between accounts/devices.
+Ignored work/ baseline/failure descriptions and earlier ELF/object/evidence artifacts are LOCAL; Git does
+not transfer them. /tmp is not durable. Existing main dirty/untracked work is not published. Another
+machine must recover original evidence to repeat inherited preservation checks or parent ELF hash test.
 
-## Remaining first blocker and next minimum action
+## Decision and remaining next work
 
-First native full-run gate remains452!=468 BEFORE fork/78. Need explicit resource/preparation owner
-contract for5 large objects and whole-set charging; full immutable copy mount and native/plugin/collector
-identity projection; owner placement outside target cleanup domain (avoid V/cleanup circular wait);
-normal metadata/file mapping/negative lookup policy. Do not treat distinct owner domain as unlimited bypass.
+User must decide whether to authorize the3 unapplied settings and bounded owner placement. No resource
+setting was changed. This is a concrete decision, not permission for execution or risk acceptance.
 
-Normal pthread/clone3 ABI/CET and policy inheritance, actual kernel SCM/ptrace/notification/mount/thread
-behavior, callback order and resource peak are runtime-unverified. File mmap/executable mprotect/path
-metadata still denied. Current APIs do not prove normal loader or DART initialization support.
-Nonexecution preparation incomplete: no runtime approval command proposed, no harmless test request
-started. Continue only explicitly authorized static implementation/contract review; do not resume runtime.
+Still pending implementation (NOT runtime-only): run-scoped native identity consumer/bootstrap and
+compiled plugin/native expectations; actual full copy FD mount/full468 native policy; manager placement
+adapter/readback; race-safe loader file-mmap/executable mprotect/metadata/negative lookup policy. Pure
+projection is not that integration. These depend on final storage/owner/identity ABI decisions. Current
+full-run first blocker452!=468 BEFORE fork/78 remains. Independent resource math/projection/placement
+validation/controller fault closure completed; do not claim all nonexec preparation complete.
 
-## Live work
+Runtime-only later: actual kernel seals/exec mappings, mount/SCM/pidfd/notification/ptrace behavior,
+pthread/clone3 ABI/CET and inheritance, callbacks/tasks/ECHILD/channel disconnect, actual charged peaks
+and cgroup placement/OOM, target cleanup then V. All UNVERIFIED. No minimal harmless command/range/pass
+criteria proposed because full nonexec prerequisites are not complete. No automatic runtime work.
 
-All issued compiler/check commands completed. Snapshot sees no same-user project-CWD jobs. External-CWD,
-container/remote tasks UNKNOWN; no processes killed/restarted or account switched. Do not infer global
-absence from this scoped inspection. See compiler process receipt for completed build identity.
+## Live jobs
+
+All issued read-only/check commands completed. No same-user project-CWD jobs seen in snapshot. External
+CWD/container/remote UNKNOWN. No existing task killed/restarted and no account switched. No native
+compiler started in this phase; Python-only syntax/static/mock work.
 
 ## Machine checkpoint
 
 ```context-handoff-state
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T06:05:38.015678+00:00",
+  "updated_at": "2026-11-10T06:20:47.777158+00:00",
   "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
   "host": "jiwon-System-Product-Name",
   "git": {
-    "head": "0b9c8457ee1cf3e533d5a430e1fa2cddc2e53baf",
+    "head": "a19fb1c076e57f91ce5df491ce257c54e3e20d01",
     "branch": "experiment/dart-internal-trace",
     "status": [
       {
@@ -113,12 +118,16 @@ absence from this scoped inspection. See compiler process receipt for completed 
   },
   "evidence": [
     {
-      "path": "validation/gazebo-request-guard-v6/reports/final_report.md",
-      "sha256": "e46b65a2be6c01940c3aff991747054c16890baf488bd0c9eda87d271bb313ed"
+      "path": "validation/gazebo-request-guard-v7/reports/final_report.md",
+      "sha256": "877874b8eabc4211ad13bfa74ee07a4f320d4fc7a7e030a13d5800d9bbec646f"
     },
     {
-      "path": "validation/gazebo-request-guard-v6/reports/tests.json",
-      "sha256": "2b6f5983ad1004ba710ddf2d4b63076f7589e6ecb78cbedb05965580871499b5"
+      "path": "validation/gazebo-request-guard-v7/reports/resource_decision.json",
+      "sha256": "5644ccfdcc6bd3248d78d0d8e7e64760e3ba52fde4dcab2a46840507342374a2"
+    },
+    {
+      "path": "validation/gazebo-request-guard-v7/reports/tests.json",
+      "sha256": "b585c66a7578efb1079efcb6b808d9cd8d3c2acb4a7604248ade9e64f3ef01fd"
     }
   ],
   "processes": {
