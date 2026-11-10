@@ -1,55 +1,106 @@
-# Aero AI Studio — v9 candidate configuration checkpoint
+# Aero AI Studio — v10 harmless-only driver checkpoint
 
-## Current scope / state
+## Scope and current state
 
-Observed base HEAD35bc722847bc8676fc808b392b5680c6d08b2c29, experiment/dart-internal-trace.
-Published v8 reconciled against commit and artifacts; prior handoff's no-commit scope was historical.
-Current user approves candidate-only object543979760/admission2159132672/owner-collector MemoryMax5368709120.
-No actual resource settings, service, native/DART/Gazebo/harness/harmless execution, step, marker consumption,
-sudo/install/system changes. Original launcher and candidate entry78. Stage B BLOCKED / risk UNDECIDED / runtime UNVERIFIED.
-Original main, all existing dirty/evidence/artifacts/markers and dangling symlink preserved. No account/process changes.
-context-handoff skill used. Automatic verified lightweight commit/push applies per DEVELOPMENT_RULES for this request.
+Observed base HEAD e37a69229a1a1a77937f0c22335a78a2858f86a0 on experiment/dart-internal-trace.
+Current request: prepare separate small harmless driver, build/static/Python mocks and exact one-run approval proposal.
+No harmless driver/probe/owner/anchor/native execution, Gazebo/DART/harness loading, service, step, marker consumption,
+new cap increases, sudo/install/system changes. Original main/code/evidence/dirty/artifacts/markers preserved.
+Original actual launcher and v9 entry78; Stage B BLOCKED / risk UNDECIDED / runtime UNVERIFIED.
+context-handoff used. AGENTS/DEVELOPMENT_RULES automatic verified lightweight checkpoint commit/push still applies;
+publication is NOT runtime approval. Wait for a new explicit approval of the exact one-run contract before execution.
 
-## Completed and evidence
+## Completed / evidence
 
-Current report: validation/gazebo-request-guard-v9/reports/final_report.md.
-Progress: validation/gazebo-request-guard-v9/progress.md.
-New v9 sources only; frozen v8 source/reports/binaries preserved. Root handoff is intended edit.
-Approved preparation caps grouped in preparation_limits.h; target resource and rlimit constants unchanged.
-Native gate before allocation requires owner+collector peer in same dedicated exact5GiB cgroup readback.
-Python owner exact-bound ACK and BootstrapCoordinator joins initial owner to catalog/placement/audit/controller;
-original single exec/listener ACK, GO/live mapping/EXIT_ACK/full audit EOF/exit/cleanup/pins-close-before-V retained.
-Candidate contract authenticates parent seal;303 same-source-FD hashes/identities and468 compiled policy rows checked,
-including5 large objects/16 aliases. Actual prepared objects0 and actual delivered paths0.
-2 changed TU compiled/linked,9 reused after repaired-v8 baseline link reproduced. Static/Python mock1638 PASS.
-Sources+policy+candidate contract+external Python+native inputs/object/ELF hashes bound to build/tests.
-Final versions: reports/source_manifest.json, build_receipt.json, tests.json, artifacts.json.
-Source/test metadata refresh after Python edits did not recompile C; all build/test subprocesses observed exited.
-Other live tasks UNKNOWN; no existing task stopped/restarted. Read-only preserved checks: v8 published files except
-intended handoff; v5 preserved1767 evidence; main HEAD/dirty; dangling link inode+target.
+Current final: validation/gazebo-request-guard-v10/reports/final_report.md.
+Single approval proposal: validation/gazebo-request-guard-v10/reports/approval_proposal.md.
+Exact execution contract: validation/gazebo-request-guard-v10/reports/execution_contract.json.
+Contract SHA256 63f630e5e0aee7c19c09b693a8cc9c6d45e54f77b8d022820eb0b6b85c5a7395.
+Source/build/tests: reports/source_manifest.json, build_receipt.json, tests.json;2119 static/Python mock PASS.
+Counts:1617 tracked-file preservation,376 source/dependency/artifact hashes,126 policy/behavior/source assertions.
+Earlier v9 1638 and historical harmless PASS evidence reused by hash, not rerun/added to current count.
+6 new/profile-affected TU compile/link;4 v9 objects+anchor hash-verified reused. No C binary/DSO was run.
 
-## Remaining exact blocker / next minimum work
+Separate native owner main calls unchanged v9 FD bridge and bootstrap with small compile-time4-original/5-path policy.
+Probe17192bytes+libc+ld+fixed24bytes; two fixed aliases share one original. Control owner80704bytes and reused
+anchor16016bytes separately sealed only in future runtime. Fixed input SHA and all ELF/host-tool hashes are in contract.
+Initial owner O,4FD C/K, target placement P, audit/A, GO/100 fixture/EXIT_ACK, cross-channel ready/audit catch-up before GO, post-ACK callback thread read/join,
+process-child approved read+exit, independent task death/COMPLETE/EOF, invocation-bound cleanup and pin release/V linked.
+Small-only fork/read-only self-prlimit and normal probe calls added; full v9 files/policy unchanged.
+Historical map_files EPERM handled explicitly in small profile by retained sealed pin + kernel dev/inode + all5 canonical
+RO FD/mount identity with PID/start/maps stability; no fallback on mismatches/disappearance. Full v9 strict policy unchanged.
+pass_fds CLOEXEC loss fixed in new owner entry; failed restore refuses before bootstrap. Target invocation receipt
+persisted before anchor observation; missing/reused ownership makes cleanup UNKNOWN/FAIL, never arbitrary stop.
+Mocks exercised actual Owner.bind/Catalog/coordinator and reused controller/protocol, plus host lifecycle faults.
+Actual preparation0/delivered0/units0/markers0. Existing output/marker are absent as last stat observation, not consumed.
 
-Static capacity admission now fits (2158694400 <=2159132672); no further increase justified. Peaks unknown.
-Owner5GiB configuration is not deployed and not inherited as target512MiB/AS2GiB/FSIZE1MiB/NOFILE256.
-Whole live execution readiness remains PARTIAL: candidate main still78; no released harmless-only CLI/driver
-joins native bootstrap and collector with actual owned preparation-unit creation/lifecycle. No runnable harmless
-end-to-end command is certified. Next nonexecution work: separate harmless driver+payload+approval contract,
-using exact three approved candidate caps and unchanged target limits; then separately request runtime approval.
-Kernel userns/pidfd/SCM/init STOP/CONT/seals/mount/loader/LSM/thread inheritance/exit callbacks/cleanup/charge peaks
-are runtime-only and unverified. Never substitute this candidate digest for original sealed execution authorization.
+## Exact next action and remaining separation
 
-## Storage and publication
+Nonexecution preparation complete. No known unresolved static blocker. DO NOT run the proposal automatically.
+Obtain separate explicit approval for the exact command/hash/scope in approval_proposal.md, then at most1 execution.
+Proposal uses new units aero-guard-v10-owner-small-01.service and aero-guard-v10-target-small-01.service,
+new work/harmless-small-01.once and work/runtime-small-01 only. Exclusive/no-retry; keep marker/evidence on failure.
+Approved candidate caps543979760/2159132672 and owner5368709120 unchanged; target512MiB/AS2GiB/FSIZE1MiB/NOFILE256.
+Before mutation check exact source/contract/ELF/input hashes, branch, output/marker absence and both unit absence.
+Future first runtime gate may fail there, then owner domain/userns/SCM/ptrace/mount/cgroup/LSM/mapping/thread/exit/cleanup.
+All real kernel behavior is unverified. Owner/target safety deadlines and no-success-on-missing-audit are mock checked only.
+Missing authenticated invocation means cleanup UNKNOWN/FAIL and may require separately owned recovery, no unsafe stop.
+This small trial excludes actual large5/303objects/468paths preparation and maximum memory measurement;
+small PASS cannot prove full v9 delivery, Gazebo/DART behavior, physics or open Stage B. Those need separate contracts/approval.
 
-Exact lightweight list: validation/gazebo-request-guard-v9/reports/publication_files.txt.
-Local work/ includes baseline, compiler logs, objects/ELF and refresh history; ignored/not portable/not pushed.
-v8 reused objects/DSO/anchor are also local prerequisites; /tmp is not permanent storage.
-This handoff is saved before publication. Commit/push success only if work/publication-result.json and remote HEAD agree.
-No main/force push/merge. Preserve any unrelated staging; stop publication on authentication/conflict/unexpected paths.
+## Preservation / publication / processes
 
-## Prior checkpoints
+Only new ignored v10 and intended handoff edit belong to this task. Existing tracked v9/old artifacts/main dirty/dangling
+symlink checks pass; native inputs/objects only read/hash except newly generated v10 outputs. No old work stopped/restarted.
+Issued compiler/link/test commands observed exited; same-user project-CWD snapshot showed no other tasks; remote/external-CWD tasks UNKNOWN.
+Local work contains immutable-versioned compiler outputs/logs and baseline/receipts; binaries/raw logs excluded from Git publication.
+Exact lightweight files: reports/publication_files.txt. /tmp and ignored work are not durable or automatically portable.
+Another host needs exact local binaries/backings or a fresh compiler-only build+new contract+tests+approval.
+This handoff precedes checkpoint commit; publication success requires actual push+remote match in work/publication-result.json.
+No main/force push/merge or unrelated staging. Do not execute anything in response to publishing or account change alone.
 
-v8 frozen report: validation/gazebo-request-guard-v8/reports/final_report.md (local repair checkpoint history).
-v8 actual publication baseline:35bc722; local receipt validation/gazebo-request-guard-v8/work/publication-result.json.
-v7 resource calculations: validation/gazebo-request-guard-v7/reports/resource_decision.json.
-Original sealed contract: validation/gazebo-joint-execution-contract-v1/reports/manifest.json.
+## Historical context
+
+v9 final/candidate: validation/gazebo-request-guard-v9/reports/ (published e37a692).
+Historical harmless: validation/gazebo-joint-resolution-v1/reports/harmless_summary.json and harmless_runtime/ (not rerun).
+Original sealed contract: validation/gazebo-joint-execution-contract-v1/reports/manifest.json; unchanged, not new runtime authorization.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-10T10:12:38.589071+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "e37a69229a1a1a77937f0c22335a78a2858f86a0",
+    "branch": "experiment/dart-internal-trace",
+    "status": [
+      {
+        "status": "??",
+        "path": "libgz-physics-dartsim-plugin.so"
+      }
+    ],
+    "snapshot_note": "Base HEAD and original clean tracked-state observation; intended55-file v10 checkpoint is staged separately; exact list publication_files.txt."
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-request-guard-v10/reports/final_report.md",
+      "sha256": "7ce8ed3d45ca233efde78ef4834e6a2f071d0e44ca02a0a645c717f94c16b49f"
+    },
+    {
+      "path": "validation/gazebo-request-guard-v10/reports/tests.json",
+      "sha256": "f333b198db045193ae12d8b83da0cc697988bf77ee8b585bd4494f843e8eeab7"
+    },
+    {
+      "path": "validation/gazebo-request-guard-v10/reports/execution_contract.json",
+      "sha256": "63f630e5e0aee7c19c09b693a8cc9c6d45e54f77b8d022820eb0b6b85c5a7395"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "same-user project-CWD helper snapshot 2026-11-10T09:58:40Z; remote/external-CWD UNKNOWN; no arguments/environment recorded",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
