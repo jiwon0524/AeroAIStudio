@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "execution_contract": false,
+  "deployed": false,
+  "status": "BLOCKED_NONEXEC_PREPARATION_INCOMPLETE",
+  "parent_contract_sha256": "789737d947f8c0ebd1466300792667fc9c838adba5834168e5c82bc6e4846aae",
+  "controller": {
+    "entry": "scripts/controller.py:receive -> Controller.run",
+    "native_owner": "inputs/launch.c:candidate_run -> candidate_supervise",
+    "source_sha256": "69a30800068e1bc6e913fc1b43a2869b183e22a03b15c4b1435478bd88aecc74",
+    "native_elf_sha256": "5890907a0427ee5b7bd190bea2e9fbb290bf30a580ccef181408e17193fb0581",
+    "handoff": "v5 receive_audit credentials/executable/PID-start/pidfd + LiveReader; A only after 5 preexec journal rows",
+    "final": "source COMPLETE + audit EOF + original NativeSession GO/100 samples/live mapping/EXIT_ACK + stdout/stderr EOF + actual target exit/cleanup/integrity -> V",
+    "owner_placement": "UNRESOLVED: owner awaiting V must not belong to target cleanup domain; no automatic domain/limit changes",
+    "activated": false
+  },
+  "required_paths": 468,
+  "compiled_paths": 452,
+  "missing_paths": 16,
+  "missing_original_objects": 5,
+  "resource_decision": "KEEP_LIMITS_DENY_LARGE_OBJECTS; no live reusable sealed objects",
+  "identity_projection": "BLOCKED: old compiled native and collector expect original dev/inode, not new run-scoped copy identities",
+  "normal_runtime": "UNVERIFIED: file-backed mmap/executable mprotect/path metadata still denied; pthread/clone3 ABI and policy inheritance need runtime",
+  "runtime_approval_ready": false,
+  "launcher_exit": 78,
+  "stage_b": "BLOCKED",
+  "risk_acceptance": "UNDECIDED",
+  "actual_runtime": "UNVERIFIED"
+}
