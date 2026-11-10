@@ -1,0 +1,5952 @@
+{
+  "status": "STATIC_ONLY",
+  "native_public_exports_missing": [],
+  "native_needed_unchanged": true,
+  "native_needed": [
+    "libcrypto.so.3",
+    "libstdc++.so.6",
+    "libgcc_s.so.1",
+    "libc.so.6"
+  ],
+  "objects": [
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libBulletCollision.so.3.24",
+      "bytes": 829848,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 184152,
+          "memsz": 184152
+        },
+        {
+          "flags": 5,
+          "filesz": 529033,
+          "memsz": 529033
+        },
+        {
+          "flags": 4,
+          "filesz": 85894,
+          "memsz": 85894
+        },
+        {
+          "flags": 6,
+          "filesz": 23166,
+          "memsz": 30520
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libLinearMath.so.3.24",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libLinearMath.so.3.24",
+      "bytes": 136600,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 13536,
+          "memsz": 13536
+        },
+        {
+          "flags": 5,
+          "filesz": 76889,
+          "memsz": 76889
+        },
+        {
+          "flags": 4,
+          "filesz": 8914,
+          "memsz": 8914
+        },
+        {
+          "flags": 6,
+          "filesz": 28732,
+          "memsz": 28820
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libccd.so.2.0",
+      "bytes": 44056,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 3080,
+          "memsz": 3080
+        },
+        {
+          "flags": 5,
+          "filesz": 31369,
+          "memsz": 31369
+        },
+        {
+          "flags": 4,
+          "filesz": 1976,
+          "memsz": 1976
+        },
+        {
+          "flags": 6,
+          "filesz": 1752,
+          "memsz": 1800
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libm.so.6",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0",
+      "bytes": 5679280,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 1144488,
+          "memsz": 1144488
+        },
+        {
+          "flags": 5,
+          "filesz": 3588201,
+          "memsz": 3588201
+        },
+        {
+          "flags": 4,
+          "filesz": 710168,
+          "memsz": 710168
+        },
+        {
+          "flags": 6,
+          "filesz": 223992,
+          "memsz": 243904
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libccd.so.2",
+        "liboctomap.so.1.9",
+        "liboctomath.so.1.9",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomap.so.1.9.7",
+      "bytes": 256328,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 37336,
+          "memsz": 37336
+        },
+        {
+          "flags": 5,
+          "filesz": 159381,
+          "memsz": 159381
+        },
+        {
+          "flags": 4,
+          "filesz": 46191,
+          "memsz": 46191
+        },
+        {
+          "flags": 6,
+          "filesz": 6064,
+          "memsz": 6192
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "liboctomath.so.1.9",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/liboctomath.so.1.9.7",
+      "bytes": 22776,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 6680,
+          "memsz": 6680
+        },
+        {
+          "flags": 5,
+          "filesz": 7817,
+          "memsz": 7817
+        },
+        {
+          "flags": 4,
+          "filesz": 2481,
+          "memsz": 2481
+        },
+        {
+          "flags": 6,
+          "filesz": 752,
+          "memsz": 760
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-closure-v1/work/deps/usr/lib/x86_64-linux-gnu/libode.so.8.0.2",
+      "bytes": 1128616,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 164648,
+          "memsz": 164648
+        },
+        {
+          "flags": 5,
+          "filesz": 802681,
+          "memsz": 802681
+        },
+        {
+          "flags": 4,
+          "filesz": 146658,
+          "memsz": 146658
+        },
+        {
+          "flags": 6,
+          "filesz": 8976,
+          "memsz": 39016
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libccd.so.2",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libc.so.6",
+        "libgcc_s.so.1"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/gz-physics-7/engine-plugins/libgz-physics7-dartsim-plugin.so.7.8.0",
+      "bytes": 99090256,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 1777664,
+          "memsz": 1777664
+        },
+        {
+          "flags": 5,
+          "filesz": 700557,
+          "memsz": 700557
+        },
+        {
+          "flags": 4,
+          "filesz": 503412,
+          "memsz": 503412
+        },
+        {
+          "flags": 6,
+          "filesz": 153664,
+          "memsz": 155040
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libdart-collision-bullet.so.6.13",
+        "libLinearMath.so.3.24",
+        "libdart-collision-ode.so.6.13",
+        "libdart.so.6.13",
+        "libsdformat14.so.14",
+        "libgz-physics7.so.7",
+        "libgz-common5-graphics.so.5",
+        "libassimp.so.5",
+        "libgz-math7.so.7",
+        "libgz-common5.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/work/prefix/lib/libgz-sim8-physics-system.so.8.15.0",
+      "bytes": 46013344,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 1428232,
+          "memsz": 1428232
+        },
+        {
+          "flags": 5,
+          "filesz": 912153,
+          "memsz": 912153
+        },
+        {
+          "flags": 4,
+          "filesz": 384667,
+          "memsz": 384667
+        },
+        {
+          "flags": 6,
+          "filesz": 165640,
+          "memsz": 168216
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libaero-resource.so",
+        "libgz-sim8.so.8",
+        "libdart.so.6.13",
+        "libgz-plugin2-loader.so.2",
+        "libgz-physics7.so.7",
+        "libgz-plugin2.so.2",
+        "libgz-common5-events.so.5",
+        "libgz-msgs10.so.10",
+        "libsdformat14.so.14",
+        "libprotobuf.so.32",
+        "libgz-common5-geospatial.so.5",
+        "libgz-common5-graphics.so.5",
+        "libgz-common5.so.5",
+        "libgz-math7.so.7",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0",
+      "bytes": 361432,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 8896,
+          "memsz": 8896
+        },
+        {
+          "flags": 5,
+          "filesz": 11925,
+          "memsz": 11925
+        },
+        {
+          "flags": 4,
+          "filesz": 2256,
+          "memsz": 2256
+        },
+        {
+          "flags": 6,
+          "filesz": 1224,
+          "memsz": 1360
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libcrypto.so.3",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2",
+      "bytes": 543979760,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 2797632,
+          "memsz": 2797632
+        },
+        {
+          "flags": 5,
+          "filesz": 4528993,
+          "memsz": 4528993
+        },
+        {
+          "flags": 4,
+          "filesz": 1103806,
+          "memsz": 1103806
+        },
+        {
+          "flags": 6,
+          "filesz": 666872,
+          "memsz": 683168
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libdart-external-odelcpsolver.so.6.13",
+        "libfcl.so.0.7",
+        "liboctomap.so.1.9",
+        "liboctomath.so.1.9",
+        "libassimp.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-codegen-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7.8.0",
+      "bytes": 2640456,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 56448,
+          "memsz": 56448
+        },
+        {
+          "flags": 5,
+          "filesz": 105361,
+          "memsz": 105361
+        },
+        {
+          "flags": 4,
+          "filesz": 28058,
+          "memsz": 28058
+        },
+        {
+          "flags": 6,
+          "filesz": 4560,
+          "memsz": 4680
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/work/prefix/lib/libgz-sim8.so.8.15.0",
+      "bytes": 74462608,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 1169736,
+          "memsz": 1169736
+        },
+        {
+          "flags": 5,
+          "filesz": 1513633,
+          "memsz": 1513633
+        },
+        {
+          "flags": 4,
+          "filesz": 445137,
+          "memsz": 445137
+        },
+        {
+          "flags": 6,
+          "filesz": 67576,
+          "memsz": 74168
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libaero-resource.so",
+        "libgz-fuel_tools9.so.9",
+        "libsdformat14.so.14",
+        "libprotobuf.so.32",
+        "libgz-plugin2-loader.so.2",
+        "libgz-plugin2.so.2",
+        "libgz-common5-events.so.5",
+        "libgz-common5-graphics.so.5",
+        "libgz-common5.so.5",
+        "libgz-transport13-parameters.so.13",
+        "libgz-transport13.so.13",
+        "libgz-msgs10.so.10",
+        "libtinyxml2.so.10",
+        "libgz-math7.so.7",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-execution-contract-v1/work/aero-joint-harness",
+      "bytes": 528696,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 7728,
+          "memsz": 7728
+        },
+        {
+          "flags": 5,
+          "filesz": 6173,
+          "memsz": 6173
+        },
+        {
+          "flags": 4,
+          "filesz": 2689,
+          "memsz": 2689
+        },
+        {
+          "flags": 6,
+          "filesz": 1136,
+          "memsz": 1160
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libgz-sim8.so.8",
+        "libtinyxml2.so.10",
+        "libsdformat14.so.14",
+        "libaero-resource.so",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0",
+      "bytes": 361432,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 8896,
+          "memsz": 8896
+        },
+        {
+          "flags": 5,
+          "filesz": 11925,
+          "memsz": 11925
+        },
+        {
+          "flags": 4,
+          "filesz": 2256,
+          "memsz": 2256
+        },
+        {
+          "flags": 6,
+          "filesz": 1224,
+          "memsz": 1360
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libcrypto.so.3",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart-external-odelcpsolver.so.6.13.2",
+      "bytes": 267112,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 9152,
+          "memsz": 9152
+        },
+        {
+          "flags": 5,
+          "filesz": 37701,
+          "memsz": 37701
+        },
+        {
+          "flags": 4,
+          "filesz": 5192,
+          "memsz": 5192
+        },
+        {
+          "flags": 6,
+          "filesz": 984,
+          "memsz": 1024
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libstdc++.so.6",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-header-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2",
+      "bytes": 543979760,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 2797632,
+          "memsz": 2797632
+        },
+        {
+          "flags": 5,
+          "filesz": 4528993,
+          "memsz": 4528993
+        },
+        {
+          "flags": 4,
+          "filesz": 1103806,
+          "memsz": 1103806
+        },
+        {
+          "flags": 6,
+          "filesz": 666872,
+          "memsz": 683168
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libdart-external-odelcpsolver.so.6.13",
+        "libfcl.so.0.7",
+        "liboctomap.so.1.9",
+        "liboctomath.so.1.9",
+        "libassimp.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-isolation-v1/work/fd_bridge",
+      "bytes": 16320,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 2096,
+          "memsz": 2096
+        },
+        {
+          "flags": 5,
+          "filesz": 1177,
+          "memsz": 1177
+        },
+        {
+          "flags": 4,
+          "filesz": 280,
+          "memsz": 280
+        },
+        {
+          "flags": 6,
+          "filesz": 664,
+          "memsz": 672
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-request-guard-v8/work/libaero-resource.so",
+      "bytes": 90144,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 17560,
+          "memsz": 17560
+        },
+        {
+          "flags": 5,
+          "filesz": 23465,
+          "memsz": 23465
+        },
+        {
+          "flags": 4,
+          "filesz": 22914,
+          "memsz": 22914
+        },
+        {
+          "flags": 6,
+          "filesz": 6408,
+          "memsz": 6720
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libcrypto.so.3",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-native-resource-v1/work/prefix/lib/libsdformat14.so.14.9.0",
+      "bytes": 64564752,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 345792,
+          "memsz": 345792
+        },
+        {
+          "flags": 5,
+          "filesz": 2416753,
+          "memsz": 2416753
+        },
+        {
+          "flags": 4,
+          "filesz": 1094584,
+          "memsz": 1094584
+        },
+        {
+          "flags": 6,
+          "filesz": 23712,
+          "memsz": 24760
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libaero-resource.so",
+        "libgz-math7.so.7",
+        "libgz-utils2.so.2",
+        "libtinyxml2.so.10",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libaero-joint-probe.so.1.0",
+      "bytes": 361432,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 8896,
+          "memsz": 8896
+        },
+        {
+          "flags": 5,
+          "filesz": 11925,
+          "memsz": 11925
+        },
+        {
+          "flags": 4,
+          "filesz": 2256,
+          "memsz": 2256
+        },
+        {
+          "flags": 6,
+          "filesz": 1224,
+          "memsz": 1360
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libcrypto.so.3",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-bullet.so.6.13.2",
+      "bytes": 18102136,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 162400,
+          "memsz": 162400
+        },
+        {
+          "flags": 5,
+          "filesz": 267785,
+          "memsz": 267785
+        },
+        {
+          "flags": 4,
+          "filesz": 63375,
+          "memsz": 63375
+        },
+        {
+          "flags": 6,
+          "filesz": 13912,
+          "memsz": 14464
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libdart.so.6.13",
+        "libBulletCollision.so.3.24",
+        "libLinearMath.so.3.24",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart-collision-ode.so.6.13.2",
+      "bytes": 31037912,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 156464,
+          "memsz": 156464
+        },
+        {
+          "flags": 5,
+          "filesz": 310049,
+          "memsz": 310049
+        },
+        {
+          "flags": 4,
+          "filesz": 83867,
+          "memsz": 83867
+        },
+        {
+          "flags": 6,
+          "filesz": 16360,
+          "memsz": 16760
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libdart.so.6.13",
+        "libode.so.8",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libdart.so.6.13.2",
+      "bytes": 543979760,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 2797632,
+          "memsz": 2797632
+        },
+        {
+          "flags": 5,
+          "filesz": 4528993,
+          "memsz": 4528993
+        },
+        {
+          "flags": 4,
+          "filesz": 1103806,
+          "memsz": 1103806
+        },
+        {
+          "flags": 6,
+          "filesz": 666872,
+          "memsz": 683168
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libaero-joint-probe.so.1",
+        "libdart-external-odelcpsolver.so.6.13",
+        "libfcl.so.0.7",
+        "liboctomap.so.1.9",
+        "liboctomath.so.1.9",
+        "libassimp.so.5",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-joint-physics-fix-v1/work/config-01/prefix/lib/libgz-physics7.so.7.8.0",
+      "bytes": 2640456,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 56448,
+          "memsz": 56448
+        },
+        {
+          "flags": 5,
+          "filesz": 105361,
+          "memsz": 105361
+        },
+        {
+          "flags": 4,
+          "filesz": 28058,
+          "memsz": 28058
+        },
+        {
+          "flags": 6,
+          "filesz": 4560,
+          "memsz": 4680
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/libarmadillo.so.12.6.7",
+      "bytes": 73728,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 36856,
+          "memsz": 36856
+        },
+        {
+          "flags": 5,
+          "filesz": 15721,
+          "memsz": 15721
+        },
+        {
+          "flags": 4,
+          "filesz": 13032,
+          "memsz": 13032
+        },
+        {
+          "flags": 6,
+          "filesz": 2688,
+          "memsz": 2696
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libblas.so.3",
+        "liblapack.so.3",
+        "libarpack.so.2",
+        "libsuperlu.so.6",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0",
+      "bytes": 677880,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 20520,
+          "memsz": 20520
+        },
+        {
+          "flags": 5,
+          "filesz": 628481,
+          "memsz": 628481
+        },
+        {
+          "flags": 4,
+          "filesz": 18116,
+          "memsz": 18116
+        },
+        {
+          "flags": 6,
+          "filesz": 2120,
+          "memsz": 2136
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libm.so.6",
+        "libc.so.6",
+        "libgcc_s.so.1"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0",
+      "bytes": 7268368,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 128640,
+          "memsz": 128640
+        },
+        {
+          "flags": 5,
+          "filesz": 6980081,
+          "memsz": 6980081
+        },
+        {
+          "flags": 4,
+          "filesz": 132108,
+          "memsz": 132108
+        },
+        {
+          "flags": 6,
+          "filesz": 17592,
+          "memsz": 17768
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libblas.so.3",
+        "libgfortran.so.5",
+        "libm.so.6",
+        "libc.so.6",
+        "libgcc_s.so.1"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "bytes": 236616,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 3520,
+          "memsz": 3520
+        },
+        {
+          "flags": 5,
+          "filesz": 172437,
+          "memsz": 172437
+        },
+        {
+          "flags": 4,
+          "filesz": 39132,
+          "memsz": 39132
+        },
+        {
+          "flags": 6,
+          "filesz": 11684,
+          "memsz": 12152
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": []
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libIex-3_1.so.30.5.1",
+      "bytes": 534864,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 329520,
+          "memsz": 329520
+        },
+        {
+          "flags": 5,
+          "filesz": 97889,
+          "memsz": 97889
+        },
+        {
+          "flags": 4,
+          "filesz": 85351,
+          "memsz": 85351
+        },
+        {
+          "flags": 6,
+          "filesz": 14056,
+          "memsz": 14080
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libIlmThread-3_1.so.30.5.1",
+      "bytes": 35152,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 10832,
+          "memsz": 10832
+        },
+        {
+          "flags": 5,
+          "filesz": 8429,
+          "memsz": 8429
+        },
+        {
+          "flags": 4,
+          "filesz": 4335,
+          "memsz": 4335
+        },
+        {
+          "flags": 6,
+          "filesz": 1600,
+          "memsz": 1648
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libIex-3_1.so.30",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libImath-3_1.so.29.8.0",
+      "bytes": 313344,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 5904,
+          "memsz": 5904
+        },
+        {
+          "flags": 5,
+          "filesz": 35401,
+          "memsz": 35401
+        },
+        {
+          "flags": 4,
+          "filesz": 264520,
+          "memsz": 264520
+        },
+        {
+          "flags": 6,
+          "filesz": 704,
+          "memsz": 1160
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libstdc++.so.6",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libLerc.so.4",
+      "bytes": 546992,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 19240,
+          "memsz": 19240
+        },
+        {
+          "flags": 5,
+          "filesz": 490681,
+          "memsz": 490681
+        },
+        {
+          "flags": 4,
+          "filesz": 29583,
+          "memsz": 29583
+        },
+        {
+          "flags": 6,
+          "filesz": 1328,
+          "memsz": 1336
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libOpenEXR-3_1.so.30.5.1",
+      "bytes": 3160520,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 232848,
+          "memsz": 232848
+        },
+        {
+          "flags": 5,
+          "filesz": 753797,
+          "memsz": 753797
+        },
+        {
+          "flags": 4,
+          "filesz": 2155502,
+          "memsz": 2155502
+        },
+        {
+          "flags": 6,
+          "filesz": 9360,
+          "memsz": 13280
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libImath-3_1.so.29",
+        "libIlmThread-3_1.so.30",
+        "libz.so.1",
+        "libIex-3_1.so.30",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libaec.so.0.1.2",
+      "bytes": 34808,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 3800,
+          "memsz": 3800
+        },
+        {
+          "flags": 5,
+          "filesz": 20013,
+          "memsz": 20013
+        },
+        {
+          "flags": 4,
+          "filesz": 3520,
+          "memsz": 3520
+        },
+        {
+          "flags": 6,
+          "filesz": 656,
+          "memsz": 664
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libarpack.so.2.1.0",
+      "bytes": 298168,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 12688,
+          "memsz": 12688
+        },
+        {
+          "flags": 5,
+          "filesz": 252697,
+          "memsz": 252697
+        },
+        {
+          "flags": 4,
+          "filesz": 22892,
+          "memsz": 22892
+        },
+        {
+          "flags": 6,
+          "filesz": 1780,
+          "memsz": 4048
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "liblapack.so.3",
+        "libblas.so.3",
+        "libgfortran.so.5",
+        "libm.so.6",
+        "libc.so.6",
+        "libgcc_s.so.1"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libassimp.so.5.3.0",
+      "bytes": 7547664,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 903632,
+          "memsz": 903632
+        },
+        {
+          "flags": 5,
+          "filesz": 5094773,
+          "memsz": 5094773
+        },
+        {
+          "flags": 4,
+          "filesz": 1058604,
+          "memsz": 1058604
+        },
+        {
+          "flags": 6,
+          "filesz": 482289,
+          "memsz": 502552
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libz.so.1",
+        "libdraco.so.8",
+        "libminizip.so.1",
+        "libpugixml.so.1",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libblosc.so.1.21.5",
+      "bytes": 59392,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 5656,
+          "memsz": 5656
+        },
+        {
+          "flags": 5,
+          "filesz": 39421,
+          "memsz": 39421
+        },
+        {
+          "flags": 4,
+          "filesz": 6128,
+          "memsz": 6128
+        },
+        {
+          "flags": 6,
+          "filesz": 1008,
+          "memsz": 1456
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "liblz4.so.1",
+        "libsnappy.so.1",
+        "libz.so.1",
+        "libzstd.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.1.0",
+      "bytes": 141640,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 2136,
+          "memsz": 2136
+        },
+        {
+          "flags": 5,
+          "filesz": 1997,
+          "memsz": 1997
+        },
+        {
+          "flags": 4,
+          "filesz": 126208,
+          "memsz": 126208
+        },
+        {
+          "flags": 6,
+          "filesz": 848,
+          "memsz": 856
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.1.0",
+      "bytes": 51512,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 3248,
+          "memsz": 3248
+        },
+        {
+          "flags": 5,
+          "filesz": 31705,
+          "memsz": 31705
+        },
+        {
+          "flags": 4,
+          "filesz": 9564,
+          "memsz": 9564
+        },
+        {
+          "flags": 6,
+          "filesz": 696,
+          "memsz": 704
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libbrotlicommon.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libbsd.so.0.12.1",
+      "bytes": 80888,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 14176,
+          "memsz": 14176
+        },
+        {
+          "flags": 5,
+          "filesz": 46341,
+          "memsz": 46341
+        },
+        {
+          "flags": 4,
+          "filesz": 10276,
+          "memsz": 10276
+        },
+        {
+          "flags": 6,
+          "filesz": 1544,
+          "memsz": 5824
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libmd.so.0",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libbz2.so.1.0.4",
+      "bytes": 78944,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 4680,
+          "memsz": 4680
+        },
+        {
+          "flags": 5,
+          "filesz": 53249,
+          "memsz": 53249
+        },
+        {
+          "flags": 4,
+          "filesz": 4952,
+          "memsz": 4952
+        },
+        {
+          "flags": 6,
+          "filesz": 3984,
+          "memsz": 3992
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "bytes": 2129424,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 160656,
+          "memsz": 160656
+        },
+        {
+          "flags": 5,
+          "filesz": 1605689,
+          "memsz": 1605689
+        },
+        {
+          "flags": 4,
+          "filesz": 319714,
+          "memsz": 319714
+        },
+        {
+          "flags": 6,
+          "filesz": 19048,
+          "memsz": 74032
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libcfitsio.so.10.4.3.1",
+      "bytes": 1535352,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 102408,
+          "memsz": 102408
+        },
+        {
+          "flags": 5,
+          "filesz": 1199889,
+          "memsz": 1199889
+        },
+        {
+          "flags": 4,
+          "filesz": 218016,
+          "memsz": 218016
+        },
+        {
+          "flags": 6,
+          "filesz": 6912,
+          "memsz": 1646024
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libm.so.6",
+        "libcurl-gnutls.so.4",
+        "libz.so.1",
+        "libbz2.so.1.0",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libcom_err.so.2.1",
+      "bytes": 18504,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 4248,
+          "memsz": 4248
+        },
+        {
+          "flags": 5,
+          "filesz": 4049,
+          "memsz": 4049
+        },
+        {
+          "flags": 4,
+          "filesz": 1220,
+          "memsz": 1220
+        },
+        {
+          "flags": 6,
+          "filesz": 872,
+          "memsz": 928
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libcrypto.so.3",
+      "bytes": 5309400,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 733064,
+          "memsz": 733064
+        },
+        {
+          "flags": 5,
+          "filesz": 3355569,
+          "memsz": 3355569
+        },
+        {
+          "flags": 4,
+          "filesz": 828984,
+          "memsz": 828984
+        },
+        {
+          "flags": 6,
+          "filesz": 384344,
+          "memsz": 396768
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libcurl-gnutls.so.4.8.0",
+      "bytes": 765856,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 62608,
+          "memsz": 62608
+        },
+        {
+          "flags": 5,
+          "filesz": 555329,
+          "memsz": 555329
+        },
+        {
+          "flags": 4,
+          "filesz": 113936,
+          "memsz": 113936
+        },
+        {
+          "flags": 6,
+          "filesz": 24448,
+          "memsz": 25664
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libnghttp2.so.14",
+        "libidn2.so.0",
+        "librtmp.so.1",
+        "libssh.so.4",
+        "libpsl.so.5",
+        "libnettle.so.8",
+        "libgnutls.so.30",
+        "libgssapi_krb5.so.2",
+        "libldap.so.2",
+        "liblber.so.2",
+        "libzstd.so.1",
+        "libbrotlidec.so.1",
+        "libz.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libcurl.so.4.8.0",
+      "bytes": 786336,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 69088,
+          "memsz": 69088
+        },
+        {
+          "flags": 5,
+          "filesz": 572949,
+          "memsz": 572949
+        },
+        {
+          "flags": 4,
+          "filesz": 114944,
+          "memsz": 114944
+        },
+        {
+          "flags": 6,
+          "filesz": 24736,
+          "memsz": 25952
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libnghttp2.so.14",
+        "libidn2.so.0",
+        "librtmp.so.1",
+        "libssh.so.4",
+        "libpsl.so.5",
+        "libssl.so.3",
+        "libcrypto.so.3",
+        "libgssapi_krb5.so.2",
+        "libldap.so.2",
+        "liblber.so.2",
+        "libzstd.so.1",
+        "libbrotlidec.so.1",
+        "libz.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libdeflate.so.0",
+      "bytes": 75808,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 3008,
+          "memsz": 3008
+        },
+        {
+          "flags": 5,
+          "filesz": 49109,
+          "memsz": 49109
+        },
+        {
+          "flags": 4,
+          "filesz": 15860,
+          "memsz": 15860
+        },
+        {
+          "flags": 6,
+          "filesz": 648,
+          "memsz": 656
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libdfalt.so.0.0.0",
+      "bytes": 499792,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 52184,
+          "memsz": 52184
+        },
+        {
+          "flags": 5,
+          "filesz": 371921,
+          "memsz": 371921
+        },
+        {
+          "flags": 4,
+          "filesz": 63840,
+          "memsz": 63840
+        },
+        {
+          "flags": 6,
+          "filesz": 7680,
+          "memsz": 176320
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libjpeg.so.8",
+        "libz.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libdraco.so.8.0.0",
+      "bytes": 2853216,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 433352,
+          "memsz": 433352
+        },
+        {
+          "flags": 5,
+          "filesz": 2055365,
+          "memsz": 2055365
+        },
+        {
+          "flags": 4,
+          "filesz": 342268,
+          "memsz": 342268
+        },
+        {
+          "flags": 6,
+          "filesz": 17720,
+          "memsz": 18136
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libexpat.so.1.9.1",
+      "bytes": 186624,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 13072,
+          "memsz": 13072
+        },
+        {
+          "flags": 5,
+          "filesz": 124033,
+          "memsz": 124033
+        },
+        {
+          "flags": 4,
+          "filesz": 30836,
+          "memsz": 30836
+        },
+        {
+          "flags": 6,
+          "filesz": 6984,
+          "memsz": 6992
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libffi.so.8.1.4",
+      "bytes": 47672,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 6272,
+          "memsz": 6272
+        },
+        {
+          "flags": 5,
+          "filesz": 24713,
+          "memsz": 24713
+        },
+        {
+          "flags": 4,
+          "filesz": 3704,
+          "memsz": 3704
+        },
+        {
+          "flags": 6,
+          "filesz": 1264,
+          "memsz": 2464
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.1",
+      "bytes": 325712,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 29432,
+          "memsz": 29432
+        },
+        {
+          "flags": 5,
+          "filesz": 189181,
+          "memsz": 189181
+        },
+        {
+          "flags": 4,
+          "filesz": 90376,
+          "memsz": 90376
+        },
+        {
+          "flags": 6,
+          "filesz": 6336,
+          "memsz": 6968
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libfreetype.so.6",
+        "libexpat.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libfreeimage-3.18.0.so",
+      "bytes": 753024,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 105800,
+          "memsz": 105800
+        },
+        {
+          "flags": 5,
+          "filesz": 491153,
+          "memsz": 491153
+        },
+        {
+          "flags": 4,
+          "filesz": 105052,
+          "memsz": 105052
+        },
+        {
+          "flags": 6,
+          "filesz": 47082,
+          "memsz": 47560
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libstdc++.so.6",
+        "libjxrglue.so.0",
+        "libjpeg.so.8",
+        "libopenjp2.so.7",
+        "libpng16.so.16",
+        "libraw.so.23",
+        "libtiff.so.6",
+        "libwebpmux.so.3",
+        "libOpenEXR-3_1.so.30",
+        "libIex-3_1.so.30",
+        "libImath-3_1.so.29",
+        "libz.so.1",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libfreetype.so.6.20.1",
+      "bytes": 833608,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 50336,
+          "memsz": 50336
+        },
+        {
+          "flags": 5,
+          "filesz": 591577,
+          "memsz": 591577
+        },
+        {
+          "flags": 4,
+          "filesz": 155604,
+          "memsz": 155604
+        },
+        {
+          "flags": 6,
+          "filesz": 28120,
+          "memsz": 28128
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libz.so.1",
+        "libbz2.so.1.0",
+        "libpng16.so.16",
+        "libbrotlidec.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libfreexl.so.1.2.0",
+      "bytes": 63488,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 4928,
+          "memsz": 4928
+        },
+        {
+          "flags": 5,
+          "filesz": 44753,
+          "memsz": 44753
+        },
+        {
+          "flags": 4,
+          "filesz": 6548,
+          "memsz": 6548
+        },
+        {
+          "flags": 6,
+          "filesz": 952,
+          "memsz": 960
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libm.so.6",
+        "libexpat.so.1",
+        "libminizip.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libfyba.so.0.0.0",
+      "bytes": 219376,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 28656,
+          "memsz": 28656
+        },
+        {
+          "flags": 5,
+          "filesz": 155361,
+          "memsz": 155361
+        },
+        {
+          "flags": 4,
+          "filesz": 29342,
+          "memsz": 29342
+        },
+        {
+          "flags": 6,
+          "filesz": 1528,
+          "memsz": 129064
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libfyut.so.0",
+        "libfygm.so.0",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libc.so.6",
+        "libgcc_s.so.1"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libfygm.so.0.0.0",
+      "bytes": 30872,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 4152,
+          "memsz": 4152
+        },
+        {
+          "flags": 5,
+          "filesz": 15485,
+          "memsz": 15485
+        },
+        {
+          "flags": 4,
+          "filesz": 1980,
+          "memsz": 1980
+        },
+        {
+          "flags": 6,
+          "filesz": 680,
+          "memsz": 688
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libfyut.so.0",
+        "libm.so.6",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libfyut.so.0.0.0",
+      "bytes": 39080,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 9792,
+          "memsz": 9792
+        },
+        {
+          "flags": 5,
+          "filesz": 16185,
+          "memsz": 16185
+        },
+        {
+          "flags": 4,
+          "filesz": 6588,
+          "memsz": 6588
+        },
+        {
+          "flags": 6,
+          "filesz": 1071,
+          "memsz": 1112
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "bytes": 183024,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 14048,
+          "memsz": 14048
+        },
+        {
+          "flags": 5,
+          "filesz": 145237,
+          "memsz": 145237
+        },
+        {
+          "flags": 4,
+          "filesz": 15104,
+          "memsz": 15104
+        },
+        {
+          "flags": 6,
+          "filesz": 1088,
+          "memsz": 1560
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgdal.so.34.3.8.4",
+      "bytes": 24721008,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 2963824,
+          "memsz": 2963824
+        },
+        {
+          "flags": 5,
+          "filesz": 16931901,
+          "memsz": 16931901
+        },
+        {
+          "flags": 4,
+          "filesz": 3835482,
+          "memsz": 3835482
+        },
+        {
+          "flags": 6,
+          "filesz": 984312,
+          "memsz": 1258824
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libz.so.1",
+        "libcurl.so.4",
+        "libodbc.so.2",
+        "libodbcinst.so.2",
+        "libxml2.so.2",
+        "libcrypto.so.3",
+        "liblzma.so.5",
+        "libdeflate.so.0",
+        "liblz4.so.1",
+        "libblosc.so.1",
+        "libarmadillo.so.12",
+        "libqhull_r.so.8.0",
+        "libxerces-c-3.2.so",
+        "libjpeg.so.8",
+        "libtiff.so.6",
+        "libgeotiff.so.5",
+        "libheif.so.1",
+        "libpng16.so.16",
+        "libzstd.so.1",
+        "libaec.so.0",
+        "libpoppler.so.134",
+        "libgif.so.7",
+        "libnetcdf.so.19",
+        "libcfitsio.so.10",
+        "libhdf5_serial.so.103",
+        "libm.so.6",
+        "libwebp.so.7",
+        "libsqlite3.so.0",
+        "libpq.so.5",
+        "libopenjp2.so.7",
+        "libkmlbase.so.1",
+        "libkmldom.so.1",
+        "libkmlengine.so.1",
+        "libfyba.so.0",
+        "libpcre2-8.so.0",
+        "libspatialite.so.8",
+        "libmysqlclient.so.21",
+        "libfreexl.so.1",
+        "libogdi.so.4.1",
+        "libexpat.so.1",
+        "libgeos_c.so.1",
+        "libproj.so.25",
+        "libjson-c.so.5",
+        "libdfalt.so.0",
+        "libmfhdfalt.so.0",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgeos.so.3.12.1",
+      "bytes": 2521472,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 545816,
+          "memsz": 545816
+        },
+        {
+          "flags": 5,
+          "filesz": 1558217,
+          "memsz": 1558217
+        },
+        {
+          "flags": 4,
+          "filesz": 379844,
+          "memsz": 379844
+        },
+        {
+          "flags": 6,
+          "filesz": 27292,
+          "memsz": 27800
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgeos_c.so.1.18.1",
+      "bytes": 297144,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 63624,
+          "memsz": 63624
+        },
+        {
+          "flags": 5,
+          "filesz": 165653,
+          "memsz": 165653
+        },
+        {
+          "flags": 4,
+          "filesz": 55379,
+          "memsz": 55379
+        },
+        {
+          "flags": 6,
+          "filesz": 3640,
+          "memsz": 3952
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libgeos.so.3.12.1",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgeotiff.so.5.2.1",
+      "bytes": 215264,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 61016,
+          "memsz": 61016
+        },
+        {
+          "flags": 5,
+          "filesz": 53465,
+          "memsz": 53465
+        },
+        {
+          "flags": 4,
+          "filesz": 57532,
+          "memsz": 57532
+        },
+        {
+          "flags": 6,
+          "filesz": 35120,
+          "memsz": 37360
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libtiff.so.6",
+        "libproj.so.25",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgfortran.so.5.0.0",
+      "bytes": 3263912,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 115672,
+          "memsz": 115672
+        },
+        {
+          "flags": 5,
+          "filesz": 2966821,
+          "memsz": 2966821
+        },
+        {
+          "flags": 4,
+          "filesz": 163984,
+          "memsz": 163984
+        },
+        {
+          "flags": 6,
+          "filesz": 8260,
+          "memsz": 9128
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgif.so.7.2.0",
+      "bytes": 38904,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 5608,
+          "memsz": 5608
+        },
+        {
+          "flags": 5,
+          "filesz": 20129,
+          "memsz": 20129
+        },
+        {
+          "flags": 4,
+          "filesz": 5640,
+          "memsz": 5640
+        },
+        {
+          "flags": 6,
+          "filesz": 744,
+          "memsz": 752
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0",
+      "bytes": 1343056,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 121712,
+          "memsz": 121712
+        },
+        {
+          "flags": 5,
+          "filesz": 653393,
+          "memsz": 653393
+        },
+        {
+          "flags": 4,
+          "filesz": 554640,
+          "memsz": 554640
+        },
+        {
+          "flags": 6,
+          "filesz": 4840,
+          "memsz": 8016
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libm.so.6",
+        "libpcre2-8.so.0",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgmp.so.10.5.0",
+      "bytes": 534896,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 37208,
+          "memsz": 37208
+        },
+        {
+          "flags": 5,
+          "filesz": 401825,
+          "memsz": 401825
+        },
+        {
+          "flags": 4,
+          "filesz": 83404,
+          "memsz": 83404
+        },
+        {
+          "flags": 6,
+          "filesz": 2168,
+          "memsz": 2272
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgnutls.so.30.37.1",
+      "bytes": 2065824,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 206320,
+          "memsz": 206320
+        },
+        {
+          "flags": 5,
+          "filesz": 1284493,
+          "memsz": 1284493
+        },
+        {
+          "flags": 4,
+          "filesz": 493912,
+          "memsz": 493912
+        },
+        {
+          "flags": 6,
+          "filesz": 71152,
+          "memsz": 83520
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libp11-kit.so.0",
+        "libidn2.so.0",
+        "libunistring.so.5",
+        "libtasn1.so.6",
+        "libnettle.so.8",
+        "libhogweed.so.6",
+        "libgmp.so.10",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0",
+      "bytes": 352304,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 41880,
+          "memsz": 41880
+        },
+        {
+          "flags": 5,
+          "filesz": 244977,
+          "memsz": 244977
+        },
+        {
+          "flags": 4,
+          "filesz": 52288,
+          "memsz": 52288
+        },
+        {
+          "flags": 6,
+          "filesz": 3272,
+          "memsz": 4112
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2",
+      "bytes": 338696,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 45264,
+          "memsz": 45264
+        },
+        {
+          "flags": 5,
+          "filesz": 236485,
+          "memsz": 236485
+        },
+        {
+          "flags": 4,
+          "filesz": 38776,
+          "memsz": 38776
+        },
+        {
+          "flags": 6,
+          "filesz": 9192,
+          "memsz": 9744
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libkrb5.so.3",
+        "libk5crypto.so.3",
+        "libcom_err.so.2",
+        "libkrb5support.so.0",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgts-0.7.so.5.0.1",
+      "bytes": 375768,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 30160,
+          "memsz": 30160
+        },
+        {
+          "flags": 5,
+          "filesz": 273081,
+          "memsz": 273081
+        },
+        {
+          "flags": 4,
+          "filesz": 61028,
+          "memsz": 61028
+        },
+        {
+          "flags": 6,
+          "filesz": 1552,
+          "memsz": 1936
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libm.so.6",
+        "libglib-2.0.so.0",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-common5-events.so.5.9.0",
+      "bytes": 22848,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 8576,
+          "memsz": 8576
+        },
+        {
+          "flags": 5,
+          "filesz": 3241,
+          "memsz": 3241
+        },
+        {
+          "flags": 4,
+          "filesz": 2474,
+          "memsz": 2474
+        },
+        {
+          "flags": 6,
+          "filesz": 832,
+          "memsz": 840
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libgz-common5.so.5",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-common5-geospatial.so.5.9.0",
+      "bytes": 51984,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 12736,
+          "memsz": 12736
+        },
+        {
+          "flags": 5,
+          "filesz": 21961,
+          "memsz": 21961
+        },
+        {
+          "flags": 4,
+          "filesz": 5663,
+          "memsz": 5663
+        },
+        {
+          "flags": 6,
+          "filesz": 1512,
+          "memsz": 2192
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libgz-common5-graphics.so.5",
+        "libgz-math7.so.7",
+        "libgdal.so.34",
+        "libgz-common5.so.5",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-common5-graphics.so.5.9.0",
+      "bytes": 947080,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 138712,
+          "memsz": 138712
+        },
+        {
+          "flags": 5,
+          "filesz": 669129,
+          "memsz": 669129
+        },
+        {
+          "flags": 4,
+          "filesz": 122834,
+          "memsz": 122834
+        },
+        {
+          "flags": 6,
+          "filesz": 8680,
+          "memsz": 18112
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libgz-common5.so.5",
+        "libgz-math7.so.7",
+        "libassimp.so.5",
+        "libgts-0.7.so.5",
+        "libfreeimage.so.3",
+        "libtinyxml2.so.10",
+        "libglib-2.0.so.0",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-common5.so.5.9.0",
+      "bytes": 385624,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 78848,
+          "memsz": 78848
+        },
+        {
+          "flags": 5,
+          "filesz": 237421,
+          "memsz": 237421
+        },
+        {
+          "flags": 4,
+          "filesz": 55892,
+          "memsz": 55892
+        },
+        {
+          "flags": 6,
+          "filesz": 6040,
+          "memsz": 8040
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libuuid.so.1",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-fuel_tools9.so.9.1.1",
+      "bytes": 570944,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 91520,
+          "memsz": 91520
+        },
+        {
+          "flags": 5,
+          "filesz": 386125,
+          "memsz": 386125
+        },
+        {
+          "flags": 4,
+          "filesz": 74440,
+          "memsz": 74440
+        },
+        {
+          "flags": 6,
+          "filesz": 7328,
+          "memsz": 7496
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libgz-common5.so.5",
+        "libgz-msgs10.so.10",
+        "libjsoncpp.so.25",
+        "libtinyxml2.so.10",
+        "libyaml-0.so.2",
+        "libzip.so.4",
+        "libgz-math7.so.7",
+        "libprotobuf.so.32",
+        "libcurl.so.4",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-math7.so.7.7.0",
+      "bytes": 352248,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 85392,
+          "memsz": 85392
+        },
+        {
+          "flags": 5,
+          "filesz": 208729,
+          "memsz": 208729
+        },
+        {
+          "flags": 4,
+          "filesz": 46864,
+          "memsz": 46864
+        },
+        {
+          "flags": 6,
+          "filesz": 5872,
+          "memsz": 11072
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-msgs10.so.10.4.0",
+      "bytes": 3346440,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 967976,
+          "memsz": 967976
+        },
+        {
+          "flags": 5,
+          "filesz": 1608845,
+          "memsz": 1608845
+        },
+        {
+          "flags": 4,
+          "filesz": 641427,
+          "memsz": 641427
+        },
+        {
+          "flags": 6,
+          "filesz": 121544,
+          "memsz": 143904
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libprotobuf.so.32",
+        "libgz-utils2.so.2",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-plugin2-loader.so.2.0.4",
+      "bytes": 88928,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 14120,
+          "memsz": 14120
+        },
+        {
+          "flags": 5,
+          "filesz": 53781,
+          "memsz": 53781
+        },
+        {
+          "flags": 4,
+          "filesz": 11144,
+          "memsz": 11144
+        },
+        {
+          "flags": 6,
+          "filesz": 1552,
+          "memsz": 1576
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libgz-plugin2.so.2",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-plugin2.so.2.0.4",
+      "bytes": 47808,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 10952,
+          "memsz": 10952
+        },
+        {
+          "flags": 5,
+          "filesz": 22465,
+          "memsz": 22465
+        },
+        {
+          "flags": 4,
+          "filesz": 5667,
+          "memsz": 5667
+        },
+        {
+          "flags": 6,
+          "filesz": 1224,
+          "memsz": 1344
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-transport13-parameters.so.13.6.0",
+      "bytes": 138456,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 36752,
+          "memsz": 36752
+        },
+        {
+          "flags": 5,
+          "filesz": 71641,
+          "memsz": 71641
+        },
+        {
+          "flags": 4,
+          "filesz": 19869,
+          "memsz": 19869
+        },
+        {
+          "flags": 6,
+          "filesz": 3976,
+          "memsz": 4104
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libgz-transport13.so.13",
+        "libgz-msgs10.so.10",
+        "libprotobuf.so.32",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-transport13.so.13.6.0",
+      "bytes": 454304,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 74512,
+          "memsz": 74512
+        },
+        {
+          "flags": 5,
+          "filesz": 302217,
+          "memsz": 302217
+        },
+        {
+          "flags": 4,
+          "filesz": 64974,
+          "memsz": 64974
+        },
+        {
+          "flags": 6,
+          "filesz": 5768,
+          "memsz": 6400
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libgz-msgs10.so.10",
+        "libzmq.so.5",
+        "libuuid.so.1",
+        "libprotobuf.so.32",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libgz-utils2.so.2.2.1",
+      "bytes": 39320,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 5320,
+          "memsz": 5320
+        },
+        {
+          "flags": 5,
+          "filesz": 23885,
+          "memsz": 23885
+        },
+        {
+          "flags": 4,
+          "filesz": 1809,
+          "memsz": 1809
+        },
+        {
+          "flags": 6,
+          "filesz": 840,
+          "memsz": 848
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libhdf5_serial.so.103.4.0",
+      "bytes": 3613632,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 234448,
+          "memsz": 234448
+        },
+        {
+          "flags": 5,
+          "filesz": 2763073,
+          "memsz": 2763073
+        },
+        {
+          "flags": 4,
+          "filesz": 545448,
+          "memsz": 545448
+        },
+        {
+          "flags": 6,
+          "filesz": 59832,
+          "memsz": 68744
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libcrypto.so.3",
+        "libcurl.so.4",
+        "libsz.so.2",
+        "libz.so.1",
+        "libm.so.6",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libhdf5_serial_hl.so.100.1.7",
+      "bytes": 142800,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 24960,
+          "memsz": 24960
+        },
+        {
+          "flags": 5,
+          "filesz": 87917,
+          "memsz": 87917
+        },
+        {
+          "flags": 4,
+          "filesz": 16480,
+          "memsz": 16480
+        },
+        {
+          "flags": 6,
+          "filesz": 2376,
+          "memsz": 6888
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libhdf5_serial.so.103",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libheif.so.1.17.6",
+      "bytes": 789056,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 79800,
+          "memsz": 79800
+        },
+        {
+          "flags": 5,
+          "filesz": 559165,
+          "memsz": 559165
+        },
+        {
+          "flags": 4,
+          "filesz": 121537,
+          "memsz": 121537
+        },
+        {
+          "flags": 6,
+          "filesz": 19336,
+          "memsz": 22256
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libsharpyuv.so.0",
+        "libz.so.1",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libhogweed.so.6.8",
+      "bytes": 288920,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 32216,
+          "memsz": 32216
+        },
+        {
+          "flags": 5,
+          "filesz": 80333,
+          "memsz": 80333
+        },
+        {
+          "flags": 4,
+          "filesz": 166216,
+          "memsz": 166216
+        },
+        {
+          "flags": 6,
+          "filesz": 4728,
+          "memsz": 4736
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libnettle.so.8",
+        "libgmp.so.10",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libicudata.so.74.2",
+      "bytes": 30795392,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 1168,
+          "memsz": 1168
+        },
+        {
+          "flags": 5,
+          "filesz": 265,
+          "memsz": 265
+        },
+        {
+          "flags": 4,
+          "filesz": 30782900,
+          "memsz": 30782900
+        },
+        {
+          "flags": 6,
+          "filesz": 480,
+          "memsz": 488
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": []
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libicuuc.so.74.2",
+      "bytes": 2140336,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 422736,
+          "memsz": 422736
+        },
+        {
+          "flags": 5,
+          "filesz": 1068025,
+          "memsz": 1068025
+        },
+        {
+          "flags": 4,
+          "filesz": 562451,
+          "memsz": 562451
+        },
+        {
+          "flags": 6,
+          "filesz": 76560,
+          "memsz": 85648
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libicudata.so.74",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libidn2.so.0.4.0",
+      "bytes": 133192,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 4664,
+          "memsz": 4664
+        },
+        {
+          "flags": 5,
+          "filesz": 14793,
+          "memsz": 14793
+        },
+        {
+          "flags": 4,
+          "filesz": 102892,
+          "memsz": 102892
+        },
+        {
+          "flags": 6,
+          "filesz": 872,
+          "memsz": 880
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libunistring.so.5",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libjbig.so.0",
+      "bytes": 66400,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 4152,
+          "memsz": 4152
+        },
+        {
+          "flags": 5,
+          "filesz": 36825,
+          "memsz": 36825
+        },
+        {
+          "flags": 4,
+          "filesz": 4056,
+          "memsz": 4056
+        },
+        {
+          "flags": 6,
+          "filesz": 11824,
+          "memsz": 11832
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2",
+      "bytes": 534592,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 15176,
+          "memsz": 15176
+        },
+        {
+          "flags": 5,
+          "filesz": 313133,
+          "memsz": 313133
+        },
+        {
+          "flags": 4,
+          "filesz": 196380,
+          "memsz": 196380
+        },
+        {
+          "flags": 6,
+          "filesz": 2720,
+          "memsz": 2728
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libjpegxr.so.1.2",
+      "bytes": 235888,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 15200,
+          "memsz": 15200
+        },
+        {
+          "flags": 5,
+          "filesz": 192485,
+          "memsz": 192485
+        },
+        {
+          "flags": 4,
+          "filesz": 22060,
+          "memsz": 22060
+        },
+        {
+          "flags": 6,
+          "filesz": 1208,
+          "memsz": 1216
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libjson-c.so.5.3.0",
+      "bytes": 76168,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 14120,
+          "memsz": 14120
+        },
+        {
+          "flags": 5,
+          "filesz": 36965,
+          "memsz": 36965
+        },
+        {
+          "flags": 4,
+          "filesz": 13064,
+          "memsz": 13064
+        },
+        {
+          "flags": 6,
+          "filesz": 1987,
+          "memsz": 2304
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libjsoncpp.so.1.9.5",
+      "bytes": 219304,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 42760,
+          "memsz": 42760
+        },
+        {
+          "flags": 5,
+          "filesz": 129657,
+          "memsz": 129657
+        },
+        {
+          "flags": 4,
+          "filesz": 38100,
+          "memsz": 38100
+        },
+        {
+          "flags": 6,
+          "filesz": 2160,
+          "memsz": 2296
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libjxrglue.so.1.2",
+      "bytes": 139688,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 35384,
+          "memsz": 35384
+        },
+        {
+          "flags": 5,
+          "filesz": 66693,
+          "memsz": 66693
+        },
+        {
+          "flags": 4,
+          "filesz": 19776,
+          "memsz": 19776
+        },
+        {
+          "flags": 6,
+          "filesz": 7544,
+          "memsz": 9808
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libjpegxr.so.0",
+        "libm.so.6",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1",
+      "bytes": 178648,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 14280,
+          "memsz": 14280
+        },
+        {
+          "flags": 5,
+          "filesz": 108289,
+          "memsz": 108289
+        },
+        {
+          "flags": 4,
+          "filesz": 44612,
+          "memsz": 44612
+        },
+        {
+          "flags": 6,
+          "filesz": 4176,
+          "memsz": 4184
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libkrb5support.so.0",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10",
+      "bytes": 22600,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 5632,
+          "memsz": 5632
+        },
+        {
+          "flags": 5,
+          "filesz": 5333,
+          "memsz": 5333
+        },
+        {
+          "flags": 4,
+          "filesz": 2000,
+          "memsz": 2000
+        },
+        {
+          "flags": 6,
+          "filesz": 752,
+          "memsz": 760
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libkmlbase.so.1.3.0",
+      "bytes": 112840,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 27880,
+          "memsz": 27880
+        },
+        {
+          "flags": 5,
+          "filesz": 62129,
+          "memsz": 62129
+        },
+        {
+          "flags": 4,
+          "filesz": 14017,
+          "memsz": 14017
+        },
+        {
+          "flags": 6,
+          "filesz": 2408,
+          "memsz": 3472
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libexpat.so.1",
+        "libz.so.1",
+        "libminizip.so.1",
+        "liburiparser.so.1",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libkmldom.so.1.3.0",
+      "bytes": 596144,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 178464,
+          "memsz": 178464
+        },
+        {
+          "flags": 5,
+          "filesz": 272237,
+          "memsz": 272237
+        },
+        {
+          "flags": 4,
+          "filesz": 108572,
+          "memsz": 108572
+        },
+        {
+          "flags": 6,
+          "filesz": 26896,
+          "memsz": 26920
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libkmlbase.so.1",
+        "libexpat.so.1",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libkmlengine.so.1.3.0",
+      "bytes": 186536,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 40888,
+          "memsz": 40888
+        },
+        {
+          "flags": 5,
+          "filesz": 109725,
+          "memsz": 109725
+        },
+        {
+          "flags": 4,
+          "filesz": 27362,
+          "memsz": 27362
+        },
+        {
+          "flags": 6,
+          "filesz": 3528,
+          "memsz": 3536
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libkmldom.so.1",
+        "libkmlbase.so.1",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libkrb5.so.3.3",
+      "bytes": 823488,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 129632,
+          "memsz": 129632
+        },
+        {
+          "flags": 5,
+          "filesz": 393837,
+          "memsz": 393837
+        },
+        {
+          "flags": 4,
+          "filesz": 232496,
+          "memsz": 232496
+        },
+        {
+          "flags": 6,
+          "filesz": 56928,
+          "memsz": 57736
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libk5crypto.so.3",
+        "libcom_err.so.2",
+        "libkrb5support.so.0",
+        "libkeyutils.so.1",
+        "libresolv.so.2",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1",
+      "bytes": 47904,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 10744,
+          "memsz": 10744
+        },
+        {
+          "flags": 5,
+          "filesz": 22849,
+          "memsz": 22849
+        },
+        {
+          "flags": 4,
+          "filesz": 7048,
+          "memsz": 7048
+        },
+        {
+          "flags": 6,
+          "filesz": 1312,
+          "memsz": 1704
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/liblber.so.2.0.200",
+      "bytes": 59888,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 10400,
+          "memsz": 10400
+        },
+        {
+          "flags": 5,
+          "filesz": 30545,
+          "memsz": 30545
+        },
+        {
+          "flags": 4,
+          "filesz": 10652,
+          "memsz": 10652
+        },
+        {
+          "flags": 6,
+          "filesz": 1136,
+          "memsz": 1280
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/liblcms2.so.2.0.14",
+      "bytes": 394368,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 37520,
+          "memsz": 37520
+        },
+        {
+          "flags": 5,
+          "filesz": 255385,
+          "memsz": 255385
+        },
+        {
+          "flags": 4,
+          "filesz": 72396,
+          "memsz": 72396
+        },
+        {
+          "flags": 6,
+          "filesz": 17520,
+          "memsz": 24088
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libm.so.6",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libldap.so.2.0.200",
+      "bytes": 372400,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 54648,
+          "memsz": 54648
+        },
+        {
+          "flags": 5,
+          "filesz": 242797,
+          "memsz": 242797
+        },
+        {
+          "flags": 4,
+          "filesz": 60344,
+          "memsz": 60344
+        },
+        {
+          "flags": 6,
+          "filesz": 6648,
+          "memsz": 16176
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "liblber.so.2",
+        "libsasl2.so.2",
+        "libgnutls.so.30",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libltdl.so.7.3.2",
+      "bytes": 39368,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 7016,
+          "memsz": 7016
+        },
+        {
+          "flags": 5,
+          "filesz": 18625,
+          "memsz": 18625
+        },
+        {
+          "flags": 4,
+          "filesz": 6720,
+          "memsz": 6720
+        },
+        {
+          "flags": 6,
+          "filesz": 944,
+          "memsz": 1032
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4",
+      "bytes": 137440,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 8640,
+          "memsz": 8640
+        },
+        {
+          "flags": 5,
+          "filesz": 110233,
+          "memsz": 110233
+        },
+        {
+          "flags": 4,
+          "filesz": 7548,
+          "memsz": 7548
+        },
+        {
+          "flags": 6,
+          "filesz": 808,
+          "memsz": 816
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5",
+      "bytes": 202904,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 11976,
+          "memsz": 11976
+        },
+        {
+          "flags": 5,
+          "filesz": 136829,
+          "memsz": 136829
+        },
+        {
+          "flags": 4,
+          "filesz": 43384,
+          "memsz": 43384
+        },
+        {
+          "flags": 6,
+          "filesz": 2560,
+          "memsz": 2576
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "bytes": 952616,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 63208,
+          "memsz": 63208
+        },
+        {
+          "flags": 5,
+          "filesz": 517045,
+          "memsz": 517045
+        },
+        {
+          "flags": 4,
+          "filesz": 360272,
+          "memsz": 360272
+        },
+        {
+          "flags": 6,
+          "filesz": 1036,
+          "memsz": 1048
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libmd.so.0.1.0",
+      "bytes": 55536,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 6448,
+          "memsz": 6448
+        },
+        {
+          "flags": 5,
+          "filesz": 35465,
+          "memsz": 35465
+        },
+        {
+          "flags": 4,
+          "filesz": 5648,
+          "memsz": 5648
+        },
+        {
+          "flags": 6,
+          "filesz": 912,
+          "memsz": 920
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libmfhdfalt.so.0.0.0",
+      "bytes": 157944,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 20888,
+          "memsz": 20888
+        },
+        {
+          "flags": 5,
+          "filesz": 110077,
+          "memsz": 110077
+        },
+        {
+          "flags": 4,
+          "filesz": 18524,
+          "memsz": 18524
+        },
+        {
+          "flags": 6,
+          "filesz": 1928,
+          "memsz": 6192
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libtirpc.so.3",
+        "libdfalt.so.0",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0",
+      "bytes": 51504,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 6144,
+          "memsz": 6144
+        },
+        {
+          "flags": 5,
+          "filesz": 31945,
+          "memsz": 31945
+        },
+        {
+          "flags": 4,
+          "filesz": 3576,
+          "memsz": 3576
+        },
+        {
+          "flags": 6,
+          "filesz": 800,
+          "memsz": 808
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libz.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libmysqlclient.so.21.2.46",
+      "bytes": 6793144,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 152720,
+          "memsz": 152720
+        },
+        {
+          "flags": 5,
+          "filesz": 541369,
+          "memsz": 541369
+        },
+        {
+          "flags": 4,
+          "filesz": 2988828,
+          "memsz": 2988828
+        },
+        {
+          "flags": 6,
+          "filesz": 3097512,
+          "memsz": 3118200
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libssl.so.3",
+        "libcrypto.so.3",
+        "libresolv.so.2",
+        "libz.so.1",
+        "libzstd.so.1",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libnetcdf.so.19",
+      "bytes": 1395960,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 151480,
+          "memsz": 151480
+        },
+        {
+          "flags": 5,
+          "filesz": 680977,
+          "memsz": 680977
+        },
+        {
+          "flags": 4,
+          "filesz": 512144,
+          "memsz": 512144
+        },
+        {
+          "flags": 6,
+          "filesz": 44904,
+          "memsz": 656536
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libhdf5_serial_hl.so.100",
+        "libhdf5_serial.so.103",
+        "libcurl-gnutls.so.4",
+        "libm.so.6",
+        "libxml2.so.2",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libnettle.so.8.8",
+      "bytes": 342280,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 47496,
+          "memsz": 47496
+        },
+        {
+          "flags": 5,
+          "filesz": 189077,
+          "memsz": 189077
+        },
+        {
+          "flags": 4,
+          "filesz": 91588,
+          "memsz": 91588
+        },
+        {
+          "flags": 6,
+          "filesz": 6160,
+          "memsz": 6168
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libnghttp2.so.14.26.0",
+      "bytes": 170352,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 19544,
+          "memsz": 19544
+        },
+        {
+          "flags": 5,
+          "filesz": 87913,
+          "memsz": 87913
+        },
+        {
+          "flags": 4,
+          "filesz": 45988,
+          "memsz": 45988
+        },
+        {
+          "flags": 6,
+          "filesz": 8600,
+          "memsz": 8608
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libnorm.so.1",
+      "bytes": 366760,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 34856,
+          "memsz": 34856
+        },
+        {
+          "flags": 5,
+          "filesz": 273465,
+          "memsz": 273465
+        },
+        {
+          "flags": 4,
+          "filesz": 43490,
+          "memsz": 43490
+        },
+        {
+          "flags": 6,
+          "filesz": 8832,
+          "memsz": 732200
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libnspr4.so",
+      "bytes": 246248,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 43912,
+          "memsz": 43912
+        },
+        {
+          "flags": 5,
+          "filesz": 137813,
+          "memsz": 137813
+        },
+        {
+          "flags": 4,
+          "filesz": 53232,
+          "memsz": 53232
+        },
+        {
+          "flags": 6,
+          "filesz": 6176,
+          "memsz": 16744
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libnss3.so",
+      "bytes": 1229736,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 94480,
+          "memsz": 94480
+        },
+        {
+          "flags": 5,
+          "filesz": 920437,
+          "memsz": 920437
+        },
+        {
+          "flags": 4,
+          "filesz": 180272,
+          "memsz": 180272
+        },
+        {
+          "flags": 6,
+          "filesz": 25904,
+          "memsz": 32176
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libnssutil3.so",
+        "libplc4.so",
+        "libplds4.so",
+        "libnspr4.so",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libnssutil3.so",
+      "bytes": 199128,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 49144,
+          "memsz": 49144
+        },
+        {
+          "flags": 5,
+          "filesz": 70761,
+          "memsz": 70761
+        },
+        {
+          "flags": 4,
+          "filesz": 45668,
+          "memsz": 45668
+        },
+        {
+          "flags": 6,
+          "filesz": 26496,
+          "memsz": 28184
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libplc4.so",
+        "libplds4.so",
+        "libnspr4.so",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libodbc.so.2.0.0",
+      "bytes": 439296,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 24616,
+          "memsz": 24616
+        },
+        {
+          "flags": 5,
+          "filesz": 330717,
+          "memsz": 330717
+        },
+        {
+          "flags": 4,
+          "filesz": 47492,
+          "memsz": 47492
+        },
+        {
+          "flags": 6,
+          "filesz": 28704,
+          "memsz": 42752
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libltdl.so.7",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libodbcinst.so.2.0.0",
+      "bytes": 67656,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 8872,
+          "memsz": 8872
+        },
+        {
+          "flags": 5,
+          "filesz": 38421,
+          "memsz": 38421
+        },
+        {
+          "flags": 4,
+          "filesz": 7960,
+          "memsz": 7960
+        },
+        {
+          "flags": 6,
+          "filesz": 1304,
+          "memsz": 13864
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libltdl.so.7",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libogdi.so.4.1",
+      "bytes": 109152,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 18768,
+          "memsz": 18768
+        },
+        {
+          "flags": 5,
+          "filesz": 64961,
+          "memsz": 64961
+        },
+        {
+          "flags": 4,
+          "filesz": 15832,
+          "memsz": 15832
+        },
+        {
+          "flags": 6,
+          "filesz": 1768,
+          "memsz": 2576
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libtirpc.so.3",
+        "libz.so.1",
+        "libexpat.so.1",
+        "libm.so.6",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libopenjp2.so.2.5.0",
+      "bytes": 391648,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 12304,
+          "memsz": 12304
+        },
+        {
+          "flags": 5,
+          "filesz": 303997,
+          "memsz": 303997
+        },
+        {
+          "flags": 4,
+          "filesz": 61592,
+          "memsz": 61592
+        },
+        {
+          "flags": 6,
+          "filesz": 3784,
+          "memsz": 3792
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libm.so.6",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.1",
+      "bytes": 1714008,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 228464,
+          "memsz": 228464
+        },
+        {
+          "flags": 5,
+          "filesz": 858749,
+          "memsz": 858749
+        },
+        {
+          "flags": 4,
+          "filesz": 518272,
+          "memsz": 518272
+        },
+        {
+          "flags": 6,
+          "filesz": 103176,
+          "memsz": 105224
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libffi.so.8",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2",
+      "bytes": 625344,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 7784,
+          "memsz": 7784
+        },
+        {
+          "flags": 5,
+          "filesz": 447421,
+          "memsz": 447421
+        },
+        {
+          "flags": 4,
+          "filesz": 160368,
+          "memsz": 160368
+        },
+        {
+          "flags": 6,
+          "filesz": 1352,
+          "memsz": 1568
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libpgm-5.3.so.0.0.128",
+      "bytes": 285568,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 12712,
+          "memsz": 12712
+        },
+        {
+          "flags": 5,
+          "filesz": 157357,
+          "memsz": 157357
+        },
+        {
+          "flags": 4,
+          "filesz": 101992,
+          "memsz": 101992
+        },
+        {
+          "flags": 6,
+          "filesz": 1560,
+          "memsz": 19136
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libm.so.6",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libplc4.so",
+      "bytes": 22784,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 4600,
+          "memsz": 4600
+        },
+        {
+          "flags": 5,
+          "filesz": 6681,
+          "memsz": 6681
+        },
+        {
+          "flags": 4,
+          "filesz": 3024,
+          "memsz": 3024
+        },
+        {
+          "flags": 6,
+          "filesz": 880,
+          "memsz": 904
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libnspr4.so",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libplds4.so",
+      "bytes": 14624,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 3352,
+          "memsz": 3352
+        },
+        {
+          "flags": 5,
+          "filesz": 3577,
+          "memsz": 3577
+        },
+        {
+          "flags": 4,
+          "filesz": 2048,
+          "memsz": 2048
+        },
+        {
+          "flags": 6,
+          "filesz": 792,
+          "memsz": 800
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libnspr4.so",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libpng16.so.16.43.0",
+      "bytes": 223304,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 17208,
+          "memsz": 17208
+        },
+        {
+          "flags": 5,
+          "filesz": 163077,
+          "memsz": 163077
+        },
+        {
+          "flags": 4,
+          "filesz": 35664,
+          "memsz": 35664
+        },
+        {
+          "flags": 6,
+          "filesz": 960,
+          "memsz": 968
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libz.so.1",
+        "libm.so.6",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libpoppler.so.134.0.0",
+      "bytes": 3617712,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 828064,
+          "memsz": 828064
+        },
+        {
+          "flags": 5,
+          "filesz": 1682977,
+          "memsz": 1682977
+        },
+        {
+          "flags": 4,
+          "filesz": 722576,
+          "memsz": 722576
+        },
+        {
+          "flags": 6,
+          "filesz": 376948,
+          "memsz": 377728
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libfreetype.so.6",
+        "libz.so.1",
+        "libfontconfig.so.1",
+        "libjpeg.so.8",
+        "libcurl-gnutls.so.4",
+        "libopenjp2.so.7",
+        "liblcms2.so.2",
+        "libpng16.so.16",
+        "libtiff.so.6",
+        "libnss3.so",
+        "libsmime3.so",
+        "libplc4.so",
+        "libnspr4.so",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libpq.so.5.16",
+      "bytes": 354488,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 41192,
+          "memsz": 41192
+        },
+        {
+          "flags": 5,
+          "filesz": 161813,
+          "memsz": 161813
+        },
+        {
+          "flags": 4,
+          "filesz": 129204,
+          "memsz": 129204
+        },
+        {
+          "flags": 6,
+          "filesz": 11848,
+          "memsz": 12128
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libssl.so.3",
+        "libcrypto.so.3",
+        "libgssapi_krb5.so.2",
+        "libldap.so.2",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libproj.so.25.9.4.0",
+      "bytes": 3929408,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 443064,
+          "memsz": 443064
+        },
+        {
+          "flags": 5,
+          "filesz": 2761821,
+          "memsz": 2761821
+        },
+        {
+          "flags": 4,
+          "filesz": 607596,
+          "memsz": 607596
+        },
+        {
+          "flags": 6,
+          "filesz": 105576,
+          "memsz": 115688
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libsqlite3.so.0",
+        "libtiff.so.6",
+        "libcurl-gnutls.so.4",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libprotobuf.so.32.0.12",
+      "bytes": 3056272,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 600192,
+          "memsz": 600192
+        },
+        {
+          "flags": 5,
+          "filesz": 1887117,
+          "memsz": 1887117
+        },
+        {
+          "flags": 4,
+          "filesz": 527435,
+          "memsz": 527435
+        },
+        {
+          "flags": 6,
+          "filesz": 35360,
+          "memsz": 37432
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libz.so.1",
+        "libstdc++.so.6",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2",
+        "libgcc_s.so.1"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libpsl.so.5.3.4",
+      "bytes": 75768,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 4312,
+          "memsz": 4312
+        },
+        {
+          "flags": 5,
+          "filesz": 8109,
+          "memsz": 8109
+        },
+        {
+          "flags": 4,
+          "filesz": 53348,
+          "memsz": 53348
+        },
+        {
+          "flags": 6,
+          "filesz": 848,
+          "memsz": 856
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libunistring.so.5",
+        "libidn2.so.0",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libpugixml.so.1.14",
+      "bytes": 240248,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 35680,
+          "memsz": 35680
+        },
+        {
+          "flags": 5,
+          "filesz": 154525,
+          "memsz": 154525
+        },
+        {
+          "flags": 4,
+          "filesz": 43419,
+          "memsz": 43419
+        },
+        {
+          "flags": 6,
+          "filesz": 1392,
+          "memsz": 1464
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libqhull_r.so.8.0.2",
+      "bytes": 452736,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 26472,
+          "memsz": 26472
+        },
+        {
+          "flags": 5,
+          "filesz": 290405,
+          "memsz": 290405
+        },
+        {
+          "flags": 4,
+          "filesz": 128124,
+          "memsz": 128124
+        },
+        {
+          "flags": 6,
+          "filesz": 1104,
+          "memsz": 1112
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libm.so.6",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libraw.so.23.0.0",
+      "bytes": 1154640,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 109336,
+          "memsz": 109336
+        },
+        {
+          "flags": 5,
+          "filesz": 573441,
+          "memsz": 573441
+        },
+        {
+          "flags": 4,
+          "filesz": 124344,
+          "memsz": 124344
+        },
+        {
+          "flags": 6,
+          "filesz": 336760,
+          "memsz": 337520
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libjpeg.so.8",
+        "liblcms2.so.2",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libc.so.6",
+        "libgcc_s.so.1",
+        "libgomp.so.1"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libresolv.so.2",
+      "bytes": 64008,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 10520,
+          "memsz": 10520
+        },
+        {
+          "flags": 5,
+          "filesz": 36649,
+          "memsz": 36649
+        },
+        {
+          "flags": 4,
+          "filesz": 6820,
+          "memsz": 6820
+        },
+        {
+          "flags": 6,
+          "filesz": 3280,
+          "memsz": 13496
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/librtmp.so.1",
+      "bytes": 121848,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 17344,
+          "memsz": 17344
+        },
+        {
+          "flags": 5,
+          "filesz": 66993,
+          "memsz": 66993
+        },
+        {
+          "flags": 4,
+          "filesz": 24268,
+          "memsz": 24268
+        },
+        {
+          "flags": 6,
+          "filesz": 3520,
+          "memsz": 3568
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libgnutls.so.30",
+        "libhogweed.so.6",
+        "libnettle.so.8",
+        "libgmp.so.10",
+        "libz.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/librttopo.so.1.1.0",
+      "bytes": 454256,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 51280,
+          "memsz": 51280
+        },
+        {
+          "flags": 5,
+          "filesz": 314737,
+          "memsz": 314737
+        },
+        {
+          "flags": 4,
+          "filesz": 78640,
+          "memsz": 78640
+        },
+        {
+          "flags": 6,
+          "filesz": 3296,
+          "memsz": 3656
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libm.so.6",
+        "libgeos_c.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25",
+      "bytes": 101200,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 10648,
+          "memsz": 10648
+        },
+        {
+          "flags": 5,
+          "filesz": 64249,
+          "memsz": 64249
+        },
+        {
+          "flags": 4,
+          "filesz": 16448,
+          "memsz": 16448
+        },
+        {
+          "flags": 6,
+          "filesz": 1988,
+          "memsz": 2208
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libcrypto.so.3",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libsharpyuv.so.0.0.1",
+      "bytes": 22672,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 2160,
+          "memsz": 2160
+        },
+        {
+          "flags": 5,
+          "filesz": 10425,
+          "memsz": 10425
+        },
+        {
+          "flags": 4,
+          "filesz": 1804,
+          "memsz": 1804
+        },
+        {
+          "flags": 6,
+          "filesz": 640,
+          "memsz": 6960
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libm.so.6",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libsmime3.so",
+      "bytes": 162208,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 32456,
+          "memsz": 32456
+        },
+        {
+          "flags": 5,
+          "filesz": 95453,
+          "memsz": 95453
+        },
+        {
+          "flags": 4,
+          "filesz": 16480,
+          "memsz": 16480
+        },
+        {
+          "flags": 6,
+          "filesz": 10216,
+          "memsz": 10272
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libnss3.so",
+        "libnssutil3.so",
+        "libplc4.so",
+        "libplds4.so",
+        "libnspr4.so",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libsnappy.so.1.1.10",
+      "bytes": 43272,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 8928,
+          "memsz": 8928
+        },
+        {
+          "flags": 5,
+          "filesz": 19469,
+          "memsz": 19469
+        },
+        {
+          "flags": 4,
+          "filesz": 3732,
+          "memsz": 3732
+        },
+        {
+          "flags": 6,
+          "filesz": 1096,
+          "memsz": 1136
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libstdc++.so.6",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libsodium.so.23.3.0",
+      "bytes": 355040,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 45200,
+          "memsz": 45200
+        },
+        {
+          "flags": 5,
+          "filesz": 231901,
+          "memsz": 231901
+        },
+        {
+          "flags": 4,
+          "filesz": 64876,
+          "memsz": 64876
+        },
+        {
+          "flags": 6,
+          "filesz": 1744,
+          "memsz": 1984
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libspatialite.so.8.1.0",
+      "bytes": 7770560,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 117672,
+          "memsz": 117672
+        },
+        {
+          "flags": 5,
+          "filesz": 4986249,
+          "memsz": 4986249
+        },
+        {
+          "flags": 4,
+          "filesz": 2646384,
+          "memsz": 2646384
+        },
+        {
+          "flags": 6,
+          "filesz": 11760,
+          "memsz": 15360
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libxml2.so.2",
+        "libsqlite3.so.0",
+        "libm.so.6",
+        "libminizip.so.1",
+        "librttopo.so.1",
+        "libfreexl.so.1",
+        "libproj.so.25",
+        "libz.so.1",
+        "libgeos_c.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6",
+      "bytes": 1468440,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 127256,
+          "memsz": 127256
+        },
+        {
+          "flags": 5,
+          "filesz": 1090645,
+          "memsz": 1090645
+        },
+        {
+          "flags": 4,
+          "filesz": 211924,
+          "memsz": 211924
+        },
+        {
+          "flags": 6,
+          "filesz": 29032,
+          "memsz": 30664
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libm.so.6",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libssh.so.4.9.6",
+      "bytes": 462360,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 54256,
+          "memsz": 54256
+        },
+        {
+          "flags": 5,
+          "filesz": 292689,
+          "memsz": 292689
+        },
+        {
+          "flags": 4,
+          "filesz": 94896,
+          "memsz": 94896
+        },
+        {
+          "flags": 6,
+          "filesz": 10984,
+          "memsz": 11184
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libcrypto.so.3",
+        "libz.so.1",
+        "libgssapi_krb5.so.2",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libssl.so.3",
+      "bytes": 696512,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 122048,
+          "memsz": 122048
+        },
+        {
+          "flags": 5,
+          "filesz": 399473,
+          "memsz": 399473
+        },
+        {
+          "flags": 4,
+          "filesz": 114208,
+          "memsz": 114208
+        },
+        {
+          "flags": 6,
+          "filesz": 52064,
+          "memsz": 52128
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libcrypto.so.3",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "bytes": 2592224,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 640096,
+          "memsz": 640096
+        },
+        {
+          "flags": 5,
+          "filesz": 1342705,
+          "memsz": 1342705
+        },
+        {
+          "flags": 4,
+          "filesz": 548995,
+          "memsz": 548995
+        },
+        {
+          "flags": 6,
+          "filesz": 53136,
+          "memsz": 69168
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libm.so.6",
+        "libc.so.6",
+        "ld-linux-x86-64.so.2",
+        "libgcc_s.so.1"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libsuperlu.so.6.0.1",
+      "bytes": 453224,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 24504,
+          "memsz": 24504
+        },
+        {
+          "flags": 5,
+          "filesz": 389973,
+          "memsz": 389973
+        },
+        {
+          "flags": 4,
+          "filesz": 30440,
+          "memsz": 30440
+        },
+        {
+          "flags": 6,
+          "filesz": 1152,
+          "memsz": 1160
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libblas.so.3",
+        "libm.so.6",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libsz.so.2.0.1",
+      "bytes": 14256,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 2024,
+          "memsz": 2024
+        },
+        {
+          "flags": 5,
+          "filesz": 2837,
+          "memsz": 2837
+        },
+        {
+          "flags": 4,
+          "filesz": 324,
+          "memsz": 324
+        },
+        {
+          "flags": 6,
+          "filesz": 656,
+          "memsz": 664
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libaec.so.0",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.3",
+      "bytes": 88216,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 10704,
+          "memsz": 10704
+        },
+        {
+          "flags": 5,
+          "filesz": 57061,
+          "memsz": 57061
+        },
+        {
+          "flags": 4,
+          "filesz": 11840,
+          "memsz": 11840
+        },
+        {
+          "flags": 6,
+          "filesz": 3192,
+          "memsz": 3736
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libtiff.so.6.0.1",
+      "bytes": 575656,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 29600,
+          "memsz": 29600
+        },
+        {
+          "flags": 5,
+          "filesz": 325993,
+          "memsz": 325993
+        },
+        {
+          "flags": 4,
+          "filesz": 192488,
+          "memsz": 192488
+        },
+        {
+          "flags": 6,
+          "filesz": 17192,
+          "memsz": 17656
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libwebp.so.7",
+        "libzstd.so.1",
+        "liblzma.so.5",
+        "libLerc.so.4",
+        "libjbig.so.0",
+        "libjpeg.so.8",
+        "libdeflate.so.0",
+        "libz.so.1",
+        "libm.so.6",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libtinyxml2.so.10.0.0",
+      "bytes": 88712,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 27168,
+          "memsz": 27168
+        },
+        {
+          "flags": 5,
+          "filesz": 38869,
+          "memsz": 38869
+        },
+        {
+          "flags": 4,
+          "filesz": 13398,
+          "memsz": 13398
+        },
+        {
+          "flags": 6,
+          "filesz": 3136,
+          "memsz": 3144
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libtirpc.so.3.0.0",
+      "bytes": 178816,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 27536,
+          "memsz": 27536
+        },
+        {
+          "flags": 5,
+          "filesz": 111981,
+          "memsz": 111981
+        },
+        {
+          "flags": 4,
+          "filesz": 29096,
+          "memsz": 29096
+        },
+        {
+          "flags": 6,
+          "filesz": 3328,
+          "memsz": 5768
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libgssapi_krb5.so.2",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libunistring.so.5.0.0",
+      "bytes": 1755312,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 66112,
+          "memsz": 66112
+        },
+        {
+          "flags": 5,
+          "filesz": 224149,
+          "memsz": 224149
+        },
+        {
+          "flags": 4,
+          "filesz": 1441328,
+          "memsz": 1441328
+        },
+        {
+          "flags": 6,
+          "filesz": 13088,
+          "memsz": 15256
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/liburiparser.so.1.0.30",
+      "bytes": 88208,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 7272,
+          "memsz": 7272
+        },
+        {
+          "flags": 5,
+          "filesz": 65493,
+          "memsz": 65493
+        },
+        {
+          "flags": 4,
+          "filesz": 9012,
+          "memsz": 9012
+        },
+        {
+          "flags": 6,
+          "filesz": 784,
+          "memsz": 792
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0",
+      "bytes": 35032,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 5296,
+          "memsz": 5296
+        },
+        {
+          "flags": 5,
+          "filesz": 17161,
+          "memsz": 17161
+        },
+        {
+          "flags": 4,
+          "filesz": 2064,
+          "memsz": 2064
+        },
+        {
+          "flags": 6,
+          "filesz": 968,
+          "memsz": 1000
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libwebp.so.7.1.8",
+      "bytes": 494136,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 8280,
+          "memsz": 8280
+        },
+        {
+          "flags": 5,
+          "filesz": 389285,
+          "memsz": 389285
+        },
+        {
+          "flags": 4,
+          "filesz": 82476,
+          "memsz": 82476
+        },
+        {
+          "flags": 6,
+          "filesz": 1056,
+          "memsz": 5664
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libsharpyuv.so.0",
+        "libm.so.6",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libwebpmux.so.3.0.13",
+      "bytes": 51520,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 4960,
+          "memsz": 4960
+        },
+        {
+          "flags": 5,
+          "filesz": 29353,
+          "memsz": 29353
+        },
+        {
+          "flags": 4,
+          "filesz": 7560,
+          "memsz": 7560
+        },
+        {
+          "flags": 6,
+          "filesz": 864,
+          "memsz": 872
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libwebp.so.7",
+        "libm.so.6",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libxerces-c-3.2.so",
+      "bytes": 3493176,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 923232,
+          "memsz": 923232
+        },
+        {
+          "flags": 5,
+          "filesz": 1557553,
+          "memsz": 1557553
+        },
+        {
+          "flags": 4,
+          "filesz": 793490,
+          "memsz": 793490
+        },
+        {
+          "flags": 6,
+          "filesz": 210016,
+          "memsz": 211752
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libcurl-gnutls.so.4",
+        "libicuuc.so.74",
+        "libstdc++.so.6",
+        "libm.so.6",
+        "libc.so.6",
+        "libgcc_s.so.1"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libxml2.so.2.9.14",
+      "bytes": 1967424,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 188984,
+          "memsz": 188984
+        },
+        {
+          "flags": 5,
+          "filesz": 1466093,
+          "memsz": 1466093
+        },
+        {
+          "flags": 4,
+          "filesz": 267812,
+          "memsz": 267812
+        },
+        {
+          "flags": 6,
+          "filesz": 37448,
+          "memsz": 41904
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libicuuc.so.74",
+        "libz.so.1",
+        "liblzma.so.5",
+        "libm.so.6",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.9",
+      "bytes": 129016,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 5568,
+          "memsz": 5568
+        },
+        {
+          "flags": 5,
+          "filesz": 101429,
+          "memsz": 101429
+        },
+        {
+          "flags": 4,
+          "filesz": 13672,
+          "memsz": 13672
+        },
+        {
+          "flags": 6,
+          "filesz": 704,
+          "memsz": 712
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libz.so.1.3",
+      "bytes": 113000,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 8192,
+          "memsz": 8192
+        },
+        {
+          "flags": 5,
+          "filesz": 72845,
+          "memsz": 72845
+        },
+        {
+          "flags": 4,
+          "filesz": 24180,
+          "memsz": 24180
+        },
+        {
+          "flags": 6,
+          "filesz": 1056,
+          "memsz": 1064
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libzip.so.4.0",
+      "bytes": 114352,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 14928,
+          "memsz": 14928
+        },
+        {
+          "flags": 5,
+          "filesz": 75405,
+          "memsz": 75405
+        },
+        {
+          "flags": 4,
+          "filesz": 13412,
+          "memsz": 13412
+        },
+        {
+          "flags": 6,
+          "filesz": 2520,
+          "memsz": 2528
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libbz2.so.1.0",
+        "libcrypto.so.3",
+        "libz.so.1",
+        "libc.so.6"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libzmq.so.5.2.5",
+      "bytes": 663584,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 98448,
+          "memsz": 98448
+        },
+        {
+          "flags": 5,
+          "filesz": 423377,
+          "memsz": 423377
+        },
+        {
+          "flags": 4,
+          "filesz": 97380,
+          "memsz": 97380
+        },
+        {
+          "flags": 6,
+          "filesz": 31488,
+          "memsz": 31504
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libbsd.so.0",
+        "libsodium.so.23",
+        "libpgm-5.3.so.0",
+        "libnorm.so.1",
+        "libgssapi_krb5.so.2",
+        "libstdc++.so.6",
+        "libc.so.6",
+        "libgcc_s.so.1"
+      ]
+    },
+    {
+      "source": "/usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5",
+      "bytes": 755864,
+      "segments": [
+        {
+          "flags": 4,
+          "filesz": 15368,
+          "memsz": 15368
+        },
+        {
+          "flags": 5,
+          "filesz": 681921,
+          "memsz": 681921
+        },
+        {
+          "flags": 4,
+          "filesz": 51088,
+          "memsz": 51088
+        },
+        {
+          "flags": 6,
+          "filesz": 1368,
+          "memsz": 1416
+        }
+      ],
+      "wx": false,
+      "textrel": false,
+      "needed": [
+        "libc.so.6"
+      ]
+    }
+  ],
+  "native_execution": false,
+  "whole_ABI_certificate": false
+}

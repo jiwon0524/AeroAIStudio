@@ -1,0 +1,38 @@
+{
+  "reused_v7_costs": true,
+  "old_full303_pages": 2159001600,
+  "candidate_full303_pages": 2158563328,
+  "page_delta": -438272,
+  "unchanged_five_large_bytes": 1805492144,
+  "unchanged_five_large_pages": 1805500416,
+  "native_source_file_bytes": 90144,
+  "generated_allowlist_bytes": 41634,
+  "native_factory_known_output_and_buffers": 2158694400,
+  "collector_hash_phase_known_output_and_buffer": 2159611904,
+  "old_validator_cache_retained": true,
+  "new_artifact_cache_and_native_tables": "additional, not measured; prior reserve is not a peak guarantee",
+  "old_admission_proposal": 2159132672,
+  "old_owner_memory_proposal": 5368709120,
+  "proposals_applied": false,
+  "target_limits_unchanged": {
+    "AS": 2147483648,
+    "CORE": 0,
+    "CPU": 10,
+    "FSIZE": 1048576,
+    "NOFILE": 256
+  },
+  "target_resources_unchanged": {
+    "CPUQuota": "100%",
+    "CPUQuotaPeriodSec": "100ms",
+    "Delegate": "no",
+    "KillMode": "control-group",
+    "MemoryMax": "536870912",
+    "MemorySwapMax": "0",
+    "OOMPolicy": "stop",
+    "RuntimeMaxSec": "30s",
+    "Slice": "app.slice",
+    "TasksMax": "64",
+    "TimeoutStopSec": "2s"
+  },
+  "actual_peaks": "UNKNOWN_NOT_EXECUTED"
+}
