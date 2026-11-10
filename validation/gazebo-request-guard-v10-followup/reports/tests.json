@@ -1,0 +1,362 @@
+{
+  "status": "PASS_STATIC_AND_MOCK_ONLY_RUNTIME_BLOCKED",
+  "python_checks": 84,
+  "callback_C_cases": 14,
+  "checks": [
+    {
+      "case": "all_compiled_and_reused_object_input_ELF_hashes",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "compiled_owner_entry_inert_78",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "C_mock_has_no_mapping_namespace_or_service_imports",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "shared_C_map_io_14_callback_cases",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "closed_entry_[]",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "closed_entry_['--execute-once']",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "closed_entry_['--collector-stage']",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "closed_entry_['--execute-once', '--contract', 'old']",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "map_IO_captures_errno_before_emit_and_close",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "no_retry_of_close_or_map_write",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "new_C_log_cap_not_raised",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "all_mapping_adapters_keep_original_order",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "mixed_IO_records_keep_return_request_and_immediate_errno",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "mixed_record_reject_gap",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "mixed_record_reject_overflow",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "mixed_record_reject_truncated",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "mixed_record_reject_wrong_op",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "cleanup_and_later_failures_cannot_replace_first",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "failure_sources_remain_separate",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "historical_starting_snapshot_unproven",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "historical_owned_snapshot_bound",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "historical_teardown_snapshot_unproven",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "changed_ownership_rejected_foreign",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "changed_ownership_rejected_invocation",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "changed_ownership_rejected_group",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "changed_ownership_rejected_cap",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "old_double_read_can_log_different_snapshot",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "old_owned_fails_on_second_teardown_read",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "fresh_read_failure_is_not_mapping_diagnostic",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "single_read_incomplete_rejected_0",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "logged_row_equals_validated_row_0",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "single_read_valid_bound_snapshot",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "logged_row_equals_validated_row_1",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "single_read_incomplete_rejected_2",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "logged_row_equals_validated_row_2",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "single_read_missing_persistence_fails",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "existing_owner_bind_valid_chain_mock",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "owner_pidfd_disposed_valid",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "O_ACK_only_for_valid_chain_valid",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "existing_owner_bind_rejects_bwrap_pid2",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "owner_pidfd_disposed_bwrap_pid2",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "O_ACK_only_for_valid_chain_bwrap_pid2",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "existing_owner_bind_rejects_bwrap_bootstrap_ELF",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "owner_pidfd_disposed_bwrap_bootstrap_ELF",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "O_ACK_only_for_valid_chain_bwrap_bootstrap_ELF",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "existing_owner_bind_rejects_interposed_parent",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "owner_pidfd_disposed_interposed_parent",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "O_ACK_only_for_valid_chain_interposed_parent",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "existing_owner_bind_rejects_worker_ELF",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "owner_pidfd_disposed_worker_ELF",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "O_ACK_only_for_valid_chain_worker_ELF",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "existing_owner_bind_rejects_wrong_domain",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "owner_pidfd_disposed_wrong_domain",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "O_ACK_only_for_valid_chain_wrong_domain",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "coordinator_actual_owner_bind_4FD_K_P_audit_GO_ACK_cleanup_V",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "coordinator_fail_closed_missing_owner",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "coordinator_fail_closed_audit_gap",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "coordinator_fail_closed_audit_disconnect",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "coordinator_fail_closed_audit_persist",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "coordinator_fail_closed_cleanup",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "coordinator_fail_closed_pin_close",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "coordinator_fail_closed_missing_descendant_FD",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "host_driver_mock_valid",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "host_always_attempts_both_cleanups_valid",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "host_driver_mock_owner_exit",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "host_always_attempts_both_cleanups_owner_exit",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "host_driver_mock_collector_exit",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "host_always_attempts_both_cleanups_collector_exit",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "host_driver_mock_owner_cleanup",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "host_always_attempts_both_cleanups_owner_cleanup",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "host_driver_mock_target_cleanup",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "host_always_attempts_both_cleanups_target_cleanup",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "host_driver_mock_spawn",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "host_always_attempts_both_cleanups_spawn",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "host_driver_mock_missing_diagnostics",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "host_always_attempts_both_cleanups_missing_diagnostics",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "host_driver_mock_diagnostic_close",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "host_always_attempts_both_cleanups_diagnostic_close",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "host_driver_mock_primary_and_cleanup",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "primary_failure_not_masked_by_cleanup",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "host_always_attempts_both_cleanups_primary_and_cleanup",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "historical_evidence_sources_markers_preserved",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "main_nonignored_files_modes_symlinks_preserved",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    },
+    {
+      "case": "main_HEAD_status_preserved",
+      "status": "PASS_STATIC_OR_PYTHON_MOCK"
+    }
+  ],
+  "callback_process": {
+    "host": "jiwon-System-Product-Name",
+    "pid": 7,
+    "start": "50797001",
+    "returncode": 0
+  },
+  "callback_stdout": "PASS 14 callback-only map I/O cases; namespace/map filesystem operations 0\n",
+  "callback_stderr": "",
+  "historical_files_checked": 377,
+  "historical_changes": [],
+  "main_nonignored_paths_checked": 303,
+  "main_changes": [],
+  "build_receipt_sha256": "effdff4ea9d249a0ae89225f96a27260de950564ce03effcab309df3b74aa28a",
+  "owner_execution_count": 0,
+  "bwrap_execution_count": 0,
+  "services_started": 0,
+  "markers_consumed": 0,
+  "uid_map_files_opened": 0,
+  "reused_coordinator_tests_sha256": "9914db4ca1186f76569a30ed23853aedd86aa2160fd93b5bb95d27c5e26f8127"
+}

@@ -1,0 +1,45 @@
+{
+  "status": "BLOCKED_NONEXECUTING",
+  "conditions": [
+    {
+      "condition": "PID/start pidfd direct-parent and same sealed owner ELF",
+      "status": "BLOCKED_FOR_DIRECT_BWRAP_SUBSTITUTION",
+      "reason": "Default bwrap owns PID1 and payload is not native PID1; --as-pid-1 still leaves bwrap monitor as the parent ELF. Existing bind requires native=1 and both native parent/worker ELF equal the sealed owner hash. Mocked actual bind rejects each mismatch. No attester relaxation."
+    },
+    {
+      "condition": "Actual sealed RO FD transfer and same-object mounts",
+      "status": "UNPROVEN_FOR_BWRAP_ADAPTER",
+      "reason": "Historical --ro-bind-fd opens hash-pinned source files; it does not prove final sealed memfd C/K handoff. Must retain collector pins, credentials/start/ELF authentication, seals/hash/dev/inode and canonical mounts. No pathname or old PASS substitute."
+    },
+    {
+      "condition": "Owner/collector5GiB separate from target512MiB",
+      "status": "UNPROVEN_FOR_BWRAP_ADAPTER",
+      "reason": "Historical stage/bwrap/fixture used one512MiB unit. Candidate requires owner/collector domain readback, target anchor invocation receipt, held P/AttachProcessesToUnit, target rlimits/readback and invocation-bound cleanup. No merger of limits."
+    },
+    {
+      "condition": "Independent audit A ready before GO",
+      "status": "RETAINED_REQUIREMENT_NO_BWRAP_PROOF",
+      "reason": "Existing real coordinator/controller mock regression enforces O Cx4 K P A/input audit before GO; historical fixture stream is not authenticated independent native audit."
+    },
+    {
+      "condition": "Thread/descendant death COMPLETE EOF cleanup V terminal evidence",
+      "status": "RETAINED_REQUIREMENT_NO_BWRAP_PROOF",
+      "reason": "Existing protocol mocks reject missing audit/death/FD/cleanup. Bwrap PID1 wait alone is not the native supervisor complete/ECHILD proof."
+    },
+    {
+      "condition": "Namespace bootstrap and mount privileges under current policy",
+      "status": "BLOCKED_FOR_UNCHANGED_BOOTSTRAP",
+      "reason": "Actual small02 userns transition and CAP_SYS_ADMIN denial recorded. Current bwrap child policy denies capabilities and old --cap-drop ALL payload cannot establish the unchanged privileged bootstrap/mount path. Policy/bounds not changed."
+    },
+    {
+      "condition": "UID-map exact open write close observations",
+      "status": "IMPLEMENTED_BUILT_CALLBACK_MOCK_TESTED",
+      "reason": "Retained API logs actual return, requested bytes and immediately saved errno per operation. Primary mapping errno survives logging and close errors. Runtime path remains blocked."
+    },
+    {
+      "condition": "Host unit ownership observation",
+      "status": "SINGLE_READ_OBSERVER_PREPARED_NOT_LIVE_INTEGRATED",
+      "reason": "Old log and owned() use separate manager reads; replay demonstrates row divergence. New observer persists and validates one row, rejects incomplete/replaced identity without action/retry; first failure per source and cleanup are separate."
+    }
+  ]
+}

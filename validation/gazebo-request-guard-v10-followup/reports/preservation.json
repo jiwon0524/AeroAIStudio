@@ -1,0 +1,29 @@
+{
+  "observed_utc": "2026-11-10T12:11:45.747002+00:00",
+  "historical_files_checked": 377,
+  "historical_changes": [],
+  "main_nonignored_paths_checked": 303,
+  "main_changes": [],
+  "main_ignored_evidence": "not reinventoried; no writes to main",
+  "small02_contract_files_checked": 119,
+  "small02_contract_changes": [],
+  "older_tracked_baseline_files_checked": 1617,
+  "older_tracked_baseline_changes_excluding_handoff": [],
+  "historical_PASS_raw_result_stream_hashes_match": true,
+  "current_bwrap_hash_matches_historical": true,
+  "new_runtime_units": 0,
+  "new_markers": 0,
+  "new_runtime_outputs": 0,
+  "native_owner_execution_count": 0,
+  "bwrap_execution_count": 0,
+  "callback_only_C_mock_invocations": 3,
+  "callback_mock_distinct_cases_final_run": 14,
+  "limits_raised": false,
+  "plugin_symlink_identity": [
+    66309,
+    3454251,
+    "libgz-physics7-dartsim-plugin.so"
+  ],
+  "small01_marker_sha256": "f05001671235d214f871cdb2547fb3e18d68f90f09fc278c65ed93e6d951b319",
+  "small02_marker_sha256": "0431fe3eb518a704268e0a54c4cff40b4af3b9776f1858d2397415ba2c4fd303"
+}

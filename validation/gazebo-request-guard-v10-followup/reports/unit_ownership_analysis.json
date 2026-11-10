@@ -1,0 +1,13 @@
+{
+  "classifications": [
+    "INCOMPLETE_BEFORE_RECEIPT",
+    "OWNED_SNAPSHOT",
+    "INCOMPLETE_AFTER_RECEIPT"
+  ],
+  "historical_host_reason": "unit ownership not proven",
+  "historical_collector_reason": "owner handoff disconnect",
+  "historical_native_first_failure": "uid-map -1 errno1",
+  "known_defect": "log snapshot and validating owned() call read independently",
+  "not_proven": "exact fields returned by the unlogged fresh failing inspect and global host/native temporal order",
+  "readiness_policy": "No missing ownership accepted, no delay/retry introduced, no stop authorized by classifier"
+}

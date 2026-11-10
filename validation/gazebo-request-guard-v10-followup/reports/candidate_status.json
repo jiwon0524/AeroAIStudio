@@ -1,0 +1,18 @@
+{
+  "status": "BLOCKED_NONEXECUTING_DIAGNOSTICS_ONLY",
+  "runnable": false,
+  "python_entry_exit": 78,
+  "native_entry_exit": 78,
+  "bwrap_adapter_implemented": false,
+  "bwrap_reuse": "BLOCKED_OWNER_PID1_PARENT_ELF_CAPABILITY_AND_FD_AUDIT_CHAIN_UNPROVEN",
+  "retained_uid_mapping": "BLOCKED_APPARMOR_DENIAL_OBSERVED_NO_POLICY_CHANGE",
+  "host_ownership": "SINGLE_READ_OBSERVER_PREPARED_NOT_RUNTIME_INTEGRATED",
+  "approved_execution_contract": null,
+  "new_unit": null,
+  "new_one_shot": null,
+  "runtime_output": null,
+  "limits_raised": false,
+  "stage_b": "BLOCKED",
+  "risk_acceptance": "UNDECIDED",
+  "gazebo_runtime": "UNVERIFIED"
+}
