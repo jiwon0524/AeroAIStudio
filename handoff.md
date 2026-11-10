@@ -1,3 +1,155 @@
+# Request guard v2 — current checkpoint (2026-11-10)
+
+Start HEAD `10de7c47151601e32704d005b8b2d0887a3c452c`, experiment/dart-internal-trace.
+Read context-handoff/AGENTS/DEVELOPMENT_RULES/v1 final report/handoff and sealed execution contract.
+Initial tracked/index clean; existing dangling plugin symlink retained. Prior checkpoint snapshot
+was prepublication parent47097ee; actual10de7c4 and unchanged v1 evidence reconciled.
+
+**PARTIAL / NOT DEPLOYABLE. Stage B BLOCKED / risk acceptance UNDECIDED / actual runtime UNVERIFIED.**
+Primary evidence: `validation/gazebo-request-guard-v2/reports/final_report.md`, phase `progress.md`.
+
+- Mapped594 sealed aliases/429 source inputs without changing contract. New catalog same-FD identity/hash
+  validation requires kernel immutable original data; current594 aliases all denied because proof is absent.
+  No fs-verity enabled; no copies substituted for original identity. Actual normal-input support remains blocked.
+- Added open/openat read-only FD delivery primitive with ADDFD_FLAG_SEND, no target pathname reopen/CONTINUE,
+  per-request independent descriptions, immutable identity checks and conservative cancellation/uncertain result failure.
+- Reused v1 C supervisor/journal in a bounded all-task event-loop candidate. Handles child-stop ordering,
+  root/child terminal waits, ECHILD, serial notifications, journal persistence and30s bound. Filter still denies
+  clone/exec/general loader syscalls; normal threads/initial exec handoff are NOT complete.
+- Added native journal→existing AuditGate offline adapter with task/pending/sequence/counter/EOF checks.
+  Cancellation/denial/abnormal or pending death fail while independent receipt collection continues.
+  Live private transport/FD ownership and trusted start-proof producer are NOT implemented.
+- Compiled/linked3 C TUs only, libc dependency, Werror/PIE/RELRO/NOW; ELF inspected, never executed/dlopen.
+  Initial missing ioctl header compile failure corrected; final build receipt includes compiler PID/start and hashes.
+- New70 static/Python mock PASS. Reused original sealed NativeSession/ACK protocol with synthetic100 samples,
+  last live mapping, EXIT_ACK, EOF/exit/cleanup/integrity. Shutdown denial and missing evidence fail.
+  No actual broker/ptrace/filter/thread execution evidence. Old84/90/31 results not rerun or added.
+- All original baseline files/main HEAD/status and dangling symlink identity preserved before intended handoff update; final rerun excludes only this intentional worktree handoff.
+  Baseline is ignored `work/preservation.json`; tests record its file count. Existing phases' outputs unchanged.
+
+Current changes: this handoff plus phase inputs/{broker.h,broker.c,tree.c,entry.c}, scripts/{catalog,journal,build,launcher}.py,
+tests/check.py, progress.md, and reports/{input_mapping,build_receipt,tests,policy,artifacts}.json/final_report.md.
+No source/manifest/launcher of a prior phase changed. No candidate deployed/resealed. Both released/native
+refusal entrypoints remain78 before service/marker. No DART/Gazebo/harness/harmless/native candidate run,
+physical step, service, marker creation/consumption, sudo, install/system/main changes or process termination.
+
+Next minimum: settle original-inode immutable input design, implement normal loader/thread syscall policy
+and trusted preexec listener handoff/FD+namespace attestation, then wire authenticated live journal drain and
+all-task cleanup into collector. These are implementation blockers, not merely runtime-only validation.
+Any later native/kernel/loader behavior checks need separate explicit execution authorization.
+
+All launched build/check commands completed. Host/process scope snapshot below; remote/container/external-CWD UNKNOWN.
+No existing jobs stopped/restarted. /tmp ELF/logs/baseline and existing ignored/untracked evidence/markers are local
+and do not transfer via Git; /tmp is not durable. Common skill unchanged; original main untouched.
+Auto-publication target is experiment only. Snapshot is PREPUBLICATION (ignored candidate files intentionally
+absent from git status); reconcile next commit parent/file list. Local reports/publication.json will record
+push/remote match without recursive receipt commit.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-10T01:17:03.723829+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "10de7c47151601e32704d005b8b2d0887a3c452c",
+    "branch": "experiment/dart-internal-trace",
+    "status": [
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v2/inputs/broker.c"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v2/inputs/broker.h"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v2/inputs/entry.c"
+      },
+      {
+        "status": "AM",
+        "path": "validation/gazebo-request-guard-v2/inputs/tree.c"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v2/progress.md"
+      },
+      {
+        "status": "AM",
+        "path": "validation/gazebo-request-guard-v2/reports/artifacts.json"
+      },
+      {
+        "status": "AM",
+        "path": "validation/gazebo-request-guard-v2/reports/build_receipt.json"
+      },
+      {
+        "status": "AM",
+        "path": "validation/gazebo-request-guard-v2/reports/final_report.md"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v2/reports/input_mapping.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v2/reports/policy.json"
+      },
+      {
+        "status": "AM",
+        "path": "validation/gazebo-request-guard-v2/reports/tests.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v2/scripts/build.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v2/scripts/catalog.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v2/scripts/journal.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v2/scripts/launcher.py"
+      },
+      {
+        "status": "AM",
+        "path": "validation/gazebo-request-guard-v2/tests/check.py"
+      },
+      {
+        "status": "??",
+        "path": "libgz-physics-dartsim-plugin.so"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-request-guard-v2/reports/final_report.md",
+      "sha256": "d6001af5f89dfdd091ee6af82437b17775594f966fd39849c7f593b9c484cf38"
+    },
+    {
+      "path": "validation/gazebo-request-guard-v2/reports/tests.json",
+      "sha256": "269c5f10e23d27c1163db9e0c567d942c3e8e4af5d999a004825571f461f984e"
+    },
+    {
+      "path": "validation/gazebo-request-guard-v2/reports/artifacts.json",
+      "sha256": "7461e16405894d85462f8ef76898669f442e18f829f2f3dc76dd5db41249db49"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+# Historical checkpoints — superseded
+
 # Request-time guard implementation — current checkpoint
 
 Start HEAD47097ee5cfb61203190e5267c0503fa2f22e539c, experiment/dart-internal-trace. Read context-handoff/AGENTS/DEVELOPMENT_RULES/latest handoff/boundary report/sealed contract. Reconciled prior prepublication parent5f37e63 and15-file commit,4 evidence hashes. Original tracked/index clean; existing dangling plugin symlink preserved.
