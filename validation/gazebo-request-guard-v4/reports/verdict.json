@@ -1,0 +1,31 @@
+{
+  "status": "PARTIAL_NOT_DEPLOYABLE_NONEXEC_PREPARATION_INCOMPLETE",
+  "start_head": "fb6723e146f8e0b4d4085d7890f28708ab08d38b",
+  "normal_inputs": {
+    "model_connected": 578,
+    "model_connected_required": 452,
+    "runtime_verified": 0,
+    "target_permitted": 0,
+    "first_blocker": "retained live FD catalog and canonical namespace attestor absent; 5 mandatory objects over unchanged budget"
+  },
+  "pre_exec": {
+    "status": "NATIVE_ARM_API_AND_ORDERED_MODEL",
+    "first_blocker": "trusted child/wait owner and filter/listener/one-shot exec producer absent"
+  },
+  "threads_descendants": {
+    "status": "NATIVE_EVENT_HOOKS_AND_GENERATION_MODEL",
+    "first_blocker": "normal clone/clone3 policy and live inheritance/stop dispatcher absent"
+  },
+  "independent_audit": {
+    "status": "NATIVE_BROKER_CALLBACK_AND_FRAMED_LIFETIME_MODEL",
+    "first_blocker": "private channel ownership factory and bound native-to-framed live translation absent"
+  },
+  "tests": 686,
+  "compiled_translation_units": 3,
+  "entrypoint_exit": 78,
+  "deployed": false,
+  "runtime_approval_ready": false,
+  "stage_b": "BLOCKED",
+  "risk_acceptance": "UNDECIDED",
+  "actual_runtime": "UNVERIFIED"
+}

@@ -1,3 +1,108 @@
+# Request guard v4 — current integrated static/mock checkpoint
+
+Start/latest shared HEAD fb6723e146f8e0b4d4085d7890f28708ab08d38b, experiment/dart-internal-trace.
+No later work discovered. Read context-handoff/AGENTS/DEVELOPMENT_RULES/handoff/v3 final report and sealed
+execution contract/collector/native identity/mapping checks. Initial tracked/index clean, dangling plugin
+symlink only. Prior v3 snapshot was parent b54c3f6; fb6723e parent/file scope and prior evidence reconciled.
+
+**PARTIAL / NOT DEPLOYABLE / NONEXEC_PREPARATION_INCOMPLETE. Stage B BLOCKED / risk UNDECIDED / target runtime UNVERIFIED.**
+Primary consolidated report: validation/gazebo-request-guard-v4/reports/final_report.md; phase progress.md.
+
+- Reused v3 copy receipts by pinned SHA; no new kernel input preparation.429 original objects =424 previously
+  prepared+5 over budget,594 paths =578 prepared aliases+16 blocked. All5 blockers statically required via
+  roles/SONAME closure, including the two other DART copies. No limit/allowlist changes. Static required
+  total303 objects; prepared required298 objects/452 paths. Other126 objects/paths stay sealed but not
+  proven required by current static roots; not deleted or declared runtime optional.
+- Representative ODE ELF+SONAME aliases tested first, then same router checks all578 paths. Catalog requires
+  live sealed FD validation/source relation, matching namespace alias object and independent reopen; audit
+  decision persists before response. MockFD/namespace only: model connected578, runtime verified0, target
+  allowed0. Historical receipts do not restore closed FDs. RealFD namespace/delivery explicitly refuse.
+- Added native preexec control API using actual initial wait SIGSTOP and SETOPTIONS before exec; v1 journal
+  reused. Child eventmsg/task bounds/pending notification identity/terminal wait ECHILD hooks and v3 broker
+  callback share journal/decision state.3 TU compile/link/static PASS, libc-only, Werror/PIE/RELRO/NOW.
+  ELF never executed/loaded. Build receipt contains compiler PID/start plus all source/header/object hashes.
+- Added ordered preexec/task-generation/lifetime model and private bounded framed-channel parser. Existing
+  AuditGate/NativeSession/ACK factories reused. New686 static/Python mock PASS (includes578 unique input
+  requests), not old101/70/84 sums. Normal synthetic100-sample GO/last live mapping/EXIT_ACK/EOF/exit/cleanup
+  retained. Shutdown denial, uncertainty, persistence exceptions, PID reuse/task overflow, missing death,
+  loss/replay/binding/overflow/early/truncated EOF fail. Denial keeps independent death collection alive.
+- Review fixes consolidated in same report: decision vs delivery receipt, shared native callback/ledger,
+  journal byte budget, tagged stream sequence spaces, thrown persistence failures, no new FD approval after
+  uncertain reply, task generations and global notification replay. Tests rerun after fixes; all pass.
+
+Still IMPLEMENTATION blockers: retained copy->canonical namespace FD/identity bridge and compiled native
+expectations; large mandatory inputs/whole set resource accounting; trusted child/wait owner, listener
+handoff/removal and safe one-shot initial exec; normal metadata/read/mapping/thread policy; live private
+channel ownership and numeric-native->framed bound transport/collector/cleanup dispatcher. Current filter
+still denies initial exec and clone. Native hooks are not an integrated launcher. Bool/mock events are not
+OS authentication. Released/native/Python entrypoints remain78 before manager/service/marker. No reseal/deploy.
+
+Next minimum: implement live namespace/FD attestor plus native trusted owner/handshake/dispatcher and
+normal request policy/collector integration. Independent preexec/audit hooks progressed despite5 input
+budget blockers. Nonexecution preparation is NOT complete, so no runtime approval request submitted.
+Report gives a conditional first future minimal runtime proposal (one ODE object/two aliases, FD boundary
+only, no DART/harness/service/step/marker) and pass criteria. It still requires separate explicit approval
+and prior implementation-gap closure; do not auto-run it or treat it as executable approval.
+
+Changes only this handoff and new phase inputs/{control.c,control.h,broker.c,entry.c}, scripts/{inputs,
+lifetime,channel,build,launcher}.py, tests/check.py, progress.md, reports/{build_receipt,input_integration,
+tests,verdict,artifacts}.json/final_report.md. Baseline work/preservation.json verifies prior tracked/main
+dirty files excluding intended experiment handoff, original main HEAD/status and dangling symlink identity.
+Existing ignored outputs/evidence/markers unchanged by this task. No DART/Gazebo/harness/harmless/native
+candidate execution, memfd preparation/mmap/filter installation, service/step/marker creation/consumption,
+sudo/install/system changes, account switch or existing process stop/restart. Common skill untouched.
+
+All launched commands completed. Host/process scope below; remote/container/external-CWD UNKNOWN.
+/tmp ELF/raw evidence/baseline and prior ignored/untracked artifacts do not transfer via Git and are not
+durable. Publish only verified lightweight new phase files and this handoff on experiment. Snapshot is
+PREPUBLICATION; reconcile following parent/file scope; local reports/publication.json records actual
+push/remote match without recursive receipt commits.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-10T01:54:34.751078+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "fb6723e146f8e0b4d4085d7890f28708ab08d38b",
+    "branch": "experiment/dart-internal-trace",
+    "status": [
+      {
+        "status": "??",
+        "path": "libgz-physics-dartsim-plugin.so"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-request-guard-v4/reports/final_report.md",
+      "sha256": "2194304e95d1e3fd3300b6507afb191a80ef87366be39ed4862a6b69aad922da"
+    },
+    {
+      "path": "validation/gazebo-request-guard-v4/reports/tests.json",
+      "sha256": "13d75a04f3b19426bcd5a02efe75a4761f49555c392529b606385118f1662658"
+    },
+    {
+      "path": "validation/gazebo-request-guard-v4/reports/input_integration.json",
+      "sha256": "1af007deddc446c190b7d493dde25358075ad586c9fc455f9d7652ce0c93c5d7"
+    },
+    {
+      "path": "validation/gazebo-request-guard-v4/reports/artifacts.json",
+      "sha256": "7fad95cf6d1cdab0fe6e71bc398c05e669c90d87f8b766a31e6039c39d77d755"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+# Historical checkpoints — superseded
+
 # Sealed-copy guard v3 — current checkpoint (2026-11-10)
 
 Start HEAD b54c3f6dc36bc70a96533f104fe253be8609371e, experiment/dart-internal-trace.
