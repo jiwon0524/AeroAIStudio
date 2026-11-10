@@ -1,0 +1,7 @@
+#ifndef AERO_PREPARATION_LIMITS_H
+#define AERO_PREPARATION_LIMITS_H
+/* Approved candidate preparation ceilings only. Never target limits. */
+#define PREPARATION_OBJECT_CAP 543979760ULL
+#define PREPARATION_ADMISSION_CAP 2159132672ULL
+#define PREPARATION_OWNER_MEMORY_MAX 5368709120ULL
+#endif

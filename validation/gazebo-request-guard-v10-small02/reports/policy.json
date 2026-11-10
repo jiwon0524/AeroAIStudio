@@ -1,0 +1,94 @@
+{
+  "paths": [
+    {
+      "path": "/probe/fixture",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-request-guard-v10/work/build-20261110T094935823777Z/probe",
+      "original": {
+        "device": 66309,
+        "inode": 4617900,
+        "sha256": "a82ea926913bc266bf55a4a010f346fe85a3a3ded86e0d20bc8566bc2cbf02f1"
+      },
+      "size": 17192,
+      "executable": true
+    },
+    {
+      "path": "/input/fixed.txt",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-request-guard-v10/inputs/fixed.txt",
+      "original": {
+        "device": 66309,
+        "inode": 4617767,
+        "sha256": "3440488560fd86feb35165c28a58cd8901020579bc5ab109c56e8f92bb636b7a"
+      },
+      "size": 24,
+      "executable": false
+    },
+    {
+      "path": "/input/fixed-alias.txt",
+      "source": "/tmp/AeroAIStudio-dart-internal-trace/validation/gazebo-request-guard-v10/inputs/fixed.txt",
+      "original": {
+        "device": 66309,
+        "inode": 4617767,
+        "sha256": "3440488560fd86feb35165c28a58cd8901020579bc5ab109c56e8f92bb636b7a"
+      },
+      "size": 24,
+      "executable": false
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "original": {
+        "device": 66309,
+        "inode": 8153876,
+        "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf"
+      },
+      "size": 2129424,
+      "executable": true
+    },
+    {
+      "path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "source": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "original": {
+        "device": 66309,
+        "inode": 8153674,
+        "sha256": "c20a2dc8917c755f02b94049356320fe1f62ac7d9f8994731f807d9df39302da"
+      },
+      "size": 236616,
+      "executable": true
+    }
+  ],
+  "full_required_paths": 5,
+  "required_objects": 4,
+  "directories": [
+    "/",
+    "/cwd",
+    "/dev",
+    "/dev/shm",
+    "/input",
+    "/input/resources",
+    "/probe",
+    "/proc",
+    "/run",
+    "/scratch",
+    "/usr",
+    "/usr/lib",
+    "/usr/lib/x86_64-linux-gnu",
+    "/usr/lib64"
+  ],
+  "negative": [
+    "/etc/ld.so.cache",
+    "/etc/ld.so.preload",
+    "/usr/lib/glibc-hwcaps/x86-64-v2/libc.so.6",
+    "/usr/lib/glibc-hwcaps/x86-64-v3/libc.so.6",
+    "/usr/lib/glibc-hwcaps/x86-64-v4/libc.so.6",
+    "/usr/lib/libc.so.6",
+    "/usr/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v2/libc.so.6",
+    "/usr/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v3/libc.so.6",
+    "/usr/lib/x86_64-linux-gnu/glibc-hwcaps/x86-64-v4/libc.so.6"
+  ],
+  "links": {
+    "/lib": "usr/lib",
+    "/lib64": "usr/lib64",
+    "/usr/lib64/ld-linux-x86-64.so.2": "../lib/x86_64-linux-gnu/ld-linux-x86-64.so.2"
+  },
+  "large_objects_included": false
+}

@@ -1,0 +1,18 @@
+{
+  "observed_utc": "2026-11-10T11:42:44.378119+00:00",
+  "old_v10_files_checked": 202,
+  "old_v10_content_or_mode_changes": [],
+  "main_nonignored_files_checked": 303,
+  "main_content_or_mode_changes": [],
+  "original_main_ignored_evidence": "not inventoried here; no writes to main performed",
+  "old_marker_sha256": "f05001671235d214f871cdb2547fb3e18d68f90f09fc278c65ed93e6d951b319",
+  "old_runtime_host_stdout_mode": "0o664",
+  "old_runtime_host_stderr_mode": "0o664",
+  "small02_output_absent": true,
+  "small02_marker_absent": true,
+  "units_readback": "small01 and small02 owner/target: LoadState=not-found MainPID=0 ControlGroup empty",
+  "native_execution_count": 0,
+  "services_started": 0,
+  "markers_consumed": 0,
+  "existing_source_contract_files_unchanged": true
+}
