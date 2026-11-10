@@ -1,0 +1,125 @@
+{
+  "observed_utc": "2026-11-10T11:48:02.103309+00:00",
+  "host": "jiwon-System-Product-Name",
+  "approved_head": "65d1a6487d732eb598b55f87d25110d085921543",
+  "contract_sha256": "ab2a778dbcd1e5f6a8923e6ff8270070c7ee5c944caf0017dd9d43043621ef95",
+  "execution_count": 1,
+  "command_returncode": 78,
+  "status": "FAIL",
+  "native_last_success": "V10DIAG 377856 9 userns 0 2",
+  "native_first_failure": "V10DIAG 377856 10 uid-map -1 1",
+  "native_failure_meaning": "uid-map helper returned -1 with errno_snapshot 1 (EPERM); helper open/write/close suboperation and denying policy not distinguished",
+  "collector_last_nonfailure_stage": "owner-bind-begin (waiting; not successful bind)",
+  "collector_first_failure": "owner handoff disconnect",
+  "host_first_failure": "unit ownership not proven; cross-process temporal order not established by un-timestamped native records",
+  "owner_O_reached": false,
+  "first_CATALOG_OBJECT_reached": false,
+  "sealed_RO_FD_delivery": "NOT_REACHED",
+  "thread_descendant_trace": "NOT_REACHED",
+  "independent_audit": "NOT_REACHED; files opened but native execution audit empty",
+  "diagnostic_complete": false,
+  "native_parent": {
+    "host": "jiwon-System-Product-Name",
+    "pid": 377856,
+    "start": "50665745",
+    "wait_returncode": 78,
+    "observed_state": "ABSENT"
+  },
+  "owner_client_returncode": 78,
+  "unit_readback": "owner and target LoadState=not-found MainPID=0 ControlGroup empty",
+  "cgroup_exists": {
+    "/user.slice/user-1000.slice/user@1000.service/app.slice/aero-guard-v10-owner-small-02.service": false,
+    "/user.slice/user-1000.slice/user@1000.service/app.slice/aero-guard-v10-target-small-02.service": false
+  },
+  "residual_cgroup_processes": [],
+  "process_permission_unknown": 0,
+  "collector_target_cleanup": true,
+  "host_owner_cleanup": true,
+  "cleanup_errors": [],
+  "raw_evidence": {
+    "validation/gazebo-request-guard-v10-small02/work/runtime-small-02/collector-audit.jsonl": {
+      "bytes": 0,
+      "mode": "0600",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "validation/gazebo-request-guard-v10-small02/work/runtime-small-02/collector-result.json": {
+      "bytes": 263,
+      "mode": "0600",
+      "sha256": "c5c1bed34581637b01509a7fc37fd9b4db0a07403eab3d2b9daa357078929335"
+    },
+    "validation/gazebo-request-guard-v10-small02/work/runtime-small-02/collector-startup.jsonl": {
+      "bytes": 1609,
+      "mode": "0600",
+      "sha256": "1f8628137a8c96e41b3f342b771a4af03516fc1a715bbf10938df3e0180dc903"
+    },
+    "validation/gazebo-request-guard-v10-small02/work/runtime-small-02/host-result.json": {
+      "bytes": 785,
+      "mode": "0600",
+      "sha256": "fe20c34c71b1f3da8c4aeebc242cfb2bfd6bfa5617f612524ae7fdccbe2b9054"
+    },
+    "validation/gazebo-request-guard-v10-small02/work/runtime-small-02/host-startup.jsonl": {
+      "bytes": 2216,
+      "mode": "0600",
+      "sha256": "7fd73b9ad31b95e01eb5e164b6495a8c90c5980f4ca96e3adfe3c7495f58d80c"
+    },
+    "validation/gazebo-request-guard-v10-small02/work/runtime-small-02/host.stderr": {
+      "bytes": 229,
+      "mode": "0600",
+      "sha256": "fd8de43f8fe4c6a8a45b80fdae7638f799594920c678a129bcd9f343781e24e9"
+    },
+    "validation/gazebo-request-guard-v10-small02/work/runtime-small-02/host.stdout": {
+      "bytes": 0,
+      "mode": "0600",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "validation/gazebo-request-guard-v10-small02/work/runtime-small-02/native-audit.jsonl": {
+      "bytes": 0,
+      "mode": "0600",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "validation/gazebo-request-guard-v10-small02/work/runtime-small-02/native-parent.stderr": {
+      "bytes": 323,
+      "mode": "0600",
+      "sha256": "d684e68514882597facf2bb781d22392873c7c6753063190ca5aa37e218d2469"
+    },
+    "validation/gazebo-request-guard-v10-small02/work/runtime-small-02/owner-journal.raw": {
+      "bytes": 0,
+      "mode": "0600",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "validation/gazebo-request-guard-v10-small02/work/runtime-small-02/stderr.raw": {
+      "bytes": 0,
+      "mode": "0600",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "validation/gazebo-request-guard-v10-small02/work/runtime-small-02/stdout.raw": {
+      "bytes": 0,
+      "mode": "0600",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "validation/gazebo-request-guard-v10-small02/work/runtime-small-02/target-unit.json": {
+      "bytes": 225,
+      "mode": "0600",
+      "sha256": "c54261e60ed6d3facbad5742a5fe4a7e00c3504d8e2a20a400714c0fccac500b"
+    }
+  },
+  "all_runtime_file_modes_0600": true,
+  "output_mode": "0700",
+  "marker_mode": "0600",
+  "marker_sha256": "0431fe3eb518a704268e0a54c4cff40b4af3b9776f1858d2397415ba2c4fd303",
+  "contract_files_checked": 119,
+  "contract_changed": [],
+  "prior_v10_files_checked": 202,
+  "prior_v10_changes": [],
+  "main_nonignored_paths_checked": 303,
+  "main_changes": [],
+  "baseline_files_checked": 1617,
+  "baseline_changes_excluding_handoff": [],
+  "stage_b": "BLOCKED",
+  "risk_acceptance": "UNDECIDED",
+  "gazebo_runtime": "UNVERIFIED",
+  "retry_count": 0,
+  "limit_increases": 0,
+  "physical_steps": 0,
+  "large_objects_prepared": false
+}

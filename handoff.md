@@ -1,102 +1,85 @@
-# Aero AI Studio — v10 small02 nonexecution repair checkpoint
+# Aero AI Studio — small02 single approved runtime checkpoint
 
-## Current request and boundary
+## Goal, authorization and stop condition
 
-User authorized analysis of5c6710d small01 failure, confirmed-defect fixes, isolated compile and static/Python mocks,
-then a new one-run approval proposal and STOP. No native driver/owner/probe/anchor execution, service start,
-marker consumption, Gazebo/DART/harness, physics, large5/303objects/468paths, cap increases, sudo/install/system changes.
-Stage B BLOCKED / risk acceptance UNDECIDED / Gazebo runtime UNVERIFIED; actual launcher exit78 retained by hash/source.
-context-handoff applied; AGENTS/DEVELOPMENT_RULES automatic publication of verified lightweight files applies.
+User explicitly approved exact65d1a64 small02 contract once. It was executed once: exit78 / FAIL.
+Approval is consumed. STOP; no retry, cap increase, rebuild, new diagnostic experiment or repair authorized.
+Contract SHA256 ab2a778dbcd1e5f6a8923e6ff8270070c7ee5c944caf0017dd9d43043621ef95.
+Stage B BLOCKED / risk UNDECIDED / Gazebo runtime UNVERIFIED / original actual launcher exit78 unchanged.
+No small01 rerun, large5/303/468 preparation, actual DART/Gazebo/harness, physics, sudo/install/system changes.
 
-## Observed result
+## Directly observed runtime result
 
-Base HEAD5c6710d69cb1191b9d4a0e4cdba9d78dd7596129 on experiment/dart-internal-trace.
-Original v10 and main sources/evidence/dirty files/marker remain intact. New work only in
-validation/gazebo-request-guard-v10-small02/ plus this intended handoff update.
-Root cause remains UNRESOLVED: journal confirms services started, native parent wait78;
-empty CATALOG audit narrows failure to before first durable CATALOG_OBJECT, not necessarily before O.
-Old generic HUP/reason masking/DEVNULL mean native entry vs pre-O vs post-O mount cannot be distinguished.
-No speculative channel/FD/ACK/namespace policy change was made.
-Confirmed fixes: trusted startup/native stage diagnostics independent of native execution audit,
-private0600 creation instead of Path.open default0666, primary failure vs cleanup error separation.
-Diagnostics missing/failed/incomplete is FAIL; no substitute for mandatory independent audit.
+Current report: validation/gazebo-request-guard-v10-small02/reports/runtime_small_02_report.md.
+Evidence hash/mode/process/cleanup/integrity verification: same reports/runtime_small_02_verification.json.
+Raw evidence: same work/runtime-small-02/. Consumed marker work/harmless-small-02.once preserved.
+Native parent on jiwon-System-Product-Name PID377856/start50665745: last success userns0;
+first native failure uid-map -1 with errno1 EPERM, before PID1 worker/O. Which helper subcall or denying policy is UNKNOWN.
+Initial owner O and first CATALOG_OBJECT not reached. No successful FD delivery, thread/descendant trace or independent audit.
+Collector last wait stage owner-bind-begin, then owner handoff disconnect; native parent final wait78.
+Host first failure unit ownership not proven is separate; exact cross-process event ordering unproven.
+All13 new runtime files0600, output0700, marker0600. Terminal diagnostic/audit requirements missing: diagnostic_complete false.
+Both owned units not-found/MainPID0/empty ControlGroup; both cgroups absent; matching residual process scan0;
+native parent identity absent. No cleanup errors. No old tasks stopped/restarted; external/remote tasks UNKNOWN.
+119 contract files/202 old v10 content+modes/303 main nonignored paths/1617 baseline files(handoff excluded) match.
+Main ignored evidence not re-inventoried; no writes to main. Old small01 marker/log0664 and original dirty files preserved.
 
-## Evidence and validation
+## Changes, verification and publication
 
-Consolidated findings, source/ELF hashes and validation: validation/gazebo-request-guard-v10-small02/reports/repair_report.md.
-Build: reports/build_receipt.json under that directory; only launch/owner_main2TU compiled and linked;
-8 unchanged objects and probe/anchor hash-reused. Native output was never executed.
-Final tests: reports/tests.json;2194 PASS_STATIC_PYTHON_MOCK_ONLY. Normal owner/catalog/controller handshake,
-early HUP, audit init/open/write/sync/close failures, diagnostic absence/sequence/order,0600/exclusive/symlink,
-primary-error preservation and existing safety conditions exercised. No C kernel success claim.
-Preservation: reports/preservation.json;202 original v10 files content/modes,303 main nonignored paths unchanged;
-old116 contract hashes and1617 tracked baseline files unchanged (handoff excluded). Main ignored evidence not re-inventoried;
-no write to main. Old host logs remain0664. Original small01 marker is preserved/consumed and must not be reused.
-Existing service journal read-only transcription: work/existing-unit-journal.txt, linked hash in repair_report.
-All four old/new owner/target units observed not-found/MainPID0/empty ControlGroup. New output/marker absent.
-Current project-CWD snapshot no tasks; completed compiler/link process identities and exited rc are in build receipt;
-remote/external-CWD jobs UNKNOWN. No old tasks stopped/restarted.
+Only this handoff, small02/progress.md, and two new runtime reports belong to this stage.
+No source/tests/build artifact change. Preparation2194 static/mock PASS is historical and not rerun.
+Post-run evidence/modes/hashes/proc/cgroup and unit readbacks performed, no runtime replay.
+AGENTS/DEVELOPMENT_RULES requires verified lightweight checkpoint commit/push on experiment branch only.
+Publication requires actual push+remote match; receipt will be small02/work/runtime-small-02-publication.json.
+Raw logs/markers/binaries remain local ignored /tmp artifacts, not durable or automatically portable by Git.
+Existing untracked libgz-physics-dartsim-plugin.so stays outside publication.
 
-## Exact next minimum action
+## Historical preparation
 
-STOP and wait for separately explicit runtime approval of reports/approval_proposal.md and exact contract hash
-ab2a778dbcd1e5f6a8923e6ff8270070c7ee5c944caf0017dd9d43043621ef95.
-New units aero-guard-v10-owner-small-02.service and aero-guard-v10-target-small-02.service;
-new work/harmless-small-02.once and work/runtime-small-02 in the separate small02 directory only.
-Command/args/hashes/resources/cleanup/failure criteria are frozen in that proposal and execution_contract.json.
-Preflight after future approval must recheck current preparation commit, all hashes/identity and unit/output/marker absence.
-No runtime authorization remains from small01, and this preparation/publishing is not approval of small02.
-
-## Preservation and publication
-
-Only new small02 sources/tests/lightweight reports/progress and this handoff are publication candidates;
-exact paths: validation/gazebo-request-guard-v10-small02/reports/publication_files.txt.
-Do not stage preexisting libgz-physics-dartsim-plugin.so or old v10 sources/evidence.
-Publication success requires actual push+remote commit match; local receipt will be small02/work/publication-result.json.
-/tmp ignored native binaries, compiler logs, original raw evidence and markers are not durable or automatically portable via Git.
-Another host requires original evidence and exact ELF/source identity or a fresh contract/tests/approval, not replay of an old command.
-
-## Historical evidence
-
-small01 failed once at05721b8: validation/gazebo-request-guard-v10/reports/runtime_small_01_report.md
-and runtime_small_01_verification.json, published5c6710d. Original preparation reports/approval_proposal.md,
-execution_contract.json and final_report.md under v10 are preserved. Previous v9/hash-only historical harmless
-references remain in those reports; they were not rerun here. Original main handoff and dirty tree are untouched.
+Prepared at65d1a64: same small02 reports/repair_report.md and approval_proposal.md, source_manifest.json,
+build_receipt.json, tests.json. Those original documents are preserved as historical pre-runtime evidence.
+small01 failed once at05721b8, report published5c6710d under validation/gazebo-request-guard-v10/reports/.
+small02 proves the uid-map failure in this attempt; it does not retroactively prove small01's unknown native failure.
+Next minimum action: wait for separately scoped user instructions; never reuse consumed small01/small02 markers.
 
 ```context-handoff-state
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T11:43:42.438059+00:00",
+  "updated_at": "2026-11-10T11:48:02.103309+00:00",
   "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
   "host": "jiwon-System-Product-Name",
   "git": {
-    "head": "5c6710d69cb1191b9d4a0e4cdba9d78dd7596129",
+    "head": "65d1a6487d732eb598b55f87d25110d085921543",
     "branch": "experiment/dart-internal-trace",
     "status": [
+      {
+        "status": " M",
+        "path": "validation/gazebo-request-guard-v10-small02/progress.md"
+      },
       {
         "status": "??",
         "path": "libgz-physics-dartsim-plugin.so"
       }
     ],
-    "snapshot_note": "Prepublication tracked clean; intended new small02 lightweight files and this handoff are separate task-owned changes. Check publication receipt for resulting commit."
+    "snapshot_note": "Runtime executed at this approved HEAD. Intended handoff/progress and two runtime reports are task-owned checkpoint edits; remote publication receipt records resulting commit."
   },
   "evidence": [
     {
-      "path": "validation/gazebo-request-guard-v10-small02/reports/repair_report.md",
-      "sha256": "06aeb134d7a701365627eaa78e27efc0372f15e5d67824662d515676409982c2"
+      "path": "validation/gazebo-request-guard-v10-small02/reports/runtime_small_02_report.md",
+      "sha256": "677ebcd84e0d7a4a15f9235aae0c224a1e6f9b685521a6135676768b8b5db10b"
+    },
+    {
+      "path": "validation/gazebo-request-guard-v10-small02/reports/runtime_small_02_verification.json",
+      "sha256": "5239d2818434371e67ee91f6476765314897951c76e0410c3f51abbdf69cb35e"
     },
     {
       "path": "validation/gazebo-request-guard-v10-small02/reports/execution_contract.json",
       "sha256": "ab2a778dbcd1e5f6a8923e6ff8270070c7ee5c944caf0017dd9d43043621ef95"
-    },
-    {
-      "path": "validation/gazebo-request-guard-v10-small02/reports/tests.json",
-      "sha256": "5aec44622ff62754c8a581f9648a3cf5823219fce0768b4f62d448054db2fce4"
     }
   ],
   "processes": {
     "visibility": "VISIBLE_SCOPE",
-    "scope": "Same-user project-CWD snapshot 2026-11-10T11:39:38Z, no tasks; remote/external-CWD UNKNOWN. No arguments/environment recorded.",
+    "scope": "same-user project-CWD snapshot 2026-11-10T11:48:02Z no tasks; both owned cgroups absent and matching process scan0; remote/external-CWD UNKNOWN; no arguments/environment recorded",
     "tasks": [],
     "unreadable_same_user_processes": 0
   }
