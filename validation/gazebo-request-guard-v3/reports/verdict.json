@@ -1,0 +1,15 @@
+{
+  "status": "PARTIAL_NOT_DEPLOYABLE",
+  "start_head": "b54c3f6dc36bc70a96533f104fe253be8609371e",
+  "input_copy_contract": "PARTIAL_SEALED_BYTES_424_OBJECTS_578_ALIASES; TARGET_ALLOWED_0",
+  "normal_loader_threads": "BLOCKED_UNIMPLEMENTED_METADATA_FD_MAPPING_AND_THREAD_POLICY",
+  "pre_exec": "BLOCKED_TRUSTED_HANDOFF_AND_ONE_SHOT_EXEC",
+  "independent_audit": "REUSED_OFFLINE_ADAPTER; BLOCKED_LIVE_PRIVATE_TRANSPORT",
+  "tests": 101,
+  "compiled_translation_units": 3,
+  "deployed": false,
+  "entrypoint_exit": 78,
+  "stage_b": "BLOCKED",
+  "risk_acceptance": "UNDECIDED",
+  "actual_runtime": "UNVERIFIED"
+}

@@ -1,3 +1,105 @@
+# Sealed-copy guard v3 — current checkpoint (2026-11-10)
+
+Start HEAD b54c3f6dc36bc70a96533f104fe253be8609371e, experiment/dart-internal-trace.
+Read context-handoff/AGENTS/DEVELOPMENT_RULES/handoff/v2 final report and sealed contract/identity code.
+Initial index/tracked clean; preserved dangling plugin symlink. Prior snapshot was prepublication
+parent10de7c4; b54c3f6 parent/file scope and prior evidence reconciled.
+
+**PARTIAL / NOT DEPLOYABLE. Stage B BLOCKED / risk UNDECIDED / actual target runtime UNVERIFIED.**
+Primary evidence: validation/gazebo-request-guard-v3/reports/final_report.md and phase progress.md.
+
+Input preparation (not target execution): created copies and froze WRITE/GROW/SHRINK/SEAL/EXEC,
+reopened readonly same object and hashed final sealed bytes against original contract.424/429 objects,
+578/594 aliases verified.5 objects/16 aliases blocked by conservative64MiB per-object preparation budget.
+All copies closed after receipts; NO live FD/object retained or durable runnable bundle. No memory map,
+exec/dlopen/filter install. MFD_EXEC creation success is not target executable mapping certification.
+Alias groups share one copied object; original and copy identities remain distinct.594 input permissions
+are NOT granted; target allowed0. Existing seal/expectations/mapping criteria unchanged.
+
+Copied PT_INTERP3 entries and1793 sealed SONAME edges statically match contract namespace/provider list.
+Native mounted-FD/device/inode and canonical mapping checks still reject copies. Direct memfd deleted name
+is incompatible with unchanged mapped.py; canonical bind/path delivery is unverified. Larger objects,
+whole-set FD/memory/accounting, and identity projections/compiled expectations remain implementation needs.
+
+v3 broker reuses v2 request/ADDFD candidate but checks copy inode/seals/exec mode and mandatory delivery_ready.
+No proof producer or permitted delivery catalog exists. Reuses v2 tree/v1 C journal and v2 JournalAdapter/
+v1 AuditGate. Normal metadata/read/file mapping/thread policy, trusted preexec listener handoff/one-shot
+exec and authenticated live collector integration remain UNIMPLEMENTED/BLOCKED. Earliest certain blocker:
+initial exec denied; actual first loader syscall UNKNOWN. Offline policy completeness booleans are not
+OS evidence; even complete mocked inputs cannot release execution.
+
+3 TU compile/link/static ELF PASS, libc only, PIE/RELRO/NOW/Werror. ELF never run/loaded. Initial tree
+feature-macro failure corrected; work/tree.initial-failure.log preserved. Receipt contains compiler PID/start
+and source/header/object/ELF hashes. New101 static/Python mock PASS. FakeIO copy failures include changed
+source/corrupt copy/missing seal/feature/wrong alias/object; actual input preparation has separate receipts.
+Original sealed NativeSession/ACK factories reused with synthetic100 samples and final live mapping,
+GO/EXIT_ACK/both EOF/exit/cleanup/integrity. Shutdown denial, concurrency/cancellation/child lifetime and
+audit loss/disconnect fail. Old84/70 not rerun or added. All build/check/preparation processes completed.
+
+Changed files only this handoff and new phase inputs/{broker.c,broker.h,tree.c,entry.c}, scripts/{snapshots,
+policy,build,launcher}.py, tests/check.py, progress.md and lightweight reports/{copy_contract,policy_review,
+build_receipt,tests,verdict,artifacts}.json/final_report.md. Legacy evidence/artifacts/marker/symlink unchanged.
+Preservation baseline work/preservation.json verifies all prior files except intended worktree handoff,
+main HEAD/status and dangling symlink identity. No main edits or staging of pre-existing diagnostics.
+
+No DART/Gazebo/harness/harmless/native candidate run, service, physics step, marker creation/consumption,
+sudo/install/system changes, account switch or existing process termination/restart. All entrypoints78
+before manager/service/marker. No deployment/reseal. Next minimum: retained copy-to-canonical namespace
+FD identity bridge plus new reviewed identity contract/compiled expectations and resource accounting;
+then normal request policy/preexec/private live collection. Runtime-only kernel/LSM/maps/thread/ADDFD/
+shutdown/EOF checks require later explicit execution authorization, not implied by this checkpoint.
+
+Host/task observations below; remote/container/external-CWD UNKNOWN. New memfds were closed; ignored ELF,
+raw build/failure/baseline evidence and existing local markers do not transfer via Git; /tmp not durable.
+Common skill untouched. Auto publish only verified lightweight phase files/handoff to experiment.
+Snapshot PREPUBLICATION; reconcile next commit parent/file list; local reports/publication.json records
+actual remote match without recursive receipt commit.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-10T01:31:02.661483+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "b54c3f6dc36bc70a96533f104fe253be8609371e",
+    "branch": "experiment/dart-internal-trace",
+    "status": [
+      {
+        "status": "??",
+        "path": "libgz-physics-dartsim-plugin.so"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-request-guard-v3/reports/final_report.md",
+      "sha256": "4199cba85270f1c8a99f1bc28d0617a62bcbbed1b64893d72387f8d6547af5ea"
+    },
+    {
+      "path": "validation/gazebo-request-guard-v3/reports/tests.json",
+      "sha256": "7f6294a011eb860b1eebae958af4380970ae932a59d1388f1da71f923fd48a37"
+    },
+    {
+      "path": "validation/gazebo-request-guard-v3/reports/copy_contract.json",
+      "sha256": "0a7b6555f2b7d5f615a77560f9d02aa62f7af503909175335e4b1e04bd9e4c52"
+    },
+    {
+      "path": "validation/gazebo-request-guard-v3/reports/artifacts.json",
+      "sha256": "23725cda61172f628840271a04f8cfcca8b6f1bbed7146239c92b0da486f1dd3"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+# Historical checkpoints — superseded
+
 # Request guard v2 — current checkpoint (2026-11-10)
 
 Start HEAD `10de7c47151601e32704d005b8b2d0887a3c452c`, experiment/dart-internal-trace.

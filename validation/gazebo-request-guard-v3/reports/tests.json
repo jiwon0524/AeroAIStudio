@@ -1,0 +1,417 @@
+{
+  "status": "PASS_STATIC_MOCK_ONLY",
+  "count": 101,
+  "checks": [
+    {
+      "case": "final_immutable_copy_hash_equals_parent_contract",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "copy_identity_differs_and_original_preserved",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "writable_copy_fd_closed_before_return",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "hash_reads_final_object_after_seal",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "corrupt_copy",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "corrupt_copy_closes_all_owned_fds",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "missing_seals",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_seals_closes_all_owned_fds",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "missing_memfd_feature",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_memfd_feature_closes_all_owned_fds",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "source_mutation",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "source_mutation_closes_all_owned_fds",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "oversized_copy_admission",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "changed_original_before_preparation",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "PT_INTERP_read_as_bytes_without_loading",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "unsupported_ELF_encoding",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "ELF_explicit_exec_intent_not_implicit_default",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "wrong_copy_object",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "wrong_sealed_copy_hash",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "wrong_exec_mode",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "same_inode_aliases_share_one_executable_object",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "alias_table_same_pinned_object",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "alias_substitution",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_alias",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "same_original_inode_conflicting_hash",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "same_bytes_distinct_original_objects_not_merged",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "normal_open_plan_requires_object_and_canonical_delivery",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "forbidden_open_flags_1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "forbidden_open_flags_2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "forbidden_open_flags_64",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "forbidden_open_flags_512",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "forbidden_open_flags_2097152",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "sealed_copy_alone_does_not_allow_path",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "wrong_logical_alias_denied",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "newfstatat_unverified_path_stays_blocked",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "fstat_unverified_path_stays_blocked",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "statx_unverified_path_stays_blocked",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "access_unverified_path_stays_blocked",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "readlink_unverified_path_stays_blocked",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "read_unverified_path_stays_blocked",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "pread64_unverified_path_stays_blocked",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "close_unverified_path_stays_blocked",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "mmap_file_exec_unverified_path_stays_blocked",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "mprotect_exec_unverified_path_stays_blocked",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "clone_unverified_path_stays_blocked",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "clone3_unverified_path_stays_blocked",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "fork_unverified_path_stays_blocked",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "futex_unverified_path_stays_blocked",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "execveat_unverified_path_stays_blocked",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "unknown_request_default_denied",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "preexec_missing_copies_retained",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "preexec_missing_namespace_fd_attestation",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "preexec_missing_private_journal_before_exec",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "preexec_missing_filter_before_exec",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "preexec_missing_external_listener_bound",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "preexec_missing_listener_not_in_target",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "preexec_missing_ptrace_options_before_exec",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "preexec_missing_one_shot_exec_identity",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "preexec_missing_all_task_tracking",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "preexec_missing_live_authenticated_collector",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "complete_mock_booleans_do_not_release",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "concurrent_alias_requests_all_tasks_complete",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "initialization_denial_audit_still_drains",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "initialization_violation_cannot_be_forgiven",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "running_denial_audit_still_drains",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "running_violation_cannot_be_forgiven",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "post_EXIT_ACK_denial_audit_still_drains",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "post_EXIT_ACK_violation_cannot_be_forgiven",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "before_exec_audit_disconnect",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "before_exec_no_final_success",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "after_exec_audit_disconnect",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "after_exec_no_final_success",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "post_ACK_audit_disconnect",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "post_ACK_no_final_success",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "request_thread_exit_cancelled_fails",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "remaining_child_blocks_final_receipt",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "journal_loss_or_overflow_76",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "journal_loss_or_overflow_77",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "journal_loss_or_overflow_78",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "journal_loss_or_overflow_79",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "GO_100samples_last_live_mapping_ACK_EOF_cleanup_retained",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "actual_mock_ACK_then_shutdown_denial",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "original_stdout_EOF_refusal",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "original_stderr_EOF_refusal",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "original_cleanup_refusal",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "original_integrity_refusal",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "original_last_live_mapping_refusal",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "old_mapping_rejects_deleted_memfd",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "594_input_aliases_accounted",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "no_blanket_input_permission",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "closed_preparation_FDs_not_reusable_contract",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "compiled_broker_requires_delivery_proof",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "atomic_FD_reply_retained",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "no_pointer_CONTINUE",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "immutable_copied_inode_and_mode",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "loader_exec_thread_not_silently_allowed",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_refusal_entry",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "launcher_before_service_marker_refusal",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "original_files_preserved_except_intended_handoff",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "main_HEAD_and_dirty_status_preserved",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "dangling_symlink_preserved",
+      "status": "PASS_STATIC_MOCK"
+    }
+  ],
+  "native_execution": false,
+  "copy_tests": "FAKE_IO_ONLY; actual preparation separately reported",
+  "preserved_files": 1733,
+  "prior_results_not_rerun_or_summed": [
+    84,
+    70
+  ]
+}
