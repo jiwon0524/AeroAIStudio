@@ -1,0 +1,2304 @@
+{
+  "status": "PASS_STATIC_MOCK_ONLY",
+  "count": 573,
+  "checks": [
+    {
+      "case": "native_policy_row_0",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_1",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_2",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_3",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_4",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_5",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_6",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_7",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_8",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_9",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_10",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_11",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_12",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_13",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_14",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_15",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_16",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_17",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_18",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_19",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_20",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_21",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_22",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_23",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_24",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_25",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_26",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_27",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_28",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_29",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_30",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_31",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_32",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_33",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_34",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_35",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_36",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_37",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_38",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_39",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_40",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_41",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_42",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_43",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_44",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_45",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_46",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_47",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_48",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_49",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_50",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_51",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_52",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_53",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_54",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_55",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_56",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_57",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_58",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_59",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_60",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_61",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_62",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_63",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_64",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_65",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_66",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_67",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_68",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_69",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_70",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_71",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_72",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_73",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_74",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_75",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_76",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_77",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_78",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_79",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_80",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_81",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_82",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_83",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_84",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_85",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_86",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_87",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_88",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_89",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_90",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_91",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_92",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_93",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_94",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_95",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_96",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_97",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_98",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_99",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_100",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_101",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_102",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_103",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_104",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_105",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_106",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_107",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_108",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_109",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_110",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_111",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_112",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_113",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_114",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_115",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_116",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_117",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_118",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_119",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_120",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_121",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_122",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_123",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_124",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_125",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_126",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_127",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_128",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_129",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_130",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_131",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_132",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_133",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_134",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_135",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_136",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_137",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_138",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_139",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_140",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_141",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_142",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_143",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_144",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_145",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_146",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_147",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_148",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_149",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_150",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_151",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_152",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_153",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_154",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_155",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_156",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_157",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_158",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_159",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_160",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_161",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_162",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_163",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_164",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_165",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_166",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_167",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_168",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_169",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_170",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_171",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_172",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_173",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_174",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_175",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_176",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_177",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_178",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_179",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_180",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_181",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_182",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_183",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_184",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_185",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_186",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_187",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_188",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_189",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_190",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_191",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_192",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_193",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_194",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_195",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_196",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_197",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_198",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_199",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_200",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_201",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_202",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_203",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_204",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_205",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_206",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_207",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_208",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_209",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_210",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_211",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_212",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_213",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_214",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_215",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_216",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_217",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_218",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_219",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_220",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_221",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_222",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_223",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_224",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_225",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_226",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_227",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_228",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_229",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_230",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_231",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_232",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_233",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_234",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_235",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_236",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_237",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_238",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_239",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_240",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_241",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_242",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_243",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_244",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_245",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_246",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_247",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_248",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_249",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_250",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_251",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_252",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_253",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_254",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_255",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_256",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_257",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_258",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_259",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_260",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_261",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_262",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_263",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_264",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_265",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_266",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_267",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_268",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_269",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_270",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_271",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_272",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_273",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_274",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_275",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_276",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_277",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_278",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_279",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_280",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_281",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_282",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_283",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_284",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_285",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_286",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_287",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_288",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_289",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_290",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_291",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_292",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_293",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_294",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_295",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_296",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_297",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_298",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_299",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_300",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_301",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_302",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_303",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_304",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_305",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_306",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_307",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_308",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_309",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_310",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_311",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_312",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_313",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_314",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_315",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_316",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_317",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_318",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_319",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_320",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_321",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_322",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_323",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_324",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_325",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_326",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_327",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_328",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_329",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_330",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_331",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_332",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_333",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_334",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_335",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_336",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_337",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_338",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_339",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_340",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_341",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_342",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_343",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_344",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_345",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_346",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_347",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_348",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_349",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_350",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_351",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_352",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_353",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_354",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_355",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_356",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_357",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_358",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_359",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_360",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_361",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_362",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_363",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_364",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_365",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_366",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_367",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_368",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_369",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_370",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_371",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_372",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_373",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_374",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_375",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_376",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_377",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_378",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_379",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_380",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_381",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_382",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_383",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_384",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_385",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_386",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_387",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_388",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_389",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_390",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_391",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_392",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_393",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_394",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_395",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_396",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_397",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_398",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_399",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_400",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_401",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_402",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_403",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_404",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_405",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_406",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_407",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_408",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_409",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_410",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_411",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_412",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_413",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_414",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_415",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_416",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_417",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_418",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_419",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_420",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_421",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_422",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_423",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_424",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_425",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_426",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_427",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_428",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_429",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_430",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_431",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_432",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_433",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_434",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_435",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_436",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_437",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_438",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_439",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_440",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_441",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_442",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_443",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_444",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_445",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_446",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_447",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_448",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_449",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_450",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_policy_row_451",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "452_required_paths_no_optional_expansion",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "5_mandatory_budget_blockers_preserved",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "resource_size_454",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "resource_lower_bound_455",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "resource_size_456",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "resource_lower_bound_457",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "resource_size_458",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "resource_lower_bound_459",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "resource_size_460",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "resource_lower_bound_461",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "resource_size_462",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "resource_lower_bound_463",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "target_limits_preserved",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "preparer_FD_floor_separate",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "all452_native_wire_indices_bound_to_requests",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_wire_to_existing_adapter_final_PASS",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "normal_wire_bounded",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "target_bytes_without_private_endpoint_cannot_start",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "unbound_source_GO_denied",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "GO_before_handoff_stage_0",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "GO_before_handoff_stage_1",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "GO_before_handoff_stage_2",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "GO_before_handoff_stage_3",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "GO_before_handoff_stage_4",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "native_prelude_wrong_order",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "bad_prelude_final_wrong_order",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "native_prelude_loss",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "bad_prelude_final_loss",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "native_prelude_replay",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "bad_prelude_final_replay",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "native_prelude_early_EOF",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "bad_prelude_final_early_EOF",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "native_prelude_truncated",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "bad_prelude_final_truncated",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "native_prelude_overflow",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "bad_prelude_final_overflow",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "native_prelude_wrong_root",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "bad_prelude_final_wrong_root",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "native_prelude_bad_FD_clean_count",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "bad_prelude_final_bad_FD_clean_count",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "alias_index",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "no_object",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "object_replay",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "request_mismatch",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "native_durability_failure_False",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "durability_failure_GO_False",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "native_durability_failure_True",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "durability_failure_GO_True",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "root_terminal_keeps_descendants_collection",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "concurrent_native_requests_all_task_death",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "clone3_snapshot_native_wire_supported",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "unsupported_fork_thread_decision",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "final_failure_cancel",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "final_failure_pending_death",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "final_failure_thread_failure",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "final_failure_late_denial",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "missing_COMPLETE",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "final_failure_missing_COMPLETE",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "private_peer_start_executable_checked",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "audit_peer_mismatch_(100, 10, 20)",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "audit_peer_mismatch_(500, 99, 20)",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "audit_peer_mismatch_(500, 10, 99)",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "audit_wrong_socket_type",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "audit_owner_PID_reuse",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "audit_untrusted_executable",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "live_reader_truncation",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "failed_channel_continues_drain_truncation",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "failed_channel_EOF_no_success_truncation",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "live_reader_early_disconnect",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "failed_channel_continues_drain_early_disconnect",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "failed_channel_EOF_no_success_early_disconnect",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "live_reader_loss",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "failed_channel_continues_drain_loss",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "failed_channel_EOF_no_success_loss",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "live_reader_overflow",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "failed_channel_continues_drain_overflow",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "failed_channel_EOF_no_success_overflow",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "live_reader_mock452_native_records_final_EOF",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_audit_FD_handoff_mock",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "audit_FD_handoff_extra_fds",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "handoff_error_closes_received_FDs_extra_fds",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "audit_FD_handoff_truncated",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "handoff_error_closes_received_FDs_truncated",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "audit_FD_handoff_wrong_sender",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "handoff_error_closes_received_FDs_wrong_sender",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "audit_FD_handoff_wrong_payload",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "handoff_error_closes_received_FDs_wrong_payload",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "pidfd_namespace_translation",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "pidfd_bad_mapping_540",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "pidfd_bad_mapping_541",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "pidfd_bad_mapping_542",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "native_PID2_to_observer_PID100_adapter",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_prelude_original_GO_last_mapping_ACK_EOF_cleanup",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "actual_mock_ACK_then_destructor_denial",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "old_stdout_EOF",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "old_stderr_EOF",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "old_cleanup",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "old_integrity",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "old_last_live_mapping",
+      "status": "PASS_REJECTED"
+    },
+    {
+      "case": "canonical_same_object_hash",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "hash_final_FD_not_path",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "retained_native_factory_bounded",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "no_preparer_limit_changes",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "five_objects_cannot_be_hidden_by_subset",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "full_catalog_gate_before_fork",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "original_payload_and_environment_bound",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "private_noninherited_child_FDs",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "listener_credentials_and_truncation",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "ack_before_initial_exec",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "reexec_runtime_denied",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "legacy_clone_exact_and_reserved",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "clone3_snapshot_rewritten_to_scalar_not_continued",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "protocol_FDs_cannot_be_closed_or_reallocated",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_source_after_sync",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "native_input_policy_binding",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "FD_added_and_replied_atomically",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "monitor_retains_until_real_terminal",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "launcher_stays78",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "original_files_except_intended_handoff",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "main_HEAD_dirty_status_preserved",
+      "status": "PASS_STATIC_MOCK"
+    },
+    {
+      "case": "dangling_symlink_preserved",
+      "status": "PASS_STATIC_MOCK"
+    }
+  ],
+  "native_policy_paths": 452,
+  "native_wire_model_paths": 452,
+  "runtime_verified_inputs": 0,
+  "native_execution": false,
+  "prior_686_reused_not_rerun": true,
+  "preserved_files": 1767
+}

@@ -1,0 +1,37 @@
+{
+  "status": "PARTIAL_NOT_DEPLOYABLE_NONEXEC_PREPARATION_INCOMPLETE",
+  "start_head": "43828245cbbe0b9aa4449dc96b1e020e47ab27af",
+  "normal_inputs": {
+    "native_backend": "RETAINED_COPY_CANONICAL_OPENAT2_HASH_AND_ADDFD_IMPLEMENTED",
+    "compiled_paths": 452,
+    "objects": 298,
+    "full_required_paths": 468,
+    "mandatory_budget_blocked_objects": 5,
+    "runtime_verified": 0,
+    "first_blocker": "catalog_full_ready rejects452!=468 before fork; namespace/native identity contract not released"
+  },
+  "pre_exec": {
+    "implementation": "PRIVATE_LISTENER_CREDENTIAL_ACK_FD_CLEAN_EXEC_STOP_AND_COLLECTOR_ACK_API_WIRED",
+    "runtime": "UNVERIFIED",
+    "first_blocker": "full catalog gate and trusted namespace/controller entry contract"
+  },
+  "threads": {
+    "implementation": "LEGACY_CLONE_AND_VALIDATED_CLONE3_SCALAR_REWRITE_RESERVATIONS_TASK_WAIT",
+    "first_blocker": "path metadata/file-backed mmap remain denied; clone3 ABI and real inheritance unverified"
+  },
+  "independent_audit": {
+    "implementation": "NATIVE_JOURNAL_SEQPACKET_AUDIT_FD_PIDFD_AUTHENTICATED_READER_TRANSLATOR_AND_COLLECTOR_A_V_APIS",
+    "runtime": "UNVERIFIED",
+    "first_blocker": "no activated dedicated owner/collector multi-stream controller; full execution contract absent"
+  },
+  "tests": 573,
+  "native_wire_model_inputs": 452,
+  "new_kernel_preparation": false,
+  "compiled_translation_units": 5,
+  "entrypoint_exit": 78,
+  "deployed": false,
+  "runtime_approval_ready": false,
+  "stage_b": "BLOCKED",
+  "risk_acceptance": "UNDECIDED",
+  "actual_runtime": "UNVERIFIED"
+}

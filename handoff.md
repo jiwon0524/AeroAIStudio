@@ -1,3 +1,208 @@
+# Native request guard v5 — current checkpoint
+
+Start43828245cbbe0b9aa4449dc96b1e020e47ab27af/experiment/dart-internal-trace; no later work found.
+Read context-handoff/AGENTS/DEVELOPMENT_RULES/handoff/v4 final report and sealed contract/adapter/source.
+Initial tracked/index clean; existing dangling plugin symlink preserved. Prior v4 prepublication snapshot
+was parent fb6723e; actual4382824 file scope/parent/evidence reconciled.
+
+**PARTIAL / NOT DEPLOYABLE / NONEXEC_PREPARATION_INCOMPLETE. Stage B BLOCKED / risk UNDECIDED / target runtime UNVERIFIED.**
+One consolidated report: validation/gazebo-request-guard-v5/reports/final_report.md; phase progress.md.
+
+- Generated compile-time required source/path/hash/alias policy452 paths/298 objects from unchanged sealed
+  contract. Implemented native retained-copy factory (bounded64KiB chunks, seals, final readonly FD hash,
+  FD/memory/FSIZE admission), canonical openat2 same sealed object/hash validation and broker ADDFD_SEND.
+  INPUT_OBJECT index now gives per-request policy evidence. APIs compiled, NOT executed. Runtime inputs0.
+- Five mandatory oversized objects remain blocked. File sizes: dartsim99090256, Sim74462608,
+  DART543979760 for each of3 original objects. No cross-origin deduplication/limit changes. Native known
+  output+buffers for each DART544112640 already exceeds512MiB; exact total peak UNKNOWN. Full required
+  dense output+buffers2159132672 plus overhead. Prepared subset admission model needs owner NOFILE308
+  (preparer)/311(supervisor); full303 objects313/316, plus ambient FD overhead. Target NOFILE256/FSIZE1MiB/
+  MemoryMax512MiB/AS2GiB unchanged. Creation domain/accounting is separate, not an unbounded bypass.
+- Full native gate rejects452!=468 BEFORE fork. Subset backend is not a full execution contract. Namespace
+  copy mount/controller and new compiled native/collector identity expectations remain unactivated/incomplete.
+- Implemented private source-owned bootstrap listener transfer with kernel credentials, exact FD count,
+  ACK, preexec options/TRACE guard, FD cleanup, one-shot exec-stop and collector-ready ACK. Target argv/env
+  matched to original contract. FD0..4 cannot be closed/reallocated by requests. Actual entrypoints stay78.
+- Native legacy clone and validated clone3 scalar rewrite/slot reservations, wait/newborn ordering/task exit/ECHILD loop connected.
+  Read/fstat/approved writes and constrained scalar/thread memory path added. Unknown clone3 variants, file mapping/executable
+  mprotect and pathname metadata/unknown probes still deny; approved clone3 ABI/runtime remains unverified. No claim of normal DART/pthread completion.
+- Journal sync -> dedicated seqpacket -> audit FD+root pidfd -> collector peer/PID-start/executable hash
+  checks -> native-prefix and INPUT_OBJECT translation -> existing v2 JournalAdapter/v1 AuditGate wired
+  as APIs. Fixed source-local vs observer PID namespace mapping via pidfd Pid/NSpid. Collector A gates
+  root resume; collector V requires original complete final verdict after audit EOF, protocol EOF/exit/
+  cleanup/integrity. Physical drain remains available after failure; missing evidence cannot pass.
+- New5 TU compile/link/static ELF PASS, libc+libcrypto3 only. Crypto hash matches already pinned parent
+  input. Compiler PID/start and all dependency/source/object/ELF hashes in build_receipt.json. Output ELF
+  never executed/dlopen. C admission variable-scope build failure preserved as work/catalog.admission-scope-failure.log;
+  corrected and full build/check rerun. New573 static/Python mock PASS, includes452 native policy rows and
+  native-wire model inputs. Old686/101/70/84 not rerun or summed. Kernel/FD/SCM/namespace behavior remains unverified.
+
+Other review fixes in same report: handoff HUP ordering; actual syscall-exit denial receipts; clone
+reservations; source read-end duplicate hiding disconnect; truncated SCM_RIGHTS cleanup; final collector V
+coupling; root pidfd namespace mapping; source-size admission recheck; FD0..4 close prevention. No separate
+per-fix reports or old artifact replacements. Existing NativeSession/ACK/SourceLoader factories reused.
+
+Still needed: resource-contract decision for5 large mandatory copies and whole-set creator charging;
+full immutable mount/native identity/controller execution contract; normal metadata/file mapping/negative lookup policy and clone3 ABI verification; activated trusted owner + full multi-stream collector driver. Native APIs are not
+an activated release. Exact first native full-run blocker is full catalog452!=468 before fork. Original
+launcher remains refusal-only. No deployment/reseal, no runtime approval request (prep is not complete).
+Report contains conditional future smallest FD/namespace/alias/channel probe and pass criteria; separate
+explicit execution approval and remaining implementation closure are required before any such probe.
+
+Changed files: this handoff plus only new phase inputs/*.c,*.h,allowlist.inc,target_env.inc; scripts/{plan,
+build,native_audit,launcher}.py; tests/check.py; progress.md; reports/{resources,build_receipt,tests,verdict,
+artifacts}.json and final_report.md. Preserve old main/dirty files, prior evidence/artifacts/markers and
+symlink. Baseline work/preservation.json covers prior files/main HEAD/status/link identity, excluding only
+intended experiment handoff. No main code/instructions/evidence edits; common skill untouched.
+
+No actual DART/Gazebo/harness/harmless/native candidate run, new memfd/fork/namespace/filter/socket/ptrace,
+service/step/marker creation/consumption, sudo/install/system change, account switch or existing task kill/
+restart. All issued compiler/check commands completed. Process snapshot scope below; external-CWD/remote/
+container UNKNOWN. /tmp ELF/log/baseline and prior ignored artifacts do not transfer by Git or persist
+forever. Publish only verified lightweight files to experiment. Snapshot PREPUBLICATION; reconcile next
+commit parent/file list. Local reports/publication.json records actual remote match without recursive commit.
+
+```context-handoff-state
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-10T03:28:19.324905+00:00",
+  "project_root_hint": "/tmp/AeroAIStudio-dart-internal-trace",
+  "host": "jiwon-System-Product-Name",
+  "git": {
+    "head": "43828245cbbe0b9aa4449dc96b1e020e47ab27af",
+    "branch": "experiment/dart-internal-trace",
+    "status": [
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v5/inputs/allowlist.inc"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v5/inputs/broker.c"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v5/inputs/broker.h"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v5/inputs/catalog.c"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v5/inputs/catalog.h"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v5/inputs/control.c"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v5/inputs/control.h"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v5/inputs/entry.c"
+      },
+      {
+        "status": "AM",
+        "path": "validation/gazebo-request-guard-v5/inputs/launch.c"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v5/inputs/launch.h"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v5/inputs/policy_counts.h"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v5/inputs/target_env.inc"
+      },
+      {
+        "status": "AM",
+        "path": "validation/gazebo-request-guard-v5/progress.md"
+      },
+      {
+        "status": "AM",
+        "path": "validation/gazebo-request-guard-v5/reports/artifacts.json"
+      },
+      {
+        "status": "AM",
+        "path": "validation/gazebo-request-guard-v5/reports/build_receipt.json"
+      },
+      {
+        "status": "AM",
+        "path": "validation/gazebo-request-guard-v5/reports/final_report.md"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v5/reports/resources.json"
+      },
+      {
+        "status": "AM",
+        "path": "validation/gazebo-request-guard-v5/reports/tests.json"
+      },
+      {
+        "status": "AM",
+        "path": "validation/gazebo-request-guard-v5/reports/verdict.json"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v5/scripts/build.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v5/scripts/launcher.py"
+      },
+      {
+        "status": "AM",
+        "path": "validation/gazebo-request-guard-v5/scripts/native_audit.py"
+      },
+      {
+        "status": "A ",
+        "path": "validation/gazebo-request-guard-v5/scripts/plan.py"
+      },
+      {
+        "status": "AM",
+        "path": "validation/gazebo-request-guard-v5/tests/check.py"
+      },
+      {
+        "status": "??",
+        "path": "libgz-physics-dartsim-plugin.so"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "validation/gazebo-request-guard-v5/reports/final_report.md",
+      "sha256": "9d06a3b312cc28e788814e240c2b6c7805782952b0827d2c661b5f01a612581d"
+    },
+    {
+      "path": "validation/gazebo-request-guard-v5/reports/tests.json",
+      "sha256": "9cbbeec7610aa2730dcd67d0bbf9dfce827d94718b8afd0050dc443e78833fed"
+    },
+    {
+      "path": "validation/gazebo-request-guard-v5/reports/resources.json",
+      "sha256": "7f87f96417526217afd9df8d5b68400384cfc6ff8809b464c6c446093d4a2c3b"
+    },
+    {
+      "path": "validation/gazebo-request-guard-v5/reports/artifacts.json",
+      "sha256": "9f0e7b858515aa2d4ca4c71c01e162b5c2a228513c5894587b38c04ec0b2701e"
+    }
+  ],
+  "processes": {
+    "visibility": "VISIBLE_SCOPE",
+    "scope": "Same-user Linux processes whose CWD is inside this project; excludes inspector ancestors. No arguments/environment collected. Remote/container jobs and jobs with external CWD need separate inspection.",
+    "tasks": [],
+    "unreadable_same_user_processes": 0
+  }
+}
+```
+
+# Historical checkpoints — superseded
+
 # Request guard v4 — current integrated static/mock checkpoint
 
 Start/latest shared HEAD fb6723e146f8e0b4d4085d7890f28708ab08d38b, experiment/dart-internal-trace.
